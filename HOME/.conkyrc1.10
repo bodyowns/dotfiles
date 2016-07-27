@@ -1,0 +1,25 @@
+conky.config = {
+                background = false,
+                update_interval = 1,
+                own_window = true,
+                own_window_transparent = false,
+                own_window_type = 'desktop',
+                own_window_hints = 'undecorated','below','sticky','skip_taskbar','skip_pager',
+                own_window_colour = '000000',
+                double_buffer = true,
+                minimum_height = 0,
+                minimum_width = 1366,
+                alignment = 'bottom_left',
+                gap_x = 0,
+                gap_y = 0,
+                override_utf8_locale = true,
+    			use_xft = true,
+  				font = 'Menlo:size=8',
+                draw_borders = false,
+                draw_graph_borders = false,
+                draw_outline = false,
+                draw_shades = false,
+                }
+conky.text = [[ 
+             ${color 85A3A9}Kernel: ${color 33AB63}$kernel $alignc ${color 85A3A9} 	RAM:      ${color 33AB63}$mem${color FF0000} / ${color 018C06}$memmax${color}      ${color 85A3A9}Root: ${color 33AB63}${fs_used /}${color FF0000} / ${color 018C06}${fs_free /}      ${color 85A3A9}TEMP: ${color 33AB63}${acpitemp}°C  $alignr ${color 85A3A9} UpTime: ${color 33AB63}$UpTime
+             ]]

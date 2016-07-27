@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# a script to provide a menu for openbox (and others) using dzen2
+# relies on xdotool
+
+font='Vera:size=7'
+
+x='0'
+y='882'
+h='18'
+w='33'
+
+menuButton='^ca(1,xdotool key ctrl+alt+q)menu^ca()'
+
+menuBgC='#D9A71D'
+#6B9E98
+#E3B216
+
+
+menuFgC='#212629'
+
+menu="^bg(${menuBgC})^fg(${menuFgC}) ${menuButton}  "
+
+echo "${menu}" | dzen2 -fn $font -x $x -y $y -h $h -w $w -e '' -p

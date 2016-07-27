@@ -1,0 +1,17 @@
+# Conky configuration for Dzen2, to be piped into ScrotWM Bar
+
+##############################################
+#  Settings
+##############################################
+use_xft yes
+out_to_x no
+background no
+
+out_to_console yes
+update_interval 0.5
+total_run_times 0
+use_spacer none
+TEXT
+
+#^fg(\#87afd7)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu0}% ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu1}% ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu2}% ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu3}% ^fg(\#444444)| ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/net_wired.xbm) ^fg(\#9d9d9d)${execi 600 curl https://icanhazip.com} ^fg(\#444444)| ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/net_up_01.xbm) ^fg(\#ffaf5f)${upspeedf wlp3s0}kb/s ^fg(\#444444)| ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/net_down_01.xbm) ^fg(\#ffaf5f)${downspeedf wlp3s0}kb/s ^fg(\#444444)| ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/spkr_01.xbm)^fg(\#d75f5f)$color ${exec amixer get Master | egrep -o "[0-9]+%" | head -1 | egrep -o "[0-9]*"}%  ^fg(\#444444)| ^fg(\#87afd7)^i(/home/body/.xmonad/dzen/clock.xbm)^fg(\#00FFFF) ${time %A %b. %d, %Y - %H:%M}  
+^fg(\#1dd)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu0}% ^fg(\#1dd)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu1}% ^fg(\#1dd)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu2}% ^fg(\#1dd)^i(/home/body/.xmonad/dzen/cpu.xbm) ^fg(\#ffaf5f)${cpu cpu3}% ^fg(\#444444)| ^fg(\#1dd)^i(/home/body/.xmonad/dzen/net_wired.xbm) ^fg(\#9d9d9d)${execi 600 curl https://icanhazip.com} ^fg(\#444444)| ^fg(\#1dd)^i(/home/body/.xmonad/dzen/net_up_01.xbm) ^fg(\#ffaf5f)${upspeedf wlp3s0}kb/s ^fg(\#444444)| ^fg(\#1dd)^i(/home/body/.xmonad/dzen/net_down_01.xbm) ^fg(\#ffaf5f)${downspeedf wlp3s0}kb/s ^fg(\#444444)| ^fg(\#1dd)^i(/home/body/.xmonad/dzen/spkr_01.xbm)^fg(\#d75f5f)$color ${exec amixer get Master | egrep -o "[0-9]+%" | head -1 | egrep -o "[0-9]*"}%  ^fg(\#444444)| ^fg(\#1dd)^i(/home/body/.xmonad/dzen/clock.xbm)^fg(\#00FFFF) ${time %A %b. %d, %Y - %H:%M}  

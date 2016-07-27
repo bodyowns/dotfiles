@@ -1,0 +1,166 @@
+set from = "body2pgl@gmail.com"
+set realname = "Noje Sebastian"
+set imap_user = "body2pgl@gmail.com"
+set imap_pass = "PASSWORD"
+# SMTP SETTINGS
+set smtp_url = "smtp://body2pgl@smtp.gmail.com:587/"
+set smtp_pass = "PASSWORD" # use the same passowrd as for IMAP
+
+# LOCAL FOLDERS FOR CACHED HEADERS AND CERTIFICATES
+set header_cache =~/.mutt/cache/headers
+set message_cachedir =~/.mutt/cache/bodies
+set certificate_file =~/.mutt/certificates
+#REMOTE GMAIL FOLDERS
+set folder = 'imaps://imap.gmail.com:993'
+set spoolfile = '+INBOX'
+set postponed ='+[Google Mail]/Drafts'
+set trash = '+[Google Mail]/Trash'
+
+# SECURING
+set move = no  #Stop asking to "move read messages to mbox"!
+set imap_keepalive = 900
+
+bind editor <space> noop
+macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index ga "<change-folder>=[Google Mail]/All Mail<enter>" "Go to all mail"
+macro index gs "<change-folder>=[Google Mail]/Sent Mail<enter>" "Go to Sent Mail"
+macro index gd "<change-folder>=[Google Mail]/Drafts<enter>" "Go to drafts"
+
+# For better looks
+set markers=no # don't put '+' at the beginning of wrapped lines
+set pager_index_lines= 5 # how large is the index window?
+set sort = 'threads'
+set sort_aux = 'last-date-received'
+
+#SIDEBAR SETTINGS
+set sidebar_visible = no
+
+# set up the sidebar, default visible
+set sidebar_width=38
+set sidebar_visible=no
+
+macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
+macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
+
+# Ctrl-n, Ctrl-p to select next, previous folder.
+# Ctrl-o to open selected folder.
+bind index,pager \CP sidebar-prev
+bind index,pager \CN sidebar-next
+bind index,pager \CO sidebar-open
+source ~/.mutt/colors
+## Brett's Muttrc
+
+
+## Interface Settings {{{
+
+set help         = no
+set date_format  = "%a %b %d"
+set index_format = "%4C %Z %-20.20L %-15.15d %s"
+set mailcap_path = ~/.mutt/mailcap
+set sort         = 'date-received'
+set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+auto_view text/html
+
+# }}}
+## Header options {{{
+
+ignore *
+unignore from: to: date: subject:
+unhdr_order *
+hdr_order from: to: date: subject:
+
+# }}}
+## Imap settings {{{
+
+#source ~/.mutt/mailboxes
+set mbox_type    = Maildir
+set folder       = ~/Mail
+set header_cache = ~/.cache/mutt
+set spoolfile    = +INBOX
+set record       = +Sent
+set postponed    = +Drafts
+
+# }}}
+## Smtp settings {{{
+
+set from='brettm12345@autistici.org'
+set sendmail=/usr/bin/msmtp
+
+# }}}
+## PGP Settings  {{{
+
+set crypt_autosign     = yes
+set crypt_replyencrypt = yes
+set crypt_verify_sig   = yes
+set pgp_autoinline     = yes
+set pgp_sign_as        = AA16EA3D
+set pgp_timeout        = 3600
+set pgp_use_gpg_agent  = yes
+#source ~/.mutt/gpgrc
+
+# }}}
+## Vim like binds {{{
+
+bind index f change-folder
+bind index * flag-message
+bind index gg first-entry
+bind index G last-entry
+bind index j next-entry
+bind index k previous-entry
+bind pager j next-line
+bind pager k previous-line
+
+# }}}
+## Abook {{{
+
+bind editor        <Tab> complete-query
+macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+set query_command= "abook --mutt-query '%s'"
+
+# }}}
+## Sync email {{{
+
+macro index O "<shell-escape>offlineimap<enter>"           "run offlineimap to sync all mail"
+macro index o "<shell-escape>offlineimap -qf INBOX<enter>" "run offlineimap to sync inbox"
+
+# }}}
+## Colors {{{
+
+# Default Color Definitions
+color attachment cyan       default
+color indicator  brightblue black
+color message    blue       default
+color normal     blue       default
+color status     yellow     black
+
+
+# Header Color Definitions
+color header cyan       default "^From:"
+color header brightblue default "^To:"
+color header red        default "^Date:"
+color header yellow     default "^Subject:"
+
+# Body Color Definitions
+color body cyan default "[-a-z_0-9.%$]+@[-a-z_0-9.]+\\.[-a-z][-a-z]+"   # Emails
+color body cyan default "(http|ftp|news|telnet|finger)://[^ \"\t\r\n]*" # Urls
+color body cyan default "mailto:[-a-z_0-9.]+@[-a-z_0-9.]+"              # "Mailto" strings
+
+# Index color definitions
+color index cyan    default ~Q  # Replied
+color index default red     ~D  # Deleted
+color index green   default ~U  # Unread
+color index red     default ~F  # Flagged
+color index yellow  default ~T  # Tagged
+
+
+# Quoted color definitions
+color quoted1 yellow default
+color quoted2 red    default
+color quoted3 green  default
+color quoted4 cyan   default
+color quoted5 yellow default
+color quoted6 red    default
+color quoted7 green  default
+color quoted  cyan   default
+
+# }}}
