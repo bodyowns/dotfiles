@@ -1,0 +1,31 @@
+--- Log opened Mon Jun 02 14:43:46 2014
+14:43  #archlinux > synced in 0 seconds
+14:43 jelle │ grawity: unconv is cool
+14:43 jelle │ grawity: liblibreoffice might fix this in the future ;)
+14:44        body │ dcc
+14:44 Earnestly │ grawity: You could theoretically convery xls files to rst tables...
+--- Log closed Mon Jun 02 14:44:20 2014
+--- Log opened Mon Jun 02 14:45:35 2014
+14:45  #archlinux > synced in 1 seconds
+14:45 grawity │ so basically, take a .docx, feed it to unoconv, and use your favourite lightweight PDF reader
+--- Log closed Mon Jun 02 14:45:57 2014
+--- Log opened Mon Jun 02 14:47:24 2014
+14:47  #archlinux > synced in 0 seconds
+14:47 Earnestly │ narendraj9: Yeah, it's nice, but it's not light
+14:47 grawity │ because _dear gods_ not only pdf.js is slow it also eats so much RAM
+14:47 demonicm1niac3 │ Earnestly: i am using your old pkgbuild
+14:48 nullie │ heh
+14:48 grawity │ it's a WinXP box, and it had 1 GB of memory _free_ when I started, and it killed Firefox due to OOM afterwards
+14:48 Earnestly │ demonicm1niac3: Clone again and rebuild
+14:48 nullie │ pdf.js also wrecks fonts
+14:48 demonicm1niac3 │ Earnestly: hm ok
+14:48 Earnestly │ grawity: That's impressive
+14:48 yanp │ does jfs support falloc/trunc? 
+14:48 Earnestly │ demonicm1niac3: Not that much has changed, but always good to test against latest
+14:48 yanp │ I cannot find anywhere
+14:50 grawity │ yanp: I don't think so, it doesn't define a .fallocate anywhere in its file_operations
+14:50 grawity │ yanp: truncate should be supported though, it's a pretty basic feature
+--- Log opened Mon Jun 02 21:27:19 2014
+21:27  #archlinux > synced in 0 seconds
+21:27 thrice │ no :>  via. g-shell
+--- Log closed Mon Jun 02 21:27:49 2014
