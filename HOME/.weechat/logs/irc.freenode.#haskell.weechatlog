@@ -1,0 +1,40 @@
+2016-05-31 09:23:19	»	body (~body@88.144.56.186) has joined #haskell
+2016-05-31 09:23:19	■	Topic for #haskell is "http://www.haskell.org/ | https://wiki.haskell.org/IRC_channel | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | http://reddit.com/r/haskell | Administrative issues: #haskell-ops | Hackage status? http://status.haskell.org | http://downloads.haskell.org"
+2016-05-31 09:23:19	■	Topic set by quicksilver on Wed, 07 Oct 2015 15:39:51
+2016-05-31 09:23:19	■	Channel #haskell: 1444 nicks (1 op, 0 voices, 1443 normals)
+2016-05-31 09:23:19	■	URL for #haskell: http://www.haskell.org/
+2016-05-31 09:23:21	■	Channel created on Sun, 26 Nov 2006 06:42:48
+2016-05-31 09:23:25	»	agnitio_ (~agnitio@cpc78683-glfd7-2-0-cust14.6-2.cable.virginm.net) has joined #haskell
+2016-05-31 09:23:27	body	Hello, somebody online ?
+2016-05-31 09:23:42	malice`	Okay, I get it now, thanks!
+2016-05-31 09:23:51	 *	EvanR hits body with a candlestick in the conservatory
+2016-05-31 09:24:17	»	jhrcek (jhrcek@nat/redhat/x-cykwhxczpubinwgo) has joined #haskell
+2016-05-31 09:24:45	koz_	Maybes, Maybes everywhere...
+2016-05-31 09:25:24	«	FreeBirdLjj (~freebirdl@49.77.130.120) has quit (Remote host closed the connection)
+2016-05-31 09:26:02	»	FreeBirdLjj (~freebirdl@49.77.130.120) has joined #haskell
+2016-05-31 09:26:16	»	grouzen (~grouzen@diagonal-interview.volia.net) has joined #haskell
+2016-05-31 09:26:21	»	shutdown_-h_now (~arjan@5ED723C6.cm-7-8a.dynamic.ziggo.nl) has joined #haskell
+2016-05-31 09:27:44	»	MoALTz (~no@78-11-183-124.static.ip.netia.com.pl) has joined #haskell
+2016-05-31 09:28:36	«	agnitio_ (~agnitio@cpc78683-glfd7-2-0-cust14.6-2.cable.virginm.net) has quit (Ping timeout: 276 seconds)
+2016-05-31 09:28:40	»	agnitio__ (~agnitio@89.151.85.123) has joined #haskell
+2016-05-31 09:29:23	»	Koen_ (~Koen@vbo91-6-78-245-243-132.fbx.proxad.net) has joined #haskell
+2016-05-31 09:30:22	»	east_ (1f0aa727@gateway/web/freenode/ip.31.10.167.39) has joined #haskell
+2016-05-31 09:30:58	«	hackebeilchen (~Peter@82-136-250-159.ip.telfort.nl) has quit (Read error: Connection reset by peer)
+2016-05-31 09:31:07	«	nocturne777 (~nocturne7@c-76-103-151-171.hsd1.ca.comcast.net) has quit (Quit: Leaving)
+2016-05-31 09:33:24	«	jedws (~jedws@c58-109-75-176.randw4.nsw.optusnet.com.au) has quit (Quit: Computer has gone to sleep.)
+2016-05-31 09:33:42	body	basically, I have this config https://raw.githubusercontent.com/SKaDiZZ/wolf-xmonad/master/.xmonad/xmonad.hs , and i am getting this errors, http://pastebin.com/zKiTr8yU , anybody have some ideea what I am doing wrong ?
+2016-05-31 09:34:43	Axman6	you might get a more informed response in #xmonad
+2016-05-31 09:34:49	east_	Can I do something similiar to this with where clause in do clause http://lpaste.net/164898 ?
+2016-05-31 09:35:10	scepticulous	I recently finished a course on functional programming in haskell and instructor ( erik meijer ) seemed to have a strong opinion to prefer singleton/empty lists over the maybe type in haskell. Is there anybody here that might have a clue about the resoning, maybe some references or quotes or explainations why that might be the case ?
+2016-05-31 09:35:46	«	Kristler (~KW@S0106bcd16583bf99.ok.shawcable.net) has quit (Read error: Connection reset by peer)
+2016-05-31 09:37:00	»	meretrix (meretrix@unaffiliated/meretrix) has joined #haskell
+2016-05-31 09:37:11	»	hjulle (~hjulle@ankadagen.vth.sgsnet.se) has joined #haskell
+2016-05-31 09:37:31	Axman6	east_: you can use let
+2016-05-31 09:37:34	«	xanadu_ (~xanadu@178.238.214.34) has quit (Ping timeout: 260 seconds)
+2016-05-31 09:37:51	Axman6	let h = ...; g = ...; z <- g $ h y
+2016-05-31 09:38:18	«	tax (~tax@cpe-72-182-54-164.austin.res.rr.com) has quit (Ping timeout: 258 seconds)
+2016-05-31 09:38:21	«	madgen (~mistralco@cpc91232-cmbg18-2-0-cust147.5-4.cable.virginm.net) has quit (Ping timeout: 276 seconds)
+2016-05-31 09:38:52	«	paolino (~paolino@net-2-40-102-90.cust.dsl.teletu.it) has quit (Ping timeout: 264 seconds)
+2016-05-31 09:39:15	»	augur (~augur@2602:304:cdac:e260:5d5f:2d0b:9c66:214) has joined #haskell
+2016-05-31 09:39:21	»	xanadu_ (~xanadu@178.238.214.34) has joined #haskell
+2016-05-31 09:39:30	■	irc: disconnected from server

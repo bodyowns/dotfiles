@@ -1,0 +1,34 @@
+2016-05-31 09:23:04	»	body (~body@88.144.56.186) has joined #xmonad
+2016-05-31 09:23:04	■	Topic for #xmonad is "xmonad: the tiling window manager with formally proven extensions | xmonad 0.12 released! | http://xmonad.org | http://xmonad.org/faq | cheatsheet: http://bit.ly/gz1R4"
+2016-05-31 09:23:04	■	Topic set by enthropy (~aavogt@d157-103-21.home4.cgocable.net) on Tue, 22 Dec 2015 22:04:55
+2016-05-31 09:23:04	■	Channel #xmonad: 187 nicks (0 ops, 1 voice, 186 normals)
+2016-05-31 09:23:04	■	URL for #xmonad: http://xmonad.org
+2016-05-31 09:23:06	■	Channel created on Wed, 25 Apr 2007 05:33:15
+2016-05-31 09:23:13	body	hello, somebody online ?
+2016-05-31 09:26:19	ongy	~187 people, just ask, somebody will answer if they know something
+2016-05-31 09:33:52	body	basically, I have this config https://raw.githubusercontent.com/SKaDiZZ/wolf-xmonad/master/.xmonad/xmonad.hs , and i am getting this errors,
+2016-05-31 09:33:52	body	          http://pastebin.com/zKiTr8yU , anybody have some ideea what I am doing wrong ?
+2016-05-31 09:39:30	■	irc: disconnected from server
+2016-05-31 09:53:58	»	body (~body@88.144.56.186) has joined #xmonad
+2016-05-31 09:53:58	■	Topic for #xmonad is "xmonad: the tiling window manager with formally proven extensions | xmonad 0.12 released! | http://xmonad.org | http://xmonad.org/faq | cheatsheet: http://bit.ly/gz1R4"
+2016-05-31 09:53:58	■	Topic set by enthropy (~aavogt@d157-103-21.home4.cgocable.net) on Tue, 22 Dec 2015 22:04:55
+2016-05-31 09:53:58	■	Channel #xmonad: 187 nicks (0 ops, 1 voice, 186 normals)
+2016-05-31 09:53:58	■	URL for #xmonad: http://xmonad.org
+2016-05-31 09:53:59	■	Channel created on Wed, 25 Apr 2007 05:33:15
+2016-05-31 09:54:10	body	 basically, I have this config https://raw.githubusercontent.com/SKaDiZZ/wolf-xmonad/master/.xmonad/xmonad.hs , and i am getting this errors,
+2016-05-31 09:54:12	body	body             http://pastebin.com/zKiTr8yU , anybody have some ideea what I am doing wrong ?
+2016-05-31 09:57:31	»	erikd (~erikd@hendrix.mega-nerd.net) has joined #xmonad
+2016-05-31 09:59:52	«	Gurkenglas (Gurkenglas@dslb-178-000-182-226.178.000.pools.vodafone-ip.de) has quit (Ping timeout: 272 seconds)
+2016-05-31 10:02:44	ongy	body: you missed the answer, so: The compiler tells you to add `FlexibleContexts' to your LANGUAGE pragma (in line 7)
+2016-05-31 10:04:39	body	ongy: oh I should comment that out right ?
+2016-05-31 10:05:26	ongy	no, you have a long line with {-# LANGUAGE ... #-}, just add `FlexibleContexts' there
+2016-05-31 10:07:28	body	ongy: oh worked :D
+2016-05-31 10:07:38	body	ongy: thank you very much !!! :D
+2016-05-31 10:07:58	body	ongy: can you tell me please where the compiler said that, so I can understand in the near future that
+2016-05-31 10:09:10	ongy	line 54 in your pastebin, as far as I can see all other errors were because of that one
+2016-05-31 10:11:07	body	ongy: thank you very much ! :)
+2016-05-31 10:11:12	body	brb
+2016-05-31 10:11:37	«	der-landgraf (~der-landg@unaffiliated/der-landgraf) has quit (Quit: WeeChat 1.5)
+2016-05-31 10:20:37	MasseR	can I disable focusfollowsmouse on a specific layout?
+2016-05-31 10:20:47	MasseR	focusfollowsmouse + magicfocus is not a good combination
+2016-05-31 10:32:08	■	irc: disconnected from server

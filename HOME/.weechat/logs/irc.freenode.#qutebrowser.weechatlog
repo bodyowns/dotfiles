@@ -1,0 +1,16 @@
+2016-01-23 17:57:41	»	body (~body@79-64-173-217.host.pobb.as13285.net) has joined #qutebrowser
+2016-01-23 17:57:41	■	Topic for #qutebrowser is "Current version: v0.5.1 - http://www.qutebrowser.org/ - Mailinglist: https://lists.schokokeks.org/mailman/listinfo.cgi/qutebrowser - 31c3 lightning talk: http://qutebrowser.org/31c3.webm"
+2016-01-23 17:57:41	■	Topic set by The-Compiler (~compiler@unaffiliated/the-compiler) on Mon, 18 Jan 2016 21:30:42
+2016-01-23 17:57:41	■	Channel #qutebrowser: 90 nicks (0 ops, 0 voices, 90 normals)
+2016-01-23 17:57:43	■	Channel created on Sun, 19 Jan 2014 22:03:37
+2016-01-23 17:58:21	body	hello, I'm trying to figure out how to make youtube work full screen , can somebody help me pls ?
+2016-01-23 17:58:31	body	It says that full screen it's disabled
+2016-01-23 18:06:23	skinnay	body: it doesn't work with qtwebkit, stream the video to an external video player
+2016-01-23 18:09:26	body	skinnay: ohh :\ , and how can i stream it to an external player ?
+2016-01-23 18:11:07	»	whytrytofly (~whytrytof@dslb-094-222-247-068.094.222.pools.vodafone-ip.de) has joined #qutebrowser
+2016-01-23 18:12:37	skinnay	https://github.com/The-Compiler/qutebrowser/blob/master/FAQ.asciidoc
+2016-01-23 18:12:39	skinnay	see #9
+2016-01-23 18:15:23	«	sdouble25 (~sdoubleyo@unaffiliated/sdouble25) has quit (Quit: WeeChat 1.3)
+2016-01-23 18:19:40	«	skinnay (~sk@c-69-140-228-170.hsd1.md.comcast.net) has quit (Quit: leaving)
+2016-01-23 18:19:40	«	whytrytofly (~whytrytof@dslb-094-222-247-068.094.222.pools.vodafone-ip.de) has quit (Ping timeout: 260 seconds)
+2016-01-23 18:23:16	«	Shinryuu (~Shinryuu@85-76-143-200-nat.elisa-mobile.fi) has quit (Quit: outworld)

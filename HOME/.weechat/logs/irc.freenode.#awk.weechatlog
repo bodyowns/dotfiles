@@ -1,0 +1,41 @@
+2014-12-02 22:37:04	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #awk
+2014-12-02 22:37:04	ℹ 	Topic for #awk is "Paste at: http://is.gd/gcKOU or http://sprunge.us | Wiki: http://awk.freeshell.org/ | Reference: http://xrl.us/gnuref | FAQ: http://xrl.us/4wkf4q |  POSIX: http://xrl.us/awk1p | Regex: #regex | e36freak's libs: https://github.com/e36freak/awk-libs | Please ask your question and be patient, someone will get to you soon"
+2014-12-02 22:37:04	ℹ 	Topic set by pgas (~user@pdpc/supporter/active/pgas) on Tue, 12 Nov 2013 16:16:25
+2014-12-02 22:37:04	ℹ 	Channel #awk: 138 nicks (0 ops, 0 voices, 138 normals)
+2014-12-02 22:37:04	ℹ 	PvNotice(ChanServ): Welcome to #awk.  Please ask your question clearly, and someone will help you out as soon as possible.  This is not an extremely active channel, so please be patient. You WILL be helped, though.  In the meantime, feel free to run '/topic' and look through the available information, your question may be answered there
+2014-12-02 22:37:06	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:48
+2014-12-02 22:37:26	body	hello, how can i extract with awk, only the 100 number? from this text "Front Left: Playback 65536 [100%] [on]" ?
+2014-12-02 22:38:33	geirha	awk -F '[' '/^Front Left: /{print $2+0}'
+2014-12-02 22:39:38	body	thank u very much !
+2014-12-02 22:41:45	igli	or sed
+2014-12-02 22:41:48	igli	# echo 'Front Left: Playback 65536 [100%] [on]' | sed -n 's/.*\[\([0-9][0-9]*\)%\].*/\1/p'
+2014-12-02 22:41:49	shbot	igli: 100
+2014-12-02 22:44:06	gnomon	# echo 'Front Left: Playback 65536 [100%] [on]' | awk 'match(/\[[0-9]+%\]/){print substr(RSTART+1,RLENGTH-3)}'
+2014-12-02 22:44:08	shbot	gnomon: awk: syntax error at source line 1
+2014-12-02 22:44:08	shbot	gnomon:  context is
+2014-12-02 22:44:08	shbot	gnomon: etc... ( http://ix.io/frO )
+2014-12-02 22:45:05	gnomon	Whoops
+2014-12-02 22:45:08	gnomon	# echo 'Front Left: Playback 65536 [100%] [on]' | awk 'match($0,/\[[0-9]+%\]/){print substr($0,RSTART+1,RLENGTH-3)}'
+2014-12-02 22:45:09	shbot	gnomon: 100
+2014-12-02 22:51:51	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #awk
+2014-12-02 22:51:51	ℹ 	Topic for #awk is "Paste at: http://is.gd/gcKOU or http://sprunge.us | Wiki: http://awk.freeshell.org/ | Reference: http://xrl.us/gnuref | FAQ: http://xrl.us/4wkf4q |  POSIX: http://xrl.us/awk1p | Regex: #regex | e36freak's libs: https://github.com/e36freak/awk-libs | Please ask your question and be patient, someone will get to you soon"
+2014-12-02 22:51:51	ℹ 	Topic set by pgas (~user@pdpc/supporter/active/pgas) on Tue, 12 Nov 2013 16:16:25
+2014-12-02 22:51:51	ℹ 	Channel #awk: 138 nicks (0 ops, 0 voices, 138 normals)
+2014-12-02 22:51:52	ℹ 	PvNotice(ChanServ): Welcome to #awk.  Please ask your question clearly, and someone will help you out as soon as possible.  This is not an extremely active channel, so please be patient. You WILL be helped, though.  In the meantime, feel free to run '/topic' and look through the available information, your question may be answered there
+2014-12-02 22:51:54	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:48
+2014-12-02 22:53:19	◀▬▬	oleo (~oleo@xdsl-87-79-248-135.netcologne.de) has quit (Quit: Verlassend)
+2014-12-02 22:54:53	▬▬▶	oleo (~oleo@xdsl-87-79-248-135.netcologne.de) has joined #awk
+2014-12-02 23:00:38	◀▬▬	cybrNaut (cybrNaut@unaffiliated/cybrnaut) has quit (Ping timeout: 258 seconds)
+2014-12-02 23:01:11	◀▬▬	sptx00 (~sptx00@gateway/tor-sasl/sptx00) has quit (Remote host closed the connection)
+2014-12-02 23:02:04	▬▬▶	sptx00 (~sptx00@gateway/tor-sasl/sptx00) has joined #awk
+2014-12-02 23:06:12	▬▬▶	cybrNaut (cybrNaut@2001:0:53aa:64c:30db:ab9:bcca:66c4) has joined #awk
+2014-12-02 23:11:35	▬▬▶	geggam (~geggam@108-218-203-177.uvs.sntcca.sbcglobal.net) has joined #awk
+2014-12-02 23:12:25	body	geirha: gnomon: , ty now my volume bar workes :D http://media.giphy.com/media/TlK63EGBPIHerpwdjqM/giphy.gif
+2014-12-02 23:25:50	◀▬▬	enzotib (~enzotib@unaffiliated/enzotib) has quit (Ping timeout: 240 seconds)
+2014-12-02 23:29:07	◀▬▬	C_h_e_x (~ce@unaffiliated/c-h-e-x/x-5729675) has quit (Remote host closed the connection)
+2014-12-02 23:29:29	▬▬▶	C_h_e_x (~ce@unaffiliated/c-h-e-x/x-5729675) has joined #awk
+2014-12-02 23:33:57	igli	# echo 'Front Left: Playback 65536 [100%] [on]' | sed -n 's/\([^:]*:\).*\[\([0-9][0-9]*\)%\].*/\1 \2/p'
+2014-12-02 23:33:58	shbot	igli: Front Left: 100
+2014-12-02 23:34:12	igli	i quite like that for extracting all of them from one output at once.
+2014-12-02 23:34:54	◀▬▬	igli (~igli@fu/coder/igli) has quit
+2014-12-02 23:36:48	▬▬▶	hpt (~hpt@123.114.138.29) has joined #awk

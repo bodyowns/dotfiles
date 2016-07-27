@@ -1,0 +1,851 @@
+2014-06-07 22:56:48	◥	body (~body@78.97.214.17) has joined #freenode
+2014-06-07 22:56:48	ℹ 	Topic for #freenode is "Welcome to #freenode | Staff are voiced; some may also be on /stats p -- you can /msg us at any time | FAQ: https://freenode.net/faq.shtml | Unwelcome queries? Use /mode your_nick +R to block them. | Channel guidelines: https://freenode.net/poundfreenode.shtml | Blog: https://blog.freenode.net | Please don't comment on spam/trolls."
+2014-06-07 22:56:48	ℹ 	Topic set by marienz on Tue, 08 Apr 2014 13:48:07
+2014-06-07 22:56:48	ℹ 	Channel #freenode: 1386 nicks (1 op, 29 voices, 1356 normals)
+2014-06-07 22:56:48	ℹ 	PvNotice(ChanServ): Welcome to #freenode. All network staff are voiced in here, but may not always be around - type /stats p to get a list of on call staff. Others may be hiding so do feel free to ping and /msg us at will! Also please read the channel guidelines at http://freenode.net/poundfreenode.shtml - thanks.
+2014-06-07 22:56:48	ℹ 	URL for #freenode: http://freenode.net/
+2014-06-07 22:56:50	ℹ 	Mode #freenode [+CLPcntjf 5:10 #freenode-unreg]
+2014-06-07 22:56:51	ℹ 	Channel created on Sat, 10 Feb 2001 01:16:24
+2014-06-07 22:57:07	◥	Elou (~textual@moab-cable-66-111-118-209.dynamic.etv.net) has joined #freenode
+2014-06-07 22:57:28	body	how do i request an invite to a specific channel ?
+2014-06-07 22:57:33	◣	AlexPortable (uid7568@gateway/web/irccloud.com/x-hapszmjiolumbrrf) has quit (Quit: Connection closed for inactivity)
+2014-06-07 22:57:38	Chiyo	try /knock #ExampleChannel
+2014-06-07 22:57:44	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 22:57:49	◣	not^v (~notnot^v@c-71-238-153-166.hsd1.mi.comcast.net) has quit (Remote host closed the connection)
+2014-06-07 22:57:53	◥	Des81__ (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 22:58:07	◣	coolstar (coolstar@gateway/shell/panicbnc/x-dhbwtglpaiigbuuv) has quit (Changing host)
+2014-06-07 22:58:07	◥	coolstar (coolstar@unaffiliated/coolstar) has joined #freenode
+2014-06-07 22:58:07	◣	coolstar (coolstar@unaffiliated/coolstar) has quit (Changing host)
+2014-06-07 22:58:07	◥	coolstar (coolstar@gateway/shell/panicbnc/x-dhbwtglpaiigbuuv) has joined #freenode
+2014-06-07 22:58:12	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 22:58:15	◣	Des81 (~Des81@unaffiliated/des81) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:00:00	◥	nvmme (~nvmme@xdsl-87-78-182-74.netcologne.de) has joined #freenode
+2014-06-07 23:00:37	◥	Des81 (~Des81@206.255.25.250) has joined #freenode
+2014-06-07 23:00:45	◣	Des81-- (~Des81@unaffiliated/des81) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:00:53	◣	Des81 (~Des81@206.255.25.250) has quit (Changing host)
+2014-06-07 23:00:53	◥	Des81 (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:01:01	◣	tehcereal (~tehcereal@unaffiliated/tehcereal) has quit (Quit: Leaving)
+2014-06-07 23:01:09	◣	haniel (~mcorp@unaffiliated/haniel) has quit (Quit: Leaving)
+2014-06-07 23:01:38	ℹ 	ohm_ is now known as ohm
+2014-06-07 23:01:47	◥	not^v (~notnot^v@c-71-238-153-166.hsd1.mi.comcast.net) has joined #freenode
+2014-06-07 23:01:48	◥	HeathHayle (~heathhayl@unaffiliated/heathhayle) has joined #freenode
+2014-06-07 23:02:41	◥	NightTrain (~coffee@unaffiliated/ridout) has joined #freenode
+2014-06-07 23:02:43	ℹ 	ErrantEgo-Laptop is now known as ErrantEgo
+2014-06-07 23:02:56	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:02:58	◥	garyserj2 (~gary@82-69-82-248.dsl.in-addr.zen.co.uk) has joined #freenode
+2014-06-07 23:03:03	garyserj2	how do I kill my shadow?
+2014-06-07 23:03:15	+erry	Try consulting peter pan
+2014-06-07 23:03:15	◣	Des81__ (~Des81@unaffiliated/des81) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:03:32	garyserj2	i'm not afraid of my shadow
+2014-06-07 23:03:33	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:03:37	◥	raduciobanu (~raducioba@109.101.98.225) has joined #freenode
+2014-06-07 23:03:38	garyserj2	I just can't find him
+2014-06-07 23:03:46	garyserj2	I mean, I found him I just want to kill him
+2014-06-07 23:03:51	garyserj2	I don't think peter pan ever wanted to kill anybody
+2014-06-07 23:04:19	Charlie	I want whatever he's smoked
+2014-06-07 23:04:26	body	Chiyo: really, how do i request an invite  ?
+2014-06-07 23:04:39	Chiyo	try /knock #ExampleChannel
+2014-06-07 23:04:54	◥	xyzt (~xyzt@unaffiliated/xyzt) has joined #freenode
+2014-06-07 23:04:58	ℹ 	garyserj2 is now known as garyserj
+2014-06-07 23:05:21	◥	Des81-- (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:05:27	◥	shadowm_desktop (ignacio@wesnoth/developer/shadowm) has joined #freenode
+2014-06-07 23:06:06	◥	Tsumo (~Maggie@p508FEB40.dip0.t-ipconnect.de) has joined #freenode
+2014-06-07 23:06:44	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-07 23:06:51	Tsumo	Could i get some information about "Technomagician has enabled nick protection" maybe in german?
+2014-06-07 23:06:56	◥	Des81__ (~Des81@206.255.25.250) has joined #freenode
+2014-06-07 23:06:56	◣	Des81__ (~Des81@206.255.25.250) has quit (Changing host)
+2014-06-07 23:06:56	◥	Des81__ (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:07:00	◥	jlf (~user@pdpc/supporter/active/jlf) has joined #freenode
+2014-06-07 23:07:22	Kihokki	garyserj: enough mushrooms for you
+2014-06-07 23:07:30	◥	Freeme (ac38115b@gateway/web/freenode/ip.172.56.17.91) has joined #freenode
+2014-06-07 23:07:56	◣	raduciobanu (~raducioba@109.101.98.225) has quit (Read error: No route to host)
+2014-06-07 23:07:58	◥	raduciob_ (~raducioba@109.101.98.225) has joined #freenode
+2014-06-07 23:08:15	Tsumo	is here no nickname expire?
+2014-06-07 23:08:22	Charlie	Tsumo: in English it means if you don't supply the password, it renames you to GuestXXXX in 30 or so seconds.
+2014-06-07 23:08:43	+erry	Tsumo, nicknames do expire
+2014-06-07 23:08:45	◣	Des81 (~Des81@unaffiliated/des81) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:08:54	thumbs	Tsumo: please read https://freenode.net/faq.shtml#userexpirations
+2014-06-07 23:09:14	Tsumo	[07.06 22:07:51] -NickServ- Last seen  : Dec 12 23:43:08 2012 (1 year, 25 weeks, 1 day, 20:24:55 ago)    hmmm
+2014-06-07 23:09:18	◣	raduciob_ (~raducioba@109.101.98.225) has quit (Read error: Connection reset by peer)
+2014-06-07 23:09:19	◥	notconfusing (~notconfus@unaffiliated/notconfusing) has joined #freenode
+2014-06-07 23:09:22	+erry	Tsumo, which nick?
+2014-06-07 23:09:26	Tsumo	Mori
+2014-06-07 23:09:26	+erry	they don't automatiaclly drop
+2014-06-07 23:09:30	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:09:34	Tsumo	okay
+2014-06-07 23:09:51	◥	Des81 (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:09:56	◥	raduciobanu (~raducioba@109.101.98.225) has joined #freenode
+2014-06-07 23:09:57	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:09:57	◥	trustyhank (~trustyhan@ip-64-134-134-92.public.wayport.net) has joined #freenode
+2014-06-07 23:10:08	◣	notconfusing (~notconfus@unaffiliated/notconfusing) has quit (Client Quit)
+2014-06-07 23:10:14	Tsumo	i tought nick protection is maybe vs expire
+2014-06-07 23:10:20	◣	Des81-- (~Des81@unaffiliated/des81) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:10:27	+erry	no, it's not related
+2014-06-07 23:10:37	◥	floatmastaflex (~TURN@66-189-91-157.dhcp.oxfr.ma.charter.com) has joined #freenode
+2014-06-07 23:10:42	floatmastaflex	yolo
+2014-06-07 23:10:54	Tsumo	do they drop if i register the name?
+2014-06-07 23:11:08	◥	Aidox (ad49928a@gateway/web/freenode/ip.173.73.146.138) has joined #freenode
+2014-06-07 23:11:11	◥	notconfusing (~notconfus@unaffiliated/notconfusing) has joined #freenode
+2014-06-07 23:11:14	Aidox	Hey guys, I'm trying to view some RAR files that are meant to be played as video. Can anyone help me get these so i can view them?
+2014-06-07 23:11:15	+erry	we can drop it for you
+2014-06-07 23:11:16	◣	xyzt (~xyzt@unaffiliated/xyzt) has quit (Remote host closed the connection)
+2014-06-07 23:11:19	+erry	you need to /nick to it tho
+2014-06-07 23:11:24	◥	Des81-- (~Des81@206.255.25.250) has joined #freenode
+2014-06-07 23:11:24	◣	Des81-- (~Des81@206.255.25.250) has quit (Changing host)
+2014-06-07 23:11:24	◥	Des81-- (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:11:28	◥	Armag3dd0n24 (~Armag3dd0@cpc4-perr14-2-0-cust370.19-1.cable.virginm.net) has joined #freenode
+2014-06-07 23:11:36	+erry	Aidox, you decompress rar files with a softwae
+2014-06-07 23:11:38	+erry	software
+2014-06-07 23:11:41	◣	spiderface (~spiderfac@unaffiliated/spiderface) has quit
+2014-06-07 23:11:45	Tsumo	okay....next question is about cloak (i know as vhost)...i want one please
+2014-06-07 23:11:47	Aidox	+erry what software, and how?
+2014-06-07 23:11:59	+erry	Aidox, look up "<your OS> decompress rar"
+2014-06-07 23:12:05	◥	ckwalsh (~ckwalsh@facebook/engineering/ckwalsh) has joined #freenode
+2014-06-07 23:12:10	Tsumo	can i decide the cloak name?
+2014-06-07 23:12:20	Aidox	+erry 7zip work?
+2014-06-07 23:12:21	+erry	Tsumo, no, it'll be unaffiliated/accountname
+2014-06-07 23:12:23	+erry	Aidox, it should
+2014-06-07 23:12:37	Tsumo	okay...who can give me one?
+2014-06-07 23:12:52	Aidox	+erry okay, downloading now.
+2014-06-07 23:13:06	◣	Tsumo (~Maggie@p508FEB40.dip0.t-ipconnect.de) has quit (Changing host)
+2014-06-07 23:13:06	◥	Tsumo (~Maggie@unaffiliated/tsumo) has joined #freenode
+2014-06-07 23:13:12	+erry	Tsumo, you are now cloaked
+2014-06-07 23:13:13	◣	Des81__ (~Des81@unaffiliated/des81) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:13:15	ℹ 	trustyhank is now known as johnshiver
+2014-06-07 23:13:19	Tsumo	thank you
+2014-06-07 23:13:24	ℹ 	Mode #freenode [+o eir] by ChanServ
+2014-06-07 23:13:25	ℹ 	Mode #freenode [-qo *!*@unaffiliated/badseed eir] by eir
+2014-06-07 23:13:40	◥	Sove (~sove@178.162.198.109) has joined #freenode
+2014-06-07 23:13:40	◣	Sove (~sove@178.162.198.109) has quit (Changing host)
+2014-06-07 23:13:40	◥	Sove (~sove@seiwa/admin/sove) has joined #freenode
+2014-06-07 23:13:40	◥	Des81__ (~Des81@206.255.25.250) has joined #freenode
+2014-06-07 23:13:40	◣	Des81__ (~Des81@206.255.25.250) has quit (Changing host)
+2014-06-07 23:13:40	◥	Des81__ (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:13:41	◣	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has quit (Max SendQ exceeded)
+2014-06-07 23:13:47	Aidox	+erry alright I have it, what now?
+2014-06-07 23:13:49	◥	xyzt (~xyzt@unaffiliated/xyzt) has joined #freenode
+2014-06-07 23:13:59	◥	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has joined #freenode
+2014-06-07 23:14:19	◣	raduciobanu (~raducioba@109.101.98.225) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:14:28	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:14:41	Tsumo	cu
+2014-06-07 23:14:44	◣	Tsumo (~Maggie@unaffiliated/tsumo) has left #freenode
+2014-06-07 23:14:53	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:15:28	◣	Des81 (~Des81@unaffiliated/des81) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:15:30	◣	ToApolytoXaos (~ToApolyto@46.21.62.128) has quit (Quit: Leaving)
+2014-06-07 23:15:52	body	Chiyo: Error: unknown command "knock" (type /help for help)
+2014-06-07 23:16:09	+erry	Aidox, use it to decompress the file
+2014-06-07 23:16:12	◣	Des81-- (~Des81@unaffiliated/des81) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:16:37	+erry	it should happen on right click although my windows install never did that so idk
+2014-06-07 23:16:47	Adran	body: /quote knock
+2014-06-07 23:17:02	◥	anderx (~andrex@unaffiliated/andrex) has joined #freenode
+2014-06-07 23:17:21	◣	xyzt (~xyzt@unaffiliated/xyzt) has quit (Remote host closed the connection)
+2014-06-07 23:17:53	◥	Des81 (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:17:53	◥	hoverboard (hoverboard@unaffiliated/hoverboard) has joined #freenode
+2014-06-07 23:18:15	◣	KonomiEee (~Konomi@unaffiliated/konomi) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:19:10	◥	tmegano (~Dikson@200-217-246-148.user.veloxzone.com.br) has joined #freenode
+2014-06-07 23:19:16	◣	Konomi (~Konomi@unaffiliated/konomi) has quit (Ping timeout: 276 seconds)
+2014-06-07 23:19:23	◥	Des81-- (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:19:30	◣	andrex|off (~andrex@unaffiliated/andrex) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:19:57	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:20:11	Aidox	+erry i compressed it, it just made it back into a winrar file..
+2014-06-07 23:20:21	◥	KonomiEee (~Konomi@unaffiliated/konomi) has joined #freenode
+2014-06-07 23:20:23	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:20:24	+erry	wat
+2014-06-07 23:20:33	+erry	it was already a .rar file right
+2014-06-07 23:20:34	Aidox	Sorry i might be doing it wrong.
+2014-06-07 23:20:35	Aidox	Yes
+2014-06-07 23:20:44	+erry	ok
+2014-06-07 23:20:47	+erry	you don't compress it again
+2014-06-07 23:20:50	+erry	you need to do the opposite
+2014-06-07 23:20:52	◥	Konomi (~Konomi@unaffiliated/konomi) has joined #freenode
+2014-06-07 23:20:53	+erry	and /de/compress it
+2014-06-07 23:20:58	◣	Des81__ (~Des81@unaffiliated/des81) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:21:05	◣	Betrayer (~betrayer@unaffiliated/accessdenied) has quit (Quit: ZNC - http://znc.in)
+2014-06-07 23:21:05	Aidox	uh.. how?
+2014-06-07 23:21:10	KiriKaz	you open the file
+2014-06-07 23:21:12	KiriKaz	you drag the files out
+2014-06-07 23:21:24	+erry	http://www.newsgroupreviews.com/guides/7-zip-extract-unrar.html
+2014-06-07 23:21:25	Aidox	That all?
+2014-06-07 23:21:28	KiriKaz	yep
+2014-06-07 23:21:30	KiriKaz	you decompressed it
+2014-06-07 23:21:38	+erry	if it's in parts you'll need to decompress the first one
+2014-06-07 23:21:38	Aidox	but then its just a bunch of random files.
+2014-06-07 23:21:40	Aidox	that wont work
+2014-06-07 23:21:47	Aidox	here let me send u a screenshot of what im dealing with
+2014-06-07 23:21:54	◥	Des81__ (~Des81@unaffiliated/des81) has joined #freenode
+2014-06-07 23:22:05	◣	Freeme (ac38115b@gateway/web/freenode/ip.172.56.17.91) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:22:10	Aidox	http://puu.sh/9jik7/d05cf25d07.png
+2014-06-07 23:22:33	◥	BlackGyver_ (~BlackGyve@2a01:e35:8b51:1320:3d3a:6940:185d:9170) has joined #freenode
+2014-06-07 23:22:51	◣	Des81 (~Des81@unaffiliated/des81) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:22:54	◣	Inus (~Inus@185.38.47.83) has quit (Ping timeout: 245 seconds)
+2014-06-07 23:22:54	◣	Wexel (~Wexel@185.38.47.83) has quit (Ping timeout: 245 seconds)
+2014-06-07 23:23:02	Charlie	What's the offtopic channel again?
+2014-06-07 23:23:13	KiriKaz	you dont have the program to run those files, it's not the decompression or anything
+2014-06-07 23:23:16	Aidox	So if i extract it out into a folder its just those files, KiriKAz +erry
+2014-06-07 23:23:35	KiriKaz	yes
+2014-06-07 23:23:38	Aidox	Is there any way I can view it then?
+2014-06-07 23:23:42	KiriKaz	with the program
+2014-06-07 23:24:08	KiriKaz	wait srt files are just subtitles
+2014-06-07 23:24:10	◥	Javert (~Incredibl@modemcable068.36-177-173.mc.videotron.ca) has joined #freenode
+2014-06-07 23:24:29	KiriKaz	what kind of video is only 20 megs long
+2014-06-07 23:24:38	Aidox	Hold on. Let me see if i can find another one
+2014-06-07 23:24:43	◣	Des81-- (~Des81@unaffiliated/des81) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:24:43	KiriKaz	aight
+2014-06-07 23:25:02	◣	FunkyAss (~Funky@unaffiliated/funkyass) has quit (Quit: Make my Funk the P-Funk)
+2014-06-07 23:25:47	◣	BlackGyver (~BlackGyve@2a01:e35:8b51:1320:3d3a:6940:185d:9170) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:26:09	◥	anero79 (~anero79@181.166.227.235) has joined #freenode
+2014-06-07 23:26:24	Aidox	http://puu.sh/9jiEZ/10f66c7d99.png
+2014-06-07 23:26:25	Aidox	here
+2014-06-07 23:26:29	◥	asandweech (~whichsand@64.126.34.156) has joined #freenode
+2014-06-07 23:26:32	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:26:58	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:27:04	◥	nemysis (~nemysis@freebsd/developer/pcbsd.nemysis) has joined #freenode
+2014-06-07 23:27:24	Aidox	Kirikaz
+2014-06-07 23:27:27	KiriKaz	aidox
+2014-06-07 23:27:31	KiriKaz	those are all still subtitles.
+2014-06-07 23:27:41	Aidox	wtf
+2014-06-07 23:27:41	KiriKaz	http://www.fileinfo.com/extension/idx http://www.fileinfo.com/extension/sub http://www.fileinfo.com/extension/srt
+2014-06-07 23:27:44	◥	paramourne (~asdf@cpe-67-247-203-207.buffalo.res.rr.com) has joined #freenode
+2014-06-07 23:27:59	◣	DD3my (~DD3my@unaffiliated/dd3my) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:28:02	◣	garyserj (~gary@82-69-82-248.dsl.in-addr.zen.co.uk) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:28:03	Aidox	welp..
+2014-06-07 23:28:06	Aidox	let me look into this.
+2014-06-07 23:28:27	◥	Versalytics (~Redge@CPE788df74d0f71-CM788df74d0f70.cpe.net.cable.rogers.com) has joined #freenode
+2014-06-07 23:28:36	ℹ 	WillLuv-U-4KFC is now known as BarryWhite
+2014-06-07 23:28:52	◣	TheMathNinja (~TheMathNi@173-24-101-77.client.mchsi.com) has quit (Read error: Connection reset by peer)
+2014-06-07 23:29:07	◣	glebihan_ (~glebihan@unaffiliated/glebihan) has quit (Read error: Connection reset by peer)
+2014-06-07 23:30:18	◥	TheMathNinja (~TheMathNi@173-24-101-77.client.mchsi.com) has joined #freenode
+2014-06-07 23:30:57	◥	glebihan_ (~glebihan@unaffiliated/glebihan) has joined #freenode
+2014-06-07 23:31:33	◥	Wexel (~Wexel@185.38.47.83) has joined #freenode
+2014-06-07 23:32:04	ℹ 	zz_iakxos is now known as iakxos
+2014-06-07 23:32:17	◥	Inus (~Inus@185.38.47.83) has joined #freenode
+2014-06-07 23:32:35	◣	Aidox (ad49928a@gateway/web/freenode/ip.173.73.146.138) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:32:35	◥	weeirc8089 (~Zeev@85.130.231.249) has joined #freenode
+2014-06-07 23:33:30	◣	bocaneri (~bocaneri_@about/linux/staff/sauvin) has quit (Read error: Connection reset by peer)
+2014-06-07 23:33:53	◥	ircsweg (43307ab7@gateway/web/cgi-irc/kiwiirc.com/ip.67.48.122.183) has joined #freenode
+2014-06-07 23:33:58	◥	badseed__ (~ververv@109-178-160-150.mobile.cosmote.net) has joined #freenode
+2014-06-07 23:34:47	◣	ircsweg (43307ab7@gateway/web/cgi-irc/kiwiirc.com/ip.67.48.122.183) has quit (Client Quit)
+2014-06-07 23:35:24	◣	shenk (~shenk@c-76-98-237-89.hsd1.pa.comcast.net) has quit (Ping timeout: 245 seconds)
+2014-06-07 23:36:10	◣	badseed (~ververv@unaffiliated/badseed) has quit (Ping timeout: 276 seconds)
+2014-06-07 23:36:25	◣	jlf (~user@pdpc/supporter/active/jlf) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:36:48	◥	xyzt (~xyzt@unaffiliated/xyzt) has joined #freenode
+2014-06-07 23:36:55	◥	nvmme_ (~nvmme@xdsl-87-78-182-218.netcologne.de) has joined #freenode
+2014-06-07 23:38:48	◣	Guest86772 (Shiftos@gateway/shell/panicbnc/x-cdzatkogszjrbtwr) has quit (Remote host closed the connection)
+2014-06-07 23:39:40	◣	nvmme (~nvmme@xdsl-87-78-182-74.netcologne.de) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:39:46	ted20	Adran: what?
+2014-06-07 23:40:01	Adran	I don't know, you highlighted me
+2014-06-07 23:40:41	ted20	I'm sorry I mean Aidox
+2014-06-07 23:40:56	ℹ 	Miron is now known as SuperMiron
+2014-06-07 23:41:08	◣	cy (~cy@unaffiliated/cy) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:41:11	ℹ 	SuperMiron is now known as Miron
+2014-06-07 23:41:18	ilhami	Hey
+2014-06-07 23:41:22	◣	SuchWow (~SuchWow@unaffiliated/suchwow) has quit (Quit: brb)
+2014-06-07 23:41:45	◥	hancock (~hancock@ti0187a400-1051.bb.online.no) has joined #freenode
+2014-06-07 23:42:07	◣	maveneagle (~maveneagl@117.192.130.152) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-06-07 23:42:10	◣	nvmme_ (~nvmme@xdsl-87-78-182-218.netcologne.de) has quit (Quit: leaving)
+2014-06-07 23:42:13	◥	james_ (~james@66.225.198.13) has joined #freenode
+2014-06-07 23:42:23	hancock	sdf
+2014-06-07 23:42:37	hancock	sdf
+2014-06-07 23:42:37	hancock	sdf
+2014-06-07 23:42:43	ilhami	anybody here+
+2014-06-07 23:42:46	james_	Yes
+2014-06-07 23:42:50	thumbs	ilhami: how can we help?
+2014-06-07 23:42:51	hancock	Ops, sorry for the spam
+2014-06-07 23:42:56	◥	salamanderrake (~salamande@cpe-71-74-247-103.neo.res.rr.com) has joined #freenode
+2014-06-07 23:43:05	ilhami	can anyone answer a C# question for me+
+2014-06-07 23:43:14	ℹ 	Versalytics is now known as vergence
+2014-06-07 23:43:15	ℹ 	hancock is now known as scrubfest
+2014-06-07 23:43:20	◣	digiv (~textual@12.130.116.216) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-06-07 23:43:31	ilhami	I want to know when you use binding?
+2014-06-07 23:44:18	ilhami	vs. setting text ?
+2014-06-07 23:44:28	thumbs	there is a c charp channel on freenode, but I can't recall the name.
+2014-06-07 23:44:48	◥	King_Hual (~Hual@unaffiliated/king-hual/x-1207580) has joined #freenode
+2014-06-07 23:44:56	ilhami	I am banned there or muted..
+2014-06-07 23:45:00	ilhami	I really dont know why.
+2014-06-07 23:45:02	◥	BlackGyver (~BlackGyve@tal33-5-88-181-17-50.fbx.proxad.net) has joined #freenode
+2014-06-07 23:45:07	◣	ctpd (~ctpd@109.125.85.254.dynamic.cablesurf.de) has quit (Remote host closed the connection)
+2014-06-07 23:45:32	◥	jlf (~user@pdpc/supporter/active/jlf) has joined #freenode
+2014-06-07 23:45:40	◥	j4s0n (~Thunderbi@32.149.210.143) has joined #freenode
+2014-06-07 23:45:47	thumbs	ilhami: ask the ops - /msg ChanServ access list ##channel
+2014-06-07 23:45:49	◣	lrockhq (~a.zen@unaffiliated/sirlongrock) has quit (Quit: Leaving)
+2014-06-07 23:46:05	◣	BlackGyver_ (~BlackGyve@2a01:e35:8b51:1320:3d3a:6940:185d:9170) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:46:41	◥	SuchWow (~SuchWow@unaffiliated/suchwow) has joined #freenode
+2014-06-07 23:46:45	◥	maveneagle (~maveneagl@117.192.130.152) has joined #freenode
+2014-06-07 23:47:32	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-07 23:47:48	◥	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has joined #freenode
+2014-06-07 23:47:54	◣	digiv (~textual@12.130.116.216) has quit (Max SendQ exceeded)
+2014-06-07 23:48:15	◣	scrubfest (~hancock@ti0187a400-1051.bb.online.no) has quit (Quit: Leaving)
+2014-06-07 23:48:26	◥	KBomba_ (~King_Bomb@55.80-65-87.adsl-dyn.isp.belgacom.be) has joined #freenode
+2014-06-07 23:48:28	◣	King_Hual` (~Hual@94.26.28.68) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:48:36	◣	Novus (~novus@cpe-172-248-190-187.socal.res.rr.com) has quit (Quit: Nettalk6 - www.ntalk.de)
+2014-06-07 23:48:59	◣	Jharrott (~IceChat77@pool-71-114-208-34.hstntx.dsl-w.verizon.net) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:49:18	◥	cy6 (5f138e2c@gateway/web/freenode/ip.95.19.142.44) has joined #freenode
+2014-06-07 23:49:27	◣	Appreciated (~Appreciat@unaffiliated/appreciated) has quit (Remote host closed the connection)
+2014-06-07 23:49:34	◥	MrTitties (~none@fl-71-3-123-209.dyn.embarqhsd.net) has joined #freenode
+2014-06-07 23:49:46	MrTitties	hello wonderful people!  I am an alien!
+2014-06-07 23:50:10	◣	Stryyker (~stryyke1@about/windows/staff/stryyker) has quit (Disconnected by services)
+2014-06-07 23:50:15	KiriKaz	hello, alien
+2014-06-07 23:50:19	KiriKaz	what makes you invade our planet
+2014-06-07 23:50:26	◥	Stryyker2 (~stryyke1@about/windows/staff/stryyker) has joined #freenode
+2014-06-07 23:50:51	◣	KBomba (~King_Bomb@55.80-65-87.adsl-dyn.isp.belgacom.be) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:50:51	ℹ 	KBomba_ is now known as KBomba
+2014-06-07 23:51:20	◥	Betrayer (~betrayer@unaffiliated/accessdenied) has joined #freenode
+2014-06-07 23:51:46	◣	Guest87835 (Guest87835@bas2-london47-3096695877.dsl.bell.ca) has quit (Ping timeout: 276 seconds)
+2014-06-07 23:52:20	MrTitties	well
+2014-06-07 23:52:22	MrTitties	krisha
+2014-06-07 23:52:26	MrTitties	ermm KiriKaz
+2014-06-07 23:52:32	MrTitties	i want to do some anal probing
+2014-06-07 23:52:46	thumbs	MrTitties: I don't think that's appropriate for freenode
+2014-06-07 23:53:26	◥	Novus (~novus@cpe-172-248-190-187.socal.res.rr.com) has joined #freenode
+2014-06-07 23:53:36	◣	r0ok (~r0ok@unaffiliated/r0ok) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:53:55	◣	Pricey (~pricey@freenode/staff/pricey) has quit (Quit: whoops)
+2014-06-07 23:55:04	◣	salamanderrake (~salamande@cpe-71-74-247-103.neo.res.rr.com) has quit (Remote host closed the connection)
+2014-06-07 23:55:44	MrTitties	well ok.. what is appropiate then?
+2014-06-07 23:55:46	MrTitties	i am sorry
+2014-06-07 23:55:49	MrTitties	lemme change my name too
+2014-06-07 23:55:53	MrTitties	didnt know this was 'pg'
+2014-06-07 23:56:07	ℹ 	MrTitties is now known as GreasyCheeks
+2014-06-07 23:56:42	GreasyCheeks	so... whats all on freenode network?
+2014-06-07 23:56:46	GreasyCheeks	anything interesting?
+2014-06-07 23:56:52	◥	Pricey (~pricey@freenode/staff/pricey) has joined #freenode
+2014-06-07 23:56:52	ℹ 	Mode #freenode [+v Pricey] by ChanServ
+2014-06-07 23:57:08	thumbs	GreasyCheeks: https://freenode.net/faq.shtml#whatwhy
+2014-06-07 23:57:45	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-07 23:57:54	◣	King_Hual (~Hual@unaffiliated/king-hual/x-1207580) has quit (Quit: Am RIP)
+2014-06-07 23:58:12	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-07 23:58:32	◣	avree (~avree@unaffiliated/avree) has quit (Quit: Computer has gone to sleep.)
+2014-06-07 23:58:34	ℹ 	Firebat is now known as Firebat|Off
+2014-06-07 23:58:50	◣	ted20 (~ted20@cpc36-warr6-2-0-cust40.1-1.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2014-06-07 23:59:22	◥	GoatAvenger (~The_Goat_@ip68-2-135-177.ph.ph.cox.net) has joined #freenode
+2014-06-07 23:59:49	◣	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has quit (Quit: leaving)
+2014-06-08 00:00:14	GreasyCheeks	ok... so peer based open source project support
+2014-06-08 00:00:20	GreasyCheeks	interesting
+2014-06-08 00:00:35	◣	vergence (~Redge@CPE788df74d0f71-CM788df74d0f70.cpe.net.cable.rogers.com) has quit (Quit: vergence)
+2014-06-08 00:00:44	◣	iakxos (~iakxos@80.240.132.40) has quit (Quit: Leaving...)
+2014-06-08 00:01:15	floatmastaflex	hey what doyyou think of this chair? http://img258.imagevenue.com/aAfkjfp01fo1i-30437/loc143/67613_002_123_143lo.jpg
+2014-06-08 00:01:28	◣	ilhami (~IlhamiD@188-178-119-46-static.dk.customer.tdc.net) has left #freenode
+2014-06-08 00:01:33	KiriKaz	The requested URL /aAfkjfp01fo1i-30437/loc143/67613_002_123_143lo.jpg was not found on this server.
+2014-06-08 00:01:46	◥	vergence (~Redge@CPE788df74d0f71-CM788df74d0f70.cpe.net.cable.rogers.com) has joined #freenode
+2014-06-08 00:01:59	KiriKaz	also chairs and freenode totally have something to do with eachother
+2014-06-08 00:02:06	ℹ 	FastLizard4|zZzZ is now known as FastLizard4
+2014-06-08 00:02:11	GreasyCheeks	so.. this is the irc network.. i can learn something from
+2014-06-08 00:02:11	◥	shenk (~shenk@c-76-98-237-89.hsd1.pa.comcast.net) has joined #freenode
+2014-06-08 00:02:13	GreasyCheeks	fascinating
+2014-06-08 00:02:27	◥	user890104 (Venci@unaffiliated/user890104) has joined #freenode
+2014-06-08 00:02:31	Mikaela	GreasyCheeks: /join #defocus
+2014-06-08 00:02:47	Mikaela	floatmastaflex: ^^ too
+2014-06-08 00:02:54	◣	juleek (~julek@s2.fmdx.pl) has quit (Ping timeout: 245 seconds)
+2014-06-08 00:02:57	◣	Extensa5630G (~Extensa56@unaffiliated/hassen) has quit (Read error: Connection reset by peer)
+2014-06-08 00:03:02	floatmastaflex	no
+2014-06-08 00:03:05	floatmastaflex	too much porn in there
+2014-06-08 00:03:18	GreasyCheeks	ok....   so this is not the irc network for me to troll in.. not a problem :)
+2014-06-08 00:03:22	◥	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has joined #freenode
+2014-06-08 00:03:23	◥	Extensa5630G (~Extensa56@197.0.77.52) has joined #freenode
+2014-06-08 00:03:23	◣	Extensa5630G (~Extensa56@197.0.77.52) has quit (Changing host)
+2014-06-08 00:03:23	◥	Extensa5630G (~Extensa56@unaffiliated/hassen) has joined #freenode
+2014-06-08 00:03:28	GreasyCheeks	for give the proving comment then pls :)
+2014-06-08 00:03:28	◥	Bray90820_ (~Bray90820@2601:d:5c80:36d:1447:87a7:d0d9:bd1b) has joined #freenode
+2014-06-08 00:03:38	◣	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has quit (Max SendQ exceeded)
+2014-06-08 00:03:42	GreasyCheeks	probing even
+2014-06-08 00:03:45	user890104	does anyone has an idea why hitchcock.freenode.net is offline?
+2014-06-08 00:03:54	◣	GreasyCheeks (~none@fl-71-3-123-209.dyn.embarqhsd.net) has left #freenode
+2014-06-08 00:03:55	◥	raduciobanu (~raducioba@109.101.98.225) has joined #freenode
+2014-06-08 00:03:56	◥	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has joined #freenode
+2014-06-08 00:04:05	Mikaela	floatmastaflex: I actually have similar reasons to not be there, but it's usually the recommended channel to join. You can see my public channels in my whois.
+2014-06-08 00:04:07	mniip	263 WHO :This command could not be completed because it has been used recently, and is rate-limited.
+2014-06-08 00:04:09	mniip	that's news to me
+2014-06-08 00:04:40	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-08 00:04:43	Mikaela	It was news to me until some script started abusing it, but I solved it by increasing the limit. WHOIS gave it even more often.
+2014-06-08 00:04:55	◥	GeoManCam_ (~GeoManCam@chello084113053046.12.vie.surfer.at) has joined #freenode
+2014-06-08 00:04:58	floatmastaflex	Mikaela which ones have people in them
+2014-06-08 00:04:59	◥	maximski (~maximski@77-20-48-40-dynip.superkabel.de) has joined #freenode
+2014-06-08 00:05:15	Mikaela	I don't think I am alone anywhere.
+2014-06-08 00:05:23	ℹ 	tigr is now known as tigrmesh
+2014-06-08 00:05:27	mniip	does ISON have a similar limit?
+2014-06-08 00:05:28	◣	GeoManCam (~GeoManCam@unaffiliated/geomancam) has quit (Disconnected by services)
+2014-06-08 00:05:39	◥	ted20_ (~ted20@92.237.228.34) has joined #freenode
+2014-06-08 00:05:41	◣	bazhang (~bazhang@unaffiliated/bazhang) has quit (Read error: Connection reset by peer)
+2014-06-08 00:05:50	ℹ 	GeoManCam_ is now known as GeoManCam
+2014-06-08 00:05:55	◣	TomRiddle (~TomRiddle@unaffiliated/herecomethedrums) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:05:56	◣	GeoManCam (~GeoManCam@chello084113053046.12.vie.surfer.at) has quit (Changing host)
+2014-06-08 00:05:56	◥	GeoManCam (~GeoManCam@unaffiliated/geomancam) has joined #freenode
+2014-06-08 00:06:08	◥	bazhang (~bazhang@unaffiliated/bazhang) has joined #freenode
+2014-06-08 00:06:35	◣	djural (~djural@213162068085.public.t-mobile.at) has quit (Quit: WeeChat 1.0-dev)
+2014-06-08 00:06:37	◥	TomRiddle (~TomRiddle@pool-71-103-180-51.lsanca.dsl-w.verizon.net) has joined #freenode
+2014-06-08 00:06:39	Mikaela	I haven't encountered one yet.
+2014-06-08 00:07:01	ℹ 	TomRiddle is now known as Guest46804
+2014-06-08 00:07:21	◥	nullkit (nullkit@5.236.41.199) has joined #freenode
+2014-06-08 00:07:28	◣	parduse (parduse@unaffiliated/parduse) has quit (Read error: Connection reset by peer)
+2014-06-08 00:07:50	◥	roadrunner (~Rene@unaffiliated/roadrunner/x-9036369) has joined #freenode
+2014-06-08 00:08:06	◥	parduse (parduse@88.241.249.233) has joined #freenode
+2014-06-08 00:08:08	◣	parduse (parduse@88.241.249.233) has quit (Changing host)
+2014-06-08 00:08:08	◥	parduse (parduse@unaffiliated/parduse) has joined #freenode
+2014-06-08 00:08:16	◣	ckwalsh (~ckwalsh@facebook/engineering/ckwalsh) has quit (Ping timeout: 252 seconds)
+2014-06-08 00:08:23	◥	cy (~cy@unaffiliated/cy) has joined #freenode
+2014-06-08 00:08:25	◣	mixomathoze (~mixomatho@114.85-243-81.adsl-dyn.isp.belgacom.be) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:08:27	◣	digiv (~textual@12.130.116.216) has quit (Remote host closed the connection)
+2014-06-08 00:08:38	◣	nullkit (nullkit@5.236.41.199) has left #freenode
+2014-06-08 00:08:39	◥	Shiftos (Shiftos@gateway/shell/panicbnc/x-felaxladgodvcjhs) has joined #freenode
+2014-06-08 00:08:43	◥	Missingno255 (Missingno@gateway/shell/elitebnc/x-qhfqvftbwywyhftq) has joined #freenode
+2014-06-08 00:08:43	◣	Missingno255 (Missingno@gateway/shell/elitebnc/x-qhfqvftbwywyhftq) has quit (Changing host)
+2014-06-08 00:08:43	◥	Missingno255 (Missingno@unaffiliated/missingno255) has joined #freenode
+2014-06-08 00:08:43	◣	Missingno255 (Missingno@unaffiliated/missingno255) has quit (Changing host)
+2014-06-08 00:08:43	◥	Missingno255 (Missingno@gateway/shell/elitebnc/x-qhfqvftbwywyhftq) has joined #freenode
+2014-06-08 00:08:45	◣	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has quit (Max SendQ exceeded)
+2014-06-08 00:08:49	◣	CGML (~CGML@unaffiliated/cgml) has quit (Remote host closed the connection)
+2014-06-08 00:08:58	◥	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has joined #freenode
+2014-06-08 00:08:58	◥	CGML (~CGML@unaffiliated/cgml) has joined #freenode
+2014-06-08 00:09:03	ℹ 	Shiftos is now known as Guest44378
+2014-06-08 00:09:22	◥	Moter8 (~Moter8@unaffiliated/moter8) has joined #freenode
+2014-06-08 00:09:24	◣	DD321123 (~DD321123@unaffiliated/nokturnus) has quit (Read error: Connection reset by peer)
+2014-06-08 00:09:25	◣	ced117 (~ced117@opensuse/member/ced117) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:25	◣	ski_ (~ski@remote1.student.chalmers.se) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:25	◣	rwg (adam@awos/tester/rwg) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:36	◣	HeathHayle (~heathhayl@unaffiliated/heathhayle) has quit (Quit: HeathHayle)
+2014-06-08 00:09:45	◣	bolt (~r00t@unaffiliated/bolt) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:45	◣	hmstrmn (~hmstrmn@grm-studby-128-39-149-158.studby.uia.no) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:45	◣	Ool (~Ool@unaffiliated/ool) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:45	◣	nutron (~nutron@unaffiliated/nutron) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:46	◥	DD321123 (~DD321123@unaffiliated/nokturnus) has joined #freenode
+2014-06-08 00:10:05	◣	clonak (clonak@dal0.bnc.im) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:10:07	◣	xyzt (~xyzt@unaffiliated/xyzt) has quit (Remote host closed the connection)
+2014-06-08 00:10:26	◥	ski (~ski@remote1.student.chalmers.se) has joined #freenode
+2014-06-08 00:10:41	◥	eryd (~eryd@89.204.139.93) has joined #freenode
+2014-06-08 00:10:48	eryd	urgent please!
+2014-06-08 00:10:55	KiriKaz	?:
+2014-06-08 00:10:56	◣	Garmine (~Garmine@unaffiliated/garmine) has quit (Quit: Read error: Connection reset by beer)
+2014-06-08 00:10:57	eryd	I by mistake typed my nickname and password
+2014-06-08 00:11:04	eryd	how can I change the pw?
+2014-06-08 00:11:05	◣	road|runner (~Rene@unaffiliated/roadrunner/x-9036369) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:11:05	◣	jelly-home (~me@pdpc/supporter/active/jelly) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:11:14	ted20_	Mikaela: Heh, what are you doing at ##stoned
+2014-06-08 00:11:20	eryd	help please!
+2014-06-08 00:11:36	+erry	/msg nickserv help set password
+2014-06-08 00:11:37	eryd	is anyone there to help?
+2014-06-08 00:11:41	◣	maveneagle (~maveneagl@117.192.130.152) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-06-08 00:11:46	◣	Tux[Qyou] (~Tux@176.103.41.5) has quit (Quit: Excess flood)
+2014-06-08 00:12:03	◥	MiniFridge (~MiniFridg@2602:306:38db:8029:3c98:cb0d:5d2b:cbb5) has joined #freenode
+2014-06-08 00:12:04	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-08 00:12:06	◥	Tux[Qyou] (~Tux@176.103.41.5) has joined #freenode
+2014-06-08 00:12:07	MiniFridge	Hello
+2014-06-08 00:12:13	eryd	erry the problem is I have a  second machine and on this machine I cant login with the same nick it says it is already in use
+2014-06-08 00:12:17	ted20_	Hello, nice nick
+2014-06-08 00:12:19	Mikaela	ted20_: Being on friend's channel where I was asked to come. stoned appears to be on this channel too.
+2014-06-08 00:12:24	+erry	eryd, /msg nickserv identify NICK PASSWORD
+2014-06-08 00:12:24	ℹ 	eryd is now known as lamrz
+2014-06-08 00:12:25	MiniFridge	why can users still do whois even though I'm set to invisible?
+2014-06-08 00:12:35	+erry	then use /msg nickserv set password new_passwrd_here
+2014-06-08 00:12:44	◥	Freeme (ac38115b@gateway/web/freenode/ip.172.56.17.91) has joined #freenode
+2014-06-08 00:12:58	◥	clonak (clonak@dal0.bnc.im) has joined #freenode
+2014-06-08 00:13:05	◣	maximski (~maximski@77-20-48-40-dynip.superkabel.de) has quit
+2014-06-08 00:13:07	◣	linuxguy101 (~ssvlack@unaffiliated/linuxguy101) has quit (Quit: Leaving)
+2014-06-08 00:13:12	◥	jelly-home (~me@pdpc/supporter/active/jelly) has joined #freenode
+2014-06-08 00:13:19	◥	LoganL (~logan@ppp046177004170.access.hol.gr) has joined #freenode
+2014-06-08 00:13:21	◥	HeathHayle_ (~heathhayl@unaffiliated/heathhayle) has joined #freenode
+2014-06-08 00:13:27	ted20_	Mikaela: so, you know stoned, ya?
+2014-06-08 00:13:31	LoganL	Hello can i have a cloak
+2014-06-08 00:13:32	LoganL	?
+2014-06-08 00:13:39	lamrz	erry it doesnt work
+2014-06-08 00:13:46	+erry	/what/ doesn't work?
+2014-06-08 00:13:50	ℹ 	HeathHayle_ is now known as HeathHayle
+2014-06-08 00:13:55	lamrz	is it exactly  /msg nickserv set password new_passwrd_here
+2014-06-08 00:13:56	lamrz	?
+2014-06-08 00:14:07	+erry	well, obviously put your new password there
+2014-06-08 00:14:07	KiriKaz	no, change new_passwrd_here to something else lol
+2014-06-08 00:14:13	◣	digiv (~textual@12.130.116.216) has quit (Remote host closed the connection)
+2014-06-08 00:14:14	+erry	but you need to identify first
+2014-06-08 00:14:21	◥	bolt (~r00t@unaffiliated/bolt) has joined #freenode
+2014-06-08 00:14:22	lamrz	ok
+2014-06-08 00:14:30	KiriKaz	if the problem youre having is it says the nick is in suse just ghost it
+2014-06-08 00:14:32	◣	Josse|BNC2hours (uid29288@wikipedia/Josse-Cottenier) has quit (Quit: Connection closed for inactivity)
+2014-06-08 00:14:34	◥	rwg (adam@awos/tester/rwg) has joined #freenode
+2014-06-08 00:14:35	◥	nutron (~nutron@unaffiliated/nutron) has joined #freenode
+2014-06-08 00:14:36	KiriKaz	./msg nickserv ghost nick password
+2014-06-08 00:14:37	KiriKaz	i think
+2014-06-08 00:14:41	Charlie	I feel for you erry
+2014-06-08 00:14:43	KiriKaz	erry is that right
+2014-06-08 00:14:49	◥	salamanderrake (~salamande@cpe-71-74-247-103.neo.res.rr.com) has joined #freenode
+2014-06-08 00:14:50	◥	Ool (~Ool@unaffiliated/ool) has joined #freenode
+2014-06-08 00:14:58	+erry	yeah
+2014-06-08 00:15:05	Mikaela	ted20_: If I didn't, I wouldn't have anything to do there.
+2014-06-08 00:15:12	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-08 00:15:13	Mikaela	And this isn't on-topic for #freenode .
+2014-06-08 00:15:14	◣	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has quit (Max SendQ exceeded)
+2014-06-08 00:15:19	◥	xyzt (~xyzt@adsl-108-201-94-22.dsl.chi2ca.sbcglobal.net) has joined #freenode
+2014-06-08 00:15:19	◣	xyzt (~xyzt@adsl-108-201-94-22.dsl.chi2ca.sbcglobal.net) has quit (Changing host)
+2014-06-08 00:15:19	◥	xyzt (~xyzt@unaffiliated/xyzt) has joined #freenode
+2014-06-08 00:15:23	◣	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has quit (Quit: leaving)
+2014-06-08 00:15:28	◣	joseluis (~joseluis@unaffiliated/joseluisc020) has quit (Remote host closed the connection)
+2014-06-08 00:15:30	◥	Wonkaewt (Wonkaewt.n@187-78-201-75.user.veloxzone.com.br) has joined #freenode
+2014-06-08 00:15:34	ted20_	Mikaela: okay...
+2014-06-08 00:15:39	◥	Roberto0309 (~eluderTDC@unaffiliated/roberto0309) has joined #freenode
+2014-06-08 00:15:42	lamrz	erry I'm identified, it still says no help available for (new_passwrd)
+2014-06-08 00:15:52	+erry	don't put help there
+2014-06-08 00:15:58	◥	Carly (~chatzilla@pdpc/supporter/student/carly) has joined #freenode
+2014-06-08 00:15:59	+erry	/msg nickserv set password new_password
+2014-06-08 00:16:01	◥	ced117 (~ced117@opensuse/member/ced117) has joined #freenode
+2014-06-08 00:16:03	+erry	no 'help'
+2014-06-08 00:16:07	Carly	how I set enforce for my nick
+2014-06-08 00:16:09	Carly	¿
+2014-06-08 00:16:10	◥	tigr (~tigrmesh@archlinux/op/tigrmesh) has joined #freenode
+2014-06-08 00:16:13	Mikaela	That changes your password as "new_password"
+2014-06-08 00:16:15	+erry	Carly, /msg nickserv help set enforce
+2014-06-08 00:16:19	Mikaela	Carly: /msg nickserv set enforce on
+2014-06-08 00:16:30	◥	mixomathoze (~mixomatho@114.85-243-81.adsl-dyn.isp.belgacom.be) has joined #freenode
+2014-06-08 00:16:31	◣	Javert (~Incredibl@modemcable068.36-177-173.mc.videotron.ca) has quit (Ping timeout: 260 seconds)
+2014-06-08 00:16:32	◣	Sulfat (~oxyd@unaffiliated/sulfat) has quit (Ping timeout: 265 seconds)
+2014-06-08 00:16:33	lamrz	erry, thank you
+2014-06-08 00:16:35	lamrz	it worked
+2014-06-08 00:16:42	ted20_	Mikaela: stoned is very odd user, so i asked
+2014-06-08 00:16:45	◥	filadome (~Jesse@pool-173-54-213-182.nwrknj.fios.verizon.net) has joined #freenode
+2014-06-08 00:16:57	sund	ted20_: take it to #defocus, please.
+2014-06-08 00:16:59	Carly	thanks
+2014-06-08 00:17:03	◣	Carly (~chatzilla@pdpc/supporter/student/carly) has left #freenode
+2014-06-08 00:17:14	◣	HeathHayle (~heathhayl@unaffiliated/heathhayle) has left #freenode
+2014-06-08 00:17:25	KiriKaz	erry how do I set chanserv to op me automatically once I join my channel?
+2014-06-08 00:17:31	KiriKaz	and/or other people
+2014-06-08 00:17:38	◥	the_Wizard__ (~the_Wizar@g138180.upc-g.chello.nl) has joined #freenode
+2014-06-08 00:17:38	◣	the_Wizard (~the_Wizar@g138180.upc-g.chello.nl) has quit (Disconnected by services)
+2014-06-08 00:17:38	ℹ 	the_Wizard__ is now known as the_Wizard
+2014-06-08 00:17:43	◥	lionmac (~lionmac@95.107.164.83) has joined #freenode
+2014-06-08 00:17:43	teward	KiriKaz, you might want to read up on the flags - /msg chanserv help flags
+2014-06-08 00:17:46	KiriKaz	ty
+2014-06-08 00:17:48	◣	lamrz (~eryd@89.204.139.93) has left #freenode ("Leaving")
+2014-06-08 00:18:00	◣	vergence (~Redge@CPE788df74d0f71-CM788df74d0f70.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2014-06-08 00:18:02	◥	RGBx01 (25189db2@gateway/web/freenode/ip.37.24.157.178) has joined #freenode
+2014-06-08 00:18:13	ted20_	sund: thx
+2014-06-08 00:18:15	◣	ted20_ (~ted20@92.237.228.34) has left #freenode
+2014-06-08 00:18:18	◥	fetus (uid32386@gateway/web/irccloud.com/x-duomonvgutdtrkhq) has joined #freenode
+2014-06-08 00:18:18	◣	fetus (uid32386@gateway/web/irccloud.com/x-duomonvgutdtrkhq) has quit (Changing host)
+2014-06-08 00:18:18	◥	fetus (uid32386@wikia/Iiii-I-I-I) has joined #freenode
+2014-06-08 00:18:21	◥	Guest4296 (~communi@188.53.231.153) has joined #freenode
+2014-06-08 00:18:27	◥	djfoote (~textual@ip98-180-8-174.ga.at.cox.net) has joined #freenode
+2014-06-08 00:18:46	◣	Guest4296 (~communi@188.53.231.153) has quit (Client Quit)
+2014-06-08 00:19:12	◣	user890104 (Venci@unaffiliated/user890104) has left #freenode
+2014-06-08 00:19:12	RGBx01	Hello, I seem to have made a typo setting my password up yesterday, and can't figure out how to get a key for setpass from the NickServ help. Can someone please explain what I need to do? I verified my email address.
+2014-06-08 00:19:25	+erry	RGBx01, i've sent a password reset email
+2014-06-08 00:19:30	teward	RGBx01, you have to ask for a reset here, but erry's on top of it
+2014-06-08 00:19:35	◣	Freeme (ac38115b@gateway/web/freenode/ip.172.56.17.91) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:19:42	◣	tigrmesh (~tigrmesh@archlinux/op/tigrmesh) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:19:42	◣	george2 (~42@unaffiliated/george2) has quit (Remote host closed the connection)
+2014-06-08 00:19:43	RGBx01	Thanks a lot, that was quick! :)
+2014-06-08 00:19:57	sund	lol
+2014-06-08 00:19:58	◣	lionmac (~lionmac@95.107.164.83) has quit (Client Quit)
+2014-06-08 00:20:14	KiriKaz	"but erry's on top of it" like always
+2014-06-08 00:20:17	◣	Bray90820_ (~Bray90820@2601:d:5c80:36d:1447:87a7:d0d9:bd1b) has quit (Remote host closed the connection)
+2014-06-08 00:20:17	LoganL	can i have a cloak please ?
+2014-06-08 00:21:07	sund	LoganL: yes, erry is here and can set your cloak.
+2014-06-08 00:21:20	sund	it's be an unaffiliated one, though
+2014-06-08 00:21:24	sund	it'll*
+2014-06-08 00:21:50	◣	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 252 seconds)
+2014-06-08 00:22:15	sund	at least I think she's still here. :P
+2014-06-08 00:22:37	KiriKaz	well guess erry's not always on top of it
+2014-06-08 00:22:41	◥	notmoter8 (533654c7@gateway/web/cgi-irc/kiwiirc.com/ip.83.54.84.199) has joined #freenode
+2014-06-08 00:22:46	◥	iakxos (~iakxos@80.240.132.40) has joined #freenode
+2014-06-08 00:23:13	◣	GoatAvenger (~The_Goat_@ip68-2-135-177.ph.ph.cox.net) has quit (Quit: Leaving)
+2014-06-08 00:23:15	Moter8	Anybody mind explaining why /mode notmoter8 -i  doesnt make it hide the ip?
+2014-06-08 00:23:25	LoganL	sund, ok ty
+2014-06-08 00:23:28	◣	roymiloh (~roymiloh@37.142.233.109) has quit (Remote host closed the connection)
+2014-06-08 00:23:42	+erry	because -i makes everyone see you in /who searches and shows your whole channel list to everyone
+2014-06-08 00:23:42	sund	Moter8: there's no user mode to hide your ip.
+2014-06-08 00:24:03	Moter8	i
+2014-06-08 00:24:03	Moter8	(invisible)	This prevents you from appearing in global WHO/WHOIS by normal users, and hides which channels you are on. It is enabled by default.
+2014-06-08 00:24:23	sund	that's set by default, iirc.
+2014-06-08 00:24:36	dwfreed	erry: ##hamradio ops don't seem to be around, but floatmastaflex could use banning
+2014-06-08 00:24:37	sund	yeah
+2014-06-08 00:24:38	sund	lol
+2014-06-08 00:24:38	KiriKaz	"It is enabled by default."
+2014-06-08 00:24:40	Moter8	so, why can i see what notmoter8 channel is in
+2014-06-08 00:24:44	dwfreed	I think you guys have access there
+2014-06-08 00:24:46	Moter8	in which*
+2014-06-08 00:25:00	KiriKaz	because he turned it off?
+2014-06-08 00:25:06	floatmastaflex	dwfreed yo, you really need to chill out. are youa puritan?
+2014-06-08 00:25:13	Moter8	KiriKaz, notmoter8 sets mode -i notmoter8
+2014-06-08 00:25:16	dwfreed	oh joy, he's in here too
+2014-06-08 00:25:28	KiriKaz	it's enabled by default
+2014-06-08 00:25:29	◥	GoatAvenger (~GoatAveng@ip68-2-135-177.ph.ph.cox.net) has joined #freenode
+2014-06-08 00:25:30	+erry	huh?
+2014-06-08 00:25:36	KiriKaz	so by turning it off you allowed them to see it
+2014-06-08 00:25:37	Moter8	wait
+2014-06-08 00:25:38	Moter8	itÄs on
+2014-06-08 00:25:38	KiriKaz	-i stands for invis
+2014-06-08 00:25:40	+erry	+i *hides* the stuff. It's default
+2014-06-08 00:25:43	Moter8	now it's on
+2014-06-08 00:25:43	+erry	removing it *shows* it
+2014-06-08 00:25:44	KiriKaz	^
+2014-06-08 00:25:44	Moter8	like
+2014-06-08 00:25:46	Moter8	...
+2014-06-08 00:25:48	GoatAvenger	Is there any specific way to request a cloak here?
+2014-06-08 00:25:49	KiriKaz	basicaly
+2014-06-08 00:25:51	Moter8	== notmoter8 sets mode +i notmoter8
+2014-06-08 00:25:56	KiriKaz	-i shows the channels and +i hides
+2014-06-08 00:25:59	Moter8	i can still whois and see the channels
+2014-06-08 00:26:04	KiriKaz	i can't
+2014-06-08 00:26:08	+erry	Moter8, you can see the channels you share with someone only
+2014-06-08 00:26:09	Moter8	wat
+2014-06-08 00:26:10	KiriKaz	you're on the same channels as him lol
+2014-06-08 00:26:12	+erry	if they're +i
+2014-06-08 00:26:18	KiriKaz	i did it before and it said he was on #reddit-buildapc
+2014-06-08 00:26:20	KiriKaz	now it doesn't
+2014-06-08 00:26:26	KiriKaz	either he left or you fixed it
+2014-06-08 00:26:28	sund	dwfreed: I'd ask in pm for those sorts of things, but even then it may not happen.
+2014-06-08 00:26:30	7F1AAUX1X	Why are you still talking
+2014-06-08 00:26:33	teward	Moter8, if a user has umode +i you can only see what channels you're sharing with the person you're doing the /whois on
+2014-06-08 00:26:37	◣	mtlith (~mtlith@107-222-234-237.lightspeed.cicril.sbcglobal.net) has left #freenode ("Leaving")
+2014-06-08 00:26:40	Moter8	OH
+2014-06-08 00:26:43	KiriKaz	yeah.
+2014-06-08 00:26:52	Moter8	well, it didnt say that
+2014-06-08 00:26:57	Moter8	sorry then, seemed strange
+2014-06-08 00:26:59	KiriKaz	if you whois me you'll see i'm in #freenode only
+2014-06-08 00:27:05	KiriKaz	and if i turn it off (like right now
+2014-06-08 00:27:15	◥	temje (~temje@198.144.157.129) has joined #freenode
+2014-06-08 00:27:26	Moter8	yea
+2014-06-08 00:27:26	KiriKaz	[18:27] * KiriKaz sets mode: -i
+2014-06-08 00:27:28	Moter8	okay
+2014-06-08 00:27:31	⚡	Mikaela is on umode -i and has been for long time and she thinks it's a good think.
+2014-06-08 00:27:41	◥	ckwalsh (~ckwalsh@facebook/engineering/ckwalsh) has joined #freenode
+2014-06-08 00:27:43	7F1AAUX1X	"mIRC", "reddit", shut the hell up already.
+2014-06-08 00:27:45	KiriKaz	lol someone version'd me
+2014-06-08 00:27:54	KiriKaz	ff 7f
+2014-06-08 00:27:57	KiriKaz	gg 7f*
+2014-06-08 00:28:17	◣	Guest46804 (~TomRiddle@pool-71-103-180-51.lsanca.dsl-w.verizon.net) has quit (Changing host)
+2014-06-08 00:28:17	◥	Guest46804 (~TomRiddle@unaffiliated/herecomethedrums) has joined #freenode
+2014-06-08 00:28:28	KiriKaz	first off I mentioned reddit because he /WAS/ on the reddit channel
+2014-06-08 00:28:29	ℹ 	Guest46804 is now known as HarryPotter
+2014-06-08 00:28:36	KiriKaz	second what do you even have against mIRC.
+2014-06-08 00:29:01	◥	sheeldotme (~textual@S0106907240003a33.cg.shawcable.net) has joined #freenode
+2014-06-08 00:29:12	MiniFridge	what's the point of a cloak if it's not gurannteed to hide your IP, that's what I'm wondering
+2014-06-08 00:29:29	sund	MiniFridge: affiliation
+2014-06-08 00:29:31	dwfreed	vanity
+2014-06-08 00:29:32	KiriKaz	what's the point of a computer if it has a chance of breaking
+2014-06-08 00:29:36	dwfreed	or affiliation
+2014-06-08 00:29:54	◣	notmoter8 (533654c7@gateway/web/cgi-irc/kiwiirc.com/ip.83.54.84.199) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-06-08 00:29:57	◥	haniel (~mcorp@unaffiliated/haniel) has joined #freenode
+2014-06-08 00:30:00	MiniFridge	sund, but if I got a cloak, it would be unaffiliated, but I mostly just want to hide my IP without using tor.
+2014-06-08 00:30:19	sund	Well, tor-sasl is best for that purpose.
+2014-06-08 00:30:43	◥	osxdude|MBP (~osxdude@corp.mycclf.org) has joined #freenode
+2014-06-08 00:30:46	◥	MuffinMedic (~MuffinMed@unaffiliated/muffinmedic) has joined #freenode
+2014-06-08 00:30:51	◣	osxdude|MBP (~osxdude@corp.mycclf.org) has quit (Changing host)
+2014-06-08 00:30:51	◥	osxdude|MBP (~osxdude@unaffiliated/osxdude) has joined #freenode
+2014-06-08 00:30:58	MuffinMedic	is there a command to return a list of users in a channel?
+2014-06-08 00:31:09	KiriKaz	./names #channel
+2014-06-08 00:31:10	KiriKaz	i think
+2014-06-08 00:31:17	sheeldotme	any staff here that can help me? I'm getting :-NickServ-	Invalid password for sheeldotme.
+2014-06-08 00:31:28	◥	Becca (3288b22f@gateway/web/cgi-irc/kiwiirc.com/ip.50.136.178.47) has joined #freenode
+2014-06-08 00:31:34	KindOne	KiriKaz: why the . infront of the / ?
+2014-06-08 00:31:37	MuffinMedic	perfect thanks KiriKaz
+2014-06-08 00:31:38	◣	MuffinMedic (~MuffinMed@unaffiliated/muffinmedic) has left #freenode ("Textual IRC Client: www.textualapp.com")
+2014-06-08 00:31:43	KiriKaz	so i don't do the command, KindOne
+2014-06-08 00:31:45	◣	Cooky (~cooky560@unaffiliated/cooky560) has quit
+2014-06-08 00:31:48	◥	reactormonk (~reactormo@2605:6000:ffc0:63:6881:bf9e:212e:a97) has joined #freenode
+2014-06-08 00:31:51	KindOne	KiriKaz: client?
+2014-06-08 00:31:52	KiriKaz	if i did it without the dot it would just query the names lol
+2014-06-08 00:31:53	KiriKaz	yeah
+2014-06-08 00:31:56	reactormonk	how do I get an authcode for setpass?
+2014-06-08 00:31:56	◣	asandweech (~whichsand@64.126.34.156) has quit (Read error: Connection reset by peer)
+2014-06-08 00:32:00	KiriKaz	email
+2014-06-08 00:32:03	KindOne	no, what irc client you use?
+2014-06-08 00:32:04	Moter8	KiriKaz, //
+2014-06-08 00:32:07	teward	reactormonk, ask for a password reset email here
+2014-06-08 00:32:08	KiriKaz	mIRC KindOne
+2014-06-08 00:32:10	KiriKaz	also thanks moter8
+2014-06-08 00:32:12	sund	sheeldotme: do you need a password reset?
+2014-06-08 00:32:13	Moter8	^^
+2014-06-08 00:32:16	teward	reactormonk, and you'll get an email with instructions to the email you registered
+2014-06-08 00:32:16	◥	redspo (0599ea62@gateway/web/cgi-irc/kiwiirc.com/ip.5.153.234.98) has joined #freenode
+2014-06-08 00:32:21	◣	Abhijeet (uid31951@gateway/web/irccloud.com/x-qsqzbuwyakfxbwck) has quit (Quit: Connection closed for inactivity)
+2014-06-08 00:32:22	sheeldotme	sund yes
+2014-06-08 00:32:23	teward	sheeldotme, same thing, ask for a password reset in the channel.
+2014-06-08 00:32:25	◣	GoatAvenger (~GoatAveng@ip68-2-135-177.ph.ph.cox.net) has quit (Changing host)
+2014-06-08 00:32:26	◥	GoatAvenger (~GoatAveng@unaffiliated/goatavenger) has joined #freenode
+2014-06-08 00:32:26	KiriKaz	double / does the same thing Moter8 lol
+2014-06-08 00:32:29	◣	Morpheus4268 (~Morpheus4@unaffiliated/morpheus4268) has quit (Ping timeout: 245 seconds)
+2014-06-08 00:32:30	teward	staffers will have to send the email
+2014-06-08 00:32:36	KindOne	KiriKaz: CTRL+ENTER
+2014-06-08 00:32:36	sund	sheeldotme: please wait for staff. ;)
+2014-06-08 00:32:37	KindOne	/
+2014-06-08 00:32:38	Moter8	/blub
+2014-06-08 00:32:39	◥	asandweech (~whichsand@64.126.34.156) has joined #freenode
+2014-06-08 00:32:40	KiriKaz	/test
+2014-06-08 00:32:44	KiriKaz	TIL
+2014-06-08 00:32:44	Moter8	exactly
+2014-06-08 00:32:45	reactormonk	does a password reset influence the cert auth?
+2014-06-08 00:32:47	sheeldotme	haha yea, I will
+2014-06-08 00:33:04	KindOne	Moter8, // would work for hexchat/xchat, maybe other clients
+2014-06-08 00:33:16	reactormonk	anyway, email plz ;-(
+2014-06-08 00:33:19	KiriKaz	think it does reactormonk
+2014-06-08 00:33:21	◥	Necrose99_ (~Mike@c-98-226-137-16.hsd1.in.comcast.net) has joined #freenode
+2014-06-08 00:33:22	badseed__	.
+2014-06-08 00:33:27	◥	b4dw0lf (~damnfish2@unaffiliated/damnfish20) has joined #freenode
+2014-06-08 00:33:42	◥	Morpheus4268 (~Morpheus4@unaffiliated/morpheus4268) has joined #freenode
+2014-06-08 00:33:42	brabo	or / / works fine in irssi
+2014-06-08 00:33:45	Becca	hi
+2014-06-08 00:33:46	reactormonk	KiriKaz, well, I'll find out out soon enough
+2014-06-08 00:33:54	KiriKaz	:p
+2014-06-08 00:34:00	◥	wazery (~wazery@41.69.24.16) has joined #freenode
+2014-06-08 00:34:12	brabo	ye, irssi '/ /' '//' doesn't work
+2014-06-08 00:34:30	◥	________________ (~noooooooo@c213-100-108-204.cust.tele2.se) has joined #freenode
+2014-06-08 00:34:33	reactormonk	hmmm
+2014-06-08 00:34:37	◣	________________ (~noooooooo@c213-100-108-204.cust.tele2.se) has left #freenode
+2014-06-08 00:34:38	reactormonk	or I'll just register another nick.
+2014-06-08 00:34:45	ℹ 	reactormonk is now known as reactormonk_
+2014-06-08 00:34:53	mniip	is there a relatively easy way to check what account is a nickname identified for?
+2014-06-08 00:35:03	mniip	without hitting some unknown ratelimit like with WHOIS?
+2014-06-08 00:35:04	KiriKaz	[18:35] * redspo (X) invites you to join #ignorant_motherfuckers
+2014-06-08 00:35:17	sund	mniip: /ns info name?
+2014-06-08 00:35:33	mniip	sund, and what will that give me
+2014-06-08 00:35:43	Moter8	try it out?
+2014-06-08 00:35:45	Moter8	^^
+2014-06-08 00:35:55	◣	Necrose99 (~Mike@c-98-226-137-16.hsd1.in.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:36:00	mniip	I don't see any information relevant to my query is what I mean
+2014-06-08 00:36:11	◣	Morpheus4268 (~Morpheus4@unaffiliated/morpheus4268) has quit (Client Quit)
+2014-06-08 00:36:14	mniip	besides
+2014-06-08 00:36:23	mniip	if I /nick to a nickname not grouped to my nick
+2014-06-08 00:36:30	mniip	I am still identified
+2014-06-08 00:36:31	◥	r0ok (~r0ok@unaffiliated/r0ok) has joined #freenode
+2014-06-08 00:36:42	sund	yes.
+2014-06-08 00:37:20	mniip	that query will error then
+2014-06-08 00:37:20	◣	Roberto0309 (~eluderTDC@unaffiliated/roberto0309) has quit (Read error: Connection reset by peer)
+2014-06-08 00:37:34	mniip	/ns info isn't helping
+2014-06-08 00:37:40	brabo	mniip: why is /whois a problem?
+2014-06-08 00:37:41	◣	osxdude|MBP (~osxdude@unaffiliated/osxdude) has quit (Quit: Smell ya later. Time to sleep. Hold the phone. Don't dial the emergency number.)
+2014-06-08 00:37:54	mniip	brabo, because it hits some weird rate limits on occasions
+2014-06-08 00:37:58	◣	Jordach (~Jordach@unaffiliated/jordach) has quit (Ping timeout: 252 seconds)
+2014-06-08 00:37:58	brabo	wut?
+2014-06-08 00:38:06	mniip	even WHO does
+2014-06-08 00:38:16	sund	any staff here?
+2014-06-08 00:38:16	KindOne	rate limit only occurse if you enter the nick twice (that checks for idle time)
+2014-06-08 00:38:33	KindOne	(assuming the person is on a different server than you)
+2014-06-08 00:38:36	mniip	oh
+2014-06-08 00:38:47	◥	Roberto0309 (~eluderTDC@unaffiliated/roberto0309) has joined #freenode
+2014-06-08 00:39:09	mniip	(offtopic: redspo has sent me an invite too)
+2014-06-08 00:39:28	KindOne	rate limiting is kinda annoying, but you get use too it
+2014-06-08 00:39:29	KiriKaz	I have a slight feeling 7F1AAUX1X and redspo are the same person
+2014-06-08 00:39:37	KiriKaz	oh well
+2014-06-08 00:39:46	io__	if a channel changes it status "the channel is +r for now", is it possible to find out when exactly (which time/date) it has changed the status?
+2014-06-08 00:39:52	◣	gogh (~gogh@unaffiliated/gogh) has quit (Remote host closed the connection)
+2014-06-08 00:39:53	mniip	oh well now they're spamming private notices
+2014-06-08 00:40:18	KindOne	io__: check your logs?
+2014-06-08 00:40:24	KiriKaz	status?
+2014-06-08 00:40:24	KiriKaz	do you mean topic
+2014-06-08 00:40:36	◣	Armag3dd0n24 (~Armag3dd0@cpc4-perr14-2-0-cust370.19-1.cable.virginm.net) has quit (Quit: Leaving)
+2014-06-08 00:40:41	io__	no
+2014-06-08 00:41:04	mniip	there is no way to check when channel modes were last altered
+2014-06-08 00:41:05	io__	KiriKaz: i mean if earlier channel dont require registration of nick & now it requires
+2014-06-08 00:41:06	KindOne	you would need to check the logs for mode changes or ask whoever set it
+2014-06-08 00:41:11	mniip	well besides the list modes
+2014-06-08 00:41:35	◣	Necrose99_ (~Mike@c-98-226-137-16.hsd1.in.comcast.net) has quit (Quit: Craws Back to the Crypt (quit))
+2014-06-08 00:41:42	io__	+r is list mode? mniip
+2014-06-08 00:42:00	◣	Meerkat (~meerkat@unaffiliated/meerkat) has quit (Quit: Leaving)
+2014-06-08 00:42:02	mniip	no
+2014-06-08 00:42:03	◥	Necrose99_ (~Mike@c-98-226-137-16.hsd1.in.comcast.net) has joined #freenode
+2014-06-08 00:42:15	mniip	list modes are +eIbq
+2014-06-08 00:42:29	io__	ok thanks mniip
+2014-06-08 00:42:32	7F1AAUX1X	KiriKaz, who the heck is redspo?
+2014-06-08 00:42:35	◥	glebihan__ (~glebihan@unaffiliated/glebihan) has joined #freenode
+2014-06-08 00:42:46	KiriKaz	dunno some dude who invited me to #ingorant_motherfuckers
+2014-06-08 00:42:47	io__	i also get message from KindOne redsop
+2014-06-08 00:42:48	◥	wooks (~wookiee@c-98-233-225-208.hsd1.md.comcast.net) has joined #freenode
+2014-06-08 00:42:50	KiriKaz	ignorant*
+2014-06-08 00:42:53	io__	me too
+2014-06-08 00:42:58	◥	floatingpoint (~TURN@66-189-91-157.dhcp.oxfr.ma.charter.com) has joined #freenode
+2014-06-08 00:43:03	io__	is it spam?
+2014-06-08 00:43:07	mniip	I don't think 7F1AAUX1X is related to redspo
+2014-06-08 00:43:07	KiriKaz	he's probably just inviting people who chat on freenode one by one lol
+2014-06-08 00:43:11	KiriKaz	just pass it off as spam
+2014-06-08 00:43:16	◥	Armag3dd0n24 (~Armag3dd0@cpc4-perr14-2-0-cust370.19-1.cable.virginm.net) has joined #freenode
+2014-06-08 00:43:23	Chiyo	no one is in #ingorant_motherfuckers anymore
+2014-06-08 00:43:27	◥	busoni (a6aa2299@gateway/web/cgi-irc/kiwiirc.com/ip.166.170.34.153) has joined #freenode
+2014-06-08 00:43:29	KiriKaz	it's ignorant
+2014-06-08 00:43:31	KiriKaz	not ingorant
+2014-06-08 00:43:35	KiriKaz	#ignorant_motherfuckers
+2014-06-08 00:43:36	Metaleer	Chiyo: Wrong spelling.
+2014-06-08 00:43:46	Chiyo	I only went on the one posted above :P
+2014-06-08 00:43:50	◥	marty3333 (~johndoe@78.162.103.159) has joined #freenode
+2014-06-08 00:44:26	Moter8	meh
+2014-06-08 00:44:35	◣	Becca (3288b22f@gateway/web/cgi-irc/kiwiirc.com/ip.50.136.178.47) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-06-08 00:44:45	◣	busoni (a6aa2299@gateway/web/cgi-irc/kiwiirc.com/ip.166.170.34.153) has quit (Client Quit)
+2014-06-08 00:44:58	◣	decoponio (~decoponio@pon059-128.kcn.ne.jp) has quit (Quit: Leaving...)
+2014-06-08 00:45:05	io__	which is the good & affordable motherboard in the market?
+2014-06-08 00:45:20	Metaleer	io__: Maybe ##hardware can help you. :-)
+2014-06-08 00:45:23	Moter8	try #reddit-buildapc  ?
+2014-06-08 00:45:23	7F1AAUX1X	io__, the one from AsRock
+2014-06-08 00:45:25	Moter8	or that y
+2014-06-08 00:45:30	◥	Emilie18 (~Emilie18@93.115.95.5) has joined #freenode
+2014-06-08 00:45:32	Emilie18	 Hi! I give you some videos. I hope you like! http://j.mp/Smyc8S
+2014-06-08 00:45:37	7F1AAUX1X	Oh yeah
+2014-06-08 00:45:42	7F1AAUX1X	give us that child porn
+2014-06-08 00:45:44	◣	Emilie18 (~Emilie18@93.115.95.5) has quit (Killed (idoru (Spam is off topic on freenode.)))
+2014-06-08 00:45:48	7F1AAUX1X	I bet you're using private internet access VPN
+2014-06-08 00:45:53	Metaleer	7F1AAUX1X: Just ignore it.
+2014-06-08 00:45:54	Chiyo	don't comment on the spam :)
+2014-06-08 00:45:57	◣	marty3333 (~johndoe@78.162.103.159) has left #freenode
+2014-06-08 00:45:57	io__	oh that is nice Moter8
+2014-06-08 00:47:07	◣	mihi (~mihi@p5B078E3E.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2014-06-08 00:47:08	◣	floatmastaflex (~TURN@66-189-91-157.dhcp.oxfr.ma.charter.com) has quit (Ping timeout: 252 seconds)
+2014-06-08 00:47:41	the_Wizard	in iptables, when opening a port for a IRC server, should i put the ports for TCP or UDP ?
+2014-06-08 00:47:43	sund	Again though? :/
+2014-06-08 00:47:43	mniip	wow that referral
+2014-06-08 00:47:49	7F1AAUX1X	the_Wizard, TCP
+2014-06-08 00:47:50	bcode	the_Wizard, tcp
+2014-06-08 00:48:06	the_Wizard	thanks guys
+2014-06-08 00:48:09	◣	tonythomas|zzz (uid25971@gateway/web/irccloud.com/x-eucyygttkyzscsgw) has quit (Quit: Connection closed for inactivity)
+2014-06-08 00:48:13	◣	pydsigner (~Thunderbi@unaffiliated/pydsigner) has quit (Quit: pydsigner)
+2014-06-08 00:48:21	ℹ 	HarryPotter is now known as TomRiddle
+2014-06-08 00:48:31	TheFakeazneD525	Oi
+2014-06-08 00:48:36	TheFakeazneD525	that invitespammer is back
+2014-06-08 00:48:44	◣	ckwalsh (~ckwalsh@facebook/engineering/ckwalsh) has quit (Ping timeout: 245 seconds)
+2014-06-08 00:49:23	◥	maximski (~maximski@77-20-48-40-dynip.superkabel.de) has joined #freenode
+2014-06-08 00:49:35	the_Wizard	how to open a port range in iptables ?
+2014-06-08 00:49:36	7F1AAUX1X	Bah; that was CyberGhost VPN
+2014-06-08 00:49:52	the_Wizard	do i put each port individually
+2014-06-08 00:49:55	the_Wizard	or can i do it simpler ?
+2014-06-08 00:50:19	7F1AAUX1X	the_Wizard, maybe something like 1-65535 ?
+2014-06-08 00:51:05	◥	linuxguy101 (~ssvlack@unaffiliated/linuxguy101) has joined #freenode
+2014-06-08 00:51:18	◥	gpa (~gpa@93.109.21.22) has joined #freenode
+2014-06-08 00:51:33	◣	Armag3dd0n24 (~Armag3dd0@cpc4-perr14-2-0-cust370.19-1.cable.virginm.net) has quit (Quit: Leaving)
+2014-06-08 00:51:43	◥	samdroid1 (b4c89afe@gateway/web/cgi-irc/kiwiirc.com/ip.180.200.154.254) has joined #freenode
+2014-06-08 00:51:45	◣	digiv (~textual@12.130.116.216) has quit (Remote host closed the connection)
+2014-06-08 00:51:49	gpa	hey guys! any staff here?? need a password reminder
+2014-06-08 00:51:53	◣	Kolega2357 (~Kolega235@wikipedia/Kolega2357) has quit (Quit: Leaving)
+2014-06-08 00:51:54	◥	Guest87835 (Guest87835@bas2-london47-3096695877.dsl.bell.ca) has joined #freenode
+2014-06-08 00:52:37	◣	samdroid1 (b4c89afe@gateway/web/cgi-irc/kiwiirc.com/ip.180.200.154.254) has left #freenode
+2014-06-08 00:52:43	◣	cy (~cy@unaffiliated/cy) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:53:27	◣	maximski (~maximski@77-20-48-40-dynip.superkabel.de) has quit (Client Quit)
+2014-06-08 00:53:50	◣	redspo (0599ea62@gateway/web/cgi-irc/kiwiirc.com/ip.5.153.234.98) has left #freenode
+2014-06-08 00:54:46	◥	Streusel (~Anonymous@unaffiliated/streusel) has joined #freenode
+2014-06-08 00:55:48	◥	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has joined #freenode
+2014-06-08 00:56:06	◣	^v (~notnot^v@2601:4:4500:887:ad93:8a80:ac17:f0f6) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:56:09	mniip	[01:54:27] * You have been invited to #ignorant_motherfuckers by 7F1AAUX1X (verne.freenode.net)
+2014-06-08 00:56:10	mniip	uh oh
+2014-06-08 00:56:18	◥	petrushka (~asakharov@24.60.79.55) has joined #freenode
+2014-06-08 00:56:44	Chiyo	just ignore them :)
+2014-06-08 00:56:45	KiriKaz	knew it.
+2014-06-08 00:56:51	mniip	Chiyo, yeah yeah I know it
+2014-06-08 00:56:54	KiriKaz	definitely called it
+2014-06-08 00:56:54	gpa	thanks a lot redspo
+2014-06-08 00:57:00	KiriKaz	guys
+2014-06-08 00:57:00	◥	digiv (~textual@12.130.116.216) has joined #freenode
+2014-06-08 00:57:03	7F1AAUX1X	KiriKaz, redspo gave me op on this channel
+2014-06-08 00:57:03	KiriKaz	just ignore it seriously
+2014-06-08 00:57:29	◣	nvmme (~nvmme@xdsl-87-78-182-218.netcologne.de) has quit (Client Quit)
+2014-06-08 00:57:34	KiriKaz	lol right
+2014-06-08 00:58:06	◣	reactormonk_ (~reactormo@2605:6000:ffc0:63:6881:bf9e:212e:a97) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:58:33	gehidore	gpa: if redspo offered you a password reset or hint you shouldn't respond, they're not staff
+2014-06-08 00:58:50	◥	Javert (~Incredibl@modemcable068.36-177-173.mc.videotron.ca) has joined #freenode
+2014-06-08 00:58:52	◥	icesword (~iceman@unaffiliated/icesword) has joined #freenode
+2014-06-08 00:58:57	◥	esion (~esion@host86-180-232-233.range86-180.btcentralplus.com) has joined #freenode
+2014-06-08 00:59:05	KiriKaz	redspo isn't on this channel anymore
+2014-06-08 00:59:09	◥	jeer (~jeer@cpe-075-176-169-215.sc.res.rr.com) has joined #freenode
+2014-06-08 00:59:10	KiriKaz	he left 5 mins ago
+2014-06-08 00:59:21	◣	icesword (~iceman@unaffiliated/icesword) has left #freenode
+2014-06-08 00:59:45	◣	Moter8 (~Moter8@unaffiliated/moter8) has quit (Quit: Leaving)
+2014-06-08 00:59:51	ℹ 	NetSplitAGAIN is now known as Kingdom
+2014-06-08 01:00:01	◣	wooks (~wookiee@c-98-233-225-208.hsd1.md.comcast.net) has quit (Quit: Lost terminal)
+2014-06-08 01:00:19	◥	MasterSh1ke (~MasterSha@cpe-24-90-77-15.nyc.res.rr.com) has joined #freenode
+2014-06-08 01:00:38	MasterSh1ke	hey why is my nickname ALWAYS "temporarily unavailable"? can someone help please?
+2014-06-08 01:00:39	gpa	gehidore i am not that experienced in here :) i will keep that in mind for next time!
+2014-06-08 01:00:59	◣	zleap (~psutton@dsl-217-155-46-222.zen.co.uk) has quit (Quit: leaving)
+2014-06-08 01:01:30	ℹ 	MasterSh1ke is now known as allurbase
+2014-06-08 01:01:38	gehidore	gpa: you should only discuss password stuff with people who are voiced and their cloak is @freenode/staff/<nickname>
+2014-06-08 01:01:46	gehidore	otherwise you're just being phished

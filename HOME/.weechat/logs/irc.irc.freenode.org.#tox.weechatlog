@@ -1,0 +1,201 @@
+2014-06-05 17:52:12	◥	body (~body@188.24.63.232) has joined #tox
+2014-06-05 17:52:12	ℹ 	Topic for #tox is "Official Channel for Project Tox, the Skype replacment || Tox takes the world || Donate: https://www.gittip.com/ProjectTox || https://tox.im || Github: https://github.com/irungentoo/ProjectTox-Core and https://github.com/tox || Wiki: http://wiki.tox.im || Offtopic? #tox-ontopic >> join via Tox: ^groupbot, message invite || dev questions? #tox-dev"
+2014-06-05 17:52:12	ℹ 	Topic set by stqism (~stqism@freebsd/user/stqism) on Thu, 08 May 2014 21:16:20
+2014-06-05 17:52:12	ℹ 	Channel #tox: 212 nicks (6 ops, 0 voices, 206 normals)
+2014-06-05 17:52:15	ℹ 	Mode #tox [+Ccgnptf #tox-unregistered]
+2014-06-05 17:52:15	ℹ 	Channel created on Sun, 08 Nov 2009 21:39:15
+2014-06-05 17:53:07	◣	urras (~urras@unaffiliated/cl34r) has quit (Ping timeout: 252 seconds)
+2014-06-05 17:54:13	◥	Daniellynet (~Daniellyn@x1-6-74-44-01-e6-23-22.cpe.webspeed.dk) has joined #tox
+2014-06-05 17:57:09	◥	Joefish (~Joefish@p4FDAB383.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 17:59:50	body	hello, i installed tox on my system, archlinux, where tox it's installed by default on a linux machine ?
+2014-06-05 18:00:19	SylvieLorxu	What package did you install, exactly?
+2014-06-05 18:00:44	SylvieLorxu	Tox consists of "toxcore" (library) and a client
+2014-06-05 18:00:51	SylvieLorxu	But you can use any client you want, pretty much
+2014-06-05 18:01:27	body	aaa, i installed tox-git
+2014-06-05 18:01:34	body	wich is tox-core if i'm not wrong
+2014-06-05 18:01:35	SylvieLorxu	Then you probably only installed toxcore
+2014-06-05 18:01:40	ℹ 	voldyman_ is now known as voldyman
+2014-06-05 18:01:47	SylvieLorxu	Yeah, you'll need a client like venom
+2014-06-05 18:01:49	body	i saw on my repo , there is a venom-vit, which 
+2014-06-05 18:01:53	body	yea let me install :D
+2014-06-05 18:02:10	SylvieLorxu	There is also Toxic for CLI stuff, there is a fair choice :P
+2014-06-05 18:02:15	◣	astonex (~soft@resnet-32.nat.lancs.ac.uk) has quit (Remote host closed the connection)
+2014-06-05 18:02:28	body	uh works even on cli :D
+2014-06-05 18:02:36	body	can't wait until tox release :D
+2014-06-05 18:02:45	body	i mean with videocall too
+2014-06-05 18:02:52	body	doh, i'm tired about skype
+2014-06-05 18:02:55	SylvieLorxu	toxic even does audio calling (but no video calling)
+2014-06-05 18:03:18	body	yep, no one does video calling yet right ?
+2014-06-05 18:03:18	SylvieLorxu	I think everyone here is kinda sick of Skype
+2014-06-05 18:03:21	◥	sabayonuser (~sabayonus@c-98-226-137-16.hsd1.in.comcast.net) has joined #tox
+2014-06-05 18:03:29	SylvieLorxu	I believe no client does video calling yet, no
+2014-06-05 18:03:38	Imperative	body, afaik video calling isn't currently working in the core either
+2014-06-05 18:03:49	SylvieLorxu	Venom should get audio (and video?) this or next week
+2014-06-05 18:03:50	Imperative	so yeah, can
+2014-06-05 18:03:51	◣	Icedream (~icedream@unaffiliated/icedream2k9) has quit (Quit: A lol made me boom.)
+2014-06-05 18:03:57	Imperative	't try to implement it :(
+2014-06-05 18:04:14	◥	Icedream (~icedream@unaffiliated/icedream2k9) has joined #tox
+2014-06-05 18:04:18	body	:D
+2014-06-05 18:04:23	body	can't wait
+2014-06-05 18:04:23	body	:D
+2014-06-05 18:04:23	◥	niao (~niao@189.5.39.63) has joined #tox
+2014-06-05 18:04:38	◥	astonex (~mouchat@resnet-55.nat.lancs.ac.uk) has joined #tox
+2014-06-05 18:04:40	body	so i opend the venom
+2014-06-05 18:04:44	body	how it works
+2014-06-05 18:04:49	body	i have to create an account
+2014-06-05 18:04:56	body	or just add the name the other user has
+2014-06-05 18:05:07	Imperative	no, just add a friend's id or share yours :)
+2014-06-05 18:05:13	◣	Mortimer41 (~Laman@194.228.11.201) has quit (Quit: Leaving.)
+2014-06-05 18:05:27	body	are you someone on ? :D i'd like to see
+2014-06-05 18:05:31	body	how it is
+2014-06-05 18:05:33	body	:P
+2014-06-05 18:05:44	Imperative	sure
+2014-06-05 18:05:46	Imperative	add AAC667B9EB1649982D2B1B08240309936A69266F894B3CD9278AED5ADFADE9485639D8F2FF28
+2014-06-05 18:05:51	body	woooooooot
+2014-06-05 18:05:52	body	:))
+2014-06-05 18:07:15	SylvieLorxu	They're still working on a nickname system, but I like the not having to sign up part
+2014-06-05 18:07:53	◣	Sanchal (~Sanchal@173.216.159.218) has quit (Ping timeout: 276 seconds)
+2014-06-05 18:11:21	◣	badon (~badon@pdpc/supporter/active/badon) has quit (Read error: Connection reset by peer)
+2014-06-05 18:12:53	◥	Sanchal (~Sanchal@173.216.159.218) has joined #tox
+2014-06-05 18:12:57	Imperative	https://github.com/ItsDuke/Tox-UI/blob/master/current.jpg
+2014-06-05 18:12:57	Imperative	I'm assuming the extra circle around the status indicator means that there are new messages?
+2014-06-05 18:13:10	body	hmm what about when you reinstall tox, you gonna lose the users you added?  or they are on the server saved ?
+2014-06-05 18:13:29	SylvieLorxu	Imperative: Yup
+2014-06-05 18:13:34	◥	badon (~badon@pdpc/supporter/active/badon) has joined #tox
+2014-06-05 18:13:42	SylvieLorxu	body: They're saved together with your key
+2014-06-05 18:13:45	Imperative	body, it's saved in a file, currently
+2014-06-05 18:13:51	Imperative	locally*
+2014-06-05 18:13:53	SylvieLorxu	Venom saves it in ~/.config/tox/data
+2014-06-05 18:14:34	body	aaaa
+2014-06-05 18:14:36	◣	toweI (~ToweI@gateway/tor-sasl/towei) has quit (Quit: Leaving.)
+2014-06-05 18:14:49	body	got it, so i have to save my file somewhere :D
+2014-06-05 18:14:52	SylvieLorxu	Nothing is saved on any server, there is no server :P
+2014-06-05 18:15:03	body	that's awesome
+2014-06-05 18:15:24	◣	symb (~IRC@2a02:8109:8980:540:4df5:e322:cf1e:7957) has quit (Ping timeout: 265 seconds)
+2014-06-05 18:15:39	SylvieLorxu	(Well, nicknames will be on a server, but you should be able to keep sharing keys AFAIK so that's just a convenience not absolutely necessary for the network)
+2014-06-05 18:17:04	◥	symb (~IRC@2a02:8109:8980:540:4df5:e322:cf1e:7957) has joined #tox
+2014-06-05 18:17:18	body	if i was a bit richer , i will like to donate something...but as i am not.... you deserve this guys 
+2014-06-05 18:20:02	zetok	venom is soon to have audio in master, I think
+2014-06-05 18:21:05	Imperative	what does venom use to capture/play audio?
+2014-06-05 18:21:06	Imperative	openal?
+2014-06-05 18:21:43	zetok	yep
+2014-06-05 18:23:12	Imperative	ah alright
+2014-06-05 18:26:30	◥	toweI (~ToweI@gateway/tor-sasl/towei) has joined #tox
+2014-06-05 18:27:33	◥	Scrivener (~scrivener@216-177-186-188.block0.gvtc.com) has joined #tox
+2014-06-05 18:27:33	◣	Scrivener (~scrivener@216-177-186-188.block0.gvtc.com) has quit (Changing host)
+2014-06-05 18:27:34	◥	Scrivener (~scrivener@unaffiliated/scrivener) has joined #tox
+2014-06-05 18:36:55	◥	MindlessDrone (~MindlessD@unaffiliated/mindlessdrone) has joined #tox
+2014-06-05 18:50:23	ℹ 	sabayonuser is now known as necrose99
+2014-06-05 19:00:28	◣	niao (~niao@189.5.39.63) has quit (Ping timeout: 260 seconds)
+2014-06-05 19:01:45	◣	paranoids (~markus@81.94.53.5) has quit (Quit: Leaving.)
+2014-06-05 19:03:14	◣	derk0pf (~derk0pf@p5DDC3AB6.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-06-05 19:04:21	◥	derk0pf (~derk0pf@p5DDC18DB.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 19:12:35	◥	kriks (~kristina@161.167.191.90.dyn.estpak.ee) has joined #tox
+2014-06-05 19:15:52	◥	Mortimer41 (~Laman@194.228.11.201) has joined #tox
+2014-06-05 19:19:30	◣	devnull_64 (~devnull@host82-177-dynamic.56-82-r.retail.telecomitalia.it) has quit (Quit: devnull_64)
+2014-06-05 19:22:35	◥	niao (~niao@189.5.39.63) has joined #tox
+2014-06-05 19:25:10	◣	l3lu3 (~l3lu3@unaffiliated/l3lu3) has quit (Quit: leaving)
+2014-06-05 19:27:03	◥	l3lu3 (~l3lu3@unaffiliated/l3lu3) has joined #tox
+2014-06-05 19:32:47	◥	sogatori_ (~quassel@p4FF76084.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 19:35:46	◣	sogatori (~quassel@p4FF76AF8.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2014-06-05 19:36:19	◥	blackdev1l (~Nick@host171-86-dynamic.22-79-r.retail.telecomitalia.it) has joined #tox
+2014-06-05 19:38:56	◣	Joefish (~Joefish@p4FDAB383.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2014-06-05 19:43:09	◥	devnull_64 (~devnull@host131-20-dynamic.16-79-r.retail.telecomitalia.it) has joined #tox
+2014-06-05 19:44:01	◣	stal[RT] (sss@unaffiliated/stal) has quit (Quit: ZNC - http://znc.in)
+2014-06-05 19:44:21	◥	stal (sss@unaffiliated/stal) has joined #tox
+2014-06-05 19:44:27	◥	urras (~urras@unaffiliated/cl34r) has joined #tox
+2014-06-05 19:56:47	◣	zulf (~sylvain@ate01.wan.eurafibre.fr) has quit (Quit: Quitte)
+2014-06-05 20:04:55	◥	Watball (~Watball@f124242.upc-f.chello.nl) has joined #tox
+2014-06-05 20:05:59	◥	Azertify (~azertify@cpc13-burn8-2-0-cust25.10-1.cable.virginm.net) has joined #tox
+2014-06-05 20:06:03	Azertify	Hey
+2014-06-05 20:08:07	◥	link (~link@p5DCE4451.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 20:08:20	ℹ 	link is now known as Guest35208
+2014-06-05 20:09:10	◣	dreamon (~dreamon@unaffiliated/dreamon) has quit (Ping timeout: 264 seconds)
+2014-06-05 20:10:07	◥	Lumen (~anton@host109-147-98-199.range109-147.btcentralplus.com) has joined #tox
+2014-06-05 20:10:40	◣	Guest35208 (~link@p5DCE4451.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-05 20:11:19	◣	blackdev1l (~Nick@host171-86-dynamic.22-79-r.retail.telecomitalia.it) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2014-06-05 20:13:48	◥	Joefish (~Joefish@p4FDAB383.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 20:14:45	◣	infirit (~infirit@D97AB3D7.cm-3-3c.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2014-06-05 20:15:28	◥	infirit (~infirit@D97AB3D7.cm-3-3c.dynamic.ziggo.nl) has joined #tox
+2014-06-05 20:20:11	◣	Azertify (~azertify@cpc13-burn8-2-0-cust25.10-1.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 20:20:15	◥	Murray_B (~Murray_B@f054014115.adsl.alicedsl.de) has joined #tox
+2014-06-05 20:20:39	Murray_B	Hi!
+2014-06-05 20:21:52	◣	Joefish (~Joefish@p4FDAB383.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-05 20:30:51	◥	Azertify (~azertify@cpc13-burn8-2-0-cust25.10-1.cable.virginm.net) has joined #tox
+2014-06-05 20:32:04	◣	Lumen (~anton@host109-147-98-199.range109-147.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2014-06-05 20:32:51	◣	sogatori_ (~quassel@p4FF76084.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-05 20:35:40	◣	jurgenhaas (~jurgenhaa@HSI-KBW-109-192-211-053.hsi6.kabel-badenwuerttemberg.de) has quit (Ping timeout: 260 seconds)
+2014-06-05 20:49:14	◣	lullerhaus (~OnuPleb@lullerhaus.eu) has quit (Read error: Connection reset by peer)
+2014-06-05 20:49:30	◥	sheerun (~sheerun@89-76-146-175.dynamic.chello.pl) has joined #tox
+2014-06-05 20:49:34	◥	lullerhaus (~OnuPleb@lullerhaus.eu) has joined #tox
+2014-06-05 20:52:12	◣	crxz0193 (~crxz0193@117.192.11.229) has quit (Remote host closed the connection)
+2014-06-05 21:09:00	◥	dreamon (~dreamon@unaffiliated/dreamon) has joined #tox
+2014-06-05 21:12:52	◥	sogatori (~quassel@p4FF76084.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 21:13:33	◥	Schlumpf (~quassel@p5090F45A.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 21:18:20	◣	jackneill (~jackneill@unaffiliated/jackneill) has quit (Read error: Connection reset by peer)
+2014-06-05 21:21:46	body	hou!
+2014-06-05 21:22:24	stal	ha
+2014-06-05 21:30:22	Murray_B	Hm…
+2014-06-05 21:33:26	ℹ 	Rev|SleepingFox is now known as TheReverend403
+2014-06-05 21:36:07	◣	Murray_B (~Murray_B@f054014115.adsl.alicedsl.de) has quit (Quit: WeeChat 0.4.3)
+2014-06-05 21:40:10	◥	jackneill (~jackneill@unaffiliated/jackneill) has joined #tox
+2014-06-05 21:40:19	◣	jackneill (~jackneill@unaffiliated/jackneill) has quit (Read error: Connection reset by peer)
+2014-06-05 21:43:55	◣	toweI (~ToweI@gateway/tor-sasl/towei) has quit (Ping timeout: 272 seconds)
+2014-06-05 21:47:06	◥	jackneill (~jackneill@unaffiliated/jackneill) has joined #tox
+2014-06-05 21:48:27	◣	kalio (~kalio@unaffiliated/kalio) has quit (Read error: Connection reset by peer)
+2014-06-05 21:50:59	◥	kalio (~kalio@c-68-41-25-67.hsd1.mi.comcast.net) has joined #tox
+2014-06-05 21:51:00	◣	kalio (~kalio@c-68-41-25-67.hsd1.mi.comcast.net) has quit (Changing host)
+2014-06-05 21:51:00	◥	kalio (~kalio@unaffiliated/kalio) has joined #tox
+2014-06-05 22:00:29	◥	toweI (~ToweI@gateway/tor-sasl/towei) has joined #tox
+2014-06-05 22:07:10	◥	retux (~retux@p5DC7F474.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 22:07:19	◥	_retux_ (~retux@p5DC7F474.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 22:07:19	◥	__retux__ (~retux@p5DC7F474.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 22:07:59	◥	MaPi_svk (~mapi@178.253.162.229) has joined #tox
+2014-06-05 22:10:31	◣	muah (~ivan@87.120.193.208) has quit (Quit: Lost terminal)
+2014-06-05 22:11:06	◥	Joefish (~Joefish@p4FDAB383.dip0.t-ipconnect.de) has joined #tox
+2014-06-05 22:12:26	◥	ro_ (~ro@2606:6000:504a:f600:219:d1ff:fe85:dd01) has joined #tox
+2014-06-05 22:33:53	◣	Royalb15 (~Royalb15@cetn-04-2064.dsl.iowatelecom.net) has quit (Quit: Leaving)
+2014-06-05 22:39:08	◣	MindlessDrone (~MindlessD@unaffiliated/mindlessdrone) has quit (Quit: MindlessDrone)
+2014-06-05 22:40:37	◥	netcarver (~netcarver@7.191.125.91.dyn.plus.net) has joined #tox
+2014-06-05 22:42:11	◣	toweI (~ToweI@gateway/tor-sasl/towei) has quit (Ping timeout: 272 seconds)
+2014-06-05 22:43:02	◥	toweI (~ToweI@gateway/tor-sasl/towei) has joined #tox
+2014-06-05 22:43:14	◣	phoxmeh (~phox@108-235-225-111.lightspeed.tukrga.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2014-06-05 22:49:21	◣	klaas (~klaas@simply.kla.as) has quit (Remote host closed the connection)
+2014-06-05 22:53:44	◥	klaas (~klaas@simply.kla.as) has joined #tox
+2014-06-05 22:54:12	◣	niao (~niao@189.5.39.63) has quit (Quit: Leaving)
+2014-06-05 22:55:42	◣	klaas (~klaas@simply.kla.as) has quit (Remote host closed the connection)
+2014-06-05 22:56:01	◥	Lumen (~anton@host109-147-98-199.range109-147.btcentralplus.com) has joined #tox
+2014-06-05 22:58:41	◣	MaPi_svk (~mapi@178.253.162.229) has quit (Quit: Leaving)
+2014-06-05 22:59:05	◥	n0n0 (~n0n0___@ssl-air2.ssl.berkeley.edu) has joined #tox
+2014-06-05 23:04:55	◣	n0n0 (~n0n0___@ssl-air2.ssl.berkeley.edu) has quit (Ping timeout: 265 seconds)
+2014-06-05 23:05:25	◥	klaas (~klaas@simply.kla.as) has joined #tox
+2014-06-05 23:06:49	◣	Lumen (~anton@host109-147-98-199.range109-147.btcentralplus.com) has quit (Ping timeout: 260 seconds)
+2014-06-05 23:07:31	◣	toweI (~ToweI@gateway/tor-sasl/towei) has quit (Ping timeout: 272 seconds)
+2014-06-05 23:10:15	◣	Schlumpf (~quassel@p5090F45A.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-06-05 23:15:10	◣	Azertify (~azertify@cpc13-burn8-2-0-cust25.10-1.cable.virginm.net) has quit (Quit: WeeChat 0.4.3)
+2014-06-05 23:17:08	◥	niao (~niao@189.5.39.63) has joined #tox
+2014-06-05 23:17:13	◥	toweI (~ToweI@gateway/tor-sasl/towei) has joined #tox
+2014-06-05 23:21:08	◥	sudden6 (~christoph@194-118-6-153.adsl.highway.telekom.at) has joined #tox
+2014-06-05 23:21:31	◣	sonOfRa (sonOfRa@btbn.de) has quit (Quit: Bye!)
+2014-06-05 23:23:56	◥	sonOfRa (sonOfRa@btbn.de) has joined #tox
+2014-06-05 23:30:22	◣	mrueg (~mrueg@gentoo/developer/mrueg) has quit (Remote host closed the connection)
+2014-06-05 23:31:32	◥	mrueg (~mrueg@gentoo/developer/mrueg) has joined #tox
+2014-06-05 23:40:28	◥	Lumen (~anton@host109-147-98-199.range109-147.btcentralplus.com) has joined #tox
+2014-06-05 23:43:16	◥	atata (~atair@krlh-5f71cab9.pool.mediaWays.net) has joined #tox
+2014-06-05 23:43:20	◥	greenbagels (~gb@90.220.27.249) has joined #tox
+2014-06-05 23:45:33	◥	phoxmeh (~phox@108-235-225-111.lightspeed.tukrga.sbcglobal.net) has joined #tox
+2014-06-05 23:49:28	◣	niekas (~strazdas@unaffiliated/strazdas) has quit (Quit: Leaving.)
+2014-06-05 23:58:05	◣	sudden6 (~christoph@194-118-6-153.adsl.highway.telekom.at) has quit (Ping timeout: 265 seconds)
+2014-06-06 00:00:36	◣	jackneill (~jackneill@unaffiliated/jackneill) has quit (Ping timeout: 245 seconds)
+2014-06-06 00:01:54	◣	greenbagels (~gb@90.220.27.249) has quit (Quit: Leaving)
+2014-06-06 00:13:09	◥	klixa (~klixa@unaffiliated/klixa) has joined #tox
+2014-06-06 00:20:42	◥	FrozenCow (~FrozenCow@dhcp-089-099-057-228.chello.nl) has joined #tox
+2014-06-06 00:25:37	◣	GEEGEEGEE (~brb@cpc8-sprt2-2-0-cust26.17-2.cable.virginm.net) has quit (Quit: Leaving)
+2014-06-06 00:27:27	◥	sudden6 (~anonymous@194-118-6-153.adsl.highway.telekom.at) has joined #tox
+2014-06-06 00:28:10	@stqism	SylvieLorxu: So outdated
+2014-06-06 00:29:23	◣	netcarver (~netcarver@7.191.125.91.dyn.plus.net) has quit (Quit: Leaving)
+2014-06-06 00:29:50	SylvieLorxu	stqism: ?
+2014-06-06 00:30:32	◣	sidkfan (~sid@x2f226ab.dyn.telefonica.de) has quit (Quit: Leaving)
+2014-06-06 00:30:36	@stqism	SylvieLorxu: Screenshots
+2014-06-06 00:32:04	◥	GEEGEEGEE (~brb@cpc8-sprt2-2-0-cust26.17-2.cable.virginm.net) has joined #tox
+2014-06-06 00:35:33	◥	AnoAnon (~AnoAnon@197.37.125.156) has joined #tox

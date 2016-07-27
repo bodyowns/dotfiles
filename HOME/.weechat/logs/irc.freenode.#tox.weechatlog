@@ -1,0 +1,452 @@
+2014-12-08 22:44:48	▬▬▶	body (~body@host69-95-dynamic.45-79-r.retail.telecomitalia.it) has joined #tox
+2014-12-08 22:44:48	ℹ 	Topic for #tox is "Official Channel for Tox, the secure, p2p, distributed, Skype replacement || Donate: https://donate.tox.im || Github: https://github.com/irungentoo/toxcore and https://github.com/Tox || Wiki: https://wiki.tox.im || Offtopic? #tox-offtopic >> join via Tox: ^groupbot, message "invite" || dev questions? #tox-dev || https://toxme.se || http://utox.org || https://support.tox.im"
+2014-12-08 22:44:48	ℹ 	Topic set by NikolaiToryzin (~stqism@freebsd/user/stqism) on Sun, 07 Dec 2014 13:23:43
+2014-12-08 22:44:48	ℹ 	Channel #tox: 308 nicks (7 ops, 1 voice, 300 normals)
+2014-12-08 22:44:51	ℹ 	Channel created on Sun, 08 Nov 2009 21:39:15
+2014-12-08 22:45:20	◀▬▬	Matthai (~Matthai@unaffiliated/matthai) has quit (Quit: sudo reboot --with-bluescreen)
+2014-12-08 22:45:37	body	hello, i'm getting this error when i try to compile tox-git, somebody can give me some help pls  ? https://bpaste.net/show/f404d21ba9e5
+2014-12-08 22:45:50	@NikolaiToryzin	What's tox-git?
+2014-12-08 22:46:07	@NikolaiToryzin	body, ^
+2014-12-08 22:46:15	body	https://aur.archlinux.org/packages/tox-git/
+2014-12-08 22:46:37	@NikolaiToryzin	Oh, Arch!
+2014-12-08 22:46:47	@NikolaiToryzin	We don't support anything in the AUR at all.
+2014-12-08 22:47:05	@NikolaiToryzin	We can help you install sodium and toxcore from source though
+2014-12-08 22:47:17	body	NikolaiToryzin: i will really like to
+2014-12-08 22:47:19	body	:D
+2014-12-08 22:47:38	body	sodium is ? NikolaiToryzin 
+2014-12-08 22:48:32	@NikolaiToryzin	body, Skip the package installing steps https://github.com/irungentoo/toxcore/blob/master/INSTALL.md
+2014-12-08 22:49:26	body	NikolaiToryzin: skip ?
+2014-12-08 22:49:47	@NikolaiToryzin	body, Start at You should get and install libsodium:
+2014-12-08 22:50:13	body	NikolaiToryzin: ok let me try
+2014-12-08 22:58:43	◀▬▬	superctr (~ctr@c83-252-174-83.bredband.comhem.se) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2014-12-08 23:01:06	▬▬▶	Matthai (~Matthai@mail.zidar-op.si) has joined #tox
+2014-12-08 23:01:06	◀▬▬	Matthai (~Matthai@mail.zidar-op.si) has quit (Changing host)
+2014-12-08 23:01:06	▬▬▶	Matthai (~Matthai@unaffiliated/matthai) has joined #tox
+2014-12-08 23:02:32	◀▬▬	netcarver (~netcarver@0.77.208.46.dyn.plus.net) has quit (Ping timeout: 244 seconds)
+2014-12-08 23:03:24	◀▬▬	joxep (~joxep@ec2-54-194-35-140.eu-west-1.compute.amazonaws.com) has left #tox
+2014-12-08 23:04:00	▬▬▶	joxep (~joxep@ec2-54-194-35-140.eu-west-1.compute.amazonaws.com) has joined #tox
+2014-12-08 23:04:02	◀▬▬	j0hnc4114n7 (~John@162-194-136-116.lightspeed.stlsmo.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-12-08 23:05:45	◀▬▬	STvLKER (~stvlker@aftr-37-201-168-61.unity-media.net) has quit (Read error: Connection reset by peer)
+2014-12-08 23:10:37	▬▬▶	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has joined #tox
+2014-12-08 23:14:30	◀▬▬	s0m30n3 (~christoph@91-114-144-233.adsl.highway.telekom.at) has quit (Ping timeout: 264 seconds)
+2014-12-08 23:16:11	◀▬▬	luktgf (~vfbtgn@5-12-204-50.residential.rdsnet.ro) has quit (Ping timeout: 244 seconds)
+2014-12-08 23:17:07	▬▬▶	luktgf (~vfbtgn@79.115.58.190) has joined #tox
+2014-12-08 23:20:33	▬▬▶	iugfhvybu (~vfbtgn@188.25.34.42) has joined #tox
+2014-12-08 23:21:00	▬▬▶	AnoAnon (~AnoAnon@197.37.17.76) has joined #tox
+2014-12-08 23:21:11	body	NikolaiToryzin: ok i got it 
+2014-12-08 23:21:14	◀▬▬	AnoAnon (~AnoAnon@197.37.17.76) has quit (Max SendQ exceeded)
+2014-12-08 23:21:26	body	now i'll like to use a client.. qtox for example
+2014-12-08 23:21:32	body	but this gives me errors
+2014-12-08 23:22:53	body	i get this error on compiling qtox, https://bpaste.net/show/0dcbcd59f6c1
+2014-12-08 23:23:43	◀▬▬	luktgf (~vfbtgn@79.115.58.190) has quit (Ping timeout: 244 seconds)
+2014-12-08 23:24:19	▬▬▶	target_i_ (~target_i@80.242.104.125) has joined #tox
+2014-12-08 23:24:19	body	or u can suggest me some other client, that works with video/voice ?
+2014-12-08 23:25:47	@irungentoo	body, uTox
+2014-12-08 23:26:33	@NikolaiToryzin	Stop using the aur
+2014-12-08 23:27:40	◀▬▬	target_i (~target_i@93.190.176.111) has quit (Ping timeout: 272 seconds)
+2014-12-08 23:28:49	▬▬▶	zyrox (~zyrox@cm-84.208.166.208.getinternet.no) has joined #tox
+2014-12-08 23:30:03	◀▬▬	peetaur (~peter@ipb219c02d.dynamic.kabel-deutschland.de) has quit (Quit: Konversation terminated!)
+2014-12-08 23:30:10	▬▬▶	jcaprice (~jcaprice@69.137.145.84) has joined #tox
+2014-12-08 23:30:35	◀▬▬	mind_combatant (~mind_comb@gateway/tor-sasl/mindcombatant/x-66285307) has quit (Remote host closed the connection)
+2014-12-08 23:30:35	◀▬▬	moparisthebest (~quassel@gateway/tor-sasl/moparisthebest) has quit (Remote host closed the connection)
+2014-12-08 23:30:35	◀▬▬	badon (~badon@pdpc/supporter/active/badon) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	KillYourTV (~kytv@gateway/tor-sasl/killyourtv) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	Boohbah (~Boohbah@gateway/tor-sasl/boohbah) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	pwnsdx (~pwnsdx_@gateway/tor-sasl/pwnsdx/x-26458578) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	toweI (~ToweI@gateway/tor-sasl/towei) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	SeekingFor (~SeekingFo@freenet/flircp/developer/SeekingFor) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	hpqtrx (~hpqtrx@gateway/tor-sasl/hpqtrx) has quit (Write error: Broken pipe)
+2014-12-08 23:30:35	◀▬▬	xvilka (~xvilka@gateway/tor-sasl/xvilka) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:35	◀▬▬	BoredHamster (~root@gateway/tor-sasl/boredhamster) has quit (Write error: Connection reset by peer)
+2014-12-08 23:30:44	▬▬▶	moparisthebest (~quassel@unaffiliated/moparisthebest) has joined #tox
+2014-12-08 23:30:59	◀▬▬	murray (~murray@p549B4BC2.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2014-12-08 23:31:07	▬▬▶	SeekingFor (~SeekingFo@freenet/flircp/developer/SeekingFor) has joined #tox
+2014-12-08 23:32:54	◀▬▬	Matthai (~Matthai@unaffiliated/matthai) has quit (Quit: sudo reboot --with-bluescreen)
+2014-12-08 23:33:39	▬▬▶	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has joined #tox
+2014-12-08 23:34:46	▬▬▶	myroslav__ (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-08 23:36:49	◀▬▬	myroslav (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 265 seconds)
+2014-12-08 23:36:53	▬▬▶	myroslav___ (~chatzilla@127-1-95-178.pool.ukrtel.net) has joined #tox
+2014-12-08 23:36:55	ℹ 	myroslav___ is now known as myroslav
+2014-12-08 23:37:44	▬▬▶	myroslav___ (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-08 23:38:37	▬▬▶	badon (~badon@pdpc/supporter/active/badon) has joined #tox
+2014-12-08 23:38:45	◀▬▬	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has quit (Ping timeout: 265 seconds)
+2014-12-08 23:39:16	◀▬▬	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has quit (Remote host closed the connection)
+2014-12-08 23:40:03	▬▬▶	jell (~quassel@2606:6000:670b:1300:cd49:4bc0:f338:d873) has joined #tox
+2014-12-08 23:40:03	▬▬▶	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has joined #tox
+2014-12-08 23:40:26	◀▬▬	myroslav__ (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 240 seconds)
+2014-12-08 23:40:27	ℹ 	jell is now known as Guest60543
+2014-12-08 23:40:54	▬▬▶	myroslav__ (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-08 23:41:42	◀▬▬	myroslav (~chatzilla@127-1-95-178.pool.ukrtel.net) has quit (Ping timeout: 264 seconds)
+2014-12-08 23:41:45	ℹ 	myroslav__ is now known as myroslav
+2014-12-08 23:42:54	body	NikolaiToryzin: it's not the aur
+2014-12-08 23:43:04	◀▬▬	jellzero (~quassel@2606:6000:670b:1300:b9ba:6471:4901:2323) has quit (Ping timeout: 258 seconds)
+2014-12-08 23:43:18	ℹ 	Guest60543 is now known as jellzero
+2014-12-08 23:44:05	▬▬▶	greenbagels (~gb@cpe-65-25-124-183.neo.res.rr.com) has joined #tox
+2014-12-08 23:44:06	◀▬▬	myroslav___ (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 264 seconds)
+2014-12-08 23:44:55	◀▬▬	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has quit (Ping timeout: 250 seconds)
+2014-12-08 23:45:30	◀▬▬	xachet (~xachet@131.156.157.225) has quit (Quit: Leaving)
+2014-12-08 23:45:31	▬▬▶	SignorD (~D@host134-88-dynamic.21-79-r.retail.telecomitalia.it) has joined #tox
+2014-12-08 23:45:39	▬▬▶	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has joined #tox
+2014-12-08 23:47:31	◀▬▬	myroslav (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 250 seconds)
+2014-12-08 23:47:45	ℹ 	myroslav_ is now known as myroslav
+2014-12-08 23:49:18	◀▬▬	SylvieLorxu (~SylvieLor@dhcp-077-251-165-191.chello.nl) has quit (Quit: ZNC - http://znc.in)
+2014-12-08 23:49:46	◀▬▬	SignorD (~D@host134-88-dynamic.21-79-r.retail.telecomitalia.it) has quit (Ping timeout: 244 seconds)
+2014-12-08 23:52:52	@NikolaiToryzin	body: recipes are not Linux nor POSIX make
+2014-12-08 23:56:04	zetok	body: whatever it is, it's not supported
+2014-12-08 23:56:09	▬▬▶	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has joined #tox
+2014-12-08 23:56:19	◀▬▬	davexunit (~user@fsf/staff/davexunit) has quit (Quit: Later)
+2014-12-08 23:58:48	◀▬▬	boxmein (~boxmein@unaffiliated/boxmein) has quit (Quit: <there is a hilarious joke here>)
+2014-12-09 00:00:08	◀▬▬	derk0pf (~derk0pf@p4FC3BECF.dip0.t-ipconnect.de) has quit (Quit: ZzzZZzZZZ.)
+2014-12-09 00:04:31	◀▬▬	KillaloT (~KillaloT@c83-253-226-165.bredband.comhem.se) has quit (Quit: ZNC - http://znc.in)
+2014-12-09 00:05:25	▬▬▶	Encrypt (~Chuck-nor@AMontsouris-553-1-73-215.w92-151.abo.wanadoo.fr) has joined #tox
+2014-12-09 00:10:02	◀▬▬	Encrypt (~Chuck-nor@AMontsouris-553-1-73-215.w92-151.abo.wanadoo.fr) has quit (Client Quit)
+2014-12-09 00:10:04	▬▬▶	juryben (~juryben@142.251-net.sccoast.net) has joined #tox
+2014-12-09 00:10:15	▬▬▶	KillaloT (~KillaloT@c83-253-226-165.bredband.comhem.se) has joined #tox
+2014-12-09 00:10:54	bunslow	body: you need to give more than the error you show
+2014-12-09 00:11:01	bunslow	we have no idea what's causing the error
+2014-12-09 00:11:03	▬▬▶	Jason (7YUAAQH42@unaffiliated/jason) has joined #tox
+2014-12-09 00:11:11	zetok	it doesn't matter
+2014-12-09 00:11:25	zetok	since he's doing something that's unsupported
+2014-12-09 00:12:57	◀▬▬	Silverfisk (~quassel@c83-249-67-198.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2014-12-09 00:13:05	◀▬▬	skarn (skarn@unaffiliated/skarn) has quit (Killed (sinisalo.freenode.net (Nickname regained by services)))
+2014-12-09 00:14:01	◀▬▬	niekas (~strazdas@unaffiliated/strazdas) has quit (Quit: Leaving.)
+2014-12-09 00:14:29	◀▬▬	juryben (~juryben@142.251-net.sccoast.net) has quit (Ping timeout: 258 seconds)
+2014-12-09 00:15:43	ℹ 	Ristovski is now known as [Ristovski]
+2014-12-09 00:16:21	◀▬▬	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-12-09 00:16:56	▬▬▶	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has joined #tox
+2014-12-09 00:21:04	◀▬▬	zyrox (~zyrox@cm-84.208.166.208.getinternet.no) has quit (Quit: Leaving)
+2014-12-09 00:21:29	◀▬▬	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-12-09 00:21:53	▬▬▶	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has joined #tox
+2014-12-09 00:24:19	@NikolaiToryzin	bunslow: that's all the aur gives you.
+2014-12-09 00:24:46	bunslow	just because it's unsupported doesn't mean we shouldn't help
+2014-12-09 00:24:55	bunslow	on the other hand, in order to help, we need more info than that lol
+2014-12-09 00:25:06	◀▬▬	kow777 (~kow@cbl-dhcp-24-086.machlink.com) has quit (Ping timeout: 240 seconds)
+2014-12-09 00:28:08	zetok	#914 should help with cases like this one
+2014-12-09 00:28:14	zetok	:3
+2014-12-09 00:29:58	zetok	actually wait, don't merge yet
+2014-12-09 00:30:11	zetok	there's still some improvement that could be done
+2014-12-09 00:30:34	◀▬▬	FrozenCow (~FrozenCow@dhcp-089-099-057-228.chello.nl) has quit (Quit: Leaving)
+2014-12-09 00:31:29	zetok	ok
+2014-12-09 00:31:34	◀▬▬	DocPoe (~DocPoe@178.165.131.44.wireless.dyn.drei.com) has quit (Quit: Leaving.)
+2014-12-09 00:31:39	zetok	it's ready to be merged
+2014-12-09 00:32:03	◀▬▬	target_i_ (~target_i@80.242.104.125) has quit (Quit: leaving)
+2014-12-09 00:33:14	@NikolaiToryzin	bunslow: We'd love to help, if they compiled from source.
+2014-12-09 00:33:37	zetok	↑
+2014-12-09 00:33:39	▬▬▶	myroslav_ (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-09 00:33:56	@NikolaiToryzin	bunslow: But the aur is like curling a random script to bash and complaining to us as to why it isn't working
+2014-12-09 00:35:13	bunslow	...
+2014-12-09 00:35:14	bunslow	lol
+2014-12-09 00:35:23	bunslow	(you realize the irony right?)
+2014-12-09 00:35:32	bunslow	(or was it deliberate?)
+2014-12-09 00:35:34	@NikolaiToryzin	I do
+2014-12-09 00:35:35	zetok	other irony is supported
+2014-12-09 00:35:40	zetok	and that's what matters
+2014-12-09 00:35:44	@NikolaiToryzin	But /we/ know what that script does :)
+2014-12-09 00:35:54	@NikolaiToryzin	Read: we wrote that script
+2014-12-09 00:36:54	◀▬▬	myroslav (~chatzilla@127-1-95-178.pool.ukrtel.net) has quit (Ping timeout: 264 seconds)
+2014-12-09 00:37:00	ℹ 	myroslav_ is now known as myroslav
+2014-12-09 00:38:15	▬▬▶	pwnsdx (~pwnsdx_@84.22.50.237) has joined #tox
+2014-12-09 00:38:26	pwnsdx	back
+2014-12-09 00:38:27	zetok	bunslow: dun
+2014-12-09 00:38:40	pwnsdx	tor-sasl give me cancer
+2014-12-09 00:38:46	@NikolaiToryzin	It's like telling us our script doesn't work vs telling us some guy in #ruby's script didn't work
+2014-12-09 00:39:17	▬▬▶	cjpit (~cjpit@1.126.49.78) has joined #tox
+2014-12-09 00:39:57	▬▬▶	KBme (~r00t@200.123.210.2) has joined #tox
+2014-12-09 00:40:06	▬▬▶	kow777 (~kow@cbl-dhcp-24-086.machlink.com) has joined #tox
+2014-12-09 00:40:08	pwnsdx	NikolaiToryzin: why https://donate.tox.im is offline ?
+2014-12-09 00:41:18	◀▬▬	txomon|fon (~txomon@unaffiliated/txomon) has quit (Ping timeout: 245 seconds)
+2014-12-09 00:41:22	◀▬▬	gipokut (~1111110@ppp-94-64-193-141.home.otenet.gr) has quit (Read error: Connection reset by peer)
+2014-12-09 00:42:57	▬▬▶	skarn (skarn@unaffiliated/skarn) has joined #tox
+2014-12-09 00:43:07	bunslow	NikolaiToryzin: confirmed
+2014-12-09 00:43:49	pwnsdx	it's down like 5-6 hours
+2014-12-09 00:44:24	▬▬▶	dardevelin (~dardeveli@unaffiliated/dardevelin) has joined #tox
+2014-12-09 00:44:58	bunslow	zetok: provieded isn't spelled correctly
+2014-12-09 00:46:59	◀▬▬	KBme (~r00t@200.123.210.2) has quit (Quit: BAI)
+2014-12-09 00:47:22	zetok	uh
+2014-12-09 00:48:49	zetok	dun
+2014-12-09 00:49:44	◀▬▬	Hijiri (~oneechan@128.54.7.251) has quit (Quit: WeeChat 1.0.1)
+2014-12-09 00:50:06	▬▬▶	frontwards (~Erkan_Yil@dslb-088-066-036-241.088.066.pools.vodafone-ip.de) has joined #tox
+2014-12-09 00:50:56	◀▬▬	Erkan_Yilmaz (~Erkan_Yil@wikimedia/Erkan-Yilmaz) has quit (Ping timeout: 245 seconds)
+2014-12-09 00:51:05	◀▬▬	tpe (~hayter@56.167.90.146.dyn.plus.net) has quit (Quit: Leaving)
+2014-12-09 00:51:21	◀▬▬	eNTi (~quassel@185.50.234.17) has quit (Read error: Connection reset by peer)
+2014-12-09 00:51:35	zetok	bunslow: I hope that it was all, since I'm going to sleep and soonest time of corrections that I'll be able to make will be in ~17h
+2014-12-09 00:52:28	ℹ 	frontwards is now known as Erkan_Yilmaz
+2014-12-09 00:52:34	◀▬▬	Erkan_Yilmaz (~Erkan_Yil@dslb-088-066-036-241.088.066.pools.vodafone-ip.de) has quit (Changing host)
+2014-12-09 00:52:34	▬▬▶	Erkan_Yilmaz (~Erkan_Yil@wikimedia/Erkan-Yilmaz) has joined #tox
+2014-12-09 00:53:40	@NikolaiToryzin	pwnsdx: Network issues
+2014-12-09 00:53:48	@NikolaiToryzin	Well, host issues
+2014-12-09 00:53:54	pwnsdx	NikolaiToryzin: DDoS ?
+2014-12-09 00:53:57	@NikolaiToryzin	Nope
+2014-12-09 00:54:01	pwnsdx	okay
+2014-12-09 00:54:08	◀▬▬	surd (~surd@unaffiliated/surd) has quit (Ping timeout: 244 seconds)
+2014-12-09 00:54:18	pwnsdx	the report is finished ?
+2014-12-09 00:56:25	◀▬▬	davidOmatic (~quassel@186.61.16.223) has quit (Ping timeout: 244 seconds)
+2014-12-09 00:59:52	body	bunslow: https://bpaste.net/show/e3040432a5b2
+2014-12-09 00:59:59	body	here is all the output
+2014-12-09 01:00:22	body	NikolaiToryzin: and as i told, it's not from aur
+2014-12-09 01:00:34	◀▬▬	Trustable (~user@dslb-088-065-231-161.088.065.pools.vodafone-ip.de) has quit (Quit: Leaving)
+2014-12-09 01:01:11	◀▬▬	SignorD (~D@host182-82-dynamic.44-79-r.retail.telecomitalia.it) has quit (Quit: Ciao!)
+2014-12-09 01:02:09	bunslow	interesting
+2014-12-09 01:03:18	bunslow	what does "ldd `locate libsodium.so*` | grep crypto_sign_verify_detached" print?
+2014-12-09 01:03:20	bunslow	body:
+2014-12-09 01:03:43	body	bunslow: sry, let me see
+2014-12-09 01:04:49	body	bunslow: https://bpaste.net/show/b51ba0916811
+2014-12-09 01:04:59	▬▬▶	Teilio (~Teilio@221.32.199.146.dyn.plus.net) has joined #tox
+2014-12-09 01:06:53	bunslow	body: "sudo updatedb" and try again
+2014-12-09 01:07:00	bunslow	forgot that locate isn't live lol
+2014-12-09 01:07:11	◀▬▬	iugfhvybu (~vfbtgn@188.25.34.42) has quit (Ping timeout: 265 seconds)
+2014-12-09 01:07:13	body	don't have updatedb command
+2014-12-09 01:07:18	body	bunslow: ^
+2014-12-09 01:07:41	body	neither locate
+2014-12-09 01:08:01	bunslow	is it a zsh keyword?
+2014-12-09 01:08:46	bunslow	at any rate, find the libsodium.so file on your system, and "ldd <the file> | grep crypto_sign_verify_detached"
+2014-12-09 01:10:58	▬▬▶	davexunit (~user@fsf/staff/davexunit) has joined #tox
+2014-12-09 01:11:14	◀▬▬	jcaprice (~jcaprice@69.137.145.84) has quit
+2014-12-09 01:11:33	Meringue	good bye
+2014-12-09 01:11:42	◀▬▬	Meringue (~Cremepier@213.57.142.226) has quit (Quit: Leaving.)
+2014-12-09 01:12:34	body	bunslow: 
+2014-12-09 01:12:34	body	[body @ archlinux] /usr/lib > ldd libsodium.so | grep crypto_sign_verify_detached
+2014-12-09 01:12:34	body	[body @ archlinux] /usr/lib > 
+2014-12-09 01:12:39	body	no output ?
+2014-12-09 01:12:56	bunslow	that is indeed a bit strange
+2014-12-09 01:13:08	bunslow	maybe ask about it on the libsodium github?
+2014-12-09 01:13:14	bunslow	NikolaiToryzin: irungentoo thoughts?
+2014-12-09 01:13:29	▬▬▶	Hijiri (~oneechan@137.110.91.37) has joined #tox
+2014-12-09 01:13:55	◀▬▬	myroslav (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 256 seconds)
+2014-12-09 01:14:25	body	bunslow: hmm, i'm building it now from git
+2014-12-09 01:14:40	bunslow	yeah I saw in your log from earlier
+2014-12-09 01:14:55	@NikolaiToryzin	Sounds like he didn't install sodium
+2014-12-09 01:15:08	@NikolaiToryzin	Lolol
+2014-12-09 01:15:11	body	nea
+2014-12-09 01:15:13	body	i installed it
+2014-12-09 01:15:25	@NikolaiToryzin	What prefix?
+2014-12-09 01:15:41	body	libsodium 
+2014-12-09 01:15:58	@NikolaiToryzin	Prefix
+2014-12-09 01:16:06	@NikolaiToryzin	--prefix on configure
+2014-12-09 01:17:19	body	huh, i installed it from my official repo ? NikolaiToryzin 
+2014-12-09 01:17:50	@NikolaiToryzin	Install it from git
+2014-12-09 01:18:09	@NikolaiToryzin	It always works magically ootb if you install it from git
+2014-12-09 01:19:16	◀▬▬	XenoPL (~Xeno@159-205-143-100.adsl.inetia.pl) has quit (Ping timeout: 258 seconds)
+2014-12-09 01:21:53	▬▬▶	iugfhvybu (~vfbtgn@188.25.34.42) has joined #tox
+2014-12-09 01:24:52	▬▬▶	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 01:26:20	body	NikolaiToryzin: now i'm installing it again
+2014-12-09 01:26:40	body	and the prefix=NONE
+2014-12-09 01:26:46	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Ping timeout: 240 seconds)
+2014-12-09 01:26:52	◀▬▬	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 01:27:28	body	ah no, i'm looking into the configure file
+2014-12-09 01:27:37	body	but i don't think it's what u wanted
+2014-12-09 01:29:15	▬▬▶	myroslav (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-09 01:29:54	◀▬▬	kow777 (~kow@cbl-dhcp-24-086.machlink.com) has quit (Ping timeout: 272 seconds)
+2014-12-09 01:30:21	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 01:32:23	▬▬▶	LOWER_ECHELON (~LOWER_ECH@unglinux.org) has joined #tox
+2014-12-09 01:33:45	body	still no output on building it from source
+2014-12-09 01:33:48	body	ldd libsodium.so | grep crypto_sign_verify_detached
+2014-12-09 01:33:51	body	with this command
+2014-12-09 01:36:55	▬▬▶	CandidC (~Candid@1.178.150.104) has joined #tox
+2014-12-09 01:37:22	▬▬▶	paperManu_ (~manu@cable-192.222.144.35.electronicbox.net) has joined #tox
+2014-12-09 01:40:02	▬▬▶	JonatasZV (~Thunderbi@179.232.149.192) has joined #tox
+2014-12-09 01:43:50	▬▬▶	ygrek (~user@108.59.6.97) has joined #tox
+2014-12-09 01:45:36	@NikolaiToryzin	pwnsdx: it's up
+2014-12-09 01:46:09	pwnsdx	nice
+2014-12-09 01:46:14	pwnsdx	when the new page will be up ?
+2014-12-09 01:46:35	@NikolaiToryzin	After I write some backend code
+2014-12-09 01:47:12	bunslow	NikolaiToryzin: he installed it using qtox's bootstrap.sh, which installs globally
+2014-12-09 01:47:47	@NikolaiToryzin	You guys are so weird about scripts
+2014-12-09 01:54:39	▬▬▶	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has joined #tox
+2014-12-09 01:56:01	▬▬▶	myroslav__ (~chatzilla@cape.quintagroup.com) has joined #tox
+2014-12-09 01:56:37	◀▬▬	myroslav (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 260 seconds)
+2014-12-09 01:56:52	ℹ 	myroslav__ is now known as myroslav
+2014-12-09 01:59:36	◀▬▬	myroslav_ (~chatzilla@127-1-95-178.pool.ukrtel.net) has quit (Ping timeout: 250 seconds)
+2014-12-09 01:59:42	◀▬▬	Hijiri (~oneechan@137.110.91.37) has quit (Ping timeout: 252 seconds)
+2014-12-09 02:00:00	OutBackDingo	great, qtox is segfaulting
+2014-12-09 02:07:06	pwnsdx	NikolaiToryzin: Okay !
+2014-12-09 02:16:55	▬▬▶	ITChap (~syscowboy@58.32.29.206) has joined #tox
+2014-12-09 02:17:33	▬▬▶	kow777 (~kow@cbl-dhcp-24-086.machlink.com) has joined #tox
+2014-12-09 02:20:23	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-xfkzttzseukbbavc) has quit (Excess Flood)
+2014-12-09 02:25:12	◀▬▬	setkeh (~setkeh@unaffiliated/setkeh) has quit (Ping timeout: 258 seconds)
+2014-12-09 02:25:29	◀▬▬	ygrek (~user@108.59.6.97) has quit (Ping timeout: 265 seconds)
+2014-12-09 02:25:41	◀▬▬	nubcake_ (~0@69.30.200.92) has quit (Ping timeout: 240 seconds)
+2014-12-09 02:29:36	◀▬▬	benoute (~Adium@50-0-41-195.dedicated.static.sonic.net) has quit (Quit: Leaving.)
+2014-12-09 02:29:49	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-kdxjkemmbbybqfqd) has joined #tox
+2014-12-09 02:33:33	▬▬▶	Shugo (~Shugo@cpe-066-056-246-143.ec.res.rr.com) has joined #tox
+2014-12-09 02:41:34	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-kdxjkemmbbybqfqd) has quit (Changing host)
+2014-12-09 02:41:34	▬▬▶	Corey84- (Elite12618@unaffiliated/corey84) has joined #tox
+2014-12-09 02:41:34	◀▬▬	Corey84- (Elite12618@unaffiliated/corey84) has quit (Changing host)
+2014-12-09 02:41:34	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-kdxjkemmbbybqfqd) has joined #tox
+2014-12-09 02:45:46	◀▬▬	JonatasZV (~Thunderbi@179.232.149.192) has quit (Quit: JonatasZV)
+2014-12-09 02:46:40	OutBackDingo	wasnt there a qtox build from source script someplace ?
+2014-12-09 02:46:46	◀▬▬	ITChap (~syscowboy@58.32.29.206) has quit (Ping timeout: 244 seconds)
+2014-12-09 02:48:02	▬▬▶	nubcake_ (~0@69.30.200.92) has joined #tox
+2014-12-09 02:48:57	▬▬▶	setkeh (~setkeh@unaffiliated/setkeh) has joined #tox
+2014-12-09 03:00:29	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 03:09:55	▬▬▶	ygrek (~user@108.59.6.97) has joined #tox
+2014-12-09 03:10:23	◀▬▬	irungentoo (~irungento@unaffiliated/irungentoo) has quit (Remote host closed the connection)
+2014-12-09 03:12:59	◀▬▬	iskatu (~iskatu@p5B0E0F7C.dip0.t-ipconnect.de) has quit (Quit: Bye)
+2014-12-09 03:15:11	▬▬▶	Mombie (mombius@91.240.65.104) has joined #tox
+2014-12-09 03:16:43	◀▬▬	Mombius (mombius@91.240.65.104) has quit (Ping timeout: 265 seconds)
+2014-12-09 03:17:22	▬▬▶	Hijiri (~oneechan@2602:306:b85c:4820:ccdb:23e9:74c0:8b65) has joined #tox
+2014-12-09 03:17:42	◀▬▬	DrZingo (~DrZingo@unaffiliated/gritlin) has quit (Quit: Bye!)
+2014-12-09 03:18:55	▬▬▶	Heis (~quassel@p578F656C.dip0.t-ipconnect.de) has joined #tox
+2014-12-09 03:19:00	▬▬▶	KillYourTV (~kytv@gateway/tor-sasl/killyourtv) has joined #tox
+2014-12-09 03:20:33	▬▬▶	iskatu (~iskatu@p2003006B0E505E48F890B97FB5D51496.dip0.t-ipconnect.de) has joined #tox
+2014-12-09 03:21:56	◀▬▬	Heis| (~quassel@p578F65CB.dip0.t-ipconnect.de) has quit (Ping timeout: 258 seconds)
+2014-12-09 03:28:34	▬▬▶	benoute (~Adium@2601:9:7d80:f1c:20ab:332e:ede1:eb1e) has joined #tox
+2014-12-09 03:43:58	◀▬▬	bunslow (~quassel@node-23-96.flex.volo.net) has quit (Remote host closed the connection)
+2014-12-09 03:44:07	◀▬▬	tommd (~tommd@pdx.galois.com) has quit (Ping timeout: 244 seconds)
+2014-12-09 03:44:10	◀▬▬	modulistic (~modulisti@unaffiliated/modulistic) has quit (Ping timeout: 272 seconds)
+2014-12-09 03:46:47	◀▬▬	benoute (~Adium@2601:9:7d80:f1c:20ab:332e:ede1:eb1e) has quit (Quit: Leaving.)
+2014-12-09 03:50:01	▬▬▶	bunslow (~quassel@node-23-96.flex.volo.net) has joined #tox
+2014-12-09 03:54:10	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 03:54:32	◀▬▬	myroslav (~chatzilla@cape.quintagroup.com) has quit (Ping timeout: 255 seconds)
+2014-12-09 03:55:31	◀▬▬	retux (~retux@p5790D9C9.dip0.t-ipconnect.de) has quit (Ping timeout: 245 seconds)
+2014-12-09 03:56:12	▬▬▶	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has joined #tox
+2014-12-09 03:56:39	▬▬▶	retux (~retux@p5790D9D9.dip0.t-ipconnect.de) has joined #tox
+2014-12-09 03:58:43	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 03:59:27	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 04:01:13	▬▬▶	juryben (~juryben@142.251-net.sccoast.net) has joined #tox
+2014-12-09 04:03:48	◀▬▬	pwr (~pwr@2a02:2f0b:8132:bc00:a11:96ff:fe01:7158) has quit (Ping timeout: 272 seconds)
+2014-12-09 04:05:39	◀▬▬	Mossepo (~Mossepo@dsl-espbrasgw1-54fa72-189.dhcp.inet.fi) has quit (Quit: Mossepo)
+2014-12-09 04:06:29	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 04:07:48	▬▬▶	Mombius (mombius@91-150-27-27.customer.karistelefon.fi) has joined #tox
+2014-12-09 04:08:17	▬▬▶	tommd (~tommd@73.164.243.183) has joined #tox
+2014-12-09 04:09:06	◀▬▬	tommd (~tommd@73.164.243.183) has quit (Client Quit)
+2014-12-09 04:10:20	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 04:10:22	◀▬▬	Mombie (mombius@91.240.65.104) has quit (Ping timeout: 265 seconds)
+2014-12-09 04:14:08	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 04:14:24	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 04:16:08	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Client Quit)
+2014-12-09 04:16:28	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 04:16:50	▬▬▶	pwr (~pwr@2a02:2f0b:8047:c500:a11:96ff:fe01:7158) has joined #tox
+2014-12-09 04:17:23	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Read error: Connection reset by peer)
+2014-12-09 04:17:48	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 04:20:43	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-kdxjkemmbbybqfqd) has quit (Excess Flood)
+2014-12-09 04:29:19	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-aolqoxbsxxeoupwl) has joined #tox
+2014-12-09 04:29:45	◀▬▬	Emcy (~MC@unaffiliated/mc1984) has quit (Read error: Connection reset by peer)
+2014-12-09 04:35:16	◀▬▬	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has quit (Ping timeout: 244 seconds)
+2014-12-09 04:37:29	◀▬▬	davexunit (~user@fsf/staff/davexunit) has quit (Quit: Later)
+2014-12-09 04:37:41	◀▬▬	juryben (~juryben@142.251-net.sccoast.net) has quit (Remote host closed the connection)
+2014-12-09 04:37:48	▬▬▶	Mombie (mombius@91-150-27-27.customer.karistelefon.fi) has joined #tox
+2014-12-09 04:38:24	◀▬▬	Mombius (mombius@91-150-27-27.customer.karistelefon.fi) has quit (Ping timeout: 265 seconds)
+2014-12-09 04:43:22	◀▬▬	badon (~badon@pdpc/supporter/active/badon) has quit (Disconnected by services)
+2014-12-09 04:43:25	▬▬▶	badon_ (~badon@pdpc/supporter/active/badon) has joined #tox
+2014-12-09 04:43:30	ℹ 	badon_ is now known as badon
+2014-12-09 04:44:22	▬▬▶	jell (~quassel@2606:6000:6747:5f00:854f:bfa:e08c:a3b9) has joined #tox
+2014-12-09 04:44:45	ℹ 	jell is now known as Guest52888
+2014-12-09 04:50:06	◀▬▬	socks__ (sk@2604:180::986d:ae1c) has quit (Ping timeout: 258 seconds)
+2014-12-09 04:51:37	▬▬▶	tommd (~tommd@73.164.243.183) has joined #tox
+2014-12-09 04:51:38	▬▬▶	socks_ (sk@2604:180::986d:ae1c) has joined #tox
+2014-12-09 04:52:10	◀▬▬	socks_ (sk@2604:180::986d:ae1c) has quit (Changing host)
+2014-12-09 04:52:10	▬▬▶	socks_ (sk@unaffiliated/socks/x-6595631) has joined #tox
+2014-12-09 04:55:55	▬▬▶	juryben (~juryben@142.251-net.sccoast.net) has joined #tox
+2014-12-09 04:58:45	▬▬▶	modulistic (~modulisti@unaffiliated/modulistic) has joined #tox
+2014-12-09 04:58:53	▬▬▶	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 05:00:56	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Ping timeout: 245 seconds)
+2014-12-09 05:05:04	◀▬▬	tommd (~tommd@73.164.243.183) has quit (Quit: Leaving.)
+2014-12-09 05:05:25	▬▬▶	OutBackDingo (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 05:05:53	▬▬▶	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has joined #tox
+2014-12-09 05:06:21	noisykeyboard	Yes!
+2014-12-09 05:06:41	noisykeyboard	How much space do the keys from a bootstrapping node take up?
+2014-12-09 05:06:48	▬▬▶	r_a_x (~rax@14.139.249.197) has joined #tox
+2014-12-09 05:07:13	◀▬▬	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has quit (Ping timeout: 250 seconds)
+2014-12-09 05:08:41	▬▬▶	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has joined #tox
+2014-12-09 05:10:47	◀▬▬	OutBackDingo (~quassel@unaffiliated/outbackdingo) has quit (Ping timeout: 256 seconds)
+2014-12-09 05:13:32	stal	about 64 bytes
+2014-12-09 05:16:35	▬▬▶	Mombius (mombius@91-150-27-27.customer.karistelefon.fi) has joined #tox
+2014-12-09 05:16:54	▬▬▶	tommd (~tommd@73.164.243.183) has joined #tox
+2014-12-09 05:17:33	◀▬▬	Mombie (mombius@91-150-27-27.customer.karistelefon.fi) has quit (Ping timeout: 265 seconds)
+2014-12-09 05:21:35	noisykeyboard	stal, alright, because I got the node running
+2014-12-09 05:22:14	▬▬▶	s0m30n3 (~christoph@91-114-144-233.adsl.highway.telekom.at) has joined #tox
+2014-12-09 05:27:24	◀▬▬	s0m30n3 (~christoph@91-114-144-233.adsl.highway.telekom.at) has quit (Ping timeout: 272 seconds)
+2014-12-09 05:31:24	▬▬▶	xiaobo (~Thunderbi@183.37.247.54) has joined #tox
+2014-12-09 05:34:31	noisykeyboard	is there any way to verify that it's running properly?
+2014-12-09 05:42:18	sda	try connecting to it
+2014-12-09 05:42:42	noisykeyboard	with toxic?
+2014-12-09 05:43:39	sda	it's probably the easiest way
+2014-12-09 05:44:28	hellekin	I used to test a Tox client with screen sharing capability (readonly, but the choice of video was between camera and desktop).  What was it?
+2014-12-09 05:44:43	hellekin	I would like to use it for a remote presentation
+2014-12-09 05:44:44	Shugo	Is there anything stopping forces from physically targeting every node you guys have up publicly? Like multiple police agencies?
+2014-12-09 05:45:11	hellekin	please mention my nick when replying: I'm gonna be AFK, and will read the backlog.  Thanks!
+2014-12-09 05:45:13	sda	hellekin: utox
+2014-12-09 05:45:20	hellekin	sda utox?
+2014-12-09 05:45:27	sda	yes
+2014-12-09 05:45:44	hellekin	hmmm checking
+2014-12-09 05:45:51	noisykeyboard	sda, if I were to try and connect, how would I know if it worked?
+2014-12-09 05:46:43	sda	I just waited until any of my friends appeared online
+2014-12-09 05:48:13	sda	you could also check the traffic on port 33445
+2014-12-09 05:48:28	hellekin	ah right... I didn't see the pull-down menu.  Thank you sda!
+2014-12-09 05:49:03	@NikolaiToryzin	Shugo: Don't tell anyone, but most of them are community ran and all over the place
+2014-12-09 05:49:56	@NikolaiToryzin	Also, mine are physically safe
+2014-12-09 05:49:56	hellekin	cool the video preview is infinite-looping :D
+2014-12-09 05:50:06	◀▬▬	niqnaq (help@unaffiliated/niqnaq) has quit (Disconnected by services)
+2014-12-09 05:50:08	noisykeyboard	I used ntox
+2014-12-09 05:50:11	noisykeyboard	it works
+2014-12-09 05:50:13	noisykeyboard	B^)
+2014-12-09 05:50:16	▬▬▶	n1qn4q (help@unaffiliated/niqnaq) has joined #tox
+2014-12-09 05:50:36	@NikolaiToryzin	noisykeyboard: kill toxic, delete your data file, delete your nodes list, start toxic, connect to your node
+2014-12-09 05:50:39	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-aolqoxbsxxeoupwl) has quit (Changing host)
+2014-12-09 05:50:39	▬▬▶	Corey84- (Elite12618@unaffiliated/corey84) has joined #tox
+2014-12-09 05:50:39	◀▬▬	Corey84- (Elite12618@unaffiliated/corey84) has quit (Changing host)
+2014-12-09 05:50:39	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-aolqoxbsxxeoupwl) has joined #tox
+2014-12-09 05:51:12	@NikolaiToryzin	uTox doesn't let you use custom nodes
+2014-12-09 05:51:24	@NikolaiToryzin	You'd never know if it worked or not.
+2014-12-09 05:51:41	noisykeyboard	NikolaiToryzin, I said nTox
+2014-12-09 05:51:46	noisykeyboard	the shitty cli client
+2014-12-09 05:52:25	noisykeyboard	But I guess I'll try it on toxic too, just to be safe
+2014-12-09 05:52:35	sda	NikolaiToryzin: but it does, every client does
+2014-12-09 05:53:23	◀▬▬	moparisthebest (~quassel@unaffiliated/moparisthebest) has quit (Ping timeout: 245 seconds)
+2014-12-09 05:53:24	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-aolqoxbsxxeoupwl) has quit (Excess Flood)
+2014-12-09 05:54:21	◀▬▬	Jason (7YUAAQH42@unaffiliated/jason) has left #tox
+2014-12-09 05:54:31	◀▬▬	modulistic (~modulisti@unaffiliated/modulistic) has quit (Ping timeout: 244 seconds)
+2014-12-09 05:54:41	◀▬▬	paperManu_ (~manu@cable-192.222.144.35.electronicbox.net) has quit (Ping timeout: 245 seconds)
+2014-12-09 05:54:44	◀▬▬	symb (~symb@2a02:8109:8980:540:cdb4:f4dd:b33c:b670) has quit (Quit: You should never underestimate the predictability of stupidity.)
+2014-12-09 05:55:34	noisykeyboard	It's all green
+2014-12-09 05:55:48	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-dsujfbseebduagwj) has joined #tox
+2014-12-09 05:59:12	noisykeyboard	would someone else mind testing it for me, just to be sure?
+2014-12-09 06:00:49	noisykeyboard	104.167.101.29 33445 5918AC3C06955962A75AD7DF4F80A5D7C34F7DB9E1498D2E0495DE35B3FE8A57
+2014-12-09 06:12:11	noisykeyboard	seeya
+2014-12-09 06:12:21	◀▬▬	noisykeyboard (~noisykeyb@MTRLPQ5031W-LP130-01-1279338570.dsl.bell.ca) has quit (Quit: Leaving)
+2014-12-09 06:15:27	@NikolaiToryzin	Oh, nTox
+2014-12-09 06:15:34	@NikolaiToryzin	sda: custom as in
+2014-12-09 06:15:41	@NikolaiToryzin	Not what's preloaded
+2014-12-09 06:26:52	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-dsujfbseebduagwj) has quit (Changing host)
+2014-12-09 06:26:52	▬▬▶	Corey84- (Elite12618@unaffiliated/corey84) has joined #tox
+2014-12-09 06:26:52	◀▬▬	Corey84- (Elite12618@unaffiliated/corey84) has quit (Changing host)
+2014-12-09 06:26:52	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-dsujfbseebduagwj) has joined #tox
+2014-12-09 06:28:25	◀▬▬	kow777 (~kow@cbl-dhcp-24-086.machlink.com) has quit (Ping timeout: 255 seconds)
+2014-12-09 06:31:45	▬▬▶	BoredHamster (~root@gateway/tor-sasl/boredhamster) has joined #tox
+2014-12-09 06:35:36	▬▬▶	mind_combatant (~mind_comb@gateway/tor-sasl/mindcombatant/x-66285307) has joined #tox
+2014-12-09 06:40:25	r_a_x	I have read the documentation for some of the topics given here https://wiki.tox.im/Main_Page and I want to contribute to tox and I am newbie to open source.What should i do next??
+2014-12-09 06:50:08	◀▬▬	jellzero (~quassel@2606:6000:670b:1300:cd49:4bc0:f338:d873) has quit (Remote host closed the connection)
+2014-12-09 06:53:34	▬▬▶	ntio (~ntio@gateway/tor-sasl/ntio) has joined #tox
+2014-12-09 06:55:16	◀▬▬	juryben (~juryben@142.251-net.sccoast.net) has quit (Remote host closed the connection)
+2014-12-09 06:58:36	◀▬▬	ygrek (~user@108.59.6.97) has quit (Ping timeout: 272 seconds)
+2014-12-09 07:00:30	▬▬▶	paranoids (~markus@amd.paranoids.at) has joined #tox
+2014-12-09 07:01:13	▬▬▶	Honno (~Honno@cpc7-sout7-2-0-cust93.20-1.cable.virginm.net) has joined #tox
+2014-12-09 07:02:53	subliun	r_a_x, great! Do you have any programming skills?
+2014-12-09 07:03:17	r_a_x	subliun, i know c c++ and java
+2014-12-09 07:05:04	subliun	toxcore is written in c, qtox is in c++ with qt, and antox is written in scala (similar to java).
+2014-12-09 07:05:21	◀▬▬	Corey84- (Elite12618@gateway/shell/elitebnc/x-dsujfbseebduagwj) has quit (Excess Flood)
+2014-12-09 07:05:22	subliun	Is there anything in particular you would like to contribute to?
+2014-12-09 07:08:56	r_a_x	subliun, no to anything
+2014-12-09 07:09:26	r_a_x	subliun, once i want to start than i could choose !!
+2014-12-09 07:10:23	▬▬▶	Corey84- (Elite12618@gateway/shell/elitebnc/x-swfvjklzwwdridjh) has joined #tox
+2014-12-09 07:12:23	subliun	r_a_x, ok then. Download tox, if you haven't already, see what you'd like to improve and start working on that. I'd also suggest cloning the toxcore repo on github and looking through the code.
+2014-12-09 07:12:59	subliun	Sorry I can't help you very much in this regard, you'd probably be better off asking irungentoo or one of the other devs when they come on irc.
+2014-12-09 07:13:10	◀▬▬	voice (voicesl@2600:3c00::f03c:91ff:fe69:2154) has quit (Ping timeout: 272 seconds)
+2014-12-09 07:13:33	r_a_x	subliun, okay thanks!!
+2014-12-09 07:13:50	▬▬▶	voice (voicesl@2600:3c00::f03c:91ff:fe69:2154) has joined #tox
+2014-12-09 07:14:56	r_a_x	subliun, i may sound jerk but i want to know is there a specific way to read the code like where to start  reading from,special editors etc??
+2014-12-09 07:18:03	subliun	r_a_x, toxcore is quite complex, for an overview of how it works you should read the docs (https://github.com/irungentoo/toxcore/tree/df85f72b769bed1cd3efb55e14e0b3cd775733e5/docs). Then check the todo https://github.com/irungentoo/toxcore/blob/df85f72b769bed1cd3efb55e14e0b3cd775733e5/docs/TODO
+2014-12-09 07:18:47	OutBackDingo_	ddd
+2014-12-09 07:18:52	◀▬▬	OutBackDingo_ (~quassel@unaffiliated/outbackdingo) has quit (Remote host closed the connection)
+2014-12-09 07:19:26	r_a_x	subliun, thanks
+2014-12-09 07:19:38	◀▬▬	Guest52888 (~quassel@2606:6000:6747:5f00:854f:bfa:e08c:a3b9) has quit (Read error: Connection reset by peer)
+2014-12-09 07:19:49	subliun	After that start looking through either toxcore or qtox's code (depending on what you want to work on) and try to fix some of the existing issues (https://github.com/tux3/qTox/issues and https://github.com/irungentoo/toxcore/issues).
+2014-12-09 07:20:04	subliun	Good luck!
+2014-12-09 07:20:51	▬▬▶	jell (~quassel@2606:6000:6747:5f00:854f:bfa:e08c:a3b9) has joined #tox
+2014-12-09 07:21:15	ℹ 	jell is now known as Guest53411
+2014-12-09 07:30:13	◀▬▬	paranoids (~markus@amd.paranoids.at) has quit (Remote host closed the connection)
+2014-12-09 07:39:38	pwnsdx	back
+2014-12-09 07:42:56	◀▬▬	nubcake_ (~0@69.30.200.92) has quit (Ping timeout: 272 seconds)
+2014-12-09 07:43:24	▬▬▶	modulistic (~modulisti@unaffiliated/modulistic) has joined #tox
+2014-12-09 07:44:13	▬▬▶	nubcake_ (~0@69.30.200.92) has joined #tox

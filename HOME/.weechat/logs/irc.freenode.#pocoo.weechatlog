@@ -1,0 +1,195 @@
+2014-11-20 23:29:30	▬▬▶	body (~body@host146-5-dynamic.249-95-r.retail.telecomitalia.it) has joined #pocoo
+2014-11-20 23:29:30	ℹ 	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | New channel for Sphinx: -> #sphinx-doc | Metaflask: -> #metaflask"
+2014-11-20 23:29:30	ℹ 	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on Fri, 04 Jul 2014 14:28:28
+2014-11-20 23:29:30	ℹ 	Channel #pocoo: 392 nicks (1 op, 0 voices, 391 normals)
+2014-11-20 23:29:30	ℹ 	Notice(card.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-11-20 23:29:32	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:17
+2014-11-20 23:29:56	◀▬▬	body (~body@host146-5-dynamic.249-95-r.retail.telecomitalia.it) has left #pocoo
+2014-11-25 20:07:32	▬▬▶	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has joined #pocoo
+2014-11-25 20:07:32	ℹ 	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | New channel for Sphinx: -> #sphinx-doc | Metaflask: -> #metaflask"
+2014-11-25 20:07:32	ℹ 	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on Fri, 04 Jul 2014 14:28:28
+2014-11-25 20:07:32	ℹ 	Channel #pocoo: 404 nicks (1 op, 0 voices, 403 normals)
+2014-11-25 20:07:34	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:17
+2014-11-25 20:07:44	◀▬▬	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has left #pocoo
+2014-11-25 20:08:13	▬▬▶	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has joined #pocoo
+2014-11-25 20:08:13	ℹ 	Topic for #pocoo is "Pocoo Team Channel | dev.pocoo.org | just ask | twitter.com/PocooProject | dev.pocoo.org/irclogs | groups.google.com/group/pocoo-libs | Ponies can fly, but only in CET! | please no /query without asking first | Approve your Flask Extension now: http://bit.ly/approvenow | New channel for Sphinx: -> #sphinx-doc | Metaflask: -> #metaflask"
+2014-11-25 20:08:13	ℹ 	Topic set by mitsuhiko (~mitsuhiko@ubuntu/member/mitsuhiko) on Fri, 04 Jul 2014 14:28:28
+2014-11-25 20:08:13	ℹ 	Channel #pocoo: 404 nicks (1 op, 0 voices, 403 normals)
+2014-11-25 20:08:14	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:17
+2014-11-25 20:10:33	▬▬▶	sxn (~user@p50931bfd.dip0.t-ipconnect.de) has joined #pocoo
+2014-11-25 20:12:18	◀▬▬	orkaa (~orkaa@84-255-206-195.static.t-2.net) has quit (Ping timeout: 250 seconds)
+2014-11-25 20:12:26	◀▬▬	phpeach (~textual@5.80.210.151) has quit
+2014-11-25 20:13:01	◀▬▬	lucsx (~lux@93-40-79-214.ip37.fastwebnet.it) has quit (Quit: BB)
+2014-11-25 20:14:28	digia	I'm trying to use a hash-id with Flask instead of the database ID. Though i can't seem to get url_for to build correctly. Any direction to look or resources?
+2014-11-25 20:14:38	▬▬▶	lucsx (~lux@93-40-79-214.ip37.fastwebnet.it) has joined #pocoo
+2014-11-25 20:14:51	◀▬▬	sxn (~user@p50931bfd.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2014-11-25 20:15:06	digia	Example: @route('/api/v1/posts/<hash>', method=['GET']) -- throws a build Error.
+2014-11-25 20:16:46	◀▬▬	kracekumar (~kracekuma@106.51.129.227) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-11-25 20:19:56	▬▬▶	Cyph0n (~textual@92.99.13.194) has joined #pocoo
+2014-11-25 20:22:35	◀▬▬	samiux (~samiux@unaffiliated/samiux) has quit (Ping timeout: 240 seconds)
+2014-11-25 20:22:53	◀▬▬	matason (~matason@host217-43-222-101.range217-43.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2014-11-25 20:22:55	◀▬▬	Jacob_Bolda (~JacobBold@168-215-77-50.static.twtelecom.net) has quit (Ping timeout: 240 seconds)
+2014-11-25 20:23:15	▬▬▶	samiux (~samiux@unaffiliated/samiux) has joined #pocoo
+2014-11-25 20:23:51	▬▬▶	Pinkamena_D (~paul@207.200.169.48) has joined #pocoo
+2014-11-25 20:24:00	◀▬▬	HolyGoat (~lbrouwer@unaffiliated/holygoat) has quit (Ping timeout: 250 seconds)
+2014-11-25 20:26:34	▬▬▶	HolyGoat (~lbrouwer@162.248.8.179) has joined #pocoo
+2014-11-25 20:26:54	ThiefMaster	digia: how are you building the url?
+2014-11-25 20:27:04	ThiefMaster	also, the kwarg is `methods` and GET is the default so you can omit it altogether.
+2014-11-25 20:27:32	ThiefMaster	sounds like you aren't including the hash=... kwarg in the url_for call..
+2014-11-25 20:27:36	digia	using flask-restful marshaling functionality. That essentially calls the url_for on flask - https://github.com/flask-restful/flask-restful/blob/master/flask_restful/fields.py#L286
+2014-11-25 20:27:39	digia	ThiefMaster ^
+2014-11-25 20:27:46	▬▬▶	fmerges (~fmerges@85.62.65.232) has joined #pocoo
+2014-11-25 20:28:19	digia	well the example i used was simplified. I'm actually using a resource, but the issue i'm finding is with url_for. Unless i'm on the wrong path all together. 
+2014-11-25 20:28:27	ThiefMaster	never used it
+2014-11-25 20:28:37	ℹ 	samiux is now known as samiux||away
+2014-11-25 20:28:42	digia	The actual code is `api.add_resource(PostResource, '/api/v1/posts/<hash>', endpoint='post')`
+2014-11-25 20:28:44	ThiefMaster	anyway, check the data of the BuildError
+2014-11-25 20:28:51	digia	if i replace <hash> with <int:id> it works.
+2014-11-25 20:29:30	ThiefMaster	hmm what of type is the hash?
+2014-11-25 20:29:56	digia	hash is just a string
+2014-11-25 20:30:12	digia	it's the ID encrypted, i decrypt prior to use.
+2014-11-25 20:30:22	▬▬▶	Jacob_Bolda (~JacobBold@168-215-77-50.static.twtelecom.net) has joined #pocoo
+2014-11-25 20:30:46	ThiefMaster	hmm
+2014-11-25 20:31:02	ThiefMaster	can you post the full BuildError? it has some arguments that help tracking down the actual issue..
+2014-11-25 20:31:15	digia	It does show the error happening in /werkzeug/routing.py on 1616
+2014-11-25 20:31:19	digia	ya one second
+2014-11-25 20:32:07	digia	ThiefMaster - http://d.digia.io/phAb
+2014-11-25 20:33:06	ThiefMaster	ok, so there's no hash in the data you are passing to url_for()
+2014-11-25 20:33:23	digia	Ahh, now how did you get there?
+2014-11-25 20:33:52	▬▬▶	sxn (~user@x590ef601.dyn.telefonica.de) has joined #pocoo
+2014-11-25 20:34:10	ThiefMaster	raise BuildError(endpoint, values, method)
+2014-11-25 20:34:13	ℹ 	samiux||away is now known as samiux
+2014-11-25 20:34:13	ThiefMaster	second argument are the values
+2014-11-25 20:34:31	ThiefMaster	seems like you are passing the wrong object...
+2014-11-25 20:34:38	digia	right, and it's looking for the <arguement> within the properties?
+2014-11-25 20:34:52	▬▬▶	orkaa (~orkaa@84-255-206-195.static.t-2.net) has joined #pocoo
+2014-11-25 20:35:03	digia	It's true that a poll object doesn't have a hash. 
+2014-11-25 20:35:18	digia	wonder if adding a property function would work
+2014-11-25 20:35:56	◀▬▬	chichikov (~chichikov@206.217.117.226) has quit (Ping timeout: 255 seconds)
+2014-11-25 20:36:30	digia	Nope. Fook
+2014-11-25 20:37:43	ahmed_	no one here used a flask app with multiple themes?
+2014-11-25 20:37:51	◀▬▬	VaticanCameos (~pritishc@182.68.122.197) has quit (Ping timeout: 244 seconds)
+2014-11-25 20:39:42	digia	figured it out, thanks ThiefMaster 
+2014-11-25 20:40:14	ThiefMaster	ahmed_: not sure how theming is flask related
+2014-11-25 20:40:30	◀▬▬	Cyph0n (~textual@92.99.13.194) has quit (Ping timeout: 255 seconds)
+2014-11-25 20:40:36	ThiefMaster	you just store the name of the theme in the session and load a different CSS file depending on the theme..
+2014-11-25 20:40:59	ahmed_	hmmm
+2014-11-25 20:41:04	ahmed_	that might just work
+2014-11-25 20:46:17	◀▬▬	orkaa (~orkaa@84-255-206-195.static.t-2.net) has quit (Ping timeout: 255 seconds)
+2014-11-25 20:47:08	◀▬▬	prksh (~prksh@180.188.243.2) has quit (Quit: prksh)
+2014-11-25 20:47:21	◀▬▬	Paradisee (~quassel@2.239.28.120) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2014-11-25 20:48:21	◀▬▬	cariaso (~Adium@c-98-231-168-174.hsd1.md.comcast.net) has quit (Quit: Leaving.)
+2014-11-25 20:49:36	◀▬▬	revolve (~username@199.19.119.133) has quit (Ping timeout: 256 seconds)
+2014-11-25 20:50:36	▬▬▶	cariaso (~Adium@c-98-231-168-174.hsd1.md.comcast.net) has joined #pocoo
+2014-11-25 20:51:46	◀▬▬	cariaso (~Adium@c-98-231-168-174.hsd1.md.comcast.net) has quit (Client Quit)
+2014-11-25 20:52:02	▬▬▶	matason (~matason@host217-43-222-101.range217-43.btcentralplus.com) has joined #pocoo
+2014-11-25 20:52:18	◀▬▬	Pinkamena_D (~paul@207.200.169.48) has quit (Ping timeout: 244 seconds)
+2014-11-25 20:52:28	▬▬▶	orkaa (~orkaa@84-255-206-195.static.t-2.net) has joined #pocoo
+2014-11-25 20:53:25	▬▬▶	sebazzz (~seb@r186-54-29-165.dialup.adsl.anteldata.net.uy) has joined #pocoo
+2014-11-25 20:53:25	◀▬▬	sebazzz (~seb@r186-54-29-165.dialup.adsl.anteldata.net.uy) has quit (Changing host)
+2014-11-25 20:53:25	▬▬▶	sebazzz (~seb@unaffiliated/sebazzz) has joined #pocoo
+2014-11-25 20:54:00	▬▬▶	chichikov (~chichikov@206.217.117.226) has joined #pocoo
+2014-11-25 20:56:55	◀▬▬	orkaa (~orkaa@84-255-206-195.static.t-2.net) has quit (Ping timeout: 240 seconds)
+2014-11-25 20:57:06	▬▬▶	whiteboo_ (~whitebook@ool-6bbc1aaa.dyn.optonline.net) has joined #pocoo
+2014-11-25 20:57:38	◀▬▬	tomkralidis (~tkralidi@osgeo/member/tomkralidis) has quit (Quit: leaving)
+2014-11-25 20:57:46	▬▬▶	josePhoenix (~josephoen@planeshift/irc/josePhoenix) has joined #pocoo
+2014-11-25 20:57:50	▬▬▶	ahtik (~ahtik@p5DDC4EF9.dip0.t-ipconnect.de) has joined #pocoo
+2014-11-25 20:57:53	▬▬▶	gthank (~gthank@unaffiliated/gthank) has joined #pocoo
+2014-11-25 21:00:03	◀▬▬	fermigier (~fermigier@gob75-4-82-228-45-48.fbx.proxad.net) has quit (Quit: fermigier)
+2014-11-25 21:00:22	◀▬▬	whitebook (~whitebook@ool-321d6207.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2014-11-25 21:04:54	◀▬▬	whiteboo_ (~whitebook@ool-6bbc1aaa.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2014-11-25 21:04:54	▬▬▶	whitebook (~whitebook@ool-321d61d0.dyn.optonline.net) has joined #pocoo
+2014-11-25 21:05:58	▬▬▶	Pinkamena_D (~paul@207.200.169.32) has joined #pocoo
+2014-11-25 21:08:26	◀▬▬	epopt37 (~epopt37@cpe-104-35-22-199.socal.res.rr.com) has quit (Remote host closed the connection)
+2014-11-25 21:10:46	▬▬▶	sxn` (~user@p50931bfd.dip0.t-ipconnect.de) has joined #pocoo
+2014-11-25 21:12:02	▬▬▶	epopt37 (~epopt37@cpe-104-35-22-199.socal.res.rr.com) has joined #pocoo
+2014-11-25 21:12:28	◀▬▬	Pinkamena_D (~paul@207.200.169.32) has quit (Ping timeout: 244 seconds)
+2014-11-25 21:13:29	◀▬▬	abourget (~abourget@64.235.221.66) has quit (Ping timeout: 272 seconds)
+2014-11-25 21:15:07	ℹ 	samiux is now known as samiux||away
+2014-11-25 21:16:01	▬▬▶	loverajo_ (~loverajoe@181.31.114.248) has joined #pocoo
+2014-11-25 21:16:39	◀▬▬	sxn` (~user@p50931bfd.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-11-25 21:16:46	◀▬▬	jvc26 (~jvc26@icarus.jvc26.org) has quit (Quit: leaving)
+2014-11-25 21:17:00	▬▬▶	jvc26 (~jvc26@icarus.jvc26.org) has joined #pocoo
+2014-11-25 21:17:56	◀▬▬	loverajoel (~loverajoe@181.31.114.248) has quit (Ping timeout: 256 seconds)
+2014-11-25 21:18:35	▬▬▶	exaroth (~konrad@net-93-159-134-30.connected.pl) has joined #pocoo
+2014-11-25 21:19:52	◀▬▬	kyheo (~kyheo@54-152-231-201.fibertel.com.ar) has quit
+2014-11-25 21:20:02	▬▬▶	cariaso (~Adium@static-72-66-16-213.washdc.fios.verizon.net) has joined #pocoo
+2014-11-25 21:20:39	▬▬▶	tcurdt (~textual@p5797AFE3.dip0.t-ipconnect.de) has joined #pocoo
+2014-11-25 21:21:00	◀▬▬	tcurdt (~textual@p5797AFE3.dip0.t-ipconnect.de) has quit (Client Quit)
+2014-11-25 21:23:15	▬▬▶	orkaa (~orkaa@84-255-206-195.static.t-2.net) has joined #pocoo
+2014-11-25 21:23:22	◀▬▬	exaroth (~konrad@net-93-159-134-30.connected.pl) has quit (Ping timeout: 250 seconds)
+2014-11-25 21:24:33	◀▬▬	hell_razer (~textual@host-176-38-97-10.la.net.ua) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-11-25 21:24:49	▬▬▶	Thinh (~Thinh@kayle.blackoutgaming.net) has joined #pocoo
+2014-11-25 21:28:29	◀▬▬	Evie_Hammond (~Evie_Hamm@gateway/tor-sasl/eviehammond/x-06846111) has quit (Ping timeout: 250 seconds)
+2014-11-25 21:28:45	▬▬▶	abourget (~abourget@64.235.221.66) has joined #pocoo
+2014-11-25 21:29:29	◀▬▬	orkaa (~orkaa@84-255-206-195.static.t-2.net) has quit (Ping timeout: 255 seconds)
+2014-11-25 21:29:43	▬▬▶	Evie_Hammond (~Evie_Hamm@gateway/tor-sasl/eviehammond/x-06846111) has joined #pocoo
+2014-11-25 21:30:03	▬▬▶	hell_razer (~textual@host-176-38-97-10.la.net.ua) has joined #pocoo
+2014-11-25 21:31:32	▬▬▶	Pinkamena_D (~paul@207.200.169.32) has joined #pocoo
+2014-11-25 21:31:44	◀▬▬	lucsx (~lux@93-40-79-214.ip37.fastwebnet.it) has quit (Quit: BB)
+2014-11-25 21:34:04	▬▬▶	fermigier (~fermigier@gob75-4-82-228-45-48.fbx.proxad.net) has joined #pocoo
+2014-11-25 21:34:21	▬▬▶	remyroy (~Remy@24-49-225-189.sg.cgocable.ca) has joined #pocoo
+2014-11-25 21:34:53	remyroy	How do I specify files to ignore with pybabel extraction?
+2014-11-25 21:34:56	◀▬▬	onr (~onr@85.96.98.185) has quit (Disconnected by services)
+2014-11-25 21:35:16	▬▬▶	onr (~onr@85.96.45.232) has joined #pocoo
+2014-11-25 21:38:18	▬▬▶	zaxxon (~zaxxon@unaffiliated/zaxxon) has joined #pocoo
+2014-11-25 21:41:38	Pinkamena_D	loking to see if a file had been specified in a form, the built in extension flask_wtf.file.FileRequired validator fails, 'FileField' object has no attribute 'has_file'.
+2014-11-25 21:41:38	◀▬▬	sebazzz (~seb@unaffiliated/sebazzz) has quit (Read error: Connection reset by peer)
+2014-11-25 21:41:48	Pinkamena_D	is there a more recent validator I can import?
+2014-11-25 21:41:57	▬▬▶	sebazzz (~seb@unaffiliated/sebazzz) has joined #pocoo
+2014-11-25 21:44:00	▬▬▶	colonD (~colonD@173-165-224-105-minnesota.hfc.comcastbusiness.net) has joined #pocoo
+2014-11-25 21:45:45	◀▬▬	Squarepy (~Squarepy_@unaffiliated/squarepy) has quit (Quit: Leaving)
+2014-11-25 21:47:06	◀▬▬	sxn (~user@x590ef601.dyn.telefonica.de) has quit (Read error: Connection reset by peer)
+2014-11-25 21:47:21	◀▬▬	thedodd (~thedodd@23.253.242.125) has quit
+2014-11-25 21:47:56	▬▬▶	Paradisee (~quassel@2.239.28.120) has joined #pocoo
+2014-11-25 21:48:33	ahmed_	does anyone know if i can load a template via its full file path?
+2014-11-25 21:50:44	body	render_template('/bla/bla/bla/index.html) ?
+2014-11-25 21:50:59	body	i'm not sure, i was just saying
+2014-11-25 21:51:01	▬▬▶	VaultEX-Jamie (~j4m13@unaffiliated/vaultex-jamie) has joined #pocoo
+2014-11-25 21:51:51	◀▬▬	whitebook (~whitebook@ool-321d61d0.dyn.optonline.net) has quit (Remote host closed the connection)
+2014-11-25 21:53:11	◀▬▬	kushal (~kdas@fedora/kushal) has quit (Quit: Leaving)
+2014-11-25 21:53:27	▬▬▶	orkaa (~orkaa@84-255-206-195.static.t-2.net) has joined #pocoo
+2014-11-25 21:53:41	▬▬▶	timsim (~textual@of1-nat2.aus1.rackspace.com) has joined #pocoo
+2014-11-25 21:55:40	◀▬▬	timsim_ (~textual@50.57.17.244) has quit (Ping timeout: 245 seconds)
+2014-11-25 21:56:07	▬▬▶	Ergo (~ergo@194.247.62.73) has joined #pocoo
+2014-11-25 22:00:07	ahmed_	body: yeah that doesnt work im afraid :/
+2014-11-25 22:00:54	▬▬▶	thedodd (~thedodd@23.253.242.125) has joined #pocoo
+2014-11-25 22:01:40	body	ahmed_: but i think your file have to be in the templates directory
+2014-11-25 22:01:53	◀▬▬	orkaa (~orkaa@84-255-206-195.static.t-2.net) has quit (Ping timeout: 255 seconds)
+2014-11-25 22:01:54	ahmed_	yeah thats the issue
+2014-11-25 22:02:02	ahmed_	makes it harder for me to make "themes"
+2014-11-25 22:03:33	▬▬▶	sxn (~user@x590ef601.dyn.telefonica.de) has joined #pocoo
+2014-11-25 22:04:34	▬▬▶	tomkralidis (~tomkralid@osgeo/member/tomkralidis) has joined #pocoo
+2014-11-25 22:05:55	remyroy	I found it. Adding an [ignore *glob pattern*] at the start of the babel.cfg file did the job.
+2014-11-25 22:16:27	◀▬▬	elyezer (~elyezer@unaffiliated/elyezer) has quit (Remote host closed the connection)
+2014-11-25 22:19:19	◀▬▬	sxn (~user@x590ef601.dyn.telefonica.de) has quit (Remote host closed the connection)
+2014-11-25 22:21:58	◀▬▬	tdn (~tdn@62.198.234.11) has quit (Remote host closed the connection)
+2014-11-25 22:23:40	◀▬▬	R0b0t1 (~R0b0t1@unaffiliated/r0b0t1) has quit (Ping timeout: 256 seconds)
+2014-11-25 22:23:56	◀▬▬	jeffisabelle (~jeffisabe@78.169.206.54) has quit (Ping timeout: 265 seconds)
+2014-11-25 22:23:58	▬▬▶	orkaa (~orkaa@84-255-206-195.static.t-2.net) has joined #pocoo
+2014-11-25 22:28:46	◀▬▬	cariaso (~Adium@static-72-66-16-213.washdc.fios.verizon.net) has quit (Quit: Leaving.)
+2014-11-25 22:29:27	◀▬▬	josh-miller (~josh-mill@146.186.209.18) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-11-25 22:31:22	▬▬▶	phpeach (~textual@5.80.210.151) has joined #pocoo
+2014-11-25 22:33:45	◀▬▬	loverajo_ (~loverajoe@181.31.114.248) has quit (Remote host closed the connection)
+2014-11-25 22:33:56	◀▬▬	thedodd (~thedodd@23.253.242.125) has quit
+2014-11-25 22:38:58	▬▬▶	jeffisabelle (~jeffisabe@78.169.206.54) has joined #pocoo
+2014-11-25 22:39:14	◀▬▬	coltim (~coltim@user-0ccestg.cable.mindspring.com) has quit (Ping timeout: 255 seconds)
+2014-11-25 22:39:36	▬▬▶	sxn` (~user@p50931bfd.dip0.t-ipconnect.de) has joined #pocoo
+2014-11-25 22:39:39	▬▬▶	coltim (~coltim@user-0ccestg.cable.mindspring.com) has joined #pocoo
+2014-11-25 22:40:20	▬▬▶	luisalonsocn (~luisalons@190.234.105.58) has joined #pocoo
+2014-11-25 22:40:47	▬▬▶	cariaso (~Adium@c-98-231-168-174.hsd1.md.comcast.net) has joined #pocoo
+2014-11-25 22:44:38	◀▬▬	sxn` (~user@p50931bfd.dip0.t-ipconnect.de) has quit (Ping timeout: 256 seconds)
+2014-11-25 22:45:14	◀▬▬	fermigier (~fermigier@gob75-4-82-228-45-48.fbx.proxad.net) has quit (Quit: fermigier)
+2014-11-25 22:45:59	◀▬▬	h6o6 (~Adium@host-128-227-211-82.xlate.ufl.edu) has left #pocoo
+2014-11-25 22:48:06	▬▬▶	pybam (~kev@HSI-KBW-046-005-000-219.hsi8.kabel-badenwuerttemberg.de) has joined #pocoo
+2014-11-25 22:48:38	◀▬▬	matason (~matason@host217-43-222-101.range217-43.btcentralplus.com) has quit (Ping timeout: 264 seconds)
+2014-11-25 22:48:40	▬▬▶	R0b0t1 (~R0b0t1@unaffiliated/r0b0t1) has joined #pocoo
+2014-11-25 22:49:19	pybam	Hi there. I have a question regarding the redirect. I want to redirec to a view/route that as exactly one argument, how would the syntax be to do this?
+2014-11-25 22:49:35	pybam	SO far i have: return redirect(url_for('show_user'))
+2014-11-25 22:49:44	pybam	I want to add an value to that.
+2014-11-25 22:49:51	mattupstate	pybam: return redirect(url_for('show_user', user_id=<value>))
+2014-11-25 22:49:59	mattupstate	or whatever your parameter name is
+2014-11-25 22:50:46	▬▬▶	mazatta (~mazatta@S0106881fa12d6d1d.vc.shawcable.net) has joined #pocoo
+2014-11-25 22:50:50	pybam	Thank you.
+2014-11-25 22:51:31	◀▬▬	pybam (~kev@HSI-KBW-046-005-000-219.hsi8.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2014-11-25 22:56:12	ℹ 	irc: disconnected from server

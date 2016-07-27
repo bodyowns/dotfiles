@@ -1,0 +1,1114 @@
+2014-11-29 19:30:38	▬▬▶	body (~body@host92-98-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-11-29 19:30:38	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-11-29 19:30:38	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-11-29 19:30:38	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-11-29 19:30:40	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-11-29 19:37:35	ℹ 	StefanCristian is now known as BlackNoxis
+2014-11-29 19:50:04	V3n3RiX	crismblog nu poti sa faci kogaion amd64 pure decat daca il recompilezi complet
+2014-11-29 19:50:13	V3n3RiX	si schimbi profilul in no-multilib
+2014-11-29 19:50:30	V3n3RiX	kogaion ca si sabayon este compilat cu multiple ABI
+2014-11-29 19:50:44	V3n3RiX	ca sa suporte aplicatii gen skype pe amd64
+2014-11-29 19:50:58	V3n3RiX	daca vrei pur 64 nu o sa iti mearga unele lucruri
+2014-11-29 19:51:15	V3n3RiX	si decat sa faci asta pe kogaion, mai bine tragi un stage 3 no-multilib
+2014-11-29 19:51:20	V3n3RiX	si iti faci sistemul
+2014-11-29 19:51:31	V3n3RiX	altfel o sa te chinui de numai poti
+2014-11-29 19:52:18	crismblog	am înțeles din ce am scris n1ghtwatch , mulțumesc
+2014-11-29 19:53:43	yo9fah	22 Bullets
+2014-11-29 19:54:01	yo9fah	va recomand sa-l vedeti daca nu l-ati vezut
+2014-11-29 19:58:37	crismblog	http://www.yoda.ro/online/zdnet-com-romania-una-dintre-cele-mai-bune-tari-din-lume-in-care-sa-lucrezi-ca-programator.html
+2014-11-29 20:15:04	body	crismblog: ai vreo idee ce sanse sunt de castigat ca programator python la noi in tara ?
+2014-11-29 20:31:45	n1ghtwatch	Articolul publicat de americani spune povestea unui programator din Cluj care sustine ca NU merita sa plece in strainatate. El a calculat ca daca ar fi sa se mute la New York ar trebui sa castige 8 mii de euro pe luna, pentru a-si permite o viata la fel de buna.
+2014-11-29 20:31:54	n1ghtwatch	crismblog: really? si cum a calculat?
+2014-11-29 20:32:08	n1ghtwatch	americanii au calculat si ei la randu lor?
+2014-11-29 20:32:37	n1ghtwatch	ca si ei afirma ca Romania este una dintre cele mai bune tari din lume sa lucrezi in IT. Programatorii castiga aici de 5 ori salariul mediu, scrie publicatia americana ZDNet.com.
+2014-11-29 20:32:45	n1ghtwatch	ceva nu se potriveste in articolu ala
+2014-11-29 20:33:11	n1ghtwatch	sa vezi ca ne trezim cu toti IT-stii americani pe cap amusi amusi
+2014-11-29 20:33:16	n1ghtwatch	am belit-o
+2014-11-29 20:33:28	n1ghtwatch	ca aia bea multa coca cola si manca numa hamburgheri
+2014-11-29 20:33:44	n1ghtwatch	mai bine cu indienii, ca aia mananca orce, chiar si fara sa le dai tacamuri
+2014-11-29 20:33:47	BlackNoxis	americanii au cel mai puternic simt al proprietatii dintre toti
+2014-11-29 20:34:05	BlackNoxis	astia o sa faca regula de fier pe copyright
+2014-11-29 20:34:10	BlackNoxis	is destul de batuti in cap
+2014-11-29 21:41:39	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-11-29 21:43:51	◀▬▬	crismblog (~crismblog@unaffiliated/crismblog) has quit (Quit: Am plecat la vânătoare)
+2014-11-29 23:46:13	BlackNoxis	meh
+2014-11-30 00:29:42	▬▬▶	pirea (~pirea@86.127.149.50) has joined #rogentos-dezvoltare
+2014-11-30 00:29:45	pirea	salutare
+2014-11-30 00:30:18	body	pirea: salut
+2014-11-30 00:43:46	BlackNoxis	pirea: ce-ti mai trebe ma?
+2014-11-30 00:43:53	BlackNoxis	pirea: n-ai destule pancove?
+2014-11-30 00:44:05	BlackNoxis	ne storci aicia de energie si knowledge
+2014-11-30 00:44:07	BlackNoxis	xD
+2014-11-30 00:44:32	BlackNoxis	n-avem. go away.
+2014-11-30 00:46:00	pirea	:))
+2014-11-30 00:46:24	pirea	BlackNoxis incerc sa inteleg cum dracu se compileaza cyanogenmod
+2014-11-30 00:46:34	BlackNoxis	cu emerge
+2014-11-30 00:46:39	BlackNoxis	prostia ta ca nu esti pe gentoo-uri
+2014-11-30 00:46:40	BlackNoxis	asta este
+2014-11-30 00:46:43	BlackNoxis	:P
+2014-11-30 00:47:05	BlackNoxis	faci compilari pe sisteme de operare si nu esti pe gentoo
+2014-11-30 00:47:08	BlackNoxis	adica unde e ratiunea
+2014-11-30 00:47:10	BlackNoxis	zau.
+2014-11-30 00:47:21	pirea	BlackNoxis am intercat Kogaion si ghici ce
+2014-11-30 00:47:27	pirea	zicea no medium found
+2014-11-30 00:47:38	BlackNoxis	ba, io vorbesc de vaca si el pirea imi zice de avion
+2014-11-30 00:48:08	BlackNoxis	pirea: ce sistem de operare este cu totul si cu totul orientat catre compilari?
+2014-11-30 00:48:11	BlackNoxis	un cuvant caut
+2014-11-30 00:48:15	pirea	gentoo
+2014-11-30 00:48:17	BlackNoxis	bun
+2014-11-30 00:48:20	BlackNoxis	ne-am inteles
+2014-11-30 00:48:41	pirea	BlackNoxis nu pot compila chestii mari(like os)
+2014-11-30 00:48:43	BlackNoxis	pirea: https://github.com/Gentoo-Land/ro-gentoo-book
+2014-11-30 00:48:45	BlackNoxis	ai aici cartea
+2014-11-30 00:48:47	BlackNoxis	da-i inainte
+2014-11-30 00:49:05	pirea	pentru ca mi se coace procesorul si se inchide laptopu
+2014-11-30 00:49:44	body	pirea: Stefanescu Cristain @ facebook, zi ca te-a trimis Noje Sebastian, le are cu astea
+2014-11-30 00:49:54	body	pirea: baga pasta pa procesor si curatal
+2014-11-30 00:49:59	body	xD
+2014-11-30 00:50:15	pirea	body nu merge :)
+2014-11-30 00:50:44	body	uhm , ai incercat si cu pasta mai bunicica ?
+2014-11-30 00:50:49	pirea	body problema e undeva la alimentare
+2014-11-30 00:50:59	pirea	da, ultima data i-am pus din aia cu aur :))
+2014-11-30 00:51:23	pirea	daca il tin pe powersave nu crapa
+2014-11-30 00:51:37	body	uhm, ca penultima oara ce i-am pus pasta, luasem de la un amic si era deaia mai lowcost, si de la 100 de grade tot la 100 de grade imi statea
+2014-11-30 00:51:41	pirea	daca il pun pe performance se inchide singurel cand e idle
+2014-11-30 00:51:50	body	si cand am pus ceva mai bun, mi-a trecut la 50~ stabil
+2014-11-30 00:52:19	body	uhm, ceva nui bine atunci
+2014-11-30 00:52:28	pirea	body stiu
+2014-11-30 00:53:49	pirea	body problema a evoluat in timp
+2014-11-30 00:54:11	pirea	cred ca ajunge cam mult curent la procesor
+2014-11-30 00:54:20	body	huh, eu am stat cu el vreo 3-4 luni asa la 100 de grade de am zis ca moare , si dupa si-a revenit
+2014-11-30 00:55:22	pirea	eu nu cred ca isi va mai reveni
+2014-11-30 00:57:06	body	pirea: ai incercat sa vezi cu ceva tool cat curent intra in cpu ?
+2014-11-30 00:57:30	pirea	cu ce tool?
+2014-11-30 00:57:34	pirea	n-am incercat
+2014-11-30 00:59:16	pirea	body stii vreun tool?
+2014-11-30 00:59:23	body	pirea: lm-sensors
+2014-11-30 01:00:23	pirea	body si asta zice curentul?
+2014-11-30 01:00:39	body	yup
+2014-11-30 01:03:55	pirea	body how to?
+2014-11-30 01:04:06	body	sensors
+2014-11-30 01:04:25	body	si daca nu merge, trebuie sa o iei pas cu pas in , sensor-detect
+2014-11-30 01:04:34	pirea	body nu zice voltege
+2014-11-30 01:04:36	body	sensors-detect
+2014-11-30 01:04:42	pirea	i-am dat sensors-detect
+2014-11-30 01:04:56	body	cu root ?
+2014-11-30 01:05:01	pirea	da
+2014-11-30 01:05:18	pirea	zice temperatura
+2014-11-30 01:05:24	body	asa si aici ar trebui sa te intrebe pas cu pas ce ai peacolo
+2014-11-30 01:05:28	body	tu ii dai yes sau no
+2014-11-30 01:05:31	pirea	da
+2014-11-30 01:05:38	pirea	asta am facut
+2014-11-30 01:05:38	body	si dupa ar trebui sa iti arate
+2014-11-30 01:05:47	body	http://forums.anandtech.com/showthread.php?t=2325245
+2014-11-30 01:09:01	pirea	body exact versiunea 3.3.4 o am
+2014-11-30 01:09:53	pirea	nu arata
+2014-11-30 01:09:58	pirea	anyway imi iau altul
+2014-11-30 01:10:05	pirea	body samsa sau nfs?
+2014-11-30 01:10:24	V3n3RiX	sftp :D
+2014-11-30 01:10:39	pirea	aseara am pus pt prima data nfs si mi s-a parut de 100 de ori mai simplu de configurat
+2014-11-30 01:11:02	V3n3RiX	este, dar nfs este unix-unix
+2014-11-30 01:11:05	V3n3RiX	nu si unix-windows
+2014-11-30 01:11:14	body	pirea: huh, sincer sa fiu nu stiu.. am incercat mai demult dar numai imi vine in minte
+2014-11-30 01:11:44	pirea	V3n3RiX la mine in casa nu e urma de windows :)
+2014-11-30 01:11:48	body	V3n3RiX: imi zici si mie pls in PKGBUILD unde trebuie sa adaug options la compilare ?
+2014-11-30 01:12:06	V3n3RiX	unde scrie configure
+2014-11-30 01:12:17	V3n3RiX	dai enable, disable
+2014-11-30 01:12:32	V3n3RiX	si in functie de asta scoti/adaugi pachete la depends
+2014-11-30 01:12:34	V3n3RiX	which sucks
+2014-11-30 01:12:35	body	in build(){ ....} ?
+2014-11-30 01:12:35	V3n3RiX	;))
+2014-11-30 01:12:49	pirea	nu
+2014-11-30 01:13:00	pirea	cealalta functie
+2014-11-30 01:13:07	V3n3RiX	prepare
+2014-11-30 01:13:09	V3n3RiX	nush
+2014-11-30 01:13:10	V3n3RiX	configure
+2014-11-30 01:13:24	V3n3RiX	nici nu stiu ce functii au, cand foloseam eu arch aveau doar 1
+2014-11-30 01:14:17	V3n3RiX	btw, vezi ca exista un script makeworld
+2014-11-30 01:14:19	V3n3RiX	sau ceva de genul
+2014-11-30 01:14:22	pirea	ai package build si mai e una body
+2014-11-30 01:14:28	V3n3RiX	sa rebuildezi to sistemul
+2014-11-30 01:14:32	V3n3RiX	pe arch
+2014-11-30 01:15:05	V3n3RiX	faci sync cu abs si , te joci in makepkg.conf cu cflags
+2014-11-30 01:15:08	V3n3RiX	si dai rebuild
+2014-11-30 01:15:26	body	ca incercam sa instalez i-nex , sar putea sa zica si ala ce voltaj ai
+2014-11-30 01:15:28	V3n3RiX	dar un update din repo o sa iti strice ce ai facut
+2014-11-30 01:15:44	body	si da fail la compilare , si zicea unu pe aur ca trebuie adaugat
+2014-11-30 01:15:52	body	options=('!makeflags')
+2014-11-30 01:15:55	body	https://aur.archlinux.org/packages/i-nex-git/
+2014-11-30 01:19:45	pirea	voi cand dormiti? :)
+2014-11-30 01:21:57	body	pirea: se pare ca nici mie nu-mi arata pe laptop voltaju
+2014-11-30 01:22:14	pirea	body :)
+2014-11-30 01:25:46	◀▬▬	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 258 seconds)
+2014-11-30 01:33:21	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 01:46:01	body	hmmm
+2014-11-30 01:46:08	body	le are careva cu virtualizariile ?
+2014-11-30 01:46:37	pirea	body ce virtualizari?
+2014-11-30 01:47:17	body	defapt am dat eu fail
+2014-11-30 01:47:48	body	am confundat
+2014-11-30 01:48:04	body	vt-x cu vt-d 
+2014-11-30 01:48:30	body	dadusem lscpu si la virtualizare imi aparuse vt-x , 
+2014-11-30 01:49:08	body	si pentru o secunda am confundat cu vtd ceea ce-mi trebuia mia, si ma gandeam cum de in bios zice ca nu am si in linux zice ca am
+2014-11-30 01:49:11	body	huh oboseala asta
+2014-11-30 01:49:28	▬▬▶	KGBOT (~KGBOT@192.30.252.47) has joined #rogentos-dezvoltare
+2014-11-30 01:49:28	KGBOT	[kogaion-desktop] V3n3RiX opened pull request #10: fix one 8 year long standing bug in xinit/startx (master...master) http://git.io/G-CnKw
+2014-11-30 01:49:28	◀▬▬	KGBOT (~KGBOT@192.30.252.47) has left #rogentos-dezvoltare
+2014-11-30 01:50:38	body	woot?
+2014-11-30 01:51:42	StefanCristian	mda, mai facem si de'astea. fixuim cacaul vechi al altora
+2014-11-30 01:51:59	V3n3RiX	8 fucking years :(
+2014-11-30 01:52:36	body	pirea: ia dai un sudo dmidecode | grep Voltage
+2014-11-30 01:52:38	▬▬▶	KGBOT (~KGBOT@192.30.252.33) has joined #rogentos-dezvoltare
+2014-11-30 01:52:38	KGBOT	[kogaion-desktop] BlackNoxis closed pull request #10: fix one 8 year long standing bug in xinit/startx (master...master) http://git.io/G-CnKw
+2014-11-30 01:52:38	◀▬▬	KGBOT (~KGBOT@192.30.252.33) has left #rogentos-dezvoltare
+2014-11-30 01:52:52	StefanCristian	ba
+2014-11-30 01:52:56	StefanCristian	v3n3RiX am dat close =))
+2014-11-30 01:53:00	StefanCristian	scuze =)
+2014-11-30 01:53:02	V3n3RiX	stf
+2014-11-30 01:53:05	StefanCristian	v3n3RiX da pull iar
+2014-11-30 01:53:06	StefanCristian	omfg =))
+2014-11-30 01:53:09	V3n3RiX	stffffffff
+2014-11-30 01:53:10	V3n3RiX	:)))
+2014-11-30 01:53:15	StefanCristian	ba nu ma
+2014-11-30 01:53:16	StefanCristian	ho
+2014-11-30 01:53:18	StefanCristian	cum cacat
+2014-11-30 01:53:23	StefanCristian	i-am dat merge
+2014-11-30 01:53:27	StefanCristian	si zice ca i-am dat closed
+2014-11-30 01:54:07	pirea	body merge
+2014-11-30 01:54:13	body	asa si ce zice la voltage?
+2014-11-30 01:54:16	body	cred ca merge
+2014-11-30 01:54:21	V3n3RiX	yeah...vadca a primit pull-ul
+2014-11-30 01:54:22	V3n3RiX	;))
+2014-11-30 01:54:30	pirea		Voltage: 3.3 V
+2014-11-30 01:54:30	pirea		Design Voltage: 19 mV
+2014-11-30 01:54:32	body	da daca zice 0 nu cred ca iti citeste voltaju
+2014-11-30 01:54:33	body	a
+2014-11-30 01:54:44	body	no , acu uitete cat ar trebui sa fie voltaju la procesoru tau
+2014-11-30 01:54:56	body	si vezi daca iti intra mai mult decat trebe
+2014-11-30 01:56:06	pirea	body conform VID Voltage Range dupa ark.intel.com (procesor T3200) ar trebui sa fie 1.075V-1.175V
+2014-11-30 01:56:08	pirea	:))
+2014-11-30 01:57:26	pirea	ii fac un divizor de tensiune acum =))
+2014-11-30 01:58:26	body	no tu ii cam dai sa mance la procesor xD
+2014-11-30 01:59:08	pirea	body esti sigur ca aia e tensiunea dupa procesor? :)
+2014-11-30 01:59:17	pirea	ca e de 3 ori mai mare :)) ar trebui sa fie ars
+2014-11-30 02:01:03	body	pirea: sudo dmidecode -t 4
+2014-11-30 02:01:10	body	ia dai asa, vezi iti zice , processor information ?
+2014-11-30 02:01:33	pirea	zice
+2014-11-30 02:01:46	pirea	si acolo zice multe
+2014-11-30 02:01:49	body	asa mai in jos
+2014-11-30 02:01:50	body	ai voltage
+2014-11-30 02:02:00	pirea	da acolo e 3.3v
+2014-11-30 02:02:25	body	mie la voltage imi zice 0
+2014-11-30 02:02:27	body	lolz
+2014-11-30 02:02:31	body	si pe ark nici nu specifica
+2014-11-30 02:02:53	pirea	ce procesor ai?
+2014-11-30 02:03:03	body	i7-2630qm
+2014-11-30 02:04:13	pirea	body cat te-a costat laptopul?
+2014-11-30 02:04:47	body	huh, 1000 acu vreo ...4 ani
+2014-11-30 02:05:13	body	1000euro
+2014-11-30 02:06:01	body	http://www.cel.ro/laptop-laptopuri/notebook-asus-k53sv_sx379d-i7-2630qm-750gb-6gb-gt540m_2gb-l/
+2014-11-30 02:06:06	body	asta e 
+2014-11-30 02:06:18	body	numa ca am mai modificat una alta prin el
+2014-11-30 02:08:16	body	placa de baza mior schimbato odata la service la garantie ca sa dus ceva connector pe cealalta si mi-au pus o vers mai noua
+2014-11-30 02:08:31	pirea	asta caut si eu acum sa-mi iau
+2014-11-30 02:08:33	body	dupa o fulgerat odata, mi-am luat larevedere de la lan si vga
+2014-11-30 02:08:38	pirea	ceva cu i7 si sa fie quad
+2014-11-30 02:08:44	body	hmm
+2014-11-30 02:08:47	body	am vazut ceva fain
+2014-11-30 02:08:49	body	fiatent
+2014-11-30 02:09:40	body	aa, ce bani ? pirea 
+2014-11-30 02:10:06	pirea	vreo 3000 de ron
+2014-11-30 02:10:14	body	si vrei si video calumea pe el ?
+2014-11-30 02:10:26	pirea	aproximativ
+2014-11-30 02:10:36	body	vazusem ceva acum cateva luni
+2014-11-30 02:10:45	body	pret / calitate super ok
+2014-11-30 02:10:47	body	http://www.emag.ro/laptop-lenovo-ideapad-y5070-cu-procesor-intel-174-coretm-i7-4700hq-2-40ghz-haswell-full-hd-16gb-1tb-ssd-8gb-nvidia-geforce-gtx-860m-4gb-freedos-black-59-425037/pd/DJ261BBBM/
+2014-11-30 02:10:56	body	asta e modelu, era undeva la vreo 38
+2014-11-30 02:11:03	body	nu neaparat pe emag, numai stiu unde l-am vaz
+2014-11-30 02:11:47	pirea	superb
+2014-11-30 02:12:15	body	dap
+2014-11-30 02:12:32	body	plus ca are specificatii bune
+2014-11-30 02:12:33	pirea	body diferenta dintre i5 si i3 pe laptopuri nu e asa mare, right?
+2014-11-30 02:12:48	body	nu asi prea zice asta
+2014-11-30 02:13:01	body	depinde si acolo de model
+2014-11-30 02:13:30	body	decat sa dai un 30 de mil
+2014-11-30 02:13:36	body	sa iei cu i5 sau i3 
+2014-11-30 02:13:39	body	asteapta inca ceva timp
+2014-11-30 02:13:43	body	si ia pe lenovo ala
+2014-11-30 02:13:47	body	ca ai si gtx pe el
+2014-11-30 02:13:51	body	si 16 gb de ram
+2014-11-30 02:13:55	body	si i7 decent
+2014-11-30 02:14:02	body	si numai ai treaba
+2014-11-30 02:14:17	body	eventual schimbi hdd ala in viitor cu un ssd normal si aia e
+2014-11-30 02:14:58	body	desi si ala nu e rau
+2014-11-30 02:15:05	body	ai un combo de 1tb cu ssd de 8 gb
+2014-11-30 02:15:23	body	pui systemu pe aia 8 gb de ssd si restu pe hdd
+2014-11-30 02:15:26	body	si nai treaba
+2014-11-30 02:16:42	pirea	:))
+2014-11-30 02:17:11	body	asta era linku asa, http://www.emag.ro/laptop-lenovo-ideapad-y5070-cu-procesor-intelr-coretm-i7-4710hq-2-50ghz-haswelltm-15-6-full-hd-8gb-1tb-nvidia-geforce-gtx-860m-4gb-freedos-black-59432248/pd/DLY15BBBM/
+2014-11-30 02:17:23	body	a nu, asta are 8 gb de ram
+2014-11-30 02:17:39	body	da no modelu e y570 umpic de google si gasesti
+2014-11-30 02:17:58	body	acum depinde si la ce il folosesti
+2014-11-30 02:18:05	body	ca de iei unu denasa sa stai in terminal pe irc
+2014-11-30 02:18:09	body	nu prea isi are sensu
+2014-11-30 02:18:10	body	xD
+2014-11-30 02:22:04	body	mie un air denala mic mi-ar place xD
+2014-11-30 02:23:50	pirea	body eu sunt multumit si daca are 4 gb ram :D
+2014-11-30 02:24:29	pirea	body voi o s-o luati razna cu atatia gb ram :)
+2014-11-30 02:24:41	body	pirea: da.. da in sensu ala sa dai 30 de mil pe el .. si sa ai un i5 cu vreun gt600 si ceva cu un 4 gb de ram
+2014-11-30 02:25:05	body	mai bine ala cu i7 gtx si 16 de ram 
+2014-11-30 02:25:06	body	xD
+2014-11-30 02:25:16	pirea	body ce faci tu cu 16 gb ram?
+2014-11-30 02:26:50	body	ma nush, da eu cel putin 4 ii manc rpd, http://i.imgur.com/cTKQffp.png
+2014-11-30 02:26:57	body	acolo jos in mijloc
+2014-11-30 02:27:41	pirea	ce rulezi? :))
+2014-11-30 02:27:43	body	pirea: compilezi in ram xD
+2014-11-30 02:27:52	body	aa weechat, skype, chrome
+2014-11-30 02:27:53	pirea	a :)
+2014-11-30 02:28:39	body	nush nu strica ideea e ca pentru un 8 mil nu se merita
+2014-11-30 02:28:42	body	sa iei unu denala
+2014-11-30 02:28:46	body	la 30 de mil
+2014-11-30 02:28:57	body	da .. daca luai unu la 15-20 da
+2014-11-30 02:28:59	body	mai era cum era
+2014-11-30 02:29:19	body	e ca si cum ti-ai lua o masina de ...5000 de euro 
+2014-11-30 02:29:35	body	si pentru 5500 o iei full optional
+2014-11-30 02:29:49	body	nu mai astepti pana mai ai 500 si o iei asa cu tot ce trebe ?
+2014-11-30 02:30:00	body	:D
+2014-11-30 02:31:19	pirea	nu mai :))
+2014-11-30 02:31:25	pirea	bag pla
+2014-11-30 02:32:36	body	:))
+2014-11-30 03:10:00	◀▬▬	pirea (~pirea@86.127.149.50) has quit (Quit: Leaving)
+2014-11-30 08:52:47	▬▬▶	crismblog (~crismblog@unaffiliated/crismblog) has joined #rogentos-dezvoltare
+2014-11-30 08:56:10	crismblog	`neața
+2014-11-30 09:20:05	▬▬▶	cgherman (~cristi@5-15-0-133.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2014-11-30 09:23:50	yo9fah	cgherman, salbe cristi
+2014-11-30 09:24:33	cgherman	salutare george
+2014-11-30 09:26:46	yo9fah	tot cu sabayon?
+2014-11-30 09:33:55	yo9fah	wuahahahaha https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/s720x720/10734089_10203999060390965_4313362683995377124_n.jpg?oh=195cee08da9e2de5900fd6fd69dd22cf&oe=55127E8C
+2014-11-30 09:51:49	cgherman	da
+2014-11-30 10:16:11	ℹ 	irc: disconnected from server
+2014-11-30 10:16:30	▬▬▶	body (~body@host92-98-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-11-30 10:16:30	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-11-30 10:16:30	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-11-30 10:16:30	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-11-30 10:16:36	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-11-30 13:08:00	▬▬▶	pirea (~pirea@86.127.149.50) has joined #rogentos-dezvoltare
+2014-11-30 13:20:22	ℹ 	irc: disconnected from server
+2014-11-30 13:20:55	▬▬▶	body (~body@host92-98-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-11-30 13:20:56	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-11-30 13:20:56	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-11-30 13:20:56	ℹ 	Channel #rogentos-dezvoltare: 17 nicks (1 op, 0 voices, 16 normals)
+2014-11-30 13:20:58	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-11-30 13:21:26	body	hello
+2014-11-30 13:28:04	yo9fah	Conviction- fapt real
+2014-11-30 13:28:10	yo9fah	bun de vazut
+2014-11-30 13:28:35	body	e serial yo9fah  ?
+2014-11-30 13:28:53	yo9fah	:))
+2014-11-30 13:28:54	yo9fah	nu
+2014-11-30 13:29:02	body	yo9fah: a
+2014-11-30 13:29:04	yo9fah	nu imi plac serialele
+2014-11-30 13:29:11	body	same here
+2014-11-30 13:29:20	yo9fah	si nici filmele cu reclame
+2014-11-30 13:30:10	yo9fah	600 Kilos- la fel de bun
+2014-11-30 13:31:32	yo9fah	Airline Disaster 2010
+2014-11-30 13:33:52	▬▬▶	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has joined #rogentos-dezvoltare
+2014-11-30 13:35:58	body	yo9fah: ia trimite-mi pls un url denala de 2 km
+2014-11-30 13:36:09	body	adica pe canal
+2014-11-30 13:36:16	body	ca is curios daca imi merge plugin-u
+2014-11-30 13:36:32	body	ca mi-am pus un plugin, ca imi tot impartea aiurea url in 2
+2014-11-30 13:37:38	◀▬▬	cgherman (~cristi@5-15-0-133.residential.rdsnet.ro) has left #rogentos-dezvoltare
+2014-11-30 13:43:31	yo9fah	https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/s720x720/10734089_10203999060390965_4313362683995377124_n.jpg?oh=195cee08da9e2de5900fd6fd69dd22cf&oe=55127E8C [ http://192.168.1.8:20000/4 ]
+2014-11-30 13:46:07	body	yo9fah: yey merge :D
+2014-11-30 14:04:44	▬▬▶	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 14:08:10	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 265 seconds)
+2014-11-30 14:35:23	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-11-30 14:40:35	▬▬▶	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has joined #rogentos-dezvoltare
+2014-11-30 14:44:57	yo9fah	k
+2014-11-30 14:45:09	yo9fah	ma bag la filme
+2014-11-30 16:02:43	▬▬▶	Necrose99 (~Mike@unaffiliated/necrose99) has joined #rogentos-dezvoltare
+2014-11-30 16:04:56	◀▬▬	Necrose99 (~Mike@unaffiliated/necrose99) has quit (Max SendQ exceeded)
+2014-11-30 16:05:33	▬▬▶	Necrose99 (~Mike@unaffiliated/necrose99) has joined #rogentos-dezvoltare
+2014-11-30 16:41:27	◀▬▬	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 272 seconds)
+2014-11-30 18:06:00	▬▬▶	StefanCristian (~blacknoxi@2a02:2f0e:304d:5a00:3565:156f:4cc:717f) has joined #rogentos-dezvoltare
+2014-11-30 18:06:02	◀▬▬	StefanCristian (~blacknoxi@2a02:2f0e:304d:5a00:3565:156f:4cc:717f) has quit (Changing host)
+2014-11-30 18:06:02	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 18:31:00	▬▬▶	BlackNoxis (~blacknoxi@2a02:2f0e:304d:5a00:50e0:3270:4fd5:b1ca) has joined #rogentos-dezvoltare
+2014-11-30 18:31:07	◀▬▬	BlackNoxis (~blacknoxi@2a02:2f0e:304d:5a00:50e0:3270:4fd5:b1ca) has quit (Changing host)
+2014-11-30 18:31:07	▬▬▶	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 18:34:48	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 272 seconds)
+2014-11-30 18:35:23	◀▬▬	pirea (~pirea@86.127.149.50) has quit (Quit: Leaving)
+2014-11-30 18:35:47	▬▬▶	Noxix (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 18:37:37	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 18:40:23	◀▬▬	crismblog (~crismblog@unaffiliated/crismblog) has quit (Remote host closed the connection)
+2014-11-30 18:40:30	◀▬▬	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 272 seconds)
+2014-11-30 18:41:15	◀▬▬	Noxix (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 265 seconds)
+2014-11-30 18:41:31	▬▬▶	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 18:43:02	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 272 seconds)
+2014-11-30 19:15:57	▬▬▶	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2014-11-30 20:03:54	▬▬▶	crismblog (~crismblog@86.124.108.172) has joined #rogentos-dezvoltare
+2014-11-30 20:03:54	◀▬▬	crismblog (~crismblog@86.124.108.172) has quit (Changing host)
+2014-11-30 20:03:54	▬▬▶	crismblog (~crismblog@unaffiliated/crismblog) has joined #rogentos-dezvoltare
+2014-11-30 21:01:31	◀▬▬	BlackNoxis (~blacknoxi@unaffiliated/blacknoxis) has quit (Read error: Connection reset by peer)
+2014-11-30 21:04:11	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-11-30 21:11:49	◀▬▬	n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) has quit (Read error: Connection reset by peer)
+2014-11-30 21:12:39	▬▬▶	n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) has joined #rogentos-dezvoltare
+2014-11-30 21:47:02	◀▬▬	mufy (~mufy@91.82.187.142) has quit (Quit: ZNC - http://znc.in)
+2014-11-30 21:47:34	▬▬▶	mufy (~mufy@91.82.187.142) has joined #rogentos-dezvoltare
+2014-11-30 21:57:45	◀▬▬	mufy (~mufy@91.82.187.142) has quit (Quit: ZNC - http://znc.in)
+2014-11-30 21:58:19	▬▬▶	mufy (~mufy@91.82.187.142) has joined #rogentos-dezvoltare
+2014-11-30 22:06:17	◀▬▬	crismblog (~crismblog@unaffiliated/crismblog) has quit (Quit: Am plecat la vânătoare)
+2014-11-30 23:05:52	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-12-01 01:23:51	◀▬▬	Necrose99 (~Mike@unaffiliated/necrose99) has quit (Ping timeout: 256 seconds)
+2014-12-01 01:31:12	▬▬▶	Necrose99 (~Mike@unaffiliated/necrose99) has joined #rogentos-dezvoltare
+2014-12-01 02:13:37	▬▬▶	RGTBOT (~RGTBOT@192.30.252.47) has joined #rogentos-dezvoltare
+2014-12-01 02:13:38	RGTBOT	[Rogento] BlackNoxis pushed 4 new commits to master: http://git.io/KgGWDg [ http://192.168.1.8:20000/7T ]
+2014-12-01 02:13:38	RGTBOT	Rogento/master 1ef8e53 BlackNoxis: Fixed some lxdm service error
+2014-12-01 02:13:38	RGTBOT	Rogento/master 320eacb V3n3RiX: fix one 8 year long standing bug in xinit/startx
+2014-12-01 02:13:38	RGTBOT	Rogento/master d0bb85a Stefan Cristian B.: Merge pull request #10 from V3n3RiX/master...
+2014-12-01 02:13:38	◀▬▬	RGTBOT (~RGTBOT@192.30.252.47) has left #rogentos-dezvoltare
+2014-12-01 03:49:37	◀▬▬	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)
+2014-12-01 16:05:41	▬▬▶	body (~body@fi-19-192-188.service.infuturo.it) has joined #rogentos-dezvoltare
+2014-12-01 16:05:42	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-01 16:05:42	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-01 16:05:42	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-01 16:05:46	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-01 16:05:49	body	salutare
+2014-12-01 16:05:54	yo9fah	e mai ceva ca iarba
+2014-12-01 16:06:01	deepfreez	sorry. dar nu ma pot incurca.
+2014-12-01 16:06:06	deepfreez	:))
+2014-12-01 16:06:11	deepfreez	Salut body
+2014-12-01 16:06:24	deepfreez	gata e timpul sa plecam acasa :)
+2014-12-01 16:06:26	yo9fah	body, Sa Traiesti........
+2014-12-01 16:06:27	body	ma ! voi in loc sa vb de kernel vb de droguri ?
+2014-12-01 16:06:29	body	:))
+2014-12-01 16:06:32	yo9fah	Nemtesteeeeeee
+2014-12-01 16:06:48	deepfreez	Salut la toti !
+2014-12-01 16:07:02	yo9fah	ma duc sa mai beu ceva
+2014-12-01 16:07:04	yo9fah	incep sa-mi reviu
+2014-12-01 16:07:20	body	aa chiar ca in ro se sta acasa de 1 dec
+2014-12-01 16:07:22	body	grrrr
+2014-12-01 16:08:28	deepfreez	unii !
+2014-12-01 16:08:35	deepfreez	altii mai si muncesc
+2014-12-01 16:08:39	body	:))
+2014-12-01 16:15:28	▬▬▶	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has joined #rogentos-dezvoltare
+2014-12-01 16:16:02	body	ati lucrat careva cu socks ?
+2014-12-01 17:14:18	yo9fah	cu șocuri da
+2014-12-01 17:14:31	yo9fah	cu socks ....
+2014-12-01 17:14:50	yo9fah	fdd, mai trăiești mei?
+2014-12-01 17:17:45	yo9fah	hahaha, descarc de pe ADrive dupa 4 ani ...
+2014-12-01 17:17:58	yo9fah	altii sterg conturile, vaz ca astia nu o fac.
+2014-12-01 17:18:07	yo9fah	am numa filme
+2014-12-01 17:18:51	yo9fah	descarc Sunt Timid Dar Ma Tratez ... vreau sa ma mai râz o leacă
+2014-12-01 17:30:10	yo9fah	http://movietrailerdb.net/posters/l_39478_0077768_625662b5.jpg
+2014-12-01 17:53:48	body	:(
+2014-12-01 17:58:54	yo9fah	ah, da, si Intoarcerea Marelui Blond
+2014-12-01 18:50:55	ℹ 	irc: disconnected from server
+2014-12-01 20:30:42	▬▬▶	body (~body@host92-98-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-01 20:30:42	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-01 20:30:42	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-01 20:30:42	ℹ 	Channel #rogentos-dezvoltare: 17 nicks (1 op, 0 voices, 16 normals)
+2014-12-01 20:30:43	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-01 20:33:37	◀▬▬	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)
+2014-12-01 21:51:39	▬▬▶	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:55	▬▬▶	17SAA2WQ3 (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:56	▬▬▶	5EXABQB5N (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:56	▬▬▶	__NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:56	▬▬▶	_NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:57	▬▬▶	_________NoxBot1 (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:58	▬▬▶	_____NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:27:58	ℹ 	_____NoxBot1__ is now known as ______NoxBot1__
+2014-12-01 22:28:00	▬▬▶	_____________Nox (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 22:29:11	deepfreez	!?
+2014-12-01 22:29:13	RoentgenBOT`	deepfreez: Error: "?" is not a valid command.
+2014-12-01 22:32:10	◀▬▬	17SAA2WQ3 (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 244 seconds)
+2014-12-01 22:32:12	◀▬▬	_________NoxBot1 (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 252 seconds)
+2014-12-01 22:32:17	◀▬▬	_____________Nox (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 245 seconds)
+2014-12-01 22:32:25	◀▬▬	______NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 250 seconds)
+2014-12-01 22:32:25	◀▬▬	5EXABQB5N (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 250 seconds)
+2014-12-01 22:32:28	◀▬▬	__NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 264 seconds)
+2014-12-01 22:32:28	◀▬▬	_NoxBot1__ (~NoxBot1@bpr.bluepink.ro) has quit (Ping timeout: 264 seconds)
+2014-12-01 22:34:58	◀▬▬	mudler (~mudler@ns235541.ip-192-99-32.net) has quit (*.net *.split)
+2014-12-01 22:34:59	◀▬▬	FDCX (~fdcx@2a02:2f0a:a03f:ffff::5679:1d99) has quit (*.net *.split)
+2014-12-01 22:34:59	◀▬▬	NoxBot1 (~NoxBot1@bpr.bluepink.ro) has quit (*.net *.split)
+2014-12-01 22:39:45	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-12-01 23:19:48	▬▬▶	dotix (~dot@unaffiliated/radubogdan) has joined #rogentos-dezvoltare
+2014-12-01 23:29:44	▬▬▶	mudler (~mudler@ns235541.ip-192-99-32.net) has joined #rogentos-dezvoltare
+2014-12-01 23:29:49	▬▬▶	FDCX (~fdcx@2a02:2f0a:a03f:ffff::5679:1d99) has joined #rogentos-dezvoltare
+2014-12-01 23:52:44	StefanCristian	hmm
+2014-12-01 23:53:36	▬▬▶	NoxBot1 (~NoxBot1@bpr.bluepink.ro) has joined #rogentos-dezvoltare
+2014-12-01 23:53:43	StefanCristian	mere amu
+2014-12-01 23:54:43	StefanCristian	deepfreez: e botu meu
+2014-12-01 23:55:54	deepfreez	:)
+2014-12-01 23:56:01	deepfreez	se multiplica
+2014-12-01 23:56:58	deepfreez	StefanCristian, ti s-a intamplat asa ceva: http://i57.tinypic.com/2croavo.jpg , ultim data a aparut liniute si chestii si cand porneam PC-ul (bios/start) ... daca dau restart de cateva ori sau il las putin inchis isi revine
+2014-12-01 23:57:04	deepfreez	e de la placa video?
+2014-12-01 23:57:17	StefanCristian	deepfreez: ce sistem de operare?
+2014-12-01 23:57:22	deepfreez	debian
+2014-12-01 23:57:26	StefanCristian	atunci ma doare'n pula
+2014-12-01 23:57:28	StefanCristian	aici e rogentos.
+2014-12-01 23:57:41	deepfreez	=))
+2014-12-01 23:57:49	V3n3RiX	=)))
+2014-12-01 23:58:14	deepfreez	razi tu razi nea' V3n3RiX
+2014-12-01 23:58:38	V3n3RiX	hai taci ca tocmai am peticit libdesktop-agnostic :D
+2014-12-02 00:00:46	deepfreez	:)
+2014-12-02 00:35:19	ℹ 	irc: disconnected from server
+2014-12-02 00:35:35	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 00:35:35	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-02 00:35:35	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-02 00:35:35	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-02 00:35:40	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 02:30:36	◀▬▬	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)
+2014-12-02 03:47:10	▬▬▶	kneekoo (~kneekoo@188.26.134.56) has joined #rogentos-dezvoltare
+2014-12-02 04:38:36	ℹ 	irc: disconnected from server
+2014-12-02 04:39:54	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 04:39:54	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-02 04:39:54	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-02 04:39:54	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-02 04:42:51	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 04:53:04	ℹ 	irc: disconnected from server
+2014-12-02 04:53:21	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 04:53:21	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-02 04:53:21	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-02 04:53:21	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-02 04:53:21	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 05:01:21	◀▬▬	yo9fah (~yo9fah@unaffiliated/yo9fah) has quit (Quit: Leaving)
+2014-12-02 05:35:47	◀▬▬	kneekoo (~kneekoo@188.26.134.56) has quit (Quit: Leaving)
+2014-12-02 05:39:44	▬▬▶	kneekoo (~kneekoo@188.26.134.56) has joined #rogentos-dezvoltare
+2014-12-02 06:03:44	◀▬▬	Necrose99 (~Mike@unaffiliated/necrose99) has quit (Ping timeout: 244 seconds)
+2014-12-02 06:07:26	▬▬▶	yo9fah (~yo9fah@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2014-12-02 06:27:29	◀▬▬	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Ping timeout: 256 seconds)
+2014-12-02 06:27:29	ℹ 	irc: disconnected from server
+2014-12-02 06:30:29	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 06:30:29	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-02 06:30:29	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-02 06:30:31	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-02 06:32:46	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 07:43:46	▬▬▶	dotix (~dot@unaffiliated/radubogdan) has joined #rogentos-dezvoltare
+2014-12-02 08:02:47	ℹ 	irc: disconnected from server
+2014-12-02 15:23:17	▬▬▶	body (~body@151.34.69.104) has joined #rogentos-dezvoltare
+2014-12-02 15:23:17	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit pe rogentos-dezvoltare! Dintr-o anume eroare a unui anume dezvoltator, imaginea iso x86 XFCE e un pic stricata. Pana ce o punem la loc pe cea buna, o puteti descarca temporar de aici: https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso | https://dl.dropboxusercontent.com/u/51887609/kogaioniso/Kogaion_x86_2.0_XFCE.iso.md5"
+2014-12-02 15:23:17	ℹ 	Topic set by StefanCristian on Thu, 13 Nov 2014 18:25:04
+2014-12-02 15:23:17	ℹ 	Channel #rogentos-dezvoltare: 17 nicks (1 op, 0 voices, 16 normals)
+2014-12-02 15:23:18	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 15:23:29	body	heloooow
+2014-12-02 15:27:40	◀▬▬	yo9fah (~yo9fah@unaffiliated/yo9fah) has quit (Quit: Leaving)
+2014-12-02 15:46:20	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 258 seconds)
+2014-12-02 16:14:10	◀▬▬	mufy (~mufy@91.82.187.142) has quit (Quit: ZNC - http://znc.in)
+2014-12-02 16:14:40	▬▬▶	mufy (~mufy@91.82.187.142) has joined #rogentos-dezvoltare
+2014-12-02 16:20:34	n1ghtwatch	V3n3RiX: ba
+2014-12-02 16:20:49	n1ghtwatch	ai cules si tu o butelcutza de murfatlar ceva?
+2014-12-02 16:20:56	n1ghtwatch	sau numa floricele pe campii?
+2014-12-02 16:23:15	V3n3RiX	avem avem de tati
+2014-12-02 16:29:10	n1ghtwatch	V3n3RiX: sî zici "Aviem di tăti" .... uuuf, tre' s te invat o groaza ... https://www.youtube.com/watch?v=9eboknv5bbc
+2014-12-02 16:45:11	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-12-02 17:02:08	body	vreau sa-mi fac un vpn care sa fie accesat de mai multi clienti, imi poate consilia cineva ceva? 
+2014-12-02 17:02:37	◀▬▬	dotix (~dot@unaffiliated/radubogdan) has quit (Quit: Leaving)
+2014-12-02 17:02:37	body	V3n3RiX: n1ghtwatch: StefanCristian: ^ ?
+2014-12-02 17:02:48	V3n3RiX	eu nu
+2014-12-02 17:03:24	StefanCristian	body: cu ce sistem?
+2014-12-02 17:03:44	body	StefanCristian: orice, inca serveru nu ii facut, deci poti alege orice
+2014-12-02 17:03:54	body	pot*
+2014-12-02 17:05:02	StefanCristian	nu poti alege kogaion/argent pentru ca nu sunt ready inca
+2014-12-02 17:05:04	StefanCristian	deci I cant' help
+2014-12-02 17:05:43	body	StefanCristian: centos ? sau pe cand crezi ca dai release la argent ?
+2014-12-02 17:06:09	V3n3RiX	2 years
+2014-12-02 17:06:45	body	serios V3n3RiX ?
+2014-12-02 17:07:06	V3n3RiX	foarte
+2014-12-02 17:07:16	StefanCristian	yup
+2014-12-02 17:07:17	StefanCristian	cam asa
+2014-12-02 17:07:25	StefanCristian	body: suntem destul de realisti
+2014-12-02 17:07:40	body	mama... cand vin in ro de prin ianuarie va ajut si eu cu ce pot
+2014-12-02 17:08:24	StefanCristian	multam :D
+2014-12-02 17:08:56	StefanCristian	acuma glumim, glumim, dar chiar nu pot sa te ajut momentan
+2014-12-02 17:08:57	StefanCristian	sunt super super busy
+2014-12-02 17:10:28	body	StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D
+2014-12-02 17:25:34	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 272 seconds)
+2014-12-02 17:46:26	▬▬▶	mtcos (~mtcos@5-14-74-44.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2014-12-02 20:53:18	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 20:53:18	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-02 20:53:18	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-02 20:53:18	ℹ 	Channel #rogentos-dezvoltare: 14 nicks (1 op, 0 voices, 13 normals)
+2014-12-02 20:53:20	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 21:01:45	▬▬▶	dotix (~dot@unaffiliated/radubogdan) has joined #rogentos-dezvoltare
+2014-12-02 21:38:12	▬▬▶	kneekoo (~kneekoo@188.26.206.9) has joined #rogentos-dezvoltare
+2014-12-02 21:55:35	ℹ 	irc: disconnected from server
+2014-12-02 23:13:37	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 23:13:37	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-02 23:13:37	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-02 23:13:37	ℹ 	Channel #rogentos-dezvoltare: 14 nicks (1 op, 0 voices, 13 normals)
+2014-12-02 23:13:40	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-02 23:14:13	body	si mi-am facut si bara de volum #yabadabadoo http://media.giphy.com/media/TlK63EGBPIHerpwdjqM/giphy.gif
+2014-12-02 23:19:59	n1ghtwatch	body: tu esti fan arch, asai?
+2014-12-02 23:20:40	body	fan... cu asta ma obisnuii
+2014-12-02 23:20:48	body	n1ghtwatch: ^
+2014-12-02 23:21:10	n1ghtwatch	StefanCristian: ^^^
+2014-12-02 23:21:34	StefanCristian	w00t?
+2014-12-02 23:21:50	n1ghtwatch	a ... nimica
+2014-12-02 23:21:54	▬▬▶	body_ (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 23:22:04	n1ghtwatch	avem iara archisti printre noi
+2014-12-02 23:23:06	body	ala era "baiu"
+2014-12-02 23:23:25	n1ghtwatch	nush' cum se face ca o gramada de oameni de pe arch "aterizeaza" la noi
+2014-12-02 23:23:45	n1ghtwatch	multi vin, putini raman
+2014-12-02 23:23:47	body	pe mine unu mo chemat venerix sa vin aici ?
+2014-12-02 23:24:21	n1ghtwatch	body: io am zis
+2014-12-02 23:24:24	n1ghtwatch	multi vin
+2014-12-02 23:24:28	n1ghtwatch	sa vedem csti raman
+2014-12-02 23:24:35	body	da..
+2014-12-02 23:25:25	n1ghtwatch	body: nu am inteles de ce trebu sa ajng acasa ca sa ajuti cu ceva
+2014-12-02 23:25:34	n1ghtwatch	de codat poti coda si din italia
+2014-12-02 23:25:38	n1ghtwatch	si din tumbuctu
+2014-12-02 23:25:48	n1ghtwatch	si din america saudita
+2014-12-02 23:25:48	▬▬▶	fdd (~fdd@188.24.94.54) has joined #rogentos-dezvoltare
+2014-12-02 23:25:49	◀▬▬	fdd (~fdd@188.24.94.54) has quit (Changing host)
+2014-12-02 23:25:49	▬▬▶	fdd (~fdd@unaffiliated/fdd) has joined #rogentos-dezvoltare
+2014-12-02 23:26:15	n1ghtwatch	nu intaleg cum vine asta, numa de acasa poti contribui la o comunitate linux?
+2014-12-02 23:26:19	n1ghtwatch	romaneasca?
+2014-12-02 23:27:41	StefanCristian	:))
+2014-12-02 23:27:42	n1ghtwatch	iti pune interdicitie pe pasaport daca te gaseste ca faci commit pe f'un git romanesc?
+2014-12-02 23:27:48	n1ghtwatch	sau cum ii faza?
+2014-12-02 23:27:53	StefanCristian	body: it's nuffin', avem experiente neplacute din trecut
+2014-12-02 23:28:12	StefanCristian	nu acuza n1ghtwatch pe nimeni de nimic, avem numa experiente trecute
+2014-12-02 23:28:21	n1ghtwatch	StefanCristian: <body> mama... cand vin in ro de prin ianuarie va ajut si eu cu ce pot
+2014-12-02 23:28:28	n1ghtwatch	asta nu o pricep
+2014-12-02 23:28:31	n1ghtwatch	adica cum?
+2014-12-02 23:28:37	n1ghtwatch	numa de acasa se poate?
+2014-12-02 23:28:43	n1ghtwatch	worlwide nu?
+2014-12-02 23:29:05	n1ghtwatch	sau in italia nu merge git?
+2014-12-02 23:29:11	n1ghtwatch	sau trello?
+2014-12-02 23:29:16	n1ghtwatch	sau netu in jeneral?
+2014-12-02 23:29:37	body	n1ghtwatch: aa... ai lucrat vreodata asa mult sa nu prea ai timp de nimic ?
+2014-12-02 23:30:33	StefanCristian	body: da :))
+2014-12-02 23:30:34	StefanCristian	iti zic io ca da
+2014-12-02 23:30:52	StefanCristian	n1ghtwatch e o data pe an prin tara
+2014-12-02 23:31:09	StefanCristian	o inceput sa bage rogentos la greu din india, cred ca
+2014-12-02 23:31:15	StefanCristian	cu un net de vreo 100kb
+2014-12-02 23:31:25	StefanCristian	noaptea tarziu, abia ne coalizam
+2014-12-02 23:31:32	body	nah ...cam asa is eu in perioada asta
+2014-12-02 23:31:47	body	pai da .. am putin timp acum
+2014-12-02 23:32:26	StefanCristian	e okay
+2014-12-02 23:32:31	StefanCristian	trebuie pasiune pentru asta
+2014-12-02 23:32:34	StefanCristian	noi o avem
+2014-12-02 23:32:44	StefanCristian	si trebuie viziune ca sa lucrezi in rogentos
+2014-12-02 23:32:46	StefanCristian	o avem si pe aia
+2014-12-02 23:32:57	StefanCristian	restul care ne ajuta sunt foarte buni prieteni
+2014-12-02 23:33:01	StefanCristian	de'ai nostri
+2014-12-02 23:33:08	StefanCristian	sau pasionati de dezvoltare, de orice fel
+2014-12-02 23:33:31	StefanCristian	dar ca sa fii trup-si-suflet cum suntem eu, n1ghtwatch si V3n3RiX
+2014-12-02 23:33:33	StefanCristian	trebuie clar viziune
+2014-12-02 23:33:55	StefanCristian	noi contribuim cu un scop, un scop comun, stim ce vrem sa ajunga kogaion si argent
+2014-12-02 23:34:00	body	cu viziunea te referi la ?
+2014-12-02 23:34:02	StefanCristian	stim exact ce vrem sa ajunga
+2014-12-02 23:34:27	body	ah, si care e viziunea :D ?
+2014-12-02 23:34:34	body	adica unde vreti sa ajunga ?
+2014-12-02 23:34:37	StefanCristian	cred ca e scrisa pe wiki.rogentos.ro
+2014-12-02 23:34:43	StefanCristian	habar nu am
+2014-12-02 23:35:41	◀▬▬	body_ (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Quit: leaving)
+2014-12-02 23:36:08	▬▬▶	body_ (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-02 23:36:20	◀▬▬	body_ (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Client Quit)
+2014-12-02 23:40:04	body	woot StefanCristian arg-os ? 
+2014-12-02 23:40:13	body	asta ce va fi ?
+2014-12-02 23:40:21	body	ArgOS
+2014-12-02 23:40:23	body	pardon
+2014-12-02 23:40:33	StefanCristian	poi luand-o logic, kogaion - desktop, argent - servers
+2014-12-02 23:40:41	StefanCristian	astea doua pentru x86/x86_64
+2014-12-02 23:40:46	StefanCristian	ArgOS ramane restul
+2014-12-02 23:40:47	body	arc?
+2014-12-02 23:40:49	StefanCristian	amu restul, tu definesti
+2014-12-02 23:43:51	StefanCristian	it's all about vision :P
+2014-12-02 23:43:59	StefanCristian	ce putem face noi pentru lume, si ce poate face lumea pentru noi
+2014-12-02 23:44:07	StefanCristian	dar in primul si in primul rand ce putem face noi pentru toti
+2014-12-02 23:44:14	StefanCristian	noi nu cerem nimic
+2014-12-02 23:44:34	StefanCristian	da' suntem mult prea logici incat sa ne luam dupa mici promisiuni
+2014-12-02 23:44:50	StefanCristian	de aia n1ghtwatch ataca promisiunile mai degraba decat 'nu vreau acum, poate mai incolo'
+2014-12-02 23:44:50	StefanCristian	:P
+2014-12-02 23:45:33	body	StefanCristian: eu ziceam ca ajut si eu cu ce pot, si ca din ianuarie asi putea, fiindca am program incarcat
+2014-12-02 23:45:45	StefanCristian	ye, m-am prins
+2014-12-02 23:45:50	StefanCristian	da' exprimea l-o pus pe ganduri pe n1ghtwatch
+2014-12-02 23:45:51	StefanCristian	:))
+2014-12-02 23:46:09	body	ah :P
+2014-12-02 23:47:02	body	nah eu va las, maine ma trez de dim devreme, seara faina
+2014-12-02 23:47:03	StefanCristian	no probs on that
+2014-12-02 23:47:11	StefanCristian	buh bye lad
+2014-12-02 23:47:12	StefanCristian	we'll talk
+2014-12-02 23:47:17	body	yep cya
+2014-12-02 23:47:24	◀▬▬	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has left #rogentos-dezvoltare ("WeeChat 1.0.1")
+2014-12-03 22:34:40	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-03 22:34:40	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-03 22:34:40	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-03 22:34:40	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-03 22:34:42	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-03 23:11:45	◀▬▬	dotix (~dot@unaffiliated/radubogdan) has quit (Ping timeout: 250 seconds)
+2014-12-04 00:23:37	ℹ 	irc: disconnected from server
+2014-12-04 00:25:48	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-04 00:25:48	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-04 00:25:48	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:24:25
+2014-12-04 00:25:48	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-04 00:25:48	ℹ 	Notice(wolfe.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-12-04 00:25:49	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-04 03:47:27	◀▬▬	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Ping timeout: 264 seconds)
+2014-12-04 03:47:27	ℹ 	irc: disconnected from server
+2014-12-04 03:47:56	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-04 03:47:56	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-04 03:47:56	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-04 03:47:56	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-04 03:48:04	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-04 05:37:48	ℹ 	irc: disconnected from server
+2014-12-04 05:38:13	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-04 05:38:13	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-04 05:38:13	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-04 05:38:13	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-04 05:38:21	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-06 18:42:17	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-06 18:42:17	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-06 18:42:17	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-06 18:42:17	ℹ 	Channel #rogentos-dezvoltare: 18 nicks (1 op, 1 voice, 16 normals)
+2014-12-06 18:42:19	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-06 18:42:27	body	helloooo :D
+2014-12-06 18:43:03	pirea	body ce faci?
+2014-12-06 18:43:24	body	pirea: acum am ajuns peacasa, ko de la munca
+2014-12-06 18:43:25	body	xD
+2014-12-06 18:44:33	body	pirea: u?
+2014-12-06 18:45:45	pirea	incerc sa compilez ceva si nu merge
+2014-12-06 18:45:50	pirea	adica se compileaza
+2014-12-06 18:46:02	pirea	daaaar frecventa memoriei ram nu se modifica :|
+2014-12-06 18:48:21	pirea	body am gasit laptop :)
+2014-12-06 18:48:39	body	pirea: ce laptop
+2014-12-06 18:48:48	body	pirea: si ce compilezi ?
+2014-12-06 18:52:20	pirea	body http://www.emag.ro/laptop-acer-aspire-e5-572g-75mw-cu-procesor-intelr-coretm-i7-4712mq-2-30ghz-haswelltm-15-6-4gb-1tb-dvd-rw-nvidia-geforce-840m-2gb-linux-black-nx-mq0ex-007/pd/D5T8GBBBM/
+2014-12-06 18:52:28	pirea	body u-boot
+2014-12-06 18:53:27	n1ghtwatch	de ce ar trebui sa se modifice frecventa lu ramu?
+2014-12-06 18:53:34	body	pirea: termina ma ... a ai vaz vreodata diferenta intre m si gtx?
+2014-12-06 18:53:42	n1ghtwatch	baga-l in priza la 380
+2014-12-06 18:53:48	n1ghtwatch	si se modifica garantat
+2014-12-06 18:53:57	body	n1ghtwatch: cam asa ma gandeam si eu ... nu merge din bios sa schimbi ?
+2014-12-06 18:54:02	n1ghtwatch	va tinde spre infinit asimptotic dupa care cade brusc in zero
+2014-12-06 18:54:18	pirea	n1ghtwatch pt ca e vorba despre cubieboard si nu despre laptopul meu :)
+2014-12-06 18:54:21	n1ghtwatch	body: la laptopape nu prea ai nika in bios
+2014-12-06 18:54:24	pirea	body nu
+2014-12-06 18:54:33	n1ghtwatch	la desktoape ai, sa reglezi manual latency and other shit
+2014-12-06 18:54:45	n1ghtwatch	da pe la leptoace, nu prea
+2014-12-06 18:55:13	n1ghtwatch	pirea: anyhow
+2014-12-06 18:55:18	n1ghtwatch	cubie or not cubie
+2014-12-06 18:55:29	n1ghtwatch	de ce ai vrea sa schimbi frecventa lu rami?
+2014-12-06 18:55:31	n1ghtwatch	la proc da
+2014-12-06 18:55:33	n1ghtwatch	da la ram?
+2014-12-06 18:55:57	pirea	pt ca frecventa cu care se citeste si se scrie sa fie mai mare
+2014-12-06 18:56:05	n1ghtwatch	pirea: nu merge asa
+2014-12-06 18:56:10	pirea	dar?
+2014-12-06 18:56:16	n1ghtwatch	ram-u de designed sa lucre la o anumita frecventa
+2014-12-06 18:56:27	n1ghtwatch	care corescpunde cu bus-u
+2014-12-06 18:56:43	n1ghtwatch	usualy e luat de pe acelasi bus cu al procesorului
+2014-12-06 18:56:44	pirea	n1ghtwatch stiu :) pe placile arm e alta treaba :|
+2014-12-06 18:56:50	n1ghtwatch	prin multiplicator diferit
+2014-12-06 18:56:57	n1ghtwatch	o fo
+2014-12-06 18:57:11	n1ghtwatch	da un ram lucreaza la frecventa la care e facut, sau nu lucra de loc
+2014-12-06 18:57:16	n1ghtwatch	nu merge ca la proace
+2014-12-06 18:57:22	pirea	n1ghtwatch frecventa lu' ramu' este multiplu de 24 pe cubieboard
+2014-12-06 18:57:23	n1ghtwatch	cel mult poti sa ajustezi latentele
+2014-12-06 18:57:37	n1ghtwatch	pirea: io iti zic ce stiu
+2014-12-06 18:57:38	body	pirea: iti arat imd..
+2014-12-06 18:57:48	n1ghtwatch	ramu NU poate lucrea la alta frecventa
+2014-12-06 18:57:52	n1ghtwatch	ca se desincronizeaza
+2014-12-06 18:57:58	n1ghtwatch	cel mult ajustezi LATENTELE
+2014-12-06 18:58:13	n1ghtwatch	aka e o chestie cu ciclii de read/write ala bala
+2014-12-06 18:58:26	n1ghtwatch	cat e lunjimea pulsului pe un cilcu or something
+2014-12-06 18:58:34	pirea	n1ghtwatch e de fapt vorba de frecventa controlerului
+2014-12-06 18:58:39	pirea	iti arat imediat despre ce e vorba
+2014-12-06 18:58:48	n1ghtwatch	pirea: nu is forte specialist in hware
+2014-12-06 18:58:57	n1ghtwatch	da imi pare ca ramii au internal clock
+2014-12-06 18:59:13	n1ghtwatch	daca nu se pupa frecventa busului cu frecventa lu el, canci
+2014-12-06 18:59:15	n1ghtwatch	nu merje
+2014-12-06 18:59:20	pirea	n1ghtwatch http://linux-sunxi.org/A10_DRAM_Controller_Calibration
+2014-12-06 18:59:47	n1ghtwatch	up to u
+2014-12-06 18:59:58	n1ghtwatch	da io cred ca risti sa prajesti ramii rau de tot
+2014-12-06 19:00:23	pirea	n1ghtwatch nu cred :)
+2014-12-06 19:00:32	n1ghtwatch	sa ma tii la curent
+2014-12-06 19:00:35	pirea	da
+2014-12-06 19:00:40	n1ghtwatch	daca faci prajoale, sa viu cu muraturi
+2014-12-06 19:00:47	pirea	dar momentan sa reinstalez sistemul :))
+2014-12-06 19:00:51	pirea	pe cubieboard ca e mort :D
+2014-12-06 19:01:11	body	pirea: asa in mare -> http://www.videocardbenchmark.net/compare.php?cmp[]=2873&cmp[]=2866
+2014-12-06 19:01:45	body	ai procesor mai bun
+2014-12-06 19:01:49	body	ai ram dublu ai ssd
+2014-12-06 19:02:08	body	nu ai os, ii gata pt pus linuxu pe el
+2014-12-06 19:02:22	body	daca vrei sa arunci banii
+2014-12-06 19:02:23	body	ia acer
+2014-12-06 19:02:35	body	explicai si u n1ghtwatch 
+2014-12-06 19:02:36	body	http://www.emag.ro/laptop-acer-aspire-e5-572g-75mw-cu-procesor-intelr-coretm-i7-4712mq-2-30ghz-haswelltm-15-6-4gb-1tb-dvd-rw-nvidia-geforce-840m-2gb-linux-black-nx-mq0ex-007/pd/D5T8GBBBM/
+2014-12-06 19:02:39	body	vs
+2014-12-06 19:02:44	body	http://www.emag.ro/laptop-lenovo-ideapad-y5070-cu-procesor-intelr-coretm-i7-4700hq-2-40ghz-haswell-full-hd-8gb-ssd-256gb-nvidia-geforce-gtx-860m-4gb-freedos-black-59-425049/pd/DWY61BBBM/
+2014-12-06 19:03:14	body	si ii fuckin lenovo, ai si tasta shmechera pe el
+2014-12-06 19:03:52	body	plus pe lenovo ai 1080p
+2014-12-06 19:04:00	body	pe acer ai 720p
+2014-12-06 19:04:01	n1ghtwatch	da ii si cu 1000 ron mai mult
+2014-12-06 19:04:22	n1ghtwatch	placa video ... so so
+2014-12-06 19:04:32	n1ghtwatch	ssd-u ala in schimb ii o treaba a dracu de utila
+2014-12-06 19:04:49	body	n1ghtwatch: lenovo -> 3.94999 Lei , acer -> 2.69999 Lei
+2014-12-06 19:04:57	body	a stai
+2014-12-06 19:05:16	n1ghtwatch	pai ia scade 3950 - 27000
+2014-12-06 19:05:21	n1ghtwatch	pai ia scade 3950 - 2700
+2014-12-06 19:05:24	body	da ai dreptate n1ghtwatch , ramasesem la ideea de data trecuta cand vorbisem cu el
+2014-12-06 19:05:27	n1ghtwatch	:D
+2014-12-06 19:05:33	n1ghtwatch	ssd-u ala coasta
+2014-12-06 19:05:35	body	la 35 mil ~
+2014-12-06 19:05:40	body	eu miam luat un ssd
+2014-12-06 19:05:45	body	de la plextor
+2014-12-06 19:05:50	n1ghtwatch	eu am ssd pe asus
+2014-12-06 19:05:52	body	are tzava
+2014-12-06 19:05:53	body	pama
+2014-12-06 19:05:57	body	mama*
+2014-12-06 19:06:16	body	stie si boot rapid :D Startup finished in 2.832s (kernel) + 916ms (userspace) = 3.748s
+2014-12-06 19:06:39	body	kernel folosesc default 
+2014-12-06 19:07:09	pirea	body ce distro ai?
+2014-12-06 19:07:14	body	arch
+2014-12-06 19:07:38	pirea	body smecher :) tocmai am omorat un arch
+2014-12-06 19:07:39	pirea	:))
+2014-12-06 19:07:43	n1ghtwatch	na di colea scula buna
+2014-12-06 19:07:44	n1ghtwatch	http://www.emag.ro/laptop-gaming-asus-cu-procesor-intelr-coretm-i7-4710hq-2-50ghz-haswelltm-17-3-full-hd-8gb-1tb-nvidia-geforce-gtx-860m-4gb-freedos-black-g771jm-t4039d/pd/DK1F5BBBM/
+2014-12-06 19:08:13	n1ghtwatch	saaaau
+2014-12-06 19:08:15	n1ghtwatch	the winner
+2014-12-06 19:08:16	n1ghtwatch	http://www.emag.ro/laptop-gaming-asus-cu-procesor-intelr-coretm-i7-4710hq-2-50ghz-haswelltm-17-3-full-hd-24gb-1tb-512gb-ssd-blu-ray-nvidia-geforce-gtx-970m-3gb-free-dos-black-g751jt-t7040d/pd/DDGTGBBBM/
+2014-12-06 19:08:38	body	sa stii :D
+2014-12-06 19:08:46	body	2000 de euro huh
+2014-12-06 19:08:50	n1ghtwatch	da
+2014-12-06 19:08:53	n1ghtwatch	da are coaie
+2014-12-06 19:08:53	body	n1ghtwatch: nici nu ii asa scump daca te gandesti
+2014-12-06 19:08:56	n1ghtwatch	512 ssd
+2014-12-06 19:09:01	n1ghtwatch	1 tb hdd
+2014-12-06 19:09:03	body	in comparatie cu celelalte marci
+2014-12-06 19:09:08	n1ghtwatch	nvidia 900 plm
+2014-12-06 19:09:18	n1ghtwatch	si asus fac scule bune
+2014-12-06 19:09:20	body	merg alea de rup
+2014-12-06 19:09:25	body	da, si eu am asus
+2014-12-06 19:09:25	n1ghtwatch	eu am un S550C
+2014-12-06 19:09:32	n1ghtwatch	ssd de 20
+2014-12-06 19:09:43	n1ghtwatch	da design mumos
+2014-12-06 19:09:48	n1ghtwatch	aluminiu
+2014-12-06 19:09:52	n1ghtwatch	erge de rupe
+2014-12-06 19:09:55	n1ghtwatch	si e linux friendly
+2014-12-06 19:10:06	body	cum de 20 ?
+2014-12-06 19:10:07	body	ssd
+2014-12-06 19:10:10	body	eu denasta am 
+2014-12-06 19:10:11	body	http://www.cnet.com/products/asus-k53sv-sx130v-15-6-core-i7-2630qm-windows-7-home-premium-6-gb-ram-750-gb-hdd/
+2014-12-06 19:10:16	body	si pusai ssd pe el
+2014-12-06 19:10:31	body	http://www.plextoramericas.com/index.php/ssd/25-inch/m5pro-xtreme-series
+2014-12-06 19:10:33	body	de 256
+2014-12-06 19:10:41	n1ghtwatch	i mean pl
+2014-12-06 19:10:54	n1ghtwatch	/dev/sdb2        22G   12G  8.7G  59% /
+2014-12-06 19:10:57	n1ghtwatch	20 si cat are
+2014-12-06 19:10:57	body	si acum imi mai schimb placa wireless (ca cea care o am nu stie numa 56mbps)
+2014-12-06 19:11:01	n1ghtwatch	fa tu calculele
+2014-12-06 19:11:16	n1ghtwatch	a meu are din nastere ssd
+2014-12-06 19:11:27	n1ghtwatch	era folosit la intel speed caching
+2014-12-06 19:11:29	body	n1ghtwatch: da e hibrid sau ?
+2014-12-06 19:11:35	n1ghtwatch	da' iam dat in gura si am pus pe el linux
+2014-12-06 19:11:39	n1ghtwatch	da, e hibrid
+2014-12-06 19:11:42	n1ghtwatch	hdd+ssd
+2014-12-06 19:11:43	body	n1ghtwatch: aa got it
+2014-12-06 19:11:47	n1ghtwatch	nvidia+intel
+2014-12-06 19:11:49	body	n1ghtwatch: e o treaba si aia
+2014-12-06 19:11:53	n1ghtwatch	dap
+2014-12-06 19:12:16	n1ghtwatch	pt data storage nu am neaparat nevoie de ssd
+2014-12-06 19:12:30	n1ghtwatch	singura diferenta notabila o vezi can pui sistem pe el
+2014-12-06 19:12:51	body	n1ghtwatch: exact
+2014-12-06 19:12:52	n1ghtwatch	in rest, pt copiat de pe alte devicez aka usb, orcum esti limitat de viteza lu usb-ul
+2014-12-06 19:13:06	n1ghtwatch	si pt data move ... viteza e aproape infinit
+2014-12-06 19:13:10	body	n1ghtwatch: dap, se simte putin da ... la cat copiez pe usb ..
+2014-12-06 19:13:16	n1ghtwatch	ca doar e numa FAT realocation
+2014-12-06 19:13:25	body	n1ghtwatch: ye ..
+2014-12-06 19:13:30	n1ghtwatch	in schimb, viteza de boot, sau daca compulesti, da, se simte
+2014-12-06 19:14:10	body	yep
+2014-12-06 19:14:16	body	mie ce mio placut la asta de la plextor
+2014-12-06 19:14:21	body	ca astia nush cum lor facut
+2014-12-06 19:14:35	body	nui asa tare pe transfer la fisiere dintr-o bucata
+2014-12-06 19:14:44	body	da ii tare la transfer pe fisiere multe
+2014-12-06 19:15:04	body	si cum 95% cred din ce folosesc e bazat pe multe fisiere
+2014-12-06 19:15:10	body	mere de rupe
+2014-12-06 19:15:20	body	si ... daca stau sa ma gandesc
+2014-12-06 19:15:44	body	ca am 440 de mb transfer aproximativ sa zic la fisiere dintro bucata
+2014-12-06 19:15:50	body	sau 500+
+2014-12-06 19:15:52	body	tot una mi
+2014-12-06 19:16:18	body	ca nu am net de 60Gbps sa imi ia filmu cu 500 de mb pe sec
+2014-12-06 19:16:23	n1ghtwatch	la fisiere mari nu prea ai ce face
+2014-12-06 19:16:27	body	exact
+2014-12-06 19:16:29	V3n3RiX	depinde si de FS
+2014-12-06 19:16:30	n1ghtwatch	cat ii cache-u .. atata ii viteza
+2014-12-06 19:16:46	n1ghtwatch	da' la multe fisiere is mai multe chestii de bagat in seama
+2014-12-06 19:16:46	body	V3n3RiX: eu am ... ext4
+2014-12-06 19:16:48	n1ghtwatch	l1 cache
+2014-12-06 19:16:51	n1ghtwatch	l2 cache
+2014-12-06 19:16:56	n1ghtwatch	plul cate "tevi" are
+2014-12-06 19:17:07	n1ghtwatch	si da
+2014-12-06 19:17:12	n1ghtwatch	conteaza si FS
+2014-12-06 19:17:15	n1ghtwatch	ext4 is ok
+2014-12-06 19:17:16	V3n3RiX	eu xfs
+2014-12-06 19:17:20	n1ghtwatch	da e mediu ca performanta
+2014-12-06 19:17:49	V3n3RiX	la ce folosesc eu e mai bun xfs
+2014-12-06 19:17:50	V3n3RiX	adica fisiere mari
+2014-12-06 19:17:53	n1ghtwatch	body: incearca btrfs :D
+2014-12-06 19:17:59	n1ghtwatch	stiu eu pe cineva care are
+2014-12-06 19:18:02	n1ghtwatch	nu zic cine
+2014-12-06 19:18:09	n1ghtwatch	si nu ii mai merjea kernelu :D
+2014-12-06 19:18:39	n1ghtwatch	ba
+2014-12-06 19:18:41	n1ghtwatch	ce plm
+2014-12-06 19:18:51	ℹ 	Mode #rogentos-dezvoltare [+o n1ghtwatch] by ChanServ
+2014-12-06 19:18:59	ℹ 	Mode #rogentos-dezvoltare [+b *!anuska@gateway/shell/elitebnc/x-yxhsfzfrfogziqjm] by n1ghtwatch
+2014-12-06 19:18:59	ℹ 	Mode #rogentos-dezvoltare [+b *!~crismblog@unaffiliated/crismblog] by n1ghtwatch
+2014-12-06 19:19:11	@n1ghtwatch	aahaahaaa
+2014-12-06 19:19:22	body	xD
+2014-12-06 19:19:30	body	da e mai incet btrfs la viteza
+2014-12-06 19:19:46	ℹ 	Mode #rogentos-dezvoltare [-b *!~crismblog@unaffiliated/crismblog] by n1ghtwatch
+2014-12-06 19:19:53	◀▬▬	n1ghtwatch has kicked Anuska (piung!)
+2014-12-06 19:19:53	◀▬▬	n1ghtwatch has kicked crismblog (piung!)
+2014-12-06 19:20:02	@n1ghtwatch	aha!
+2014-12-06 19:20:23	body	si eu vreau hat
+2014-12-06 19:20:24	body	xD
+2014-12-06 19:20:25	body	:))
+2014-12-06 19:21:04	body	V3n3RiX: la ce e bun xfs ?
+2014-12-06 19:21:14	V3n3RiX	fisiere mari
+2014-12-06 19:21:20	V3n3RiX	I/O garantat
+2014-12-06 19:21:21	V3n3RiX	etc
+2014-12-06 19:21:23	pirea	body la fisiere mici incearca reiserfs :)
+2014-12-06 19:21:41	pirea	imi aduc aminte ca se misca super ok
+2014-12-06 19:22:11	body	pirea: eu ma refeream la fisiere mai mici, gen fisierele din systemu meu din linux, aa programe, etc
+2014-12-06 19:22:17	body	nu neaparat maruntaie maruntaie
+2014-12-06 19:22:21	ℹ 	Mode #rogentos-dezvoltare [-o n1ghtwatch] by ChanServ
+2014-12-06 19:22:27	V3n3RiX	poti sa ingheti sistemul de fisiere sa faci backup incremental
+2014-12-06 19:22:29	V3n3RiX	etc
+2014-12-06 19:22:38	V3n3RiX	are functii misto
+2014-12-06 19:22:55	body	V3n3RiX: uhm, pai si ce fisiere mari mari folosesti ? un exemplu (ma facusi curios)
+2014-12-06 19:23:12	pirea	porn xD
+2014-12-06 19:23:32	V3n3RiX	pai, transmission spre exemplu stie sa se foloseasca de xfs ca sa aloce I/O ok pt torrents
+2014-12-06 19:23:56	V3n3RiX	adica chiar daca descarc masiv ceva, nu imi gatuie restul sistemului
+2014-12-06 19:24:02	body	V3n3RiX: ah got it :d
+2014-12-06 19:24:20	V3n3RiX	ca eu n-am ssd
+2014-12-06 19:24:29	V3n3RiX	si n'oh ;)))
+2014-12-06 19:24:41	body	V3n3RiX: si la ce viteza ajungi la torrente ?
+2014-12-06 19:24:44	body	la down
+2014-12-06 19:25:04	V3n3RiX	5 mega pe secunda constant...am net de 50
+2014-12-06 19:25:07	V3n3RiX	deci e ok
+2014-12-06 19:25:13	pirea	body la ce viteze il limiteaza rds-ul :))
+2014-12-06 19:25:39	body	V3n3RiX: ah atunci da ,daca asa e netu
+2014-12-06 19:25:41	pirea	V3n3RiX cum iti explici ca pe wifi am viteza mai buna cu transmission decat cu deluge?
+2014-12-06 19:26:15	V3n3RiX	nu stiu...:))
+2014-12-06 19:26:40	pirea	ciudatenii :)
+2014-12-06 19:28:32	body	da chiar, daca u iei o arvia sa zic ... .rar de pe torrent
+2014-12-06 19:29:14	body	el cand downloadeaza o downloadeaza ca si un singur fisier, ca si un film de ex, sau stie ce e in arhiva si in baza la ai
+2014-12-06 19:29:31	body	aveam asa un dubiu , da cred ca , ca si un fisier mare gen film nu ?
+2014-12-06 19:34:20	body	http://www.phoronix.com/scan.php?page=article&item=linux_317_4ssd&num=4
+2014-12-06 19:35:55	pirea	body deci f2fs? :))
+2014-12-06 19:37:10	body	:D
+2014-12-06 19:37:27	body	yea, se pare ca so suit pa ext4
+2014-12-06 19:38:00	pirea	voi ati vazut ca invidia a ajutat nouveau ? :))
+2014-12-06 19:38:22	body	nu..
+2014-12-06 19:38:31	body	V3n3RiX: e greu sa faci migrate la fs ?
+2014-12-06 19:38:52	V3n3RiX	daca formatezi nu
+2014-12-06 19:38:58	V3n3RiX	daca nu formatezi, da
+2014-12-06 19:38:59	V3n3RiX	:))
+2014-12-06 19:40:26	pirea	body uite http://www.phoronix.com/scan.php?page=news_item&px=MTc5ODA :))
+2014-12-06 19:41:56	body	huh , nui rau ca ajuta opensourceu
+2014-12-06 19:43:25	body	V3n3RiX: ne formatand, da ... creca mai mult ca greu ii lenea aia de mo facut sa intreb
+2014-12-06 19:43:26	body	ca ....
+2014-12-06 19:43:45	body	sa moara masa, sa montezi sa sa le futi sa blkid sa le copiezi 
+2014-12-06 19:43:53	body	:))
+2014-12-06 19:44:07	body	fati loc, fa foldere
+2014-12-06 19:44:08	body	monteaza
+2014-12-06 19:44:16	body	cand ma gandesc :)) oh god
+2014-12-06 19:52:33	⚡	body #Eargasm https://www.youtube.com/watch?v=yHpXaGvqC-g
+2014-12-06 19:56:23	◀▬▬	pirea (~pirea@86.127.149.50) has quit (Quit: Leaving)
+2014-12-06 20:00:52	V3n3RiX	haha...am gasit o caseta magnetica de la inceputul anilor 90
+2014-12-06 20:01:03	V3n3RiX	si functioneaza
+2014-12-06 20:01:05	V3n3RiX	:))
+2014-12-06 20:13:08	▬▬▶	pirea (~pirea@86.127.149.50) has joined #rogentos-dezvoltare
+2014-12-06 20:24:00	body	:))
+2014-12-06 21:49:42	▬▬▶	cubul (050cef9f@gateway/web/freenode/ip.5.12.239.159) has joined #rogentos-dezvoltare
+2014-12-06 21:51:34	cubul	vă salut
+2014-12-06 21:57:59	cubul	am vorbit pe facebook...despre instalare kogaion 2.0 gnome in vbox...am facut dupa puterile mele și din ce-am citit dar nu s-a actualizat...am instalat varianta cu gnome ptr ca e mai vesela,mai pastelată
+2014-12-06 21:58:29	cubul	si nu-mi prea place xfce
+2014-12-06 21:59:13	cubul	dar vroiam sa intreb....dacă dezinstalez varianta gnome din vbox
+2014-12-06 22:00:13	cubul	si pun varianta xfce sunt mai mari sansele sa se actualizeze?
+2014-12-06 22:10:40	cubul	ma duc s-o fac....si mai vin p-aici sa spun cum e treaba
+2014-12-06 22:10:47	cubul	va salut
+2014-12-06 22:11:37	◀▬▬	cubul (050cef9f@gateway/web/freenode/ip.5.12.239.159) has quit (Quit: Page closed)
+2014-12-06 22:32:36	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-12-06 23:16:23	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-12-07 00:05:03	◀▬▬	mtcos (~mtcos@5-14-73-24.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)
+2014-12-07 03:17:02	body	wtf is talking about?
+2014-12-07 03:17:03	body	xD
+2014-12-07 04:02:47	StefanCristian	ah?
+2014-12-07 04:03:06	StefanCristian	body: http://youtu.be/x4X27AsdOh8
+2014-12-07 04:03:11	StefanCristian	serve the council.
+2014-12-07 04:23:18	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 258 seconds)
+2014-12-07 05:02:50	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-12-07 09:00:31	◀▬▬	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Ping timeout: 250 seconds)
+2014-12-07 09:00:31	ℹ 	irc: disconnected from server
+2014-12-07 09:02:31	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-07 09:02:31	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-07 09:02:31	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-07 09:02:31	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-07 09:02:33	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-07 10:14:45	▬▬▶	mtcos (~mtcos@5-14-73-24.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2014-12-07 11:15:07	body	StefanCristian: :))
+2014-12-07 11:21:39	body	V3n3RiX: eu iti dadusem add pe facebook
+2014-12-07 12:16:56	◀▬▬	mtcos (~mtcos@5-14-73-24.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)
+2014-12-07 13:48:05	◀▬▬	pirea (~pirea@86.127.149.50) has quit (Quit: Leaving)
+2014-12-07 16:00:16	▬▬▶	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has joined #rogentos-dezvoltare
+2014-12-07 17:52:08	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-12-07 18:23:48	ℹ 	irc: disconnected from server
+2014-12-07 18:24:06	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-07 18:24:06	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-07 18:24:06	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-07 18:24:06	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-07 18:24:11	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-07 18:49:34	ℹ 	irc: disconnected from server
+2014-12-09 21:54:12	▬▬▶	body (~body@host69-95-dynamic.45-79-r.retail.telecomitalia.it) has joined #rogentos-dezvoltare
+2014-12-09 21:54:12	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-09 21:54:12	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-09 21:54:12	ℹ 	Channel #rogentos-dezvoltare: 13 nicks (1 op, 0 voices, 12 normals)
+2014-12-09 21:54:13	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-09 21:56:21	▬▬▶	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has joined #rogentos-dezvoltare
+2014-12-09 22:27:02	▬▬▶	pirea (~pirea@86.127.149.50) has joined #rogentos-dezvoltare
+2014-12-09 22:27:15	pirea	salutare
+2014-12-09 22:28:15	pirea	StefanCristian ai idee cum se face compileaza gcc pe gentoo pt arm clean? fara suport pt nici un sistem de operare
+2014-12-09 22:28:29	pirea	sa ofere direct fisier binar ce poate fi citit de procesor
+2014-12-09 22:29:38	StefanCristian	pirea: https://www.gentoo.org/proj/en/base/embedded/handbook/?part=1&chap=3
+2014-12-09 22:33:26	◀▬▬	ocsi-bm (~ocsi-bm@gateway/tor-sasl/ocsi-bm) has quit (Quit: Leaving)
+2014-12-09 22:35:35	body	pirea ce vrei sa compilezi :P  ?
+2014-12-09 22:35:52	body	btw, hello ;d
+2014-12-09 23:25:46	◀▬▬	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has quit (Ping timeout: 240 seconds)
+2014-12-10 00:23:37	▬▬▶	kneekoo (~kneekoo@188.25.41.69) has joined #rogentos-dezvoltare
+2014-12-10 00:29:54	▬▬▶	StefanCristian (~blacknoxi@unaffiliated/blacknoxis) has joined #rogentos-dezvoltare
+2014-12-10 00:51:51	pirea	vreau sa fac raspberry pi ceva mai util decat e :) vreau sa profit de fiecare shit al lui
+2014-12-10 00:51:57	pirea	intelegi body?
+2014-12-10 01:09:52	pirea	in sfarsit am reusit sa pun arch pe cubieboard :) s-a upgradat systemd si din cauza asta nu imi dateam seama ce are :D
+2014-12-10 01:10:17	pirea	bineee... si pusesera aia consola tty2 si eu eram in tty1 si nu vedeam nimic :))
+2014-12-10 01:10:29	pirea	si nu stiam ca totul se intampla in tty2 =))
+2014-12-10 01:10:31	pirea	retard :)
+2014-12-10 01:13:43	V3n3RiX	http://wiki.gentoo.org/wiki/Raspberry_Pi
+2014-12-10 01:22:13	pirea	V3n3RiX superb :) dar aia e pt rpi :>
+2014-12-10 01:22:41	V3n3RiX	si nu ai zis mai sus ca vrei sa faci ceva pt rpi?
+2014-12-10 01:22:42	V3n3RiX	;))
+2014-12-10 01:35:43	pirea	ba da :)
+2014-12-10 01:35:44	pirea	:))
+2014-12-10 01:35:49	pirea	dar e cu linux :)
+2014-12-10 01:35:56	pirea	eu vreau sa fie clean compilatorul
+2014-12-10 01:36:04	pirea	adica fara suport pt sisteme de operare
+2014-12-10 01:36:58	StefanCristian	slackware like?
+2014-12-10 01:37:14	pirea	StefanCristian nu :) microcontroler like
+2014-12-10 01:37:21	pirea	intelegi?
+2014-12-10 01:37:22	StefanCristian	pirea: http://www.linuxfromscratch.org/clfs/view/clfs-sysroot/arm/
+2014-12-10 01:37:35	StefanCristian	ah, la nivel si mai jos de linux
+2014-12-10 01:38:04	pirea	am vazut pe undeva o chestie
+2014-12-10 01:38:14	pirea	dar nu pe gentoo
+2014-12-10 01:38:25	StefanCristian	here
+2014-12-10 01:38:25	StefanCristian	http://www.rowley.co.uk/arm/
+2014-12-10 01:38:36	StefanCristian	OS free
+2014-12-10 01:38:41	StefanCristian	just for microcontrolers
+2014-12-10 01:38:48	StefanCristian	pirea: g'luck. we can't help you anymore here
+2014-12-10 01:38:50	StefanCristian	xD
+2014-12-10 01:39:56	pirea	pai vreau compilatorul pe gentoo :)
+2014-12-10 01:40:09	pirea	momentan o sa ma documentez la capitolul crossdev
+2014-12-10 01:43:09	pirea	StefanCristian la ce facultate esti/ai fost?
+2014-12-10 01:43:20	StefanCristian	topografie
+2014-12-10 01:43:33	pirea	StefanCristian really?  :))
+2014-12-10 01:43:36	StefanCristian	yup
+2014-12-10 01:43:39	StefanCristian	topo/geodezie
+2014-12-10 01:43:46	pirea	Bucuresti?
+2014-12-10 01:43:55	StefanCristian	nope, Cluj, Ardeal all my peasant life
+2014-12-10 01:44:54	pirea	StefanCristian are ceva in comun topografia cu linuxul ? :))
+2014-12-10 01:45:08	StefanCristian	geodezia
+2014-12-10 01:45:13	StefanCristian	nush, maps?
+2014-12-10 01:45:18	StefanCristian	hartile au ceva in comun cu linuxul?
+2014-12-10 01:45:32	pirea	daca e vorba de harta memoriei da :))
+2014-12-10 01:45:39	StefanCristian	harti digitale
+2014-12-10 01:45:41	StefanCristian	I dunno, GIS-uri
+2014-12-10 01:46:04	StefanCristian	sa continui sau nu te prinzi de apropo-uri, ba? :))
+2014-12-10 01:46:16	pirea	ce sa faca? :))
+2014-12-10 01:46:27	pirea	si de unde pasiunea pt linux?
+2014-12-10 01:46:50	StefanCristian	pasiunea pentru linux o pornit in acelas timp cu pasiunea pentru harti
+2014-12-10 01:47:02	StefanCristian	combined, they make one great optimum combo
+2014-12-10 01:47:30	StefanCristian	intr-un final scopul meu personal o sa fie un OS special designed pentru calcul de harti, cartografiat, geodeziat, si geo-astro-deziat
+2014-12-10 01:47:47	StefanCristian	nu astea din rogentos
+2014-12-10 01:47:55	StefanCristian	ci sa fie acolo, unul, facut
+2014-12-10 01:48:54	pirea	te las ca tre' sa trag pe dreapta
+2014-12-10 01:49:01	pirea	maine am cursul de ceapa
+2014-12-10 01:49:13	StefanCristian	and remember
+2014-12-10 01:49:22	StefanCristian	you don't need Politehnica Computers Science to programm!
+2014-12-10 01:49:23	StefanCristian	xD
+2014-12-10 01:53:21	pirea	eu sunt la electronica :)
+2014-12-10 01:53:24	pirea	n-are treaba
+2014-12-10 01:53:46	StefanCristian	oh
+2014-12-10 01:53:47	StefanCristian	respecte
+2014-12-10 01:53:49	StefanCristian	asta da
+2014-12-10 01:54:06	StefanCristian	electronica >> programare / computers scicqeqsd
+2014-12-10 02:42:57	◀▬▬	FDCX (~fdcx@2a02:2f0a:a03f:ffff::54e8:d231) has quit (Ping timeout: 260 seconds)
+2014-12-10 02:54:54	▬▬▶	FDCX (~fdcx@2a02:2f0a:a01f:ffff::54e8:d210) has joined #rogentos-dezvoltare
+2014-12-10 06:15:37	◀▬▬	FDCX (~fdcx@2a02:2f0a:a01f:ffff::54e8:d210) has quit (Quit: Leaving)
+2014-12-10 06:16:00	▬▬▶	FDCX (~fdcx@2a02:2f0a:a01f:ffff::54e8:d210) has joined #rogentos-dezvoltare
+2014-12-10 06:32:16	▬▬▶	yo9fah (~yo9fah@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2014-12-10 07:02:15	ℹ 	irc: disconnected from server
+2014-12-10 07:03:31	▬▬▶	body (~body@95.232.102.96) has joined #rogentos-dezvoltare
+2014-12-10 07:03:31	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-10 07:03:31	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:24:25
+2014-12-10 07:03:31	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2014-12-10 07:03:32	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-10 08:01:21	▬▬▶	yo9fah (~yo9fah@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2014-12-10 09:35:39	◀▬▬	yo9fah (~yo9fah@unaffiliated/yo9fah) has quit (Quit: Leaving)
+2014-12-10 10:09:02	ℹ 	irc: disconnected from server
+2014-12-11 16:32:54	▬▬▶	body (~body@188.24.63.20) has joined #rogentos-dezvoltare
+2014-12-11 16:32:54	ℹ 	Topic for #rogentos-dezvoltare is "Bun venit! <body> StefanCristian: nui nimic, :P , oricum pana ajung eu acasa , primadata la cj ajung prin 10 dupa numa prin 20 ajung in deva, mai am timp de gandire cum o sa il fac :D"
+2014-12-11 16:32:54	ℹ 	Topic set by n1ghtwatch (~nightwatc@unaffiliated/n1ghtwatch) on Tue, 02 Dec 2014 20:26:48
+2014-12-11 16:32:54	ℹ 	Channel #rogentos-dezvoltare: 16 nicks (1 op, 0 voices, 15 normals)
+2014-12-11 16:32:56	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2014-12-11 16:44:58	pirea	ad1m in variante desktop doar
+2014-12-11 16:45:19	pirea	ad1m varianta mobile o parte e quad o parte e dual
+2014-12-11 16:48:40	ad1m	pai.. presupun ca vrei 4 core-uri... daca tot dai banii pe un i7.. de aia am zis intel quad i7
+                                                                                                                      2015-03-06 01:36:16	▬▬▶	body (~body@79-64-174-107.host.pobb.as13285.net) has joined #rogentos-dezvoltare
+2015-03-06 01:36:16	ℹ 	Topic for #rogentos-dezvoltare is "Utilizarea de bnc-uri si alte forme de "botzi" e descurajata pe acest canal, mai putin daca e aprobat de administratori si e adus cu un motiv serios. Multumim ca ati venit pe #rogentos-dezvoltare. Apropo, banam orice are legatura cu RST."
+2015-03-06 01:36:16	ℹ 	Topic set by StefanCristian on Sat, 07 Feb 2015 11:30:39
+2015-03-06 01:36:16	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2015-03-06 01:36:18	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2015-04-05 16:40:20	▬▬▶	body (~body@79-64-174-107.host.pobb.as13285.net) has joined #rogentos-dezvoltare
+2015-04-05 16:40:20	ℹ 	Topic for #rogentos-dezvoltare is "Utilizarea de bnc-uri si alte forme de "botzi" e descurajata pe acest canal, mai putin daca e aprobat de administratori si e adus cu un motiv serios. Multumim ca ati venit pe #rogentos-dezvoltare. Apropo, banam orice are legatura cu RST."
+2015-04-05 16:40:20	ℹ 	Topic set by StefanCristian on Sat, 07 Feb 2015 11:30:39
+2015-04-05 16:40:20	ℹ 	Channel #rogentos-dezvoltare: 15 nicks (1 op, 0 voices, 14 normals)
+2015-04-05 16:40:23	ℹ 	Channel created on Sat, 09 Jun 2012 17:26:56
+2015-04-05 17:11:00	▬▬▶	yo9fah (~sexy@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2015-04-05 17:26:11	▬▬▶	yo9fah_ (~sexy@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2015-04-05 17:26:25	◀▬▬	yo9fah_ (~sexy@unaffiliated/yo9fah) has quit (Remote host closed the connection)
+2015-04-05 17:29:16	◀▬▬	yo9fah (~sexy@unaffiliated/yo9fah) has quit (Ping timeout: 252 seconds)
+2015-04-05 17:31:53	▬▬▶	mtcos (~mtcos@5-14-73-18.residential.rdsnet.ro) has joined #rogentos-dezvoltare
+2015-04-05 17:54:26	▬▬▶	ocsi-bm (~ocsi-bm@unaffiliated/ocsi-bm) has joined #rogentos-dezvoltare
+2015-04-05 18:06:05	▬▬▶	deepfreez (~deepfreez@unaffiliated/deepfreez) has joined #rogentos-dezvoltare
+2015-04-05 18:06:25	deepfreez	aaa de aia nu puteam eu intra ici :)
+2015-04-05 18:06:30	deepfreez	aveti ban pe bnc-uri
+2015-04-05 18:22:37	▬▬▶	FDCX-m (~yaaic@82.137.14.187) has joined #rogentos-dezvoltare
+2015-04-05 18:23:18	◀▬▬	FDCX-m (~yaaic@82.137.14.187) has quit (Client Quit)
+2015-04-05 19:56:10	▬▬▶	yo9fah (~sexy@unaffiliated/yo9fah) has joined #rogentos-dezvoltare
+2015-04-05 20:32:37	yo9fah	Băăăhhh... linişte!!! Ce dracu'.
+2015-04-05 20:46:42	◀▬▬	ocsi-bm (~ocsi-bm@unaffiliated/ocsi-bm) has quit (Quit: Leaving)
+2015-04-05 21:24:35	◀▬▬	VictorNegrean (~quassel@94.52.97.66) has quit (Ping timeout: 244 seconds)
+2015-04-05 21:44:02	StefanCristian	deepfreez: ce ma? nu-ti mai intra anuska pe channel? :))
+2015-04-05 21:44:09	⚡	StefanCristian hai c-o fost rau
+2015-04-05 21:44:54	deepfreez	salut StefanCristian
+2015-04-05 21:45:13	deepfreez	am znc de la free4bnc si imi zice banned aici, am vazut ca e in lista :)
+2015-04-05 21:45:15	StefanCristian	salut body , long time no see
+2015-04-05 21:45:16	deepfreez	noapte buna all
+2015-04-05 21:45:29	deepfreez	sunteti bine?
+2015-04-05 21:45:34	StefanCristian	ba, io's fain
+2015-04-05 21:45:38	StefanCristian	chipes, cu barba
+2015-04-05 21:45:40	StefanCristian	pilit :))
+2015-04-05 21:45:45	deepfreez	asa. asa
+2015-04-05 21:46:03	deepfreez	si eu
+2015-04-05 21:46:13	deepfreez	am fugit la zzz, ca maine se munceste
+2015-04-05 21:46:40	StefanCristian	true
+2015-04-05 21:46:42	StefanCristian	hai noroc
+2015-04-05 21:46:47	deepfreez	noroc
+2015-04-05 21:51:12	▬▬▶	ASG_ARGENT (~ASG_ARGEN@192.30.252.46) has joined #rogentos-dezvoltare
+2015-04-05 21:51:12	ASG_ARGENT	[argent-server] BlackNoxis pushed 1 new commit to master: http://git.io/velRM
+2015-04-05 21:51:12	ASG_ARGENT	argent-server/master 00fdce8 BlackNoxis: [dev-python/jinha] Jinja add. Last night of freedom, first day of work
+2015-04-05 21:51:12	◀▬▬	ASG_ARGENT (~ASG_ARGEN@192.30.252.46) has left #rogentos-dezvoltare
+2015-04-05 23:28:57	▬▬▶	pirea (~pirea@188.26.152.29) has joined #rogentos-dezvoltare
+2015-04-05 23:29:17	pirea	ba
+2015-04-05 23:29:19	pirea	ce faceti ma?
+2015-04-05 23:31:04	◀▬▬	pirea (~pirea@188.26.152.29) has quit (Client Quit)
+2015-04-05 23:55:56	◀▬▬	mtcos (~mtcos@5-14-73-18.residential.rdsnet.ro) has quit (Quit: Konversation terminated!)

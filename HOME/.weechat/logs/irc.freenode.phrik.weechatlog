@@ -1,0 +1,122 @@
+2014-11-20 23:31:42	phrik	help [<plugin>] [<command>]
+2014-11-20 23:31:54	body	help
+2014-11-20 23:31:55	phrik	help [<plugin>] [<command>]
+2014-11-20 23:32:00	body	help !
+2014-11-20 23:32:01	ℹ 	phrik: Error: There is no command "!".
+2014-11-20 23:32:11	body	help !help
+2014-11-20 23:32:13	ℹ 	phrik: Error: There is no command "!help".
+2014-11-20 23:32:15	body	help help
+2014-11-20 23:32:16	phrik	(help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
+2014-11-25 22:07:25	phrik	hi body
+2014-11-25 22:07:47	body	calc 4 + 6
+2014-11-25 22:07:48	phrik	Google's calculator didn't come up with anything.
+2014-11-25 22:07:56	body	calc "4 + 6"
+2014-11-25 22:07:57	phrik	Google's calculator didn't come up with anything.
+2014-11-25 22:08:01	body	calc 1+1
+2014-11-25 22:08:03	phrik	Google's calculator didn't come up with anything.
+2014-11-25 22:08:07	body	calc one plus one
+2014-11-25 22:08:09	phrik	Google's calculator didn't come up with anything.
+2014-11-25 22:08:51	body	capabilities #archlinux-offtopic halosghost
+2014-11-25 22:08:53	ℹ 	phrik: Error: You must be registered to use this command. If you are already registered, you must either identify (using the identify command) or add a hostmask matching your current hostmask (using the "hostmask add" command).
+2014-11-25 22:09:35	body	capitalize what
+2014-11-25 22:09:36	phrik	What
+2014-11-25 22:09:51	body	clear
+2014-11-25 22:09:52	ℹ 	phrik: Error: "clear" is not a valid command.
+2014-11-25 22:09:57	body	cmd 
+2014-11-25 22:09:58	phrik	I offer a total of 517 commands in 33 command-based plugins.  I have processed 8493 commands.
+2014-11-25 22:10:14	body	color red "hello"
+2014-11-25 22:10:15	phrik	hello
+2014-11-25 22:10:20	body	color brown "hello"
+2014-11-25 22:10:21	phrik	hello
+2014-11-25 22:11:15	body	cpu
+2014-11-25 22:11:17	phrik	I have taken 6615.07 seconds of user time and 51.48 seconds of system time, for a total of 6666.55 seconds of CPU time. My children have taken 1.00 seconds of user time and 0.38 seconds of system time for a total of 1.38 seconds of CPU time. I'm taking up 89628 kB of memory.
+2014-11-25 22:12:17	body	crypt "tolo"
+2014-11-25 22:12:18	phrik	lHR2ddyL.QIMc
+2014-11-25 22:12:43	body	decrypt lHR2ddyL.QIMc
+2014-11-25 22:12:44	ℹ 	phrik: Error: "decrypt" is not a valid command.
+2014-11-25 22:12:51	body	uncrypt lHR2ddyL.QIMc
+2014-11-25 22:12:53	ℹ 	phrik: Error: "uncrypt" is not a valid command.
+2014-11-25 22:13:23	body	ebay macbook air
+2014-11-25 22:13:24	ℹ 	phrik: Error: "ebay" is not a valid command.
+2014-11-25 22:13:30	body	amazon macbook
+2014-11-25 22:13:30	ℹ 	phrik: Error: "amazon" is not a valid command.
+2014-11-25 22:13:43	body	ham
+2014-11-25 22:14:05	body	icalc 2+3
+2014-11-25 22:14:06	ℹ 	phrik: Error: "icalc" is not a valid command.
+2014-11-25 22:14:22	body	languages
+2014-11-25 22:14:23	phrik	/query alis list #archlinux*
+2014-11-25 22:14:35	body	lucky goo
+2014-11-25 22:14:36	phrik	http://www.google.co.in/
+2014-11-25 22:14:42	body	lucky bodyowns
+2014-11-25 22:14:43	phrik	http://www.tamus.edu/assets/files/compliance/ppt/PIA-Brooks-Moore.pptx
+2014-11-25 22:14:59	body	math 1+1
+2014-11-25 22:15:00	ℹ 	phrik: Error: "math" is not a valid command.
+2014-11-25 22:15:07	body	md5 020220
+2014-11-25 22:15:08	phrik	44a144fc3062dea8e398d4bf1be07393
+2014-11-25 22:15:18	body	net
+2014-11-25 22:15:20	phrik	I have received 116701 messages for a total of 11018775 bytes.  I have sent 10189 messages for a total of 623866 bytes.  I have been connected to verne.freenode.net for 6 days, 8 hours, 40 minutes, and 28 seconds.
+2014-11-25 22:15:38	body	q
+2014-11-25 22:15:39	phrik	q <an alias, 1 argument>
+2014-11-25 22:15:47	body	rainbow
+2014-11-25 22:15:49	phrik	rainbow <text>
+2014-11-25 22:15:55	body	rainbow "HOOOOOOOOOOOOOOOOOOOOOOOLOW"
+2014-11-25 22:15:55	phrik	HOOOOOOOOOOOOOOOOOOOOOOOLOW
+2014-11-25 22:16:10	body	rainbow BODYOWNS
+2014-11-25 22:16:11	phrik	BODYOWNS
+2014-11-25 22:27:55	body	vote yolo yolo2
+2014-11-25 22:27:57	ℹ 	phrik: Error: "vote" is not a valid command.
+2014-11-25 22:56:12	ℹ 	irc: disconnected from server
+2014-11-26 22:17:46	phrik	hi body
+2014-11-26 22:17:52	body	!hello
+2014-11-26 22:17:54	phrik	hello? http://i.imgur.com/8pwTF.gif
+2014-11-26 22:18:08	body	!hi
+2014-11-26 22:18:09	phrik	hi body
+2014-11-26 22:18:13	body	!hi everybody
+2014-11-26 22:18:13	ℹ 	phrik: Error: "hi" is not a valid command.
+2014-11-26 22:18:23	body	!hello people
+2014-11-26 22:18:24	ℹ 	phrik: Error: "hello" is not a valid command.
+2014-11-26 22:18:34	body	!ge
+2014-11-26 22:18:35	phrik	Good evening to all from body!
+2014-11-28 23:25:31	phrik	hi body
+2014-11-28 23:25:44	body	!multiqr wasamasa
+2014-11-28 23:25:45	ℹ 	phrik: Error: "multiqr" is not a valid command.
+2014-11-28 23:25:59	body	!multirq wasamasa
+2014-11-28 23:26:00	phrik	<wasamasa> Gatis: now, if I only had an idea what the hell you're speaking of <wasamasa> ass ftw <wasamasa> ich stimme für das recht quotegrabs von phrik vergessen zu lassen! <wasamasa> ihr spinnt doch alle <wasamasa> polyzen: it involved giant steel balls and swedes
+2014-11-29 00:05:11	phrik	hi body
+2014-11-29 00:05:20	body	(◣_◢)
+2014-11-29 00:05:20	body	(◣_◢)
+2014-11-29 00:05:21	body	(◣_◢)
+2014-11-29 00:05:21	body	(◣_◢)
+2014-11-29 00:05:21	body	(◣_◢)
+2014-11-29 00:05:21	ℹ 	phrik: Error: "(◣_◢)" is not a valid command.
+2014-11-29 00:05:22	body	(◣_◢)
+2014-11-29 00:05:23	body	(◣_◢)
+2014-11-29 00:05:24	ℹ 	phrik: Error: "(◣_◢)" is not a valid command.
+2014-11-29 00:05:25	ℹ 	phrik: Error: "(◣_◢)" is not a valid command.
+2014-11-29 00:05:28	ℹ 	phrik: Error: "(◣_◢)" is not a valid command.
+2014-11-29 00:05:30	ℹ 	phrik: Error: "(◣_◢)" is not a valid command.
+2014-11-29 00:05:31	phrik	You've given me 5 invalid commands within the last minute; I'm now ignoring you for 10 minutes.
+2014-11-29 00:05:38	body	(◣_◢) (◣_◢)
+2014-11-29 00:05:40	body	(◣_◢) (◣_◢)
+2014-11-29 00:05:41	body	(◣_◢) (◣_◢)
+2014-11-29 00:06:02	body	⌨
+2014-11-29 00:08:23	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:24	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:25	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:35	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:37	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:37	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:38	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:38	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:39	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:39	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:40	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:40	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:40	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:40	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:41	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:41	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:41	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:42	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:08:42	body	(☄ฺ◣д◢)☄ฺ
+2014-11-29 00:33:02	ℹ 	irc: disconnected from server

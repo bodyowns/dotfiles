@@ -1,0 +1,1805 @@
+2014-07-10 17:31:37	◥	body (~body@95.233.43.36) has joined #qt
+2014-07-10 17:31:37	ℹ 	Topic for #qt is "Latest Qt: 5.3.1 & 4.8.6 | Bugs: bugreports.qt-project.org | Off-topic: #qt-chat | See also: #qt-creator #qt-quick http://qt-project.org/wiki/OnlineCommunities"
+2014-07-10 17:31:37	ℹ 	Topic set by peppe (peppe@unaffiliated/peppe) on Wed, 25 Jun 2014 13:12:09
+2014-07-10 17:31:38	ℹ 	Channel #qt: 552 nicks (2 ops, 6 voices, 544 normals)
+2014-07-10 17:31:38	ℹ 	PvNotice(ChanServ): Here are the rules for #qt: (1) Don't just join, ask, and quit - stay around and answer questions yourself! (2) Be patient, people may not see your question right away.
+2014-07-10 17:31:38	ℹ 	URL for #qt: http://qt-project.org
+2014-07-10 17:31:40	ℹ 	Mode #qt [+cnt]
+2014-07-10 17:31:40	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:42
+2014-07-10 17:31:55	body	i was always thinking of, how can i build gui apps like http://betanews.com/wp-content/uploads/2014/01/megasync.jpg (the right window one), i mean  │ bjoe2k4
+2014-07-10 17:32:00	body	             │ everything custom made, like without the titlebar, the white background , i can make this in qt ? 
+2014-07-10 17:34:45	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 17:34:48	◥	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has joined #qt
+2014-07-10 17:35:04	sam__	body: All the Qt components can use a stylesheet, so the white background, the custom progress bar and so on are easy to do with Qt that way
+2014-07-10 17:35:46	◥	Papierkorb (~papierkor@ip-95-223-110-174.unitymediagroup.de) has joined #qt
+2014-07-10 17:35:57	Tucos	you can set the FramelessWindowHint flag; see also http://qt-project.org/doc/qt-5/qtwidgets-widgets-shapedclock-example.html
+2014-07-10 17:43:07	◣	m76 (~mike@89-178-91-157.broadband.corbina.ru) has quit (Read error: Connection reset by peer)
+2014-07-10 17:43:25	◥	saurabhsood91 (~saurabhso@106.51.242.176) has joined #qt
+2014-07-10 17:43:26	◣	saurabhsood91 (~saurabhso@106.51.242.176) has quit (Changing host)
+2014-07-10 17:43:26	◥	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has joined #qt
+2014-07-10 17:46:40	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-10 17:47:18	body	sam__: Tucos , if i develop this in python it's fine too right  ?:)
+2014-07-10 17:47:30	body	i should use pyqt right ?
+2014-07-10 17:48:43	Tucos	or pyside
+2014-07-10 17:49:30	sam__	body: both should be ok, depending of the licence you need
+2014-07-10 17:50:01	◥	thiago (~thiago@kde/thiago) has joined #qt
+2014-07-10 17:50:17	◣	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has quit (Ping timeout: 260 seconds)
+2014-07-10 17:50:26	body	sam__: Tucos , huh i want a free licence ..
+2014-07-10 17:50:45	body	as i want to learn
+2014-07-10 17:50:55	body	i am new into programming
+2014-07-10 17:52:21	◣	packo (~quassel@182.66.130.79) has quit (Ping timeout: 240 seconds)
+2014-07-10 17:52:56	◥	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-10 17:53:11	sam__	body: read some about "copyleft" and open source software, it's always good to know what it is.
+2014-07-10 17:53:55	sam__	take a look at the GPL and LGPL licence, thers is only one difference, but it's important.
+2014-07-10 17:54:14	sam__	and then choose between pyside and pyqt
+2014-07-10 17:54:48	◥	Leoneof` (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-10 17:54:53	body	can you provide me a link please sam__ ? 
+2014-07-10 17:55:15	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 17:56:54	sam__	body: look at wikipedia or the fsf website (http://www.fsf.org/)
+2014-07-10 17:58:12	◥	maour (~maour@unaffiliated/maour) has joined #qt
+2014-07-10 17:58:14	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 255 seconds)
+2014-07-10 18:01:17	◣	dantti (~dantti@179.177.234.150) has quit (Ping timeout: 272 seconds)
+2014-07-10 18:02:40	◥	dantti (~dantti@179.177.234.150) has joined #qt
+2014-07-10 18:03:40	◣	Papierkorb (~papierkor@ip-95-223-110-174.unitymediagroup.de) has quit (Quit: ArchLinux completes an endless loop faster than any other distro!)
+2014-07-10 18:04:57	◣	Timmy (~irssi@unaffiliated/timmyt) has quit (Quit: gone fishing)
+2014-07-10 18:05:30	◥	Papierkorb (~papierkor@46.246.48.118) has joined #qt
+2014-07-10 18:06:27	◥	Timmy (~irssi@unaffiliated/timmyt) has joined #qt
+2014-07-10 18:06:41	◣	cbreak (~cbreak@77-58-71-175.dclient.hispeed.ch) has quit (Read error: Connection reset by peer)
+2014-07-10 18:07:33	◣	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has quit (Ping timeout: 260 seconds)
+2014-07-10 18:09:26	◥	cbreak (~cbreak@77-58-71-175.dclient.hispeed.ch) has joined #qt
+2014-07-10 18:11:30	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-10 18:12:00	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-10 18:15:27	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-10 18:15:35	◣	mkeeter (~mkeeter@2601:6:b80:5a:2d0d:c039:280b:2613) has quit (Remote host closed the connection)
+2014-07-10 18:16:17	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-10 18:16:36	◣	sbw (~sbw@124.114.125.138) has quit (Remote host closed the connection)
+2014-07-10 18:17:21	◥	GortiZ (~Thunderbi@151.60.166.242) has joined #qt
+2014-07-10 18:17:45	ℹ 	Malsasa_ is now known as Malsasa
+2014-07-10 18:18:38	◣	TheHackOps (~thehackop@203-158-38-11.dyn.iinet.net.au) has quit (Quit: TheHackOps)
+2014-07-10 18:21:21	◣	GortiZ (~Thunderbi@151.60.166.242) has quit (Client Quit)
+2014-07-10 18:23:50	◣	arichardson (~alex@188-195-228-180-dynip.superkabel.de) has quit (Quit: Konversation terminated!)
+2014-07-10 18:25:09	◥	mac_ified (~mac_ified@68.200.194.69) has joined #qt
+2014-07-10 18:30:51	◣	Timmy (~irssi@unaffiliated/timmyt) has quit (Ping timeout: 240 seconds)
+2014-07-10 18:31:51	◥	ferdna (~ferdna@cpe-69-23-141-88.elp.res.rr.com) has joined #qt
+2014-07-10 18:33:51	◣	dantti (~dantti@179.177.234.150) has quit (Ping timeout: 264 seconds)
+2014-07-10 18:37:04	◥	sohail (~sohail@108.161.124.192) has joined #qt
+2014-07-10 18:37:04	◣	sohail (~sohail@108.161.124.192) has quit (Changing host)
+2014-07-10 18:37:04	◥	sohail (~sohail@unaffiliated/sohail) has joined #qt
+2014-07-10 18:40:30	◥	Nohus (~nohus@093105169009.bielskobiala.vectranet.pl) has joined #qt
+2014-07-10 18:41:26	◣	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 255 seconds)
+2014-07-10 18:42:42	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-10 18:42:58	◥	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has joined #qt
+2014-07-10 18:43:09	◥	treat (~treat@p5DC77E6B.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 18:47:33	◣	rufianw (~ntrrgc@212.183.221.145.dyn.user.ono.com) has quit (Quit: Konversation terminated!)
+2014-07-10 18:48:20	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-10 18:48:21	◣	Malsasa (~Malsasa@36.82.84.166) has quit (Ping timeout: 240 seconds)
+2014-07-10 18:49:09	◥	hardaker (~hardaker@mail.hardakers.net) has joined #qt
+2014-07-10 18:49:58	◥	Timmy (~quassel@unaffiliated/timmyt) has joined #qt
+2014-07-10 18:51:00	◥	Malsasa (~Malsasa@36.82.85.139) has joined #qt
+2014-07-10 18:51:28	◥	dantti (~dantti@179.177.234.150) has joined #qt
+2014-07-10 18:52:09	◥	iamfrankenstein (~iamfranke@a82-161-204-201.adsl.xs4all.nl) has joined #qt
+2014-07-10 18:54:08	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-10 18:54:10	◥	jipsu (~quassel@11.103.189.109.customer.cdi.no) has joined #qt
+2014-07-10 18:54:58	◥	sohail (~sohail@108.161.124.192) has joined #qt
+2014-07-10 18:54:59	◣	sohail (~sohail@108.161.124.192) has quit (Changing host)
+2014-07-10 18:54:59	◥	sohail (~sohail@unaffiliated/sohail) has joined #qt
+2014-07-10 18:57:33	◥	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has joined #qt
+2014-07-10 18:57:42	◣	Malsasa (~Malsasa@36.82.85.139) has quit (Ping timeout: 244 seconds)
+2014-07-10 18:58:47	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-10 19:05:17	◣	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has quit (Ping timeout: 255 seconds)
+2014-07-10 19:10:35	◣	sam__ (~sam@95.59.2.93.rev.sfr.net) has quit (Ping timeout: 248 seconds)
+2014-07-10 19:14:59	◣	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 252 seconds)
+2014-07-10 19:15:13	◥	doev (~doev@p4FD42527.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 19:16:06	◥	shackra (~shackra@186.32.192.115) has joined #qt
+2014-07-10 19:18:40	◥	sohail (~sohail@108.161.124.192) has joined #qt
+2014-07-10 19:18:40	◣	sohail (~sohail@108.161.124.192) has quit (Changing host)
+2014-07-10 19:18:40	◥	sohail (~sohail@unaffiliated/sohail) has joined #qt
+2014-07-10 19:18:51	◣	PlugZ51 (~plugz51@2a01:e35:39c9:f4d0:1e6f:65ff:fe2e:2bad) has quit (Ping timeout: 240 seconds)
+2014-07-10 19:21:02	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Remote host closed the connection)
+2014-07-10 19:21:11	◣	markiv (67047d1e@gateway/web/cgi-irc/kiwiirc.com/ip.103.4.125.30) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-07-10 19:21:36	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-10 19:22:31	◥	larsivi (~quassel@nbl20-194.static.cytanet.com.cy) has joined #qt
+2014-07-10 19:25:38	ℹ 	jipsu is now known as jipsukka
+2014-07-10 19:25:59	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 252 seconds)
+2014-07-10 19:29:10	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-10 19:29:38	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 264 seconds)
+2014-07-10 19:30:55	◥	Snake2k (~snake2k@ip68-100-207-22.dc.dc.cox.net) has joined #qt
+2014-07-10 19:32:20	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-10 19:33:08	◥	alextai (~kvirc@37.46.45.136) has joined #qt
+2014-07-10 19:33:53	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 260 seconds)
+2014-07-10 19:34:00	◥	CodePulsar (~quassel@unaffiliated/shiningthrough) has joined #qt
+2014-07-10 19:34:21	◣	lykurg (~Thunderbi@2001:a60:1864:ca01:a4cc:f396:3b28:ab8f) has quit (Ping timeout: 260 seconds)
+2014-07-10 19:36:02	◥	lykurg (~Thunderbi@2001:a60:1821:2201:a4cc:f396:3b28:ab8f) has joined #qt
+2014-07-10 19:37:32	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 252 seconds)
+2014-07-10 19:44:50	◣	Timmy (~quassel@unaffiliated/timmyt) has quit (Remote host closed the connection)
+2014-07-10 19:46:14	◣	iamfrankenstein (~iamfranke@a82-161-204-201.adsl.xs4all.nl) has quit (Ping timeout: 255 seconds)
+2014-07-10 19:51:20	◥	maour_ (~maour@unaffiliated/maour) has joined #qt
+2014-07-10 19:54:35	◣	maour (~maour@unaffiliated/maour) has quit (Ping timeout: 252 seconds)
+2014-07-10 19:56:13	◥	DasMoehh (~Orlando@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-10 19:56:14	◣	doev (~doev@p4FD42527.dip0.t-ipconnect.de) has quit (Read error: Connection timed out)
+2014-07-10 19:56:36	◣	Praise (~Fat@unaffiliated/praise) has quit (Ping timeout: 244 seconds)
+2014-07-10 19:56:38	◣	Tachyon (~tach@cst-prg-125-254.cust.vodafone.cz) has quit (Read error: Connection reset by peer)
+2014-07-10 19:56:43	◥	Praise (~Fat@unaffiliated/praise) has joined #qt
+2014-07-10 19:56:57	◥	Tachyon (~tach@cst-prg-125-254.cust.vodafone.cz) has joined #qt
+2014-07-10 19:58:43	◣	Ahmad (~androirc@120.180.132.133) has quit (Remote host closed the connection)
+2014-07-10 19:59:43	◣	bkre (~bkre@host-188-174-214-225.customer.m-online.net) has quit (Ping timeout: 264 seconds)
+2014-07-10 20:00:22	◥	lain (~lain@75-51-196-248.lightspeed.sbndin.sbcglobal.net) has joined #qt
+2014-07-10 20:01:15	◣	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has quit (Quit: Ex-Chat)
+2014-07-10 20:02:05	◣	Tubbe (~quassel@5.175.192.27) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 20:02:15	◣	ortogonal (~quassel@5.175.192.27) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 20:02:20	◥	Tubbe (~quassel@5.175.192.27) has joined #qt
+2014-07-10 20:02:26	◥	sahumada_ (~sahumada@p200300632F584B92021B21FFFE28A1FE.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 20:02:29	◥	ortogonal (~quassel@5.175.192.27) has joined #qt
+2014-07-10 20:03:31	◣	sahumada__ (~sahumada@p200300632F584B00021B21FFFE28A1FE.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2014-07-10 20:07:38	◥	eklavya (~quassel@183.83.213.114) has joined #qt
+2014-07-10 20:07:55	◣	DasMoehh (~Orlando@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2014-07-10 20:07:59	eklavya	hi
+2014-07-10 20:08:05	eklavya	I am using qt quick with c++
+2014-07-10 20:08:23	eklavya	I have set proper getter and setters for my c++ class
+2014-07-10 20:08:26	eklavya	like:
+2014-07-10 20:08:34	eklavya	Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
+2014-07-10 20:08:41	eklavya	but still I am getting this error
+2014-07-10 20:08:53	eklavya	C:\Users\saurabh\Documents\qt\build-UiModules-Desktop_Qt_5_3_0_MinGW_32bit-Debug\debug\moc_patient.cpp:242: error: no match for call to '(QString) ()'
+2014-07-10 20:08:54	eklavya	         case 1: *reinterpret_cast< QString*>(_v) = name(); break;
+2014-07-10 20:08:54	eklavya	                                                         ^
+2014-07-10 20:09:00	eklavya	any ideas?
+2014-07-10 20:09:29	BtbN	name() is not a getter for that variable.
+2014-07-10 20:09:41	BtbN	It also has the same name as the variable, so that won't work.
+2014-07-10 20:09:49	uvatbc	eklavya: Have you declared and filled in the member function "name" ?
+2014-07-10 20:10:12	◥	ascii_ch (~quassel@89-184.104-92.cust.bluewin.ch) has joined #qt
+2014-07-10 20:10:26	◥	DasMoehh (Belgarath@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-10 20:10:31	uvatbc	eklavya: also, what BtbN said.
+2014-07-10 20:11:13	◣	hardaker (~hardaker@mail.hardakers.net) has quit (Ping timeout: 260 seconds)
+2014-07-10 20:12:09	◣	pld (~pld@unaffiliated/pld) has quit (Ping timeout: 260 seconds)
+2014-07-10 20:12:17	eklavya	but all the examples use the same technique
+2014-07-10 20:12:53	eklavya	ok, I thought this was not necessary
+2014-07-10 20:13:17	eklavya	thanks BtbN uvatbc :) I will add the getters too
+2014-07-10 20:13:45	◥	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has joined #qt
+2014-07-10 20:14:54	◣	Ankhers (~user@gateway/tor-sasl/ankhers) has quit (Remote host closed the connection)
+2014-07-10 20:15:09	◥	weld_ (~weld@p57A81D76.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 20:15:51	◥	Ankhers (~user@gateway/tor-sasl/ankhers) has joined #qt
+2014-07-10 20:15:54	◣	ascii_ch (~quassel@89-184.104-92.cust.bluewin.ch) has quit (Remote host closed the connection)
+2014-07-10 20:16:28	◥	frals (~frals@Maemo/community/contributor/frals) has joined #qt
+2014-07-10 20:18:08	◣	Tachyon (~tach@cst-prg-125-254.cust.vodafone.cz) has quit (Read error: Connection reset by peer)
+2014-07-10 20:18:28	◥	Tachyon (~tach@cst-prg-125-254.cust.vodafone.cz) has joined #qt
+2014-07-10 20:19:20	◥	kbidd (6c0f762f@gateway/web/freenode/ip.108.15.118.47) has joined #qt
+2014-07-10 20:19:20	◣	toothrot (~mux@unaffiliated/toothrot) has quit (Ping timeout: 244 seconds)
+2014-07-10 20:21:06	◣	larsivi (~quassel@nbl20-194.static.cytanet.com.cy) has quit (Read error: Connection reset by peer)
+2014-07-10 20:22:49	kbidd	I'm new to building qt... I'm trying to build qt5 statically on Windows (using mingw and msys) .  I configured qt with -static, and it told me it configured successfully, but warned that I must ensure all modules are built-in since I'm static.  Is there anything special I need to do to make sure webkit is built in (the only module I'm planning on using in my project)?
+2014-07-10 20:22:56	◥	larsivi (~quassel@nb41-46.static.cytanet.com.cy) has joined #qt
+2014-07-10 20:24:38	◥	jhunold (~hunold@p4FC49DE8.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 20:26:48	TheBloke	kbidd: my experience with QT 4 was that I needed to run ./configure --webkit (specifying it specifically.)  But also, I read that webkit can't be built statically.
+2014-07-10 20:27:47	TheBloke	kbidd: http://qt-project.org/forums/viewthread/5970  "WebKit is only supported as a dynamically built library. Static linkage is not supported (quote from Platform and Compiler Notes [doc.qt.nokia.com])."
+2014-07-10 20:28:28	◥	labsin (~labsin@91.176.244.168) has joined #qt
+2014-07-10 20:28:38	◣	eklavya (~quassel@183.83.213.114) has quit (Ping timeout: 244 seconds)
+2014-07-10 20:29:15	kbidd	thats too bad -- builting statically makes deployment easier :(
+2014-07-10 20:29:38	◣	fredix (~fred@87-231-149-213.rev.numericable.fr) has quit (Ping timeout: 264 seconds)
+2014-07-10 20:30:02	TheBloke	It would also mean your app would have to be released open source, under the GPL
+2014-07-10 20:30:21	Dotti_	LGPL
+2014-07-10 20:30:39	TheBloke	ah, sorry
+2014-07-10 20:31:02	kbidd	I believe GPL if statically linked... LGPL only applies if its a dynamic library (although I am not a lawyer)
+2014-07-10 20:31:03	BtbN	kbidd, you need python, perl and ruby to build webkit.
+2014-07-10 20:31:49	kbidd	guess I'll have to decide if I want static linkage, or webkit :)
+2014-07-10 20:32:23	◣	zacdev (~zacdev@unaffiliated/zacdev) has quit (*.net *.split)
+2014-07-10 20:32:23	◣	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has quit (*.net *.split)
+2014-07-10 20:32:23	◣	dianull (~s8844@msh.pjwstk.edu.pl) has quit (*.net *.split)
+2014-07-10 20:32:24	◣	kevr (~kevr@unaffiliated/kevr) has quit (*.net *.split)
+2014-07-10 20:32:24	◣	dr_lepper (~hades@amarok/developer/hades) has quit (*.net *.split)
+2014-07-10 20:32:24	◣	Verge (~ccvxcv@dsl-hkibrasgw4-50df50-205.dhcp.inet.fi) has quit (*.net *.split)
+2014-07-10 20:32:24	◣	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has quit (*.net *.split)
+2014-07-10 20:32:40	kbidd	and I am going to release under GPL anyway... if I release source code, it means they don't have to come back to me in a couple of years when they need an update :)
+2014-07-10 20:33:40	TheBloke	BtbN: I assume the ruby requirement is new in QT5?  on QT4 I was able to use ./configure --webkit and then build, and I only have Python 2.7 and Perl installed (Windows).
+2014-07-10 20:33:58	BtbN	It's a requirement of webkit, not qt
+2014-07-10 20:34:05	BtbN	you can build everything except webkit without ruby
+2014-07-10 20:34:11	◣	flosch (~flosch@unaffiliated/flosch) has quit (Quit: Verlassend)
+2014-07-10 20:34:17	BtbN	no idea what it is doing with it...
+2014-07-10 20:35:07	TheBloke	But I *did* build QT4 Webkit without Ruby.. I mean, I have a QtWebkit4.dll (and QtWebkit4d.dll) and after building that, was able to build an app that uses QtWebkit (and that didn't build until I had compiled Qt webkit.)  That's weird then!
+2014-07-10 20:35:38	◥	Tachyx (~tach@tach.me) has joined #qt
+2014-07-10 20:36:43	◣	Astronaut (~Astronaut@197.15.17.149) has quit (Remote host closed the connection)
+2014-07-10 20:38:08	◥	eklavya (~quassel@183.83.213.114) has joined #qt
+2014-07-10 20:38:49	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-10 20:39:39	◣	Tachyon (~tach@cst-prg-125-254.cust.vodafone.cz) has quit (Ping timeout: 248 seconds)
+2014-07-10 20:40:54	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 20:41:27	◥	vohe (~volker@dslb-088-070-223-057.pools.arcor-ip.net) has joined #qt
+2014-07-10 20:41:44	◣	vohe (~volker@dslb-088-070-223-057.pools.arcor-ip.net) has left #qt
+2014-07-10 20:41:51	◥	fredix (~fred@87-231-149-213.rev.numericable.fr) has joined #qt
+2014-07-10 20:41:57	◥	m76 (~mike@89-178-91-157.broadband.corbina.ru) has joined #qt
+2014-07-10 20:43:02	◥	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has joined #qt
+2014-07-10 20:43:48	◥	kevr (~kevr@unaffiliated/kevr) has joined #qt
+2014-07-10 20:43:53	◥	dr_lepper (~hades@amarok/developer/hades) has joined #qt
+2014-07-10 20:43:55	◥	florek_ (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 20:45:50	◣	jipsukka (~quassel@11.103.189.109.customer.cdi.no) has quit (Ping timeout: 264 seconds)
+2014-07-10 20:46:42	◣	eklavya (~quassel@183.83.213.114) has quit (Ping timeout: 244 seconds)
+2014-07-10 20:47:07	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 248 seconds)
+2014-07-10 20:47:21	◥	dianull (~s8844@msh.pjwstk.edu.pl) has joined #qt
+2014-07-10 20:47:26	◥	Verge (~ccvxcv@dsl-hkibrasgw4-50df50-205.dhcp.inet.fi) has joined #qt
+2014-07-10 20:47:47	yates	is there a way to set QLabel to a constant width independent of the text inside it?
+2014-07-10 20:48:12	yates	setFixedWidth()?
+2014-07-10 20:49:34	◥	eklavya (~quassel@183.83.213.114) has joined #qt
+2014-07-10 20:50:46	◥	Aylan (~Aylan@CPE0023bee3f8e4-CM0023bee3f8e1.cpe.net.cable.rogers.com) has joined #qt
+2014-07-10 20:51:57	◥	JoeBullet (~JoeBullet@93-141-46-242.adsl.net.t-com.hr) has joined #qt
+2014-07-10 20:52:12	JoeBullet	Hello.. Is there some way to move QQuickView with dragmove? I tried setting transparent background but the View itself does not move, only root object?
+2014-07-10 20:52:14	◣	florek_ (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 20:54:44	◥	positron2 (~positron@101.222.228.74) has joined #qt
+2014-07-10 20:55:53	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 20:56:43	◣	dantti (~dantti@179.177.234.150) has quit (Ping timeout: 248 seconds)
+2014-07-10 20:58:52	◣	jhunold (~hunold@p4FC49DE8.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2014-07-10 20:58:58	◣	m76 (~mike@89-178-91-157.broadband.corbina.ru) has quit (Read error: Connection reset by peer)
+2014-07-10 21:00:06	◥	PlugZ51 (~plugz51@2a01:e35:39c9:f4d0:1e6f:65ff:fe2e:2bad) has joined #qt
+2014-07-10 21:00:29	◥	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has joined #qt
+2014-07-10 21:00:47	◣	Aylan (~Aylan@CPE0023bee3f8e4-CM0023bee3f8e1.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2014-07-10 21:02:03	◣	DasMoehh (Belgarath@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has quit (Ping timeout: 248 seconds)
+2014-07-10 21:02:10	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 21:02:39	◥	hanne (~linaae@cm-84.215.22.134.getinternet.no) has joined #qt
+2014-07-10 21:02:44	◣	rikai (~quassel@rekd.net) has quit (Ping timeout: 244 seconds)
+2014-07-10 21:03:18	◥	DasMoehh (Belgarath@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-10 21:05:30	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 21:06:37	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-10 21:08:10	◥	badescunicu (~Thunderbi@79.118.123.115) has joined #qt
+2014-07-10 21:09:39	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-10 21:11:49	◥	andris (~andris@83.166.211.9) has joined #qt
+2014-07-10 21:14:09	◥	florek_ (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 21:15:05	◥	positron3 (~positron@101.222.242.255) has joined #qt
+2014-07-10 21:15:11	◥	toothrot (~mux@unaffiliated/toothrot) has joined #qt
+2014-07-10 21:15:29	◥	DeFender1031 (~DeFender1@93-173-241-136.bb.netvision.net.il) has joined #qt
+2014-07-10 21:16:03	◥	bkre (~bkre@host-188-174-214-225.customer.m-online.net) has joined #qt
+2014-07-10 21:16:30	◥	fabianBu (~quassel@pD95F6CA7.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 21:17:27	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-10 21:17:31	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 248 seconds)
+2014-07-10 21:17:37	◣	Papierkorb (~papierkor@46.246.48.118) has quit (Quit: ArchLinux completes an endless loop faster than any other distro!)
+2014-07-10 21:17:42	◣	positron2 (~positron@101.222.228.74) has quit (Ping timeout: 244 seconds)
+2014-07-10 21:20:49	◣	bhattigurjot (~bhattigur@59.89.156.82) has quit (Quit: Leaving)
+2014-07-10 21:21:51	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 240 seconds)
+2014-07-10 21:22:05	◣	rendar (~I@host236-180-dynamic.1-87-r.retail.telecomitalia.it) has quit (Ping timeout: 255 seconds)
+2014-07-10 21:22:34	◥	rikai (~quassel@rekd.net) has joined #qt
+2014-07-10 21:23:13	◣	jstaniek (~jarek@calcifer.xs4all.nl) has quit (Quit: Konversation terminated!)
+2014-07-10 21:24:13	◥	upd (~updSI@unaffiliated/upd) has joined #qt
+2014-07-10 21:24:20	◥	onr (~onr@pdpc/supporter/active/onr) has joined #qt
+2014-07-10 21:24:52	◥	pld (~pld@unaffiliated/pld) has joined #qt
+2014-07-10 21:28:25	◥	jipsu (~quassel@11.103.189.109.customer.cdi.no) has joined #qt
+2014-07-10 21:28:44	◥	rendar (~I@host236-180-dynamic.1-87-r.retail.telecomitalia.it) has joined #qt
+2014-07-10 21:33:04	JoeBullet	 Hello.. Is there some way to move QQuickView with dragmove? I tried setting transparent background but the View itself does not move, only root object?
+2014-07-10 21:34:24	◥	basic6_ (~basic6@p4FCB7431.dip0.t-ipconnect.de) has joined #qt
+2014-07-10 21:34:35	◣	basic6 (~basic6@p4FCB4B17.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2014-07-10 21:34:58	◣	jipsu (~quassel@11.103.189.109.customer.cdi.no) has quit (Remote host closed the connection)
+2014-07-10 21:37:41	◥	iamfrankenstein (~iamfranke@dhcp-089-099-203-023.chello.nl) has joined #qt
+2014-07-10 21:40:27	◣	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2014-07-10 21:40:43	◣	DeFender1031 (~DeFender1@93-173-241-136.bb.netvision.net.il) has left #qt ("Channel? What channel?")
+2014-07-10 21:41:06	◥	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has joined #qt
+2014-07-10 21:43:09	◥	drizz_ (~drizz@uplink.io) has joined #qt
+2014-07-10 21:43:31	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-10 21:43:50	◣	drizz_ (~drizz@uplink.io) has quit (Client Quit)
+2014-07-10 21:44:07	◥	Astronaut (~Astronaut@197.15.17.149) has joined #qt
+2014-07-10 21:48:11	◣	positron3 (~positron@101.222.242.255) has quit (Ping timeout: 244 seconds)
+2014-07-10 21:49:51	◥	crimsondusk (~crimson@unaffiliated/arezey) has joined #qt
+2014-07-10 21:50:12	◥	hz (~hz@unaffiliated/hz) has joined #qt
+2014-07-10 21:51:34	◥	jklontz (~jklontz@ip72-196-248-131.dc.dc.cox.net) has joined #qt
+2014-07-10 21:56:23	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-10 21:57:23	◥	Leoneof1 (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-10 21:58:03	◣	DexterLB (~dex@79.100.234.148) has quit (Ping timeout: 248 seconds)
+2014-07-10 21:59:03	◣	Leoneof` (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 264 seconds)
+2014-07-10 21:59:26	◣	labsin (~labsin@91.176.244.168) has quit (Ping timeout: 255 seconds)
+2014-07-10 21:59:54	◥	labsin (~labsin@91.176.244.168) has joined #qt
+2014-07-10 22:00:03	◣	alextai (~kvirc@37.46.45.136) has quit (Quit: KVIrc 4.3.1 Aria http://www.kvirc.net/)
+2014-07-10 22:00:53	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 260 seconds)
+2014-07-10 22:02:07	◣	whitglint (uid15486@gateway/web/irccloud.com/x-zkaxtfdyckgdqrum) has quit (Quit: Connection closed for inactivity)
+2014-07-10 22:03:01	◥	DexterLB (~dex@79-100-3-219.btc-net.bg) has joined #qt
+2014-07-10 22:03:54	◣	luc4 (~luca@host47-173-dynamic.7-79-r.retail.telecomitalia.it) has quit (Quit: luc4)
+2014-07-10 22:04:17	◣	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has quit (Remote host closed the connection)
+2014-07-10 22:05:14	◣	florek_ (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-10 22:06:10	◣	treat (~treat@p5DC77E6B.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-07-10 22:10:58	◣	labsin (~labsin@91.176.244.168) has quit (Ping timeout: 252 seconds)
+2014-07-10 22:11:22	◣	eklavya (~quassel@183.83.213.114) has quit (Remote host closed the connection)
+2014-07-10 22:12:54	◥	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has joined #qt
+2014-07-10 22:13:52	◣	jklontz (~jklontz@ip72-196-248-131.dc.dc.cox.net) has quit (Quit: jklontz)
+2014-07-10 22:20:27	◣	paullik (~paullik@unaffiliated/paullik) has quit (Remote host closed the connection)
+2014-07-10 22:20:44	◣	oleo (~oleo@xdsl-78-35-170-127.netcologne.de) has quit (Ping timeout: 244 seconds)
+2014-07-10 22:25:12	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 22:25:23	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 244 seconds)
+2014-07-10 22:28:12	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-10 22:28:45	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-10 22:29:03	◣	lykurg (~Thunderbi@2001:a60:1821:2201:a4cc:f396:3b28:ab8f) has quit (Quit: lykurg)
+2014-07-10 22:30:04	◥	oleo (~oleo@xdsl-78-35-170-127.netcologne.de) has joined #qt
+2014-07-10 22:33:44	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Read error: Connection reset by peer)
+2014-07-10 22:33:44	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-10 22:33:44	◣	jackneill (~jackneill@unaffiliated/jackneill) has quit (Read error: Connection reset by peer)
+2014-07-10 22:33:44	◣	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has quit (Ping timeout: 255 seconds)
+2014-07-10 22:39:56	◣	fabianBu (~quassel@pD95F6CA7.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2014-07-10 22:43:07	◣	Zagge (~quassel@calcifer.xs4all.nl) has quit (Ping timeout: 252 seconds)
+2014-07-10 22:46:28	◥	SKiTZO (~lennart@ti0003a400-2283.bb.online.no) has joined #qt
+2014-07-10 22:47:38	SKiTZO	My standard QPushButton has been styled with a border image with 28px border (for really round corners). It seems that the text is only rendered in the center patch. Is there any way to overcome this?
+2014-07-10 22:48:45	◥	athairus (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has joined #qt
+2014-07-10 22:51:22	◥	anaselli (~quassel@mandriva/developer/kde/anaselli) has joined #qt
+2014-07-10 22:51:23	SKiTZO	I found the solution! set negative padding :)
+2014-07-10 22:52:07	◣	maour_ (~maour@unaffiliated/maour) has quit (Quit: Konversation terminated!)
+2014-07-10 22:54:24	◣	karswell (~user@84.93.50.58) has quit (Read error: Connection reset by peer)
+2014-07-10 22:54:42	◥	karswell (~user@84.93.50.58) has joined #qt
+2014-07-10 22:55:55	kailoAtWork	I'm running into an issue with a subdirs project, where if any one of the subdir projects fails to build, I can't run the projects that succeed
+2014-07-10 22:56:01	kailoAtWork	Does anyone know how to resolve this?
+2014-07-10 22:56:38	kailoAtWork	I can manually build an individual project, but I can't manually run it
+2014-07-10 22:57:09	thiago	running has nothing to do with building
+2014-07-10 22:57:37	kailoAtWork	I realize that
+2014-07-10 22:57:56	ℹ 	Leoneof1 is now known as Leoneof
+2014-07-10 22:57:57	kailoAtWork	but it seems like a strange restriction to cancel a run attempt because a different project (which isn't a dependency) failed to build
+2014-07-10 22:58:19	thiago	again, there's nothing with running
+2014-07-10 22:58:29	thiago	since make doesn't run, it's out of scope
+2014-07-10 22:58:54	kailoAtWork	?
+2014-07-10 22:59:01	thiago	you typed make, right?
+2014-07-10 22:59:10	kailoAtWork	this is via qt creator
+2014-07-10 22:59:19	thiago	we're talking about the command-line
+2014-07-10 22:59:26	thiago	you type make. Then you do something else.
+2014-07-10 22:59:40	thiago	the other thing is not make. You do whatever you want.
+2014-07-10 23:00:14	thiago	as for Qt Creator, it assumes that the build needs to succeed before you can run whatever you've built
+2014-07-10 23:00:17	thiago	that is reasonable
+2014-07-10 23:01:44	◣	vinny (~vinny@c-68-60-94-197.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2014-07-10 23:02:13	◣	pld (~pld@unaffiliated/pld) has quit (Read error: Connection reset by peer)
+2014-07-10 23:02:31	◥	pld (~pld@unaffiliated/pld) has joined #qt
+2014-07-10 23:02:46	kailoAtWork	meh, bit of a pain.  guess I'll have to split apart my subdir projects
+2014-07-10 23:04:01	thiago	why don't you build just what you need to build?
+2014-07-10 23:04:50	◥	zoraj_ (~zoraj@197.224.143.231) has joined #qt
+2014-07-10 23:05:41	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-10 23:05:56	◥	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has joined #qt
+2014-07-10 23:07:50	◣	zoraj (~zoraj@197.224.158.145) has quit (Ping timeout: 255 seconds)
+2014-07-10 23:08:32	◣	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 23:09:13	kailoAtWork	thiago, in this particular case, my overarching project contains 3rdParty libs, proprietary libs that are shared among apps, and several apps
+2014-07-10 23:09:25	thiago	why are you building it?
+2014-07-10 23:09:33	thiago	build only the projects you need
+2014-07-10 23:09:37	kailoAtWork	it's reasonable to group them together for continuous integration, and I was hoping to use the same project for general development as well
+2014-07-10 23:09:46	◥	CodePulsar_ (~quassel@unaffiliated/shiningthrough) has joined #qt
+2014-07-10 23:09:55	◥	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has joined #qt
+2014-07-10 23:10:21	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 240 seconds)
+2014-07-10 23:11:51	◣	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has quit (Remote host closed the connection)
+2014-07-10 23:12:08	◣	cor3ntin (~coco@2a01:e35:2e93:6e00:2c4b:edfc:67ce:ac5d) has quit (Remote host closed the connection)
+2014-07-10 23:12:56	◥	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-10 23:13:24	◣	hz (~hz@unaffiliated/hz) has quit (Disconnected by services)
+2014-07-10 23:13:28	◥	hz (~hz@unaffiliated/hz) has joined #qt
+2014-07-10 23:13:41	◣	CodePulsar (~quassel@unaffiliated/shiningthrough) has quit (Ping timeout: 260 seconds)
+2014-07-10 23:14:21	◣	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has quit (Quit: fbeutel)
+2014-07-10 23:14:24	◣	theAdib (~adib@dslb-088-074-177-007.pools.arcor-ip.net) has quit (Quit: Ex-Chat)
+2014-07-10 23:14:44	◥	iamfrankenstein2 (~iamfranke@dhcp-089-099-203-023.chello.nl) has joined #qt
+2014-07-10 23:14:58	◣	DasMoehh (Belgarath@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has quit
+2014-07-10 23:15:17	◥	Jucato (~jucato@kde/developer/jucato) has joined #qt
+2014-07-10 23:15:51	◣	iamfrankenstein (~iamfranke@dhcp-089-099-203-023.chello.nl) has quit (Ping timeout: 240 seconds)
+2014-07-10 23:18:40	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-10 23:19:15	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-10 23:19:56	◥	Leoneof` (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-10 23:20:21	kailoAtWork	hmm, on a side note, anyone else run into issues with CONFIG += staticlib for OSX?
+2014-07-10 23:20:37	jakepetroules	probably. it's not well supported
+2014-07-10 23:20:48	kailoAtWork	gross
+2014-07-10 23:20:54	◥	nodweber_ (~nodweber@5.178.135.214) has joined #qt
+2014-07-10 23:20:56	kailoAtWork	never ran into issues with gcc.. but clang is complaining about parameters I think
+2014-07-10 23:21:00	jakepetroules	why do you want static libs?
+2014-07-10 23:21:27	kailoAtWork	one of my subprojects is a staticlib of proprietary code, which is re-used in several subproject applications
+2014-07-10 23:21:35	kailoAtWork	IE, the main app, and a unit test app
+2014-07-10 23:21:43	kailoAtWork	but will include more later
+2014-07-10 23:21:59	jakepetroules	oh you're just talking about qmake
+2014-07-10 23:22:00	kailoAtWork	furthermore that same staticlib will be redistributed to other devs later on
+2014-07-10 23:22:04	jakepetroules	I was thinking static build of Qt
+2014-07-10 23:22:08	kailoAtWork	nah
+2014-07-10 23:22:40	kailoAtWork	though I will be doing some of that once we get an enterprise license
+2014-07-10 23:22:59	jakepetroules	static linking is such a headache :)
+2014-07-10 23:23:02	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 252 seconds)
+2014-07-10 23:23:55	jakepetroules	I'm dropping support for iOS 7 in my app because of it. 8.0 minimum.
+2014-07-10 23:23:55	kailoAtWork	dynamic linking is more of a headache, especially when it comes to install size on mobile
+2014-07-10 23:23:55	◣	szagul (~quassel@keller-server.de) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 23:24:09	◥	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has joined #qt
+2014-07-10 23:24:17	◣	nodweber (~nodweber@5.178.135.214) has quit (Ping timeout: 264 seconds)
+2014-07-10 23:25:01	◣	rbelem (~rbelem@ubuntu/member/pdpc.bronze.rbelem) has quit (Ping timeout: 248 seconds)
+2014-07-10 23:25:03	jakepetroules	what with the 64 GB phones we have today :P
+2014-07-10 23:25:18	kailoAtWork	it's more about the 100MB limit over 3g
+2014-07-10 23:25:26	jakepetroules	ah
+2014-07-10 23:25:27	kailoAtWork	and supplying a library to other businesses
+2014-07-10 23:25:35	kailoAtWork	they don't want a 20MB library
+2014-07-10 23:25:52	kailoAtWork	especially for android where there's a 50MB hard limit heh
+2014-07-10 23:25:55	jakepetroules	to each his own use case
+2014-07-10 23:26:03	jakepetroules	necessitas helps with that
+2014-07-10 23:26:19	◥	onr_ (~onr@85.96.7.240) has joined #qt
+2014-07-10 23:26:39	◣	onr (~onr@pdpc/supporter/active/onr) has quit (Disconnected by services)
+2014-07-10 23:26:52	◣	ohaz (ohaz@endless-aerospace.de) has quit (Ping timeout: 252 seconds)
+2014-07-10 23:26:53	◣	onr_ (~onr@85.96.7.240) has quit (Remote host closed the connection)
+2014-07-10 23:26:56	kailoAtWork	in any case, I'm suspecting we'll have to build qt from src and use gcc on mac
+2014-07-10 23:27:00	kailoAtWork	which is really quite a pain
+2014-07-10 23:27:10	◥	szagul (~quassel@keller-server.de) has joined #qt
+2014-07-10 23:28:06	jakepetroules	you're having problems with clang and static build? which version of xcode and os x?
+2014-07-10 23:28:10	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-10 23:28:27	◣	atdotde (~quassel@euve10195.vserver.de) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 23:28:40	ℹ 	oleo is now known as Guest50777
+2014-07-10 23:28:53	kailoAtWork	10.9 of osx, xcode 5.1.1
+2014-07-10 23:29:05	◥	atdotde (~quassel@euve10195.vserver.de) has joined #qt
+2014-07-10 23:29:07	+jpnurmi	i'm using a static library just fine on osx 10.9
+2014-07-10 23:29:10	◣	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2014-07-10 23:29:19	kailoAtWork	I'm trying to -build- a staticlib
+2014-07-10 23:29:25	◥	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has joined #qt
+2014-07-10 23:29:30	+jpnurmi	is there a difference between staticlib and static configs for a library project?
+2014-07-10 23:29:36	jakepetroules	what problems have you run into?
+2014-07-10 23:29:39	◣	rendar (~I@host236-180-dynamic.1-87-r.retail.telecomitalia.it) has quit
+2014-07-10 23:29:40	◥	oleo__ (~oleo@xdsl-78-35-132-51.netcologne.de) has joined #qt
+2014-07-10 23:29:49	kailoAtWork	ar: no archive members specified
+2014-07-10 23:29:49	kailoAtWork	usage:  ar -d [-TLsv] archive file ...
+2014-07-10 23:30:00	+jpnurmi	yes, i mean that my project consists of multiple subprojects where one of them is a static library
+2014-07-10 23:30:18	kailoAtWork	builds fine as a dynamic library, but when I specify CONFIG += staticlib it breaks
+2014-07-10 23:30:31	kailoAtWork	(not the case for the same project on arch linux)
+2014-07-10 23:30:43	◣	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has quit (Ping timeout: 252 seconds)
+2014-07-10 23:30:49	ℹ 	pnatal is now known as equalsraf
+2014-07-10 23:31:16	◣	nodweber_ (~nodweber@5.178.135.214) has quit (Ping timeout: 252 seconds)
+2014-07-10 23:31:21	◣	bkre (~bkre@host-188-174-214-225.customer.m-online.net) has quit (Ping timeout: 240 seconds)
+2014-07-10 23:31:51	◣	Guest50777 (~oleo@xdsl-78-35-170-127.netcologne.de) has quit (Ping timeout: 240 seconds)
+2014-07-10 23:32:44	◥	ohaz (ohaz@endless-aerospace.de) has joined #qt
+2014-07-10 23:33:14	Alex11223	I have a QStackWidged on my QMainWindow, and inside of the StackWidget I have some custom widget (inserted at runtime) with some buttons, edits.
+2014-07-10 23:33:16	Alex11223	I want to set background (form) color of this widget. I tried to specify stylesheet of this widget (in designer): #MyWidget { bacground-color: rgb(0, 0, 255); }.
+2014-07-10 23:33:16	Alex11223	It looks fine in designer but when I run the program (Windows, desktop) it doesn't work, no effect
+2014-07-10 23:34:17	jakepetroules	kailoAtWork: hmm not sure, you should file a bug report with a minimal reproducible test case
+2014-07-10 23:34:42	◥	bkre__ (~bkre@ppp-93-104-156-202.dynamic.mnet-online.de) has joined #qt
+2014-07-10 23:35:15	◣	szagul (~quassel@keller-server.de) has quit (Remote host closed the connection)
+2014-07-10 23:35:25	◣	BlaXpirit (~blaxpirit@117-106-132-95.pool.ukrtel.net) has quit (Quit: Quit Konversation)
+2014-07-10 23:35:25	+jpnurmi	kailoAtWork: pastebin the makefile
+2014-07-10 23:35:43	◣	atdotde (~quassel@euve10195.vserver.de) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-10 23:36:13	◣	sahumada_ (~sahumada@p200300632F584B92021B21FFFE28A1FE.dip0.t-ipconnect.de) has left #qt ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2014-07-10 23:36:17	+jpnurmi	CONFIG += staticlib vs. CONFIG += static doesn't seem to make any difference here. both work for me
+2014-07-10 23:36:28	kailoAtWork	http://paste.kde.org/pulno4okb
+2014-07-10 23:36:40	kailoAtWork	uncommenting breaks it
+2014-07-10 23:37:11	kailoAtWork	tried both static and staticlib here
+2014-07-10 23:37:12	+jpnurmi	do you have anything to build there?
+2014-07-10 23:37:46	kailoAtWork	Yeah, the class is defined in the .h
+2014-07-10 23:37:49	+jpnurmi	no wonder "$(AR) $(TARGET) $(OBJECTS)" breaks because there are no object files
+2014-07-10 23:37:59	kailoAtWork	hm
+2014-07-10 23:39:47	◣	badescunicu (~Thunderbi@79.118.123.115) has quit (Quit: badescunicu)
+2014-07-10 23:39:55	kailoAtWork	sure as hell.
+2014-07-10 23:40:32	⚡	kailoAtWork hates osx so much
+2014-07-10 23:40:43	◥	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has joined #qt
+2014-07-10 23:41:06	kailoAtWork	at least with windows you expect it to be stupid.. OSX fools me all too often with it's unix-like facade
+2014-07-10 23:41:27	jakepetroules	blame qmake, not os x
+2014-07-10 23:41:54	kailoAtWork	I'm pretty sure it's a fault of clang and the build tools on osx
+2014-07-10 23:42:04	kailoAtWork	this same makefile works on linux
+2014-07-10 23:42:16	jakepetroules	that makes no sense, you need an object file
+2014-07-10 23:42:23	jakepetroules	is Appnative.h full of inlines?
+2014-07-10 23:43:06	kailoAtWork	It has a full class definition
+2014-07-10 23:45:53	jakepetroules	kailoAtWork: so move the implementations into a cpp
+2014-07-10 23:46:29	kailoAtWork	Yeah, I did that. Only reason I only had an .h is because I was testing the build pipeline
+2014-07-10 23:46:45	kailoAtWork	won't be the case as development kicks off
+2014-07-10 23:47:12	◣	CodePulsar_ (~quassel@unaffiliated/shiningthrough) has quit (Remote host closed the connection)
+2014-07-10 23:47:18	◣	PasNox (~pasnox@2a01:e35:8b61:9b30:b5c1:a5b9:30e2:4b83) has quit (Quit: Leaving - Cross platform IDE http://monkeystudio.org)
+2014-07-10 23:52:55	JoeBullet	Hello.. Is there some way to move QQuickView with dragmove? I tried setting transparent background but the View itself does not move, only root object?
+2014-07-10 23:54:14	thiago	kailoAtWork: where's the SOURCES line?
+2014-07-10 23:55:02	kailoAtWork	thiago, I split the implementation into a source to resolve the issue.  Hence the 'sure as hell.'
+2014-07-10 23:56:14	+jpnurmi	JoeBullet: instead of using QQuickView, you could create a Window in QML and move that
+2014-07-10 23:56:15	◣	Jucato (~jucato@kde/developer/jucato) has quit (Quit: Konversation terminated!)
+2014-07-10 23:56:45	JoeBullet	thanks for the tip, i will try that
+2014-07-10 23:57:04	+jpnurmi	JoeBullet: it probably won't work as a target for MouseArea::drag out of the box, though (that assumes an item i think)
+2014-07-10 23:57:34	JoeBullet	ok i will try..
+2014-07-10 23:57:34	+jpnurmi	but if you create a Window in QML, you have full control over its position
+2014-07-11 00:00:18	◣	schoenemann (~quassel@service.basyskom.com) has quit (Remote host closed the connection)
+2014-07-11 00:00:18	◣	bfederau (~quassel@service.basyskom.com) has quit (Remote host closed the connection)
+2014-07-11 00:00:40	◥	schoenemann (~quassel@service.basyskom.com) has joined #qt
+2014-07-11 00:00:44	◥	bfederau (~quassel@service.basyskom.com) has joined #qt
+2014-07-11 00:04:11	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-11 00:04:19	giucam	depending on the platform,,,
+2014-07-11 00:06:32	+jpnurmi	good point :)
+2014-07-11 00:07:21	+jpnurmi	to me dragging a window strongly advices a desktop environment, though
+2014-07-11 00:07:44	thiago	the WM takes care of that, indeed
+2014-07-11 00:07:53	◥	rbelem (~rbelem@ubuntu/member/pdpc.bronze.rbelem) has joined #qt
+2014-07-11 00:08:08	◣	Thra11 (~Thra11@host-84-13-247-129.opaltelecom.net) has quit (Ping timeout: 255 seconds)
+2014-07-11 00:12:29	◣	neozaru (~neozaru@lau06-4-88-161-213-36.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-07-11 00:13:07	◣	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has quit (Read error: Connection reset by peer)
+2014-07-11 00:13:11	◥	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has joined #qt
+2014-07-11 00:14:04	◥	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has joined #qt
+2014-07-11 00:14:16	◣	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has quit (Remote host closed the connection)
+2014-07-11 00:15:16	◣	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has left #qt
+2014-07-11 00:17:08	◣	Nohus (~nohus@093105169009.bielskobiala.vectranet.pl) has quit (Quit: Konversation terminated!)
+2014-07-11 00:19:29	◥	whitglint (uid15486@gateway/web/irccloud.com/x-fqqytjalzccopzxr) has joined #qt
+2014-07-11 00:22:15	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-11 00:29:49	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-11 00:34:48	◥	arturo182|2 (arturo182@31-211-234-181.customers.ownit.se) has joined #qt
+2014-07-11 00:35:02	ℹ 	arturo182 is now known as Guest36664
+2014-07-11 00:35:02	◣	Guest36664 (arturo182@31-211-234-181.customers.ownit.se) has quit (Killed (orwell.freenode.net (Nickname regained by services)))
+2014-07-11 00:35:02	ℹ 	arturo182|2 is now known as arturo182
+2014-07-11 00:36:33	◣	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has quit (Ping timeout: 272 seconds)
+2014-07-11 00:44:06	◣	hanne (~linaae@cm-84.215.22.134.getinternet.no) has quit (Quit: hanne)
+2014-07-11 00:44:52	+jpnurmi	qout: << "äö"
+2014-07-11 00:44:52	qout	??
+2014-07-11 00:45:07	+jpnurmi	qout: << QTextCodec::codecForLocale()
+2014-07-11 00:45:07	qout	0x1672a60
+2014-07-11 00:45:11	+jpnurmi	qout: << QTextCodec::codecForLocale()->name()
+2014-07-11 00:45:11	qout	"US-ASCII"
+2014-07-11 00:45:51	+jpnurmi	qout: { QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8")); qDebug() << "äö"; }
+2014-07-11 00:45:52	qout	äö
+2014-07-11 00:46:00	+jpnurmi	ah!
+2014-07-11 00:46:38	+jpnurmi	qout: { QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8")); qDebug() << "‎中國哲學書電子化計劃"; }
+2014-07-11 00:46:39	qout	中國哲學書電子化計劃
+2014-07-11 00:46:54	◣	Astronaut (~Astronaut@197.15.17.149) has quit (Quit: Leaving)
+2014-07-11 00:48:05	+jpnurmi	qout: { qputenv("LC_ALL", "en_US.UTF-8"); qDebug() << "äö"; }
+2014-07-11 00:48:06	qout	äö
+2014-07-11 00:49:26	◣	Bigpet2 (~bigpet@p5B162BA5.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-07-11 00:49:35	◣	anaselli (~quassel@mandriva/developer/kde/anaselli) has quit (Remote host closed the connection)
+2014-07-11 00:49:46	◣	filipesaraiva (~filipe@124.127.96.2) has quit (Remote host closed the connection)
+2014-07-11 00:53:56	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 00:54:02	◥	Astronaut (~Astronaut@197.15.17.149) has joined #qt
+2014-07-11 00:54:22	◣	jluc (~jluc@ADijon-651-1-141-121.w90-13.abo.wanadoo.fr) has quit
+2014-07-11 00:56:53	◣	Auxilium (~garret@ppp-88-217-97-11.dynamic.mnet-online.de) has quit (Quit: Sleep)
+2014-07-11 00:58:43	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2014-07-11 00:58:49	◥	cryzed (~cryzed@37.247.54.206) has joined #qt
+2014-07-11 00:59:43	cryzed	I am trying to execute some custom code after resizeEvent has happened, i.e. the window was successfully resized, but I can't find any fitting event for this scenario -- am I overseeing something?
+2014-07-11 01:05:04	◥	athairus_ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has joined #qt
+2014-07-11 01:06:58	◥	relipse (uid16131@gateway/web/irccloud.com/x-lcrivjhylhvulbhw) has joined #qt
+2014-07-11 01:07:55	◣	athairus (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has quit (Ping timeout: 248 seconds)
+2014-07-11 01:07:59	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 255 seconds)
+2014-07-11 01:08:29	◣	zoraj_ (~zoraj@197.224.143.231) has quit (Ping timeout: 260 seconds)
+2014-07-11 01:09:11	◣	blight (~greg@reactos/developer/blight) has quit (Ping timeout: 252 seconds)
+2014-07-11 01:09:51	◥	ZeuZ (~byakko@186.59.3.85) has joined #qt
+2014-07-11 01:09:51	◣	ZeuZ (~byakko@186.59.3.85) has quit (Changing host)
+2014-07-11 01:09:51	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-11 01:10:18	◣	weld_ (~weld@p57A81D76.dip0.t-ipconnect.de) has quit (Quit: weld_)
+2014-07-11 01:11:02	◣	kmcguire (~kmcguire@rrcs-97-78-154-200.se.biz.rr.com) has quit (Ping timeout: 264 seconds)
+2014-07-11 01:14:21	◣	pld (~pld@unaffiliated/pld) has quit (Ping timeout: 244 seconds)
+2014-07-11 01:17:21	◣	Alina-malina (Alina-mali@unaffiliated/alina-malina) has quit (Ping timeout: 260 seconds)
+2014-07-11 01:20:11	◥	blight (~greg@reactos/developer/blight) has joined #qt
+2014-07-11 01:27:08	◣	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 272 seconds)
+2014-07-11 01:28:43	◥	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has joined #qt
+2014-07-11 01:31:46	◥	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has joined #qt
+2014-07-11 01:35:51	◣	otjura (~ojr@unaffiliated/pozori) has quit (Ping timeout: 240 seconds)
+2014-07-11 01:36:19	◥	sbw (~sbw@125.76.181.237) has joined #qt
+2014-07-11 01:36:49	◥	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has joined #qt
+2014-07-11 01:40:06	◣	tom94 (~tom@79-69-116-66.dynamic.dsl.as9105.com) has quit (Quit: Konversation terminated!)
+2014-07-11 01:41:13	◥	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 01:41:21	◣	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has quit (*.net *.split)
+2014-07-11 01:41:21	◣	Verge (~ccvxcv@dsl-hkibrasgw4-50df50-205.dhcp.inet.fi) has quit (*.net *.split)
+2014-07-11 01:41:21	◣	dianull (~s8844@msh.pjwstk.edu.pl) has quit (*.net *.split)
+2014-07-11 01:41:21	◣	dr_lepper (~hades@amarok/developer/hades) has quit (*.net *.split)
+2014-07-11 01:41:21	◣	kevr (~kevr@unaffiliated/kevr) has quit (*.net *.split)
+2014-07-11 01:41:22	◣	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has quit (*.net *.split)
+2014-07-11 01:41:59	◣	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2014-07-11 01:42:00	◥	iceman__ (~iceman@41.225.127.230) has joined #qt
+2014-07-11 01:42:36	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-11 01:46:23	◣	_lore_ (~lorenzo@151.66.185.85) has quit (Ping timeout: 240 seconds)
+2014-07-11 01:48:00	◥	_lore_ (~lorenzo@151.66.185.85) has joined #qt
+2014-07-11 01:48:36	◥	Alina-malina (Alina-mali@37.252.89.15) has joined #qt
+2014-07-11 01:48:37	◣	Alina-malina (Alina-mali@37.252.89.15) has quit (Changing host)
+2014-07-11 01:48:37	◥	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined #qt
+2014-07-11 01:52:25	◥	dianull (~s8844@msh.pjwstk.edu.pl) has joined #qt
+2014-07-11 01:52:25	◥	kevr (~kevr@unaffiliated/kevr) has joined #qt
+2014-07-11 01:52:25	◥	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has joined #qt
+2014-07-11 01:53:25	◥	dr_lepper (~hades@amarok/developer/hades) has joined #qt
+2014-07-11 01:55:48	◥	Verge (~ccvxcv@dsl-hkibrasgw4-50df50-205.dhcp.inet.fi) has joined #qt
+2014-07-11 01:57:11	◥	geordi (~geordi@2a02:348:71:635b::1) has joined #qt
+2014-07-11 01:57:11	◥	rkreis_ (~robin@pD9EF03F2.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 02:00:33	◣	uykuy (~iuliu@109.102.68.93) has quit (Quit: Leaving.)
+2014-07-11 02:00:42	◣	rkreis (~robin@pD9EF1B2C.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2014-07-11 02:05:30	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:05:34	rghy	ÊÍÐíÑ
+2014-07-11 02:05:35	rghy	warning
+2014-07-11 02:05:35	rghy	 you may be  watched
+2014-07-11 02:05:35	rghy	do usa&israel use the internet(facebook,youtube,twitter, chat rooms ..ect)to spy??
+2014-07-11 02:05:35	rghy	do usa&israel use the internet 2 collect informations,,can we call that spying??
+2014-07-11 02:05:35	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:05:44	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:05:48	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:05:59	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:06:05	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:06:29	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:06:42	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:06:52	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:07:15	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:07:31	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:07:34	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 02:08:32	◥	rau (~rau@87.117.225.46) has joined #qt
+2014-07-11 02:08:39	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:08:44	◣	Alina-malina (Alina-mali@unaffiliated/alina-malina) has quit (Ping timeout: 255 seconds)
+2014-07-11 02:08:48	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:08:49	◥	kmcguire (~kmcguire@120-219.207-68.elmore.res.rr.com) has joined #qt
+2014-07-11 02:09:14	◣	rghy (~wegff7@197.123.121.57) has quit (Excess Flood)
+2014-07-11 02:09:24	◥	rghy (~wegff7@197.123.121.57) has joined #qt
+2014-07-11 02:10:59	◣	rau (~rau@87.117.225.46) has quit (Remote host closed the connection)
+2014-07-11 02:11:31	◣	rghy (~wegff7@197.123.121.57) has left #qt
+2014-07-11 02:12:25	◣	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has quit (Quit: Leaving)
+2014-07-11 02:12:41	◣	trig-ger (uid11664@gateway/web/irccloud.com/x-mjyovssqsmzojdqh) has quit (Quit: Connection closed for inactivity)
+2014-07-11 02:13:49	◣	Leoneof` (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 260 seconds)
+2014-07-11 02:14:36	◥	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has joined #qt
+2014-07-11 02:20:41	◥	uykuy (~iuliu@109.102.68.93) has joined #qt
+2014-07-11 02:21:14	◥	luc4 (~luca@host47-173-dynamic.7-79-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 02:24:06	◣	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has quit (Ping timeout: 244 seconds)
+2014-07-11 02:25:01	◣	uykuy (~iuliu@109.102.68.93) has quit (Ping timeout: 260 seconds)
+2014-07-11 02:32:17	◥	bitnumus_ (~bitnumus@2607:5300:60:3a2f::a76:dae0) has joined #qt
+2014-07-11 02:34:21	◣	larsivi (~quassel@nb41-46.static.cytanet.com.cy) has quit (Ping timeout: 260 seconds)
+2014-07-11 02:36:48	◣	iccanobif (iccanobif@host185-84-dynamic.60-82-r.retail.telecomitalia.it) has quit
+2014-07-11 02:37:38	◣	bitnumus_ (~bitnumus@2607:5300:60:3a2f::a76:dae0) has quit (Ping timeout: 240 seconds)
+2014-07-11 02:38:06	◣	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has quit (Ping timeout: 260 seconds)
+2014-07-11 02:40:51	◥	iccanobif (iccanobif@host185-84-dynamic.60-82-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 02:41:10	◥	cor3ntin (~coco@2a01:e35:2e93:6e00:6c7f:a5c5:d644:6599) has joined #qt
+2014-07-11 02:42:58	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Quit:  Try HydraIRC -> http://www.hydrairc.com <-)
+2014-07-11 02:44:20	◣	iccanobif (iccanobif@host185-84-dynamic.60-82-r.retail.telecomitalia.it) has quit (Client Quit)
+2014-07-11 02:48:17	◣	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has quit (Quit: Leaving.)
+2014-07-11 02:49:15	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-11 02:49:30	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-11 02:49:52	◣	blight (~greg@reactos/developer/blight) has quit (Quit: Konversation terminated!)
+2014-07-11 02:52:27	◣	iceman__ (~iceman@41.225.127.230) has quit (Ping timeout: 248 seconds)
+2014-07-11 02:54:45	◥	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has joined #qt
+2014-07-11 02:55:50	yates	i am trying to select a row in a class derived from QTableView as follows:
+2014-07-11 02:55:58	yates	  view->clearSelection();
+2014-07-11 02:56:02	yates	  view->selectRow(view->currentIndex().row());
+2014-07-11 02:56:33	yates	but i am finding that this will occasionally select a group of rows and not just a single row.
+2014-07-11 02:56:44	◥	faichele_ (~quassel@p4FCCF377.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 02:56:55	yates	how do i ensure only one row is selected?
+2014-07-11 02:59:39	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 03:00:15	◣	faichele (~quassel@p4FCCFE7B.dip0.t-ipconnect.de) has quit (Ping timeout: 272 seconds)
+2014-07-11 03:04:23	◣	trollixx (~trollixx@sf.wisetroll.net) has quit (Ping timeout: 244 seconds)
+2014-07-11 03:10:35	◣	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has quit (Ping timeout: 244 seconds)
+2014-07-11 03:10:48	◣	luc4 (~luca@host47-173-dynamic.7-79-r.retail.telecomitalia.it) has quit (Quit: luc4)
+2014-07-11 03:10:50	◣	marlo_ (~mark@pool-71-164-218-213.dllstx.fios.verizon.net) has quit (Quit: Ex-Chat)
+2014-07-11 03:10:58	◣	enkidu (~enkidu@enkidu.ds.pg.gda.pl) has quit (Quit: Lost terminal)
+2014-07-11 03:11:05	◥	Leoneof` (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 03:12:28	◥	larsivi (~quassel@nb41-54.static.cytanet.com.cy) has joined #qt
+2014-07-11 03:14:24	◥	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has joined #qt
+2014-07-11 03:15:53	◣	bkre__ (~bkre@ppp-93-104-156-202.dynamic.mnet-online.de) has quit (Ping timeout: 260 seconds)
+2014-07-11 03:18:41	◣	larsivi (~quassel@nb41-54.static.cytanet.com.cy) has quit (Ping timeout: 260 seconds)
+2014-07-11 03:19:25	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 03:19:58	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 03:22:21	◣	cobakobodob (~Nikolas@195.191.146.39) has quit (Ping timeout: 240 seconds)
+2014-07-11 03:27:45	◥	I`love`music (~abc@89-65-230-164.dynamic.chello.pl) has joined #qt
+2014-07-11 03:28:02	◥	rau (~rau@87.117.225.46) has joined #qt
+2014-07-11 03:29:46	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 03:30:32	◣	JoeBullet (~JoeBullet@93-141-46-242.adsl.net.t-com.hr) has quit (Ping timeout: 252 seconds)
+2014-07-11 03:30:38	◣	Astronaut (~Astronaut@197.15.17.149) has quit (Quit: Leaving)
+2014-07-11 03:31:26	◣	Elles (~abc@89-65-230-164.dynamic.chello.pl) has quit (Ping timeout: 264 seconds)
+2014-07-11 03:32:10	◣	vaiursch (~erwin@178-82-253-35.dynamic.hispeed.ch) has quit
+2014-07-11 03:34:11	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 03:37:16	◥	trollixx (~trollixx@sf.wisetroll.net) has joined #qt
+2014-07-11 03:40:51	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 240 seconds)
+2014-07-11 03:46:56	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 03:47:30	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 03:50:30	◥	cobakobodob (~Nikolas@195.191.146.39) has joined #qt
+2014-07-11 03:53:17	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 03:54:19	◣	HuntsMan (~hunts@koln-4d0b659d.pool.mediaWays.net) has quit (Quit: Konversation terminated!)
+2014-07-11 03:55:21	◣	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has quit (Ping timeout: 240 seconds)
+2014-07-11 03:56:36	◥	zoraj (~zoraj@197.224.143.231) has joined #qt
+2014-07-11 03:56:51	◣	xaaam (~x@unaffiliated/xaaam) has quit (Ping timeout: 240 seconds)
+2014-07-11 03:57:09	◥	xaaam (x@c-71-202-63-208.hsd1.ca.comcast.net) has joined #qt
+2014-07-11 03:57:10	◣	xaaam (x@c-71-202-63-208.hsd1.ca.comcast.net) has quit (Changing host)
+2014-07-11 03:57:10	◥	xaaam (x@unaffiliated/xaaam) has joined #qt
+2014-07-11 03:58:18	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 03:59:39	◣	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 248 seconds)
+2014-07-11 04:03:47	yates	i am trying to select just one row in a class derived from QTableView as follows:
+2014-07-11 04:03:51	yates	  view->clearSelection();
+2014-07-11 04:03:54	yates	  view->selectRow(view->currentIndex().row());
+2014-07-11 04:03:57	yates	but i am finding that this will occasionally select a group of rows and not just a single row.
+2014-07-11 04:03:57	rau	yates: Please stop abusing your return key, you abhorrent wanker.
+2014-07-11 04:04:28	yates	rau: it's Alt+P under irc/emacs, wankee
+2014-07-11 04:05:09	◥	PovAddictW (~Nicolas@kde/developer/nalvarez) has joined #qt
+2014-07-11 04:06:08	◥	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has joined #qt
+2014-07-11 04:06:28	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 04:06:56	yates	and i hardly call repeating a question after an hour abuse
+2014-07-11 04:07:25	◣	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has quit (Remote host closed the connection)
+2014-07-11 04:10:57	◣	cobakobodob (~Nikolas@195.191.146.39) has quit (Ping timeout: 260 seconds)
+2014-07-11 04:13:22	◥	bulo (~bulothebe@ip174-70-117-144.no.no.cox.net) has joined #qt
+2014-07-11 04:14:04	bulo	Is having a layout enclosing your widgets neccesary if you have a scrollArea widget as its parent?
+2014-07-11 04:14:23	◣	mETz (~DermETz@2a02:2028:ff:0:e04f:95d9:c516:8bf4) has quit (Ping timeout: 240 seconds)
+2014-07-11 04:14:36	◣	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has quit (Quit: This computer has gone to sleep)
+2014-07-11 04:16:53	SKiTZO	I play back a wav file from resource using the following code: http://pastebin.com/cHCtH2ts
+2014-07-11 04:16:55	SKiTZO	The sound plays but there is "click" at the start and the following is printed every time it is called "Got a buffer underflow!"
+2014-07-11 04:17:02	SKiTZO	Any idea why?
+2014-07-11 04:19:23	bulo	buffer underflow
+2014-07-11 04:19:29	bulo	Well I am new Qt
+2014-07-11 04:20:07	bulo	but say your wav file size is 100 bytes, so you allocate 100 byte buffer to hold the bytes as it read to play
+2014-07-11 04:20:14	◥	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 04:20:18	bulo	well that buffer never reaches 100 bytes
+2014-07-11 04:20:27	◣	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has quit (Read error: Connection reset by peer)
+2014-07-11 04:20:28	◥	mETz (~DermETz@2a02:2028:ff:0:cd9b:5fc5:4042:38ea) has joined #qt
+2014-07-11 04:20:51	bulo	underflows also mean as far as I know from microcontroller aspect that the buffer was cleared out for some reason but the operation completed
+2014-07-11 04:20:58	bulo	but you said the sound plays
+2014-07-11 04:21:01	◥	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has joined #qt
+2014-07-11 04:21:06	SKiTZO	bulo: I am simply relying on qt's mechanisms for streaming here, so I have no control over this
+2014-07-11 04:21:13	bulo	Take my input with a grain of salt I am amateur
+2014-07-11 04:21:16	bulo	hm
+2014-07-11 04:22:11	PovAddictW	damn qt4 takes a long time to build
+2014-07-11 04:22:17	bulo	Have you tried stepping through with a debugger to see where the underflow occurs?
+2014-07-11 04:22:19	SKiTZO	*salt grain applied*
+2014-07-11 04:22:36	SKiTZO	bulo: good idea
+2014-07-11 04:22:49	SKiTZO	I never think of stepping throuhg libraries
+2014-07-11 04:23:08	bulo	could be worth a shot
+2014-07-11 04:23:48	bulo	From browsing your paste, I'd have to have the underflow occurs probalby with the file object or the QAudioFormat
+2014-07-11 04:24:09	bulo	but stepping through with the debugger will def. help if you can narrow down the object causing the underflow
+2014-07-11 04:24:47	bulo	Maybe with the sample rate?
+2014-07-11 04:24:51	SKiTZO	Its really anoying, it just prints this message with no other information
+2014-07-11 04:25:08	◥	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has joined #qt
+2014-07-11 04:25:12	bulo	Buffer underflow are described on wiki as the information is fed in at a rate slower than be read
+2014-07-11 04:25:21	SKiTZO	and I am unable to step because audio playback is asynch and probably happens in another thread
+2014-07-11 04:25:33	bulo	so at some point the object you are using hits an empty buffer
+2014-07-11 04:25:37	SKiTZO	Well I know what buffer underruns are
+2014-07-11 04:25:41	bulo	try lowering the sample rate maybe
+2014-07-11 04:25:50	SKiTZO	its more how did I cause it with my code
+2014-07-11 04:26:00	yates	SKiTZO: you might try increasing the size of your buffer
+2014-07-11 04:26:23	◣	mannerov (~davy@sas.eleves.ens.fr) has quit (Ping timeout: 240 seconds)
+2014-07-11 04:26:25	yates	that will give your application longer to average out the transfer of data
+2014-07-11 04:26:30	SKiTZO	maybe my data has to be divisible by buffer size
+2014-07-11 04:26:32	bulo	^this
+2014-07-11 04:26:43	bulo	just a shot in the dark
+2014-07-11 04:26:43	PovAddictW	yates: what buffer? where do you see a buffer size in his code?
+2014-07-11 04:26:43	◣	faichele_ (~quassel@p4FCCF377.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2014-07-11 04:26:47	bulo	lower the sample rate and see
+2014-07-11 04:27:01	bulo	Yeah the buffer is in one of the Qt classes
+2014-07-11 04:27:11	yates	i presume he's using the QAudioOutput class.
+2014-07-11 04:27:30	bulo	That
+2014-07-11 04:27:34	bulo	and QAudioFormat
+2014-07-11 04:28:09	yates	PovAddictW: i presume he's using the QAudioOutput class.
+2014-07-11 04:28:23	bulo	The only thing I could think of is that the audio player is sampling way to fast for what the wav file can be really sampled
+2014-07-11 04:28:31	yates	which get's created, i think, with some default buffer size.
+2014-07-11 04:29:15	◥	Guest84310 (~sam@95.59.2.93.rev.sfr.net) has joined #qt
+2014-07-11 04:29:20	yates	he could then use QAudioOutput::setBufferSize() to increase the size.
+2014-07-11 04:29:32	bulo	^^
+2014-07-11 04:29:36	bulo	Awesome
+2014-07-11 04:29:46	bulo	Try that SKiTZO
+2014-07-11 04:30:20	PovAddictW	looking at the QAudioOutput docs now
+2014-07-11 04:30:26	PovAddictW	you're supposed to feed raw data into it
+2014-07-11 04:30:35	PovAddictW	the click you hear is the .wav file header being played as audio
+2014-07-11 04:30:49	PovAddictW	QAudioOutput doesn't parse the header of any audio file format
+2014-07-11 04:30:57	SKiTZO	I am :)
+2014-07-11 04:31:17	SKiTZO	i tried passing unbuffered to QFile. that did not make any difference(and would probably not be ogod anyways)
+2014-07-11 04:31:37	SKiTZO	PovAddictW, ah ofc
+2014-07-11 04:31:39	◣	Leoneof` (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 248 seconds)
+2014-07-11 04:33:31	PovAddictW	are you using qt4 or qt5?
+2014-07-11 04:34:52	SKiTZO	qt5.2.1 atm. OK i set buffer size to 1024x1024 and now the buffer error print is gone but the sound does not play, i only hear faint ticks at sound start
+2014-07-11 04:35:04	PovAddictW	you should consider using QMediaPlayer
+2014-07-11 04:35:18	yates	SKiTZO: start() takes a QIODevice as an argument, not a QFile.
+2014-07-11 04:35:30	PovAddictW	erm, a QFile is a QIODevice, isn't it?
+2014-07-11 04:35:43	SKiTZO	It sounds a bit strange that qt5 does not make it easy to play back media (pun intended)
+2014-07-11 04:35:46	PovAddictW	SKiTZO: QMediaPlayer is higher level and does actual decoding of the file format, it even supports mp3 and such
+2014-07-11 04:36:05	PovAddictW	https://qt-project.org/doc/qt-5/qmediaplayer.html
+2014-07-11 04:36:44	SKiTZO	yes, I can't remember now but there was a reason I ditched that. I think it was because it did not support wav files on my old computer
+2014-07-11 04:37:01	SKiTZO	ironically it supported all sorts of other formats
+2014-07-11 04:37:22	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Remote host closed the connection)
+2014-07-11 04:37:27	PovAddictW	what you're using now doesn't really "support wav files" either, it just happens to work for uncompressed wavs if you set the QAudioFormat right :D
+2014-07-11 04:37:29	SKiTZO	I have more control over my qt build now so maybe it is better to go with that option now
+2014-07-11 04:38:07	◥	mannerov (~davy@sas.eleves.ens.fr) has joined #qt
+2014-07-11 04:38:38	yates	PovAddictW: yeah, i guess it is a derived class.
+2014-07-11 04:38:56	◥	cobakobodob (~Nikolas@195.191.146.39) has joined #qt
+2014-07-11 04:39:08	PovAddictW	qt4 build failed on a very long qtwebkit path :( starting over
+2014-07-11 04:39:28	yates	PovAddictW: yeah, he's just playing the whole file, including the header chunks. amazing it plays at all.
+2014-07-11 04:39:53	yates	(i didn't see his code until a couple minutes ago...)
+2014-07-11 04:42:22	bulo	is possible to add grid layout of widgets to a scrollarea object
+2014-07-11 04:42:24	yates	SKiTZO: there's an audio playback example in the 5.x examples
+2014-07-11 04:42:37	bulo	I just like the way the grid formats my other neatly
+2014-07-11 04:44:06	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 244 seconds)
+2014-07-11 04:45:10	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 04:45:15	⚡	yates facepalms
+2014-07-11 04:45:38	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 04:45:44	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 04:45:52	SKiTZO	OK i gave it a shot: http://pastebin.com/NrmYQkKr
+2014-07-11 04:46:14	SKiTZO	Now it complains that gstreamer cant find the file I am trying to play(not really strange since it is a resource)
+2014-07-11 04:46:30	◥	rainbyte (~rainbyte@190.191.175.107) has joined #qt
+2014-07-11 04:46:46	◥	hardaker (~hardaker@mail.hardakers.net) has joined #qt
+2014-07-11 04:47:25	SKiTZO	Maybe that was the reason
+2014-07-11 04:47:33	◣	m9h (~Miranda@5.100.87.91) has quit (Quit: m9h)
+2014-07-11 04:48:09	◣	crimsondusk (~crimson@unaffiliated/arezey) has quit (Quit: KVIrc 4.3.1 Aria http://www.kvirc.net/)
+2014-07-11 04:49:55	yates	SKiTZO: are you just trying to play linear PCM .wav files?
+2014-07-11 04:50:35	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-11 04:51:00	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 04:51:10	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-11 04:51:34	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 04:51:34	yates	SKiTZO: use QSound.
+2014-07-11 04:51:37	yates	two lines:
+2014-07-11 04:51:52	yates	QSound bells("mysounds/bells.wav");
+2014-07-11 04:51:53	yates	bells.play();
+2014-07-11 04:51:54	rau	yates: Please stop abusing your return key, you gutless failure.
+2014-07-11 04:52:18	yates	rau: shut up and go snuggle with your mother.
+2014-07-11 04:52:48	◣	athairus_ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has quit (Remote host closed the connection)
+2014-07-11 04:52:56	yates	oh, it's a bot?
+2014-07-11 04:53:14	⚡	yates facepalms
+2014-07-11 04:53:20	◥	athairus_ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has joined #qt
+2014-07-11 04:53:25	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 244 seconds)
+2014-07-11 04:53:38	◣	xkrys (~xkrys@ip-43.net-82-216-127.rev.numericable.fr) has quit (Ping timeout: 264 seconds)
+2014-07-11 04:54:50	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Client Quit)
+2014-07-11 04:55:21	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 04:55:23	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 04:55:47	SKiTZO	yates: QSound does not support resources either. But I solved it like this: http://pastebin.com/crDbxc0y
+2014-07-11 04:55:55	SKiTZO	works like a charm :)
+2014-07-11 04:56:16	yates	resources?
+2014-07-11 04:56:40	yates	you mean you want to embed the wav file into your app?
+2014-07-11 04:57:18	◥	marlo_ (~mark@pool-71-164-218-213.dllstx.fios.verizon.net) has joined #qt
+2014-07-11 04:57:25	yates	i wonder what would happen if you gave it the ":/audio/thewavefilename.wav" like you did there.
+2014-07-11 04:57:41	◥	xkrys (~xkrys@ip-43.net-82-216-127.rev.numericable.fr) has joined #qt
+2014-07-11 05:00:09	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Client Quit)
+2014-07-11 05:02:40	◥	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 05:03:06	◣	FreezingCold (~FreezingC@135.0.41.14) has quit (Ping timeout: 272 seconds)
+2014-07-11 05:03:50	◣	springermac (~quassel@74-44-224-94.dr01.bzwd.pa.frontiernet.net) has quit (Ping timeout: 264 seconds)
+2014-07-11 05:05:50	◥	springermac (~quassel@50.122.97.208) has joined #qt
+2014-07-11 05:07:40	◣	kevr (~kevr@unaffiliated/kevr) has left #qt ("WeeChat 1.0-dev")
+2014-07-11 05:08:34	SKiTZO	yates: yes. I trired that first of course. Gstreamer complained that it could not find the url (which makes sense)
+2014-07-11 05:08:59	SKiTZO	Our app is deployed as a single binary
+2014-07-11 05:09:16	SKiTZO	so everything is tucked in
+2014-07-11 05:09:24	◣	demm (~quassel@h74.9.186.173.ip.windstream.net) has quit (Remote host closed the connection)
+2014-07-11 05:09:45	◣	roric (~roric@c-107ae455.213-3-64736c14.cust.bredbandsbolaget.se) has quit (Ping timeout: 260 seconds)
+2014-07-11 05:14:20	yates	i see. good.
+2014-07-11 05:14:52	◣	mac_ified (~mac_ified@68.200.194.69) has quit (Remote host closed the connection)
+2014-07-11 05:15:24	yates	what's the difference between setValue() and setSliderPositio() in the QScrollBar class?
+2014-07-11 05:15:29	◣	cobakobodob (~Nikolas@195.191.146.39) has quit (Ping timeout: 255 seconds)
+2014-07-11 05:15:58	yates	setSliderPosition()
+2014-07-11 05:18:04	◥	FreezingCold (~FreezingC@135.0.41.14) has joined #qt
+2014-07-11 05:18:12	◣	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has quit (Quit: This computer has gone to sleep)
+2014-07-11 05:19:22	◣	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has quit (Ping timeout: 246 seconds)
+2014-07-11 05:20:30	◥	sh4wn (~sh4wn@2a02:2308::216:3eff:fe33:c370) has joined #qt
+2014-07-11 05:26:02	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 248 seconds)
+2014-07-11 05:27:10	◣	florek (~quassel@coj216.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 272 seconds)
+2014-07-11 05:27:38	◣	the_cybersphinx (~x@HSI-KBW-078-043-025-206.hsi4.kabel-badenwuerttemberg.de) has quit (Ping timeout: 248 seconds)
+2014-07-11 05:27:45	◣	bulo (~bulothebe@ip174-70-117-144.no.no.cox.net) has quit (Quit: Leaving)
+2014-07-11 05:27:55	◥	vinny (~vinny@c-68-60-94-197.hsd1.mi.comcast.net) has joined #qt
+2014-07-11 05:28:28	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-11 05:30:47	◣	mannerov (~davy@sas.eleves.ens.fr) has quit (Ping timeout: 255 seconds)
+2014-07-11 05:31:07	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 05:34:09	◣	vinny (~vinny@c-68-60-94-197.hsd1.mi.comcast.net) has left #qt ("Leaving")
+2014-07-11 05:34:49	◥	vipz (~vinny@c-68-60-94-197.hsd1.mi.comcast.net) has joined #qt
+2014-07-11 05:35:15	◥	mannerov (~davy@sas.eleves.ens.fr) has joined #qt
+2014-07-11 05:35:50	◣	yates (~user@nc-67-232-27-161.dhcp.embarqhsd.net) has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2014-07-11 05:38:11	◣	Snake2k (~snake2k@ip68-100-207-22.dc.dc.cox.net) has quit (Quit: Lost terminal)
+2014-07-11 05:40:50	◣	zoraj (~zoraj@197.224.143.231) has quit (Ping timeout: 240 seconds)
+2014-07-11 05:41:27	◥	Zagge (~quassel@calcifer.xs4all.nl) has joined #qt
+2014-07-11 05:43:20	◥	cobakobodob (~Nikolas@195.191.146.39) has joined #qt
+2014-07-11 05:43:31	◥	m9h (~Miranda@5.100.87.91) has joined #qt
+2014-07-11 05:43:37	◥	zoraj (~zoraj@197.224.143.231) has joined #qt
+2014-07-11 05:44:19	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 05:45:51	◥	mac_ified (~mac_ified@68.200.194.69) has joined #qt
+2014-07-11 05:48:26	◥	bulo (~bulothebe@ip174-70-117-144.no.no.cox.net) has joined #qt
+2014-07-11 05:48:37	◥	black_13 (ae7e3bff@gateway/web/freenode/ip.174.126.59.255) has joined #qt
+2014-07-11 05:48:44	bulo	whats the difference between using a list view and a list widget?
+2014-07-11 05:49:33	black_13	can you mix a qt function with with a javascript function
+2014-07-11 05:50:20	◣	mac_ified (~mac_ified@68.200.194.69) has quit (Ping timeout: 240 seconds)
+2014-07-11 05:50:36	bulo	there probalby some parser
+2014-07-11 05:50:55	bulo	I'm new to Qt so I don't know off the top
+2014-07-11 05:53:36	◣	Afrix (~Afrix4@2.26.63.139) has quit (Quit: Leaving)
+2014-07-11 05:55:09	◥	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has joined #qt
+2014-07-11 05:56:24	◣	RushPL (~quassel@dragon.rushbase.net) has quit (Ping timeout: 260 seconds)
+2014-07-11 05:57:58	◥	basic6 (~basic6@p4FCB54CE.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 05:57:59	◥	RushPL (~quassel@dragon.rushbase.net) has joined #qt
+2014-07-11 05:58:02	◣	basic6_ (~basic6@p4FCB7431.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2014-07-11 05:58:55	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 05:59:37	◣	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has quit (Ping timeout: 264 seconds)
+2014-07-11 06:00:41	◣	bulo (~bulothebe@ip174-70-117-144.no.no.cox.net) has quit (Quit: Leaving)
+2014-07-11 06:01:02	◥	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has joined #qt
+2014-07-11 06:06:20	◣	awakecoding (~awakecodi@205.196.222.99) has quit (Ping timeout: 240 seconds)
+2014-07-11 06:06:46	◣	zoraj (~zoraj@197.224.143.231) has quit (Ping timeout: 244 seconds)
+2014-07-11 06:09:58	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 06:13:40	◣	ferdna (~ferdna@cpe-69-23-141-88.elp.res.rr.com) has quit (Quit: Leaving)
+2014-07-11 06:14:02	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 272 seconds)
+2014-07-11 06:19:53	◥	awakecoding (~awakecodi@205.196.222.99) has joined #qt
+2014-07-11 06:21:18	◣	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has quit (Read error: Connection reset by peer)
+2014-07-11 06:22:02	◥	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has joined #qt
+2014-07-11 06:22:12	◥	positron3 (~positron@101.222.252.157) has joined #qt
+2014-07-11 06:22:18	◣	positron3 (~positron@101.222.252.157) has left #qt
+2014-07-11 06:22:54	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-11 06:23:22	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 06:23:22	◥	__positron (~positron@101.222.252.157) has joined #qt
+2014-07-11 06:27:37	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2014-07-11 06:31:24	◥	lbf (~wyk3d_2@193.226.5.106) has joined #qt
+2014-07-11 06:32:50	◣	lbf1 (~wyk3d_2@193.226.5.106) has quit (Remote host closed the connection)
+2014-07-11 06:36:12	◥	TheHackOps (~thehackop@203-158-38-11.dyn.iinet.net.au) has joined #qt
+2014-07-11 06:36:23	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 06:37:13	◥	trig-ger (uid11664@gateway/web/irccloud.com/x-evmeejouwmywfzfh) has joined #qt
+2014-07-11 06:39:12	◣	zenojis (~quassel@2604:3400:dc1:45:216:3eff:fe76:3263) has quit (Ping timeout: 240 seconds)
+2014-07-11 06:39:54	◥	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has joined #qt
+2014-07-11 06:42:07	◥	pdz- (~paul@c-67-169-80-116.hsd1.ca.comcast.net) has joined #qt
+2014-07-11 06:43:32	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 06:47:30	◥	Snake_Ma1 (snakeman@alpha.phnet.fi) has joined #qt
+2014-07-11 06:47:44	◥	seezer_ (quassel@quassel/developer/seezer) has joined #qt
+2014-07-11 06:47:50	◣	toothrot (~mux@unaffiliated/toothrot) has quit (Ping timeout: 240 seconds)
+2014-07-11 06:48:08	◥	kmcguire_ (~kmcguire@120-219.207-68.elmore.res.rr.com) has joined #qt
+2014-07-11 06:48:14	◥	jcallen_ (~quassel@gentoo/developer/jcallen) has joined #qt
+2014-07-11 06:48:19	◣	seezer (quassel@quassel/developer/seezer) has quit (Excess Flood)
+2014-07-11 06:48:19	◣	cvandonderen (~quassel@quassel.d.skunk-works.no) has quit (Excess Flood)
+2014-07-11 06:48:19	◣	jcallen (~quassel@gentoo/developer/jcallen) has quit (Excess Flood)
+2014-07-11 06:49:13	◣	Snake_Man (snakeman@alpha.phnet.fi) has quit (Write error: Broken pipe)
+2014-07-11 06:49:13	◣	kmcguire (~kmcguire@120-219.207-68.elmore.res.rr.com) has quit (Write error: Broken pipe)
+2014-07-11 06:49:31	ℹ 	kmcguire_ is now known as kmcguire
+2014-07-11 06:50:33	◥	mac_ified (~mac_ified@68.200.194.69) has joined #qt
+2014-07-11 06:51:12	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 06:52:58	◣	el-cuco (~elcuco@bzq-79-181-17-228.red.bezeqint.net) has quit (Ping timeout: 248 seconds)
+2014-07-11 06:55:12	◣	mac_ified (~mac_ified@68.200.194.69) has quit (Ping timeout: 260 seconds)
+2014-07-11 06:55:37	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 06:55:40	◣	SKiTZO (~lennart@ti0003a400-2283.bb.online.no) has quit (Excess Flood)
+2014-07-11 06:57:58	◣	pdz (~paul@c-67-169-80-116.hsd1.ca.comcast.net) has quit (Ping timeout: 877 seconds)
+2014-07-11 06:58:19	◣	Lunatrius (~Lunatrius@77.38.103.182) has quit (Ping timeout: 877 seconds)
+2014-07-11 06:58:19	◣	nurupo (~nurupo.ga@unaffiliated/nurupo) has quit (Ping timeout: 877 seconds)
+2014-07-11 06:58:19	◣	smokex (smokex@gateway/shell/panicbnc/x-rfsdlogejwkcwvnm) has quit (Ping timeout: 877 seconds)
+2014-07-11 06:58:27	◣	Betal (~Beta@unaffiliated/betal) has quit (Excess Flood)
+2014-07-11 06:58:49	◥	smokex (smokex@gateway/shell/panicbnc/x-ckwfgveacdbeuiop) has joined #qt
+2014-07-11 06:58:52	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Client Quit)
+2014-07-11 06:59:10	◥	Betal (~Beta@unaffiliated/betal) has joined #qt
+2014-07-11 06:59:41	◥	Kilobyte|StupidC (~kilobyte@5.231.51.78) has joined #qt
+2014-07-11 06:59:52	◥	maour (~maour@unaffiliated/maour) has joined #qt
+2014-07-11 06:59:59	◥	jackyalcine (~znc@unaffiliated/webjadmin) has joined #qt
+2014-07-11 07:00:05	◥	SKiTZO (~lennart@ti0003a400-2283.bb.online.no) has joined #qt
+2014-07-11 07:00:09	◥	ravon2 (~ravon@h172n1-hud-a12.ias.bredband.telia.com) has joined #qt
+2014-07-11 07:00:14	◥	rolandb_ (~rolandb@ec2-54-241-140-48.us-west-1.compute.amazonaws.com) has joined #qt
+2014-07-11 07:00:22	◣	cytrinox (~cyx@mail.informave.org) has quit (Ping timeout: 240 seconds)
+2014-07-11 07:00:29	◥	zoraj (~zoraj@197.224.143.231) has joined #qt
+2014-07-11 07:00:40	◣	ravon (~ravon@h172n1-hud-a12.ias.bredband.telia.com) has quit (Ping timeout: 276 seconds)
+2014-07-11 07:00:41	◣	Kilo`byte (~kilobyte@5.231.51.78) has quit (Ping timeout: 276 seconds)
+2014-07-11 07:00:41	◣	jacky (~znc@unaffiliated/webjadmin) has quit (Ping timeout: 276 seconds)
+2014-07-11 07:00:41	◣	rolandb (~rolandb@ec2-54-241-140-48.us-west-1.compute.amazonaws.com) has quit (Ping timeout: 276 seconds)
+2014-07-11 07:00:41	ℹ 	ravon2 is now known as ravon
+2014-07-11 07:00:41	ℹ 	rolandb_ is now known as rolandb
+2014-07-11 07:00:54	◥	packo (~quassel@223.176.1.235) has joined #qt
+2014-07-11 07:00:54	◥	nurupo (~nurupo.ga@unaffiliated/nurupo) has joined #qt
+2014-07-11 07:01:01	◥	Lunatrius (~Lunatrius@77.38.103.182) has joined #qt
+2014-07-11 07:01:57	◥	cvandonderen (~quassel@quassel.d.skunk-works.no) has joined #qt
+2014-07-11 07:02:07	◣	jaafar (~quassel@adsl-76-234-120-223.dsl.pltn13.sbcglobal.net) has quit (Remote host closed the connection)
+2014-07-11 07:02:24	◥	knightr (~Nicolas@69-165-170-178.dsl.teksavvy.com) has joined #qt
+2014-07-11 07:02:24	◣	knightr (~Nicolas@69-165-170-178.dsl.teksavvy.com) has quit (Changing host)
+2014-07-11 07:02:24	◥	knightr (~Nicolas@mythtv/developer/knightr) has joined #qt
+2014-07-11 07:06:15	◣	black_13 (ae7e3bff@gateway/web/freenode/ip.174.126.59.255) has quit (Quit: Page closed)
+2014-07-11 07:11:48	◥	cytrinox (~cyx@mail.informave.org) has joined #qt
+2014-07-11 07:12:18	◣	SlashLife (~slashlife@botters/slashlife) has quit (Ping timeout: 272 seconds)
+2014-07-11 07:14:00	◥	iksf (~iksf___@host81-151-32-203.range81-151.btcentralplus.com) has joined #qt
+2014-07-11 07:17:48	◥	athairus__ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has joined #qt
+2014-07-11 07:18:00	◣	kuldeepdhaka (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 272 seconds)
+2014-07-11 07:18:27	◥	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 07:19:29	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 07:21:13	◣	zoraj (~zoraj@197.224.143.231) has quit (Ping timeout: 264 seconds)
+2014-07-11 07:21:20	◣	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 260 seconds)
+2014-07-11 07:21:46	◣	athairus_ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has quit (Ping timeout: 248 seconds)
+2014-07-11 07:23:21	◣	athairus__ (~athairus@c-68-50-239-45.hsd1.md.comcast.net) has quit (Quit: Lingo - http://www.lingoirc.com)
+2014-07-11 07:25:29	◥	_kdepepo (~pepo@p57A411F5.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 07:26:01	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 264 seconds)
+2014-07-11 07:27:53	◣	wickwire (~wickwire@a95-95-213-159.cpe.netcabo.pt) has quit (Ping timeout: 244 seconds)
+2014-07-11 07:28:18	◥	wickwire (~wickwire@a95-95-213-159.cpe.netcabo.pt) has joined #qt
+2014-07-11 07:28:40	◣	kde__pepo (~pepo@p57A40B3E.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-07-11 07:34:00	◣	csslayer (~quassel@2602:ffda:aaa::c5d0:d1c3) has quit (Ping timeout: 240 seconds)
+2014-07-11 07:34:04	◣	hardaker (~hardaker@mail.hardakers.net) has quit (Ping timeout: 255 seconds)
+2014-07-11 07:36:53	◥	Bigpet2 (~bigpet@p5B162BA5.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 07:40:29	◣	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has quit (Read error: Connection reset by peer)
+2014-07-11 07:40:29	◣	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has quit (Remote host closed the connection)
+2014-07-11 07:40:34	◥	bugzee (~bugzee@75-106-22-229.cust.wildblue.net) has joined #qt
+2014-07-11 07:40:40	◥	zoraj (~zoraj@197.224.143.231) has joined #qt
+2014-07-11 07:43:29	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 07:45:32	◣	zoraj (~zoraj@197.224.143.231) has quit (Remote host closed the connection)
+2014-07-11 07:46:47	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-11 07:49:44	ℹ 	JakeSays is now known as AnswerMan
+2014-07-11 07:50:20	ℹ 	AnswerMan is now known as JakeSays
+2014-07-11 07:53:25	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 252 seconds)
+2014-07-11 07:53:52	◥	lifelike (~lifelike@108.162.146.37) has joined #qt
+2014-07-11 07:55:05	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 07:56:20	◣	Guest84310 (~sam@95.59.2.93.rev.sfr.net) has quit (Quit:  HydraIRC -> http://www.hydrairc.com <- It'll be on slashdot one day...)
+2014-07-11 07:57:54	◣	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has quit (Quit: This computer has gone to sleep)
+2014-07-11 07:58:51	◥	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 07:59:08	◥	SlashLife (~slashlife@botters/slashlife) has joined #qt
+2014-07-11 07:59:38	◥	ferdna (~ferdna@cpe-69-23-141-88.elp.res.rr.com) has joined #qt
+2014-07-11 07:59:48	◣	__positron (~positron@101.222.252.157) has quit (Ping timeout: 272 seconds)
+2014-07-11 07:59:53	◥	mac_ified (~mac_ified@68.200.194.69) has joined #qt
+2014-07-11 08:00:27	◥	gms (~gmsolutio@CPE-121-217-7-191.lnse1.cht.bigpond.net.au) has joined #qt
+2014-07-11 08:03:57	◥	zhxt_lp (~zhxt@124.202.190.112) has joined #qt
+2014-07-11 08:07:05	◣	mac_ified (~mac_ified@68.200.194.69) has quit (Ping timeout: 272 seconds)
+2014-07-11 08:07:05	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-11 08:09:34	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 08:11:36	◥	maour_ (~maour@unaffiliated/maour) has joined #qt
+2014-07-11 08:15:58	◣	maour (~maour@unaffiliated/maour) has quit (Ping timeout: 252 seconds)
+2014-07-11 08:17:32	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 248 seconds)
+2014-07-11 08:18:19	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 08:20:09	◥	TheHackOps2 (~thehackop@202-161-26-19.dyn.iinet.net.au) has joined #qt
+2014-07-11 08:20:55	◣	TheHackOps (~thehackop@203-158-38-11.dyn.iinet.net.au) has quit (Ping timeout: 252 seconds)
+2014-07-11 08:21:44	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-11 08:21:56	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Remote host closed the connection)
+2014-07-11 08:23:28	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 08:23:29	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-11 08:25:26	◣	iksf (~iksf___@host81-151-32-203.range81-151.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2014-07-11 08:27:50	◥	zenojis (~quassel@2604:3400:dc1:45:216:3eff:fe76:3263) has joined #qt
+2014-07-11 08:33:25	◥	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-11 08:39:49	◣	hz (~hz@unaffiliated/hz) has quit
+2014-07-11 08:42:08	◥	iksaif (~iksaif@gentoo/developer/iksaif) has joined #qt
+2014-07-11 08:43:06	◥	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has joined #qt
+2014-07-11 08:45:09	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 08:45:54	◣	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 244 seconds)
+2014-07-11 08:46:17	◥	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2014-07-11 08:50:00	◥	pld (~pld@unaffiliated/pld) has joined #qt
+2014-07-11 08:50:16	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 08:50:28	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 272 seconds)
+2014-07-11 08:52:09	◥	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined #qt
+2014-07-11 08:54:10	◥	jhunold (~hunold@p4FC4BF4F.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 08:54:11	◥	jluc (~jluc@ADijon-651-1-141-121.w90-13.abo.wanadoo.fr) has joined #qt
+2014-07-11 08:56:19	◥	Nohus (~nohus@093105169009.bielskobiala.vectranet.pl) has joined #qt
+2014-07-11 08:58:42	◣	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has quit (Ping timeout: 272 seconds)
+2014-07-11 09:00:20	◥	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 09:00:38	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 272 seconds)
+2014-07-11 09:01:35	◥	uykuy (~iuliu@109.102.68.93) has joined #qt
+2014-07-11 09:04:02	◥	larsivi (~quassel@nb41-50.static.cytanet.com.cy) has joined #qt
+2014-07-11 09:04:58	◥	rendar (~I@host61-177-dynamic.251-95-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 09:05:54	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-11 09:06:20	◣	Alina-malina (Alina-mali@unaffiliated/alina-malina) has quit (Read error: Connection reset by peer)
+2014-07-11 09:07:16	◥	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined #qt
+2014-07-11 09:07:37	◣	Thorn (~thorn@unaffiliated/thorn) has quit (Read error: Connection reset by peer)
+2014-07-11 09:08:12	◣	edulix (~quassel@ks27172.kimsufi.com) has quit (Ping timeout: 272 seconds)
+2014-07-11 09:08:13	◣	jhunold (~hunold@p4FC4BF4F.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2014-07-11 09:09:14	◥	edulix (~quassel@ks27172.kimsufi.com) has joined #qt
+2014-07-11 09:12:38	◣	thiago (~thiago@kde/thiago) has quit (Ping timeout: 272 seconds)
+2014-07-11 09:14:22	◣	relipse (uid16131@gateway/web/irccloud.com/x-lcrivjhylhvulbhw) has quit (Quit: Connection closed for inactivity)
+2014-07-11 09:16:26	◣	packo (~quassel@223.176.1.235) has quit (Ping timeout: 264 seconds)
+2014-07-11 09:16:35	◥	Malsasa (~Malsasa@36.73.241.222) has joined #qt
+2014-07-11 09:17:08	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 09:17:51	◣	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has quit (Quit: This computer has gone to sleep)
+2014-07-11 09:18:09	◣	jluc (~jluc@ADijon-651-1-141-121.w90-13.abo.wanadoo.fr) has quit
+2014-07-11 09:19:42	◥	jluc (~jluc@ADijon-651-1-141-121.w90-13.abo.wanadoo.fr) has joined #qt
+2014-07-11 09:21:17	◣	lucha (~lucha@217.217.202.248.dyn.user.ono.com) has quit
+2014-07-11 09:22:40	◣	Betal (~Beta@unaffiliated/betal) has quit (Remote host closed the connection)
+2014-07-11 09:23:00	◣	shackra (~shackra@186.32.192.115) has quit (Remote host closed the connection)
+2014-07-11 09:24:35	◥	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has joined #qt
+2014-07-11 09:25:50	◥	lykurg (~Thunderbi@2001:a60:1825:9801:1c6b:9698:3f1a:b871) has joined #qt
+2014-07-11 09:25:58	◣	lpotter (~quassel@CPE-58-174-54-44.mjcz1.woo.bigpond.net.au) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 09:26:01	◣	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 264 seconds)
+2014-07-11 09:26:01	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-11 09:26:48	◣	robink (~quassel@unaffilated/robink) has quit (Ping timeout: 240 seconds)
+2014-07-11 09:29:22	◥	robink (~quassel@unaffilated/robink) has joined #qt
+2014-07-11 09:29:31	◥	labsin (~labsin@91.176.230.175) has joined #qt
+2014-07-11 09:30:25	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-11 09:34:13	◥	blight (~greg@reactos/developer/blight) has joined #qt
+2014-07-11 09:36:50	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-11 09:41:48	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-11 09:43:46	◣	larsivi (~quassel@nb41-50.static.cytanet.com.cy) has quit (Ping timeout: 255 seconds)
+2014-07-11 09:44:52	◥	anaselli (~quassel@mandriva/developer/kde/anaselli) has joined #qt
+2014-07-11 09:45:35	◥	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has joined #qt
+2014-07-11 09:46:21	◥	christoffer (~christoff@2a00:865:3b1b:ae58:716c:42a1:8e3d:2693) has joined #qt
+2014-07-11 09:47:45	◥	Thorn (~thorn@unaffiliated/thorn) has joined #qt
+2014-07-11 09:47:45	◣	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has quit (Client Quit)
+2014-07-11 09:48:26	◥	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has joined #qt
+2014-07-11 09:53:26	◥	__positron (~positron@101.222.236.66) has joined #qt
+2014-07-11 09:54:57	◥	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has joined #qt
+2014-07-11 09:55:59	◥	zoraj (~zoraj@197.224.143.231) has joined #qt
+2014-07-11 09:56:41	◣	pld (~pld@unaffiliated/pld) has quit (Quit: bye)
+2014-07-11 09:58:31	◥	Auxilium (~garret@ppp-88-217-97-11.dynamic.mnet-online.de) has joined #qt
+2014-07-11 09:58:54	◥	dvx (~dvx@igw.obsm.cz) has joined #qt
+2014-07-11 09:58:59	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Remote host closed the connection)
+2014-07-11 09:59:07	◥	csslayer (~quassel@2602:ffda:aaa::c5d0:d1c3) has joined #qt
+2014-07-11 09:59:13	◣	dvx (~dvx@igw.obsm.cz) has quit (Client Quit)
+2014-07-11 09:59:26	◥	dvx (~dvx@igw.obsm.cz) has joined #qt
+2014-07-11 09:59:32	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-11 10:00:12	◥	agentorange (~agentoran@70-88-2-14-nashville-tn.hfc.comcastbusiness.net) has joined #qt
+2014-07-11 10:02:02	◣	Rafaelfsilva (~Rafaelfsi@186-244-86-242.user.veloxzone.com.br) has quit (Ping timeout: 272 seconds)
+2014-07-11 10:02:52	◥	__positron2 (~positron@101.222.224.162) has joined #qt
+2014-07-11 10:03:16	◥	saurabhsood91 (~saurabhso@106.51.242.176) has joined #qt
+2014-07-11 10:03:16	◣	saurabhsood91 (~saurabhso@106.51.242.176) has quit (Changing host)
+2014-07-11 10:03:16	◥	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has joined #qt
+2014-07-11 10:03:58	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 248 seconds)
+2014-07-11 10:04:40	◥	neozaru (~neozaru@lau06-4-88-161-213-36.fbx.proxad.net) has joined #qt
+2014-07-11 10:05:14	◣	__positron (~positron@101.222.236.66) has quit (Ping timeout: 260 seconds)
+2014-07-11 10:07:34	◥	BlaXpirit (~blaxpirit@225-83-132-95.pool.ukrtel.net) has joined #qt
+2014-07-11 10:11:22	◥	PasNox (~pasnox@2a01:e35:8b61:9b30:5851:718a:883:b7c8) has joined #qt
+2014-07-11 10:12:26	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 10:13:05	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-11 10:13:20	◣	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Read error: Connection reset by peer)
+2014-07-11 10:13:36	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 10:13:40	◥	otjura (~ojr@unaffiliated/pozori) has joined #qt
+2014-07-11 10:17:06	◥	badescunicu (~Thunderbi@79.118.123.115) has joined #qt
+2014-07-11 10:17:26	ℹ 	Snake_Ma1 is now known as Snake_Man
+2014-07-11 10:18:04	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2014-07-11 10:18:46	◣	__positron2 (~positron@101.222.224.162) has quit (Ping timeout: 255 seconds)
+2014-07-11 10:20:52	◣	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has quit (Quit: fbeutel)
+2014-07-11 10:21:36	◣	zenojis (~quassel@2604:3400:dc1:45:216:3eff:fe76:3263) has quit (Ping timeout: 240 seconds)
+2014-07-11 10:22:04	◣	notimik (~Buzzzz@c-dc93e555.027-61-73746f44.cust.bredbandsbolaget.se) has quit (Quit: leaving)
+2014-07-11 10:25:21	◥	jamesson (~jamesson@pool-71-127-193-78.nwrknj.fios.verizon.net) has joined #qt
+2014-07-11 10:25:21	◥	jackneill (~jackneill@unaffiliated/jackneill) has joined #qt
+2014-07-11 10:25:21	◥	zenojis (~quassel@2604:3400:dc1:45:216:3eff:fe76:3263) has joined #qt
+2014-07-11 10:25:47	◥	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has joined #qt
+2014-07-11 10:26:03	◥	eklavya (~eklavya@183.83.213.114) has joined #qt
+2014-07-11 10:27:22	◣	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has quit (Ping timeout: 272 seconds)
+2014-07-11 10:27:58	ℹ 	arturo182 is now known as Guest78159
+2014-07-11 10:27:58	◥	arturo182|2 (arturo182@31-211-234-181.customers.ownit.se) has joined #qt
+2014-07-11 10:27:58	◣	Guest78159 (arturo182@31-211-234-181.customers.ownit.se) has quit (Killed (wilhelm.freenode.net (Nickname regained by services)))
+2014-07-11 10:27:58	ℹ 	arturo182|2 is now known as arturo182
+2014-07-11 10:28:13	◣	TheHackOps2 (~thehackop@202-161-26-19.dyn.iinet.net.au) has quit (Ping timeout: 255 seconds)
+2014-07-11 10:29:19	◥	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has joined #qt
+2014-07-11 10:29:53	jamesson	Howdy folks. It seems I am going to star helping these guys http://leechcraft.org/ in a few months because their windows development is basically dead in the water. Anybody with windows experience who wants to pitch in would be much appreciated.
+2014-07-11 10:31:21	◥	packo (~quassel@182.66.9.217) has joined #qt
+2014-07-11 10:32:00	◣	csslayer (~quassel@2602:ffda:aaa::c5d0:d1c3) has quit (Ping timeout: 240 seconds)
+2014-07-11 10:32:12	◣	TheBloke (~TomJ@host86-139-92-92.range86-139.btcentralplus.com) has quit (Ping timeout: 260 seconds)
+2014-07-11 10:32:41	◥	loaden (~loaden@221.194.30.146) has joined #qt
+2014-07-11 10:32:42	◣	andris (~andris@83.166.211.9) has quit
+2014-07-11 10:32:57	◥	larsivi (~quassel@nb41-50.static.cytanet.com.cy) has joined #qt
+2014-07-11 10:32:58	◥	lpotter (~quassel@CPE-58-174-54-44.mjcz1.woo.bigpond.net.au) has joined #qt
+2014-07-11 10:33:17	◣	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has quit (Client Quit)
+2014-07-11 10:33:18	◥	andris (~andris@83.166.211.9) has joined #qt
+2014-07-11 10:34:18	◣	labsin (~labsin@91.176.230.175) has quit (Ping timeout: 248 seconds)
+2014-07-11 10:34:34	◣	oleo__ (~oleo@xdsl-78-35-132-51.netcologne.de) has quit (Quit: Verlassend)
+2014-07-11 10:35:35	◣	ferdna (~ferdna@cpe-69-23-141-88.elp.res.rr.com) has quit (Quit: Leaving)
+2014-07-11 10:35:54	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-11 10:36:07	◥	csslayer (~quassel@2602:ffda:aaa::c5d0:d1c3) has joined #qt
+2014-07-11 10:36:58	◣	loaden (~loaden@221.194.30.146) has quit (Ping timeout: 244 seconds)
+2014-07-11 10:37:08	◥	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 10:37:52	◣	larsivi (~quassel@nb41-50.static.cytanet.com.cy) has quit (Ping timeout: 252 seconds)
+2014-07-11 10:40:24	◥	kroon (~kroon@89-253-118-72.customers.ownit.se) has joined #qt
+2014-07-11 10:41:17	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 255 seconds)
+2014-07-11 10:43:14	◥	oleo (~oleo@xdsl-78-35-132-51.netcologne.de) has joined #qt
+2014-07-11 10:44:38	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 10:44:49	◣	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Max SendQ exceeded)
+2014-07-11 10:45:24	◥	TheHackOps (~thehackop@202-161-26-19.dyn.iinet.net.au) has joined #qt
+2014-07-11 10:45:43	◥	weld (~weld@p57A8303F.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 10:46:27	◥	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 10:47:25	◥	Notimik (~anders@c-dc93e555.027-61-73746f44.cust.bredbandsbolaget.se) has joined #qt
+2014-07-11 10:47:59	◣	otjura (~ojr@unaffiliated/pozori) has quit (Quit: Quitting)
+2014-07-11 10:48:03	◥	larsivi (~quassel@nb41-46.static.cytanet.com.cy) has joined #qt
+2014-07-11 10:49:12	◥	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2014-07-11 10:52:50	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 240 seconds)
+2014-07-11 10:53:25	◥	rutger1 (~Thunderbi@ip3e83a2d2.speed.planet.nl) has joined #qt
+2014-07-11 10:56:21	◥	iccanobif (iccanobif@host208-95-dynamic.56-82-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 10:58:13	◣	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 252 seconds)
+2014-07-11 11:00:53	◣	Malsasa (~Malsasa@36.73.241.222) has quit (Remote host closed the connection)
+2014-07-11 11:01:03	◥	tom94 (~tom@79-69-116-66.dynamic.dsl.as9105.com) has joined #qt
+2014-07-11 11:02:51	◥	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2014-07-11 11:03:57	◥	roric (~roric@c-107ae455.213-3-64736c14.cust.bredbandsbolaget.se) has joined #qt
+2014-07-11 11:07:05	◣	packo (~quassel@182.66.9.217) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 11:07:32	◥	packo (~quassel@182.66.9.217) has joined #qt
+2014-07-11 11:08:32	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Quit: what?)
+2014-07-11 11:09:13	◣	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 264 seconds)
+2014-07-11 11:11:58	◣	badescunicu (~Thunderbi@79.118.123.115) has quit (Ping timeout: 252 seconds)
+2014-07-11 11:12:30	◥	Thra11 (~Thra11@host-2-97-247-27.as13285.net) has joined #qt
+2014-07-11 11:13:08	◣	iccanobif (iccanobif@host208-95-dynamic.56-82-r.retail.telecomitalia.it) has quit (Ping timeout: 244 seconds)
+2014-07-11 11:14:56	◥	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2014-07-11 11:16:53	◥	jstaniek (~jarek@calcifer.xs4all.nl) has joined #qt
+2014-07-11 11:16:55	◥	HuntsMan (~hunts@koln-5d81ad9c.pool.mediaWays.net) has joined #qt
+2014-07-11 11:17:24	◣	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 272 seconds)
+2014-07-11 11:17:24	◥	iccanobif (iccanobif@host208-95-dynamic.56-82-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 11:20:11	◥	luc4 (~luca@host47-173-dynamic.7-79-r.retail.telecomitalia.it) has joined #qt
+2014-07-11 11:20:37	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-11 11:21:46	◥	hanne (~linaae@cm-84.215.22.134.getinternet.no) has joined #qt
+2014-07-11 11:22:37	◥	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has joined #qt
+2014-07-11 11:26:44	◣	rutger1 (~Thunderbi@ip3e83a2d2.speed.planet.nl) has quit (Ping timeout: 255 seconds)
+2014-07-11 11:29:28	◥	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has joined #qt
+2014-07-11 11:34:19	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 244 seconds)
+2014-07-11 11:35:55	◥	Sfiet_Konstantin (~sk@212-198-218-185.rev.numericable.fr) has joined #qt
+2014-07-11 11:36:16	◥	__positron (~positron@101.222.251.182) has joined #qt
+2014-07-11 11:39:54	◣	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has quit (Ping timeout: 248 seconds)
+2014-07-11 11:40:33	◣	__positron (~positron@101.222.251.182) has quit (Ping timeout: 252 seconds)
+2014-07-11 11:41:05	◣	Tyris (~Tyris@124-168-72-23.dyn.iinet.net.au) has quit (Quit: Leaving)
+2014-07-11 11:43:52	◣	ortogonal (~quassel@5.175.192.27) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 11:44:09	◥	ortogonal (~quassel@5.175.192.27) has joined #qt
+2014-07-11 11:44:50	◣	Simotek (~Simotek@opensuse/member/simotek) has quit (Ping timeout: 240 seconds)
+2014-07-11 11:45:48	◥	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has joined #qt
+2014-07-11 11:47:14	◣	jamesson (~jamesson@pool-71-127-193-78.nwrknj.fios.verizon.net) has quit (Ping timeout: 244 seconds)
+2014-07-11 11:47:21	◥	ascii_ch (~quassel@89-184.104-92.cust.bluewin.ch) has joined #qt
+2014-07-11 11:47:23	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-11 11:47:23	◥	Astronaut (~Astronaut@197.15.17.149) has joined #qt
+2014-07-11 11:48:09	◥	vaiursch (~erwin@178-82-253-35.dynamic.hispeed.ch) has joined #qt
+2014-07-11 11:48:20	◥	Tyris (~Tyris@124-168-72-23.dyn.iinet.net.au) has joined #qt
+2014-07-11 11:48:23	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-11 11:49:43	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-11 11:49:51	◣	ascii_ch (~quassel@89-184.104-92.cust.bluewin.ch) has quit (Remote host closed the connection)
+2014-07-11 11:52:29	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 11:52:50	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 240 seconds)
+2014-07-11 11:54:05	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 11:54:59	ℹ 	equalsraf is now known as pnatal
+2014-07-11 11:56:12	◣	vipz (~vinny@c-68-60-94-197.hsd1.mi.comcast.net) has quit (Remote host closed the connection)
+2014-07-11 11:57:13	◣	larsivi (~quassel@nb41-46.static.cytanet.com.cy) has quit (Ping timeout: 264 seconds)
+2014-07-11 11:58:07	◥	rufianw (~ntrrgc@212.183.221.145.dyn.user.ono.com) has joined #qt
+2014-07-11 11:58:25	◥	ascii_ch (~quassel@89-184.104-92.cust.bluewin.ch) has joined #qt
+2014-07-11 12:00:20	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 240 seconds)
+2014-07-11 12:01:00	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 12:02:13	◣	oleo (~oleo@xdsl-78-35-132-51.netcologne.de) has quit (Ping timeout: 244 seconds)
+2014-07-11 12:02:24	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 12:02:47	◥	oleo (~oleo@xdsl-84-44-211-12.netcologne.de) has joined #qt
+2014-07-11 12:02:57	◥	sam__ (~sam@95.59.2.93.rev.sfr.net) has joined #qt
+2014-07-11 12:03:18	◥	alextai (~kvirc@37.46.45.136) has joined #qt
+2014-07-11 12:03:45	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-11 12:04:55	◥	GortiZ (~Thunderbi@151.60.166.242) has joined #qt
+2014-07-11 12:05:00	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-11 12:05:30	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 248 seconds)
+2014-07-11 12:05:32	◣	andris (~andris@83.166.211.9) has quit (Ping timeout: 272 seconds)
+2014-07-11 12:05:58	◣	rufianw (~ntrrgc@212.183.221.145.dyn.user.ono.com) has quit (Remote host closed the connection)
+2014-07-11 12:06:04	◥	Simotek (~Simotek@opensuse/member/simotek) has joined #qt
+2014-07-11 12:06:52	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 244 seconds)
+2014-07-11 12:06:57	◣	maour_ (~maour@unaffiliated/maour) has quit (Quit: Konversation terminated!)
+2014-07-11 12:07:46	◣	hanne (~linaae@cm-84.215.22.134.getinternet.no) has quit (Quit: hanne)
+2014-07-11 12:08:23	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 12:08:47	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 12:08:54	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Client Quit)
+2014-07-11 12:09:14	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 12:09:44	◣	zhxt_lp (~zhxt@124.202.190.112) has quit (Ping timeout: 260 seconds)
+2014-07-11 12:11:39	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-11 12:13:04	◣	Zagge (~quassel@calcifer.xs4all.nl) has quit (Ping timeout: 244 seconds)
+2014-07-11 12:13:33	◥	hanne (~linaae@cm-84.215.22.134.getinternet.no) has joined #qt
+2014-07-11 12:13:45	◣	Alex11223 (~Alex11223@78-56-60-143.static.zebra.lt) has quit (Ping timeout: 246 seconds)
+2014-07-11 12:14:34	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 248 seconds)
+2014-07-11 12:14:44	◥	fabianBu (~quassel@pD95F6899.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 12:16:42	◥	DasMoehh (~Orlando@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-11 12:18:45	◣	packo (~quassel@182.66.9.217) has quit (Read error: Connection reset by peer)
+2014-07-11 12:18:54	◣	hanne (~linaae@cm-84.215.22.134.getinternet.no) has quit (Quit: hanne)
+2014-07-11 12:20:20	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 240 seconds)
+2014-07-11 12:24:53	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 12:25:05	◥	dvx_ (~dvx@igw.obsm.cz) has joined #qt
+2014-07-11 12:26:19	◥	hz (~hz@unaffiliated/hz) has joined #qt
+2014-07-11 12:26:25	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 12:26:36	◣	dvx (~dvx@igw.obsm.cz) has quit (Read error: Connection reset by peer)
+2014-07-11 12:30:36	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 252 seconds)
+2014-07-11 12:33:31	sssstavr	hey gyus.. I've got this weird phenomenon within my code
+2014-07-11 12:33:38	sssstavr	guys*
+2014-07-11 12:36:05	◥	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has joined #qt
+2014-07-11 12:36:43	ℹ 	seezer_ is now known as seezer
+2014-07-11 12:41:56	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 260 seconds)
+2014-07-11 12:43:27	◥	mkf_ (telex@gateway/shell/anapnea.net/x-lfwievrifkhzrprv) has joined #qt
+2014-07-11 12:44:17	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-11 12:47:03	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Client Quit)
+2014-07-11 12:48:33	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 12:53:49	sam__	sssstavr: more details ?
+2014-07-11 12:56:18	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 12:58:06	◣	hz (~hz@unaffiliated/hz) has quit
+2014-07-11 12:59:12	◣	dantti (~dantti@179.183.8.196) has quit (Ping timeout: 260 seconds)
+2014-07-11 13:00:45	sssstavr	sam__: sure.. it's called Einstein - Rosen bridge
+2014-07-11 13:01:12	◣	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has quit (Quit: Verlassend)
+2014-07-11 13:02:21	◥	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has joined #qt
+2014-07-11 13:04:10	piggz	in qt5/android, how can i detect when the app is minimized.  Atm it keeps running in the backgorund and id like to pause it.  There is no windowStateChanged signal emittet, or screenChanged
+2014-07-11 13:05:19	◥	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has joined #qt
+2014-07-11 13:05:42	◥	Zagge (~quassel@145.15.244.11) has joined #qt
+2014-07-11 13:05:50	◥	__positron (~positron@122.165.225.85) has joined #qt
+2014-07-11 13:05:50	ℹ 	mkf_ is now known as mkf
+2014-07-11 13:05:58	◥	maour (~maour@unaffiliated/maour) has joined #qt
+2014-07-11 13:07:53	◥	Bigpet3 (~bigpet@p5B162BA5.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 13:10:25	◣	Bigpet2 (~bigpet@p5B162BA5.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-07-11 13:12:05	◣	Ankhers (~user@gateway/tor-sasl/ankhers) has quit (Remote host closed the connection)
+2014-07-11 13:12:32	ℹ 	Tomasu is now known as TomasuDlrrp
+2014-07-11 13:13:50	◣	vaiursch (~erwin@178-82-253-35.dynamic.hispeed.ch) has quit
+2014-07-11 13:14:00	◥	vaiursch_ (~erwin@178-82-253-35.dynamic.hispeed.ch) has joined #qt
+2014-07-11 13:16:11	◥	Afrix (~Afrix4@2.26.63.139) has joined #qt
+2014-07-11 13:17:15	◥	dantti (~dantti@179.183.8.196) has joined #qt
+2014-07-11 13:17:59	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 13:20:53	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 272 seconds)
+2014-07-11 13:21:31	◣	Zagge (~quassel@145.15.244.11) has quit (Ping timeout: 272 seconds)
+2014-07-11 13:22:31	◥	poxip (~michal@77-254-130-176.adsl.inetia.pl) has joined #qt
+2014-07-11 13:23:28	◣	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has quit (Quit: Ex-Chat)
+2014-07-11 13:23:46	◥	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has joined #qt
+2014-07-11 13:25:32	◥	ragedragon (~ragedrago@hus54-1-78-214-148-27.fbx.proxad.net) has joined #qt
+2014-07-11 13:32:26	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 13:32:36	◥	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has joined #qt
+2014-07-11 13:32:36	◥	pld (~pld@unaffiliated/pld) has joined #qt
+2014-07-11 13:32:43	◣	weld (~weld@p57A8303F.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2014-07-11 13:32:45	◣	Sfiet_Konstantin (~sk@212-198-218-185.rev.numericable.fr) has quit (Ping timeout: 252 seconds)
+2014-07-11 13:33:18	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 252 seconds)
+2014-07-11 13:34:50	◣	Astronaut (~Astronaut@197.15.17.149) has quit (Remote host closed the connection)
+2014-07-11 13:37:05	ℹ 	I`love`music is now known as Elles
+2014-07-11 13:37:17	◣	eklavya (~eklavya@183.83.213.114) has quit (Ping timeout: 244 seconds)
+2014-07-11 13:37:18	◥	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has joined #qt
+2014-07-11 13:39:34	◣	KrzaQ (~krzaq@krzaq.cc) has quit (Read error: Connection reset by peer)
+2014-07-11 13:40:13	◥	KrzaQ (~krzaq@krzaq.cc) has joined #qt
+2014-07-11 13:40:18	◥	crimsondusk (~crimson@unaffiliated/arezey) has joined #qt
+2014-07-11 13:41:40	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2014-07-11 13:41:53	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 13:43:04	◣	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has quit (Ping timeout: 260 seconds)
+2014-07-11 13:44:13	◣	Tubbe (~quassel@5.175.192.27) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 13:44:33	◣	ortogonal (~quassel@5.175.192.27) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-11 13:46:11	◣	KrzaQ (~krzaq@krzaq.cc) has quit (Read error: Connection reset by peer)
+2014-07-11 13:47:09	◥	Tubbe (~quassel@5.175.192.27) has joined #qt
+2014-07-11 13:47:55	◣	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has quit (Remote host closed the connection)
+2014-07-11 13:48:01	◥	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has joined #qt
+2014-07-11 13:49:15	◥	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 13:50:04	◣	upd (~updSI@unaffiliated/upd) has quit (Ping timeout: 260 seconds)
+2014-07-11 13:51:05	◥	ortogonal (~quassel@5.175.192.27) has joined #qt
+2014-07-11 13:52:47	◣	SfietKonstantin (~sk@212-198-218-185.rev.numericable.fr) has quit (Ping timeout: 244 seconds)
+2014-07-11 13:53:33	◥	Balzy (~Balzy@bo-18-128-22.service.infuturo.it) has joined #qt
+2014-07-11 13:53:44	◥	eklavya (~eklavya@183.83.213.114) has joined #qt
+2014-07-11 13:58:44	◥	Ryp (~ryp@81-65-146-148.rev.numericable.fr) has joined #qt
+2014-07-11 13:58:49	◥	KrzaQ (~krzaq@krzaq.cc) has joined #qt
+2014-07-11 14:03:26	◥	paulovap (~paulo@177.184.131.234) has joined #qt
+2014-07-11 14:03:50	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2014-07-11 14:04:20	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 14:05:29	◥	weld (~weld@p57A8303F.dip0.t-ipconnect.de) has joined #qt
+2014-07-11 14:06:57	◣	paulovap (~paulo@177.184.131.234) has quit (Read error: Connection reset by peer)
+2014-07-11 14:07:15	◥	paulovap (~paulo@177.184.131.234) has joined #qt
+2014-07-11 14:07:16	◣	leinir (~leinir@amarok/usability/leinir) has quit (Read error: No route to host)
+2014-07-11 14:07:28	◥	leinir (~leinir@amarok/usability/leinir) has joined #qt
+2014-07-11 14:09:01	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 272 seconds)
+2014-07-11 14:09:16	◥	thiago (~thiago@kde/thiago) has joined #qt
+2014-07-11 14:10:15	◣	agentorange (~agentoran@70-88-2-14-nashville-tn.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2014-07-11 14:10:28	◥	xenakis (~quassel@a88-112-132-188.elisa-laajakaista.fi) has joined #qt
+2014-07-11 14:10:52	◥	agentorange (~agentoran@2600:1004:b10d:c648:48c9:b990:b380:1230) has joined #qt
+2014-07-11 14:11:21	◥	Rafaelfsilva (~Rafaelfsi@186-244-93-45.user.veloxzone.com.br) has joined #qt
+2014-07-11 14:14:32	◥	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has joined #qt
+2014-07-11 14:15:19	◣	agentorange (~agentoran@2600:1004:b10d:c648:48c9:b990:b380:1230) has left #qt
+2014-07-11 14:15:24	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-11 14:16:47	◣	PovAddictW (~Nicolas@kde/developer/nalvarez) has left #qt ("Konversation terminated!")
+2014-07-11 14:18:44	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-11 14:19:20	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-11 14:20:49	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 14:22:04	◥	pjoe (~quassel@3708ds1-vbr19.0.fullrate.dk) has joined #qt
+2014-07-11 14:22:52	◣	sam__ (~sam@95.59.2.93.rev.sfr.net) has quit (Quit: Ex-Chat)
+2014-07-11 14:23:53	◣	crimsondusk (~crimson@unaffiliated/arezey) has quit (Remote host closed the connection)
+2014-07-11 14:24:03	◥	Lacky (~artur@aejj244.neoplus.adsl.tpnet.pl) has joined #qt
+2014-07-11 14:24:03	◥	MrMaffen (~quassel@aftr-37-24-152-235.unity-media.net) has joined #qt
+2014-07-11 14:24:13	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 264 seconds)
+2014-07-11 14:26:57	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-11 14:27:55	◥	eklavya_ (~eklavya@183.83.213.114) has joined #qt
+2014-07-11 14:28:48	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 14:30:12	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2014-07-11 14:30:44	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-11 14:31:01	◣	eklavya (~eklavya@183.83.213.114) has quit (Ping timeout: 244 seconds)
+2014-07-11 14:31:06	◥	crimsondusk (~crimson@unaffiliated/arezey) has joined #qt
+2014-07-11 14:32:04	◣	amizraa (~amizraa@gateway/tor-sasl/amizraa) has quit (Remote host closed the connection)
+2014-07-11 14:32:21	◣	GortiZ (~Thunderbi@151.60.166.242) has quit (Quit: GortiZ)
+2014-07-11 14:33:42	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 248 seconds)
+2014-07-11 14:35:26	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-11 14:35:43	◥	RangerBob (~Brian@pool-173-72-144-130.clppva.fios.verizon.net) has joined #qt
+2014-07-11 14:38:29	◥	Jucato (~jucato@kde/developer/jucato) has joined #qt
+2014-07-06 14:41:40	◣	_lore_ (~lorenzo@151.66.185.85) has quit (Quit: ZNC - http://znc.in)
+2014-07-06 14:42:26	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-06 14:43:27	◥	_lore_ (~lorenzo@151.66.185.85) has joined #qt
+2014-07-06 14:43:32	◣	maour (~maour@unaffiliated/maour) has quit (Ping timeout: 255 seconds)
+2014-07-06 14:44:03	◣	Jucato (~jucato@kde/developer/jucato) has quit (Client Quit)
+2014-07-06 14:46:07	◣	Balzy (~Balzy@bo-18-128-22.service.infuturo.it) has quit (Read error: Connection timed out)
+2014-07-06 14:46:33	◥	glope (~androirc@120.139.119.217) has joined #qt
+2014-07-06 14:46:47	glope	test
+2014-07-06 14:46:52	◥	Balzy (~Balzy@bo-18-128-22.service.infuturo.it) has joined #qt
+2014-07-06 14:47:25	◥	zhxt_lp (~zhxt@124.202.190.112) has joined #qt
+2014-07-06 14:47:30	◥	hz (~hz@unaffiliated/hz) has joined #qt
+2014-07-06 14:47:40	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-06 14:47:46	glope	hallo guys anyway when i built qt from scratch in linux how do i get the kde themes effect?
+2014-07-06 14:48:14	@peppe	what do you mean?
+2014-07-06 14:50:04	glope	hi peppe.yeah when i built kde at the linux platform right i can not get the effect of kde itself
+2014-07-06 14:50:04	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-06 14:50:23	@peppe	I still don't understand what "kde at the linux platform" means; and are we talking about Qt 4 or Qt 5?
+2014-07-06 14:50:23	glope	i got the basic gui look and feel x11 native instead of kde
+2014-07-06 14:50:23	glope	qt4
+2014-07-06 14:50:49	glope	i am talking about look and feel themes of kde
+2014-07-06 14:51:03	◣	cor3ntin (~coco@2a01:e35:2e93:6e00:6c7f:a5c5:d644:6599) has quit (Remote host closed the connection)
+2014-07-06 14:51:06	glope	how do i get it when i built qt from the beginning sources
+2014-07-06 14:51:09	◥	amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined #qt
+2014-07-06 14:52:38	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 260 seconds)
+2014-07-06 14:54:39	@peppe	it should be automatic, i.e. Qt will pick up the KDE style itself
+2014-07-06 14:55:09	@peppe	run your application under QT_DEBUG_PLUGINS=1 and see if that's indeed happening
+2014-07-06 14:55:17	@peppe	also, in Qt 4, you should have qconfig to control that
+2014-07-06 14:55:33	◥	Samysam (~sam@95.59.2.93.rev.sfr.net) has joined #qt
+2014-07-06 14:55:45	glope	is there any additional source of kde that i have to bind it with qt source code  before i build qt itself
+2014-07-06 14:55:48	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-06 14:55:56	glope	oh i see
+2014-07-06 14:56:00	◣	DexterLB (~dex@79-100-3-219.btc-net.bg) has quit (Ping timeout: 248 seconds)
+2014-07-06 14:56:20	@peppe	there are a number of reasons why that automatic loading may be failing, though. the typical case is that the plugin requires extra Qt libraries, which in turn are picked up from system paths (instead of your own compiled copy of Qt), and you can't mix and match Qt versions inside the same binary
+2014-07-06 14:56:30	◥	cor3ntin (~coco@2a01:e35:2e93:6e00:f00b:ec9a:4683:2691) has joined #qt
+2014-07-06 14:57:27	@peppe	for instance you get your app using QtCore and QtGui (from your own compiled Qt), while the KDE style plugin links to (some KDE library which links to) QtDbus or QtSvg, and these latter are picked up from system paths => Qt version conflict => style plugin not loaded
+2014-07-06 14:57:48	◣	crimsondusk (~crimson@unaffiliated/arezey) has quit (Ping timeout: 252 seconds)
+2014-07-06 14:58:16	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2014-07-06 14:58:19	◥	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 14:58:45	◣	leinir (~leinir@amarok/usability/leinir) has quit
+2014-07-06 14:59:19	◥	toothrot (~mux@unaffiliated/toothrot) has joined #qt
+2014-07-06 14:59:46	glope	ok i understood so..what is the convenient solution for me.because of if i download qtlib devel from opensuse software manager  they provide it automatically those qtlib which is directly connect to the kde.but after all i would like to build by myself
+2014-07-06 15:00:28	◣	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has quit (Read error: Connection reset by peer)
+2014-07-06 15:00:30	◣	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has quit (Ping timeout: 272 seconds)
+2014-07-06 15:01:23	◣	Balzy (~Balzy@bo-18-128-22.service.infuturo.it) has quit (Ping timeout: 244 seconds)
+2014-07-06 15:01:43	◥	DexterLB (~dex@87-126-229-144.btc-net.bg) has joined #qt
+2014-07-06 15:02:06	◥	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has joined #qt
+2014-07-06 15:02:06	◥	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has joined #qt
+2014-07-06 15:04:48	◥	leinir (~leinir@amarok/usability/leinir) has joined #qt
+2014-07-06 15:08:46	◣	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2014-07-06 15:09:12	◣	bschley (bs1337@server2.shellfire.net) has quit (Excess Flood)
+2014-07-06 15:09:46	◥	bschley (bs1337@server2.shellfire.net) has joined #qt
+2014-07-06 15:10:39	◥	crimsondusk (~crimson@unaffiliated/arezey) has joined #qt
+2014-07-06 15:13:16	◣	eklavya_ (~eklavya@183.83.213.114) has quit (Ping timeout: 244 seconds)
+2014-07-06 15:15:27	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 264 seconds)
+2014-07-06 15:16:48	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-06 15:18:31	◣	qout (~qout@qt/jpnurmi/bot/qout) has quit (Remote host closed the connection)
+2014-07-06 15:18:38	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-06 15:21:53	◥	jaafar (~quassel@adsl-76-234-120-223.dsl.pltn13.sbcglobal.net) has joined #qt
+2014-07-06 15:22:34	◥	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 15:27:31	◥	Zagge (~quassel@tmo-107-157.customers.d1-online.com) has joined #qt
+2014-07-06 15:27:31	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-06 15:28:33	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-06 15:28:55	◣	jstaniek (~jarek@calcifer.xs4all.nl) has quit (Quit: Konversation terminated!)
+2014-07-06 15:30:40	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 248 seconds)
+2014-07-06 15:30:48	◣	doev (~doev@p4FD4120A.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-07-06 15:30:57	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-06 15:31:46	◣	FreezingCold (~FreezingC@135.0.41.14) has quit (Ping timeout: 240 seconds)
+2014-07-06 15:32:02	◥	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-06 15:32:10	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 255 seconds)
+2014-07-06 15:32:13	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-06 15:32:31	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-06 15:33:26	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 244 seconds)
+2014-07-06 15:34:35	◥	MarkRS (~MarkRS@2001:8b0:6481:a9c7:230:18ff:fe00:1) has joined #qt
+2014-07-06 15:37:27	MarkRS	Is there a separate QML channel, or is this it?
+2014-07-06 15:38:11	special	there is #qt-quick
+2014-07-06 15:38:26	special	but this probably works too.
+2014-07-06 15:38:44	◥	qout (~qout@qt/jpnurmi/bot/qout) has joined #qt
+2014-07-06 15:39:02	MarkRS	thanks special. but if here works, I've got a problem with a spinbox. I've got the box, but no up or down arrows, and in fact I can't enter anything into the box manually either
+2014-07-06 15:39:28	◥	smookie (~epic@77.70.32.240) has joined #qt
+2014-07-06 15:39:32	◣	marlo_ (~mark@pool-71-164-218-213.dllstx.fios.verizon.net) has quit (Quit: Ex-Chat)
+2014-07-06 15:39:35	MarkRS	qtQuick 2.0, umm, Linux... Qt 5.3... anything else relevant?
+2014-07-06 15:40:21	◣	RangerBob (~Brian@pool-173-72-144-130.clppva.fios.verizon.net) has quit (Quit: Help help I'm being repressed!)
+2014-07-06 15:41:00	+jpnurmi	MarkRS: are you using QGuiApplication or QApplication?
+2014-07-06 15:41:29	◥	the_cybersphinx (~x@HSI-KBW-078-043-025-206.hsi4.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-06 15:41:30	+jpnurmi	MarkRS: also, which desktop environment?
+2014-07-06 15:43:09	MarkRS	jpnurmi: I think it's QApplication (the script execution is built into another app)
+2014-07-06 15:43:14	MarkRS	KDE
+2014-07-06 15:43:40	MarkRS	But it seems to be this way for everyone (ie at least one other who I know is not using KDE)
+2014-07-06 15:44:34	◥	Zagge_ (~quassel@tmo-096-20.customers.d1-online.com) has joined #qt
+2014-07-06 15:44:41	MarkRS	Yeah, seems to be QApplication
+2014-07-06 15:45:42	◥	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has joined #qt
+2014-07-06 15:46:04	+jpnurmi	MarkRS: kde4? could you post a screenshot, please?
+2014-07-06 15:47:00	◥	bkre__ (~bkre@host-188-174-219-88.customer.m-online.net) has joined #qt
+2014-07-06 15:47:14	◣	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has quit (Ping timeout: 260 seconds)
+2014-07-06 15:47:25	◥	FreezingCold (~FreezingC@135.0.41.14) has joined #qt
+2014-07-06 15:48:00	◣	Zagge (~quassel@tmo-107-157.customers.d1-online.com) has quit (Ping timeout: 272 seconds)
+2014-07-06 15:48:24	◣	asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 252 seconds)
+2014-07-06 15:48:29	MarkRS	http://imgur.com/GevMSNA
+2014-07-06 15:49:44	MarkRS	is that what you meant jpnurmi?
+2014-07-06 15:51:30	◣	paulovap (~paulo@177.184.131.234) has quit (Quit: Konversation terminated!)
+2014-07-06 15:51:48	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 272 seconds)
+2014-07-06 15:51:48	+jpnurmi	MarkRS: yes, but seeing that makes me a bit puzzled what's going on there :)
+2014-07-06 15:51:57	MarkRS	you and me both :-s
+2014-07-06 15:52:09	MarkRS	(I'm trying to fix someone else's code)
+2014-07-06 15:52:12	+jpnurmi	the buttons look like oxygen style buttons, but afaik there's no oxygen style for qt5
+2014-07-06 15:52:33	+jpnurmi	what kde version is that?
+2014-07-06 15:52:38	bshah	jpnurmi: I guess it is, if you have kf5 installed..
+2014-07-06 15:52:51	◣	pjoe (~quassel@3708ds1-vbr19.0.fullrate.dk) has quit (Remote host closed the connection)
+2014-07-06 15:53:14	MarkRS	I'm saying kde4 'cos that's the kde directory I've seen, but I might be wrong. How do I tell? (I'm running Fedora)
+2014-07-06 15:53:39	bshah	it must be kde4..
+2014-07-06 15:53:53	smookie	jpeg compression in tiffs broken in 5.3.0+ ?
+2014-07-06 15:53:55	smookie	TIFFReadDirectory: Warning, Unknown field with tag 347 (0x15b) encountered.
+2014-07-06 15:53:57	smookie	foo: JPEG compression support is not configured.
+2014-07-06 15:54:01	bshah	as you have not installed manually..
+2014-07-06 15:54:18	◥	vaiursch__ (~erwin@178-82-253-35.dynamic.hispeed.ch) has joined #qt
+2014-07-06 15:54:35	◣	vaiursch_ (~erwin@178-82-253-35.dynamic.hispeed.ch) has quit (Read error: Connection reset by peer)
+2014-07-06 15:54:50	+jpnurmi	ok, i'll try to install the fedora kde spin and see if i could reproduce
+2014-07-06 15:55:19	bshah	btw, can you paste code?
+2014-07-06 15:55:28	MarkRS	the spinner code?
+2014-07-06 15:55:40	bshah	yup, code you are using..
+2014-07-06 15:56:22	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-07-06 15:56:28	◥	a-l-e (~quassel@ien11-h05-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-06 15:56:57	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-06 15:57:08	MarkRS	http://pastebin.com/Lr9syf4m (pasted direct from QtCreator, my first!)
+2014-07-06 15:58:39	+jpnurmi	MarkRS: how did you install qt 5.3?
+2014-07-06 15:58:46	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-06 15:59:18	+jpnurmi	self-built? from qt-project.org installer? from a distro repo?
+2014-07-06 15:59:24	◣	kuldeepdhaka_ (~kuldeepdh@unaffiliated/kuldeepdhaka) has quit (Ping timeout: 272 seconds)
+2014-07-06 16:00:03	◣	soulcake (~soulcake@unaffiliated/soulcake) has quit (Quit: ZNC - http://znc.in)
+2014-07-06 16:00:39	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-06 16:01:04	◥	soulcake (~soulcake@unaffiliated/soulcake) has joined #qt
+2014-07-06 16:01:39	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 264 seconds)
+2014-07-06 16:02:09	◥	Kraplax (5f541859@gateway/web/freenode/ip.95.84.24.89) has joined #qt
+2014-07-06 16:02:11	◥	Zagge (~quassel@tmo-097-66.customers.d1-online.com) has joined #qt
+2014-07-06 16:02:14	Kraplax	hello there
+2014-07-06 16:02:17	MarkRS	from the Fedora repo... I think, jpnurmi
+2014-07-06 16:02:21	◣	oleo (~oleo@xdsl-84-44-211-12.netcologne.de) has quit (Ping timeout: 244 seconds)
+2014-07-06 16:02:30	Kraplax	could you guys help me with XML parsing?
+2014-07-06 16:02:45	MarkRS	I had a slight brush with downloading the code and building, I don't think it was succesful
+2014-07-06 16:03:06	Kraplax	i've already created QXmlQuery, set focus to remote URL and can query it with XPATH
+2014-07-06 16:03:36	Kraplax	So, basically i am able to fetch a channel title off the rss feed
+2014-07-06 16:03:54	◥	Zagge__ (~quassel@tmo-109-157.customers.d1-online.com) has joined #qt
+2014-07-06 16:04:03	Kraplax	but i want to get a collection of RSS feed items
+2014-07-06 16:04:21	Kraplax	and iterate through them to parse into my custom model
+2014-07-06 16:04:33	Kraplax	how do i do that?
+2014-07-06 16:04:48	◣	Zagge_ (~quassel@tmo-096-20.customers.d1-online.com) has quit (Ping timeout: 248 seconds)
+2014-07-06 16:05:21	◣	Ryp (~ryp@81-65-146-148.rev.numericable.fr) has quit (Quit: Leaving.)
+2014-07-06 16:05:35	Kraplax	so, i have "/rss/channel/item" xpath which should return a list of items
+2014-07-06 16:05:50	Kraplax	how do i handle them?
+2014-07-06 16:07:16	◣	Zagge (~quassel@tmo-097-66.customers.d1-online.com) has quit (Ping timeout: 240 seconds)
+2014-07-06 16:07:30	+jpnurmi	MarkRS: hmm, you said qt 5.3? as far as i can see, fedora 20 has qt 5.2.1
+2014-07-06 16:09:58	◥	maour (~maour@unaffiliated/maour) has joined #qt
+2014-07-06 16:10:38	MarkRS	Hmm, I did say 5.3, I think I was mistaken
+2014-07-06 16:10:59	MarkRS	SOrry
+2014-07-06 16:12:43	◥	Zagge (~quassel@tmo-107-85.customers.d1-online.com) has joined #qt
+2014-07-06 16:13:12	+jpnurmi	geez, trying to install qt5 with yum, but it's been locked by packagekit for over 7 minutes
+2014-07-06 16:14:18	MarkRS	I must admit to be very confused by Qt versions. I seem to have 3, 4 and 5 here, and QtCreator seems to be referencing 5 as well as
+2014-07-06 16:14:22	◥	mac_ified (~mac_ified@68.200.194.69) has joined #qt
+2014-07-06 16:14:24	MarkRS	includes and libraries from 3
+2014-07-06 16:14:28	◣	vaiursch__ (~erwin@178-82-253-35.dynamic.hispeed.ch) has quit (Remote host closed the connection)
+2014-07-06 16:14:40	MarkRS	there don't seem to be the include or lib directories under Qt5
+2014-07-06 16:14:46	◥	Zagge_ (~quassel@tmo-109-95.customers.d1-online.com) has joined #qt
+2014-07-06 16:14:51	◣	springermac (~quassel@50.122.97.208) has quit (Ping timeout: 264 seconds)
+2014-07-06 16:14:52	◥	vaiursch__ (~erwin@178-82-253-35.dynamic.hispeed.ch) has joined #qt
+2014-07-06 16:14:55	MarkRS	I wonder if I got things slightly in disarray
+2014-07-06 16:15:09	◥	RangerBob (~Brian@pool-173-72-144-130.clppva.fios.verizon.net) has joined #qt
+2014-07-06 16:15:21	ℹ 	jackyalcine is now known as jacky
+2014-07-06 16:15:46	◣	Zagge__ (~quassel@tmo-109-157.customers.d1-online.com) has quit (Ping timeout: 240 seconds)
+2014-07-06 16:15:52	◥	springermac (~quassel@74-44-224-164.dr01.bzwd.pa.frontiernet.net) has joined #qt
+2014-07-06 16:17:20	◣	amizraa (~amizraa@gateway/tor-sasl/amizraa) has quit (Remote host closed the connection)
+2014-07-06 16:17:36	◣	Zagge (~quassel@tmo-107-85.customers.d1-online.com) has quit (Ping timeout: 248 seconds)
+2014-07-06 16:17:44	◥	amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined #qt
+2014-07-06 16:18:28	◣	Zagge_ (~quassel@tmo-109-95.customers.d1-online.com) has quit (Read error: Connection reset by peer)
+2014-07-06 16:20:18	◣	Lacky (~artur@aejj244.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 252 seconds)
+2014-07-06 16:20:43	◥	flosch (~flosch@unaffiliated/flosch) has joined #qt
+2014-07-06 16:26:11	◥	arBmind1 (~Andreas@e180054062.adsl.alicedsl.de) has joined #qt
+2014-07-06 16:26:15	◥	filipesaraiva (~filipe@124.127.96.2) has joined #qt
+2014-07-06 16:26:25	◥	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has joined #qt
+2014-07-06 16:27:44	◣	arBmind (~Andreas@f055208180.adsl.alicedsl.de) has quit (Ping timeout: 248 seconds)
+2014-07-06 16:27:46	◣	Alina-malina (Alina-mali@unaffiliated/alina-malina) has quit (Ping timeout: 240 seconds)
+2014-07-06 16:27:50	◥	jhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 16:28:11	◥	jayhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 16:28:15	◥	larsivi (~quassel@nb41-54.static.cytanet.com.cy) has joined #qt
+2014-07-06 16:28:51	◥	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined #qt
+2014-07-06 16:29:26	◣	glope (~androirc@120.139.119.217) has quit (Remote host closed the connection)
+2014-07-06 16:29:34	◥	glope (~androirc@120.139.119.217) has joined #qt
+2014-07-06 16:31:45	◣	a-l-e (~quassel@ien11-h05-89-89-215-16.dsl.sta.abo.bbox.fr) has quit (Read error: Connection reset by peer)
+2014-07-06 16:33:02	◥	ynki9_ (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has joined #qt
+2014-07-06 16:33:02	◣	schimmi (~schimmi@limoia.com) has quit (Ping timeout: 240 seconds)
+2014-07-06 16:33:09	◥	schimmi (~schimmi@limoia.com) has joined #qt
+2014-07-06 16:33:11	◥	knightr_ (~Nicolas@69-165-170-178.dsl.teksavvy.com) has joined #qt
+2014-07-06 16:33:16	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-06 16:33:22	◥	JSharpe__ (~JSharpe@90.221.30.200) has joined #qt
+2014-07-06 16:33:24	◥	RazielZ (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has joined #qt
+2014-07-06 16:33:25	◥	mac_ifie_ (~mac_ified@68.200.194.69) has joined #qt
+2014-07-06 16:33:26	◣	DonGnom (~k_o-gnom@nerdropolis.de) has quit (Ping timeout: 240 seconds)
+2014-07-06 16:33:34	◥	DonGnom (~k_o-gnom@nerdropolis.de) has joined #qt
+2014-07-06 16:33:47	◥	xenakios (~quassel@a88-112-132-188.elisa-laajakaista.fi) has joined #qt
+2014-07-06 16:33:53	◥	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has joined #qt
+2014-07-06 16:34:06	◣	cor3ntin (~coco@2a01:e35:2e93:6e00:f00b:ec9a:4683:2691) has quit (Remote host closed the connection)
+2014-07-06 16:34:18	◥	GinoMan_ (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has joined #qt
+2014-07-06 16:34:18	◥	Ankhers (~user@gateway/tor-sasl/ankhers) has joined #qt
+2014-07-06 16:34:25	◣	mkeeter (~mkeeter@2601:6:b80:5a:fc74:b194:55c3:b6e6) has quit (Remote host closed the connection)
+2014-07-06 16:34:40	◥	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has joined #qt
+2014-07-06 16:34:42	◥	a-l-e (~quassel@ien11-h05-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-06 16:35:09	◥	hardaker (~hardaker@mail.hardakers.net) has joined #qt
+2014-07-06 16:35:14	◥	blight_ (~greg@chello212186028041.tirol.surfer.at) has joined #qt
+2014-07-06 16:35:16	◥	__positron2 (~positron@122.165.225.85) has joined #qt
+2014-07-06 16:35:21	◣	blight_ (~greg@chello212186028041.tirol.surfer.at) has quit (Changing host)
+2014-07-06 16:35:21	◥	blight_ (~greg@reactos/developer/blight) has joined #qt
+2014-07-06 16:35:30	◣	Kraplax (5f541859@gateway/web/freenode/ip.95.84.24.89) has quit (Quit: Page closed)
+2014-07-06 16:35:43	◥	maour_ (~maour@unaffiliated/maour) has joined #qt
+2014-07-06 16:36:15	◥	tom94_ (~tom@79-69-116-66.dynamic.dsl.as9105.com) has joined #qt
+2014-07-06 16:36:52	◥	rikai_ (~quassel@rekd.net) has joined #qt
+2014-07-06 16:37:40	◥	iksaif_ (~iksaif@iksaif.net) has joined #qt
+2014-07-06 16:38:31	◥	Inkane (~quassel@p4FD77C9F.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 16:39:09	◣	wcpan_ (quassel@wcpan.info) has quit (Quit: No Ping reply in 180 seconds.)
+2014-07-06 16:39:13	◥	robink_ (~quassel@unaffilated/robink) has joined #qt
+2014-07-06 16:39:20	◥	wcpan (quassel@wcpan.info) has joined #qt
+2014-07-06 16:40:05	◥	demm (~quassel@h74.9.186.173.ip.windstream.net) has joined #qt
+2014-07-06 16:41:09	◥	x-krys (~xkrys@ip-43.net-82-216-127.rev.numericable.fr) has joined #qt
+2014-07-06 16:41:11	◥	sohail (~sohail@unaffiliated/sohail) has joined #qt
+2014-07-06 16:42:37	◣	mac_ified (~mac_ified@68.200.194.69) has quit (*.net *.split)
+2014-07-06 16:42:37	◣	maour (~maour@unaffiliated/maour) has quit (*.net *.split)
+2014-07-06 16:42:38	◣	FreezingCold (~FreezingC@135.0.41.14) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	ynki9 (~ynki9@fl-71-3-133-37.dhcp.embarqhsd.net) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	xenakis (~quassel@a88-112-132-188.elisa-laajakaista.fi) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	__positron (~positron@122.165.225.85) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	Raziel (~Raziel@cpc16-broo8-2-0-cust158.14-2.cable.virginm.net) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	iccanobif (iccanobif@host208-95-dynamic.56-82-r.retail.telecomitalia.it) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	roric (~roric@c-107ae455.213-3-64736c14.cust.bredbandsbolaget.se) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	tom94 (~tom@79-69-116-66.dynamic.dsl.as9105.com) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	blight (~greg@reactos/developer/blight) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	robink (~quassel@unaffilated/robink) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	rendar (~I@host61-177-dynamic.251-95-r.retail.telecomitalia.it) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	iksaif (~iksaif@gentoo/developer/iksaif) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	lifelike (~lifelike@108.162.146.37) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	wickwire (~wickwire@a95-95-213-159.cpe.netcabo.pt) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	knightr (~Nicolas@mythtv/developer/knightr) has quit (*.net *.split)
+2014-07-06 16:42:39	◣	xkrys (~xkrys@ip-43.net-82-216-127.rev.numericable.fr) has quit (*.net *.split)
+2014-07-06 16:42:40	◣	rikai (~quassel@rekd.net) has quit (*.net *.split)
+2014-07-06 16:42:40	◣	catalytic (~acm@soho89-16-249-154.sohonet.co.uk) has quit (*.net *.split)
+2014-07-06 16:42:40	◣	JSharpe_ (~JSharpe@90.221.30.200) has quit (*.net *.split)
+2014-07-06 16:42:41	◣	Rholk (~Rholk@bny92-1-82-67-178-101.fbx.proxad.net) has quit (*.net *.split)
+2014-07-06 16:42:41	◣	estone (~quassel@irc.ics.com) has quit (*.net *.split)
+2014-07-06 16:42:41	◣	anilsson (anilsson@nat/rim/x-jaxcxyiosgzbukdy) has quit (*.net *.split)
+2014-07-06 16:42:42	◥	rendar_ (~I@host61-177-dynamic.251-95-r.retail.telecomitalia.it) has joined #qt
+2014-07-06 16:42:59	◣	jhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has quit (Quit: Leaving.)
+2014-07-06 16:43:12	◣	alextai (~kvirc@37.46.45.136) has quit (Ping timeout: 248 seconds)
+2014-07-06 16:43:14	◥	cor3ntin (~coco@2a01:e35:2e93:6e00:1091:4351:1c57:e253) has joined #qt
+2014-07-06 16:44:07	◥	lifelike (~lifelike@108.162.146.37) has joined #qt
+2014-07-06 16:44:46	◥	leinir_ (~leinir@amarok/usability/leinir) has joined #qt
+2014-07-06 16:45:36	◣	leinir (~leinir@amarok/usability/leinir) has quit (Read error: No route to host)
+2014-07-06 16:46:30	◣	jluc (~jluc@ADijon-651-1-141-121.w90-13.abo.wanadoo.fr) has quit (Ping timeout: 260 seconds)
+2014-07-06 16:48:09	◥	estone1 (~quassel@irc.ics.com) has joined #qt
+2014-07-06 16:48:37	◥	roric (~roric@c-107ae455.213-3-64736c14.cust.bredbandsbolaget.se) has joined #qt
+2014-07-06 16:48:50	◥	FreezingCold (~FreezingC@135.0.41.14) has joined #qt
+2014-07-06 16:49:10	◣	cor3ntin (~coco@2a01:e35:2e93:6e00:1091:4351:1c57:e253) has quit (Remote host closed the connection)
+2014-07-06 16:49:37	◥	Rholk (~Rholk@bny92-1-82-67-178-101.fbx.proxad.net) has joined #qt
+2014-07-06 16:49:52	◥	wickwire (~wickwire@a95-95-213-159.cpe.netcabo.pt) has joined #qt
+2014-07-06 16:50:58	◥	ZeuZ (~byakko@186.59.3.85) has joined #qt
+2014-07-06 16:50:59	◣	ZeuZ (~byakko@186.59.3.85) has quit (Changing host)
+2014-07-06 16:50:59	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-06 16:51:13	◥	catalytic (~acm@soho89-16-249-154.sohonet.co.uk) has joined #qt
+2014-07-06 16:52:16	◣	luc4 (~luca@host47-173-dynamic.7-79-r.retail.telecomitalia.it) has quit (Quit: luc4)
+2014-07-06 16:52:39	◥	arpu (~arpu@chello080108023137.34.11.vie.surfer.at) has joined #qt
+2014-07-06 16:53:29	◥	AnySomebody (~horst@hms0225.wh-hms.uni-ulm.de) has joined #qt
+2014-07-06 16:54:30	◣	RangerBob (~Brian@pool-173-72-144-130.clppva.fios.verizon.net) has quit (Quit: Help help I'm being repressed!)
+2014-07-06 16:55:18	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-06 16:55:53	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-06 16:56:31	◥	oleo (~oleo@xdsl-87-79-255-102.netcologne.de) has joined #qt
+2014-07-06 16:57:39	◣	amizraa (~amizraa@gateway/tor-sasl/amizraa) has quit (Remote host closed the connection)
+2014-07-06 16:58:11	ℹ 	leinir_ is now known as leinir
+2014-07-06 16:58:47	◣	iamfrankenstein2 (~iamfranke@dhcp-089-099-203-023.chello.nl) has quit (Ping timeout: 252 seconds)
+2014-07-06 16:58:58	MarkRS	Hmm, split in this channel but not another on the same server... :s
+2014-07-06 16:59:41	◥	amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined #qt
+2014-07-06 17:00:15	◥	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has joined #qt
+2014-07-06 17:00:16	◣	nodweber (~nodweber@5.178.135.214) has quit (Ping timeout: 240 seconds)
+2014-07-06 17:00:50	◣	sohail (~sohail@unaffiliated/sohail) has quit (Ping timeout: 272 seconds)
+2014-07-06 17:02:15	◣	kailoAtWork (~kailoAtWo@cpe-75-83-169-163.socal.res.rr.com) has quit (Client Quit)
+2014-07-06 17:03:09	◣	DasMoehh (~Orlando@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2014-07-06 17:03:24	◣	zhxt_lp (~zhxt@124.202.190.112) has quit (Ping timeout: 255 seconds)
+2014-07-06 17:03:45	◣	fbeutel (~Thunderbi@ip-109-90-2-205.unitymediagroup.de) has quit (Quit: fbeutel)
+2014-07-06 17:03:51	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-06 17:03:57	+jpnurmi	MarkRS: that's the way it looks for me http://i.imgur.com/aN8yM1b.png
+2014-07-06 17:04:32	MarkRS	D*mn! What's different?
+2014-07-06 17:04:41	◣	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has quit (Remote host closed the connection)
+2014-07-06 17:05:00	MarkRS	It's quite possible I've messed up my Qt installation, but another developer has the same problem
+2014-07-06 17:05:15	+jpnurmi	MarkRS: could you try to figure out which qstyle your application is using?
+2014-07-06 17:05:37	MarkRS	Ok, hmm, where should I look?
+2014-07-06 17:05:38	+jpnurmi	what does "git grep setStyle" output?
+2014-07-06 17:05:55	◥	jamesson (~jamesson@pool-71-127-193-78.nwrknj.fios.verizon.net) has joined #qt
+2014-07-06 17:07:32	MarkRS	just looking
+2014-07-06 17:07:36	MarkRS	there are lots...
+2014-07-06 17:08:04	+jpnurmi	any QApplication::setStyle() or qApp->setStyle()?
+2014-07-06 17:08:26	◣	filipesaraiva (~filipe@124.127.96.2) has quit (Ping timeout: 260 seconds)
+2014-07-06 17:08:40	◥	Malsasa (~Malsasa@36.74.20.251) has joined #qt
+2014-07-06 17:10:16	◣	GinoMan_ (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-07-06 17:11:28	◥	filipesaraiva (~filipe@124.127.96.2) has joined #qt
+2014-07-06 17:12:11	MarkRS	ok, several style items,
+2014-07-06 17:12:37	◥	zhxt_lp (~zhxt@124.202.190.122) has joined #qt
+2014-07-06 17:13:02	◥	leinir_ (~leinir@amarok/usability/leinir) has joined #qt
+2014-07-06 17:13:44	MarkRS	http://pastebin.com/Q6tfeAgW Any of those relevant?
+2014-07-06 17:13:56	◣	leinir (~leinir@amarok/usability/leinir) has quit (Read error: No route to host)
+2014-07-06 17:14:13	+jpnurmi	MarkRS: yes, what's "st" in QApplication::setStyle(st); ?
+2014-07-06 17:14:22	ℹ 	leinir_ is now known as leinir
+2014-07-06 17:14:32	◥	DasMoehh (~lakdshkla@HSI-KBW-109-192-244-063.hsi6.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-06 17:14:45	MarkRS	"MgStyle* st = new MgStyle;"
+2014-07-06 17:14:49	◣	nodweber (~nodweber@5.178.135.214) has quit (Remote host closed the connection)
+2014-07-06 17:14:53	MarkRS	Looks like one of our classes... just looking
+2014-07-06 17:15:20	+jpnurmi	ok, so they have some sort of custom style implementation. that style is responsible for reporting where the spinbox sub controls (up and down buttons) are
+2014-07-06 17:15:39	◥	eklavya_ (~eklavya@183.83.213.114) has joined #qt
+2014-07-06 17:16:08	+jpnurmi	has it been used with qwidgets before? perhaps there's a cast to q(abstract)spinbox somewhere in the relevant piece of MgStyle?
+2014-07-06 17:16:30	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-06 17:16:55	MarkRS	I suspect it was a "this looks right" at the beginning, and hasn't been revisited. searching...
+2014-07-06 17:17:11	+jpnurmi	(now that it's a quick item, the qwidget-specific casts won't work - used to be a common problem with the built-in qt styles too)
+2014-07-06 17:17:44	MarkRS	that would make sense. This is a sectino that allows external QML scripts to be run
+2014-07-06 17:17:52	MarkRS	It's not had a lot of attention since it was built, I think
+2014-07-06 17:18:19	◣	Inkane (~quassel@p4FD77C9F.dip0.t-ipconnect.de) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2014-07-06 17:18:42	◣	larsivi (~quassel@nb41-54.static.cytanet.com.cy) has quit (Ping timeout: 255 seconds)
+2014-07-06 17:19:32	◥	jluc (~jluc@ADijon-651-1-141-175.w90-13.abo.wanadoo.fr) has joined #qt
+2014-07-06 17:20:47	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 252 seconds)
+2014-07-06 17:21:09	◣	jamesson (~jamesson@pool-71-127-193-78.nwrknj.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2014-07-06 17:22:31	◥	jamesson (~jamesson@pool-71-127-193-78.nwrknj.fios.verizon.net) has joined #qt
+2014-07-06 17:24:04	◥	Astronaut (~Astronaut@197.15.17.149) has joined #qt
+2014-07-06 17:25:26	◥	faichele (~quassel@p4FCCF377.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 17:28:32	◣	jluc (~jluc@ADijon-651-1-141-175.w90-13.abo.wanadoo.fr) has quit (Ping timeout: 248 seconds)
+2014-07-06 17:32:01	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-06 17:36:44	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2014-07-06 17:37:55	MarkRS	jpnurmi: I'm tyring to run the plugin to see where the spinner is drawn, but the QtCreator debugger seems to be getting
+2014-07-06 17:38:01	MarkRS	it looks like it's shifted base directory
+2014-07-06 17:38:18	◣	__positron2 (~positron@122.165.225.85) has quit (Ping timeout: 260 seconds)
+2014-07-06 17:38:20	MarkRS	is there an env variable that should be set for the project to anchor the debugger in the code tree?
+2014-07-06 17:39:18	◥	labsin (~labsin@91.176.230.175) has joined #qt
+2014-07-06 17:40:31	◥	anilsson (anilsson@nat/rim/x-gtzarqqzuikdqarh) has joined #qt
+2014-07-06 17:41:37	◥	marlo_ (~mark@pool-71-164-218-213.dllstx.fios.verizon.net) has joined #qt
+2014-07-06 17:45:46	◥	bhattigurjot (~bhattigur@117.199.101.82) has joined #qt
+2014-07-06 17:47:16	◥	cor3ntin (~coco@2a01:e35:2e93:6e00:5c21:3128:adfb:3c6e) has joined #qt
+2014-07-06 17:48:13	◥	mdw (55eb0370@gateway/web/freenode/ip.85.235.3.112) has joined #qt
+2014-07-06 17:48:19	◣	a-l-e (~quassel@ien11-h05-89-89-215-16.dsl.sta.abo.bbox.fr) has quit (Ping timeout: 252 seconds)
+2014-07-06 17:51:20	◣	cor3ntin (~coco@2a01:e35:2e93:6e00:5c21:3128:adfb:3c6e) has quit (Remote host closed the connection)
+2014-07-06 17:51:28	◣	TheHackOps (~thehackop@202-161-26-19.dyn.iinet.net.au) has quit (Ping timeout: 264 seconds)
+2014-07-06 17:51:38	mdw	can anyone help me with signals and slots on this code http://pastebin.com/acJDS2wZ  line 135. the slot does is never executed
+2014-07-06 17:52:21	◣	labsin (~labsin@91.176.230.175) has quit (Ping timeout: 260 seconds)
+2014-07-06 17:53:43	◥	cor3ntin (~coco@2a01:e35:2e93:6e00:8063:bf8c:b28c:1fbb) has joined #qt
+2014-07-06 17:55:28	◥	nodweber (~nodweber@5.178.135.214) has joined #qt
+2014-07-06 17:55:28	◥	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-06 17:58:46	richmoore3	mdw: your people class never emits foo, only your mainwindow class (which doesn't declare that signal so it can't work). you will have got an error at run time telling you this
+2014-07-06 17:59:18	mdw	richmoore3, thank you. it seems like the problem is solved now :)
+2014-07-06 18:00:16	◣	MAbeeTT (~MAbeeTT@190.179.217.228) has quit (Remote host closed the connection)
+2014-07-06 18:00:58	◥	Papierkorb (~papierkor@46.246.47.139) has joined #qt
+2014-07-06 18:01:38	◣	amizraa (~amizraa@gateway/tor-sasl/amizraa) has quit (Remote host closed the connection)
+2014-07-06 18:01:51	◣	mkeeter (~mkeeter@c-50-177-153-242.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2014-07-06 18:01:54	◣	piggz (~piggz@host-92-18-220-198.as13285.net) has quit (Ping timeout: 255 seconds)
+2014-07-06 18:02:01	◥	amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined #qt
+2014-07-06 18:02:27	◥	mkeeter (~mkeeter@2601:6:b80:5a:9c44:6529:aced:d495) has joined #qt
+2014-07-06 18:03:06	◥	ferdna (~ferdna@cpe-69-23-141-88.elp.res.rr.com) has joined #qt
+2014-07-06 18:03:46	◥	Leoneof (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-06 18:04:47	◣	poxip (~michal@77-254-130-176.adsl.inetia.pl) has quit (Ping timeout: 252 seconds)
+2014-07-06 18:05:48	◣	sbw (~sbw@125.76.181.237) has quit (Remote host closed the connection)
+2014-07-06 18:10:22	◥	jhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 18:11:20	◥	MAbeeTT (~MAbeeTT@190.179.217.228) has joined #qt
+2014-07-06 18:12:04	◣	mdw (55eb0370@gateway/web/freenode/ip.85.235.3.112) has quit (Ping timeout: 246 seconds)
+2014-07-06 18:13:43	◥	labsin (~labsin@91.176.230.175) has joined #qt
+2014-07-06 18:15:06	◣	lykurg (~Thunderbi@2001:a60:1825:9801:1c6b:9698:3f1a:b871) has quit (Quit: lykurg)
+2014-07-06 18:15:58	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-06 18:17:28	◣	aarontc (~aarontc@static-50-126-79-230.hlbo.or.frontiernet.net) has quit (Ping timeout: 272 seconds)
+2014-07-06 18:23:59	◥	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has joined #qt
+2014-07-06 18:25:19	◣	hz (~hz@unaffiliated/hz) has quit
+2014-07-06 18:26:36	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-06 18:26:45	◣	soulcake (~soulcake@unaffiliated/soulcake) has quit (Remote host closed the connection)
+2014-07-06 18:27:37	◥	nib (~nib@109.110.66.44) has joined #qt
+2014-07-06 18:28:05	◥	soulcake (~soulcake@unaffiliated/soulcake) has joined #qt
+2014-07-06 18:32:05	◥	iccanobif (iccanobif@host208-95-dynamic.56-82-r.retail.telecomitalia.it) has joined #qt
+2014-07-06 18:32:19	◥	andris (~andris@83.166.211.9) has joined #qt
+2014-07-06 18:33:56	◣	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has quit (Ping timeout: 252 seconds)
+2014-07-06 18:35:28	◥	jankos (~js@cpe-77.38.95.192.cable.t-1.si) has joined #qt
+2014-07-06 18:35:35	◣	labsin (~labsin@91.176.230.175) has quit (Ping timeout: 252 seconds)
+2014-07-06 18:35:45	nib	hi there after upgrading ubuntu from 12.04 to 14.04 I cant build Qt5 from git
+2014-07-06 18:36:02	◥	aarontc (~aarontc@static-50-126-79-230.hlbo.or.frontiernet.net) has joined #qt
+2014-07-06 18:36:36	nib	here is stderror output http://paste.kde.org/pwxf01v7h/hedoro/raw and some ldd examples
+2014-07-06 18:37:16	HuntsMan	nib: are you building from a clear source tree?
+2014-07-06 18:37:21	HuntsMan	s/clear/clean
+2014-07-06 18:37:46	nib	Ive tried passing -no-icu option but error remains
+2014-07-06 18:37:56	jhunold	you have to do a complete rebuild. 14.04 comes with newer icu. make distclean && configure should work
+2014-07-06 18:38:30	nib	HuntsMan: hi yep, Im building in separate library
+2014-07-06 18:38:40	nib	sorry /library/dir
+2014-07-06 18:39:26	◣	zhxt_lp (~zhxt@124.202.190.122) has quit (Quit: Konversation terminated!)
+2014-07-06 18:40:38	◥	Smookie|2 (~kvirc@77.70.32.240) has joined #qt
+2014-07-06 18:40:45	◥	Balzy (~Balzy@95.237.38.200) has joined #qt
+2014-07-06 18:41:29	◥	georgelappies (~quassel@41.13.86.130) has joined #qt
+2014-07-06 18:42:55	◥	Inkane (~quassel@p4FD77C9F.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 18:43:47	◣	Astronaut (~Astronaut@197.15.17.149) has quit (Remote host closed the connection)
+2014-07-06 18:44:20	◥	__positron (~positron@42.104.60.66) has joined #qt
+2014-07-06 18:44:43	◥	paullik (~paullik@unaffiliated/paullik) has joined #qt
+2014-07-06 18:45:19	◥	TGYoshi (~TGYoshi@86.81.146.146) has joined #qt
+2014-07-06 18:46:30	◣	florek (~quassel@chh97.neoplus.adsl.tpnet.pl) has quit (Read error: Connection reset by peer)
+2014-07-06 18:46:50	TGYoshi	Hey all, suppose I'd connect two signals (of the same class, different instance) to a single slot, is there any way I can detect <which> instance fired that signal?
+2014-07-06 18:47:16	nib	TGYoshi: over sender()
+2014-07-06 18:48:18	TGYoshi	Perfect, thanks!
+2014-07-06 18:49:07	◣	Balzy (~Balzy@95.237.38.200) has quit (Ping timeout: 272 seconds)
+2014-07-06 18:49:18	◥	GortiZ (~Thunderbi@151.60.166.242) has joined #qt
+2014-07-06 18:49:26	◣	mat^2 (~Mathias@87-55-0-192-dynamic.dk.customer.tdc.net) has quit (Read error: Connection reset by peer)
+2014-07-06 18:49:27	◥	Betal (~Beta@unaffiliated/betal) has joined #qt
+2014-07-06 18:49:41	◥	mat^2 (~Mathias@87-55-0-192-dynamic.dk.customer.tdc.net) has joined #qt
+2014-07-06 18:52:29	◥	szagul (~quassel@keller-server.de) has joined #qt
+2014-07-06 18:52:56	◣	georgelappies (~quassel@41.13.86.130) has quit (Remote host closed the connection)
+2014-07-06 18:53:51	◣	toothrot (~mux@unaffiliated/toothrot) has quit (Ping timeout: 248 seconds)
+2014-07-06 18:54:25	◥	eklavya__ (~eklavya@183.83.213.114) has joined #qt
+2014-07-06 18:55:28	◥	georgelappies (~quassel@41.13.86.130) has joined #qt
+2014-07-06 18:58:02	◥	Zagge (~quassel@HSI-KBW-46-223-228-13.hsi.kabel-badenwuerttemberg.de) has joined #qt
+2014-07-06 18:58:36	◣	eklavya_ (~eklavya@183.83.213.114) has quit (Ping timeout: 255 seconds)
+2014-07-06 18:59:39	◥	labsin (~labsin@91.176.230.175) has joined #qt
+2014-07-06 19:00:14	◥	Astronaut (~Astronaut@197.15.17.149) has joined #qt
+2014-07-06 19:00:50	◥	grewalkamal (~Kamalpree@14.98.230.185) has joined #qt
+2014-07-06 19:04:23	◥	AndreasL (~AndreasL@static243-178-146.mimer.net) has joined #qt
+2014-07-06 19:05:09	◣	smookie (~epic@77.70.32.240) has quit (Quit: bah vashta verica.. q sym qtak!)
+2014-07-06 19:05:28	◥	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has joined #qt
+2014-07-06 19:06:41	◣	a-l-e (~quassel@juv34-h04-89-89-215-16.dsl.sta.abo.bbox.fr) has quit (Ping timeout: 264 seconds)
+2014-07-06 19:06:49	◥	jluc (~jluc@ADijon-651-1-300-41.w109-221.abo.wanadoo.fr) has joined #qt
+2014-07-06 19:07:46	◣	grewalkamal (~Kamalpree@14.98.230.185) has quit (Quit: Leaving)
+2014-07-06 19:08:56	◥	a-l-e (~quassel@ien11-h05-89-89-215-16.dsl.sta.abo.bbox.fr) has joined #qt
+2014-07-06 19:08:58	◣	GortiZ (~Thunderbi@151.60.166.242) has quit (Quit: GortiZ)
+2014-07-06 19:09:46	◣	springermac (~quassel@74-44-224-164.dr01.bzwd.pa.frontiernet.net) has quit (Ping timeout: 240 seconds)
+2014-07-06 19:09:50	◥	TheBloke (~TomJ@host86-164-98-177.range86-164.btcentralplus.com) has joined #qt
+2014-07-06 19:10:14	◣	drgoebbels (~drgoebbel@ip70-189-120-114.ok.ok.cox.net) has quit (Ping timeout: 260 seconds)
+2014-07-06 19:11:05	◥	springermac (~quassel@173-85-172-8.dr01.bzwd.pa.frontiernet.net) has joined #qt
+2014-07-06 19:11:33	◥	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has joined #qt
+2014-07-06 19:12:03	◥	ZeuZ (~byakko@186.59.3.85) has joined #qt
+2014-07-06 19:12:03	◣	ZeuZ (~byakko@186.59.3.85) has quit (Changing host)
+2014-07-06 19:12:03	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-06 19:14:35	◥	saurabhsood91 (~saurabhso@106.51.242.176) has joined #qt
+2014-07-06 19:14:36	◣	saurabhsood91 (~saurabhso@106.51.242.176) has quit (Changing host)
+2014-07-06 19:14:36	◥	saurabhsood91 (~saurabhso@opensuse/member/saurabhsood91) has joined #qt
+2014-07-06 19:15:50	ferdna	i don't know if any of you have issues with fonts on qtcreator...
+2014-07-06 19:16:31	ferdna	i am using linux and qtcreator 3.1.1 64bit
+2014-07-06 19:17:00	ferdna	when i try to set fonts in my qlabel for example i just see a handful of fonts but not all fonts in my system...
+2014-07-06 19:17:46	◥	e8johan (~quassel@90-229-157-121-no198.tbcn.telia.com) has joined #qt
+2014-07-06 19:18:52	◣	Malsasa (~Malsasa@36.74.20.251) has quit (Remote host closed the connection)
+2014-07-06 19:20:15	◥	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has joined #qt
+2014-07-06 19:21:33	◣	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has quit (Ping timeout: 255 seconds)
+2014-07-06 19:22:59	◥	ZeuZ (~byakko@186.59.3.85) has joined #qt
+2014-07-06 19:23:00	◣	ZeuZ (~byakko@186.59.3.85) has quit (Changing host)
+2014-07-06 19:23:00	◥	ZeuZ (~byakko@unaffiliated/zeuz/x-778294) has joined #qt
+2014-07-06 19:23:36	◥	Snake2k (~snake2k@ip68-100-207-22.dc.dc.cox.net) has joined #qt
+2014-07-06 19:24:26	◥	piggz (~piggz@host-92-18-220-198.as13285.net) has joined #qt
+2014-07-06 19:25:09	◣	tokyopaul (~tokyopaul@p14006-ipngn3201marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 255 seconds)
+2014-07-06 19:25:19	◥	c10ud (~c10ud@host86-126-dynamic.6-79-r.retail.telecomitalia.it) has joined #qt
+2014-07-06 19:25:21	◣	c10ud (~c10ud@host86-126-dynamic.6-79-r.retail.telecomitalia.it) has quit (Changing host)
+2014-07-06 19:25:21	◥	c10ud (~c10ud@emesene/dictator/c10ud) has joined #qt
+2014-07-06 19:28:30	◣	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has quit (Quit: This computer has gone to sleep)
+2014-07-06 19:30:05	◣	GinoMan (~quassel@pool-96-245-210-69.phlapa.fios.verizon.net) has quit (Ping timeout: 264 seconds)
+2014-07-06 19:31:04	◥	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has joined #qt
+2014-07-06 19:31:04	◣	jhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has quit (Read error: Connection reset by peer)
+2014-07-06 19:32:25	◥	jhunold (~hunold@pD9E046B5.dip0.t-ipconnect.de) has joined #qt
+2014-07-06 19:33:05	◣	Notimik (~anders@c-dc93e555.027-61-73746f44.cust.bredbandsbolaget.se) has quit (Remote host closed the connection)
+2014-07-06 19:34:59	nib	after rebuilding clean qt5 cloned from gitorious Ive same errors:/
+2014-07-06 19:35:27	◣	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has quit (Client Quit)
+2014-07-06 19:36:14	◥	esing (~es@unaffiliated/esing) has joined #qt
+2014-07-06 19:36:50	◣	paullik (~paullik@unaffiliated/paullik) has quit (Quit: paullik)
+2014-07-06 19:37:07	◥	Leoneof` (~Leoneof@unaffiliated/leoneof) has joined #qt
+2014-07-06 19:38:37	◣	uvatbc (~uv@c-174-62-108-5.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-07-06 19:39:54	◥	uvatbc (~uv@c-174-62-108-5.hsd1.ca.comcast.net) has joined #qt
+2014-07-06 19:39:56	ferdna	nib, are you getting stable?
+2014-07-06 19:39:59	ferdna	branch
+2014-07-06 19:40:09	◣	Ankhers (~user@gateway/tor-sasl/ankhers) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2014-07-06 19:40:47	◣	Leoneof (~Leoneof@unaffiliated/leoneof) has quit (Ping timeout: 248 seconds)
+2014-07-06 19:40:57	◥	Ankhers (~user@gateway/tor-sasl/ankhers) has joined #qt
+2014-07-06 19:41:02	nib	ferdna: nope, dev
+2014-07-06 19:41:14	ferdna	that may be your problem...
+2014-07-06 19:41:49	nib	ferdna: Ill try stable, thank you
+2014-07-06 19:41:55	◥	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has joined #qt
+2014-07-06 19:45:25	◣	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has quit (Client Quit)
+2014-07-06 19:46:18	◥	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has joined #qt
+2014-07-06 19:46:39	◣	__positron (~positron@42.104.60.66) has quit (Ping timeout: 264 seconds)
+2014-07-06 19:50:31	◥	asido (~nobody@212.130.110.166) has joined #qt
+2014-07-06 19:50:46	◣	labsin (~labsin@91.176.230.175) has quit (Ping timeout: 240 seconds)
+2014-07-06 19:50:48	◣	christoffer (~christoff@2a00:865:3b1b:ae58:716c:42a1:8e3d:2693) has quit (Quit: Leaving)
+2014-07-06 19:50:48	◣	ynonp (~ynonperek@85-250-112-104.bb.netvision.net.il) has quit (Client Quit)
+2014-07-06 19:52:59	◣	jaafar (~quassel@adsl-76-234-120-223.dsl.pltn13.sbcglobal.net) has quit (Remote host closed the connection)
+2014-07-06 19:53:15	◣	[1]asido (~nobody@cpc67973-seac23-2-0-cust23.7-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2014-07-06 21:51:51	ℹ 	irc: disconnected from server
+2014-07-06 21:52:10	◥	body (~body@95.233.43.36) has joined #qt
+2014-07-06 21:52:10	ℹ 	Topic for #qt is "Latest Qt: 5.3.1 & 4.8.6 | Bugs: bugreports.qt-project.org | Off-topic: #qt-chat | See also: #qt-creator #qt-quick http://qt-project.org/wiki/OnlineCommunities"
+2014-07-06 21:52:10	ℹ 	Topic set by peppe (peppe@unaffiliated/peppe) on Wed, 25 Jun 2014 13:12:09
+2014-07-06 21:52:10	ℹ 	Channel #qt: 580 nicks (2 ops, 6 voices, 572 normals)
+2014-07-06 21:52:10	ℹ 	PvNotice(ChanServ): Here are the rules for #qt: (1) Don't just join, ask, and quit - stay around and answer questions yourself! (2) Be patient, people may not see your question right away.
+2014-07-06 21:52:10	ℹ 	URL for #qt: http://qt-project.org
+2014-07-06 21:52:20	ℹ 	Mode #qt [+cnt]
+2014-07-06 21:52:20	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:42

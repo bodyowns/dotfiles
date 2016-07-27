@@ -1,0 +1,146 @@
+2014-06-18 23:49:48	◥	body (~body@host251-102-dynamic.54-79-r.retail.telecomitalia.it) has joined #bspwm
+2014-06-18 23:49:48	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2014-06-18 23:49:48	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 19:12:02
+2014-06-18 23:49:48	ℹ 	Channel #bspwm: 28 nicks (0 ops, 0 voices, 28 normals)
+2014-06-18 23:49:48	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-06-18 23:49:48	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-06-18 23:49:51	ℹ 	Mode #bspwm [+cnt]
+2014-06-18 23:49:51	ℹ 	Channel created on Wed, 06 Nov 2013 18:59:37
+2014-06-18 23:50:01	body	hello, where can i find a tutorial how can i install bspwm ?
+2014-06-18 23:59:25	earsplit	https://wiki.archlinux.org/index.php/Bspwm#See_also
+2014-06-18 23:59:33	earsplit	body: check the see also
+2014-06-19 00:00:10	body	earsplit: thank you :)
+2014-06-19 00:00:40	body	earsplit: uh, hi now i see who i'm talking too, i was always a fan of you theming :D 
+2014-06-19 00:01:03	body	i use xmonad now, and use alot of thing from you configuration that's great
+2014-06-19 00:01:09	body	now i want to switch to bspwm
+2014-06-19 00:01:10	body	:D
+2014-06-19 00:02:30	body	brb :P
+2014-06-19 00:02:41	ℹ 	irc: disconnected from server
+2014-06-19 00:04:00	◥	body (~body@host251-102-dynamic.54-79-r.retail.telecomitalia.it) has joined #bspwm
+2014-06-19 00:04:00	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2014-06-19 00:04:00	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 19:12:02
+2014-06-19 00:04:00	ℹ 	Channel #bspwm: 28 nicks (0 ops, 0 voices, 28 normals)
+2014-06-19 00:04:00	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-06-19 00:04:00	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-06-19 00:04:01	body	back
+2014-06-19 00:04:08	ℹ 	Mode #bspwm [+cnt]
+2014-06-19 00:04:08	ℹ 	Channel created on Wed, 06 Nov 2013 18:59:37
+2014-06-19 00:04:56	body	earsplit: i can start my bspwm , only that i don't get a bar
+2014-06-19 00:05:36	earsplit	:D
+2014-06-19 00:05:40	body	earsplit: i followed you tutorial, but .. this one https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies
+2014-06-19 00:06:05	earsplit	did you do this part? https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies#configuration-1
+2014-06-19 00:06:55	body	earsplit: here i think i'm stuck
+2014-06-19 00:07:42	earsplit	where are you stuck?
+2014-06-19 00:08:00	body	earsplit:  i copyed from your dotfiles, panel and panel_bar, 1 sec let me look exactly where i put them
+2014-06-19 00:09:11	earsplit	it says in that tutorial
+2014-06-19 00:09:38	body	earsplit: same as yours in ~/.config/bspwm/panel/ , now how i have to put this line ? Add this directory to your $PATH using export PATH=$PATH:/path/to/panel/scripts
+2014-06-19 00:10:20	body	i have to put it in ~/.zprofile , as PATH=$PATH:~/.config/bspwm/panel/ ?
+2014-06-19 00:10:33	body	with export in front of /
+2014-06-19 00:10:35	body	earsplit: 
+2014-06-19 00:11:15	body	export PATH=$PATH:~/.config/bspwm/panel/
+2014-06-19 00:11:17	body	like this ?
+2014-06-19 00:11:59	earsplit	i'd do export PATH=$PATH:/home/USERNAME/.config/bspwm/panel/
+2014-06-19 00:13:13	body	earsplit: ok ,let me try i'll be back in a sec
+2014-06-19 00:13:16	ℹ 	irc: disconnected from server
+2014-06-19 00:16:57	◥	body (~body@host251-102-dynamic.54-79-r.retail.telecomitalia.it) has joined #bspwm
+2014-06-19 00:16:58	ℹ 	Topic for #bspwm is ""BSPWM support channel""
+2014-06-19 00:16:58	ℹ 	Topic set by earsplit (~sunn@pool-96-246-172-70.nwrknj.fios.verizon.net) on Wed, 06 Nov 2013 19:12:02
+2014-06-19 00:16:58	ℹ 	Channel #bspwm: 28 nicks (0 ops, 0 voices, 28 normals)
+2014-06-19 00:16:58	ℹ 	Notice(morgan.freenode.net): [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2014-06-19 00:16:58	ℹ 	PvNotice(ChanServ): "Welcome to the bspwm support channel. Mailing list:'bspwm at librelist.com', Tutorial: 'https://github.com/windelicato/dotfiles/wiki/bspwm-for-dummies'"
+2014-06-19 00:16:58	ℹ 	URL for #bspwm: https://github.com/baskerville/bspwm
+2014-06-19 00:16:59	ℹ 	Mode #bspwm [+cnt]
+2014-06-19 00:16:59	ℹ 	Channel created on Wed, 06 Nov 2013 18:59:37
+2014-06-19 00:17:04	body	earsplit: nope no bar.. :\
+2014-06-19 00:17:11	body	i can start the bar manualy ?
+2014-06-19 00:19:05	earsplit	yeah
+2014-06-19 00:19:17	earsplit	type "panel"
+2014-06-19 00:19:43	body	[body @ archlinux] /home/body > panel
+2014-06-19 00:19:43	body	[1]    32710 terminated  panel
+2014-06-19 00:20:11	body	but no pannel appears earsplit 
+2014-06-19 00:22:08	earsplit	panel >> panel.log 2>&1
+2014-06-19 00:22:19	earsplit	ps aux | grep panel
+2014-06-19 00:23:32	body	earsplit: http://nopaste.info/88fc998199.html
+2014-06-19 00:24:23	earsplit	are you using the example one from the bspwm repo?
+2014-06-19 00:25:38	body	earsplit: i'm using your panel and panel_bar
+2014-06-19 00:27:12	earsplit	echo $PANEL_FIFO
+2014-06-19 00:28:20	◣	Plippz (~ploppz@ti0276a430-1209.bb.online.no) has quit (Quit: WeeChat 0.4.3)
+2014-06-19 00:28:39	body	[body @ archlinux] /home/body > echo $PANEL_FIFO
+2014-06-19 00:28:39	body	/tmp/panel-fifo
+2014-06-19 00:28:49	body	[body @ archlinux] /tmp > cat panel-fifo 
+2014-06-19 00:28:49	body	WMLVDS-1-0:OI:fII:fIII:fIV:fV:fVI:fVII:fVIII:fIX:fX:Ltiled
+2014-06-19 00:29:38	earsplit	ok cool
+2014-06-19 00:29:47	body	there is WMLVDS-1-0 , it may be wrong ? i have the xorg output as LVDS-1-0
+2014-06-19 00:30:25	earsplit	conky ~/.config/bspwm/panel/panel_conky
+2014-06-19 00:30:37	earsplit	*
+2014-06-19 00:30:45	earsplit	conky -c ~/.config/bspwm/panel/panel_conky
+2014-06-19 00:32:27	body	earsplit: http://nopaste.info/5e363ebaa0.html
+2014-06-19 00:32:57	body	but doesn't start anything
+2014-06-19 00:33:01	body	on the screen
+2014-06-19 00:33:24	earsplit	well two things
+2014-06-19 00:33:32	earsplit	i just updated my scripts to support the most recent version of BAR
+2014-06-19 00:33:46	body	let me get you script again than
+2014-06-19 00:34:11	earsplit	you might need to change the font to something you have on your system
+2014-06-19 00:34:46	earsplit	you did install bar, no?
+2014-06-19 00:34:49	earsplit	"which bar"
+2014-06-19 00:37:21	body	earsplit: this one ? -> https://github.com/LemonBoy/bar.git
+2014-06-19 00:37:26	◥	Ploppz (~ploppz@ti0276a430-1209.bb.online.no) has joined #bspwm
+2014-06-19 00:37:58	earsplit	yeah
+2014-06-19 00:46:43	body	earsplit: sry, my parents came home, yes i installed it
+2014-06-19 00:47:15	body	let me install it again
+2014-06-19 00:48:23	body	earsplit: installed..
+2014-06-19 00:48:46	body	hmm now it's telling me about the font let me se
+2014-06-19 00:48:54	body	when i start panel
+2014-06-19 00:49:26	body	ah earsplit can you tell me please, how can i see the font line i have to put in with fontname****blabla***iso ?
+2014-06-19 00:49:33	body	i use monace for example
+2014-06-19 00:49:36	body	monaco
+2014-06-19 00:49:49	earsplit	monaco is an xft font right?
+2014-06-19 00:50:55	body	monaco.ttf
+2014-06-19 00:51:07	tuftedocelot	xfontsel will give you what you need. Unless you know a faster way, earsplit
+2014-06-19 00:51:28	earsplit	yeah i dont think BAR supports aliased fonts
+2014-06-19 00:52:15	earsplit	https://github.com/LemonBoy/bar/issues/9
+2014-06-19 00:53:34	body	hmmm earsplit can you share with me your fonts pls ? so i can check if it work
+2014-06-19 00:53:35	body	?
+2014-06-19 00:55:04	◣	arlefreak (~arlefreak@2801:f0:20:da0:4eeb:42ff:fe52:2cef) has quit (Ping timeout: 240 seconds)
+2014-06-19 00:55:55	earsplit	https://aur.archlinux.org/packages/stlarch_icons/
+2014-06-19 00:56:17	earsplit	https://github.com/Lokaltog/lokaltog-fonts
+2014-06-19 00:56:43	earsplit	copy the bdf / pcfs into ~/.fonts
+2014-06-19 00:56:52	earsplit	cd ~/.fonts && mkfontdir
+2014-06-19 00:57:02	earsplit	xset +fp ~/.fonts && xset fp rehash
+2014-06-19 00:57:08	earsplit	those last two should go in your xinitrc
+2014-06-19 00:57:32	body	ok thank you, 1 sec 
+2014-06-19 01:01:02	◣	Ploppz (~ploppz@ti0276a430-1209.bb.online.no) has quit (Quit: goodnight)
+2014-06-19 01:01:03	tuftedocelot	Well, I feel a bit foolish now. Submitted a pull request to baskerville to update panel_colors for the bar alpha channel change and I didn't check to see if dzen would work after making the changes
+2014-06-19 01:01:05	body	earsplit: ok, done, i need 1 more this,  -misc-stlarch-medium-r-norma
+2014-06-19 01:01:54	body	aaah, you gave me the icons links, i got this, there is fonts too in aur
+2014-06-19 01:02:36	earsplit	found it here: https://github.com/allinurl/dwm/blob/master/fonts/stlarch.pcf
+2014-06-19 01:03:02	earsplit	should be the same font
+2014-06-19 01:07:40	body	earsplit: oh.... now i don't get any error for font but when i start panel didn't show it
+2014-06-19 01:07:51	body	[body @ archlinux] /home/body/.fonts > panel      
+2014-06-19 01:07:51	body	[1]    32416 terminated  panel
+2014-06-19 01:08:39	body	i can give you if you want some remote ... ? :D
+2014-06-19 01:08:51	body	if you'd like
+2014-06-19 01:10:12	earsplit	is bar installed?
+2014-06-19 01:10:45	◥	arlefreak (~arlefreak@2801:f0:20:da0:4eeb:42ff:fe52:2cef) has joined #bspwm
+2014-06-19 01:11:03	earsplit	 cat "$PANEL_FIFO" | ./panel_bar | bar
+2014-06-19 01:12:05	body	[body @ archlinux] /home/body/.fonts > cat "$PANEL_FIFO" | ./panel_bar | bar
+2014-06-19 01:12:05	body	zsh: no such file or directory: ./panel_bar
+2014-06-19 01:12:10	earsplit	well
+2014-06-19 01:12:22	earsplit	cd ~/.config/bspwm/panel
+2014-06-19 01:12:24	earsplit	and then that
+2014-06-19 01:20:03	body	earsplit: [body @ archlinux] /home/body/.config/bspwm/panel > panel
+2014-06-19 01:20:03	body	Conky: forked to background, pid is 2706
+2014-06-19 01:20:03	body	[1]    2689 terminated  panel
+2014-06-19 01:20:07	body	doh :\
+2014-06-19 01:20:25	body	i did cat "$PANEL_FIFO" | ./panel_bar | bar , again , and it's all right, no output
+2014-06-19 01:22:13	earsplit	it sounds like you should take a look at the example scripts and learn how they work
+2014-06-19 01:22:22	earsplit	get the example ones up and running
+2014-06-19 01:22:33	earsplit	and then just pull over pieces of mine
+2014-06-19 01:22:48	body	ok, let me try take they're examples
+2014-06-19 01:22:55	earsplit	i dont think mine are necessarily copy and paste friendly
+2014-06-19 01:23:22	earsplit	i think dotfiles should be used as backups and examples for ideas
+2014-06-19 01:24:37	earsplit	i've gotta head home from work
+2014-06-19 01:25:15	body	ok, thank you very much for helping me
+2014-06-19 01:26:26	earsplit	good luck i'll be in here tomorrow
+2014-06-19 01:32:12	◣	earsplit (~sunn@pool-72-69-37-92.nycmny.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-06-19 01:37:52	◣	arlefreak (~arlefreak@2801:f0:20:da0:4eeb:42ff:fe52:2cef) has quit (Ping timeout: 240 seconds)

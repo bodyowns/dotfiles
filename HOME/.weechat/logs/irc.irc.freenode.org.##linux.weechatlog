@@ -1,0 +1,2087 @@
+2014-08-06 19:33:50	◥	body (~body@host235-10-dynamic.183-80-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:33:50	ℹ 	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-08-06 19:33:50	ℹ 	Topic set by WildPikachu on Sat, 28 Dec 2013 17:22:52
+2014-08-06 19:33:50	ℹ 	Channel ##linux: 1536 nicks (0 ops, 0 voices, 1536 normals)
+2014-08-06 19:33:50	ℹ 	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-08-06 19:33:50	ℹ 	URL for ##linux: http://www.linuxassist.net
+2014-08-06 19:33:52	ℹ 	Mode ##linux [+CPcnpt]
+2014-08-06 19:33:52	ℹ 	Channel created on Sat, 10 Feb 2001 01:16:24
+2014-08-06 19:33:53	◥	oldtopman (~oldtopman@unaffiliated/oldtopman) has joined ##linux
+2014-08-06 19:33:57	body	hi, i'm tring to install on my desktop pc arch, buy i don't have internet connection, if i type ifconfig , shows me only the "lo" │ Aleks
+2014-08-06 19:33:57	body	                  ╡ , in lspci it shows the network card, wich is 01:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM57760 Gigabit        │ alem0lars
+2014-08-06 19:34:03	f3lix	FlashDel: Either EXT4 or btrfs, so that you can get TRIM support
+2014-08-06 19:34:07	SP33D	can any one in here help me with some ideas about how to create a minimal distro that supports only one linux application writen in go lang?
+2014-08-06 19:34:14	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2014-08-06 19:34:15	◥	contempt (contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 19:34:19	SP33D	something that will fit in uner 50mb
+2014-08-06 19:34:29	SP33D	with current 3.16 kernel?
+2014-08-06 19:34:39	◥	Roots47 (~Roots47@c-73-47-60-105.hsd1.ma.comcast.net) has joined ##linux
+2014-08-06 19:34:52	SP33D	at present we use TCL but arn't happy with the concepts
+2014-08-06 19:34:58	◣	Jafura (~Jean-Fran@2a02:2788:114:11ce:60f2:1641:b402:7a60) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:35:04	f3lix	FlashDel: Make sure ext4 is mounted with "discard" option, btrfs with "ssd" option (in fstab). Although I do believe btrfs automatically recognizes SSDs now.
+2014-08-06 19:35:11	SP33D	but something that is more debian style will be good
+2014-08-06 19:35:12	◥	Asiajey (~Asiajey@unaffiliated/asiajey) has joined ##linux
+2014-08-06 19:35:28	f3lix	btrfs is really sweet, if you use a distro with a recent kernel, such as Ubuntu
+2014-08-06 19:35:29	◥	gcbirzan_ (~gcbirzan@90-154-146-239.btc-net.bg) has joined ##linux
+2014-08-06 19:35:29	◣	converge (~converge@unaffiliated/joaop) has quit (Quit: Leaving...)
+2014-08-06 19:35:31	FlashDel	f3lix: great, thats what i thought, too :-) Any recommandation about the distro?
+2014-08-06 19:35:42	◣	KingOfKarlsruhe (~KingOfKar@unaffiliated/kingofkarlsruhe) has quit (Quit: ZNC - http://znc.in)
+2014-08-06 19:36:06	f3lix	I personally used Kubuntu rather than Ubuntu, until I switched to OS X on my laptop. Now I just use Ubuntu for my server needs
+2014-08-06 19:36:10	body	hi, i'm tring to install on my desktop pc arch, buy i don't have internet connection, if i type ifconfig , shows me only the "lo" if i type  lspci it shows the network card, wich is 01:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM57760 Gigabit Ethernet PCIe (rev 01) , what can i  do ?
+2014-08-06 19:36:11	◣	zalatovo (~zalatovo@D97B2628.cm-3-4a.dynamic.ziggo.nl) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 19:36:14	f3lix	Try both :)
+2014-08-06 19:36:14	diegoviola	how's the btrfs performance for daily use these days?
+2014-08-06 19:36:29	FlashDel	f3lix: although i guess that with kernel 3.7 JFS and XFS are supported, too
+2014-08-06 19:36:31	diegoviola	has it been reliable for you?
+2014-08-06 19:36:36	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:36:57	f3lix	diegoviola: In my tests with servers running cassandra, it was a bit slower than XFS and ext4, but not a lot, and the benefits are awesome
+2014-08-06 19:37:02	◥	KingOfKarlsruhe (~KingOfKar@unaffiliated/kingofkarlsruhe) has joined ##linux
+2014-08-06 19:37:07	◥	mintgreen (~rampageRi@unaffiliated/rampageripper) has joined ##linux
+2014-08-06 19:37:08	FlashDel	f3lix: ok, i guess ubuntu with lxde or something similar would be fast
+2014-08-06 19:37:15	f3lix	So far, yes. And in my hobby use it has been great, too
+2014-08-06 19:37:17	◥	sandman13 (~sandman@202.51.84.66) has joined ##linux
+2014-08-06 19:37:20	◥	brightkill (~brightkil@95.153.207.189) has joined ##linux
+2014-08-06 19:37:23	f3lix	FlashDel: definitely very fast
+2014-08-06 19:37:24	◣	Prokofiev (~Prokofiev@ip68-102-159-83.ks.ok.cox.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 19:37:34	f3lix	Lubuntu is with LXDE IIRC
+2014-08-06 19:37:49	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:38:01	◣	rdbell (~rdbell@99-100-152-93.lightspeed.irvnca.sbcglobal.net) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 19:38:07	◥	quake_guy (~brett@gos-bketter-d3.uwm.edu) has joined ##linux
+2014-08-06 19:38:08	SP33D	btrfs is not useable
+2014-08-06 19:38:10	◣	strugart (~strugart@181.167.101.13) has quit (Read error: Connection reset by peer)
+2014-08-06 19:38:19	f3lix	SP33D: since when? and how?
+2014-08-06 19:38:21	spreeuw	stick to ext4 or xfs
+2014-08-06 19:38:25	◣	mintgreen (~rampageRi@unaffiliated/rampageripper) has quit (Client Quit)
+2014-08-06 19:38:36	◥	rdbell (~rdbell@99-100-152-93.lightspeed.irvnca.sbcglobal.net) has joined ##linux
+2014-08-06 19:38:38	◥	archtimmy (~archtimmy@unaffiliated/archtimmy) has joined ##linux
+2014-08-06 19:39:03	◥	strugart (~strugart@181.167.101.13) has joined ##linux
+2014-08-06 19:39:03	◣	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 19:39:07	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:39:08	FlashDel	i have to say, that i never dealt with btrfs but i will have a look on it
+2014-08-06 19:39:14	◥	davispuh (~quassel@212.93.100.73) has joined ##linux
+2014-08-06 19:39:42	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:39:45	f3lix	I've used btrfs on my workstation without issues years ago before there was even an fsck ready
+2014-08-06 19:39:51	SP33D	redhat payed 2010 Edward Shishkin on of the main raiser ext fs coders
+2014-08-06 19:39:57	SP33D	for a code review of btrfs
+2014-08-06 19:39:59	◣	Alina-malina (Alina-mali@unaffiliated/alina-malina) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:40:00	f3lix	It's much more stable these days
+2014-08-06 19:40:24	SP33D	he found that the main algorythms don't get followed so it comes to situations where the disks thinks its full but it isnt
+2014-08-06 19:40:30	SP33D	the main concept is wrong
+2014-08-06 19:40:46	FlashDel	f3lix:  but there is no stable version these days?
+2014-08-06 19:41:07	◣	novik (~phirt@unaffiliated/hauptstrasse) has quit (Ping timeout: 250 seconds)
+2014-08-06 19:41:13	SP33D	there is at all only one FS needed in production :D
+2014-08-06 19:41:27	◣	DadFoundMy (~DadFoundM@125.89.56.107) has quit (Ping timeout: 260 seconds)
+2014-08-06 19:41:36	f3lix	the size reporting is way off, that's true, but it's not a bug, and it has no effect to your daily use. they're simply trying to figure out how to properly report disk usage when dealing with snapshots, shallow copies, and compression. no bigge.
+2014-08-06 19:41:41	◣	shovel_boss (~shovel_bo@unaffiliated/shovel-boss/x-4881665) has quit (Ping timeout: 260 seconds)
+2014-08-06 19:41:57	◥	mechanicalduck_ (~mechanica@ip-109-45-3-90.web.vodafone.de) has joined ##linux
+2014-08-06 19:42:08	◥	Alina-malina (Alina-mali@unaffiliated/alina-malina) has joined ##linux
+2014-08-06 19:42:21	◥	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has joined ##linux
+2014-08-06 19:42:30	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 19:42:32	f3lix	FlashDel: that's true, I'm just talking about personal experience here. You always need to take backups regularly, but once you do, you can afford a little "adventure" ;)
+2014-08-06 19:42:46	◥	shovel_boss (~shovel_bo@unaffiliated/shovel-boss/x-4881665) has joined ##linux
+2014-08-06 19:42:47	◥	mattallmill (1000@129.130.175.191) has joined ##linux
+2014-08-06 19:42:57	spreeuw	Psi-Jack: it needs a patch on amd64
+2014-08-06 19:43:00	f3lix	Or you could use zfs, which indeed still is the last word in filesystems. I use that on my home server, and it's beyond fantastic
+2014-08-06 19:43:07	◣	WildPikachu (~nkukard@about/linux/staff/wildpikachu) has quit (Quit: Leaving)
+2014-08-06 19:43:18	◣	rdbell (~rdbell@99-100-152-93.lightspeed.irvnca.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2014-08-06 19:43:28	SP33D	there are commercial file systems that beat zfs
+2014-08-06 19:43:29	◣	SS3 (~SS3@69.Red-79-145-110.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:43:34	◣	Arse_ (~Arse_@unaffiliated/arse/x-6693333) has quit (Quit: If life hands you melons, you might be dyslexic.)
+2014-08-06 19:43:35	f3lix	But it's not as fast as any of the others (on Linux anyway), and installing root on it is tricky
+2014-08-06 19:43:42	f3lix	SP33D: name it
+2014-08-06 19:43:47	◥	CDrone (~CDrone@unaffiliated/cdrone) has joined ##linux
+2014-08-06 19:44:00	CDrone	hello, can someone help me with this: http://pastie.org/9450638
+2014-08-06 19:44:05	◣	BluesKaj (~kaj@unaffiliated/blueskaj) has quit (Quit: Konversation terminated!)
+2014-08-06 19:44:08	◥	deadmund (~ed@th136-2.cs.wm.edu) has joined ##linux
+2014-08-06 19:44:25	spreeuw	Psi-Jack: http://pastebin.com/TEnbSCF2 smbc iconv amd64 smb commander
+2014-08-06 19:44:26	CDrone	I wanted to understand what does this line do: "strings "$JOBDATA/$dataset" >"$JOBOUT/$dataset""
+2014-08-06 19:44:35	◣	contempt (contempt@unaffiliated/contempt) has quit (Ping timeout: 250 seconds)
+2014-08-06 19:44:39	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-06 19:44:47	◣	nct (~nct@softbank126027026238.bbtec.net) has quit (Quit: Leaving...)
+2014-08-06 19:44:52	deadmund	What is wrong with this zip command? zip -O backup  -r -binary *  I'm getting an error that says "missing end signature--probably not a zip file" which doesn't make any sense because there is no existing .zip file
+2014-08-06 19:45:27	◣	anaeem1 (~anaeem1@119.157.0.117) has quit (Remote host closed the connection)
+2014-08-06 19:45:29	body	hi, i'm tring to install on my desktop pc arch, buy i don't have internet connection, if i type ifconfig , shows me only the "lo" if i type  lspci it shows the network card, wich is 01:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM57760 Gigabit Ethernet PCIe (rev 01) , what can i  do ?
+2014-08-06 19:45:30	◣	mechanicalduck (~mechanica@37-1-162-187.ip.skylogicnet.com) has quit (Ping timeout: 264 seconds)
+2014-08-06 19:45:34	FlashDel	f3lix: its just my private notebook, i want to make some experiments, surfing, watching videos, so i guess i will try it
+2014-08-06 19:46:22	f3lix	FlashDel: good for you :) it's cool! And it's the only good fs besides zfs on linux that supports on-the-fly compression
+2014-08-06 19:46:27	SP33D	FlashDel Try ext4 on a ssd raid
+2014-08-06 19:46:45	SP33D	with a good mainboard that will answer your performance questions
+2014-08-06 19:46:57	FlashDel	SP33D: i am poor ;-)
+2014-08-06 19:47:22	◣	ovrflw0x (~ovrflw0x@unaffiliated/ovrflw0x) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 19:47:22	SP33D	i am too :(
+2014-08-06 19:47:28	◥	robarelli (~robarelli@24.244.23.51) has joined ##linux
+2014-08-06 19:47:59	FlashDel	body: try -> modprobe tg3 and after that -> ifconfig eth0 up
+2014-08-06 19:48:07	◥	e2718 (~hdesk@p4FD36CE1.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 19:48:07	SP33D	the day will come one day in our lifes we get the richest people on earth :D
+2014-08-06 19:48:26	◣	_Nicco (~Nicco@78-70-113-225-no155.tbcn.telia.com) has quit (Quit: Leaving)
+2014-08-06 19:48:37	◥	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has joined ##linux
+2014-08-06 19:48:41	body	FlashDel: let me see
+2014-08-06 19:48:49	◣	crystal77 (~crystal77@66.162.212.19) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 19:49:02	◥	ovrflw0x (~ovrflw0x@unaffiliated/ovrflw0x) has joined ##linux
+2014-08-06 19:49:08	◥	leviathanch (~quassel@174-227.197-178.cust.bluewin.ch) has joined ##linux
+2014-08-06 19:49:38	◥	contempt (contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 19:50:19	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:50:20	body	FlashDel: no such device
+2014-08-06 19:50:26	body	FlashDel: doesn't recognize it
+2014-08-06 19:50:41	body	yey
+2014-08-06 19:50:44	body	rmmod tg3
+2014-08-06 19:50:47	◥	ovrflw0x_ (~ovrflw0x@unaffiliated/ovrflw0x) has joined ##linux
+2014-08-06 19:50:52	body	modprobe tg3 and now it's up
+2014-08-06 19:51:02	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:51:02	◣	ovrflw0x (~ovrflw0x@unaffiliated/ovrflw0x) has quit (Read error: Connection reset by peer)
+2014-08-06 19:51:05	◣	Extensa5630G (~Hassoon@unaffiliated/hassen) has quit (Quit: Leaving)
+2014-08-06 19:51:16	body	thank you ! 
+2014-08-06 19:51:18	◣	mchy (marek@nat/redhat/x-innyczsvcpxvezqn) has quit (Remote host closed the connection)
+2014-08-06 19:51:18	◣	ojdo (~ojdo@unaffiliated/ojdo) has quit (Read error: Connection reset by peer)
+2014-08-06 19:51:21	FlashDel	body: yey, that would have been my next suggestion
+2014-08-06 19:51:46	◣	angs (~ubuntu@85.235.3.114) has quit (Quit: Leaving)
+2014-08-06 19:51:51	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:51:52	◣	robarelli (~robarelli@24.244.23.51) has quit (Ping timeout: 245 seconds)
+2014-08-06 19:52:03	◣	ovrflw0x_ (~ovrflw0x@unaffiliated/ovrflw0x) has quit (Client Quit)
+2014-08-06 19:52:07	◣	AnilV4 (~AnilV@49.248.158.39) has quit (Ping timeout: 272 seconds)
+2014-08-06 19:52:12	◥	ojdo (~ojdo@unaffiliated/ojdo) has joined ##linux
+2014-08-06 19:52:12	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:52:39	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:52:46	◣	mven_ (~textual@ip68-104-38-84.lv.lv.cox.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-08-06 19:53:00	◥	BigBangUDR (~Thunderbi@115.247.251.99) has joined ##linux
+2014-08-06 19:53:03	◥	Amanas (~Amanas@208.118.226.102) has joined ##linux
+2014-08-06 19:53:45	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:53:46	◥	anaeem1 (~anaeem1@119.157.0.117) has joined ##linux
+2014-08-06 19:53:51	◣	leviathanch (~quassel@174-227.197-178.cust.bluewin.ch) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:53:56	◥	ovrflw0x (~ovrflw0x@unaffiliated/ovrflw0x) has joined ##linux
+2014-08-06 19:53:59	pandatomik	hello guys, i'm writing this bash script http://pastebin.com/vnfeGKjY to ensure there is only one process with name insync running and it always exits 2, i guessed the value of foo is wrong cause when i set "$foo"!=1 i get the exit 0
+2014-08-06 19:54:10	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:54:31	◣	anaeem1 (~anaeem1@119.157.0.117) has quit (Remote host closed the connection)
+2014-08-06 19:54:46	◥	crystal77 (~crystal77@66.162.212.19) has joined ##linux
+2014-08-06 19:54:46	◥	momomomomo (~momomomom@38.126.164.90) has joined ##linux
+2014-08-06 19:55:01	◣	cocotton (~cocotton@207.236.152.130) has quit (Read error: Connection reset by peer)
+2014-08-06 19:55:09	◥	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 19:55:12	◣	snow4life (~snow4life@host95-243-dynamic.7-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2014-08-06 19:55:14	pandatomik	Does someone happen to know if i wrote something horrible or what?
+2014-08-06 19:55:27	◣	loomsen (~loomsen@gateway/tor-sasl/loomsen) has quit (Quit: Leaving)
+2014-08-06 19:55:32	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 19:55:43	◥	mchy (marek@nat/redhat/x-kultimkjqflhialz) has joined ##linux
+2014-08-06 19:55:45	◥	deck__ (~hypo@109-184-115-79.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 19:56:09	◥	madprops (~yo@ip217-135-15-186.ct.co.cr) has joined ##linux
+2014-08-06 19:56:29	◣	mozzarel1 (~sam113101@modemcable157.235-58-74.mc.videotron.ca) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 19:56:48	◥	mozzarella (~sam113101@unaffiliated/sam113101) has joined ##linux
+2014-08-06 19:57:21	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 19:57:28	◣	BelegCuthalion (~quassel@wlan225227.mobiel.utwente.nl) has quit (Ping timeout: 256 seconds)
+2014-08-06 19:57:30	◣	mechanicalduck_ (~mechanica@ip-109-45-3-90.web.vodafone.de) has quit (Ping timeout: 264 seconds)
+2014-08-06 19:57:35	◥	Elektro121 (~Elektro@ARennes-656-1-278-50.w109-218.abo.wanadoo.fr) has joined ##linux
+2014-08-06 19:57:45	◥	WildPikachu (~WildPikac@shell.devnet.iitsp.com) has joined ##linux
+2014-08-06 19:58:08	◣	nsh (~nsh@host86-158-74-88.range86-158.btcentralplus.com) has quit (Changing host)
+2014-08-06 19:58:09	◥	nsh (~nsh@wikipedia/nsh) has joined ##linux
+2014-08-06 19:58:42	◥	Extensa5630G (~hassoon@unaffiliated/hassen) has joined ##linux
+2014-08-06 19:58:47	◣	contempt (contempt@unaffiliated/contempt) has quit (Remote host closed the connection)
+2014-08-06 19:58:47	◣	Deck` (~hypo@95-37-120-67.dynamic.mts-nn.ru) has quit (Ping timeout: 240 seconds)
+2014-08-06 19:58:59	◣	trueneu (~textual@77.88.2.248-spb.dhcp.yndx.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-08-06 19:59:00	◥	JeanCarloMachado (~JeanCarlo@201-89-154-188.cslce700.dsl.brasiltelecom.net.br) has joined ##linux
+2014-08-06 19:59:12	◥	contempt (contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 19:59:14	◥	Kicer86 (~Kicer86@109241199226.rudaslaska.vectranet.pl) has joined ##linux
+2014-08-06 19:59:15	◣	BigBangUDR (~Thunderbi@115.247.251.99) has quit (Quit: BigBangUDR)
+2014-08-06 19:59:18	◥	bedo (~iirc@nat-88-212-45-7.antik.sk) has joined ##linux
+2014-08-06 19:59:19	◣	Deck_ (~hypo@95-37-120-67.dynamic.mts-nn.ru) has quit (Ping timeout: 250 seconds)
+2014-08-06 19:59:19	◥	sifar (~CD@117.221.229.80) has joined ##linux
+2014-08-06 19:59:20	◣	_lunatic (~lunatic@87-205-141-154.adsl.inetia.pl) has quit (Quit: Lost terminal)
+2014-08-06 19:59:24	◥	mechanicalduck (~mechanica@ip-109-45-3-90.web.vodafone.de) has joined ##linux
+2014-08-06 19:59:25	◥	Deck` (~hypo@109-184-106-88.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 19:59:39	◣	bedo (~iirc@nat-88-212-45-7.antik.sk) has left ##linux
+2014-08-06 19:59:45	◥	Deck_ (~hypo@109-184-106-88.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 20:00:09	◥	bedo (~iirc@nat-88-212-45-7.antik.sk) has joined ##linux
+2014-08-06 20:00:19	archtimmy	pandatomik: use pgrep insted
+2014-08-06 20:00:29	◣	bedo (~iirc@nat-88-212-45-7.antik.sk) has quit (Remote host closed the connection)
+2014-08-06 20:01:16	archtimmy	as in: if [ $(pgrep -cx insync) -eq 1 ] ; then exit 0 ; else exit 2 ; fi
+2014-08-06 20:01:19	◣	amizraa (~amizraa@gateway/tor-sasl/amizraa) has quit (Read error: Connection reset by peer)
+2014-08-06 20:01:47	◣	deck__ (~hypo@109-184-115-79.dynamic.mts-nn.ru) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:01:47	◣	zxjcarrot (~zxjcarrot@112.10.7.12) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:01:52	pandatomik	i'll try right away
+2014-08-06 20:01:53	◥	DadFoundMy (~DadFoundM@125.89.56.107) has joined ##linux
+2014-08-06 20:02:02	◥	deck__ (~hypo@79-126-11-162.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 20:02:04	◥	Nhyteborn (~Nhyteborn@203.110.240.200) has joined ##linux
+2014-08-06 20:02:10	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:02:16	◣	ailin_ (~ailin@scooter183.informatik.uni-leipzig.de) has quit (Quit: leaving)
+2014-08-06 20:02:16	◥	BluesKaj (~kaj@bas7-sudbury98-2925209226.dsl.bell.ca) has joined ##linux
+2014-08-06 20:02:16	◣	BluesKaj (~kaj@bas7-sudbury98-2925209226.dsl.bell.ca) has quit (Changing host)
+2014-08-06 20:02:16	◥	BluesKaj (~kaj@unaffiliated/blueskaj) has joined ##linux
+2014-08-06 20:02:34	◥	amizraa (~amizraa@gateway/tor-sasl/amizraa) has joined ##linux
+2014-08-06 20:02:36	◥	icarus (~icarus@unaffiliated/icarus-/x-7520418) has joined ##linux
+2014-08-06 20:02:40	◣	bal (~Thunderbi@86.125.63.66) has quit (Quit: bal)
+2014-08-06 20:02:52	◥	kristofe_ (~kristofer@cag06-7-83-153-87-168.fbx.proxad.net) has joined ##linux
+2014-08-06 20:03:27	◣	mechanicalduck (~mechanica@ip-109-45-3-90.web.vodafone.de) has quit (Client Quit)
+2014-08-06 20:03:31	◣	madprops (~yo@ip217-135-15-186.ct.co.cr) has quit (Ping timeout: 272 seconds)
+2014-08-06 20:03:52	◣	somerandomnick12 (~a@gatej.mh.bbc.co.uk) has quit (Quit: This computer has gone to sleep)
+2014-08-06 20:04:06	pandatomik	working fine now thx, though i'd like to understand why the command with standard grep was working in terminal
+2014-08-06 20:04:21	◥	mechanicalduck (~mechanica@ip-109-45-3-90.web.vodafone.de) has joined ##linux
+2014-08-06 20:04:40	◥	Eins_ (~eins_@187.205.46.116) has joined ##linux
+2014-08-06 20:04:47	◣	Deck_ (~hypo@109-184-106-88.dynamic.mts-nn.ru) has quit (Ping timeout: 245 seconds)
+2014-08-06 20:04:50	◣	kristofers (~kristofer@2a01:e35:3995:7a80:84a5:12d2:1c6:73ac) has quit (Ping timeout: 256 seconds)
+2014-08-06 20:04:51	◥	manguero (~dom@ip68-227-131-166.br.br.cox.net) has joined ##linux
+2014-08-06 20:05:19	◥	somerandomnick12 (~a@gatej.thls.bbc.co.uk) has joined ##linux
+2014-08-06 20:05:20	◥	TomyLobo (~TomyLobo@91-65-115-103-dynip.superkabel.de) has joined ##linux
+2014-08-06 20:05:25	◣	Deck` (~hypo@109-184-106-88.dynamic.mts-nn.ru) has quit (Ping timeout: 272 seconds)
+2014-08-06 20:05:31	◥	novik (~phirt@unaffiliated/hauptstrasse) has joined ##linux
+2014-08-06 20:05:52	◣	Eins_ (~eins_@187.205.46.116) has quit (Remote host closed the connection)
+2014-08-06 20:05:53	◣	jjavaholic (~jjavaholi@grahamg63.plus.com) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:06:17	◣	JeanCarloMachado (~JeanCarlo@201-89-154-188.cslce700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:06:24	◥	JeanCarloMachado (~JeanCarlo@201-89-158-210.cslce700.dsl.brasiltelecom.net.br) has joined ##linux
+2014-08-06 20:06:45	archtimmy	what is your script called?
+2014-08-06 20:06:47	◣	deck__ (~hypo@79-126-11-162.dynamic.mts-nn.ru) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:07:07	◣	contempt (contempt@unaffiliated/contempt) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:07:13	◥	converge (~converge@unaffiliated/joaop) has joined ##linux
+2014-08-06 20:07:20	◥	michimuellae (~michimuel@pD9F8682C.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 20:07:26	◥	A124 (~Username@unaffiliated/a124) has joined ##linux
+2014-08-06 20:07:30	pandatomik	insync.sh, actually its made as a nagios plugin
+2014-08-06 20:07:39	◣	DadFoundMy (~DadFoundM@125.89.56.107) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:07:44	pandatomik	i use it as such should i say
+2014-08-06 20:08:07	◣	hoppi (~hoppi@31.6.30.151) has quit (Ping timeout: 245 seconds)
+2014-08-06 20:08:09	◥	d1ngell (~d1ngell@189.114.6.122) has joined ##linux
+2014-08-06 20:08:11	◥	DadFoundMy (~DadFoundM@125.89.56.107) has joined ##linux
+2014-08-06 20:08:14	pandatomik	but i checked with other numbers like 2 and 3 cause i guessed the scripts and grep might show in the processes
+2014-08-06 20:08:15	◥	contempt (~contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 20:08:26	◥	d1ngell_ (~d1ngell@189.114.6.122) has joined ##linux
+2014-08-06 20:08:38	archtimmy	that's probably the problem
+2014-08-06 20:08:42	pandatomik	yeah
+2014-08-06 20:08:48	◣	d1ngell_ (~d1ngell@189.114.6.122) has quit (Remote host closed the connection)
+2014-08-06 20:09:05	◥	BigBangUDR (~Thunderbi@115.247.251.99) has joined ##linux
+2014-08-06 20:09:12	pandatomik	maybe i should change the name its possible the script is run multiple times by nagios
+2014-08-06 20:09:17	archtimmy	pgrep avoids the grep process showing up due to arguments, and -x matches only the exact name
+2014-08-06 20:09:22	pandatomik	didnt think about that
+2014-08-06 20:09:31	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 20:09:34	◥	hoppi (~hoppi@31.6.44.144) has joined ##linux
+2014-08-06 20:09:42	pandatomik	thanks for the explanation
+2014-08-06 20:09:48	◥	du5tball (~du5tball@ppp-93-104-158-38.dynamic.mnet-online.de) has joined ##linux
+2014-08-06 20:10:15	◣	Saubatzen (~sad@dslb-188-104-213-208.188.104.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:10:22	◥	DanNL (~DanNL@wikipedia/-12345danNL) has joined ##linux
+2014-08-06 20:10:27	◥	metheo_irc (~metheo_ir@gw.rascom.ru) has joined ##linux
+2014-08-06 20:10:37	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-06 20:10:51	◣	jcmb (~jmartinez@193.35.11.113) has quit (Quit: Leaving.)
+2014-08-06 20:11:58	◣	top4o (~chatzilla@93.152.162.95) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140605174243])
+2014-08-06 20:12:33	◥	Deck` (~hypo@82-208-125-58.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 20:13:00	◣	f3lix (~Adium@cpe.xe-2-0-1-3271.bynqe10.dk.customer.tdc.net) has quit (Quit: Leaving.)
+2014-08-06 20:13:19	◥	ryaxnb (~ryaxnb@mobile-198-228-213-050.mycingular.net) has joined ##linux
+2014-08-06 20:13:25	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-06 20:13:28	◣	BigBangUDR (~Thunderbi@115.247.251.99) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:13:58	◣	jargon (~jargon@unaffiliated/jargon-) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:14:10	◣	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has quit (Quit: Nettalk6 - www.ntalk.de)
+2014-08-06 20:14:28	◥	AnilV4 (~AnilV@49.248.157.20) has joined ##linux
+2014-08-06 20:14:33	◥	jeffree (~jeffree@unaffiliated/jeffree) has joined ##linux
+2014-08-06 20:14:42	◣	|oop (~loop@165.sub-174-227-0.myvzw.com) has quit (Ping timeout: 245 seconds)
+2014-08-06 20:15:53	◣	otherflow (~otherflow@unaffiliated/otherflow) has quit (Quit: Quitte)
+2014-08-06 20:15:59	◥	Malsasa_ (~Malsasa@36.81.101.190) has joined ##linux
+2014-08-06 20:16:06	◥	Saubatzen (~sad@dslb-188-104-199-114.188.104.pools.vodafone-ip.de) has joined ##linux
+2014-08-06 20:16:12	◣	hoppi (~hoppi@31.6.44.144) has quit (Remote host closed the connection)
+2014-08-06 20:16:14	◣	Malsasa (~Malsasa@36.81.104.45) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:16:19	◣	mechanicalduck (~mechanica@ip-109-45-3-90.web.vodafone.de) has quit (Read error: Connection reset by peer)
+2014-08-06 20:16:31	◥	frankyboy_ (~franky@ppp91-77-75-241.pppoe.mtu-net.ru) has joined ##linux
+2014-08-06 20:16:36	◥	Batze (~sad@dslb-188-104-199-114.188.104.pools.vodafone-ip.de) has joined ##linux
+2014-08-06 20:16:49	◥	aeil (~Adium@111-251-180-169.dynamic.hinet.net) has joined ##linux
+2014-08-06 20:17:11	◣	grubles (~grubles@unaffiliated/grubles) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:17:23	◣	contempt (~contempt@unaffiliated/contempt) has quit (Remote host closed the connection)
+2014-08-06 20:17:27	◥	mechanicalduck (~mechanica@37-1-162-187.ip.skylogicnet.com) has joined ##linux
+2014-08-06 20:17:48	◥	contempt (contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 20:17:49	◣	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has quit (Ping timeout: 244 seconds)
+2014-08-06 20:17:59	◣	converge (~converge@unaffiliated/joaop) has quit (Quit: Leaving...)
+2014-08-06 20:18:30	◥	ACiDC0re (~ACiD@176.10.107.229) has joined ##linux
+2014-08-06 20:18:30	◥	|REM| (~REM@50.86.22.28) has joined ##linux
+2014-08-06 20:18:39	◣	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:19:06	◣	DadFoundMy (~DadFoundM@125.89.56.107) has quit (Ping timeout: 264 seconds)
+2014-08-06 20:19:08	◥	princess1eah (~PrincessL@jonathan-dayton.dreamhost.com) has joined ##linux
+2014-08-06 20:19:18	◣	bearish (~bearish@89.108.91.250) has quit (Remote host closed the connection)
+2014-08-06 20:19:20	◥	grubles (~grubles@unaffiliated/grubles) has joined ##linux
+2014-08-06 20:19:36	◣	mspe (~mspe@2205ds5-od.0.fullrate.dk) has quit (Remote host closed the connection)
+2014-08-06 20:19:47	◥	bearish (~bearish@89.108.91.250) has joined ##linux
+2014-08-06 20:20:08	◥	mspe (~mspe@2205ds5-od.0.fullrate.dk) has joined ##linux
+2014-08-06 20:20:10	◥	manlin (~manlin@213.83.73.2) has joined ##linux
+2014-08-06 20:20:19	◥	DacFarren (~anon@200.41.55.194) has joined ##linux
+2014-08-06 20:20:29	◣	bcd (~bcd@albundy.hq.mendix.net) has quit (Remote host closed the connection)
+2014-08-06 20:20:34	◥	mafuba (~kvirc@mail2.iqprojects.pl) has joined ##linux
+2014-08-06 20:20:53	◣	WildPikachu (~WildPikac@shell.devnet.iitsp.com) has quit (Quit: Pika pikachu pika pi)
+2014-08-06 20:21:04	◣	DanNL (~DanNL@wikipedia/-12345danNL) has quit (Quit: Leaving)
+2014-08-06 20:21:06	◥	DadFoundMy (~DadFoundM@27.100.18.106) has joined ##linux
+2014-08-06 20:21:12	◥	WildPikachu (~WildPikac@about/linux/staff/wildpikachu) has joined ##linux
+2014-08-06 20:21:57	LinuxBot	[FORUMS] I just posted topic "How to think like open source pioneer Michael Tiemann (Opensource.com)" in the forums - http://tinyurl.com/lrmuhh4
+2014-08-06 20:22:08	◣	somerandomnick12 (~a@gatej.thls.bbc.co.uk) has quit (Quit: This computer has gone to sleep)
+2014-08-06 20:22:18	◥	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has joined ##linux
+2014-08-06 20:23:20	◥	\0x6c\0x65\0x6f (c660b4f5@gateway/web/cgi-irc/kiwiirc.com/ip.198.96.180.245) has joined ##linux
+2014-08-06 20:23:23	◣	su (cbf79598@gateway/web/freenode/ip.203.247.149.152) has quit (Ping timeout: 246 seconds)
+2014-08-06 20:23:41	◥	Tulug (~androirc@178.162.205.27) has joined ##linux
+2014-08-06 20:23:52	◣	princess1eah (~PrincessL@jonathan-dayton.dreamhost.com) has quit (Client Quit)
+2014-08-06 20:23:52	\0x6c\0x65\0x6f	hey... i want a cronjob that runs every first monday of every month at 3:01am... is this the best solution? 1 3 1-7 * 1
+2014-08-06 20:23:56	◣	Tulug (~androirc@178.162.205.27) has left ##linux
+2014-08-06 20:24:01	◣	bearish (~bearish@89.108.91.250) has quit (Ping timeout: 244 seconds)
+2014-08-06 20:24:18	◥	jgulingan (~jgulingan@198.73.209.1) has joined ##linux
+2014-08-06 20:24:29	◥	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has joined ##linux
+2014-08-06 20:24:36	◥	RickyB98 (RickyB98@gateway/shell/yourbnc/x-jzwffflfiirezpuc) has joined ##linux
+2014-08-06 20:24:36	◣	RickyB98 (RickyB98@gateway/shell/yourbnc/x-jzwffflfiirezpuc) has quit (Changing host)
+2014-08-06 20:24:36	◥	RickyB98 (RickyB98@mediawiki/rickyb98) has joined ##linux
+2014-08-06 20:24:40	◣	mspe (~mspe@2205ds5-od.0.fullrate.dk) has quit (Ping timeout: 256 seconds)
+2014-08-06 20:24:55	LinuxBot	Did you know ##Linux had forums? Maybe no one online can help right now, or you feel like discussing a certain topic and getting a wider audience across timezones, perhaps you came across something you want to share in a persistent fashion? Our forums may just be for you, http://forums.linuxassist.net
+2014-08-06 20:25:07	◥	zadock (~zadock@5-13-155-74.residential.rdsnet.ro) has joined ##linux
+2014-08-06 20:25:18	◣	crystal77 (~crystal77@66.162.212.19) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 20:25:25	◣	michimuellae (~michimuel@pD9F8682C.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:25:45	◥	tuxcrafter (~root@ebony.powercraft.nl) has joined ##linux
+2014-08-06 20:25:48	◥	somerandomnick12 (~a@gatej.mh.bbc.co.uk) has joined ##linux
+2014-08-06 20:25:53	◥	rihbyne (~rihbyne@115.69.254.227) has joined ##linux
+2014-08-06 20:25:54	◣	claymore (~claymore@unaffiliated/claymore) has quit (Quit: Leaving)
+2014-08-06 20:25:56	◣	EW8GU (admin@ho.by) has quit (Read error: No route to host)
+2014-08-06 20:26:01	◣	rtykey (~rtycn@49.64.144.22) has quit (Quit: Leaving.)
+2014-08-06 20:26:16	◣	ailin (~ailin@scooter183.informatik.uni-leipzig.de) has quit (Quit: leaving)
+2014-08-06 20:26:23	◥	marklite (croftworth@gateway/shell/yourbnc/x-smrqtgvomeqyvors) has joined ##linux
+2014-08-06 20:26:44	◥	converge (~converge@unaffiliated/joaop) has joined ##linux
+2014-08-06 20:27:00	tuxcrafter	echo noop > /sys/block/sdc/queue/scheduler
+2014-08-06 20:27:21	tuxcrafter	how can i get that nicely on everyboot in sysctrl
+2014-08-06 20:27:26	◣	contempt (contempt@unaffiliated/contempt) has quit (Remote host closed the connection)
+2014-08-06 20:27:26	◥	shaolin (~quassel@inet-nat.tos.helsenord.no) has joined ##linux
+2014-08-06 20:27:30	tuxcrafter	or should i just add it to rc.local....
+2014-08-06 20:27:51	◥	contempt (contempt@unaffiliated/contempt) has joined ##linux
+2014-08-06 20:27:52	tuxcrafter	sysctl -a | grep scheduler does not showed anything
+2014-08-06 20:27:54	◥	Davide (~username@adsl-ull-198-209.46-151.net24.it) has joined ##linux
+2014-08-06 20:28:24	◣	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has quit (Client Quit)
+2014-08-06 20:28:36	◥	polardroid (~chatzilla@173-31-235-131.client.mchsi.com) has joined ##linux
+2014-08-06 20:28:45	◥	b1n4ry (~b1n4ry@123.201.112.189) has joined ##linux
+2014-08-06 20:29:45	◥	inode33 (~quassel@unaffiliated/inode33) has joined ##linux
+2014-08-06 20:30:03	◣	HALEB0B (~HALEB0B@unaffiliated/haleb0b) has quit (Quit: Leaving.)
+2014-08-06 20:30:08	◥	ramses (~ramses@93.99.186.48) has joined ##linux
+2014-08-06 20:30:42	◣	Guest82440 (~matt@ccpc-mwr.bath.ac.uk) has left ##linux
+2014-08-06 20:30:56	◣	alanpearce (~alanpearc@141.0.61.154) has quit
+2014-08-06 20:31:01	◥	HelperW____ (~HelperW@remote.castel.be) has joined ##linux
+2014-08-06 20:31:05	◣	5EXAALQVU (~pchero@109.70.54.56) has quit (Remote host closed the connection)
+2014-08-06 20:31:08	◥	matt_ (~matt@ccpc-mwr.bath.ac.uk) has joined ##linux
+2014-08-06 20:31:19	◣	jgulingan (~jgulingan@198.73.209.1) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 20:32:00	◥	Jafura (~Jean-Fran@2a02:2788:114:11ce:71ad:25b:cc6a:89ee) has joined ##linux
+2014-08-06 20:32:01	◥	EW8GU (admin@ho.by) has joined ##linux
+2014-08-06 20:32:31	◥	michimuellae (~michimuel@p4FDFDBD6.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 20:32:36	◥	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has joined ##linux
+2014-08-06 20:32:48	◥	mquin_ (~mquin@freenode/staff/mquin) has joined ##linux
+2014-08-06 20:32:51	◥	maestrojed (~maestroje@173-8-213-38-Oregon.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 20:33:22	◣	mquin (~mquin@freenode/staff/mquin) has quit (Read error: Connection reset by peer)
+2014-08-06 20:33:28	◣	Davide (~username@adsl-ull-198-209.46-151.net24.it) has left ##linux
+2014-08-06 20:33:36	◥	eblip (~jasonthom@213.86.100.4) has joined ##linux
+2014-08-06 20:33:47	◣	yeticry (~yeticry@60.168.82.166) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:33:54	ℹ 	joeyk_ is now known as zer0python
+2014-08-06 20:34:02	◣	Ro_ (~chatzilla@81-7-79-246.static.zebra.lt) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 31.0/20140717120014])
+2014-08-06 20:34:06	◥	KnightRadiant (~KnightRad@27.97.193.85) has joined ##linux
+2014-08-06 20:34:23	◥	hoppi (~hoppi@31.6.44.144) has joined ##linux
+2014-08-06 20:34:25	◣	marklite (croftworth@gateway/shell/yourbnc/x-smrqtgvomeqyvors) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:34:35	◣	HelperW____ (~HelperW@remote.castel.be) has quit (Client Quit)
+2014-08-06 20:34:38	◥	notore_ (~notore@kerala.cs.man.ac.uk) has joined ##linux
+2014-08-06 20:34:41	◣	HelperW___ (~HelperW@remote.castel.be) has quit (Ping timeout: 264 seconds)
+2014-08-06 20:35:09	◥	HelperW____ (~HelperW@remote.castel.be) has joined ##linux
+2014-08-06 20:35:12	◣	eblip (~jasonthom@213.86.100.4) has left ##linux
+2014-08-06 20:35:17	◣	RickyB98 (RickyB98@mediawiki/rickyb98) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:35:43	◥	yeticry (~yeticry@60.168.90.112) has joined ##linux
+2014-08-06 20:37:07	◣	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:37:10	◣	notore_ (~notore@kerala.cs.man.ac.uk) has left ##linux
+2014-08-06 20:38:11	◣	polardroid (~chatzilla@173-31-235-131.client.mchsi.com) has left ##linux
+2014-08-06 20:38:17	◣	stackyism (~Thunderbi@14.139.122.114) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:38:27	◥	obelix_ (~obelix@200.119.17.74) has joined ##linux
+2014-08-06 20:38:50	◣	jacobs_ (~jacobs@mail.koiru.com) has quit (Ping timeout: 256 seconds)
+2014-08-06 20:38:51	◣	AnilV4 (~AnilV@49.248.157.20) has quit (Ping timeout: 260 seconds)
+2014-08-06 20:39:27	◣	mquin_ (~mquin@freenode/staff/mquin) has quit (Read error: Connection reset by peer)
+2014-08-06 20:39:29	◣	Elektro121 (~Elektro@ARennes-656-1-278-50.w109-218.abo.wanadoo.fr) has quit (Quit: Leaving.)
+2014-08-06 20:39:31	◣	HelperW____ (~HelperW@remote.castel.be) has quit (Ping timeout: 244 seconds)
+2014-08-06 20:40:19	◥	mquin (~mquin@freenode/staff/mquin) has joined ##linux
+2014-08-06 20:40:45	◥	newbie999 (~me@unaffiliated/newbie999) has joined ##linux
+2014-08-06 20:41:16	◥	crystal77 (~crystal77@66.162.212.19) has joined ##linux
+2014-08-06 20:41:24	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-06 20:41:31	◥	kahtahs (~kahtahs@unaffiliated/shathak) has joined ##linux
+2014-08-06 20:41:45	◣	d1ngell (~d1ngell@189.114.6.122) has quit (Remote host closed the connection)
+2014-08-06 20:41:53	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has left ##linux
+2014-08-06 20:41:59	◥	d1ngell (~d1ngell@189.114.6.122) has joined ##linux
+2014-08-06 20:42:10	◣	m8 (~m8@unaffiliated/m8) has quit (Quit: Sto andando via)
+2014-08-06 20:42:12	◥	Laif (~mp@unaffiliated/laif) has joined ##linux
+2014-08-06 20:42:13	◥	SAngeli (~SAngeli@host242-77-static.82-94-b.business.telecomitalia.it) has joined ##linux
+2014-08-06 20:42:22	◣	hoppi (~hoppi@31.6.44.144) has quit (Remote host closed the connection)
+2014-08-06 20:42:29	◣	mhcerri (~Marcelo_C@191.32.201.104) has quit (Ping timeout: 264 seconds)
+2014-08-06 20:42:52	◣	\0x6c\0x65\0x6f (c660b4f5@gateway/web/cgi-irc/kiwiirc.com/ip.198.96.180.245) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-08-06 20:42:58	◥	mhcerri (~Marcelo_C@191.32.200.240) has joined ##linux
+2014-08-06 20:43:01	◥	nanicoar (~n@87-92-148-237.bb.dnainternet.fi) has joined ##linux
+2014-08-06 20:43:06	◣	ToAruShiroiNeko (~admin@wikimedia/ToAruShiroiNeko) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:43:11	◣	JeanCarloMachado (~JeanCarlo@201-89-158-210.cslce700.dsl.brasiltelecom.net.br) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:43:11	◣	kermit (unknown@pdpc/supporter/bronze/kermit) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:43:27	◥	JeanCarloMachado (~JeanCarlo@201-89-154-251.cslce700.dsl.brasiltelecom.net.br) has joined ##linux
+2014-08-06 20:43:32	◣	metheo_irc (~metheo_ir@gw.rascom.ru) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2014-08-06 20:43:45	◣	r420r (isaacbsd@unaffiliated/r420r) has quit (Ping timeout: 260 seconds)
+2014-08-06 20:44:44	◥	skinp (~skinp@unaffiliated/skinp) has joined ##linux
+2014-08-06 20:44:45	◥	JosephBergevin (~quassel@50-198-176-93-static.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 20:45:12	◥	Lug (~crash_log@213.222.6.109.rev.sfr.net) has joined ##linux
+2014-08-06 20:45:30	◥	HALEB0B (~HALEB0B@unaffiliated/haleb0b) has joined ##linux
+2014-08-06 20:45:41	◣	cocotton (~cocotton@207.236.152.130) has quit (Remote host closed the connection)
+2014-08-06 20:45:44	nanicoar	Hello! Can someone point me towards more detailed documenentation on single user mode, and tty?
+2014-08-06 20:47:48	Jabberwock	http://lmgtfy.com/?q=linux+single+user+mode
+2014-08-06 20:48:03	◣	Rokixz (~rokas@hst-252-242.splius.lt) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:48:12	◥	Snake2k (~snake2k@ip68-100-207-22.dc.dc.cox.net) has joined ##linux
+2014-08-06 20:48:17	◥	Rokixz (~rokas@hst-252-242.splius.lt) has joined ##linux
+2014-08-06 20:48:36	◥	visseroth (~Thunderbi@208.81.157.22) has joined ##linux
+2014-08-06 20:49:03	◣	DadFoundMy (~DadFoundM@27.100.18.106) has quit (Ping timeout: 240 seconds)
+2014-08-06 20:49:16	◣	maestrojed (~maestroje@173-8-213-38-Oregon.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 20:49:21	◣	alextai (~kvirc@31.210.180.72) has quit (Quit: KVIrc 4.3.1 Aria http://www.kvirc.net/)
+2014-08-06 20:49:45	◣	sifar (~CD@117.221.229.80) has quit (Ping timeout: 272 seconds)
+2014-08-06 20:49:46	rihbyne	hello everyone,I am running ubuntu 14.04 LTS.my primary use case is development.my system is quad-core amd x64 with 8 gigs of RAM.I dont have any problems,everything runs smooth but my primary memory does leverage 8 gigs.Max peak is 2GB when I am running my IDE.I want to know is there a option of leveraging 8 gigs RAM effectively.I have heard about ZFS.Do you guys know anything that is worth considering ?
+2014-08-06 20:49:47	nanicoar	Jabberwock: I'm looking to understand it more deeply than the simple instructions.
+2014-08-06 20:50:42	nanicoar	rihbyne: "uname -a"?
+2014-08-06 20:51:20	◥	MoonUnit` (~MoonUnit@217.155.33.24) has joined ##linux
+2014-08-06 20:52:02	rihbyne	Linux xyz 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+2014-08-06 20:52:12	rihbyne	nanicoar: ^
+2014-08-06 20:53:15	◥	LeBlaaanc (323a0299@gateway/web/freenode/ip.50.58.2.153) has joined ##linux
+2014-08-06 20:53:24	◣	ghostlines (~ghostline@095-097-139-090.static.chello.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-08-06 20:53:33	◥	Joschii (~joschii@185.13.106.91) has joined ##linux
+2014-08-06 20:53:48	◣	Manny (~quassel@14.139.122.114) has quit (Read error: Connection reset by peer)
+2014-08-06 20:54:01	LeBlaaanc	Can I rely on cron running a task at the 0 and 30 of every hour?
+2014-08-06 20:54:03	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-06 20:54:09	LeBlaaanc	with 0,30 * * * *
+2014-08-06 20:54:35	◥	sifar (~CD@117.203.66.224) has joined ##linux
+2014-08-06 20:54:46	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 20:54:47	◥	sifar_ (~CD@117.203.66.224) has joined ##linux
+2014-08-06 20:54:53	◣	cocotton (~cocotton@207.236.152.130) has quit (Remote host closed the connection)
+2014-08-06 20:55:02	◥	Rukh (~just_rukh@213.222.6.109.rev.sfr.net) has joined ##linux
+2014-08-06 20:55:08	nanicoar	rihbyne: well you have not installed 32-bit by mistake... Is your problem that you want it to load system memory full of tools on boot like Solaris does?
+2014-08-06 20:55:20	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 20:55:29	◣	sifar_ (~CD@117.203.66.224) has quit (Remote host closed the connection)
+2014-08-06 20:55:34	◣	Rukh (~just_rukh@213.222.6.109.rev.sfr.net) has left ##linux
+2014-08-06 20:55:36	rihbyne	nanicoar: my machine is 64 bit
+2014-08-06 20:55:54	◣	SAngeli (~SAngeli@host242-77-static.82-94-b.business.telecomitalia.it) has quit (Quit: Sto andando via)
+2014-08-06 20:56:00	◣	Manny (~quassel@14.139.122.114) has quit (Read error: Connection reset by peer)
+2014-08-06 20:56:06	◥	mspe (~mspe@2205ds5-od.0.fullrate.dk) has joined ##linux
+2014-08-06 20:56:14	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-06 20:56:17	◣	LongCatTH (~LongCatTH@unaffiliated/longcatth) has quit (Ping timeout: 264 seconds)
+2014-08-06 20:56:21	◥	taloszer_ (~taloszerg@2602:302:d3d:2df0:f1fb:32e2:908d:586) has joined ##linux
+2014-08-06 20:56:31	◣	inode33 (~quassel@unaffiliated/inode33) has quit (Remote host closed the connection)
+2014-08-06 20:56:54	◣	JimmyNeutron (~Jimmy@70-35-54-38.static.wiline.com) has quit (Ping timeout: 272 seconds)
+2014-08-06 20:57:45	◣	Nhyteborn (~Nhyteborn@203.110.240.200) has quit (Quit: Leaving)
+2014-08-06 20:58:00	◥	top4o (~chatzilla@93.152.162.95) has joined ##linux
+2014-08-06 20:58:01	◣	tuocuggino (~tuocuggin@host226-174-dynamic.17-79-r.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2014-08-06 20:58:08	rihbyne	 nanicoar I ran openIndiana on oracle vm its great for leveraging system capabilities but its normally for enterprise.
+2014-08-06 20:58:12	◥	Guest27445 (~d@120.59.65.111) has joined ##linux
+2014-08-06 20:58:16	◣	ced117 (~ced117@opensuse/member/ced117) has quit (Quit: Quitte)
+2014-08-06 20:58:22	◥	jraglin (~Thunderbi@67.239.194.99) has joined ##linux
+2014-08-06 20:58:24	nanicoar	LeBlaaanc: Not with microcontroller reliability, not even if you enable realtime. It might miss by a minute, but it will get around to it.
+2014-08-06 20:58:44	rihbyne	do you know about anything that fills my criteria?
+2014-08-06 20:58:50	rihbyne	nanicoar: ^
+2014-08-06 20:59:17	◣	thatslifeson (~conner@209.222.7.238) has quit (Ping timeout: 245 seconds)
+2014-08-06 20:59:26	◣	gcbirzan_ (~gcbirzan@90-154-146-239.btc-net.bg) has quit (Ping timeout: 255 seconds)
+2014-08-06 20:59:37	◣	somerandomnick12 (~a@gatej.mh.bbc.co.uk) has quit (Quit: This computer has gone to sleep)
+2014-08-06 20:59:39	◣	Saubatzen (~sad@dslb-188-104-199-114.188.104.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:59:39	◣	taloszerg (~taloszerg@c62e6602.cst.lightpath.net) has quit (Ping timeout: 250 seconds)
+2014-08-06 20:59:42	◥	JimmyNeutron (~Jimmy@70-35-54-38.static.wiline.com) has joined ##linux
+2014-08-06 20:59:46	◣	NCS_One (~NCS_One@a81-84-205-169.cpe.netcabo.pt) has quit (Quit: leaving)
+2014-08-06 20:59:47	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 256 seconds)
+2014-08-06 21:00:05	◣	Batze (~sad@dslb-188-104-199-114.188.104.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 21:00:26	nanicoar	rihbyne: https://wiki.archlinux.org/index.php/maximizing_performance#Preloading
+2014-08-06 21:00:37	◣	paranoids (~markus@81.94.53.5) has quit (Quit: Leaving.)
+2014-08-06 21:01:14	◥	KeyboardNotFound (~KeyboardN@unaffiliated/keyboardnotfound) has joined ##linux
+2014-08-06 21:01:22	◣	FlashDel (~benedict@static-87-79-94-28.netcologne.de) has quit (Quit: Konversation terminated!)
+2014-08-06 21:01:24	◣	converge (~converge@unaffiliated/joaop) has quit (Quit: Leaving...)
+2014-08-06 21:01:26	◥	jgulingan (~jgulingan@198.73.209.2) has joined ##linux
+2014-08-06 21:01:27	KeyboardNotFound	In which programming langauge should be program be written for to install it with make and make install ?
+2014-08-06 21:01:53	◣	cocotton (~cocotton@207.236.152.130) has quit (Read error: Connection reset by peer)
+2014-08-06 21:01:54	◣	jgulingan (~jgulingan@198.73.209.2) has quit (Read error: Connection reset by peer)
+2014-08-06 21:02:03	alankila	KeyboardNotFound: in principle the question has no answer
+2014-08-06 21:02:08	◣	sifar (~CD@117.203.66.224) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:02:19	◥	jgulingan (~jgulingan@198.73.209.1) has joined ##linux
+2014-08-06 21:02:21	alankila	make is simply a build system, and it would support arbitrary languages.
+2014-08-06 21:02:23	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 21:02:39	alankila	however, it is most commonly occurring with C and C++ programs, so those would be good guesses
+2014-08-06 21:02:39	◥	r420r (isaacbsd@silenceisdefeat.com) has joined ##linux
+2014-08-06 21:02:39	◣	r420r (isaacbsd@silenceisdefeat.com) has quit (Changing host)
+2014-08-06 21:02:39	◥	r420r (isaacbsd@unaffiliated/r420r) has joined ##linux
+2014-08-06 21:02:40	◥	tuocuggino (~tuocuggin@host226-174-dynamic.17-79-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 21:03:02	◣	justanotheruser (~Justan@unaffiliated/justanotheruser) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:03:03	◣	lifenoodles (~lifenoodl@89.100.81.192) has quit (Remote host closed the connection)
+2014-08-06 21:03:20	◥	ced117 (~ced117@opensuse/member/ced117) has joined ##linux
+2014-08-06 21:03:25	◥	toastynerd (~toastyner@199.59.107.218) has joined ##linux
+2014-08-06 21:03:50	◣	mchy (marek@nat/redhat/x-kultimkjqflhialz) has quit (Remote host closed the connection)
+2014-08-06 21:04:01	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 21:04:36	◣	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 21:04:42	nanicoar	KeyboardNotFound: http://www.gnu.org/software/make/manual/make.html#Overview
+2014-08-06 21:05:05	◥	Ixxie (~Ixxie@cs78154114.pp.htv.fi) has joined ##linux
+2014-08-06 21:05:11	◣	shaolin (~quassel@inet-nat.tos.helsenord.no) has quit (Remote host closed the connection)
+2014-08-06 21:05:17	◥	Batze (~sad@dslb-188-096-090-080.188.096.pools.vodafone-ip.de) has joined ##linux
+2014-08-06 21:05:17	◥	Saubatzen (~sad@dslb-188-096-090-080.188.096.pools.vodafone-ip.de) has joined ##linux
+2014-08-06 21:05:22	Jabberwock	nanicoar: probably want to google "details on linux runlevel 1" or something
+2014-08-06 21:05:52	◥	andrewjs18 (~andrewjs1@pool-173-62-176-112.phlapa.fios.verizon.net) has joined ##linux
+2014-08-06 21:06:00	◣	bitgeek (~john@60.51.121.37) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 21:06:45	◣	rihbyne (~rihbyne@115.69.254.227) has quit (Quit: leaving)
+2014-08-06 21:07:40	◥	ShooterMG (~shootermg@c-24-21-207-128.hsd1.or.comcast.net) has joined ##linux
+2014-08-06 21:07:41	◥	Froolap (~Froolap@pool-173-78-212-244.tampfl.fios.verizon.net) has joined ##linux
+2014-08-06 21:08:11	◣	Guest27445 (~d@120.59.65.111) has quit (Quit: Leaving)
+2014-08-06 21:08:57	◥	emupower (~emupower@37.191.196.116) has joined ##linux
+2014-08-06 21:09:01	◥	robarelli (~robarelli@24.244.23.76) has joined ##linux
+2014-08-06 21:09:13	◣	tkhoa2711 (~tkhoa2711@bb116-15-160-95.singnet.com.sg) has quit (Quit: tkhoa2711)
+2014-08-06 21:09:20	◣	active8 (~mike@96.234.153.89) has quit (Quit: Leaving)
+2014-08-06 21:09:55	◥	Crocell (~Crocell@p578bfbba.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 21:09:59	Crocell	hi
+2014-08-06 21:10:09	nanicoar	Jabberwock: Yeah I figured out that 'runlevel 1' the keyword to use... Filters out a lot. Thanks. =)
+2014-08-06 21:10:14	Froolap	hello darling.
+2014-08-06 21:10:20	nanicoar	hi Crocell
+2014-08-06 21:10:51	◥	HelperW____ (~HelperW@d51537667.access.telenet.be) has joined ##linux
+2014-08-06 21:11:08	◥	Eins_ (~eins_@187.205.46.116) has joined ##linux
+2014-08-06 21:11:35	Jabberwock	np
+2014-08-06 21:11:36	◥	tkhoa2711 (~tkhoa2711@bb116-15-160-95.singnet.com.sg) has joined ##linux
+2014-08-06 21:12:13	◥	Kingpatzer (~user@24-179-214-16.dhcp.roch.mn.charter.com) has joined ##linux
+2014-08-06 21:12:51	◥	casaper (~casaper@2001:1620:4064:0:11a6:fa7a:65c3:7eb5) has joined ##linux
+2014-08-06 21:13:22	◥	ToAruShiroiNeko (EVA@227.40-136-217.adsl-dyn.isp.belgacom.be) has joined ##linux
+2014-08-06 21:13:22	◣	ToAruShiroiNeko (EVA@227.40-136-217.adsl-dyn.isp.belgacom.be) has quit (Changing host)
+2014-08-06 21:13:22	◥	ToAruShiroiNeko (EVA@wikimedia/ToAruShiroiNeko) has joined ##linux
+2014-08-06 21:13:41	◣	robarelli (~robarelli@24.244.23.76) has quit (Ping timeout: 264 seconds)
+2014-08-06 21:13:51	ℹ 	Giant81_ is now known as Gian81
+2014-08-06 21:13:56	ℹ 	Gian81 is now known as Giant81
+2014-08-06 21:14:14	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-06 21:14:22	nanicoar	into the maw of systemd I fall... =o
+2014-08-06 21:14:58	◥	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has joined ##linux
+2014-08-06 21:15:06	◥	kermit (unknown@pdpc/supporter/bronze/kermit) has joined ##linux
+2014-08-06 21:15:09	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 250 seconds)
+2014-08-06 21:15:26	◣	Bobby__ (Rezachkata@84.252.30.195) has quit (Quit: Leaving)
+2014-08-06 21:15:29	◣	OldDog (~OldDog@ip-83-134-59-216.dsl.scarlet.be) has quit (Quit: Leaving)
+2014-08-06 21:15:50	ℹ 	Malsasa_ is now known as Malsasa
+2014-08-06 21:15:54	KeyboardNotFound	Which langauge shoud I use for my program to can be installed with make and make install ?
+2014-08-06 21:16:07	Jabberwock	anything.
+2014-08-06 21:16:11	◥	maestrojed (~maestroje@173-8-213-38-Oregon.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 21:16:24	Crocell	i'm looking for a hex editor for linux that can:
+2014-08-06 21:16:24	Jabberwock	Typically C/C++ :P
+2014-08-06 21:16:26	◣	HelperW____ (~HelperW@d51537667.access.telenet.be) has quit (Quit: Lingo - http://www.lingoirc.com)
+2014-08-06 21:16:28	Crocell	A) set the line width (e.g. to 32 bytes)
+2014-08-06 21:16:29	Jabberwock	though make can do whatever you want.
+2014-08-06 21:16:33	Crocell	B) set the offset of the first position in the line (so as to nicely see 32 bytes starting at 0x12345 as one line and not have the line start at 0x12340)
+2014-08-06 21:16:36	Crocell	unfortunately, i only find hex editors that do either of these two, but not both together.
+2014-08-06 21:16:42	Crocell	anyone know of one?
+2014-08-06 21:16:51	Jabberwock	vim
+2014-08-06 21:17:19	◥	instantp10neer (IceChat9@unaffiliated/instantp10neer) has joined ##linux
+2014-08-06 21:17:32	◥	Vutral (~ss@2a01:198:35a::101) has joined ##linux
+2014-08-06 21:17:47	Crocell	really??
+2014-08-06 21:17:48	◣	casaper (~casaper@2001:1620:4064:0:11a6:fa7a:65c3:7eb5) has quit (Ping timeout: 272 seconds)
+2014-08-06 21:17:59	Crocell	vim does that?
+2014-08-06 21:18:05	◥	morphix0 (~morphix0@bpl184.neoplus.adsl.tpnet.pl) has joined ##linux
+2014-08-06 21:18:18	◥	justanotheruser (~Justan@unaffiliated/justanotheruser) has joined ##linux
+2014-08-06 21:18:39	◣	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:18:47	◣	JimmyNeutron (~Jimmy@70-35-54-38.static.wiline.com) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:19:03	◣	InspectorCluseau (~Inspector@75-168-239-185.mpls.qwest.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:19:13	nanicoar	Crocell: 'tweak' seems to have a -w option, in case vim is daunting.
+2014-08-06 21:19:14	◣	Errorical (~Errorical@213.128.190.150) has quit (Quit: Leaving)
+2014-08-06 21:19:55	◣	CDrone (~CDrone@unaffiliated/cdrone) has quit (Ping timeout: 250 seconds)
+2014-08-06 21:20:17	◣	tkhoa2711 (~tkhoa2711@bb116-15-160-95.singnet.com.sg) has quit (Quit: tkhoa2711)
+2014-08-06 21:20:26	◥	JimmyNeutron (~Jimmy@70-35-54-38.static.wiline.com) has joined ##linux
+2014-08-06 21:20:34	◣	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has quit (Ping timeout: 264 seconds)
+2014-08-06 21:20:34	◥	alanjf (~ajf@unaffiliated/alanjf) has joined ##linux
+2014-08-06 21:20:57	Crocell	ok cool thx
+2014-08-06 21:21:38	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Remote host closed the connection)
+2014-08-06 21:21:50	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-06 21:22:04	◣	TuxToff (~snoop@216.218.42.174) has quit (Read error: Connection reset by peer)
+2014-08-06 21:22:27	◣	Vutral (~ss@2a01:198:35a::101) has quit (Ping timeout: 256 seconds)
+2014-08-06 21:23:52	◥	vidalstat (~jarenado@69.64.192.254) has joined ##linux
+2014-08-06 21:23:56	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Remote host closed the connection)
+2014-08-06 21:23:57	◥	kbarry (~chatzilla@38.102.159.95) has joined ##linux
+2014-08-06 21:24:09	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-06 21:24:15	◣	lnxslck (~lnxslck@194.65.138.120) has quit (Quit: Saindo)
+2014-08-06 21:24:35	patarr	anyone ever get that issue where LXTerminal just stops responding to keyboard input?
+2014-08-06 21:24:36	◥	dejai (~bwright@c122-106-254-100.belrs3.nsw.optusnet.com.au) has joined ##linux
+2014-08-06 21:24:44	patarr	I have to kill all my LXTerminals and then restart to fix the problem.
+2014-08-06 21:24:54	patarr	I noticed some DBus errors in syslog but im not sure its related
+2014-08-06 21:25:16	◥	saimouer (~saimouer@98.157.77.38) has joined ##linux
+2014-08-06 21:25:32	◣	cocotton (~cocotton@207.236.152.130) has quit (Remote host closed the connection)
+2014-08-06 21:25:38	saimouer	Anybody have experience upgrading crunchbang to jessie + janice?
+2014-08-06 21:25:51	◥	bearish (~bearish@0896410724.static.corbina.ru) has joined ##linux
+2014-08-06 21:25:58	◣	techfreak (~tj@115043.user.farlep.net) has quit (Quit: Leaving.)
+2014-08-06 21:25:59	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 21:26:11	◣	Zeedox (~dan@h-79-136-49-170.na.cust.bahnhof.se) has quit (Quit: leaving)
+2014-08-06 21:26:16	◥	active8 (~mike@96.234.153.89) has joined ##linux
+2014-08-06 21:26:42	◣	jgulingan (~jgulingan@198.73.209.1) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 21:26:46	◣	UNIcodeX (UNIcodeX@76.165.210.80) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:26:57	◣	_hanna (~x86root@unaffiliated/-hanna) has quit (Quit: ZZZzzz…)
+2014-08-06 21:27:05	◣	maestrojed (~maestroje@173-8-213-38-Oregon.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 21:27:25	◥	UNIcodeX (UNIcodeX@76.165.210.80) has joined ##linux
+2014-08-06 21:27:36	◥	jgulingan (~jgulingan@198.73.209.4) has joined ##linux
+2014-08-06 21:28:02	◣	jgulingan (~jgulingan@198.73.209.4) has quit (Read error: Connection reset by peer)
+2014-08-06 21:28:06	◣	taloszer_ (~taloszerg@2602:302:d3d:2df0:f1fb:32e2:908d:586) has quit (Remote host closed the connection)
+2014-08-06 21:28:07	◥	Kismet1 (~Thunderbi@host-91-105-168-79.bbcustomer.zsttk.net) has joined ##linux
+2014-08-06 21:28:13	◥	jrow (~james.row@unaffiliated/jrow) has joined ##linux
+2014-08-06 21:28:16	◥	socomm (~socomm@96-40-147-98.dhcp.mtpk.ca.charter.com) has joined ##linux
+2014-08-06 21:28:16	◥	Sixmsj (~Sixmsj@c-50-131-110-35.hsd1.ca.comcast.net) has joined ##linux
+2014-08-06 21:28:18	nanicoar	patarr: do the menu buttons still work?
+2014-08-06 21:28:19	nanicoar	saimouer: to render violence upon debian is ill-advised
+2014-08-06 21:28:23	◥	cocotton_ (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 21:28:26	◥	_hanna (~x86root@unaffiliated/-hanna) has joined ##linux
+2014-08-06 21:28:34	patarr	nanicoar: didn't check. I will make sure to next time.
+2014-08-06 21:28:45	◣	cocotton (~cocotton@207.236.152.130) has quit (Read error: Connection reset by peer)
+2014-08-06 21:28:45	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:28:47	patarr	nanicoar: have some ideas?
+2014-08-06 21:28:48	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:28:49	◥	nitin_ (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:28:53	◣	nitin_ (~nitin@197.224.136.2) has quit (Read error: Connection reset by peer)
+2014-08-06 21:28:54	◥	peetaur (~peter@x2f0ad23.dyn.telefonica.de) has joined ##linux
+2014-08-06 21:28:57	nanicoar	saimouer: best to dd the disk beforehand
+2014-08-06 21:29:16	◥	skyroveRR (~skyroveRR@unaffiliated/skyroverr) has joined ##linux
+2014-08-06 21:29:51	◣	kermit (unknown@pdpc/supporter/bronze/kermit) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:30:01	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:30:05	nanicoar	patarr: just troubleshooting to isolate the problem... eg. test if the keyboard is ok with  text editor
+2014-08-06 21:30:09	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 244 seconds)
+2014-08-06 21:30:14	◥	nitin_ (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:30:19	◣	B1x1t0 (~B1x1t0@210.Red-83-37-23.dynamicIP.rima-tde.net) has quit (Read error: Connection reset by peer)
+2014-08-06 21:30:39	skyroveRR	Is it possible to decode DNS traffic on tcpdump if the DNS server is running on an unofficial port? Also, can the output be similar to the one when tcpdump runs on the official port?
+2014-08-06 21:30:46	◥	webtux (~webtux@cust-197-107-111-94.dyn.as47377.net) has joined ##linux
+2014-08-06 21:30:54	◥	silverdethx (~quassel@23-29-6-12.netptc.net) has joined ##linux
+2014-08-06 21:31:01	◣	nitin_ (~nitin@197.224.136.2) has quit (Client Quit)
+2014-08-06 21:31:05	socomm	skyroveRR: why not?
+2014-08-06 21:31:06	◥	maybethistime (~maybethis@cpe-67-248-251-75.nycap.res.rr.com) has joined ##linux
+2014-08-06 21:31:06	◣	maybethistime (~maybethis@cpe-67-248-251-75.nycap.res.rr.com) has quit (Changing host)
+2014-08-06 21:31:06	◥	maybethistime (~maybethis@unaffiliated/maybethistime) has joined ##linux
+2014-08-06 21:31:19	◣	maybethistime (~maybethis@unaffiliated/maybethistime) has quit (Client Quit)
+2014-08-06 21:31:35	socomm	skyroveRR: its the same protocol, only running on a different TCP port
+2014-08-06 21:31:36	saimouer	nanicoar: b-but muh drivers
+2014-08-06 21:31:49	saimouer	nanicoar: I can run gpu drivers that are 40 releases behind man
+2014-08-06 21:31:49	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:31:56	skyroveRR	socomm: IDK why, I've been trying to, but I get a very simple output with no info on which domain is being queried.
+2014-08-06 21:32:19	◥	InspectorCluseau (~Inspector@75-168-238-246.mpls.qwest.net) has joined ##linux
+2014-08-06 21:32:23	nanicoar	saimouer: things have not improved in the last 40 releases, if you're an ATI-user...
+2014-08-06 21:32:33	saimouer	nanicoar: NVIDIA :c
+2014-08-06 21:32:37	◥	instantp10neer (IceChat9@unaffiliated/instantp10neer) has joined ##linux
+2014-08-06 21:32:47	nanicoar	saimouer: Then you shouldn't have any problems.
+2014-08-06 21:33:08	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:33:14	saimouer	nanicoar: With upgrading or with staying on wheezy
+2014-08-06 21:33:44	nanicoar	dd will even save disk space marked as free, so do that and you can safely experiment.
+2014-08-06 21:33:46	◥	iveevue (~na@unaffiliated/iveevue) has joined ##linux
+2014-08-06 21:33:48	active8	oh my another garden path. I was about to add labels to some filesystems - LVM LVs that show up like "64GB filesystem" in nautilus and I remembered reading something and finally found it. http://docs.fedoraproject.org/en-US/Fedora/11/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html where in 5.7.1 it says selinux contexts changed with chcon don't survive a file system relabeling. So I test it
+2014-08-06 21:33:49	active8	out an a test LV and reboot with a /.autorelabel file. nothing changed. So they're not talking about ailesystem labels as in blkid printing out block devices with LABEL="mylabel" are they? I also changed the selinux context on a couple of files on that test volume and they didn't get relabeled, selinux context wise. Am I right thinking that the later is because it is a "SELinux targeted policy relabel?" If so, how do I find out what is "targeted."
+2014-08-06 21:34:29	◣	keytab (~isma@gateway/tor-sasl/keytab) has quit (Quit: Konversation terminated!)
+2014-08-06 21:34:39	patarr	nanicoar: the keyboard is functional. I wouldn't be able to type in other windows and such
+2014-08-06 21:34:55	absk007	is crunchbang healthy for 1GHz, 2GB RAM & 7.42 GB USB HDD of ASUS 1215B EeePC mini netbook?
+2014-08-06 21:35:14	skyroveRR	absk007: yes.
+2014-08-06 21:35:15	socomm	absk007: should be fine
+2014-08-06 21:35:24	◥	beachandbytes (~beachandb@cpe-98-150-247-49.hawaii.res.rr.com) has joined ##linux
+2014-08-06 21:35:56	skyroveRR	Just don't try to run KDE or GNOME on it.
+2014-08-06 21:36:01	◣	Extensa5630G (~hassoon@unaffiliated/hassen) has quit (Ping timeout: 260 seconds)
+2014-08-06 21:36:08	skyroveRR	socomm: any thoughts? :)
+2014-08-06 21:36:10	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:36:10	◥	robarelli (~robarelli@24.244.23.91) has joined ##linux
+2014-08-06 21:36:18	nanicoar	patarr: You said the problem is intermittent. Could even be your neighbor using a microwave oven without a grounded outlet. =O
+2014-08-06 21:36:45	absk007	i'll run Teamview, Hexchat, WebStorm IDE, Chromium, Firefox, CodeBlocks IDE, VLC only
+2014-08-06 21:36:51	absk007	^Teamviewer
+2014-08-06 21:36:59	◣	amcsi_work_ (~Attila@81.168.2.131) has quit (Quit: Leaving)
+2014-08-06 21:37:06	◣	[n1x]-mbl (~no@173.149.247.112) has quit (Read error: Connection reset by peer)
+2014-08-06 21:37:07	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 21:37:19	◥	amcsi_work (~Attila@81.168.2.131) has joined ##linux
+2014-08-06 21:37:30	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:37:31	skyroveRR	Only run a small number of apps on it, else it'll freeze very quickly no matter how much RAM you give it.
+2014-08-06 21:37:40	socomm	skyroveRR: double check your command parameters, you can always try running same command on the standard DNS query
+2014-08-06 21:37:54	◣	the8thbit (~the8thbit@173-28-151-144.client.mchsi.com) has quit (Ping timeout: 244 seconds)
+2014-08-06 21:37:55	◣	ki0_ (~ki0@212.230.172.17) has quit (Remote host closed the connection)
+2014-08-06 21:38:08	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 21:38:10	skyroveRR	socomm: do you know about tcpdump in detail?
+2014-08-06 21:38:20	◥	maybethistime (~maybethis@cpe-67-248-251-75.nycap.res.rr.com) has joined ##linux
+2014-08-06 21:38:20	◣	maybethistime (~maybethis@cpe-67-248-251-75.nycap.res.rr.com) has quit (Changing host)
+2014-08-06 21:38:20	◥	maybethistime (~maybethis@unaffiliated/maybethistime) has joined ##linux
+2014-08-06 21:38:37	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 21:38:49	◥	Jesin (~Jesin@pool-96-241-156-242.washdc.fios.verizon.net) has joined ##linux
+2014-08-06 21:39:17	◥	OldDog (~OldDog@ip-83-134-59-216.dsl.scarlet.be) has joined ##linux
+2014-08-06 21:39:21	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 21:39:24	patarr	nanicoar: hah.
+2014-08-06 21:39:47	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 21:39:48	◣	beachandbytes (~beachandb@cpe-98-150-247-49.hawaii.res.rr.com) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:39:56	◥	Solitary (~Solitary@ip-94-112-193-73.net.upcbroadband.cz) has joined ##linux
+2014-08-06 21:40:33	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:40:34	absk007	skyroveRR, socomm, Which one out of this list is good for me? http://www.efytimes.com/e1/fullnews.asp?edid=132977
+2014-08-06 21:40:40	◣	riex- (znc@198.27.125.223) has quit (Quit: A TLS packet with unexpected length was received.)
+2014-08-06 21:40:45	◥	converge (~converge@unaffiliated/joaop) has joined ##linux
+2014-08-06 21:40:46	◣	LeadGuit (~mfluor@164-46.62-188.cust.bluewin.ch) has quit (Quit: ZNC - http://znc.in)
+2014-08-06 21:40:47	◣	robarelli (~robarelli@24.244.23.91) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:40:51	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 21:40:57	◣	bytecounter (~bytecount@dyndsl-085-016-030-073.ewe-ip-backbone.de) has quit (Quit: Leaving)
+2014-08-06 21:41:07	◥	LeadGuit (~mfluor@164-46.62-188.cust.bluewin.ch) has joined ##linux
+2014-08-06 21:41:13	skyroveRR	absk007: I'm sorry, but I'm not here to give you personal opinions.
+2014-08-06 21:41:15	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 21:41:28	◣	morphix0 (~morphix0@bpl184.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:41:32	◣	asdpew (~Remis@hst-225-182.splius.lt) has quit (Quit: Leaving)
+2014-08-06 21:41:42	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:41:50	absk007	skyroveRR, you can gimme personal opinions. I don't mind it. ;)
+2014-08-06 21:41:58	skyroveRR	Nope.
+2014-08-06 21:42:03	◥	Sbroker` (~DebianSta@unaffiliated/sbroker) has joined ##linux
+2014-08-06 21:42:09	◣	Sbroker` (~DebianSta@unaffiliated/sbroker) has quit (Max SendQ exceeded)
+2014-08-06 21:42:41	◥	Sbroker` (~DebianSta@unaffiliated/sbroker) has joined ##linux
+2014-08-06 21:42:58	◣	Sbroker` (~DebianSta@unaffiliated/sbroker) has quit (Read error: Connection reset by peer)
+2014-08-06 21:43:27	◥	Sbroker` (~DebianSta@unaffiliated/sbroker) has joined ##linux
+2014-08-06 21:43:28	◣	manguero (~dom@ip68-227-131-166.br.br.cox.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:43:33	◥	vimiew (~vimiew@68-114-151-6.dhcp.kgpt.tn.charter.com) has joined ##linux
+2014-08-06 21:43:36	◣	Sbroker` (~DebianSta@unaffiliated/sbroker) has quit (Max SendQ exceeded)
+2014-08-06 21:44:11	socomm	absk007: according to the article you linked 'bodhi linux' is the best linux distro for netbooks
+2014-08-06 21:44:13	◥	Sbroker` (~DebianSta@unaffiliated/sbroker) has joined ##linux
+2014-08-06 21:44:22	◥	onos (~onos@unaffiliated/onos) has joined ##linux
+2014-08-06 21:44:22	◥	Jusle (~Thunderbi@mobile-internet-bceefd-97.dhcp.inet.fi) has joined ##linux
+2014-08-06 21:44:36	socomm	absk007: I've never used bodhi, so I can't tell you how good/bad it may be.
+2014-08-06 21:44:54	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:45:01	absk007	socomm, no prob. Ur recommendation is enough! :)
+2014-08-06 21:45:06	◣	converge (~converge@unaffiliated/joaop) has quit (Client Quit)
+2014-08-06 21:45:20	◣	onos (~onos@unaffiliated/onos) has left ##linux
+2014-08-06 21:45:30	Sbroker`	greetings
+2014-08-06 21:45:34	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 250 seconds)
+2014-08-06 21:46:00	nanicoar	o/
+2014-08-06 21:46:02	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:46:24	absk007	socomm, isn't lubuntu good for me?
+2014-08-06 21:46:43	◣	berzerka (~anon@nb-schirski.win.rz.rwth-aachen.de) has quit (Quit: leaving)
+2014-08-06 21:46:49	◥	pie__ (~pie_@unaffiliated/pie-/x-0787662) has joined ##linux
+2014-08-06 21:47:05	◥	BigBangUDR (~Thunderbi@115.247.202.66) has joined ##linux
+2014-08-06 21:47:08	◥	Elektro121 (~Elektro@ARennes-656-1-278-50.w109-218.abo.wanadoo.fr) has joined ##linux
+2014-08-06 21:47:11	◥	jgulingan (~jgulingan@198.73.209.1) has joined ##linux
+2014-08-06 21:47:13	socomm	absk007: I don't know you personally, I couldn't tell you what is good for you. :^/
+2014-08-06 21:47:21	◣	manlin (~manlin@213.83.73.2) has quit (Quit: leaving)
+2014-08-06 21:47:27	◣	BigBangUDR (~Thunderbi@115.247.202.66) has quit (Client Quit)
+2014-08-06 21:47:37	◣	mspe (~mspe@2205ds5-od.0.fullrate.dk) has quit (Remote host closed the connection)
+2014-08-06 21:47:46	Jabberwock	absk007: Really depends on how health your duodenum is.
+2014-08-06 21:47:48	absk007	socomm, i told my requirements. I wrote the specs too.
+2014-08-06 21:47:49	◥	instantp10neer (IceChat9@unaffiliated/instantp10neer) has joined ##linux
+2014-08-06 21:47:50	pie__	hey guys, currently adobe reader 9 seems to be the only one that handles pdfs with forms and javascript properly(?), but unless the pdf has "extended rights" or somesuch enabled it doesnt allow you to save the entered form data(just print it)
+2014-08-06 21:47:56	pie__	do you know any workarounds?
+2014-08-06 21:48:09	◣	Cartesis (~gaga@static-qvn-qvt-124121.business.bouyguestelecom.com) has quit (Ping timeout: 260 seconds)
+2014-08-06 21:48:15	absk007	pie__, hack it
+2014-08-06 21:48:20	Jabberwock	pie__: The creator has to enable that.
+2014-08-06 21:48:20	◥	sikumkum (~ask@202.62.17.120) has joined ##linux
+2014-08-06 21:48:24	socomm	absk007: It sounds like you've some level of interest in crunchbang, why not try the live distro and see how that works out for you?
+2014-08-06 21:48:27	Jabberwock	Or you have to have Acrobat Pro
+2014-08-06 21:48:41	sikumkum	anyone has experience with squid on vps?
+2014-08-06 21:48:48	pie__	Jabberwock: sadly just reader
+2014-08-06 21:49:02	absk007	socomm, i've tried crunchbang & am running lubuntu. Just need ur opinion like an Expert's Advice.
+2014-08-06 21:49:15	◥	Unrecovered (~IceChat9@static-pppoe-178-141-253-94.kirov.comstar-r.ru) has joined ##linux
+2014-08-06 21:49:22	Unrecovered	nyah
+2014-08-06 21:49:22	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:49:28	◣	Jesin (~Jesin@pool-96-241-156-242.washdc.fios.verizon.net) has quit (Quit: Leaving)
+2014-08-06 21:49:33	socomm	absk007: lol, I'm not an expert, maybe an expert will chime in with their opinion on here
+2014-08-06 21:49:37	Unrecovered	what distro is a better one?
+2014-08-06 21:49:39	pie__	absk007: heh I would if I had the skills and the time :P
+2014-08-06 21:49:42	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:49:42	◣	olivier_bK (~zyriuse@46.218.233.226) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:49:52	◥	nix_fan_ (~nix_fan@194.247.242.143) has joined ##linux
+2014-08-06 21:49:58	socomm	pie__: why not use adobe reader 9?
+2014-08-06 21:50:14	ℹ 	catalase_ is now known as catalase
+2014-08-06 21:50:15	◥	vegasus (~omegabk@217.19.56.132) has joined ##linux
+2014-08-06 21:50:18	◥	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has joined ##linux
+2014-08-06 21:50:26	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:50:31	◥	kur1j (83ccfe66@gateway/web/freenode/ip.131.204.254.102) has joined ##linux
+2014-08-06 21:50:42	◣	silverdethx (~quassel@23-29-6-12.netptc.net) has quit (Remote host closed the connection)
+2014-08-06 21:50:49	◣	Eins_ (~eins_@187.205.46.116) has quit (Remote host closed the connection)
+2014-08-06 21:50:52	pie__	socomm: sorry what?
+2014-08-06 21:50:54	Jabberwock	Fill it out, print it and scan it as a .RAW and send that back to the person.
+2014-08-06 21:51:01	◥	Jesin (~Jesin@pool-96-241-156-242.washdc.fios.verizon.net) has joined ##linux
+2014-08-06 21:51:06	pie__	lol
+2014-08-06 21:51:24	◥	the8thbit (~the8thbit@173-28-151-144.client.mchsi.com) has joined ##linux
+2014-08-06 21:51:28	◥	Eins_ (~eins_@187.205.46.116) has joined ##linux
+2014-08-06 21:51:42	pie__	well I could just use a print driver that prints to pdf in that case :P but I actually want this because the javascript calculates some stuff on the fly, and i want to be able to interact with it
+2014-08-06 21:51:45	socomm	pie__: if it work within Adobe  Reader 9 ... Use Adobe Reader 9.
+2014-08-06 21:52:00	socomm	Maybe I misread something.
+2014-08-06 21:52:11	◥	lyles (~lscott@unaffiliated/lyles) has joined ##linux
+2014-08-06 21:52:19	◣	kurkale6ka (~kurkale6k@windsor.offices.globalpersonals.co.uk) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 21:52:29	◥	j0z (~not@unaffiliated/j0z) has joined ##linux
+2014-08-06 21:52:33	pie__	socomm: it works, the problem is the entered data doesnt get saved and I dont want to have to reenter it every time I need to use the document
+2014-08-06 21:52:34	◥	Extensa5630G (~hassoon@unaffiliated/hassen) has joined ##linux
+2014-08-06 21:52:36	◥	Snicers-Work (~SnicersWo@50-198-221-241-static.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 21:53:02	◣	nix_fan (~nix_fan@194.247.242.143) has quit (Ping timeout: 245 seconds)
+2014-08-06 21:53:03	kur1j	ok im stumped. I see this in my cronjob log "Aug  6 10:00:01 ip-10-148-210-79 CROND[23313]: (spi) CMD (/ebs/spi/enid_setup/file_mover_dubuque.sh >/dev/null 2>&1 )" which is correct however the folder doesn't apparently exist where the script exists.... ls /ebs/spi/end_setup ls: cannot access /ebs/spi/end_setup: No such file or directory
+2014-08-06 21:53:17	deadmund	pie__: fill it out, take a screen shot, save the screen shot
+2014-08-06 21:53:23	deadmund	??
+2014-08-06 21:53:33	⚡	pie__ sighs 
+2014-08-06 21:53:34	pie__	xD
+2014-08-06 21:53:38	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:53:41	Jabberwock	Probably has to fill out SOME Of it each time :P
+2014-08-06 21:53:52	pie__	deadmund: you're missing the point
+2014-08-06 21:54:01	◥	pfote_ (~pfote@unaffiliated/pfote) has joined ##linux
+2014-08-06 21:54:07	deadmund	pie__: Please re-explain?
+2014-08-06 21:54:08	socomm	pie__: Acrobat Pro would help you here.
+2014-08-06 21:54:12	◥	Wikiwannabe (~Wikiwanna@8ta-151-161-77.telkomadsl.co.za) has joined ##linux
+2014-08-06 21:54:15	◣	nix_fan_ (~nix_fan@194.247.242.143) has quit (Ping timeout: 240 seconds)
+2014-08-06 21:54:20	pie__	socomm: yeah thats the canonical solution apparently
+2014-08-06 21:54:20	socomm	kur1j: does /ebs exist?
+2014-08-06 21:54:30	kur1j	socomm: yes
+2014-08-06 21:54:34	◥	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has joined ##linux
+2014-08-06 21:54:39	◣	pfote (~pfote@unaffiliated/pfote) has quit (Ping timeout: 255 seconds)
+2014-08-06 21:54:45	socomm	kur1j: /ebs/spi/ exists?
+2014-08-06 21:54:46	◥	celis (~usuario@190.204.38.23) has joined ##linux
+2014-08-06 21:54:48	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:54:51	kur1j	socomm: yes
+2014-08-06 21:55:02	kur1j	enid_setup doesnt'
+2014-08-06 21:55:03	socomm	kur1j: can you list the files inside /ebs/spi/ ?
+2014-08-06 21:55:09	◥	vekfautles (~vekfautle@85.134.54.182) has joined ##linux
+2014-08-06 21:55:11	Jabberwock	pie__: Is there a legal reason why they saved it that way?
+2014-08-06 21:55:17	pie__	deadmund: the pdf has some javascript stuff that does nice things. i want to be able to save it to save the state, but what i actually need is the calculating functionality
+2014-08-06 21:55:20	pie__	Jabberwock: no
+2014-08-06 21:55:34	◣	BCMM (~BCMM@unaffiliated/bcmm) has quit (Quit: Konversation terminated!)
+2014-08-06 21:55:35	◣	vimiew (~vimiew@68-114-151-6.dhcp.kgpt.tn.charter.com) has left ##linux
+2014-08-06 21:55:36	pie__	evince saves it with the data fine but no JS support
+2014-08-06 21:56:01	socomm	pie__: Unfortunately the JS and forms are proably Adobe proprietary format - which you'll have hard time emulating on OSS readers.
+2014-08-06 21:56:02	Jabberwock	PDF with JS sounds like something I would never intentionally open.
+2014-08-06 21:56:08	Jabberwock	Otherwise I'd attempt to help you.
+2014-08-06 21:56:18	pie__	Jabberwock: eh im not fond of it either
+2014-08-06 21:56:19	absk007	pie__, u can learn hacking https://www.udemy.com/certified-whitehat-hacker-level-1/
+2014-08-06 21:56:19	◥	Mobutils (~mobutils@S010600026f6bb431.cg.shawcable.net) has joined ##linux
+2014-08-06 21:56:23	kur1j	socomm: http://pastebin.com/76ueNLyf
+2014-08-06 21:56:41	pie__	meh thats that i guess
+2014-08-06 21:56:43	pie__	thanks anyway
+2014-08-06 21:56:46	sikumkum	anyone could help me setting up squid over a vps, please?
+2014-08-06 21:57:15	socomm	sikumkum: VPS? Call your provider, they might have an automated way to install it for you.
+2014-08-06 21:57:57	socomm	kur1j: the setup script might've been removed after it install, either that it or it was moved
+2014-08-06 21:58:00	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 21:58:05	sikumkum	socomm: my provider? i dont get it.. what is the relation?
+2014-08-06 21:58:09	◣	netlar (~lwells@ip68-5-205-235.oc.oc.cox.net) has quit (Ping timeout: 256 seconds)
+2014-08-06 21:58:23	socomm	sikumkum: VPS provider
+2014-08-06 21:58:26	◥	evangeline_ (~evangelin@93-103-107-74.dynamic.t-2.net) has joined ##linux
+2014-08-06 21:58:29	kur1j	socomm: so how would it continue to run?
+2014-08-06 21:58:43	sikumkum	oh ok
+2014-08-06 21:58:48	socomm	kur1j: Call the vendor? I'm not familiar with this package, to be honest.
+2014-08-06 21:58:58	kur1j	socomm: it seems the code is actually functioning
+2014-08-06 21:59:00	kur1j	hmm
+2014-08-06 21:59:05	◣	Nyoom (Nyoom@unaffiliated/nyoom) has quit (Max SendQ exceeded)
+2014-08-06 21:59:06	kur1j	its really weird
+2014-08-06 21:59:06	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-06 21:59:09	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 21:59:46	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 21:59:48	◣	vegasus (~omegabk@217.19.56.132) has quit (Remote host closed the connection)
+2014-08-06 22:00:05	◥	skinp_ (~skinp@unaffiliated/skinp) has joined ##linux
+2014-08-06 22:00:06	◥	bearish_ (~bearish@84.23.59.213) has joined ##linux
+2014-08-06 22:00:09	kur1j	so crontab will still run the script even if it no longer exists ont he file system?
+2014-08-06 22:00:12	kur1j	some type of cache?
+2014-08-06 22:00:19	◥	v2zz (~chatzilla@31.135.149.166) has joined ##linux
+2014-08-06 22:00:34	◥	AnoAnon (~AnoAnon@197.37.181.4) has joined ##linux
+2014-08-06 22:00:35	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Read error: Connection reset by peer)
+2014-08-06 22:00:49	◣	AnoAnon (~AnoAnon@197.37.181.4) has quit (Max SendQ exceeded)
+2014-08-06 22:00:52	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-06 22:00:58	◣	celis (~usuario@190.204.38.23) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:00:59	◥	celis1 (~usuario@190.204.38.23) has joined ##linux
+2014-08-06 22:00:59	socomm	kur1j: I don't believe cron would do that
+2014-08-06 22:00:59	◥	Nyoom (Nyoom@unaffiliated/nyoom) has joined ##linux
+2014-08-06 22:01:11	◥	AnoAnon (~AnoAnon@197.37.181.4) has joined ##linux
+2014-08-06 22:01:13	v2zz	hi, is there any decent program for audio-video chatting in linux except skype?
+2014-08-06 22:01:25	socomm	Rather I don't believe cron would successfully run the script you listed.
+2014-08-06 22:01:27	◣	AnoAnon (~AnoAnon@197.37.181.4) has quit (Read error: Connection reset by peer)
+2014-08-06 22:01:32	v2zz	i desperately can't make it work
+2014-08-06 22:01:57	◣	ryaxnb (~ryaxnb@mobile-198-228-213-050.mycingular.net) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:01:58	◥	mhcerri_ (~Marcelo_C@177.205.179.130.dynamic.adsl.gvt.net.br) has joined ##linux
+2014-08-06 22:02:07	◣	bearish (~bearish@0896410724.static.corbina.ru) has quit (Ping timeout: 256 seconds)
+2014-08-06 22:02:25	socomm	v2zz: http://ekiga.org/ -- It's been around for quite some time.
+2014-08-06 22:02:26	◣	mhcerri (~Marcelo_C@191.32.200.240) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:02:30	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:02:36	socomm	v2zz: I don't believe it's compatible with Skype though.
+2014-08-06 22:02:37	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:03:10	◣	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has quit (Ping timeout: 264 seconds)
+2014-08-06 22:03:10	◥	kriks (~kristina@161.167.191.90.dyn.estpak.ee) has joined ##linux
+2014-08-06 22:03:12	◣	skinp (~skinp@unaffiliated/skinp) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:03:17	◥	robarelli (~robarelli@24.244.23.109) has joined ##linux
+2014-08-06 22:03:39	◣	DK-MODE (~spazmocha@80.71.26.65) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:03:39	◣	NotANick (~NotANick@unaffiliated/notanick) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:03:44	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:04:02	◥	xtriz (~IIT@unaffiliated/xtriz) has joined ##linux
+2014-08-06 22:04:12	◥	spookah (~spookah@unaffiliated/spookah) has joined ##linux
+2014-08-06 22:04:27	◥	blucoat (~Thunderbi@c-24-60-10-55.hsd1.ma.comcast.net) has joined ##linux
+2014-08-06 22:04:28	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:04:32	◣	top4o (~chatzilla@93.152.162.95) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 30.0/20140605174243])
+2014-08-06 22:04:46	◣	InspectorCluseau (~Inspector@75-168-238-246.mpls.qwest.net) has quit (Ping timeout: 244 seconds)
+2014-08-06 22:04:51	◣	Brklyn (~Brkyln@inet-rmmc08-o.oracle.com) has quit (Remote host closed the connection)
+2014-08-06 22:05:01	◥	instantp10neer (IceChat9@unaffiliated/instantp10neer) has joined ##linux
+2014-08-06 22:05:17	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:05:28	◣	celis1 (~usuario@190.204.38.23) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:05:46	◣	MakersMarc__ (~MakersMar@static-173-68-174-227.nycmny.fios.verizon.net) has left ##linux
+2014-08-06 22:05:58	◥	hellangel7 (~hellangel@117.192.166.5) has joined ##linux
+2014-08-06 22:06:05	◣	skyroveRR (~skyroveRR@unaffiliated/skyroverr) has left ##linux
+2014-08-06 22:06:18	◣	sikumkum (~ask@202.62.17.120) has quit
+2014-08-06 22:06:30	◥	BoomerBile (~BoomerBil@97-91-102-175.dhcp.roch.mn.charter.com) has joined ##linux
+2014-08-06 22:06:38	◣	ash_m (43a66c81@gateway/web/freenode/ip.67.166.108.129) has quit (Ping timeout: 246 seconds)
+2014-08-06 22:06:44	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:06:51	◣	cocotton_ (~cocotton@207.236.152.130) has quit (Remote host closed the connection)
+2014-08-06 22:07:06	◥	cocotton (~cocotton@207.236.152.130) has joined ##linux
+2014-08-06 22:07:35	◥	NotANick[BDC] (~NotANick@50-38-35-112.csby.or.frontiernet.net) has joined ##linux
+2014-08-06 22:07:35	◣	NotANick[BDC] (~NotANick@50-38-35-112.csby.or.frontiernet.net) has quit (Changing host)
+2014-08-06 22:07:35	◥	NotANick[BDC] (~NotANick@unaffiliated/notanick) has joined ##linux
+2014-08-06 22:07:51	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:08:03	◣	shingshang (~shingshan@115-64-27-246.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-08-06 22:08:15	◥	Rodya_ (~trav@pool-108-16-134-15.phlapa.fios.verizon.net) has joined ##linux
+2014-08-06 22:08:17	◣	robarelli (~robarelli@24.244.23.109) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:08:17	◣	sharky (~sharky@lak-31-208.wohnheime.ruhr-uni-bochum.de) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:08:23	◣	saimouer (~saimouer@98.157.77.38) has quit (Ping timeout: 244 seconds)
+2014-08-06 22:08:27	◥	BelegCuthalion (~quassel@143.177.82.90) has joined ##linux
+2014-08-06 22:08:56	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 22:09:42	◥	LonghornMBP (~Longhorn@cpe-76-170-119-249.socal.res.rr.com) has joined ##linux
+2014-08-06 22:09:47	◣	GiRa (~GiRa@unaffiliated/gira) has quit (Quit: GiRa)
+2014-08-06 22:10:43	◥	HelperW (~HelperW@d51537667.access.telenet.be) has joined ##linux
+2014-08-06 22:11:03	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:11:42	◣	Jesin (~Jesin@pool-96-241-156-242.washdc.fios.verizon.net) has quit (Quit: Leaving)
+2014-08-06 22:12:08	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:12:31	absk007	Any suggestions for gpg frontend for lubuntu running WM DE?
+2014-08-06 22:12:37	absk007	^Openbox WM
+2014-08-06 22:12:48	◥	ch077179 (~ch077179@unaffiliated/ch077179) has joined ##linux
+2014-08-06 22:13:11	◥	leviathanch (~quassel@adsl-130-46.dsl.init7.net) has joined ##linux
+2014-08-06 22:13:22	◥	maestrojed (~maestroje@173-8-213-38-Oregon.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 22:13:32	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:13:41	◣	dfcnvt (~tagraf@cpe-74-74-174-119.rochester.res.rr.com) has quit (Ping timeout: 264 seconds)
+2014-08-06 22:14:27	◣	mhcerri_ (~Marcelo_C@177.205.179.130.dynamic.adsl.gvt.net.br) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:14:47	◣	saju_m (~saju@106.51.103.158) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:14:59	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-06 22:15:02	◣	kristofe_ (~kristofer@cag06-7-83-153-87-168.fbx.proxad.net) has quit (Remote host closed the connection)
+2014-08-06 22:15:07	◥	dfcnvt (~tagraf@cpe-74-74-174-119.rochester.res.rr.com) has joined ##linux
+2014-08-06 22:15:24	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:15:54	◣	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:16:12	◥	Deck_ (~hypo@82-208-125-58.dynamic.mts-nn.ru) has joined ##linux
+2014-08-06 22:16:42	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:16:54	◥	Evi1 (~Sin@cpe-76-171-64-25.socal.res.rr.com) has joined ##linux
+2014-08-06 22:17:37	◣	maybethistime (~maybethis@unaffiliated/maybethistime) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:17:45	◥	mhcerri (~Marcelo_C@177.205.179.130.dynamic.adsl.gvt.net.br) has joined ##linux
+2014-08-06 22:17:58	◥	InspectorCluseau (~Inspector@75-168-234-138.mpls.qwest.net) has joined ##linux
+2014-08-06 22:18:00	◥	sharky (~sharky@lak-31-208.wohnheime.ruhr-uni-bochum.de) has joined ##linux
+2014-08-06 22:18:15	◣	skinp_ (~skinp@unaffiliated/skinp) has quit (Remote host closed the connection)
+2014-08-06 22:18:29	◣	Chaos_Zero (~paul@c-69-248-138-174.hsd1.nj.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-08-06 22:19:25	◥	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has joined ##linux
+2014-08-06 22:19:55	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:19:58	◣	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:20:07	◥	EcoGiko (~hristo@85.187.196.167) has joined ##linux
+2014-08-06 22:20:07	◣	EcoGiko (~hristo@85.187.196.167) has quit (Changing host)
+2014-08-06 22:20:07	◥	EcoGiko (~hristo@unaffiliated/ecogiko) has joined ##linux
+2014-08-06 22:20:09	◥	zerick (~eocrospom@190.187.21.53) has joined ##linux
+2014-08-06 22:20:15	◥	kristofers (~kristofer@2a01:e35:3995:7a80:38d5:b3d5:c9ee:ae3c) has joined ##linux
+2014-08-06 22:20:22	◣	raymondhim (raymondhim@2600:3c00::f03c:91ff:fe73:d8f7) has quit (Quit: Nothing at all!)
+2014-08-06 22:20:56	◣	kristofers (~kristofer@2a01:e35:3995:7a80:38d5:b3d5:c9ee:ae3c) has quit (Remote host closed the connection)
+2014-08-06 22:21:02	◣	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has quit (Quit: Bye)
+2014-08-06 22:21:02	◣	Jusle (~Thunderbi@mobile-internet-bceefd-97.dhcp.inet.fi) has quit (Ping timeout: 260 seconds)
+2014-08-06 22:21:06	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:21:15	◣	sandman13 (~sandman@202.51.84.66) has quit (Quit: Gone Fishing!)
+2014-08-06 22:21:17	◣	Manny (~quassel@14.139.122.114) has quit (Read error: Connection reset by peer)
+2014-08-06 22:21:18	◥	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has joined ##linux
+2014-08-06 22:21:22	◣	shovel_boss (~shovel_bo@unaffiliated/shovel-boss/x-4881665) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:21:41	◥	orti (~orti@p4FC55B0D.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 22:21:46	◣	iveevue (~na@unaffiliated/iveevue) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:21:49	◣	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has quit (Client Quit)
+2014-08-06 22:21:53	◣	Xethron (~Xethron@unaffiliated/xethron) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:21:56	◥	skinp (~skinp@unaffiliated/skinp) has joined ##linux
+2014-08-06 22:21:58	LinuxBot	[FORUMS] I just posted topic "Qt to be spun off into a separate company" in the forums - http://tinyurl.com/luy5h2u
+2014-08-06 22:22:05	◥	khwar (b6b987c6@gateway/web/freenode/ip.182.185.135.198) has joined ##linux
+2014-08-06 22:22:14	◥	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has joined ##linux
+2014-08-06 22:22:19	◥	BigBangUDR (~Thunderbi@115.247.202.66) has joined ##linux
+2014-08-06 22:22:33	◥	raymondhim (raymondhim@jessica.totalsyssolutions.net) has joined ##linux
+2014-08-06 22:22:51	absk007	i've never done any GUI programming. I know C++ basics (just the basics only). Should i jump to GUI designing?
+2014-08-06 22:22:57	◣	BigBangUDR (~Thunderbi@115.247.202.66) has quit (Client Quit)
+2014-08-06 22:23:14	◣	zadock (~zadock@5-13-155-74.residential.rdsnet.ro) has quit (Quit: Leaving)
+2014-08-06 22:23:15	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-06 22:23:31	◥	cigarshark (~Todd@c-76-31-221-215.hsd1.tx.comcast.net) has joined ##linux
+2014-08-06 22:23:40	◣	khwar (b6b987c6@gateway/web/freenode/ip.182.185.135.198) has left ##linux
+2014-08-06 22:23:47	◣	hubutm20 (~hubutm20@79.114.22.120) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:23:55	◥	hubutm20 (~hubutm20@79.114.22.120) has joined ##linux
+2014-08-06 22:24:05	◥	skinp_ (~skinp@unaffiliated/skinp) has joined ##linux
+2014-08-06 22:24:13	deadmund	absk007: It just comes down to learning a specific API (windows GUI, GTK, Android, etc...) there is no "programming" challenge or anything interesting
+2014-08-06 22:24:18	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:24:28	◣	atraylen (~atraylen@71-89-44-223.dhcp.stpt.wi.charter.com) has quit (Ping timeout: 240 seconds)
+2014-08-06 22:24:41	◣	Kicer86 (~Kicer86@109241199226.rudaslaska.vectranet.pl) has quit (Read error: Connection reset by peer)
+2014-08-06 22:24:55	◣	Manny (~quassel@14.139.122.114) has quit (Read error: Connection reset by peer)
+2014-08-06 22:25:04	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-06 22:25:05	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-06 22:25:06	◥	coc00n (~Anonymous@p5DD953ED.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 22:25:14	nullvibe	gui design mostly boils down to glorified flower arranging these days
+2014-08-06 22:25:17	absk007	deadmund, i'm on lubuntu. Which toolkit should i go for? It should be lightweight & cross platform
+2014-08-06 22:25:29	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:25:54	nullvibe	absk007: in fact, the DEs are going web 2.0, so learning (x)html, javascript, etc would probably be prudent
+2014-08-06 22:25:57	deadmund	absk007: They all claim to be cross platform.  This is technically true but you have to install a bunch of libraries on whatever platform.
+2014-08-06 22:26:00	◣	SkunkyFone (~skunky@unaffiliated/skunky) has quit (Remote host closed the connection)
+2014-08-06 22:26:02	pingfloyd	Design is that thing programmers never grasp
+2014-08-06 22:26:09	◥	elbeardmorez (~quassel@bcdc7af4.skybroadband.com) has joined ##linux
+2014-08-06 22:26:15	absk007	nullvibe, i know webdev
+2014-08-06 22:26:15	Jabberwock	pingfloyd: unless they're split-brained.
+2014-08-06 22:26:26	nullvibe	no, design is the thing we leave to flower arrangers who can't do much else ;)
+2014-08-06 22:26:40	pingfloyd	Jabberwock: yep, but very few are
+2014-08-06 22:26:42	nullvibe	it takes a homosexual/metrosexual touch
+2014-08-06 22:26:47	absk007	nullvibe, gud 1
+2014-08-06 22:27:06	◣	InspectorCluseau (~Inspector@75-168-234-138.mpls.qwest.net) has quit (Ping timeout: 260 seconds)
+2014-08-06 22:27:16	pingfloyd	nullvibe: spoken like a true philistine
+2014-08-06 22:27:19	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 22:27:28	deadmund	absk007: Maybe check out java GUI stuff, because it probably has the most , and the most accessible users
+2014-08-06 22:27:28	◣	skinp (~skinp@unaffiliated/skinp) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:27:30	◥	Irrelium (~Irrelium@71.19.153.241) has joined ##linux
+2014-08-06 22:27:35	◥	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has joined ##linux
+2014-08-06 22:27:37	webtux	hi everybody, i will soon receive a laptop computer (and i will probably install ubuntu), i just want to know your experiences with TOSHIBA  laptops (the problems) thanks :)
+2014-08-06 22:27:52	Jabberwock	No issues personally.
+2014-08-06 22:28:09	◥	craigbowen3 (~craigbowe@ip82.179.ulttk.ru) has joined ##linux
+2014-08-06 22:28:11	webtux	Jabberwock, ok, which laptop ?
+2014-08-06 22:28:38	nullvibe	absk007: anyway, gnome 3 is already web-based under the hood. android does it's own java thing, but there are also "web apps", and chrome os isn't much more than a web browser, etc
+2014-08-06 22:28:38	◥	taloszerg (~taloszerg@c62e6602.cst.lightpath.net) has joined ##linux
+2014-08-06 22:28:44	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:29:13	◣	Elektro121 (~Elektro@ARennes-656-1-278-50.w109-218.abo.wanadoo.fr) has quit (Ping timeout: 260 seconds)
+2014-08-06 22:29:36	absk007	nullvibe, java is too resource hog...
+2014-08-06 22:29:41	◣	Guest48094 (~Naahmi@95-90-7-64-dynip.superkabel.de) has quit (Remote host closed the connection)
+2014-08-06 22:29:43	deadmund	absk007: Probably the web is the best GUI platform to learn right now.  Second best is probably Android or iOS.  Third is probably just Java.  You can learn QT or GTK but outside of linux, nobody has that stuff installed
+2014-08-06 22:29:50	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:30:05	◥	taloszer_ (~taloszerg@c62e6602.cst.lightpath.net) has joined ##linux
+2014-08-06 22:30:17	absk007	deadmund, doesn't majority of linux apps run GTK?
+2014-08-06 22:30:25	◥	robarelli (~robarelli@24.244.23.132) has joined ##linux
+2014-08-06 22:30:35	nullvibe	deadmund: actually, qt and gtk work fine on windows too. problem is, windows is a dying OS (for desktops)
+2014-08-06 22:30:51	◣	OldDog (~OldDog@ip-83-134-59-216.dsl.scarlet.be) has quit (Quit: Leaving)
+2014-08-06 22:30:55	nullvibe	they also seem to have trouble crossing the divide to mobiles for whatever reason
+2014-08-06 22:31:08	◥	awkwardusername (~Mark@222.127.192.140) has joined ##linux
+2014-08-06 22:31:16	deadmund	absk007: qt is used by the KDE apps, GTK is basically everything else.
+2014-08-06 22:31:39	absk007	deadmund, so i should learn GTK. rt?
+2014-08-06 22:31:44	deadmund	nullvibe: I mentioned specifically that GTK and QT work fine on windows.  I mentioned that nobody has them installed (on windows)
+2014-08-06 22:31:59	deadmund	absk007:  Probably the web is the best GUI platform to learn right now.  Second best is probably Android or iOS.  Third is probably just Java. Fourth You can learn QT or GTK but outside of linux, nobody has that stuff installed
+2014-08-06 22:32:02	deadmund	That's my opinion
+2014-08-06 22:32:04	nullvibe	anyone who has an app that uses gtk installed has gtk, technically
+2014-08-06 22:32:21	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:32:28	deadmund	Actually, third is probably windows, then java, then QT / GTK
+2014-08-06 22:32:30	nullvibe	it's more common practice for apps to include their own gtk libs in their bundles for windows because of dll hell, among other things
+2014-08-06 22:33:13	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:33:25	◣	taloszerg (~taloszerg@c62e6602.cst.lightpath.net) has quit (Ping timeout: 260 seconds)
+2014-08-06 22:33:27	◣	awkwardusername (~Mark@222.127.192.140) has quit (Client Quit)
+2014-08-06 22:33:29	deadmund	nullvibe: Ahh, yes what does that add in MB to your exe ?
+2014-08-06 22:33:50	absk007	how large is GTK if used on windows?
+2014-08-06 22:33:52	deadmund	And then you have a different looking app (and people hat that!)
+2014-08-06 22:33:55	nullvibe	dunno, but you could go compare your linux pidgin package to the windows installer package that they provide ;)
+2014-08-06 22:33:56	◥	awkwardusername (~Mark@222.127.192.140) has joined ##linux
+2014-08-06 22:34:21	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:34:29	absk007	is GTK lightweight?
+2014-08-06 22:34:32	◣	kahtahs (~kahtahs@unaffiliated/shathak) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:34:32	◣	zeeeh (~zeeeh@p4FD8D6D3.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:34:43	nullvibe	absk007: just to make this an apples to apples comparison, what deadmund calls "windows" would probably translate to .net, which already can be done with Mono/C#
+2014-08-06 22:34:44	◣	KidBeta (~textual@130.56.74.49) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-08-06 22:34:47	◥	H4ndy (~H4ndy@77-64-139-20.dynamic.primacom.net) has joined ##linux
+2014-08-06 22:34:56	deadmund	good point
+2014-08-06 22:34:59	◣	robarelli (~robarelli@24.244.23.132) has quit (Ping timeout: 256 seconds)
+2014-08-06 22:35:12	deadmund	absk007: IDK, having programmed in some of them and used all of them, they all seem the same speed.
+2014-08-06 22:35:20	nullvibe	the new ms CEO already announced that the next .net (.NET vNext) would be open source and released in collaboration with Mono, so it should be "portable" enough as well
+2014-08-06 22:35:24	deadmund	absk007: KDE is the heaviest, but it doesn't seem that QT itself is the reason for that.
+2014-08-06 22:35:36	◥	wcfields (~keynull@209.36.40.50) has joined ##linux
+2014-08-06 22:35:54	◣	kriks (~kristina@161.167.191.90.dyn.estpak.ee) has quit (Quit: Leaving)
+2014-08-06 22:35:57	nullvibe	qt is/was actually lighter, but theme problems were far more common
+2014-08-06 22:36:03	◥	Eluino (~Eluino@unaffiliated/eluino) has joined ##linux
+2014-08-06 22:36:15	absk007	For large apps, Java is too slow e.g. WebStorm IDE itself.
+2014-08-06 22:36:15	◥	kriks (~kristina@161.167.191.90.dyn.estpak.ee) has joined ##linux
+2014-08-06 22:36:28	nullvibe	or rather, a qt app looked like a qt app rather than blending in with the native environment
+2014-08-06 22:37:01	◥	Jesin (~Jesin@pool-96-241-156-242.washdc.fios.verizon.net) has joined ##linux
+2014-08-06 22:37:03	◥	morphix0 (~morphix0@bpl184.neoplus.adsl.tpnet.pl) has joined ##linux
+2014-08-06 22:37:35	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:37:38	◣	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2014-08-06 22:38:00	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 22:38:35	◣	AlexPortable (uid7568@gateway/web/irccloud.com/x-mqustfvmzmmguvla) has quit (Quit: Connection closed for inactivity)
+2014-08-06 22:38:42	pingfloyd	That's always a problem when you mix toolkits
+2014-08-06 22:38:42	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:38:50	◥	SteveG (~SteveG@pdpc/supporter/21for7/steveg) has joined ##linux
+2014-08-06 22:38:58	◥	InspectorCluseau (~Inspector@75-168-233-226.mpls.qwest.net) has joined ##linux
+2014-08-06 22:38:58	◥	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-06 22:39:16	◣	Evi1 (~Sin@cpe-76-171-64-25.socal.res.rr.com) has quit
+2014-08-06 22:39:25	◣	mijicd (~mijicd@cable-188-246-51-84.dynamic.kdsinter.net) has quit (Remote host closed the connection)
+2014-08-06 22:39:50	◥	Kicer86 (~Kicer86@109241199226.rudaslaska.vectranet.pl) has joined ##linux
+2014-08-06 22:39:51	◥	robarelli (~robarelli@24.244.23.140) has joined ##linux
+2014-08-06 22:40:47	◣	Mobutils (~mobutils@S010600026f6bb431.cg.shawcable.net) has quit (Quit: Mobutils)
+2014-08-06 22:40:55	◣	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has quit (Remote host closed the connection)
+2014-08-06 22:41:13	◥	unixist (~unixist@unaffiliated/unixist) has joined ##linux
+2014-08-06 22:41:37	◣	wlczkun (~e@c-98-235-165-166.hsd1.pa.comcast.net) has quit (Remote host closed the connection)
+2014-08-06 22:41:52	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:43:05	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:43:22	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 22:43:38	◣	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:43:40	◥	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-06 22:43:50	_Cody	 who can tell me a good  shedduling tool for everyday tasks that is commandline based
+2014-08-06 22:43:56	◣	active8 (~mike@96.234.153.89) has quit (Quit: Leaving)
+2014-08-06 22:44:02	◣	atolani (Arpit@nat/redhat/x-bszbnhuouhtfbcen) has quit (Ping timeout: 244 seconds)
+2014-08-06 22:44:04	◣	Deepu143 (~pradeep@115.249.97.210) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:44:40	◣	ch077179 (~ch077179@unaffiliated/ch077179) has quit (Quit: Ex-Chat)
+2014-08-06 22:44:43	pingfloyd	A pen and paper
+2014-08-06 22:44:52	ixela	cron
+2014-08-06 22:45:10	ℹ 	izyoff is now known as izabera
+2014-08-06 22:45:42	◣	pingfloyd (~PingFloyd@unaffiliated/pingfloyd) has quit (Quit: Bye)
+2014-08-06 22:45:42	◥	mark| (~mark@149.255.109.175) has joined ##linux
+2014-08-06 22:45:53	◣	mark| (~mark@149.255.109.175) has left ##linux
+2014-08-06 22:46:04	◣	unixist (~unixist@unaffiliated/unixist) has quit (Remote host closed the connection)
+2014-08-06 22:46:10	◥	markv (~mark@unaffiliated/marktwain) has joined ##linux
+2014-08-06 22:46:11	markv	Hi
+2014-08-06 22:46:17	◥	CDrone (~CDrone@192.124.26.172) has joined ##linux
+2014-08-06 22:46:23	markv	I need some help binding an interface to an IPv6 address
+2014-08-06 22:46:28	◣	BelegCuthalion (~quassel@143.177.82.90) has quit (Ping timeout: 272 seconds)
+2014-08-06 22:46:31	◣	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has quit (Read error: No route to host)
+2014-08-06 22:46:34	markv	I was allocated a /64 subnet
+2014-08-06 22:46:36	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:46:54	◥	Deepu143 (~pradeep@115.249.97.210) has joined ##linux
+2014-08-06 22:46:58	◥	unixist (~unixist@unaffiliated/unixist) has joined ##linux
+2014-08-06 22:47:38	◥	__02 (Elite11510@gateway/shell/elitebnc/x-qfebumthxkjtfewg) has joined ##linux
+2014-08-06 22:47:42	◣	InspectorCluseau (~Inspector@75-168-233-226.mpls.qwest.net) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:47:50	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:47:55	◥	tirengarfio (~tirengarf@142.Red-81-37-188.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-06 22:48:00	◣	Extensa5630G (~hassoon@unaffiliated/hassen) has quit (Quit: Lost terminal)
+2014-08-06 22:48:03	◥	shovel_boss (~shovel_bo@unaffiliated/shovel-boss/x-4881665) has joined ##linux
+2014-08-06 22:48:03	◣	chcx (~chcx@unaffiliated/chicox) has quit (Remote host closed the connection)
+2014-08-06 22:48:06	◣	__02 (Elite11510@gateway/shell/elitebnc/x-qfebumthxkjtfewg) has left ##linux
+2014-08-06 22:48:17	◣	ebfull (~ebfull@c-76-120-40-34.hsd1.co.comcast.net) has quit (Quit: cya)
+2014-08-06 22:48:24	◣	luiz_lha (~luiz@179-242-241-44.3g.claro.net.br) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:48:35	Jabberwock	psh you act like IANA gave out the very last block of IPv4 addresses or something.
+2014-08-06 22:48:35	◣	orti (~orti@p4FC55B0D.dip0.t-ipconnect.de) has quit (Quit: Nettalk6 - www.ntalk.de)
+2014-08-06 22:48:40	Jabberwock	oh wait.
+2014-08-06 22:48:56	◣	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 22:49:17	◣	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has quit (Ping timeout: 260 seconds)
+2014-08-06 22:49:44	◣	v2zz (~chatzilla@31.135.149.166) has quit (Remote host closed the connection)
+2014-08-06 22:49:46	markv	IPv6
+2014-08-06 22:50:45	izabera	how can i output `xxx yyy` instead of `yyy xxx` without saving `xxx` in a variable in this command?
+2014-08-06 22:50:46	izabera	$ some_command_that_will_output_xxx | xargs echo yyy
+2014-08-06 22:51:10	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Read error: Connection reset by peer)
+2014-08-06 22:51:12	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 22:51:12	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:51:15	Jabberwock	markv: I know. I was making a joke :P
+2014-08-06 22:51:19	Jabberwock	Which was obviously lost.
+2014-08-06 22:51:22	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-06 22:51:30	markv	:(
+2014-08-06 22:51:46	◥	Mobutils (~mobutils@S010600026f6bb431.cg.shawcable.net) has joined ##linux
+2014-08-06 22:51:46	markv	ip -6 addr add 2002:c000:203::1/64 dev eth0
+2014-08-06 22:51:48	Jabberwock	hugs
+2014-08-06 22:52:24	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:52:26	◥	mhcerri_ (~Marcelo_C@177.157.255.158) has joined ##linux
+2014-08-06 22:52:32	markv	How can I make a device?
+2014-08-06 22:52:34	◥	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has joined ##linux
+2014-08-06 22:52:48	◥	deathleff (~duke@ip-178-202-246-56.hsi09.unitymediagroup.de) has joined ##linux
+2014-08-06 22:53:12	Abbott	is there a better package for editing id3 tags other than id3v2? id2v2 will not delte v1 tags when i use "id3v2 -s *"
+2014-08-06 22:53:19	◥	evanz (~Evan@cpe-74-138-17-188.swo.res.rr.com) has joined ##linux
+2014-08-06 22:53:23	◣	lyles (~lscott@unaffiliated/lyles) has quit (Remote host closed the connection)
+2014-08-06 22:53:31	Abbott	*id3vw will not delete*
+2014-08-06 22:53:32	◣	postman| (d0b90c36@gateway/web/freenode/ip.208.185.12.54) has quit (Ping timeout: 246 seconds)
+2014-08-06 22:53:33	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 22:53:45	Abbott	sorry, i keep making typos
+2014-08-06 22:53:52	vlt	Abbott: Don't know any. But there's an option to remove v1 tags.
+2014-08-06 22:53:53	◥	Megaf (~Megaf@unaffiliated/megaf) has joined ##linux
+2014-08-06 22:54:01	Froolap	izabera: try awk and just rotate the fields
+2014-08-06 22:54:22	◣	mhcerri (~Marcelo_C@177.205.179.130.dynamic.adsl.gvt.net.br) has quit (Ping timeout: 245 seconds)
+2014-08-06 22:54:22	◥	doofy (~specialof@unaffiliated/doofy) has joined ##linux
+2014-08-06 22:54:29	Abbott	vlt: that's what the -s option is for, but it's not working. It gives me an output to std saying that it stripped v1 but when i check with "id3v2 -l *" they are still there
+2014-08-06 22:54:35	◥	aluchko (~aaron.luc@96.53.114.130) has joined ##linux
+2014-08-06 22:54:53	spreeuw	Abbott: instruct your program to read out v2 only
+2014-08-06 22:55:05	◥	visseroth1 (~Thunderbi@208.81.157.22) has joined ##linux
+2014-08-06 22:55:09	spreeuw	you can also remove v1 in batch mode
+2014-08-06 22:55:23	spreeuw	with ie easytag
+2014-08-06 22:55:38	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 22:55:46	Abbott	so easytage will work?
+2014-08-06 22:55:50	◥	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined ##linux
+2014-08-06 22:55:51	◥	vook (~vook@204.44.87.209) has joined ##linux
+2014-08-06 22:55:57	Abbott	because stripping v1 in id3v2 is not working
+2014-08-06 22:55:58	spreeuw	easytag can read write both
+2014-08-06 22:56:05	Abbott	okay I'll give it a try
+2014-08-06 22:56:07	Abbott	thank you
+2014-08-06 22:56:21	spreeuw	theres also a cmdline tool claled mp3clean
+2014-08-06 22:56:28	spreeuw	that removes all crud
+2014-08-06 22:56:33	◣	visseroth (~Thunderbi@208.81.157.22) has quit (Ping timeout: 250 seconds)
+2014-08-06 22:56:37	spreeuw	maybe run that first
+2014-08-06 22:56:48	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 22:57:08	◣	bezet (~the_bz@unaffiliated/the-bz/x-5935285) has quit (Remote host closed the connection)
+2014-08-06 22:57:35	Abbott	oh is easytag a gtk app
+2014-08-06 22:57:38	◣	Megaf (~Megaf@unaffiliated/megaf) has quit (Client Quit)
+2014-08-06 22:57:40	Abbott	i am on a headless system
+2014-08-06 22:58:26	spreeuw	you want to retag them?
+2014-08-06 22:58:37	spreeuw	or just remove all tags?
+2014-08-06 22:58:45	◥	BigBangUDR (~Thunderbi@115.247.202.66) has joined ##linux
+2014-08-06 22:58:52	◣	m0ltar (~moltar@96.127.238.41) has quit (Quit: peace.)
+2014-08-06 22:58:55	◣	markv (~mark@unaffiliated/marktwain) has left ##linux ("Leaving")
+2014-08-06 22:58:59	spreeuw	its a complex task which requires a gui
+2014-08-06 22:59:07	spreeuw	if you wnat to retag
+2014-08-06 22:59:10	◣	BigBangUDR (~Thunderbi@115.247.202.66) has quit (Client Quit)
+2014-08-06 22:59:42	blind	you can re-tag from the command line
+2014-08-06 22:59:55	◣	joako (~joako@opensuse/member/joak0) has quit (Ping timeout: 256 seconds)
+2014-08-06 22:59:57	blind	it would be a pain but it can be done. depending on the directory/file structure it could be scripted
+2014-08-06 23:00:18	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:00:28	Froolap	I can set the font with font, if there's one already created.  I can set rows@columns with resize, but that just sets where the linefeed and carrige returns are located, what I can't do is scale the rows@columns to be full screen. How do I rescale the screen?
+2014-08-06 23:00:29	◣	e2718 (~hdesk@p4FD36CE1.dip0.t-ipconnect.de) has quit (Quit: Konversation terminated!)
+2014-08-06 23:00:37	◥	cheater (~cheater@vpn14.hotsplots.net) has joined ##linux
+2014-08-06 23:00:38	cheater	hi
+2014-08-06 23:00:57	◣	CDrone (~CDrone@192.124.26.172) has quit (Ping timeout: 245 seconds)
+2014-08-06 23:01:01	◣	nanicoar (~n@87-92-148-237.bb.dnainternet.fi) has left ##linux
+2014-08-06 23:01:16	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 23:01:25	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:01:29	◥	t_dot_zilla (~vipkilla@unaffiliated/t-dot-zilla/x-2830497) has joined ##linux
+2014-08-06 23:01:37	cheater	i'm trying to install sdl-draw ( http://sourceforge.net/projects/sdl-draw/postdownload?source=dlp ) so that it can be found by other sources which i need to compile. can someone tell me how this is done? I'm on Ubuntu 13.10. I know little about how C works in that regard.
+2014-08-06 23:01:42	t_dot_zilla	how do you make modprobe -r nf_conntrack_sip   persistent on reboot?
+2014-08-06 23:01:46	◥	InspectorCluseau (~Inspector@75-168-235-3.mpls.qwest.net) has joined ##linux
+2014-08-06 23:02:15	◣	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:02:36	◥	jeffreylevesque (~jeffreyle@66.87.89.190) has joined ##linux
+2014-08-06 23:02:49	blind	t_dot_zilla: to not use a module? you could blacklist it by putting the module name in /etc/modprobe.d/blacklist
+2014-08-06 23:02:53	◥	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has joined ##linux
+2014-08-06 23:02:57	◥	tplpnm (~tplpnm@c-24-62-95-230.hsd1.ma.comcast.net) has joined ##linux
+2014-08-06 23:03:25	◥	kristofers (~kristofer@2a01:e35:3995:7a80:9ced:2e1a:766b:b433) has joined ##linux
+2014-08-06 23:03:29	◣	hexagoxel (~hexagoxel@134.245.98.146) has quit (Ping timeout: 250 seconds)
+2014-08-06 23:03:42	t_dot_zilla	thanks blind
+2014-08-06 23:03:57	blind	t_dot_zilla: actually I'm incorrect. You create a .conf inside /etc/modprobe.d/  and inside it put "blacklist module_name"
+2014-08-06 23:03:58	t_dot_zilla	so it won't load on boot fi I add it in there?
+2014-08-06 23:04:02	cheater	how does one normally make source files available to other stuff on linux?
+2014-08-06 23:04:31	blind	so like, echo "blacklist nf_conntrack_sip" > /etc/modprobe.d/nf_conntrack_sip.conf
+2014-08-06 23:04:40	oakwhiz	t_dot_zilla: You can also add a kernel argument before booting so that the kernel knows not to load the module.
+2014-08-06 23:04:42	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:05:33	ixela	cheater: you add it to your environment variables that your compiler looks at for linking.
+2014-08-06 23:05:44	ixela	cheater: once you have a working install of the library you want to include.
+2014-08-06 23:05:52	◥	kermit (unknown@pdpc/supporter/bronze/kermit) has joined ##linux
+2014-08-06 23:05:53	t_dot_zilla	oakwhiz: how do i do that?
+2014-08-06 23:05:54	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:06:07	◥	xangua (~xangua@unaffiliated/xangua) has joined ##linux
+2014-08-06 23:06:10	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 250 seconds)
+2014-08-06 23:06:16	Abbott	spreeuw I am using x11 to run easytag but i can't find the option to strip v1
+2014-08-06 23:06:36	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:07:03	◥	ryaxnb (~ryaxnb@mobile-198-228-213-050.mycingular.net) has joined ##linux
+2014-08-06 23:07:09	t_dot_zilla	blind: hows this?
+2014-08-06 23:07:11	t_dot_zilla	http://p.bsd-unix.net/ptdyv0li0
+2014-08-06 23:07:36	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:07:41	◣	davispuh (~quassel@212.93.100.73) has quit (Remote host closed the connection)
+2014-08-06 23:08:19	◣	p014k (~p014k@unaffiliated/p014k) has quit (Quit: Leaving)
+2014-08-06 23:08:21	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:08:22	cheater	ixela: the library does install well via configure, make, and sudo make install.
+2014-08-06 23:08:31	spreeuw	Abbott: see the mouse over of the id31 checkbox
+2014-08-06 23:08:46	cheater	ixela: but i'm not sure where one would put the .h/.c files?
+2014-08-06 23:08:53	spreeuw	tab id3 tag settings under alt p
+2014-08-06 23:08:54	cheater	i guess only the .h files actually?
+2014-08-06 23:09:08	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:09:40	oakwhiz	t_dot_zilla: On my system I modified the GRUB_CMDLINE_LINUX line inside /etc/default/grub and then I rebuilt my initramfs using Dracut
+2014-08-06 23:09:53	t_dot_zilla	ahh too much craziness for me, oakwhiz
+2014-08-06 23:10:00	◣	kphanee__ (uid13073@gateway/web/irccloud.com/x-xcyvvcweiaxatgvo) has quit (Quit: Connection closed for inactivity)
+2014-08-06 23:10:00	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:10:00	spreeuw	"if activtaed it will be added or updated, else it will be stripped"
+2014-08-06 23:10:07	◥	la1n (~la1n@46.147.173.18) has joined ##linux
+2014-08-06 23:10:18	◣	denimsoft (~andrew@80.87.23.150) has quit (Quit: Leaving.)
+2014-08-06 23:10:20	spreeuw	Abbott: sooner or later you will give up on tagging
+2014-08-06 23:10:20	◥	_lunatic (~lunatic@87-205-141-154.adsl.inetia.pl) has joined ##linux
+2014-08-06 23:10:21	blind	t_dot_zilla: that works.
+2014-08-06 23:10:24	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:10:28	spreeuw	and just accept the chaos
+2014-08-06 23:10:32	◥	TrBr (~Treebro@208.92.142.2) has joined ##linux
+2014-08-06 23:10:46	spreeuw	also delete your media regularily
+2014-08-06 23:11:02	◣	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 23:11:03	spreeuw	to make sure you keep fresh music coming in
+2014-08-06 23:11:07	spreeuw	your brain
+2014-08-06 23:11:08	blind	O_o
+2014-08-06 23:11:08	oakwhiz	t_dot_zilla: it's really not that difficult :-) once you start using strange kernel modules, it becomes necessary
+2014-08-06 23:11:11	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 23:11:16	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:11:35	t_dot_zilla	oakwhiz: like what kind of strange modules? i'll probably cross that bridge when i get there
+2014-08-06 23:11:46	oakwhiz	t_dot_zilla: zfs
+2014-08-06 23:11:56	ℹ 	NotANick[BDC] is now known as NotANick
+2014-08-06 23:11:57	◣	Lope (~Lope@105-236-141-172.access.mtnbusiness.co.za) has left ##linux ("Leaving")
+2014-08-06 23:12:31	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:12:58	t_dot_zilla	how do you list if a module is loaded or not?
+2014-08-06 23:13:02	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:13:04	t_dot_zilla	modprobe -l ?
+2014-08-06 23:13:07	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Ping timeout: 245 seconds)
+2014-08-06 23:13:14	◣	beejee (~beejee@office.kangaroot.net) has quit (Quit: Leaving)
+2014-08-06 23:13:17	◥	aakvik_home (~alxaa@116-249-15.connect.netcom.no) has joined ##linux
+2014-08-06 23:13:34	◣	mhcerri_ (~Marcelo_C@177.157.255.158) has quit (Quit: WeeChat 0.3.9-rc1)
+2014-08-06 23:13:39	◣	jillsmitt (~deter@unaffiliated/jillsmitt) has quit (Remote host closed the connection)
+2014-08-06 23:13:45	◥	casaper (~casaper@77.109.184.34) has joined ##linux
+2014-08-06 23:13:47	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:13:53	◥	mhcerri (~Marcelo_C@177.157.255.158) has joined ##linux
+2014-08-06 23:13:55	blind	that might work. i usually use lsmod
+2014-08-06 23:14:01	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:14:02	oakwhiz	grep zfs /proc/modules
+2014-08-06 23:14:09	t_dot_zilla	i think modprobe -l lists all modules loaded or not
+2014-08-06 23:14:38	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:14:54	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:15:25	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:15:36	◥	mamtina (~ms@unaffiliated/ms/x-1374511) has joined ##linux
+2014-08-06 23:15:46	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-06 23:16:20	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:16:25	Sauvin	What about lsmod?
+2014-08-06 23:16:30	◣	Eluino (~Eluino@unaffiliated/eluino) has quit (Quit: x)
+2014-08-06 23:16:40	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 23:16:51	◥	boyobejamin (~Adium@50-197-28-225-static.hfc.comcastbusiness.net) has joined ##linux
+2014-08-06 23:17:06	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:17:11	t_dot_zilla	blind:  that black list didn't work :(
+2014-08-06 23:17:18	◣	sphenxes (~sphenxes@91-119-230-116.dynamic.xdsl-line.inode.at) has quit (Quit: Leaving)
+2014-08-06 23:17:18	◣	Sbroker` (~DebianSta@unaffiliated/sbroker) has quit (Quit: !More Debian and Less Hardware! By Sbroker 2014 - http://sbroker.cv.fm)
+2014-08-06 23:17:26	blind	what distro?
+2014-08-06 23:17:33	blind	you may need to put it elsewhere
+2014-08-06 23:17:39	t_dot_zilla	debian 5
+2014-08-06 23:17:43	t_dot_zilla	i know.... isuper old
+2014-08-06 23:17:51	◣	casaper (~casaper@77.109.184.34) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:18:10	◣	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has quit (Ping timeout: 264 seconds)
+2014-08-06 23:18:14	◣	crystal77 (~crystal77@66.162.212.19) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 23:18:16	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:18:22	morfin	what's fastest way to copy lots of files from dir1 to dir2?
+2014-08-06 23:18:26	morfin	using find?
+2014-08-06 23:18:28	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:18:28	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 23:18:34	◣	jeffreylevesque (~jeffreyle@66.87.89.190) has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2014-08-06 23:18:34	blind	you may need to just add to blacklist file. what are the contents of /etc/modprobe.d/  ?
+2014-08-06 23:18:37	◣	csd126 (~csd126@april.sos.its.psu.edu) has quit (Quit: csd126)
+2014-08-06 23:18:40	◥	preyalone (uid21561@gateway/web/irccloud.com/x-ssuluqomzdtbswwp) has joined ##linux
+2014-08-06 23:18:44	preyalone	How can I retrieve csh's version number? tcsh provides --version and $version, but not bsd-csh :/
+2014-08-06 23:18:45	◥	jottr (~jottr@unaffiliated/jottr) has joined ##linux
+2014-08-06 23:18:46	blind	morfin: using find? what?
+2014-08-06 23:18:53	socomm	morfin: 'cp'
+2014-08-06 23:18:59	t_dot_zilla	blind: http://p.bsd-unix.net/psvunqdal
+2014-08-06 23:19:00	morfin	find dir1 -type f -exec cp {} dir2 \;
+2014-08-06 23:19:19	◣	fossxplorer (~fossxplor@unaffiliated/fossxplorer) has quit (Remote host closed the connection)
+2014-08-06 23:19:22	blind	cp dir1/* dir2/
+2014-08-06 23:19:22	◥	asc232 (~Keith@190.51.26.114) has joined ##linux
+2014-08-06 23:19:25	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:19:28	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:19:28	socomm	morfin: why do you need to use find?
+2014-08-06 23:19:30	◣	InspectorCluseau (~Inspector@75-168-235-3.mpls.qwest.net) has quit (Ping timeout: 250 seconds)
+2014-08-06 23:19:34	◥	sysrage (~sysrage@cpe-024-163-089-184.nc.res.rr.com) has joined ##linux
+2014-08-06 23:19:44	blind	that find line will copy all of the files found into dir2, without keeping folder structure.
+2014-08-06 23:19:48	◥	druonysus (~drew.adam@206.169.198.1) has joined ##linux
+2014-08-06 23:19:53	vook	I have a license server which contains two network interfaces, each of which having a unique IP address on the same network subnet. How could I force an NFS mount to go over a certain interface or IP address. One of the interfaces is periodically brought down for an MAC address change.
+2014-08-06 23:19:56	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:19:58	◣	druonysus (~drew.adam@206.169.198.1) has quit (Changing host)
+2014-08-06 23:19:58	◥	druonysus (~drew.adam@unaffiliated/druonysus) has joined ##linux
+2014-08-06 23:19:58	vook	I have netgroups enabled for only one of the interfaces. I get access denied during mount unless I bring one of the interfaces down.
+2014-08-06 23:20:17	◣	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:20:23	◥	LaptopBrain (~brain@cpc22-mfld14-2-0-cust129.13-1.cable.virginm.net) has joined ##linux
+2014-08-06 23:20:49	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:21:07	◥	Auriel (~Auriel@ip68-2-150-10.ph.ph.cox.net) has joined ##linux
+2014-08-06 23:21:17	blind	t_dot_zilla: yeah, you probably need to add to "blacklist"
+2014-08-06 23:21:18	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:21:27	t_dot_zilla	blind: that didn't work either
+2014-08-06 23:21:30	blind	newer versions let you make your own conf file to keep organized better
+2014-08-06 23:21:34	blind	wha?
+2014-08-06 23:21:41	blind	what does blacklist look like now?
+2014-08-06 23:21:49	◥	jogru (~johann@chello084114229179.15.vie.surfer.at) has joined ##linux
+2014-08-06 23:21:52	◥	o1e (~o1e@p5DD0E2BF.dip0.t-ipconnect.de) has joined ##linux
+2014-08-06 23:21:54	◥	WhiteC3PO (~root@bas1-quebec09-1177749072.dsl.bell.ca) has joined ##linux
+2014-08-06 23:22:08	◣	bearish_ (~bearish@84.23.59.213) has quit (Remote host closed the connection)
+2014-08-06 23:22:09	◣	strugart (~strugart@181.167.101.13) has quit (Read error: Connection reset by peer)
+2014-08-06 23:22:18	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:22:23	t_dot_zilla	hold on, i think ineed to put them near top of file
+2014-08-06 23:22:49	morfin	so what's fastest way?
+2014-08-06 23:22:49	t_dot_zilla	booting again...
+2014-08-06 23:22:54	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:22:54	◥	strugart (~strugart@181.167.101.13) has joined ##linux
+2014-08-06 23:22:57	socomm	vook: specify the IP associated with the NIC which you'd like the NFS client to use.
+2014-08-06 23:23:01	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:23:07	◥	zorachus (~zorachus@108.171.185.39) has joined ##linux
+2014-08-06 23:23:07	◥	chcx (~chcx@unaffiliated/chicox) has joined ##linux
+2014-08-06 23:23:10	◥	druonysuse (~drew.adam@206.169.198.1) has joined ##linux
+2014-08-06 23:23:10	◣	druonysuse (~drew.adam@206.169.198.1) has quit (Changing host)
+2014-08-06 23:23:10	◥	druonysuse (~drew.adam@unaffiliated/druonysus) has joined ##linux
+2014-08-06 23:23:10	◣	zorachus (~zorachus@108.171.185.39) has left ##linux
+2014-08-06 23:23:11	◣	druonysus (~drew.adam@unaffiliated/druonysus) has quit (Read error: Connection reset by peer)
+2014-08-06 23:23:17	◣	leeyaa (d4686f43@gateway/web/freenode/ip.212.104.111.67) has quit (Ping timeout: 246 seconds)
+2014-08-06 23:23:30	◣	Snake2k (~snake2k@ip68-100-207-22.dc.dc.cox.net) has quit (Quit: Lost terminal)
+2014-08-06 23:23:55	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-06 23:24:09	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:24:10	t_dot_zilla	no damn it
+2014-08-06 23:24:19	t_dot_zilla	lsmod | grep sip        shows them loaded
+2014-08-06 23:24:22	vook	socomm: well, it's the client that has two IP addresses. Is there a way to tell the client which IP address to use locally?
+2014-08-06 23:24:34	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-06 23:24:39	socomm	vook: if you have 2 NICs you can always do load balancing and have the NFS client use a virtual IP to access the NFS share - this of course would enable you to take down one of the two NICs at any time
+2014-08-06 23:24:53	◣	obelix_ (~obelix@200.119.17.74) has quit (Quit: obelix_)
+2014-08-06 23:24:58	◣	nextus_ (~nextus@2a02:6b8:0:40c:25b6:ad1b:332e:aed2) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:25:18	socomm	vook: why does the client have 2 IP address for the same end server?
+2014-08-06 23:25:28	◥	crow_voorhees (~crowvoorh@97.68.224.69) has joined ##linux
+2014-08-06 23:25:30	◥	rojem (~rojem@199.4.160.10) has joined ##linux
+2014-08-06 23:25:37	◣	Sauvin (~Savinus@about/linux/staff/sauvin) has quit (Remote host closed the connection)
+2014-08-06 23:25:46	◥	davispuh (~quassel@212.93.100.73) has joined ##linux
+2014-08-06 23:25:49	◣	davispuh (~quassel@212.93.100.73) has quit (Remote host closed the connection)
+2014-08-06 23:26:17	◥	davispuh (~quassel@212.93.100.73) has joined ##linux
+2014-08-06 23:26:43	vook	the client is a license server and one of the NIC's has a rotating MAC address. One of the IP addresses is always one (so I can administer remotely), the other is periodically brought down, MAC addressed changed (with ip link), and restarted.
+2014-08-06 23:26:52	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2014-08-06 23:27:14	◥	jeffreylevesque (~jeffreyle@66.87.89.190) has joined ##linux
+2014-08-06 23:27:19	vook	We worked something out with a vender whereby they'll give us perpetual trial licenses, but we need to change the mac address every three weeks.
+2014-08-06 23:27:39	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:27:52	◣	WhiteC3PO (~root@bas1-quebec09-1177749072.dsl.bell.ca) has quit (Quit: leaving)
+2014-08-06 23:28:22	◣	davispuh (~quassel@212.93.100.73) has quit (Remote host closed the connection)
+2014-08-06 23:28:41	ixela	vook: so flexlm?
+2014-08-06 23:28:46	vook	yep, flexlm
+2014-08-06 23:28:50	◥	Chaos_Zero (~paul@c-69-248-138-174.hsd1.nj.comcast.net) has joined ##linux
+2014-08-06 23:28:52	◥	jack52 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has joined ##linux
+2014-08-06 23:28:53	ixela	hehe, i knew that sounded familiar
+2014-08-06 23:28:54	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:28:55	◥	thotseize (~thotseize@static-108-32-49-11.pitbpa.fios.verizon.net) has joined ##linux
+2014-08-06 23:28:58	◣	jack52 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has left ##linux
+2014-08-06 23:29:02	ixela	thankfully I don't do the mac swap often
+2014-08-06 23:29:06	ℹ 	KendeAiblen is now known as music2myear
+2014-08-06 23:29:33	◥	axjax1 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has joined ##linux
+2014-08-06 23:29:38	ixela	could you instead bind against a virtual ethernet adapter?
+2014-08-06 23:29:41	◣	jeffreylevesque (~jeffreyle@66.87.89.190) has quit (Client Quit)
+2014-08-06 23:29:46	◥	DestroyFX (~destroyfx@funtoo/core/destroyfx) has joined ##linux
+2014-08-06 23:29:48	ixela	and then just bridge it back to the physical one?
+2014-08-06 23:29:56	◥	Fire-Dragon-DoL (~francesco@host2-141-dynamic.9-79-r.retail.telecomitalia.it) has joined ##linux
+2014-08-06 23:29:57	ixela	then you can swap the mac constantly
+2014-08-06 23:30:00	◥	hwpplayer1 (~hwpplayer@85.101.22.8) has joined ##linux
+2014-08-06 23:30:16	◣	boyobejamin (~Adium@50-197-28-225-static.hfc.comcastbusiness.net) has quit (Quit: Leaving.)
+2014-08-06 23:30:17	vook	I didn't think of that, hmm.
+2014-08-06 23:30:32	◣	axjax1 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has quit (Changing host)
+2014-08-06 23:30:32	◥	axjax1 (4b537c46@unaffiliated/axjax1) has joined ##linux
+2014-08-06 23:30:32	◣	axjax1 (4b537c46@unaffiliated/axjax1) has quit (Changing host)
+2014-08-06 23:30:32	◥	axjax1 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has joined ##linux
+2014-08-06 23:30:58	◣	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:31:03	t_dot_zilla	what about this file ? /sys/module/nf_nat_sip/initstate
+2014-08-06 23:31:10	◣	robarelli (~robarelli@24.244.23.140) has quit (Remote host closed the connection)
+2014-08-06 23:31:24	◣	FungiFox (~FunguyFaw@71-37-221-123.phnx.qwest.net) has quit (Remote host closed the connection)
+2014-08-06 23:31:26	axjax1	what are the dangers of letting someone use a remote administration tool to help me on linux based distros?
+2014-08-06 23:31:29	◣	Laif (~mp@unaffiliated/laif) has quit (Quit: Konversation terminated!)
+2014-08-06 23:31:40	axjax1	Am I protected because of the password requirement for superusers?
+2014-08-06 23:31:41	morfin	he can rootkit your system
+2014-08-06 23:31:53	morfin	you're never protected
+2014-08-06 23:32:04	◥	silverdethx (~quassel@23-29-6-12.netptc.net) has joined ##linux
+2014-08-06 23:32:04	axjax1	danget
+2014-08-06 23:32:04	morfin	don't trust anybody
+2014-08-06 23:32:08	◥	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has joined ##linux
+2014-08-06 23:32:09	t_dot_zilla	after i write the blacklist do i have to run modprobe or something?
+2014-08-06 23:32:16	morfin	he can exploit
+2014-08-06 23:32:17	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:32:53	morfin	as long as he have local access he can run some bad exploit for privilege escalation, become root and..
+2014-08-06 23:32:54	axjax1	I signed up for a course on edx for linux, and I thought it would be cool to just get really comfortable with a linux distro because I usually use windows
+2014-08-06 23:33:08	axjax1	I overwrote my windows operating system
+2014-08-06 23:33:11	morfin	)
+2014-08-06 23:33:13	axjax1	and I cant get my printer to work
+2014-08-06 23:33:20	◣	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has quit (Ping timeout: 272 seconds)
+2014-08-06 23:33:23	axjax1	I just need to print somthing
+2014-08-06 23:33:27	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:33:30	◣	LonghornMBP (~Longhorn@cpe-76-170-119-249.socal.res.rr.com) has quit
+2014-08-06 23:33:32	axjax1	I've been using plain Debian for about 2 weeks
+2014-08-06 23:33:37	morfin	ow
+2014-08-06 23:33:50	t_dot_zilla	blind: there must be a module depending on it which causes it to load
+2014-08-06 23:34:01	◣	brianblaze420 (~brianblaz@unaffiliated/brianblaze) has quit (Remote host closed the connection)
+2014-08-06 23:34:06	◥	madprops (~yo@ip217-135-15-186.ct.co.cr) has joined ##linux
+2014-08-06 23:34:08	◣	Kingpatzer (~user@24-179-214-16.dhcp.roch.mn.charter.com) has quit (Remote host closed the connection)
+2014-08-06 23:34:16	morfin	i am going to copy files looong time
+2014-08-06 23:34:22	vook	axjax1: what's up with the printer? Is it a network printer or usb?
+2014-08-06 23:34:30	t_dot_zilla	the freakin' nf_conntrack module depends on it
+2014-08-06 23:34:35	t_dot_zilla	what kind a sheeyit
+2014-08-06 23:35:12	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 23:35:13	morfin	10 seconds to copy 1 minute
+2014-08-06 23:35:28	◥	brianblaze420 (~brianblaz@unaffiliated/brianblaze) has joined ##linux
+2014-08-06 23:35:40	axjax1	Sorry, I don't know the difference
+2014-08-06 23:35:46	◥	asdpew (~asdpew@78.63.134.151) has joined ##linux
+2014-08-06 23:35:49	◥	p014k (~p014k@unaffiliated/p014k) has joined ##linux
+2014-08-06 23:35:56	axjax1	I'm not very adapt with these sorts of things
+2014-08-06 23:35:58	morfin	140 minutes hmm
+2014-08-06 23:36:05	preyalone	does Dash have an equivalent to $BASH_VERSION?
+2014-08-06 23:36:07	vook	axjax1: does the printer plug into your computer or into a network device?
+2014-08-06 23:36:15	axjax1	1 sec
+2014-08-06 23:36:37	Abbott	omfg tags are stupid
+2014-08-06 23:36:40	◣	Bono (~bono@240f:12:f430:1:cd9a:8744:274:37f1) has quit (Remote host closed the connection)
+2014-08-06 23:36:41	morfin	i hope he does not want to print using server like CUPS
+2014-08-06 23:36:43	Abbott	whoops wrong channel lol
+2014-08-06 23:36:45	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:36:59	◥	SoleSoul (~jonathan@109.226.60.248) has joined ##linux
+2014-08-06 23:37:02	◥	crystal77 (~crystal77@66.162.212.19) has joined ##linux
+2014-08-06 23:37:20	vook	morfin: well, that is the default for debian
+2014-08-06 23:37:24	axjax1	it plugs into my computer
+2014-08-06 23:37:41	◣	cheater (~cheater@vpn14.hotsplots.net) has quit (Ping timeout: 264 seconds)
+2014-08-06 23:37:55	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:38:05	SoleSoul	Hi.Where can I find the system calls or files interface to ask the OS which executables use the network and how, and how much?
+2014-08-06 23:38:27	◥	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has joined ##linux
+2014-08-06 23:38:31	vook	axjax1: are you using gnome or xfce?
+2014-08-06 23:38:35	◣	diegoviola (~diego@unaffiliated/diegoviola) has quit (Quit: WeeChat 0.4.3)
+2014-08-06 23:38:37	◥	Eluino (~Eluino@unaffiliated/eluino) has joined ##linux
+2014-08-06 23:38:40	◣	madprops (~yo@ip217-135-15-186.ct.co.cr) has quit (Ping timeout: 250 seconds)
+2014-08-06 23:38:44	axjax1	gnome classic
+2014-08-06 23:38:47	Psi-Jack	SoleSoul: #free-coders, ##kernel, or LKML?
+2014-08-06 23:38:58	◣	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:38:58	axjax1	sorry, I need to print about a friends research paper and proof read it
+2014-08-06 23:39:12	◣	Siffy (~w@c-50-130-23-133.hsd1.al.comcast.net) has quit (Read error: Connection reset by peer)
+2014-08-06 23:39:16	SoleSoul	Psi-Jack: LKML? what's that? kernel mailing list?
+2014-08-06 23:39:21	axjax1	probably shouldnt have over written windows
+2014-08-06 23:39:25	Psi-Jack	SoleSoul: Correct. Linux Kernel Mailing List
+2014-08-06 23:39:29	SoleSoul	ok, thanks
+2014-08-06 23:39:37	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 255 seconds)
+2014-08-06 23:39:42	SoleSoul	where should I start? ##kernel?
+2014-08-06 23:39:54	Psi-Jack	SoleSoul: Up to you.
+2014-08-06 23:39:55	◥	Siffy (~w@c-50-130-23-133.hsd1.al.comcast.net) has joined ##linux
+2014-08-06 23:39:58	SoleSoul	ok, thanks
+2014-08-06 23:39:58	◣	xtriz (~IIT@unaffiliated/xtriz) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:40:05	axjax1	vook? can I give you remote access?
+2014-08-06 23:40:13	axjax1	I dnt really have anything valueable
+2014-08-06 23:40:15	axjax1	on my computer
+2014-08-06 23:40:19	axjax1	other then school work
+2014-08-06 23:40:38	axjax1	and loads of pdfs
+2014-08-06 23:40:52	vook	axjax1: I really don't have time for that- catching a flight in 3 hours. As long as your printer shows up in 'lsusb', you typically can just add it in gnome. Sorry.
+2014-08-06 23:41:03	Psi-Jack	axjax1: We don't generally cater to that kind of thing here, and nor should you.
+2014-08-06 23:41:13	axjax1	sorry
+2014-08-06 23:41:15	◥	michaelrose (~mike@24-113-80-45.wavecable.com) has joined ##linux
+2014-08-06 23:41:28	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:41:35	vook	axjax1: it's very true - never trust someone who would say "yes"
+2014-08-06 23:41:47	Psi-Jack	Exactly.
+2014-08-06 23:42:09	Psi-Jack	However, for $50/hr, you can schedule time with me for consulting for such things.
+2014-08-06 23:42:12	Psi-Jack	:)
+2014-08-06 23:42:12	◣	Cyph3r (~Cyph3r@71-84-78-55.dhcp.rvsd.ca.charter.com) has quit (Quit: Leaving)
+2014-08-06 23:42:20	◥	Pappaduck (~joe@cpc13-lewi15-2-0-cust3.2-4.cable.virginm.net) has joined ##linux
+2014-08-06 23:42:32	◥	Cyph3r (~Cyph3r@71-84-78-55.dhcp.rvsd.ca.charter.com) has joined ##linux
+2014-08-06 23:42:35	◣	SoleSoul (~jonathan@109.226.60.248) has left ##linux ("WeeChat 0.4.3")
+2014-08-06 23:42:37	◣	kbarry (~chatzilla@38.102.159.95) has quit (Ping timeout: 245 seconds)
+2014-08-06 23:42:37	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:42:44	◥	kikuchi``` (~nox@cust-179-35-109-94.dyn.as47377.net) has joined ##linux
+2014-08-06 23:42:51	◣	kikuchi``` (~nox@cust-179-35-109-94.dyn.as47377.net) has left ##linux
+2014-08-06 23:43:08	◣	bluebird (~bluebird@p20030061E9329901D2DF8DC76F70B965.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2014-08-06 23:43:26	absk007	how to disk analyzer in cmd?
+2014-08-06 23:43:29	◥	jhford (sid15926@gateway/web/irccloud.com/x-vqphocoonwyweriv) has joined ##linux
+2014-08-06 23:43:39	◥	Lito20 (Lito@186.207.143.154) has joined ##linux
+2014-08-06 23:43:50	◥	brianbla_ (~brianblaz@68.67.62.140) has joined ##linux
+2014-08-06 23:43:54	◥	WhiteC3PO (~beardgore@bas1-quebec09-1177749072.dsl.bell.ca) has joined ##linux
+2014-08-06 23:44:19	◥	BigBangUDR (~Thunderbi@115.247.202.66) has joined ##linux
+2014-08-06 23:44:28	◣	Lito20 (Lito@186.207.143.154) has quit (Client Quit)
+2014-08-06 23:44:35	jhford	i'm doing a destructive test of a drive using badblocks.  instead of printing out status data, it's now printing out a bunch of integers.  really fast.  is that a sign that my drive is defective?
+2014-08-06 23:44:36	Psi-Jack	absk007: What?
+2014-08-06 23:44:50	◥	Lupus33 (Lupus@186.207.143.154) has joined ##linux
+2014-08-06 23:44:51	◣	BigBangUDR (~Thunderbi@115.247.202.66) has quit (Client Quit)
+2014-08-06 23:44:52	Psi-Jack	absk007: cmd is not on Linux, that's Windows. Please keep the subject Linux oriented. Thanks. :)
+2014-08-06 23:45:08	absk007	i mean cmdline
+2014-08-06 23:45:16	Psi-Jack	You mean, what? cmdline? Never heard of it.
+2014-08-06 23:45:23	absk007	terminal
+2014-08-06 23:45:30	absk007	bash
+2014-08-06 23:45:35	Psi-Jack	Ahhh. That's better. :)
+2014-08-06 23:45:42	absk007	:D
+2014-08-06 23:45:49	Psi-Jack	absk007: Don't do it on mounted filesystems, but you can use fsck, File System ChecKer
+2014-08-06 23:45:50	◣	roboman2444 (~roboman24@unaffiliated/roboman2444) has quit (Read error: Connection reset by peer)
+2014-08-06 23:45:55	◥	jottr (~jottr@unaffiliated/jottr) has joined ##linux
+2014-08-06 23:45:55	◣	brianblaze420 (~brianblaz@unaffiliated/brianblaze) has quit (Ping timeout: 255 seconds)
+2014-08-06 23:46:01	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:46:02	◣	Mobutils (~mobutils@S010600026f6bb431.cg.shawcable.net) has quit (Quit: Mobutils)
+2014-08-06 23:46:02	◣	kur1j (83ccfe66@gateway/web/freenode/ip.131.204.254.102) has quit (Ping timeout: 246 seconds)
+2014-08-06 23:46:13	absk007	why not to do on mounted FS?
+2014-08-06 23:46:25	Psi-Jack	Because it will not work reliably or at all and potentially be destructive.
+2014-08-06 23:46:30	Psi-Jack	Likely in fact, destructive.
+2014-08-06 23:46:39	◣	WhiteC3PO (~beardgore@bas1-quebec09-1177749072.dsl.bell.ca) has left ##linux
+2014-08-06 23:47:11	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:47:14	◣	Pappaduck (~joe@cpc13-lewi15-2-0-cust3.2-4.cable.virginm.net) has quit (Ping timeout: 250 seconds)
+2014-08-06 23:47:18	absk007	Psi-Jack, ur that's better reminds me of http://www.youtube.com/watch?v=Dd7FixvoKBw
+2014-08-06 23:47:25	◥	AndroidLoverInSF (~AndroidLo@64.56.206.254) has joined ##linux
+2014-08-06 23:47:33	absk007	funny!
+2014-08-06 23:47:37	◥	mhcerri_ (~Marcelo_C@177.157.253.139) has joined ##linux
+2014-08-06 23:47:40	◣	KanerixWolfe (~Kanerix@reverse.control4.com) has quit (Remote host closed the connection)
+2014-08-06 23:47:59	Psi-Jack	absk007: Please spell like you have an education. Seriously would've thought you'd get that by now.
+2014-08-06 23:48:04	◣	HelperW (~HelperW@d51537667.access.telenet.be) has quit (Quit: Computer has gone to sleep.)
+2014-08-06 23:48:14	◥	kbarry (~chatzilla@38.102.159.95) has joined ##linux
+2014-08-06 23:48:29	◣	mhcerri (~Marcelo_C@177.157.255.158) has quit (Ping timeout: 264 seconds)
+2014-08-06 23:48:31	◥	HelperW (~HelperW@d51537667.access.telenet.be) has joined ##linux
+2014-08-06 23:48:36	◥	Pappaduck (~joe@109.201.137.167) has joined ##linux
+2014-08-06 23:48:46	◥	roboman2444 (~roboman24@unaffiliated/roboman2444) has joined ##linux
+2014-08-06 23:48:53	◥	crabmelt (~snoglinux@71-9-129-95.dhcp.mdfd.or.charter.com) has joined ##linux
+2014-08-06 23:49:00	triceratux	GStreamer could not create the element: autoaudiosink. Please make sure that you have installed all necessary GStreamer plugins (e.g. OGG and MP3)
+2014-08-06 23:49:08	triceratux	itz junk. sorry ;)
+2014-08-06 23:49:09	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Read error: Connection reset by peer)
+2014-08-06 23:49:14	◣	thotseize (~thotseize@static-108-32-49-11.pitbpa.fios.verizon.net) has quit (Remote host closed the connection)
+2014-08-06 23:49:34	absk007	what's the difference between PAE & non-PAE img?
+2014-08-06 23:49:41	◣	asc232 (~Keith@190.51.26.114) has quit (Ping timeout: 264 seconds)
+2014-08-06 23:50:01	◥	varibull_ (~varibull@ta.tainstruments.com) has joined ##linux
+2014-08-06 23:50:22	◣	varibull (~varibull@ta.tainstruments.com) has quit (Read error: Connection reset by peer)
+2014-08-06 23:50:24	KingOfKarlsruhe	its physical address extension
+2014-08-06 23:50:41	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:51:11	◥	thotseize (~thotseize@static-108-32-49-11.pitbpa.fios.verizon.net) has joined ##linux
+2014-08-06 23:51:15	phogg	absk007: one supports PAE, one doesn't. Do you know what PAE is?
+2014-08-06 23:51:45	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-06 23:51:47	◣	preyalone (uid21561@gateway/web/irccloud.com/x-ssuluqomzdtbswwp) has left ##linux
+2014-08-06 23:51:58	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:52:29	heurist	absk007: if your hardware supports PAE then use the PAE one, if your hardware does not it will fail to boot/install.
+2014-08-06 23:52:32	absk007	phogg, i read about it but seems PAE is useful for 4 GB or more RAM in 32b mode. Correct me if i'm wrong.
+2014-08-06 23:52:47	◣	HelperW (~HelperW@d51537667.access.telenet.be) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:52:54	heurist	absk007: correct, that is what it does.
+2014-08-06 23:52:59	Psi-Jack	PAE is horrible either which way, and still only allows software to allocate 2GB at one time.
+2014-08-06 23:53:23	◥	gcbirzan_ (~gcbirzan@90-154-146-239.btc-net.bg) has joined ##linux
+2014-08-06 23:53:25	absk007	i've only 2GB RAM running on 1 GHz AMD C50 CPU
+2014-08-06 23:53:28	◣	amcsi_work (~Attila@81.168.2.131) has quit (Ping timeout: 240 seconds)
+2014-08-06 23:54:01	◣	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2014-08-06 23:54:06	koala_man	absk007: use 64bit
+2014-08-06 23:54:14	◣	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has quit (Ping timeout: 272 seconds)
+2014-08-06 23:54:15	Psi-Jack	Yeah, just use 64bit.
+2014-08-06 23:54:17	absk007	i've run PAE imgs. They all work f9.
+2014-08-06 23:54:28	koala_man	PAE is pointless for 64bit cpus
+2014-08-06 23:54:37	Psi-Jack	There is literally NO point in using 32-bit these days.
+2014-08-06 23:54:40	absk007	64bit??/ it'll eat up all my RAM
+2014-08-06 23:54:46	Psi-Jack	absk007: Bzzz, WRONG.
+2014-08-06 23:55:06	◣	testpil0t_ (znc@static.219.78.9.5.clients.your-server.de) has left ##linux
+2014-08-06 23:55:07	absk007	Psi-Jack, enlighten me.
+2014-08-06 23:55:13	Psi-Jack	I just did.
+2014-08-06 23:55:26	blind	They all work f9?
+2014-08-06 23:55:48	blind	what does f9 mean in that context
+2014-08-06 23:55:52	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-06 23:56:00	◥	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has joined ##linux
+2014-08-06 23:56:17	◥	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has joined ##linux
+2014-08-06 23:56:21	absk007	blind, i mean PAE is supported in my CPU
+2014-08-06 23:56:55	◥	dsana123 (~dsana123@5ec1b88c.skybroadband.com) has joined ##linux
+2014-08-06 23:56:55	LinuxBot	Tip of the day: Want to paste many lines of logs? maybe your configuration file or a snippet of code? Try our pastebin http://paste.linuxassist.net
+2014-08-06 23:56:58	absk007	Psi-Jack, u said installing 64b won't eat up all my RAM. why so?
+2014-08-06 23:57:05	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-06 23:57:05	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-06 23:57:16	◣	quake_guy (~brett@gos-bketter-d3.uwm.edu) has quit (Remote host closed the connection)
+2014-08-06 23:57:27	Psi-Jack	absk007: Please spell like you have an education. It's spelled "you"
+2014-08-06 23:58:00	absk007	Psi-Jack, k... Thank You.
+2014-08-06 23:58:18	◣	Olipro (~Olipro@uncyclopedia/pdpc.21for7.olipro) has quit (Remote host closed the connection)
+2014-08-06 23:58:26	◣	jgulingan (~jgulingan@198.73.209.1) has quit (Quit: Lingo - http://www.lingoirc.com)
+2014-08-06 23:58:31	absk007	but "u" is faster & understandable
+2014-08-06 23:58:35	⚡	tinwhiskers punches a wall to distract from the pain.
+2014-08-06 23:58:41	◥	anaeem1 (~anaeem1@182.188.173.190) has joined ##linux
+2014-08-06 23:59:00	Psi-Jack	absk007: And shows laziness.
+2014-08-06 23:59:08	Psi-Jack	Too lazy to type 3 whole letters. :p
+2014-08-06 23:59:12	tinwhiskers	"u" is for stupid people. stupid people get very little help because it's a waste of time.
+2014-08-06 23:59:22	Psi-Jack	Heh, that too.
+2014-08-06 23:59:29	◣	BluesKaj (~kaj@unaffiliated/blueskaj) has quit (Quit: Konversation terminated!)
+2014-08-06 23:59:47	◣	KnightRadiant (~KnightRad@27.97.193.85) has quit (Ping timeout: 245 seconds)
+2014-08-06 23:59:55	absk007	we say "bash" not Bourne Again Shell. rt?
+2014-08-07 00:00:01	koala_man	absk007: in irssi you can do  /completion -auto u you
+2014-08-07 00:00:14	absk007	i'm on hexchat
+2014-08-07 00:00:18	tinwhiskers	not saying you're stupid, but if you appear stupid people are unlikely to help you so you need to look intelligent.
+2014-08-07 00:00:32	Psi-Jack	absk007: What about real-time?
+2014-08-07 00:00:37	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:00:42	◥	tgd (~tgd@2601:d:ca00:d93:6c0d:c351:3acd:569f) has joined ##linux
+2014-08-07 00:00:50	absk007	it's unreal.
+2014-08-07 00:00:51	Psi-Jack	Anyway. Good luck, if you're going to continue using shtspk. People won't like... help you and stuff. :p
+2014-08-07 00:01:18	absk007	Psi-Jack, thank you.
+2014-08-07 00:01:32	◥	BigBangUDR (~Thunderbi@115.247.202.66) has joined ##linux
+2014-08-07 00:01:46	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:01:48	absk007	but my question remains unsolved.
+2014-08-07 00:02:03	◣	_rjco (~rjc@83.240.200.90) has quit (Quit: Konversation terminated!)
+2014-08-07 00:02:10	Boohbah	what's the question?
+2014-08-07 00:02:11	tinwhiskers	waaaaah
+2014-08-07 00:02:42	◣	BigBangUDR (~Thunderbi@115.247.202.66) has quit (Client Quit)
+2014-08-07 00:02:53	◥	ralinux (~javi@150.Red-83-42-113.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-07 00:02:53	◣	mibofra (~mibofra@unaffiliated/mibofra) has quit (Max SendQ exceeded)
+2014-08-07 00:02:55	absk007	you said 64b doesn't eat up all my RAM. what's the concept?
+2014-08-07 00:03:04	◣	tgd (~tgd@2601:d:ca00:d93:6c0d:c351:3acd:569f) has quit (Quit: Leaving)
+2014-08-07 00:03:10	Boohbah	what?
+2014-08-07 00:03:19	◥	mibofra (~mibofra@5.175.164.134) has joined ##linux
+2014-08-07 00:03:25	◣	webtux (~webtux@cust-197-107-111-94.dyn.as47377.net) has quit (Quit: webtux)
+2014-08-07 00:03:32	absk007	i've only 2GB of RAM space.
+2014-08-07 00:03:33	◣	mibofra (~mibofra@5.175.164.134) has quit (Changing host)
+2014-08-07 00:03:33	◥	mibofra (~mibofra@unaffiliated/mibofra) has joined ##linux
+2014-08-07 00:03:39	◥	joako (~joako@opensuse/member/joak0) has joined ##linux
+2014-08-07 00:03:42	◥	webtux (~webtux@cust-197-107-111-94.dyn.as47377.net) has joined ##linux
+2014-08-07 00:04:19	◥	Wicaeed (6c3c777d@gateway/web/freenode/ip.108.60.119.125) has joined ##linux
+2014-08-07 00:04:20	◥	svarog (~svarog@cable-89-216-140-116.dynamic.sbb.rs) has joined ##linux
+2014-08-07 00:04:20	◥	BCMM (~BCMM@unaffiliated/bcmm) has joined ##linux
+2014-08-07 00:04:36	◣	svarog (~svarog@cable-89-216-140-116.dynamic.sbb.rs) has left ##linux
+2014-08-07 00:04:41	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:04:41	◣	justin-8 (~quassel@d110-32-26-33.rdl800.qld.optusnet.com.au) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:04:51	◥	BT3 (~BT@38.100.136.98) has joined ##linux
+2014-08-07 00:05:10	◥	i336_ (~i336_@CPE-121-216-151-75.lnse2.ken.bigpond.net.au) has joined ##linux
+2014-08-07 00:05:16	◣	crow_voorhees (~crowvoorh@97.68.224.69) has quit (Remote host closed the connection)
+2014-08-07 00:05:34	◥	justin-8 (~quassel@d110-32-1-138.rdl800.qld.optusnet.com.au) has joined ##linux
+2014-08-07 00:05:36	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:05:42	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-07 00:05:50	spacebarbarian	how do i generate self signed certs for a proxy, need it to be able to hit any domain
+2014-08-07 00:06:02	◥	BluesKaj (~kaj@bas7-sudbury98-2925209226.dsl.bell.ca) has joined ##linux
+2014-08-07 00:06:28	◣	cyford (~cyford33@2601:0:9300:2fc:1e4b:d6ff:fe78:3a17) has quit (Ping timeout: 240 seconds)
+2014-08-07 00:06:39	◣	BT3 (~BT@38.100.136.98) has quit (Client Quit)
+2014-08-07 00:06:39	◥	Matadoer (~Matadoer@dyn216-8-184-178.ADSL.mnsi.net) has joined ##linux
+2014-08-07 00:06:43	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:06:52	◥	zuzytel (~zuzytel@92.240.196.236) has joined ##linux
+2014-08-07 00:07:13	_lunatic	absk007: programs written for 64 architecture does not consume more RAM just by the fact they are writen for newer architecture.
+2014-08-07 00:07:21	◣	justanotheruser (~Justan@unaffiliated/justanotheruser) has quit (Ping timeout: 256 seconds)
+2014-08-07 00:07:31	◥	CodingCat (~CodingCat@541B3B8C.cm-5-4a.dynamic.ziggo.nl) has joined ##linux
+2014-08-07 00:07:33	◥	justanotheruser (~Justan@unaffiliated/justanotheruser) has joined ##linux
+2014-08-07 00:07:41	◣	taloszer_ (~taloszerg@c62e6602.cst.lightpath.net) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:07:47	◣	p014k (~p014k@unaffiliated/p014k) has quit (Quit: Leaving)
+2014-08-07 00:07:59	◥	__02 (Elite11510@gateway/shell/elitebnc/x-qfebumthxkjtfewg) has joined ##linux
+2014-08-07 00:08:00	◣	mibofra (~mibofra@unaffiliated/mibofra) has quit (Max SendQ exceeded)
+2014-08-07 00:08:19	◣	webtux (~webtux@cust-197-107-111-94.dyn.as47377.net) has quit (Client Quit)
+2014-08-07 00:08:25	◥	cyford (~cyford33@2601:0:9300:2fc:1e4b:d6ff:fe78:3a17) has joined ##linux
+2014-08-07 00:08:25	absk007	_lunatic, so it's just my misconception that "there might be more slack bytes running 64b OS"
+2014-08-07 00:08:50	◥	mibofra (~mibofra@5.175.164.134) has joined ##linux
+2014-08-07 00:09:07	◣	zuzytel (~zuzytel@92.240.196.236) has quit (Client Quit)
+2014-08-07 00:09:20	◥	absolutejam (~absolutej@185.4.24.4) has joined ##linux
+2014-08-07 00:09:24	◥	forbid (~beatit@unaffiliated/forbid) has joined ##linux
+2014-08-07 00:09:24	◣	michaelrose (~mike@24-113-80-45.wavecable.com) has quit (Read error: Connection reset by peer)
+2014-08-07 00:09:39	_lunatic	i dont know what are slack bytes
+2014-08-07 00:09:42	CodingCat	Is it normal for my /tmp partition to get inode errors almost daily on my home server?
+2014-08-07 00:09:52	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:09:55	◥	su1ly (~su1ly@213-64-60-64-no55.tbcn.telia.com) has joined ##linux
+2014-08-07 00:10:03	oakwhiz	absk007: 64 bit programs sometimes consume more memory than their 32 bit counterparts simply because 64 bit pointers are double the width.
+2014-08-07 00:10:11	absk007	_lunatic, but i've seen programs take more RAM while on 64b OS than 32b.
+2014-08-07 00:10:11	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Ping timeout: 256 seconds)
+2014-08-07 00:10:37	rocketeer	spacebarbarian: why does your proxy need certs to access any domain?
+2014-08-07 00:10:45	◥	tgd_ (~tgd@c-98-206-142-100.hsd1.il.comcast.net) has joined ##linux
+2014-08-07 00:10:57	absk007	oakwhiz, that's the reason i wanna be on 32b OS with 2 GB RAM
+2014-08-07 00:11:01	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-07 00:11:01	◥	fstd_ (~fstd@unaffiliated/fisted) has joined ##linux
+2014-08-07 00:11:07	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:11:23	◣	tgd_ (~tgd@c-98-206-142-100.hsd1.il.comcast.net) has left ##linux
+2014-08-07 00:11:23	◣	thotseize (~thotseize@static-108-32-49-11.pitbpa.fios.verizon.net) has quit (Remote host closed the connection)
+2014-08-07 00:11:24	_lunatic	exact same programs? was the difference significant?
+2014-08-07 00:11:37	absk007	i run some heavy apps including Webstorm IDE, teamviewer, Firefox, Chromium
+2014-08-07 00:11:38	_lunatic	absk007: exact same programs? was the difference significant?
+2014-08-07 00:11:39	oakwhiz	absk007 _lunatic: Firefox is a good example of this.
+2014-08-07 00:11:39	◥	elbonian_ (~wtf@bl8-234-188.dsl.telepac.pt) has joined ##linux
+2014-08-07 00:11:48	spacebarbarian	rocketeer, im using the proxy for a web crawler, i need it to just intercept all requests, some are SSL but going out to various domains
+2014-08-07 00:11:51	◥	asuslaptop (~yaaic@static-mum-182.56.42.255.mtnl.net.in) has joined ##linux
+2014-08-07 00:12:10	spacebarbarian	i get a connection reset on all domains but localhost right now, im guess thats because the self signed cert I made is just for localhost
+2014-08-07 00:12:14	◣	forbid (~beatit@unaffiliated/forbid) has quit (Client Quit)
+2014-08-07 00:12:15	CodingCat	64b might use more memory, but cpu performance is usually a lot better. More registers for one.
+2014-08-07 00:12:35	absk007	_lunatic, yes it was the exact same program same version. And yes it was significant for 2GB RAM. The program in 64b OS took 150MB more RAM space.
+2014-08-07 00:12:40	◥	netlar (~lwells@ip68-5-205-235.oc.oc.cox.net) has joined ##linux
+2014-08-07 00:12:57	su1ly	is it possible to use alias like: alias '*.pdf'="exec /bin/bash/xxxxx"
+2014-08-07 00:12:59	oakwhiz	Not to mention accelerated instruction sets available on 64 bit processors
+2014-08-07 00:13:07	◣	Foxhoundz (~Foxhoundz@unaffiliated/foxhoundz) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:13:11	absk007	Psi-Jack, sorry! if i hurt your feelings.
+2014-08-07 00:13:22	rocketeer	spacebarbarian: so it acts less like a proxy and more like a MitM? terminates a client's ssl request and makes an ssl request to the destination for it?
+2014-08-07 00:13:50	spacebarbarian	rocketeer, honestly im not that familiar with how proxies work, im just using node's node-http-proxy module
+2014-08-07 00:13:56	◣	elbonian (~wtf@bl13-65-7.dsl.telepac.pt) has quit (Ping timeout: 244 seconds)
+2014-08-07 00:14:11	oakwhiz	absk007: I'd recommend allocating lots of swap space and adjusting vm.swappiness as needed, instead of using 32 bit operating systems
+2014-08-07 00:14:36	◣	clu5ter (~staff@unaffiliated/clu5ter) has quit (Ping timeout: 252 seconds)
+2014-08-07 00:14:43	◣	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 255 seconds)
+2014-08-07 00:14:44	ℹ 	fstd_ is now known as fstd
+2014-08-07 00:14:46	oakwhiz	You can always run 32 bit programs under a 64 bit operating system, you just need to install the shared libs.
+2014-08-07 00:14:52	absk007	i don't have the HDD either. My primary 320 GB HDD crashed. Running lubuntu using 7.42GB USB HDD.
+2014-08-07 00:15:03	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:15:04	◣	toastynerd (~toastyner@199.59.107.218) has quit (Remote host closed the connection)
+2014-08-07 00:15:20	CodingCat	Also, if you build from source I believe gcc supports 32 bit memory structure with x64 instructions. Win win.
+2014-08-07 00:15:37	CodingCat	Apart from in the headache departmentsl.
+2014-08-07 00:15:46	◣	j0z (~not@unaffiliated/j0z) has quit (Read error: Connection reset by peer)
+2014-08-07 00:15:48	◥	clu5ter (~staff@unaffiliated/clu5ter) has joined ##linux
+2014-08-07 00:15:51	absk007	:D
+2014-08-07 00:16:13	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:16:33	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-07 00:16:39	◥	hoppi (~hoppi@31.6.44.144) has joined ##linux
+2014-08-07 00:16:45	oakwhiz	CodingCat: there was a very neat CVE regarding this in Linux not too long ago :-)
+2014-08-07 00:16:56	◥	ghostlines (~ghostline@g39142.upc-g.chello.nl) has joined ##linux
+2014-08-07 00:17:10	oakwhiz	http://seclists.org/oss-sec/2014/q1/187
+2014-08-07 00:17:39	absk007	why all oppose 32b ?
+2014-08-07 00:17:43	◣	skinp_ (~skinp@unaffiliated/skinp) has quit (Remote host closed the connection)
+2014-08-07 00:17:47	◥	Taoki (~MirceaKit@93.113.162.37) has joined ##linux
+2014-08-07 00:17:53	◣	ghostlines (~ghostline@g39142.upc-g.chello.nl) has quit (Client Quit)
+2014-08-07 00:18:18	oakwhiz	absk007: because it's a dinosaur that most systems have moved on from
+2014-08-07 00:18:20	◥	skinp (~skinp@unaffiliated/skinp) has joined ##linux
+2014-08-07 00:18:35	oakwhiz	just like the switch to UEFI and GPT
+2014-08-07 00:18:44	◥	otherflow (~otherflow@vil69-4-82-228-207-179.fbx.proxad.net) has joined ##linux
+2014-08-07 00:18:44	◣	otherflow (~otherflow@vil69-4-82-228-207-179.fbx.proxad.net) has quit (Changing host)
+2014-08-07 00:18:44	◥	otherflow (~otherflow@unaffiliated/otherflow) has joined ##linux
+2014-08-07 00:18:48	◣	Taoki (~MirceaKit@93.113.162.37) has quit (Client Quit)
+2014-08-07 00:18:57	ℹ 	izabera is now known as izyoff
+2014-08-07 00:18:59	◥	aBound (~aBound@unaffiliated/abound) has joined ##linux
+2014-08-07 00:19:20	◥	eeezkil (~eeezkil@unaffiliated/eeezkil) has joined ##linux
+2014-08-07 00:19:22	rocketeer	spacebarbarian: i know nothing of node or its http-proxy module. i don't have a clear understanding of what you're trying to achieve though. When you say webcrawler, i think of something with capabilities more like wget
+2014-08-07 00:19:25	◣	__02 (Elite11510@gateway/shell/elitebnc/x-qfebumthxkjtfewg) has quit (Quit: EliteBNC free bnc service - http://elitebnc.org - be a part of the Elite!)
+2014-08-07 00:19:27	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Remote host closed the connection)
+2014-08-07 00:19:27	absk007	oakwhiz, but i've a very limited netbook specs. Running on AMD C50 1GHz (Intel Atom alike) processor & only 2GB RAM w/ very limited USB HDD space.
+2014-08-07 00:19:43	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:19:46	◥	Akiva-Thinkpad (~Akiva@99.199.66.28) has joined ##linux
+2014-08-07 00:19:52	◥	BjornW (~bjorn@2001:980:cd3d:1:9008:95fe:b3a1:2141) has joined ##linux
+2014-08-07 00:19:59	spacebarbarian	rocketeer, I'm using selenium, which drives an instance of Chrome, i need to craw sites that may be SSL only
+2014-08-07 00:20:08	◣	mibofra (~mibofra@5.175.164.134) has quit (Changing host)
+2014-08-07 00:20:08	◥	mibofra (~mibofra@unaffiliated/mibofra) has joined ##linux
+2014-08-07 00:20:11	◣	asdpew (~asdpew@78.63.134.151) has quit (Quit: Leaving)
+2014-08-07 00:20:25	◥	orion (~orion@unaffiliated/orion) has joined ##linux
+2014-08-07 00:20:32	◥	forbid (~daniel@unaffiliated/forbid) has joined ##linux
+2014-08-07 00:20:47	◥	hexagoxel (~hexagoxel@kiel-5f768282.pool.mediaWays.net) has joined ##linux
+2014-08-07 00:20:48	justanotheruser	Is there a fork of cal that is tonal?
+2014-08-07 00:20:49	spacebarbarian	chrome is configured to go through a proxy so i can modify the requests as needed
+2014-08-07 00:20:54	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:21:03	◣	orion (~orion@unaffiliated/orion) has left ##linux
+2014-08-07 00:21:11	spacebarbarian	it works fine for HTTP, but on SSL it throws a connection reset
+2014-08-07 00:21:21	◣	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has quit (Ping timeout: 255 seconds)
+2014-08-07 00:21:23	◣	gcbirzan_ (~gcbirzan@90-154-146-239.btc-net.bg) has quit (Changing host)
+2014-08-07 00:21:24	◥	gcbirzan_ (~gcbirzan@freenode/sponsor/gcbirzan) has joined ##linux
+2014-08-07 00:21:35	◥	^Lestat (~twiitanen@rrcs-24-106-37-138.west.biz.rr.com) has joined ##linux
+2014-08-07 00:21:35	◥	___heisenbug (~0x00@ip-37-201-53-186.hsi13.unitymediagroup.de) has joined ##linux
+2014-08-07 00:21:41	◥	RickyB98 (RickyB98@gateway/shell/yourbnc/x-vxnnkvnvbaemylcf) has joined ##linux
+2014-08-07 00:21:41	◣	RickyB98 (RickyB98@gateway/shell/yourbnc/x-vxnnkvnvbaemylcf) has quit (Changing host)
+2014-08-07 00:21:42	◥	RickyB98 (RickyB98@mediawiki/rickyb98) has joined ##linux
+2014-08-07 00:21:51	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-07 00:21:56	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Max SendQ exceeded)
+2014-08-07 00:22:11	◣	asuslaptop (~yaaic@static-mum-182.56.42.255.mtnl.net.in) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:22:16	◣	^Lestat (~twiitanen@rrcs-24-106-37-138.west.biz.rr.com) has left ##linux
+2014-08-07 00:22:20	◣	newbie999 (~me@unaffiliated/newbie999) has quit (Quit: WeeChat 0.4.3)
+2014-08-07 00:22:24	◥	^Lestat (~twiitanen@rrcs-24-106-37-138.west.biz.rr.com) has joined ##linux
+2014-08-07 00:22:26	◥	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has joined ##linux
+2014-08-07 00:22:28	rocketeer	spacebarbarian: regardless of sites that may only be ssl, i don't understand why wget or even curl can't do this for you and why you need a proxy. what is getting the conn reset and what is throwing it? proxy to client or destination to proxy?
+2014-08-07 00:22:33	◣	__heisenbug (~0x00@unaffiliated/heisenbug/x-6847686) has quit (Ping timeout: 272 seconds)
+2014-08-07 00:23:09	spacebarbarian	the client is throwing conn reset
+2014-08-07 00:23:12	rocketeer	your last comment clarified a bit. still, see the latter questions
+2014-08-07 00:23:14	spacebarbarian	(client being chrome)
+2014-08-07 00:23:14	◣	brianbla_ (~brianblaz@68.67.62.140) has quit (Quit: Leaving...)
+2014-08-07 00:23:19	absk007	Psi-Jack, i've changed my "u" to "you". Please forgive me for the argument.
+2014-08-07 00:23:20	◥	momomomomo (~momomomom@38.126.164.90) has joined ##linux
+2014-08-07 00:23:27	◥	marklite (croftworth@gateway/shell/yourbnc/x-hdxmcifmknbcafyd) has joined ##linux
+2014-08-07 00:23:29	◥	LanDi (~lol@186.232.216.90) has joined ##linux
+2014-08-07 00:23:46	◣	FnorZ (~cthulhu@unaffiliated/fnorz) has quit (Ping timeout: 260 seconds)
+2014-08-07 00:24:03	spacebarbarian	rocketeer, as for why i need the proxy, its because the selenium chrome 'driver' doesnt let me modify request headers, which I need to for authentication purposes on some pages
+2014-08-07 00:24:25	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:24:57	rocketeer	spacebarbarian: no, the client is showing you conn reset. where is the reset originating from?
+2014-08-07 00:25:15	rocketeer	is it the connection between client and proxy or proxy and destination?
+2014-08-07 00:25:30	◥	toastynerd (~toastyner@199.59.107.218) has joined ##linux
+2014-08-07 00:25:33	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:25:34	◥	unvs_ (~unvs_@21.12.202.84.customer.cdi.no) has joined ##linux
+2014-08-07 00:25:38	spacebarbarian	rocketeer, client and proxy
+2014-08-07 00:26:05	◥	Taoki (~MirceaKit@93.113.162.37) has joined ##linux
+2014-08-07 00:26:08	rocketeer	spacebarbarian: and what makes you think a client certificate is going to fix that?
+2014-08-07 00:26:14	◣	kpap (~kpap@188.242.102.107) has quit (Ping timeout: 250 seconds)
+2014-08-07 00:26:19	spacebarbarian	rocketeer, do you know if SSL proxies need any special kind of certificates ? or would a normal self signed cert work ?
+2014-08-07 00:26:21	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-07 00:26:45	◣	frankyboy_ (~franky@ppp91-77-75-241.pppoe.mtu-net.ru) has quit (Remote host closed the connection)
+2014-08-07 00:26:53	rocketeer	depends on the proxy and how its configured.
+2014-08-07 00:27:07	◥	michaelrose (~mike@24-113-80-45.wavecable.com) has joined ##linux
+2014-08-07 00:27:12	◣	Akiva-Thinkpad (~Akiva@99.199.66.28) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:27:12	◣	mackal (~mike@pool-72-93-81-132.bstnma.fios.verizon.net) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:27:29	rocketeer	there won't be a need for "client" certs unless you're doing some kind of certificate auth, though
+2014-08-07 00:27:37	◥	nuno_nunes (~ArchLinux@188.250.194.19) has joined ##linux
+2014-08-07 00:27:42	rocketeer	it's*
+2014-08-07 00:27:46	◣	evanz (~Evan@cpe-74-138-17-188.swo.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-08-07 00:28:07	◥	Attie (~attie@host86-174-80-17.range86-174.btcentralplus.com) has joined ##linux
+2014-08-07 00:28:11	◣	CodingCat (~CodingCat@541B3B8C.cm-5-4a.dynamic.ziggo.nl) has quit (Remote host closed the connection)
+2014-08-07 00:28:42	◣	hwpplayer1 (~hwpplayer@85.101.22.8) has quit (Quit: Konversation terminated!)
+2014-08-07 00:28:51	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:29:28	absk007	oakwhiz, http://askubuntu.com/questions/7034/what-are-the-differences-between-32-bit-and-64-bit-and-which-should-i-choose
+2014-08-07 00:29:31	◣	ryaxnb (~ryaxnb@mobile-198-228-213-050.mycingular.net) has quit (Ping timeout: 272 seconds)
+2014-08-07 00:29:34	◥	kbarry_ (~chatzilla@38.102.159.95) has joined ##linux
+2014-08-07 00:29:53	◣	ralinux (~javi@150.Red-83-42-113.dynamicIP.rima-tde.net) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:30:00	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:30:16	spacebarbarian	rocketeer, no the certificate is for the proxy server
+2014-08-07 00:30:29	◥	eNTi (~quassel@185.50.234.145) has joined ##linux
+2014-08-07 00:30:58	^Lestat	.
+2014-08-07 00:31:04	nullvibe	spacebarbarian: if you were to run the proxy locally, you wouldn't even need to run it as an ssl proxy
+2014-08-07 00:31:04	◥	zeeeh (~zeeeh@p4FD8D8E9.dip0.t-ipconnect.de) has joined ##linux
+2014-08-07 00:31:17	◣	michaelrose (~mike@24-113-80-45.wavecable.com) has quit (Read error: Connection reset by peer)
+2014-08-07 00:31:29	◣	tcpman_ (~tcpman@85-220-31-214.dsl.dynamic.simnet.is) has quit (Ping timeout: 260 seconds)
+2014-08-07 00:31:42	spacebarbarian	im not sure i follow how else do i forward ssl traffic ?
+2014-08-07 00:31:51	◣	Budd (~eric@pool-72-79-240-83.spfdma.east.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-08-07 00:32:03	◣	af_ (~af@93-43-45-195.ip90.fastwebnet.it) has quit (Quit: Leaving)
+2014-08-07 00:32:05	◥	taloszerg (~taloszerg@2602:302:d3d:2df0:84fd:e406:fe70:7c67) has joined ##linux
+2014-08-07 00:32:08	SP33D	are here any linux professionals that can imagin a method to filter out one msg befor syslog-ng logs it?
+2014-08-07 00:32:15	◣	|REM| (~REM@50.86.22.28) has quit (Ping timeout: 240 seconds)
+2014-08-07 00:32:28	◥	hwpplayer1 (~hwpplayer@85.101.22.8) has joined ##linux
+2014-08-07 00:32:42	◥	j0z (~not@186.212.39.118) has joined ##linux
+2014-08-07 00:32:48	◥	Hunterkll (~Hunterkll@pool-151-200-32-62.washdc.btas.verizon.net) has joined ##linux
+2014-08-07 00:32:51	◥	onur (~quassel@94.123.231.67) has joined ##linux
+2014-08-07 00:32:53	◥	|REM| (~REM@50.86.22.28) has joined ##linux
+2014-08-07 00:33:11	◥	devlab (~devlab@78.57.231.105) has joined ##linux
+2014-08-07 00:33:12	ℹ 	onur is now known as Guest77861
+2014-08-07 00:33:14	◣	Attie (~attie@host86-174-80-17.range86-174.btcentralplus.com) has quit (Quit: Leaving)
+2014-08-07 00:33:19	◣	kbarry (~chatzilla@38.102.159.95) has quit (Ping timeout: 272 seconds)
+2014-08-07 00:33:23	◣	devlab (~devlab@78.57.231.105) has quit (Client Quit)
+2014-08-07 00:33:28	◣	eNTi (~quassel@185.50.234.145) has quit (Remote host closed the connection)
+2014-08-07 00:33:30	absk007	Psi-Jack, i won't repeat my mistake in future. I assure you that.
+2014-08-07 00:33:55	◣	darkxploit (~nitin@197.224.136.2) has quit (Max SendQ exceeded)
+2014-08-07 00:33:55	◣	taloszerg (~taloszerg@2602:302:d3d:2df0:84fd:e406:fe70:7c67) has quit (Client Quit)
+2014-08-07 00:33:59	nullvibe	spacebarbarian: I think you misunderstand the difference between an http and https proxy. it has nothing to do with what the proxy can connect to. It has to do with how data is transferred back and forth between the client and proxy
+2014-08-07 00:33:59	◥	p014k (~p014k@unaffiliated/p014k) has joined ##linux
+2014-08-07 00:34:05	◣	Guest77861 (~quassel@94.123.231.67) has quit (Read error: Connection reset by peer)
+2014-08-07 00:34:12	nullvibe	so, an http proxy can be used for https and other crypto urls, but will be transferred in-the-clear over the network, for example
+2014-08-07 00:34:12	◥	pepijndevos (pepijndevo@37.247.53.27) has joined ##linux
+2014-08-07 00:34:13	◥	queyenth (~overan@gateway/tor-sasl/queyenth) has joined ##linux
+2014-08-07 00:34:22	◣	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:34:33	rocketeer	spacebarbarian: this should give you some insight into proxies and how they work. http://wiki.squid-cache.org/Features/HTTPS
+2014-08-07 00:34:54	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Ping timeout: 250 seconds)
+2014-08-07 00:34:55	◣	queyenth (~overan@gateway/tor-sasl/queyenth) has quit (Client Quit)
+2014-08-07 00:34:59	◥	darkxploit (~nitin@197.224.136.2) has joined ##linux
+2014-08-07 00:35:07	◣	zamba (marius@flage.org) has quit (Ping timeout: 256 seconds)
+2014-08-07 00:35:13	nullvibe	setting up the proxy to do crypto prevents this situation, but is generally unnecessary if the proxy is on the same system as the client(s) since the loopback interface will be the only "network" involved
+2014-08-07 00:35:15	◣	szr (~szr@unaffiliated/szr) has quit (Quit: Client Exiting)
+2014-08-07 00:35:16	spacebarbarian	nullvibe, the proxy is being used by chrome (which im starting with --ignore-certs) but i am not sure how it will like getting a non ssl response for an ssl request ?
+2014-08-07 00:35:17	◣	morphix0 (~morphix0@bpl184.neoplus.adsl.tpnet.pl) has quit (Quit: Leaving)
+2014-08-07 00:35:18	◣	kbarry_ (~chatzilla@38.102.159.95) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 31.0/20140716183446])
+2014-08-07 00:35:23	◥	queyenth (~overan@gateway/tor-sasl/queyenth) has joined ##linux
+2014-08-07 00:35:27	rocketeer	sounds like you're looking for MitM, (which is indeed possible though can be a little sketchy ethically depending on use)
+2014-08-07 00:35:48	◥	kbarry (~chatzilla@38.102.159.95) has joined ##linux
+2014-08-07 00:35:50	spacebarbarian	right im considering that as my next option, im just using it internally so its nothing sketch lol ...
+2014-08-07 00:35:53	◥	|knack| (~loop@165.sub-174-227-0.myvzw.com) has joined ##linux
+2014-08-07 00:36:01	nullvibe	spacebarbarian: if you're trying to transparently proxy https, then I'll tell you right now that that can't and won't work
+2014-08-07 00:36:02	spacebarbarian	the only client will be a web crawler
+2014-08-07 00:36:47	◣	rotoyp (824c4078@gateway/web/freenode/ip.130.76.64.120) has quit (Ping timeout: 246 seconds)
+2014-08-07 00:37:05	◣	blackjack (~BJ@unaffiliated/blackjack) has quit (Excess Flood)
+2014-08-07 00:37:14	◥	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has joined ##linux
+2014-08-07 00:37:41	nullvibe	otherwise, chrome will use whatever http proxy you specify happily and not care about crypto. it's even one of the major ways browser security is so easily thwarted/exploited in a mitm sense
+2014-08-07 00:37:45	rocketeer	spacebarbarian: aside from that, a MitM proxy will need access to its own signing key, and the client will need to either ignore cert warnings or trust the signing key the proxy is using. It will generate on the fly certs for sites you visit, return its generated cert to the client (effectively terminating an ssl connection with the client), and then make its own 2nd ssl connection to the destination. This allows the proxy to read/see all
+2014-08-07 00:37:45	rocketeer	 traffic
+2014-08-07 00:37:56	spacebarbarian	nullvibe, ideally it wouldnt be transparent, im configuring chrome to use the proxy after all ...
+2014-08-07 00:38:03	◣	weasy (~weasy@2001:4801:7820:75:eb82:5452:ff10:65ea) has quit (Quit: WeeChat 0.4.3)
+2014-08-07 00:38:23	nullvibe	then chrome won't care if you feed it the proxy address as an http proxy *shrug*
+2014-08-07 00:38:47	◥	morphix0 (~morphix0@bpl184.neoplus.adsl.tpnet.pl) has joined ##linux
+2014-08-07 00:39:16	rocketeer	(in cleartext)
+2014-08-07 00:39:16	◣	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:39:31	◥	wad (~wad@192.41.76.4) has joined ##linux
+2014-08-07 00:39:41	nullvibe	to see this in action, just look at the tor stack. privoxy uses tor as a socks proxy, then your browser uses privoxy as a http proxy. you can feed it http or https urls, and it doesn't matter that https urls get the crypto stripped since it's configured to operate only on 127.0.0.1 by default
+2014-08-07 00:39:43	◣	axjax1 (4b537c46@gateway/web/freenode/ip.75.83.124.70) has quit (Quit: Page closed)
+2014-08-07 00:39:43	◥	devlab (~devlab@78.57.231.105) has joined ##linux
+2014-08-07 00:40:01	◥	blackjack (~BJ@5.175.139.37) has joined ##linux
+2014-08-07 00:40:05	◥	Extensa5630G (~Hassoon@unaffiliated/hassen) has joined ##linux
+2014-08-07 00:40:21	spacebarbarian	hmm ok ill experiment with that first
+2014-08-07 00:40:25	◥	rdbell (~rdbell@75.103.8.90) has joined ##linux
+2014-08-07 00:40:50	◣	dsana123 (~dsana123@5ec1b88c.skybroadband.com) has quit (Quit: WeeChat 0.4.3)
+2014-08-07 00:41:30	◣	emupower (~emupower@37.191.196.116) has quit (Quit: Leaving)
+2014-08-07 00:41:36	◣	devlab (~devlab@78.57.231.105) has quit (Client Quit)
+2014-08-07 00:41:42	◥	davispuh (~quassel@212.93.100.73) has joined ##linux
+2014-08-07 00:41:43	^Lestat	So I dropped the binary into /usr/lib/php5/20090626+lfs/pdflib_php.so and added extension="pdflib_php.so" to my /etc/php5/apache2/php.ini and reloaded the server
+2014-08-07 00:41:50	^Lestat	Is that wrong?
+2014-08-07 00:41:58	◥	devlab (~devlab@78.57.231.105) has joined ##linux
+2014-08-07 00:42:28	◥	mackal (~mike@pool-72-93-81-132.bstnma.fios.verizon.net) has joined ##linux
+2014-08-07 00:42:30	^Lestat	my php.ini still wont see the .so
+2014-08-07 00:42:32	◣	devlab (~devlab@78.57.231.105) has quit (Client Quit)
+2014-08-07 00:42:38	◥	mhcerri1 (~Marcelo_C@177.133.169.77) has joined ##linux
+2014-08-07 00:43:16	◥	kpap (~kpap@188.242.102.107) has joined ##linux
+2014-08-07 00:43:23	◥	Thuryn (~thuryn@216.106.72.146.reverse.socket.net) has joined ##linux
+2014-08-07 00:43:31	◥	actinide (~actinide@63-147-22-11.dia.static.qwest.net) has joined ##linux
+2014-08-07 00:44:13	nullvibe	check "<?php phpinfo(); ?>". you probably have a path boogered somewhere
+2014-08-07 00:44:28	◥	zackiv31 (~zackiv31@nol-lo0.fw.nyc2.appnexus.com) has joined ##linux
+2014-08-07 00:44:30	◥	devlab (~devlab@78.57.231.105) has joined ##linux
+2014-08-07 00:44:48	^Lestat	phpinfo still doesnt show it ;/
+2014-08-07 00:45:03	◥	Almtesh (~Almtesh@unaffiliated/almtesh) has joined ##linux
+2014-08-07 00:45:06	◣	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has quit (Remote host closed the connection)
+2014-08-07 00:45:06	◣	MaximB (~maxim@77.125.75.209) has left ##linux
+2014-08-07 00:45:22	◥	dnd (~dnd@120.2.253.75) has joined ##linux
+2014-08-07 00:45:29	◣	saju_m (~saju@106.51.103.158) has quit (Ping timeout: 260 seconds)
+2014-08-07 00:45:29	◣	mhcerri_ (~Marcelo_C@177.157.253.139) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:45:37	spacebarbarian	nullvibe, hmm if i dont give chrome an ssl proxy it just sends the request directly, if i give it an ssl proxy thats just my non-ssl proxy, then it just throws the same conn reset error
+2014-08-07 00:45:40	◥	cheater__ (~cheater@37.81.50.47) has joined ##linux
+2014-08-07 00:45:43	^Lestat	Im new to linux so Im jsure Im jacking this up
+2014-08-07 00:45:43	ℹ 	cheater__ is now known as cheater
+2014-08-07 00:46:06	Psi-Jack	^Lestat: Dropped a random binary?
+2014-08-07 00:46:36	nullvibe	^Lestat: I told you to check the PATHS it showed
+2014-08-07 00:46:44	◣	dnd (~dnd@120.2.253.75) has quit (Client Quit)
+2014-08-07 00:46:46	◥	OliverJAsh (uid11790@gateway/web/irccloud.com/x-ljmplqmpaeutwrfa) has joined ##linux
+2014-08-07 00:46:50	◥	ralinux (~javi@150.Red-83-42-113.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-07 00:46:57	◥	Lope (~Lope@105-236-141-172.access.mtnbusiness.co.za) has joined ##linux
+2014-08-07 00:47:05	◥	|REM (~REM@50.86.22.28) has joined ##linux
+2014-08-07 00:47:13	Lope	how can I make tty-clock display the time smaller (not such huge characters)
+2014-08-07 00:47:18	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-07 00:47:19	◣	Lupus33 (Lupus@186.207.143.154) has quit (Quit: Leaving)
+2014-08-07 00:47:23	◥	nutzz (~chatzilla@84.117.60.106) has joined ##linux
+2014-08-07 00:47:25	nullvibe	spacebarbarian: that's kind of to be expected. you're telling one side to do ssl and the other not to. obviously, they're not going to be able to handshake properly
+2014-08-07 00:47:35	^Lestat	what path?
+2014-08-07 00:47:40	^Lestat	theres a bunch of em
+2014-08-07 00:47:45	◣	o1e (~o1e@p5DD0E2BF.dip0.t-ipconnect.de) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2014-08-07 00:47:55	nullvibe	yes, so make sure they're all correct for your installation ;)
+2014-08-07 00:48:01	◣	saju_m (~saju@106.51.103.158) has quit (Max SendQ exceeded)
+2014-08-07 00:48:15	◣	|REM| (~REM@50.86.22.28) has quit (Ping timeout: 240 seconds)
+2014-08-07 00:48:15	◥	michaelrose (~mike@24-113-80-45.wavecable.com) has joined ##linux
+2014-08-07 00:48:31	◥	saju_m (~saju@106.51.103.158) has joined ##linux
+2014-08-07 00:48:47	◥	madprops (~yo@ip217-135-15-186.ct.co.cr) has joined ##linux
+2014-08-07 00:49:12	◣	|REM (~REM@50.86.22.28) has left ##linux
+2014-08-07 00:49:35	◥	|REM| (~REM@50.86.22.28) has joined ##linux
+2014-08-07 00:49:42	◣	d1ngell (~d1ngell@189.114.6.122) has quit (Ping timeout: 255 seconds)
+2014-08-07 00:50:15	nutzz	hey guys, how canI specify the output directory when im compiling multimple .c files to .o files? I tried like this but it gives me an error gcc -std=c11 -Wall matrix.c utility_functions.c error.c -c -o a.o
+2014-08-07 00:50:21	^Lestat	php is running and such. Im just trying to put in this binary
+2014-08-07 00:50:30	◣	SP33D (uid29238@gateway/web/irccloud.com/x-wkkpxpeqzqhflnez) has left ##linux
+2014-08-07 00:50:32	^Lestat	Ive had no errors or problems
+2014-08-07 00:50:46	◣	madprops (~yo@ip217-135-15-186.ct.co.cr) has quit (Client Quit)
+2014-08-07 00:50:51	absk007	nutzz, what's the error?
+2014-08-07 00:50:57	◥	madprops (~yo@ip217-135-15-186.ct.co.cr) has joined ##linux
+2014-08-07 00:51:19	nutzz	http://paste.ubuntu.com/7973135/
+2014-08-07 00:51:40	◥	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) has joined ##linux
+2014-08-07 00:51:44	^Lestat	As I understand (probably wrong) a binary is an already compiled lib?
+2014-08-07 00:52:05	◣	alanjf (~ajf@unaffiliated/alanjf) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:52:40	nutzz	http://paste.ubuntu.com/7973149/
+2014-08-07 00:52:41	absk007	nutzz, since you are not linking, how can it create an object file?
+2014-08-07 00:53:07	^Lestat	Im guessing this is not the new-to-linux channel heh
+2014-08-07 00:53:17	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 264 seconds)
+2014-08-07 00:53:19	nutzz	no, I'm trying to create a library and I don't know how to specify the path where to store the output .o files
+2014-08-07 00:54:04	absk007	nutzz, then why specify -c switch?
+2014-08-07 00:54:25	◥	atyoung (~atyoung@gateway/tor-sasl/darkwurm) has joined ##linux
+2014-08-07 00:54:37	◣	viderbit (viderbit@78-83-124-137.spectrumnet.bg) has quit (Quit: Leaving)
+2014-08-07 00:54:55	nutzz	isn't this the way I tell gcc to stop at compile step?
+2014-08-07 00:54:56	◣	Batze (~sad@dslb-188-096-090-080.188.096.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2014-08-07 00:54:56	◣	Saubatzen (~sad@dslb-188-096-090-080.188.096.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2014-08-07 00:55:07	◥	viderbit (viderbit@78-83-124-137.spectrumnet.bg) has joined ##linux
+2014-08-07 00:55:22	◣	saju_m (~saju@106.51.103.158) has quit (Ping timeout: 250 seconds)
+2014-08-07 00:55:26	nutzz	and generate the .o files
+2014-08-07 00:55:58	nullvibe	^Lestat: no, libs are shared code used by binaries/executables. what you're looking at specifically is a type of lib called a Shared Object (.so), which is a format used in linux called ELF
+2014-08-07 00:55:59	absk007	nutzz, but it's not the way gcc works
+2014-08-07 00:56:26	◥	paul424 (~chatzilla@91.207.69.217) has joined ##linux
+2014-08-07 00:56:33	◥	ChrisS67 (~chris@pool-173-66-71-74.washdc.fios.verizon.net) has joined ##linux
+2014-08-07 00:56:46	nutzz	I'm just following this tutorial http://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html
+2014-08-07 00:56:56	◣	Wicaeed (6c3c777d@gateway/web/freenode/ip.108.60.119.125) has quit (Quit: Page closed)
+2014-08-07 00:56:57	◣	viderbit (viderbit@78-83-124-137.spectrumnet.bg) has quit (Client Quit)
+2014-08-07 00:57:05	◥	LonghornMBP (~Longhorn@74.115.99.1) has joined ##linux
+2014-08-07 00:57:10	^Lestat	So by only having the so, Im missing part of the equation
+2014-08-07 00:57:12	◥	viderbit (viderbit@78-83-124-137.spectrumnet.bg) has joined ##linux
+2014-08-07 00:57:18	nullvibe	^Lestat: including libs "into binaries" is also possible, but this is via what are called static libs or static archives (.a), and is not what you want
+2014-08-07 00:57:23	◥	bezet (~the_bz@unaffiliated/the-bz/x-5935285) has joined ##linux
+2014-08-07 00:57:34	◥	varibull (~varibull@ta.tainstruments.com) has joined ##linux
+2014-08-07 00:57:37	◣	varibull_ (~varibull@ta.tainstruments.com) has quit (Read error: Connection reset by peer)
+2014-08-07 00:58:07	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 245 seconds)
+2014-08-07 00:58:09	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-07 00:58:45	◣	momomomomo (~momomomom@38.126.164.90) has quit (Quit: momomomomo)
+2014-08-07 00:58:57	◥	chrisdotcode (~quassel@pool-173-56-56-226.hrbgpa.fios.verizon.net) has joined ##linux
+2014-08-07 00:58:57	◣	chrisdotcode (~quassel@pool-173-56-56-226.hrbgpa.fios.verizon.net) has quit (Changing host)
+2014-08-07 00:58:57	◥	chrisdotcode (~quassel@unaffiliated/chrisdotcode) has joined ##linux
+2014-08-07 00:58:57	◣	michaelrose (~mike@24-113-80-45.wavecable.com) has quit (Read error: Connection reset by peer)
+2014-08-07 00:59:17	◥	HelperW (~HelperW@d51537667.access.telenet.be) has joined ##linux
+2014-08-07 00:59:22	◥	occupant (~null@204.14.158.226) has joined ##linux
+2014-08-07 00:59:30	◥	jbocook (~jbocook@ocusmtp.ohiochristian.edu) has joined ##linux
+2014-08-07 00:59:47	◣	el8 (~quassel@gels-5d83d26b.pool.mediaWays.net) has quit (Read error: Connection reset by peer)
+2014-08-07 01:00:03	◣	brightkill (~brightkil@95.153.207.189) has quit (Ping timeout: 255 seconds)
+2014-08-07 01:00:04	nutzz	wo how do I specify the output directory of my .o files generated by gcc?
+2014-08-07 01:00:06	◣	rojem (~rojem@199.4.160.10) has quit (Ping timeout: 245 seconds)
+2014-08-07 01:00:13	nutzz	s/wo/so
+2014-08-07 01:00:16	◥	Rezachkata (Bobby@84.252.30.195) has joined ##linux
+2014-08-07 01:00:27	^Lestat	So wheres a good read on how to install the PDFlib-8 library into my system?
+2014-08-07 01:00:29	◥	Batze (~sad@dslb-188-104-200-225.188.104.pools.vodafone-ip.de) has joined ##linux
+2014-08-07 01:00:29	◥	Saubatzen (~sad@dslb-188-104-200-225.188.104.pools.vodafone-ip.de) has joined ##linux
+2014-08-07 01:00:30	◥	instantp10neer (IceChat9@unaffiliated/instantp10neer) has joined ##linux
+2014-08-07 01:00:42	Jabberwock	-o foo/bar.o ?
+2014-08-07 01:00:48	◣	crystal77 (~crystal77@66.162.212.19) has quit (Quit: Computer has gone to sleep.)
+2014-08-07 01:01:00	Jabberwock	or -m or whatever. I forget the switch.
+2014-08-07 01:01:07	◥	aural (~aural@unaffiliated/necrodearia) has joined ##linux
+2014-08-07 01:01:33	◥	brightkill (~brightkil@95.153.207.189) has joined ##linux
+2014-08-07 01:01:43	◥	hell_razer (~textual@bet.shavings.volia.net) has joined ##linux
+2014-08-07 01:02:14	◥	Jusle (~Thunderbi@194.204.60.81) has joined ##linux
+2014-08-07 01:02:15	nullvibe	^Lestat: from the look of it, you're wanting to get php to load a module. the first path you should have checked was the one for php.ini. PHP is notoriously bad about NOT using the ini file at the correct location
+2014-08-07 01:02:17	◣	bezet (~the_bz@unaffiliated/the-bz/x-5935285) has quit (Ping timeout: 264 seconds)
+2014-08-07 01:02:21	◥	rojem (~rojem@199.4.160.10) has joined ##linux
+2014-08-07 01:02:37	◥	savvy-lizard (~drew.adam@206.169.198.1) has joined ##linux
+2014-08-07 01:02:53	◣	hell_razer (~textual@bet.shavings.volia.net) has quit (Client Quit)
+2014-08-07 01:03:02	◣	ovrflw0x (~ovrflw0x@unaffiliated/ovrflw0x) has quit (Quit: WeeChat 0.4.3)
+2014-08-07 01:03:05	◣	druonysuse (~drew.adam@unaffiliated/druonysus) has quit (Ping timeout: 272 seconds)
+2014-08-07 01:03:12	◣	justanotheruser (~Justan@unaffiliated/justanotheruser) has quit (Ping timeout: 255 seconds)
+2014-08-07 01:03:16	◥	hell_razer (~textual@bet.shavings.volia.net) has joined ##linux
+2014-08-07 01:03:30	◣	HelperW (~HelperW@d51537667.access.telenet.be) has quit (Ping timeout: 250 seconds)
+2014-08-07 01:03:34	◣	LanDi (~lol@186.232.216.90) has quit (Quit: Konversation terminated!)
+2014-08-07 01:03:46	◣	|knack| (~loop@165.sub-174-227-0.myvzw.com) has quit (Ping timeout: 255 seconds)
+2014-08-07 01:03:48	◥	joelteon (joelteon@unaffiliated/otters) has joined ##linux
+2014-08-07 01:03:54	joelteon	can i ask about GNU tar here
+2014-08-07 01:03:58	^Lestat	seems to be ok
+2014-08-07 01:04:09	Psi-Jack	joelteon: DO you have a Linux question?
+2014-08-07 01:04:33	◣	^Lestat (~twiitanen@rrcs-24-106-37-138.west.biz.rr.com) has left ##linux
+2014-08-07 01:04:48	joelteon	does "how to make tar -c store mtime" count
+2014-08-07 01:04:55	joelteon	or rather not store mtime
+2014-08-07 01:04:59	◣	Almtesh (~Almtesh@unaffiliated/almtesh) has quit (Remote host closed the connection)
+2014-08-07 01:05:12	◥	kur1j (83ccfe4f@gateway/web/freenode/ip.131.204.254.79) has joined ##linux
+2014-08-07 01:05:15	◥	DestroyF1 (~destroyfx@funtoo/core/destroyfx) has joined ##linux
+2014-08-07 01:05:28	◣	BluesKaj (~kaj@bas7-sudbury98-2925209226.dsl.bell.ca) has quit (Quit: Konversation terminated!)
+2014-08-07 01:05:45	Psi-Jack	joelteon: Doesn't need to. the mtime will be new when you untar it anyway. :p
+2014-08-07 01:05:51	◥	converge (~converge@unaffiliated/joaop) has joined ##linux
+2014-08-07 01:05:53	◣	DestroyFX (~destroyfx@funtoo/core/destroyfx) has quit (Ping timeout: 264 seconds)
+2014-08-07 01:06:02	◥	xtriz (~IIT@unaffiliated/xtriz) has joined ##linux
+2014-08-07 01:06:10	joelteon	I thought you had to pass -m to do that
+2014-08-07 01:06:25	◥	Slyder (~Slyder@pool-96-230-70-184.bstnma.fios.verizon.net) has joined ##linux
+2014-08-07 01:06:31	joelteon	well wait, I'm confused
+2014-08-07 01:06:40	Psi-Jack	Because your question is confusing. :p
+2014-08-07 01:06:41	◣	kpap (~kpap@188.242.102.107) has quit (Read error: Connection reset by peer)
+2014-08-07 01:06:51	joelteon	given two directories that have the same contents but files with different mtimes, if I tar them both, will the tarballs be identical or not?
+2014-08-07 01:06:52	Psi-Jack	What is the actual problem you're trying to resolve?
+2014-08-07 01:07:07	joelteon	and if not, how do I solve that?
+2014-08-07 01:07:16	◣	jbocook (~jbocook@ocusmtp.ohiochristian.edu) has quit
+2014-08-07 01:07:26	◥	kpap (~kpap@188.242.102.107) has joined ##linux
+2014-08-07 01:07:27	◣	Section1 (~section1@190.195.88.177) has quit (Quit: Leaving)
+2014-08-07 01:07:34	Psi-Jack	What is the actual problem you're trying to resolve?
+2014-08-07 01:07:55	◣	devlab (~devlab@78.57.231.105) has quit (Quit: WeeChat 0.4.2)
+2014-08-07 01:08:01	◣	fr33domlover (~fr33domlo@fsf/member/fr33domlover) has quit (Quit: fr33domlover)
+2014-08-07 01:08:07	joelteon	I want to figure out a way to make tar czf produce tarballs that don't vary based on the mtime of their contents
+2014-08-07 01:08:21	◥	B1x1t0 (~B1x1t0@210.Red-83-37-23.dynamicIP.rima-tde.net) has joined ##linux
+2014-08-07 01:08:23	◥	crystal77 (~crystal77@66.162.212.19) has joined ##linux
+2014-08-07 01:08:25	Psi-Jack	Not possible. Next
+2014-08-07 01:08:30	◥	ryaxnb (~ryaxnb@mobile-198-228-213-050.mycingular.net) has joined ##linux
+2014-08-07 01:08:43	joelteon	oh ok, simple enough
+2014-08-07 01:08:52	◣	chcx (~chcx@unaffiliated/chicox) has quit (Read error: Connection reset by peer)
+2014-08-07 01:09:23	◥	chcx (~chcx@200.10.167.1) has joined ##linux
+2014-08-07 01:09:23	◣	chcx (~chcx@200.10.167.1) has quit (Changing host)
+2014-08-07 01:09:23	◥	chcx (~chcx@unaffiliated/chicox) has joined ##linux
+2014-08-07 01:09:24	◣	dgandhi (~dan@209.166.140.24) has quit (Quit: Leaving.)
+2014-08-07 01:10:12	◥	hoppi_ (~hoppi@31.6.30.42) has joined ##linux
+2014-08-07 01:10:26	◣	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has quit (Ping timeout: 250 seconds)
+2014-08-07 01:10:32	◣	nuno_nunes (~ArchLinux@188.250.194.19) has quit (Quit: Leaving)
+2014-08-07 01:10:40	◥	bluesm (uid13438@gateway/web/irccloud.com/x-rknpywghjsnvxman) has joined ##linux
+2014-08-07 01:10:52	◣	khonkhortisan (~Khonkhort@c-71-227-239-229.hsd1.wa.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-08-07 01:11:02	◥	dvheumen (~dvheumen@77-175-185-165.FTTH.ispfabriek.nl) has joined ##linux
+2014-08-07 01:11:09	◣	dvheumen (~dvheumen@77-175-185-165.FTTH.ispfabriek.nl) has left ##linux
+2014-08-07 01:11:22	◣	davispuh (~quassel@212.93.100.73) has quit (Ping timeout: 245 seconds)
+2014-08-07 01:11:22	◣	hoppi (~hoppi@31.6.44.144) has quit (Ping timeout: 245 seconds)
+2014-08-07 01:11:33	◣	hoppi_ (~hoppi@31.6.30.42) has left ##linux
+2014-08-07 01:11:49	◥	dvheumen (~dvheumen@77-175-185-165.FTTH.ispfabriek.nl) has joined ##linux
+2014-08-07 01:12:07	◥	evangeline__ (~evangelin@cpe-92-37-87-198.dynamic.amis.net) has joined ##linux
+2014-08-07 01:12:11	◣	dvheumen (~dvheumen@77-175-185-165.FTTH.ispfabriek.nl) has left ##linux
+2014-08-07 01:12:14	◣	chcx (~chcx@unaffiliated/chicox) has quit (Read error: Connection reset by peer)
+2014-08-07 01:12:23	◣	LeBlaaanc (323a0299@gateway/web/freenode/ip.50.58.2.153) has quit (Quit: Page closed)
+2014-08-07 01:12:42	◥	chcx (~chcx@200.10.167.1) has joined ##linux
+2014-08-07 01:12:42	◣	chcx (~chcx@200.10.167.1) has quit (Changing host)
+2014-08-07 01:12:42	◥	chcx (~chcx@unaffiliated/chicox) has joined ##linux
+2014-08-07 01:12:47	◣	ralinux (~javi@150.Red-83-42-113.dynamicIP.rima-tde.net) has quit (Ping timeout: 240 seconds)
+2014-08-07 01:13:13	◣	jpedrick (~jpedrick@216.223.41.2) has quit (Ping timeout: 255 seconds)
+2014-08-07 01:13:20	◣	Jabberwock (~notnaked@unaffiliated/jabberwock) has quit (Quit: wake me up before you go go!)
+2014-08-07 01:14:03	◣	chcx (~chcx@unaffiliated/chicox) has quit (Remote host closed the connection)
+2014-08-07 01:14:15	◥	hey_joe (~hey_joe@dxr-fw.dxr.siu.edu) has joined ##linux
+2014-08-07 01:14:32	hey_joe	free shell account for life for whomever comes up with a clever, available .com domain for me to use.
+2014-08-07 01:14:38	◥	casaper (~casaper@77.109.184.34) has joined ##linux
+2014-08-07 01:14:38	◣	joelteon (joelteon@unaffiliated/otters) has left ##linux ("bye")
+2014-08-07 01:14:44	◣	|REM| (~REM@50.86.22.28) has quit
+2014-08-07 01:14:45	◣	theToastIsDone (~theToastI@dhcp152-54-6-213.wireless.europa.renci.org) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-08-07 01:14:52	◣	Manny (~quassel@14.139.122.114) has quit (Read error: Connection reset by peer)
+2014-08-07 01:15:02	◥	Manny (~quassel@14.139.122.114) has joined ##linux
+2014-08-07 01:15:06	◣	evangeline_ (~evangelin@93-103-107-74.dynamic.t-2.net) has quit (Ping timeout: 260 seconds)
+2014-08-07 01:15:25	◣	michimuellae (~michimuel@p4FDFDBD6.dip0.t-ipconnect.de) has quit (Quit: WeeChat 0.4.3)
+2014-08-07 01:15:44	◣	instantp10neer (IceChat9@unaffiliated/instantp10neer) has quit (Ping timeout: 250 seconds)
+2014-08-07 01:17:01	◣	cocotton (~cocotton@207.236.152.130) has quit (Remote host closed the connection)
+2014-08-07 01:17:07	◥	Guest22373 (~Guest@ool-4357ba6e.dyn.optonline.net) has joined ##linux
+2014-08-07 01:17:15	nullvibe	hey_joe: supercalifragilisticexpialidocious.com
+2014-08-07 01:17:19	◥	SilkFox_ (~SilkFox@c-69-138-177-225.hsd1.va.comcast.net) has joined ##linux
+2014-08-07 01:17:35	◥	ryaxnb9 (~ryaxnb@mobile-166-137-177-012.mycingular.net) has joined ##linux
+2014-08-07 01:17:48	FunkyELF	how to extract the contents of a direcory inside of a tar file to a certain place?  When I do "tar -C /destination -xf foo.tar.gz some/directory"  it somewhat works, but I want the contents of that directory, not the directory itself
+2014-08-07 01:17:56	◥	fork (~fork@unaffiliated/milefork) has joined ##linux
+2014-08-07 01:17:57	ℹ 	irc: disconnected from server

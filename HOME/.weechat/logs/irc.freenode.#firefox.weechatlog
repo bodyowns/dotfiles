@@ -1,0 +1,123 @@
+2015-08-03 15:04:39	▬▬▶	body (~body@79-64-175-192.host.pobb.as13285.net) has joined #firefox
+2015-08-03 15:04:39	ℹ 	Topic for #firefox is "Get Firefox from http://www.firefox.com/ | Go to irc.mozilla.org for #thunderbird , Firefox OS #b2g and #seamonkey | http://support.mozilla.org/kb/troubleshoot-and-diagnose-firefox-problems"
+2015-08-03 15:04:39	ℹ 	Topic set by kbrosnan (~kbrosnan@firefox/community/qa/kbrosnan) on Fri, 03 Oct 2014 04:30:18
+2015-08-03 15:04:39	ℹ 	Channel #firefox: 175 nicks (5 ops, 0 voices, 170 normals)
+2015-08-03 15:04:41	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:46
+2015-08-03 15:06:38	body	hello, i'm trying to understand how some people can use firefox without the URL Bar, how do i enter an specific URL ? example: http://i.imgur.com/3DANouj.jpg
+2015-08-03 15:09:42	wodim	ctrl+l ?
+2015-08-03 15:09:55	wodim	I never use the URL bar.
+2015-08-03 15:09:59	wodim	I just hit Command+L.
+2015-08-03 15:10:14	wodim	Well I mean, I don’t click it.
+2015-08-03 15:10:45	Nindustries	I would miss bookmarks etc
+2015-08-03 15:10:51	Nindustries	but damn it looks cool
+2015-08-03 15:11:19	specing	wodim: pentadactyl/vimperator
+2015-08-03 15:11:20	body	when i click command L or ctrl+c , nothing happens ?
+2015-08-03 15:11:26	specing	body: ^
+2015-08-03 15:11:38	wodim	specing, I haven’t used Firefox for years. But I guess that works.
+2015-08-03 15:11:57	body	no, it isn't just tryed it out now
+2015-08-03 15:12:21	wodim	I never told you to use Ctrl+C.
+2015-08-03 15:12:26	wodim	Try Ctrl+L.
+2015-08-03 15:12:35	wodim	Command+L if you are on a Mac, which I guess you are not.
+2015-08-03 15:13:05	body	specing: pentadactyl drops the support for the newer versions of firefox right ?
+2015-08-03 15:13:42	body	wodim , yes my bad, i mean i've tryed ctrl+L , but still
+2015-08-03 15:13:48	◀▬▬	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has quit (Ping timeout: 240 seconds)
+2015-08-03 15:15:55	◀▬▬	gkdeb (~gkdeb@r167-63-6-246.dialup.adsl.anteldata.net.uy) has quit (Quit: Leaving.)
+2015-08-03 15:17:35	specing	body: you need to fetch it from git iirc
+2015-08-03 15:26:05	body	specing: can you please help me out to find it ? because i'm not sure which one it's the main one, when i'm searching for it
+2015-08-03 15:26:16	body	i get more versions from diff people
+2015-08-03 15:26:17	▬▬▶	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has joined #firefox
+2015-08-03 15:26:44	◀▬▬	Nindustries (a548c80b@gateway/web/cgi-irc/kiwiirc.com/ip.165.72.200.11) has left #firefox
+2015-08-03 15:28:44	specing	body: *shrug*, distro stable version of firefox always lags enough so that this is not a problem
+2015-08-03 15:29:00	◀▬▬	rahul_b (~Thunderbi@182.70.60.228) has quit (Ping timeout: 255 seconds)
+2015-08-03 15:31:34	▬▬▶	InspectorCluseau (~Inspector@174-20-35-77.mpls.qwest.net) has joined #firefox
+2015-08-03 15:33:15	▬▬▶	rahul_b (~Thunderbi@182.70.60.228) has joined #firefox
+2015-08-03 15:37:27	body	specing: so you mean, i can get any? 
+2015-08-03 15:38:18	specing	body: I don't know, it has never been a problem for me
+2015-08-03 15:38:49	specing	body: and if you are on your distro's stable, it shouldn't be a problem for you either
+2015-08-03 15:39:02	body	specing: oh, i see, ok anywho thank you for help :)
+2015-08-03 15:39:12	body	specing: oh well, i've got the latest firefox
+2015-08-03 15:44:23	specing	thats the problem :)
+2015-08-03 15:50:14	▬▬▶	L0rD` (~anon@unaffiliated/l0rd/x-9199883) has joined #firefox
+2015-08-03 16:08:00	◀▬▬	L0rD` (~anon@unaffiliated/l0rd/x-9199883) has quit (Quit: L0rD`)
+2015-08-03 16:11:39	ℹ 	Bertl is now known as Bertl_oO
+2015-08-03 16:16:15	◀▬▬	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has quit (Ping timeout: 252 seconds)
+2015-08-03 16:28:23	▬▬▶	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has joined #firefox
+2015-08-03 16:28:36	▬▬▶	alex_mayorga (uid4422@gateway/web/irccloud.com/x-kkifktmfudsznjpf) has joined #firefox
+2015-08-03 16:31:11	▬▬▶	Haudegen (~quassel@85.124.51.57) has joined #firefox
+2015-08-03 16:40:11	◀▬▬	Daekdroom (~Daekdroom@unaffiliated/daekdroom) has quit (Quit: Leaving)
+2015-08-03 16:48:47	▬▬▶	emreeroglu (~Thunderbi@94.122.108.9) has joined #firefox
+2015-08-03 16:49:26	▬▬▶	Tealyf (5416411e@gateway/web/cgi-irc/kiwiirc.com/ip.84.22.65.30) has joined #firefox
+2015-08-03 16:49:56	◀▬▬	Whiskey (whiskey@31.44.232.185) has quit (Ping timeout: 260 seconds)
+2015-08-03 16:50:07	Tealyf	Hi, what is foryou the top 5 must have add-ons ?
+2015-08-03 16:50:21	◀▬▬	emreeroglu1 (~Thunderbi@94.122.66.19) has quit (Ping timeout: 252 seconds)
+2015-08-03 16:54:55	◀▬▬	eVRiAL (~evrial@unaffiliated/evrial) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-08-03 16:55:15	wodim	AdBlock, AdBlock, AdBlock, AdBlock and AdBlock.
+2015-08-03 16:55:19	wodim	Rest are not really mandatory.
+2015-08-03 16:55:32	◀▬▬	rahul_b (~Thunderbi@182.70.60.228) has quit (Remote host closed the connection)
+2015-08-03 16:55:49	▬▬▶	rahul_b (~Thunderbi@182.70.60.228) has joined #firefox
+2015-08-03 16:55:52	specing	Tealyf: Disconnect, prevents google/facecrap/... from tracking you
+2015-08-03 16:56:06	specing	Tealyf: Pentadactyl, makes the interface much more saner
+2015-08-03 16:56:34	specing	Tealyf: Tree Style Tabs, stacks tabs vertically in a hierarchy
+2015-08-03 16:56:58	specing	Tealyf: noscript, allows you to whitelist javascript
+2015-08-03 16:57:16	specing	Tealyf: https-everywhere, self-explanatory, except it is rarely everywhere
+2015-08-03 16:57:28	specing	Tealyf: libreJS, something something only free javascript
+2015-08-03 16:58:22	specing	really, firefox is quite useless / dangerous without the first 5
+2015-08-03 16:59:03	specing	I use an ad-blocking proxy so adblock is not necessary for me
+2015-08-03 16:59:24	▬▬▶	gothicsouth (~gothicsou@cpe-76-177-66-223.natcky.res.rr.com) has joined #firefox
+2015-08-03 16:59:41	Tealyf	wodim: ^^
+2015-08-03 17:00:27	Tealyf	specing: I'm glad to see that I have already few of them ^:)
+2015-08-03 17:00:40	specing	Tealyf: I'm always looking for more
+2015-08-03 17:00:47	Tealyf	yeah me too
+2015-08-03 17:00:49	specing	I should also put firefox into a virtual machine
+2015-08-03 17:01:02	specing	but no time right now for that
+2015-08-03 17:01:26	wodim	You might want to visit a psychiatrist.
+2015-08-03 17:02:17	specing	wodim: firefox is several million lines of code which were proven time and time again to be fairly insecure
+2015-08-03 17:02:31	wodim	And so is your OS, whatever it is.
+2015-08-03 17:02:40	specing	nope
+2015-08-03 17:03:15	Tealyf	(I think I have started a war :/ )
+2015-08-03 17:03:40	specing	there is no war really, wodim just wants to point out how little he/she/it knows about computers
+2015-08-03 17:03:47	specing	and/or security
+2015-08-03 17:03:57	wodim	^
+2015-08-03 17:04:15	wodim	It might be that, but it could also be that you are paranoid and/or misinformed.
+2015-08-03 17:04:23	Tealyf	I like the "it"
+2015-08-03 17:05:05	specing	Tealyf: there really are "its". People that have no sex (I'm not kidding)
+2015-08-03 17:05:19	Tealyf	specing: yeah I know
+2015-08-03 17:05:33	Tealyf	I think the best way to avoid a maximum troubles is to stop being on internet
+2015-08-03 17:05:46	specing	no way to do that in this day and age, heh
+2015-08-03 17:05:53	wodim	People that have no sex?
+2015-08-03 17:05:57	wodim	I call those “eunuchs”.
+2015-08-03 17:05:58	Tealyf	so.... what I am doing here again ? *weirdoooo i am*
+2015-08-03 17:06:07	specing	especially not for a computer scientist
+2015-08-03 17:06:19	▬▬▶	designbybeck (~designbyb@x174y053.angelo.edu) has joined #firefox
+2015-08-03 17:06:49	Tealyf	computer scientist are "more" reasonnable
+2015-08-03 17:07:03	Tealyf	-n
+2015-08-03 17:07:16	Tealyf	i think
+2015-08-03 17:07:18	specing	?
+2015-08-03 17:07:59	Tealyf	don't pay attention, i writing shit... :s
+2015-08-03 17:08:10	Tealyf	+'m
+2015-08-03 17:17:09	◀▬▬	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has quit (Ping timeout: 272 seconds)
+2015-08-03 17:20:05	specing	I dislike it how there are certain people that want to argue when it comes to security/privacy and how they like to call me paranoid/...
+2015-08-03 17:25:23	Tealyf	what can we do
+2015-08-03 17:25:49	◀▬▬	Haudegen (~quassel@85.124.51.57) has quit (Ping timeout: 250 seconds)
+2015-08-03 17:26:23	◀▬▬	damkerngt (~user@14.207.130.189) has quit (Ping timeout: 244 seconds)
+2015-08-03 17:28:27	◀▬▬	fmost (~fmost@unaffiliated/fmost) has quit (Ping timeout: 240 seconds)
+2015-08-03 17:29:05	▬▬▶	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has joined #firefox
+2015-08-03 17:30:35	Tealyf	we all have different ways of thinking
+2015-08-03 17:31:04	Tealyf	for some you are just being cautious, for other you are paranoid....
+2015-08-03 17:34:26	specing	I suppose those who call me paranoid boot / off google drive and live on facebook
+2015-08-03 17:34:37	Tealyf	^^
+2015-08-03 17:42:33	▬▬▶	Whiskey (whiskey@31.44.232.185) has joined #firefox
+2015-08-03 17:48:56	▬▬▶	boot13_w (boot13@S0106c43dc7974382.vc.shawcable.net) has joined #firefox
+2015-08-03 17:49:59	◀▬▬	boot13_w (boot13@S0106c43dc7974382.vc.shawcable.net) has quit (Client Quit)
+2015-08-03 17:52:06	◀▬▬	boot13 (boot13@S0106c43dc7974382.vc.shawcable.net) has quit (Ping timeout: 255 seconds)
+2015-08-03 17:56:27	◀▬▬	Internet13 (chatzilla@cpc12-croy20-2-0-cust469.croy.cable.virginm.net) has quit (Ping timeout: 240 seconds)
+2015-08-03 17:57:18	▬▬▶	beleg_cuthalion (~beleg_cut@84.245.33.176) has joined #firefox
+2015-08-03 17:57:57	◀▬▬	rahul_b (~Thunderbi@182.70.60.228) has quit (Ping timeout: 255 seconds)
+2015-08-03 17:57:58	◀▬▬	Tealyf (5416411e@gateway/web/cgi-irc/kiwiirc.com/ip.84.22.65.30) has left #firefox
+2015-08-03 17:58:55	◀▬▬	zxd (~zxd@85.64.213.33.dynamic.barak-online.net) has quit
+2015-08-03 18:00:29	▬▬▶	Internet13 (chat@cpc12-croy20-2-0-cust469.croy.cable.virginm.net) has joined #firefox
+2015-08-03 18:00:54	▬▬▶	shadowbeast (uid17638@gateway/web/irccloud.com/x-zrjptrvxllhhfzrr) has joined #firefox
+2015-08-03 18:08:50	▬▬▶	spectromas (~spectroma@201.198.50.70) has joined #firefox
+2015-08-03 18:14:09	◀▬▬	CustosLimen (~CustosLim@unaffiliated/cust0slim3n) has quit (Ping timeout: 272 seconds)
+2015-08-03 18:14:56	◀▬▬	beleg_cuthalion (~beleg_cut@84.245.33.176) has quit (Ping timeout: 244 seconds)
+2015-08-03 18:25:06	ℹ 	irc: disconnected from server

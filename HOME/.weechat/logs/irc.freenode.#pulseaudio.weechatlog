@@ -1,0 +1,40 @@
+2015-09-07 14:35:38	▬▬▶	body (~body@79-64-175-192.host.pobb.as13285.net) has joined #pulseaudio
+2015-09-07 14:35:38	ℹ 	Topic for #pulseaudio is "master is frozen || Stable release: 6.0 || Release candidate 1 for 7.0 is out || Docs: http://libpulse.so/ || Planet: http://freedesktop.org/software/pulseaudio/planet"
+2015-09-07 14:35:38	ℹ 	Topic set by tanuk on Thu, 27 Aug 2015 21:27:54
+2015-09-07 14:35:38	ℹ 	Channel #pulseaudio: 160 nicks (0 ops, 0 voices, 160 normals)
+2015-09-07 14:35:40	ℹ 	Channel created on Sat, 30 Jan 2010 09:48:24
+2015-09-07 14:36:40	body	hello, I have some problems with my microphone, in alsamixer it workes, but with pulse don't, how can i debug that ?
+2015-09-07 14:38:18	ftonello	Are you sure that you have enabled the capture device?
+2015-09-07 14:38:48	◀▬▬	mythos (~mythos@unaffiliated/mythos) has quit (Ping timeout: 264 seconds)
+2015-09-07 14:39:27	body	ftonello: how can i check that ? in alsamixer you mean ?
+2015-09-07 14:42:04	◀▬▬	Guest27359 (~maximi89@190.215.172.106) has quit (Ping timeout: 272 seconds)
+2015-09-07 14:43:02	ftonello	body: No. Are you in a desktop distro?
+2015-09-07 14:43:32	body	ftonello: yea, let me show you (using xmonad)
+2015-09-07 14:43:41	body	ftonello: -> http://ix.io/kFi
+2015-09-07 14:46:04	body	ftonello: if i touch the microphone, i can hear in the speackers the sound of so it workes.. but when i look in pulseaudio on recording/input devices doesn't appear any volume level going up or so .. nothing happens (tested even on skype using pulseaudio and people can't hear me)
+2015-09-07 14:46:07	ftonello	run 'pactl list sources'
+2015-09-07 14:48:09	body	ftonello: http://ix.io/kFk
+2015-09-07 14:49:55	ftonello	body: You have only monitors, that's why you can't hear anything.
+2015-09-07 14:50:22	ftonello	body: run list cards now
+2015-09-07 14:51:07	ftonello	Your main card should create input and output profile
+2015-09-07 14:52:18	body	ftonello: http://ix.io/kFn
+2015-09-07 14:52:42	body	ftonello: oh
+2015-09-07 14:53:17	ftonello	Active Profile: output:analog-stereo
+2015-09-07 14:53:48	ftonello	try to use the output:analog-stereo+input:analog-stereo
+2015-09-07 14:54:18	body	ftonello: where should i activate that ? in pavucontrol ?
+2015-09-07 14:54:29	ftonello	pactl set-card-profile 0 output:analog-stereo+input:analog-stereo
+2015-09-07 14:54:33	ftonello	try this and see if it works
+2015-09-07 14:58:45	ftonello	body: your system settings should have this type of support. On KDE you can use audio settings from kmixer.
+2015-09-07 14:58:45	ftonello	body: Yes, pavucontrol also does that.
+2015-09-07 14:58:45	◀▬▬	body (~body@79-64-175-192.host.pobb.as13285.net) has quit (Ping timeout: 265 seconds)
+2015-09-07 14:58:46	ℹ 	irc: disconnected from server
+2015-09-07 14:59:11	▬▬▶	body (~body@79-64-175-192.host.pobb.as13285.net) has joined #pulseaudio
+2015-09-07 14:59:11	ℹ 	Topic for #pulseaudio is "master is frozen || Stable release: 6.0 || Release candidate 1 for 7.0 is out || Docs: http://libpulse.so/ || Planet: http://freedesktop.org/software/pulseaudio/planet"
+2015-09-07 14:59:11	ℹ 	Topic set by tanuk on Thu, 27 Aug 2015 21:27:54
+2015-09-07 14:59:11	ℹ 	Channel #pulseaudio: 158 nicks (0 ops, 0 voices, 158 normals)
+2015-09-07 14:59:13	ℹ 	Channel created on Sat, 30 Jan 2010 09:48:24
+2015-09-07 15:00:16	body	hmmm, it worked, but after 1 minute, it switched back to monitor mode ftonello 
+2015-09-07 15:00:36	body	ftonello: now I retyped the command and sais
+2015-09-07 15:00:44	body	Failure: No such entity
+2015-09-07 15:01:20	body	ftonello: oh, and if i write pactl list cards no output hmmm
+2015-09-07 15:03:50	▬▬▶	hjulle (~hjulle@ankadagen.vth.sgsnet.se) has joined #pulseaudio

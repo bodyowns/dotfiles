@@ -1,0 +1,775 @@
+2015-11-16 01:28:13	»	body (~body@79-64-174-41.host.pobb.as13285.net) has joined ##hackers
+2015-11-16 01:28:13	■	Topic for ##hackers is "Vulnerability summary for week 2015-10-26 https://www.us-cert.gov/ncas/bulletins/SB15-306 | Channel Rules: http://ix.io/iRH | Channel Espanol: ##hackers_es | http://opensecuritytraining.info/ | Infoseclabs: http://infoseclabs.net | Treat people with respect"
+2015-11-16 01:28:13	■	Topic set by kaneda^ (~kaneda@jenni/developer/kaneda) on Sat, 07 Nov 2015 04:51:15
+2015-11-16 01:28:13	■	Channel ##hackers: 111 nicks (2 ops, 10 voices, 99 normals)
+2015-11-16 01:28:13	■	URL for ##Hackers: (~￣▽￣)~
+2015-11-16 01:28:15	■	Channel created on Fri, 29 Jan 2010 18:59:24
+2015-11-16 01:32:39	«	Tapani (sid4386@gateway/web/irccloud.com/x-nbbxtgemprpcbung) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:33:00	«	Absolute0x0 (sid37450@gateway/web/irccloud.com/x-qdnqiqlfcvhomxiv) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:33:13	«	methamp (mh@2607:5600:c6:30:101:101:101:101) has quit (Quit: Zoom)
+2015-11-16 01:33:20	»	methamp (mh@2607:5600:c6:30:101:101:101:101) has joined ##hackers
+2015-11-16 01:33:42	«	Getafix74 (Getafix74@gateway/shell/bnc4free/x-rtyibrclnvdfnhsm) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:33:42	«	daviddre (daviddre@gateway/shell/panicbnc/x-gxhizzctzizzalru) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:34:45	«	thong (~thong@seek42.net) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:35:26	«	mnemon (~null@unaffiliated/mnemon) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:36:47	«	epopt (~epopt@108-208-198-211.lightspeed.sntcca.sbcglobal.net) has quit (Quit: Leaving)
+2015-11-16 01:37:50	»	zz_thong (~thong@seek42.net) has joined ##hackers
+2015-11-16 01:38:11	»	daviddre (daviddre@gateway/shell/panicbnc/x-quknhaiqcsoaogmf) has joined ##hackers
+2015-11-16 01:38:15	■	zz_thong is now known as thong
+2015-11-16 01:38:37	jackcom	oVerde: bash: msfpayload: command not found  <— what’s wrong?
+2015-11-16 01:39:34	»	Tapani (sid4386@gateway/web/irccloud.com/x-hksjzwcivufjokgt) has joined ##hackers
+2015-11-16 01:40:10	»	oVerde_ (~Verde@187.3.186.58) has joined ##hackers
+2015-11-16 01:42:05	«	oVerde (~Verde@187.3.186.58) has quit (Ping timeout: 276 seconds)
+2015-11-16 01:42:12	»	mnemon (~null@2002:c6d3:788c::1) has joined ##hackers
+2015-11-16 01:42:36	■	mnemon is now known as Guest27288
+2015-11-16 01:43:10	»	Absolute0x0 (sid37450@gateway/web/irccloud.com/x-nekroaujjhwaairs) has joined ##hackers
+2015-11-16 01:45:08	«	oVerde_ (~Verde@187.3.186.58) has quit (Quit: See'ya)
+2015-11-16 01:45:30	»	oVerde_ (~Verde@187.3.186.58) has joined ##hackers
+2015-11-16 01:46:16	«	oVerde_ (~Verde@187.3.186.58) has quit (Client Quit)
+2015-11-16 01:47:25	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-11-16 01:50:57	»	Getafix74 (Getafix74@gateway/shell/bnc4free/x-rwprcgwaoycafbyy) has joined ##hackers
+2015-11-16 01:59:53	»	fev3r101 (~fev3r101@5.134.116.205) has joined ##hackers
+2015-11-16 02:04:04	»	oVerde (~Verde@187.3.186.58) has joined ##hackers
+2015-11-16 02:04:29	»	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has joined ##hackers
+2015-11-16 02:14:06	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 02:16:27	«	saypimpam (~saypimpam@178.255.153.166) has quit (Ping timeout: 255 seconds)
+2015-11-16 02:17:32	»	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined ##hackers
+2015-11-16 02:18:11	«	CoolBreeze (~haris@d4.63.01a8.ip4.static.sl-reverse.com) has quit (Ping timeout: 250 seconds)
+2015-11-16 02:21:05	«	blazed (~digi@2607:5300:60:69b1::def:aced) has quit (Disconnected by services)
+2015-11-16 02:21:07	«	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2015-11-16 02:21:33	»	blazed (~digi@2607:5300:60:69b1::def:aced) has joined ##hackers
+2015-11-16 02:22:23	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (Quit: If at first you don't succeed, skydiving is not for you.)
+2015-11-16 02:22:56	«	tjt263 (~RAPSCA77I@unaffiliated/tjt263) has quit (Quit: sleep)
+2015-11-16 02:24:42	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 02:25:52	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (Client Quit)
+2015-11-16 02:26:54	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 02:27:05	»	tjt263 (~RAPSCA77I@unaffiliated/tjt263) has joined ##hackers
+2015-11-16 02:42:30	«	ov (~ov3r@unaffiliated/ov) has quit (Ping timeout: 240 seconds)
+2015-11-16 02:45:48	«	lleu (~gnomebad@unaffiliated/lleu) has quit (Quit: That's what she said)
+2015-11-16 03:09:14	»	zhangaa (~zhangaa@d-24-245-116-217.cpe.metrocast.net) has joined ##hackers
+2015-11-16 03:12:12	»	Harlock_ (~IceChat9@16.06.01a8.ip4.static.sl-reverse.com) has joined ##hackers
+2015-11-16 03:13:19	«	zhangaa (~zhangaa@d-24-245-116-217.cpe.metrocast.net) has quit (Client Quit)
+2015-11-16 03:30:06	»	h4ck45z3 (~h4ck45z3@186.43.160.123) has joined ##hackers
+2015-11-16 03:33:49	«	h4ck45z3 (~h4ck45z3@186.43.160.123) has quit (Quit: Leaving)
+2015-11-16 03:37:00	»	muschem (~muschem@cpe-70-115-154-218.austin.res.rr.com) has joined ##hackers
+2015-11-16 03:49:29	«	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has quit (Ping timeout: 276 seconds)
+2015-11-16 03:50:00	«	muschem (~muschem@cpe-70-115-154-218.austin.res.rr.com) has quit (Remote host closed the connection)
+2015-11-16 03:50:51	»	cmoneylulz (~cmoneylul@unaffiliated/cmoneylulz) has joined ##hackers
+2015-11-16 03:51:44	«	sanct (~sanct@212.35.67.11) has quit (Ping timeout: 272 seconds)
+2015-11-16 03:52:45	«	cmoneylulz (~cmoneylul@unaffiliated/cmoneylulz) has quit (Remote host closed the connection)
+2015-11-16 03:52:50	»	sanct (~sanct@212.35.67.11) has joined ##hackers
+2015-11-16 04:26:04	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (Quit: ASCII a stupid question, get a stupid ANSI!)
+2015-11-16 04:42:19	»	Error01 (4464c99d@gateway/web/cgi-irc/kiwiirc.com/ip.68.100.201.157) has joined ##hackers
+2015-11-16 04:44:58	«	sanct (~sanct@212.35.67.11) has quit (Ping timeout: 250 seconds)
+2015-11-16 04:47:12	Error01	Yo yo yo
+2015-11-16 04:50:19	»	CoolBreeze (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined ##hackers
+2015-11-16 04:54:45	»	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has joined ##hackers
+2015-11-16 05:00:59	«	oVerde (~Verde@187.3.186.58) has quit (Ping timeout: 276 seconds)
+2015-11-16 05:01:41	»	Hesfin (Hesfin@gateway/shell/bnc4free/x-fjxbigzyxxogxgoi) has joined ##hackers
+2015-11-16 05:10:54	«	bspar (~bspar@irpg.bspar.org) has quit (Ping timeout: 265 seconds)
+2015-11-16 05:25:31	»	bspar (~bspar@irpg.bspar.org) has joined ##hackers
+2015-11-16 05:27:08	«	tjt263 (~RAPSCA77I@unaffiliated/tjt263) has quit (Quit: sleep)
+2015-11-16 05:28:18	«	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-16 05:44:05	«	CoolBreeze (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit
+2015-11-16 05:52:32	»	Sisco (Sisco@unaffiliated/sisco) has joined ##hackers
+2015-11-16 05:53:26	«	Sisco_ (Sisco@unaffiliated/sisco/x-4156292) has quit (Ping timeout: 265 seconds)
+2015-11-16 06:00:24	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 06:01:09	Sonicwall	:)
+2015-11-16 06:01:46	«	fev3r101 (~fev3r101@5.134.116.205) has quit (Ping timeout: 240 seconds)
+2015-11-16 06:04:24	voidfire	anyone has anything neat for html5 canvas
+2015-11-16 06:04:28	voidfire	im doing a game
+2015-11-16 06:08:03	Sonicwall	idk
+2015-11-16 06:10:01	«	bspar (~bspar@irpg.bspar.org) has quit (Ping timeout: 244 seconds)
+2015-11-16 06:16:15	«	JMcAfreak (~JMcAfreak@unaffiliated/jmcafreak) has quit (Quit: Reasons)
+2015-11-16 06:16:34	»	JMcAfreak (~JMcAfreak@unaffiliated/jmcafreak) has joined ##hackers
+2015-11-16 06:26:07	»	IntrudeR_ (~IntrudeR@unaffiliated/intruder) has joined ##hackers
+2015-11-16 06:27:41	»	lemonvenom (~hellokitt@103.25.58.173) has joined ##hackers
+2015-11-16 06:29:10	«	IntrudeR (~IntrudeR@unaffiliated/intruder) has quit (Ping timeout: 240 seconds)
+2015-11-16 06:33:42	lemonvenom	hi
+2015-11-16 06:42:22	«	lemonvenom (~hellokitt@103.25.58.173) has left ##hackers ("Leaving")
+2015-11-16 06:53:23	»	LucaTM (~LucaTM@unaffiliated/lucatm) has joined ##hackers
+2015-11-16 06:59:25	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (Quit: Pull the pin and count to what?)
+2015-11-16 07:08:50	■	IntrudeR_ is now known as IntrudeR
+2015-11-16 07:10:06	»	Obit0_ (~ObitO@41.105.11.57) has joined ##hackers
+2015-11-16 07:11:06	»	voidfire_ (~voidfire@shellie.darchoods.net) has joined ##hackers
+2015-11-16 07:15:43	■	Obit0_ is now known as Obit0
+2015-11-16 07:15:46	«	voidfire (~voidfire@shellie.darchoods.net) has quit (Remote host closed the connection)
+2015-11-16 07:15:47	«	Getafix74 (Getafix74@gateway/shell/bnc4free/x-rwprcgwaoycafbyy) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:48	«	guios (~gio@212.227.108.164) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:48	«	Satyricon (~satyricon@93.186.169.21) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:49	«	sheepz (~snow@HUMANCENTIPEDE.NET) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:58	»	_guios (~gio@212.227.108.164) has joined ##hackers
+2015-11-16 07:16:29	»	Satyricon (~satyricon@93.186.169.21) has joined ##hackers
+2015-11-16 07:17:23	»	Coldblackice_ (~anonz@unaffiliated/coldblackice) has joined ##hackers
+2015-11-16 07:17:59	«	Coldblackice (~anonz@unaffiliated/coldblackice) has quit (Ping timeout: 258 seconds)
+2015-11-16 07:20:24	»	Getafix74 (Getafix74@gateway/shell/bnc4free/x-rokhqjjhtphomgup) has joined ##hackers
+2015-11-16 07:27:14	«	Obit0 (~ObitO@41.105.11.57) has quit (Ping timeout: 276 seconds)
+2015-11-16 07:29:53	»	Azmodan (~Azmodan@57518067.skybroadband.com) has joined ##hackers
+2015-11-16 07:37:06	«	Error01 (4464c99d@gateway/web/cgi-irc/kiwiirc.com/ip.68.100.201.157) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2015-11-16 07:38:52	»	Obit0_ (~ObitO@41.105.61.193) has joined ##hackers
+2015-11-16 07:39:25	■	Obit0_ is now known as Obit0
+2015-11-16 07:45:08	»	jb_ (~jb@server1.pro-it.dk) has joined ##hackers
+2015-11-16 08:42:09	■	nitrix is now known as etc
+2015-11-16 08:42:40	■	etc is now known as nitrix
+2015-11-16 08:54:39	»	saypimpam (~saypimpam@bio06-2-88-121-0-134.fbx.proxad.net) has joined ##hackers
+2015-11-16 08:55:41	»	rb4sh (~rb4sh@host229-110-dynamic.53-82-r.retail.telecomitalia.it) has joined ##hackers
+2015-11-16 09:04:57	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:07:39	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:07:57	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:09:01	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:09:15	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:09:47	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:10:05	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:12:58	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:13:14	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:14:25	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:14:41	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:15:09	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has quit (Remote host closed the connection)
+2015-11-16 09:15:27	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 09:16:38	«	Obit0 (~ObitO@41.105.61.193) has quit (Ping timeout: 272 seconds)
+2015-11-16 09:24:02	«	lmartin92 (i@copyfree/contributor/lmartin92) has quit (Ping timeout: 250 seconds)
+2015-11-16 09:31:51	»	CoolBreeze (~haris@46.166.190.191) has joined ##hackers
+2015-11-16 09:35:24	»	lleu (~gnomebad@cpc15-croy20-2-0-cust489.croy.cable.virginm.net) has joined ##hackers
+2015-11-16 09:35:24	«	lleu (~gnomebad@cpc15-croy20-2-0-cust489.croy.cable.virginm.net) has quit (Changing host)
+2015-11-16 09:35:24	»	lleu (~gnomebad@unaffiliated/lleu) has joined ##hackers
+2015-11-16 09:46:04	»	lmartin92 (i@copyfree/contributor/lmartin92) has joined ##hackers
+2015-11-16 10:04:46	«	CoolBreeze (~haris@46.166.190.191) has quit (Ping timeout: 272 seconds)
+2015-11-16 10:04:51	»	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined ##hackers
+2015-11-16 10:05:42	«	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2015-11-16 10:06:39	«	samiux (~samiux@unaffiliated/samiux) has quit (Ping timeout: 244 seconds)
+2015-11-16 10:06:57	»	samiux (~samiux@unaffiliated/samiux) has joined ##hackers
+2015-11-16 10:06:58	■	Mode ##hackers [+v samiux] by ChanServ
+2015-11-16 10:07:16	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 10:07:16	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 10:08:38	«	lmartin92 (i@copyfree/contributor/lmartin92) has quit (Ping timeout: 240 seconds)
+2015-11-16 10:15:35	«	Jakey (~Jakey69@unaffiliated/jakey) has quit (Ping timeout: 276 seconds)
+2015-11-16 10:15:58	»	lmartin92 (i@copyfree/contributor/lmartin92) has joined ##hackers
+2015-11-16 10:17:03	»	Jakey (~Jakey69@unaffiliated/jakey) has joined ##hackers
+2015-11-16 10:17:03	■	Mode ##hackers [+v Jakey] by ChanServ
+2015-11-16 10:19:56	»	terabit (~metabit@funtoo/user/terabit) has joined ##hackers
+2015-11-16 10:24:37	terabit	.tell kaneda^ o/
+2015-11-16 10:24:38	@bbbbot	terabit: I'll pass that on when kaneda^ is around.
+2015-11-16 10:24:47	terabit	hi all
+2015-11-16 10:26:40	+chris_99	hey terabit
+2015-11-16 10:32:01	»	lathifar_ (~lathif@202.67.46.9) has joined ##hackers
+2015-11-16 10:40:48	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has left ##hackers
+2015-11-16 10:40:59	»	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has joined ##hackers
+2015-11-16 11:09:54	»	CoolBreeze (~haris@46.166.190.179) has joined ##hackers
+2015-11-16 11:25:22	»	magic_1 (~magic_1@41.181.32.33) has joined ##hackers
+2015-11-16 11:25:22	«	magic_1 (~magic_1@41.181.32.33) has quit (Changing host)
+2015-11-16 11:25:22	»	magic_1 (~magic_1@unaffiliated/magic1/x-836121) has joined ##hackers
+2015-11-16 11:30:24	prowler666	Hey
+2015-11-16 11:31:04	magic_1	hi all
+2015-11-16 11:31:50	khax	hi
+2015-11-16 11:35:13	magic_1	hope everyone is doing great
+2015-11-16 11:37:10	«	lainProject (~lain@177.159.144.73) has quit (Quit: Leaving)
+2015-11-16 11:41:43	khax	yea
+2015-11-16 11:46:19	«	rb4sh (~rb4sh@host229-110-dynamic.53-82-r.retail.telecomitalia.it) has quit (Quit: BSOD)
+2015-11-16 11:57:13	«	CoolBreeze (~haris@46.166.190.179) has quit (Ping timeout: 244 seconds)
+2015-11-16 11:59:11	»	honey (~honey@unaffiliated/wtf-honey) has joined ##hackers
+2015-11-16 11:59:11	■	Mode ##hackers [+v honey] by ChanServ
+2015-11-16 11:59:14	+honey	hello
+2015-11-16 12:01:23	«	lathifar_ (~lathif@202.67.46.9) has quit (Ping timeout: 252 seconds)
+2015-11-16 12:03:56	«	Coldblackice_ (~anonz@unaffiliated/coldblackice) has quit (Ping timeout: 250 seconds)
+2015-11-16 12:11:24	magic_1	hey honey
+2015-11-16 12:11:27	magic_1	how goes it
+2015-11-16 12:12:30	+honey	heya magic_1
+2015-11-16 12:12:41	+honey	i woke up to being a moderator on a perv site lmao
+2015-11-16 12:12:45	+honey	no clue why they wanted me.
+2015-11-16 12:12:58	+honey	and i have to dress for work in a minute.
+2015-11-16 12:17:15	«	honey (~honey@unaffiliated/wtf-honey) has quit (Quit: Gone!)
+2015-11-16 12:33:18	»	CoolBreeze (CoolBreeze@CPE-137-147-17-82.lnse7.lon.bigpond.net.au) has joined ##hackers
+2015-11-16 12:48:06	terabit	hey chris_99
+2015-11-16 12:48:12	+chris_99	how goes?
+2015-11-16 12:48:19	terabit	bah
+2015-11-16 12:48:20	terabit	@#%@#%
+2015-11-16 12:48:22	terabit	:P
+2015-11-16 12:48:24	+chris_99	:(
+2015-11-16 12:48:25	terabit	you?
+2015-11-16 12:49:15	+chris_99	ok ta, just been playing with mininet + Rust, managed to drop my experiment time from 4mins --> 40s :) with some threading
+2015-11-16 12:49:56	terabit	nice, that's the simulated network thingy right ?
+2015-11-16 12:50:07	+chris_99	yeah
+2015-11-16 12:50:18	terabit	so you're into networking ? hehe
+2015-11-16 12:50:21	terabit	that's cool
+2015-11-16 12:50:30	terabit	you know that's my thing (at least for now)
+2015-11-16 12:50:56	+chris_99	well i don't really do much networking, i just created a simple virtual switch with it heh, and tied nodes to it
+2015-11-16 12:51:09	terabit	yeah
+2015-11-16 12:51:11	+chris_99	yeah, i know you do proper networky stuff :)
+2015-11-16 12:51:20	terabit	performance is always the deal breaker
+2015-11-16 12:51:31	terabit	with virtual networking that is
+2015-11-16 12:51:35	+chris_99	mmm
+2015-11-16 12:52:00	»	sanct (~sanct@212.35.67.11) has joined ##hackers
+2015-11-16 12:52:11	terabit	even if you put it on a powerful machine, it's difficult to "pass through" custom hardware accelerators
+2015-11-16 12:52:58	+chris_99	hmm, would FPGA-y stuff help with virtual networking
+2015-11-16 12:52:59	+chris_99	i wonder
+2015-11-16 12:53:26	terabit	hehe, probably , you're the one who likes to actualy experminet with that kind of stuff
+2015-11-16 12:53:37	terabit	I don't have the know how
+2015-11-16 12:53:52	terabit	of hardware/electronic engineering that is
+2015-11-16 12:54:19	terabit	chris_99, but here is a thought , your virtual switch doesn't really need to control the asic
+2015-11-16 12:54:32	terabit	well it does..and it doesn't lol
+2015-11-16 12:54:47	terabit	what I mean is a clean control vs data plane separation , kinda like how juniper does i
+2015-11-16 12:54:49	terabit	it*
+2015-11-16 12:55:11	terabit	your fpga/asic functions independently of the virtual switch(es)
+2015-11-16 12:55:25	terabit	so if they reboot,go down,get an upgrade,traffic still forwards
+2015-11-16 12:55:37	+chris_99	ah yeah
+2015-11-16 12:55:57	terabit	they "program" the asic/fpga/hardware  with forwarding table , firewall input table,etc...
+2015-11-16 12:56:09	terabit	it has it's own microcode language or something
+2015-11-16 12:56:23	terabit	I was thinking about this the other day too
+2015-11-16 12:57:02	terabit	what if someone made a pci-e "daughter board" type asic board that performs really well and has it's own tiny OS that functions so long as there is power to it
+2015-11-16 12:57:13	terabit	and you can somehow expand the port count
+2015-11-16 12:57:29	+chris_99	you mean a network card with a CPU kind of ?
+2015-11-16 12:57:30	terabit	I mean that's what juniper is doing essentialy
+2015-11-16 12:57:36	terabit	their routers use x86 cpu like normal pc's
+2015-11-16 12:57:47	terabit	not cpu, but asic
+2015-11-16 12:57:52	+chris_99	ah
+2015-11-16 12:57:57	terabit	cpu is generic
+2015-11-16 12:58:34	terabit	the problem is in linux/pc user community , when they think of networking, they only think of it from the current devices point of view
+2015-11-16 12:58:50	terabit	as in traffic coming to and from applications
+2015-11-16 12:59:02	terabit	not transit traffic (between one port and another )
+2015-11-16 12:59:20	terabit	that's why I always say , even though you can use linux as a router, it's a terrible OS for that purpose
+2015-11-16 12:59:22	«	alfberdi (~adrian@2001:720:410:3343:42f0:2fff:fef2:5c43) has left ##hackers
+2015-11-16 12:59:33	+chris_99	i'm not sure i quite understand tbh
+2015-11-16 12:59:42	terabit	Linux however makes excellent control plane if you use third party software to manage things lol
+2015-11-16 13:00:04	terabit	chris_99, ok, in juniper land you have the  Routing Engine and packet forwarding engine
+2015-11-16 13:00:16	terabit	routing engine is where junos runs
+2015-11-16 13:00:29	terabit	it's x86 cpu board , they are many times redundant (two of them )
+2015-11-16 13:00:43	+chris_99	ah ok, so it has a CPU+ASIC?
+2015-11-16 13:00:50	terabit	packet forwarding engine is programmed by the routing engine
+2015-11-16 13:01:01	terabit	it communicates with th RE but it does not need it to operate
+2015-11-16 13:01:19	terabit	sort of , if you look at the entire chassis yeah , it has both
+2015-11-16 13:01:31	terabit	the RE is cpu only
+2015-11-16 13:01:32	terabit	the PFE is mostly "asic"
+2015-11-16 13:02:03	terabit	diffence between the two is that asic is specific to specific purpose while CPU executes generic instructions as they come
+2015-11-16 13:02:14	+chris_99	mmm
+2015-11-16 13:02:24	terabit	in this case it only needs to be concerned with "how do I forward this traffic" , it doesn't need to do much else
+2015-11-16 13:02:43	terabit	either way , the idea is the RE doesn't need asic drivers and what not
+2015-11-16 13:02:56	terabit	the don't have freebsd asic drivers for it lol (junos is based on it)
+2015-11-16 13:03:05	terabit	the asic stuff has it's own brain
+2015-11-16 13:03:27	terabit	even a separate device with an ethernet link to a pc will do the job
+2015-11-16 13:03:46	+chris_99	it sounds like the dedicated hardware is what makes it work so well? compared to just using a PC for routing
+2015-11-16 13:03:53	terabit	oh yeah
+2015-11-16 13:03:56	»	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has joined ##hackers
+2015-11-16 13:04:01	terabit	dedicated and very expensive
+2015-11-16 13:04:06	terabit	talking millions of $$
+2015-11-16 13:04:29	terabit	either way they are fully redundant
+2015-11-16 13:04:52	terabit	I mean you see the uptime on some of them as only a few years but they've actually been running far longer
+2015-11-16 13:05:15	+chris_99	oh heh didn't know they where that much
+2015-11-16 13:05:17	terabit	because even when there were software crashes and it "rebooted" only the routing engine rebooted
+2015-11-16 13:05:50	terabit	the bare chassis with RE is under a mil but when you add the line cards, support contracts,etc... it's in multiple millions
+2015-11-16 13:05:57	+chris_99	eek
+2015-11-16 13:06:07	terabit	just about everything on them is redundant
+2015-11-16 13:06:19	terabit	anything less would mean constant outages
+2015-11-16 13:06:23	«	introspectr3 (~tone@184.175.99.17) has quit (Changing host)
+2015-11-16 13:06:23	»	introspectr3 (~tone@unaffiliated/krshna) has joined ##hackers
+2015-11-16 13:06:34	terabit	about 85% of internet traffic at some point is forwarded by a juniper router
+2015-11-16 13:06:54	terabit	if bgp is protocol that runs the internet, juniper routers are where bgp runs :P
+2015-11-16 13:07:53	terabit	a lot of people use cisco too, but juniper's main market has always been internet core , they were the ones that ran the internet backbone back in the NSF internet in the 90's
+2015-11-16 13:08:18	+chris_99	wow, 85%!
+2015-11-16 13:08:27	+chris_99	i thought cisco was the main provider
+2015-11-16 13:08:42	terabit	anyways, it would be great if there was a "protocol" of sorts to communicate routing table and other data between operating systems and asic (not talking SDN)
+2015-11-16 13:08:54	terabit	cisco is the main provider of enterprise routing gear
+2015-11-16 13:09:23	terabit	with a much higher margin, but that percentage drops when you talk about internet core gear
+2015-11-16 13:09:27	terabit	the stuff you see in IX's
+2015-11-16 13:09:42	terabit	matter of fact, your local IX has  dedicated juniper lan
+2015-11-16 13:09:50	terabit	look up "LINX juniper lan" lol
+2015-11-16 13:10:40	terabit	enternrpises mostly use cisco , service providers too , except when it is in the internet core stuff (exchanges mostly iirc)
+2015-11-16 13:11:25	terabit	the current cisco alterantive is asr9k or  CRS 3 I think , I don't know much about SP cisco gear , just data center
+2015-11-16 13:11:42	terabit	when you talk about data centers for example , it's either cisco nexus or arista
+2015-11-16 13:11:59	terabit	I never heard of anyone using juniper in data center switch router (i'm sure someone does though lol)
+2015-11-16 13:12:18	terabit	I'm just greatful my employers are smarter than using dumb whitebox switches like facebook
+2015-11-16 13:13:20	+chris_99	hehe
+2015-11-16 13:13:27	+chris_99	whitebox switch means what sorry?
+2015-11-16 13:13:51	terabit	switches made of out off the shelf hardware and linux os
+2015-11-16 13:13:58	terabit	cheap switches
+2015-11-16 13:14:06	terabit	they use a lot of them to drop the cost
+2015-11-16 13:14:51	«	CoolBreeze (CoolBreeze@CPE-137-147-17-82.lnse7.lon.bigpond.net.au) has quit
+2015-11-16 13:15:06	+chris_99	aha
+2015-11-16 13:15:09	terabit	the same people that like SDN, like them
+2015-11-16 13:16:00	terabit	it's not enough they think putting networking control plane on centralized gear is a good thing, they also thing networking without asic is a better solution
+2015-11-16 13:16:19	terabit	both solutions are an attempt at cutting out the expensive networking gear makers
+2015-11-16 13:16:30	»	swtch_ (~swtch-on-@8.29.118.62) has joined ##hackers
+2015-11-16 13:16:38	«	swtch_ (~swtch-on-@8.29.118.62) has quit (Remote host closed the connection)
+2015-11-16 13:16:54	»	swtch_ (~swtch-on-@8.29.118.62) has joined ##hackers
+2015-11-16 13:17:37	terabit	good stuff done right, costs money, too much cutting corners, sacrificing good engineering for the appearance of being a forward thinker and saving money in the short term and pushing costs and headaches for whoever down the road has to run the network
+2015-11-16 13:17:57	+chris_99	but some SDN kit, does use a CPU+ASIC i thought
+2015-11-16 13:18:07	terabit	oh yeah, no doubt
+2015-11-16 13:18:29	terabit	but their idea is to not do that lol
+2015-11-16 13:18:47	+chris_99	oh heh
+2015-11-16 13:19:01	terabit	when SDN started becoming popular the router/switch makers like cisco and juniper made SDN solutions that needed physhical hardware as well
+2015-11-16 13:19:07	terabit	their asic that is
+2015-11-16 13:19:29	terabit	but the SDN'ers are still pushing for less dependence on hardware
+2015-11-16 13:19:53	«	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has quit (Ping timeout: 244 seconds)
+2015-11-16 13:20:05	terabit	I feel like there is a school somewhere screwing with these kids heads to think this way
+2015-11-16 13:20:18	terabit	it's the same crowd that thinks stuff like systemd is fabulous
+2015-11-16 13:20:30	terabit	just re-inventing the wheel and putting some icing on it
+2015-11-16 13:20:40	+chris_99	hehe
+2015-11-16 13:20:40	 *	jabberwock hugs terabit 
+2015-11-16 13:20:55	terabit	"oh yeah you'll save money , but cost of owner ship and maintenance will rise too so in the end you'll be paying the same"
+2015-11-16 13:21:03	terabit	the idea is  job security I guess lol
+2015-11-16 13:21:10	terabit	wassup jabberwock
+2015-11-16 13:21:19	 *	jabberwock wants security job security
+2015-11-16 13:21:23	+jabberwock	Not much :) Just woke up.
+2015-11-16 13:21:27	terabit	jabberwock, I always think of alice in wonderland when I think of your name lol
+2015-11-16 13:21:29	+jabberwock	I'm about to do a coffee run
+2015-11-16 13:21:36	+jabberwock	Good :)
+2015-11-16 13:21:39	+jabberwock	heheh
+2015-11-16 13:21:53	 *	terabit readies Vorpal sword 
+2015-11-16 13:21:55	terabit	:P
+2015-11-16 13:21:57	 *	jabberwock cringes
+2015-11-16 13:22:25	terabit	well you don't have to worry about your job security
+2015-11-16 13:22:51	terabit	for at lest the near future I don't think anyone who is employed with anything that has anything to do with computers need to fear for job security
+2015-11-16 13:22:55	«	magic_1 (~magic_1@unaffiliated/magic1/x-836121) has quit (Quit: Leaving)
+2015-11-16 13:23:12	terabit	even if you lose your job best buy or fry's or some small company will hire you lol
+2015-11-16 13:23:53	+jabberwock	true :)
+2015-11-16 13:23:56	terabit	man, the protonmail ddos sucked
+2015-11-16 13:24:06	terabit	but I'm glad they're back up
+2015-11-16 13:24:10	+jabberwock	I still haven't gotten my invite!
+2015-11-16 13:24:16	terabit	you don't need one
+2015-11-16 13:24:23	terabit	well I didn't need one lol
+2015-11-16 13:24:29	+jabberwock	wha?
+2015-11-16 13:24:34	terabit	i signed up but it took them like a week to get my inbox ready
+2015-11-16 13:25:06	terabit	as a security pro , you should be aware of the major flaw in their design
+2015-11-16 13:25:08	+jabberwock	https://protonmail.com/invite
+2015-11-16 13:25:11	@bbbbot	[ Create Account | ProtonMail ] - https://protonmail.com
+2015-11-16 13:25:16	+jabberwock	That's where the sign-up link takes you
+2015-11-16 13:25:41	terabit	hmm, I may have used that link
+2015-11-16 13:26:00	terabit	I think they responded and sendt me an invite maybe ? dunno
+2015-11-16 13:26:18	+jabberwock	Probably delayed from the DDoS
+2015-11-16 13:26:29	terabit	you know what I don't get, why does it need to be in switzerland or something
+2015-11-16 13:26:45	terabit	I mean pirate movie sites operate fine without the law interfering
+2015-11-16 13:26:50	+jabberwock	on a side note I tweeted about this back in August and now it seems to be exploding. 20 retweets in the past day: https://twitter.com/BytingJaws/status/635803112406552577
+2015-11-16 13:26:52	@bbbbot	[ Jabberwock on Twitter: "#sshuttle - Easy pivoting through internal *nix networks: https://t.co/1EZlQRx1vU#pentest #infosec" ] - https://twitter.com
+2015-11-16 13:26:59	terabit	oh, and the did reap tons of money for the ddos attack
+2015-11-16 13:27:01	+jabberwock	^^ screw proxychains
+2015-11-16 13:27:24	+jabberwock	I think because of the Swiss laws
+2015-11-16 13:27:33	+jabberwock	at least I assumed
+2015-11-16 13:27:42	terabit	can't access twitter
+2015-11-16 13:28:01	+jabberwock	well bbbbot posted what it is :)
+2015-11-16 13:28:09	terabit	hmm yeah
+2015-11-16 13:28:18	+jabberwock	sshuttle -r user@linux-pivot 10.1.1.0/24
+2015-11-16 13:28:22	+jabberwock	boom. like VPN
+2015-11-16 13:28:39	terabit	cool
+2015-11-16 13:28:54	terabit	there was icmp based solution too
+2015-11-16 13:29:07	+jabberwock	interesting
+2015-11-16 13:29:34	terabit	raises less alarms or something
+2015-11-16 13:29:45	terabit	anyways , need to rest up , bbl
+2015-11-16 13:29:51	+jabberwock	peace out :)
+2015-11-16 13:30:19	+jabberwock	ICMP is stateless and I would think be blocked in most corporate environments. I wonder what that is.
+2015-11-16 13:32:27	swtch_	I've never seen ICMP blocked outside of gov jabberwock
+2015-11-16 13:52:34	»	lathifar_ (~lathif@202.67.41.31) has joined ##hackers
+2015-11-16 13:54:52	»	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has joined ##hackers
+2015-11-16 13:55:48	»	bspar (~bspar@irpg.bspar.org) has joined ##hackers
+2015-11-16 13:56:39	«	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has quit (Client Quit)
+2015-11-16 13:56:56	»	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has joined ##hackers
+2015-11-16 13:57:38	«	jb_ (~jb@server1.pro-it.dk) has quit (Quit: Ex-Chat)
+2015-11-16 14:00:49	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Remote host closed the connection)
+2015-11-16 14:02:31	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 14:02:31	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 14:09:00	»	CoolBreeze (~haris@46.166.188.245) has joined ##hackers
+2015-11-16 14:10:11	»	Obit0_ (~ObitO@41.105.88.212) has joined ##hackers
+2015-11-16 14:10:26	■	Obit0_ is now known as Obit0
+2015-11-16 14:17:25	terabit	jabberwock, you should never ever no matter what block icmp
+2015-11-16 14:20:27	«	prowler666 (~prowler66@1.39.14.159) has quit (Ping timeout: 265 seconds)
+2015-11-16 14:25:45	 *	cylon512 yo
+2015-11-16 14:26:15	 *	cylon512 thinking an interesting outlook on icmp (blocking)
+2015-11-16 14:27:36	«	lathifar_ (~lathif@202.67.41.31) has quit (Ping timeout: 272 seconds)
+2015-11-16 14:29:12	+jabberwock	terabit: Elaborate?
+2015-11-16 14:29:27	+jabberwock	and to be clear -I- am not :)
+2015-11-16 14:30:19	+chris_99	heh looks like i am
+2015-11-16 14:30:25	+chris_99	(blocking ICMP that is)
+2015-11-16 14:30:29	«	jackcom (~jack@unaffiliated/jackcom) has left ##hackers
+2015-11-16 14:31:08	+jabberwock	I was more curious how effective an ICMP pivot tool would be
+2015-11-16 14:35:04	»	prowler666 (~prowler66@1.39.14.159) has joined ##hackers
+2015-11-16 14:36:05	»	Enzv (~Enzv@151.66.88.129) has joined ##hackers
+2015-11-16 14:59:09	»	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has joined ##hackers
+2015-11-16 15:02:02	»	lathifar_ (~lathif@202.67.41.31) has joined ##hackers
+2015-11-16 15:04:45	«	prowler666 (~prowler66@1.39.14.159) has quit (Ping timeout: 250 seconds)
+2015-11-16 15:11:42	»	prowler666 (~prowler66@1.39.14.159) has joined ##hackers
+2015-11-16 15:13:35	«	lmartin92 (i@copyfree/contributor/lmartin92) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:13:59	»	MadHatter42 (~MadHatter@unaffiliated/madhatter42) has joined ##hackers
+2015-11-16 15:14:48	»	fxhound (~fxhound@cpc78261-ely08-2-0-cust335.5-1.cable.virginm.net) has joined ##hackers
+2015-11-16 15:16:30	«	CoolBreeze (~haris@46.166.188.245) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:16:32	«	fckd (~trippen@69.162.123.87) has quit (Ping timeout: 246 seconds)
+2015-11-16 15:18:49	»	fckd (~trippen@69.162.123.87) has joined ##hackers
+2015-11-16 15:28:47	»	zylva (~zylva@41.100.151.152) has joined ##hackers
+2015-11-16 15:29:16	zylva	hello
+2015-11-16 15:29:24	zylva	r questions allowed here ?
+2015-11-16 15:29:28	»	CoolBreeze (~haris@30.4b.01a8.ip4.static.sl-reverse.com) has joined ##hackers
+2015-11-16 15:29:39	+chris_99	sure
+2015-11-16 15:31:05	»	lmartin92 (i@copyfree/contributor/lmartin92) has joined ##hackers
+2015-11-16 15:33:30	«	zylva (~zylva@41.100.151.152) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:35:25	»	d4ni3l (~d4ni3l@81.241.247.201.static.claro.com.sv) has joined ##hackers
+2015-11-16 15:35:57	»	sjjgjgvnn (~AndChat19@103.230.222.186) has joined ##hackers
+2015-11-16 15:37:03	sjjgjgvnn	I have been banned from security offsec and kali-linux what should I do
+2015-11-16 15:37:56	+chris_99	speak to the ops?
+2015-11-16 15:38:27	sjjgjgvnn	Since I am ban gow can I speak to ops
+2015-11-16 15:38:43	«	fxhound (~fxhound@cpc78261-ely08-2-0-cust335.5-1.cable.virginm.net) has quit (Quit: Leaving)
+2015-11-16 15:38:48	sjjgjgvnn	*how
+2015-11-16 15:39:06	+chris_99	you should be able to PM them
+2015-11-16 15:39:13	sjjgjgvnn	Is there any procedure to get unbann
+2015-11-16 15:39:55	+samiux	offsec and kali-linux are not allowed to speak anything illegal
+2015-11-16 15:40:18	Obit0	hello
+2015-11-16 15:41:31	sjjgjgvnn	I didn't intended that now I am literally crying
+2015-11-16 15:42:09	sjjgjgvnn	Woul
+2015-11-16 15:42:15	+samiux	offsec is a support channel for their courses
+2015-11-16 15:42:30	sjjgjgvnn	Would any one help
+2015-11-16 15:42:33	■	Mode ##hackers [+o jabberwock] by ChanServ
+2015-11-16 15:42:34	+samiux	kali-linux channel does not help much indeed
+2015-11-16 15:42:38	■	Mode ##hackers [+b *!*@103.230.222.186] by jabberwock
+2015-11-16 15:42:40	«	jabberwock has kicked sjjgjgvnn (Your behavior is not conducive to the desired environment.)
+2015-11-16 15:42:44	■	Mode ##hackers [-o jabberwock] by jabberwock
+2015-11-16 15:43:07	+chris_99	ah, is that what he was doing, asking silly things in those channels?
+2015-11-16 15:43:10	+jabberwock	No. They got kicked from #Offsed by the creator of Kali because they were trolling
+2015-11-16 15:43:17	+jabberwock	and they got kicked from ##security for trolling
+2015-11-16 15:43:18	+jabberwock	and now from here
+2015-11-16 15:43:19	+chris_99	ah
+2015-11-16 15:43:28	+jabberwock	#Offsec rather
+2015-11-16 15:48:00	«	Enzv (~Enzv@151.66.88.129) has quit (Quit: Leaving)
+2015-11-16 15:50:50	terabit	jabberwock, the one thing you don't block in a network is ping, it does not help your security one bit but it prevents legitimate troubleshooting from being performed or from users or system engineers from analyzing the network properly , you may block it on end hosts bot blocking it at the network level is pretty horrible
+2015-11-16 15:51:00	terabit	any network admin worth his salt will tell you that
+2015-11-16 15:51:04	terabit	you never block ping
+2015-11-16 15:51:18	+jabberwock	I'm not
+2015-11-16 15:51:18	terabit	that's how you can pick a apart a bad system design or admin
+2015-11-16 15:51:21	Obit0	jabberwock: i have a question
+2015-11-16 15:51:26	+jabberwock	ok
+2015-11-16 15:51:31	terabit	as far as tunnelling goes yeah, it sort of takes advantange of that
+2015-11-16 15:52:03	Obit0	why i can not put msg on #offsec chan?
+2015-11-16 15:52:03	terabit	but the idea is , ping payload isn't inspected a whole lot
+2015-11-16 15:52:12	+jabberwock	Obit0: your nickname is not registered with NickServ
+2015-11-16 15:52:27	+chris_99	terabit, on my firewall i just drop all incoming packets
+2015-11-16 15:52:27	+jabberwock	terabit: Oh I see
+2015-11-16 15:52:43	Obit0	ok give me the link for registration
+2015-11-16 15:52:48	terabit	chris_99, yeah,that's bad lol, don't believe me, ask ##networking  :P
+2015-11-16 15:52:56	Obit0	like i did on undernet
+2015-11-16 15:53:06	terabit	you're not really hiding from anyone
+2015-11-16 15:53:17	terabit	you can always drop everything but ping
+2015-11-16 15:53:36	terabit	then again,it's your own network where you are the only user
+2015-11-16 15:53:40	terabit	so it's not a problem
+2015-11-16 15:54:23	terabit	the only problem is when there are other people using the network and you have other technical staff administering or functioning in any capacity in the network
+2015-11-16 15:54:23	+chris_99	mmm
+2015-11-16 15:54:30	terabit	you can always build a wall nobody can penetrate but then you're locked in
+2015-11-16 15:54:43	terabit	gotta be careful to not make a prison when you make a fortress ;)
+2015-11-16 15:55:05	terabit	for example azure blocks icmp
+2015-11-16 15:55:07	+jabberwock	Obit0: /msg nickserv help register
+2015-11-16 15:55:17	Obit0	ok
+2015-11-16 15:55:19	terabit	i'm seeing people who use their service complain about packet loss or latency
+2015-11-16 15:55:20	Obit0	thnx
+2015-11-16 15:55:23	terabit	but no way to troubleshoot
+2015-11-16 15:55:29	terabit	they just have a fit or whatever
+2015-11-16 15:55:32	+jabberwock	Please don't PM me without asking. I'm not trying to be a bitch. I just get a lot of them
+2015-11-16 15:55:38	Obit0	ok sorry
+2015-11-16 15:55:43	+jabberwock	np
+2015-11-16 15:55:46	terabit	not my prob, microsoft thinks blocking ping somehow enhances their security
+2015-11-16 15:56:09	terabit	security that gets in the way of productivity == trash
+2015-11-16 15:56:18	+jabberwock	terabit: so ping I think is one of the types we don't block
+2015-11-16 15:56:23	+jabberwock	because of what you said... for the admins
+2015-11-16 15:56:28	terabit	it seems everytime I talk about any serious topic in security I'm saying that
+2015-11-16 15:56:33	»	waywardsun (~waywardsu@unaffiliated/waywardsun) has joined ##hackers
+2015-11-16 15:56:41	terabit	jabberwock, then you have good admins :P
+2015-11-16 15:56:56	terabit	I mean you can block certain icmp messages and it's not a big deal
+2015-11-16 15:57:10	terabit	but icmp_echo and ttl_exceeded are a must
+2015-11-16 15:57:21	terabit	you can even throttle
+2015-11-16 15:57:26	terabit	which many do
+2015-11-16 15:58:07	terabit	not just admins, but say you have a service with someone out in the internet and you complain "it's slow" or one of your users does
+2015-11-16 15:58:18	terabit	the admins of that other service can't help you
+2015-11-16 15:58:26	terabit	but yeah I guess in both cases "admins" :P
+2015-11-16 15:58:58	terabit	like a lot of times I get people in random countries saying "packet loss" ...well I need to see the path the packet takes the other way too
+2015-11-16 15:59:05	terabit	so I need to send them ping/mtr/traceroute
+2015-11-16 15:59:23	terabit	but it gets dropped right at the network boundary
+2015-11-16 16:00:13	»	magic_1 (~magic_1@197.77.17.247) has joined ##hackers
+2015-11-16 16:00:13	«	magic_1 (~magic_1@197.77.17.247) has quit (Changing host)
+2015-11-16 16:00:14	»	magic_1 (~magic_1@unaffiliated/magic1/x-836121) has joined ##hackers
+2015-11-16 16:00:14	Obit0	REGISTER newaness211987 taiebcherif.aness@gmail.com
+2015-11-16 16:00:21	+chris_99	oops
+2015-11-16 16:00:21	terabit	so can't tell if there is a problem and can't tell where the problem is even if there was one, so they lose money , we lose money because they think our network sucks ,everybody lsoes for some guys false sense of security somewhere
+2015-11-16 16:00:26	magic_1	hi all
+2015-11-16 16:00:33	terabit	haha
+2015-11-16 16:00:50	terabit	Obit0, I'm gonna complete so many surveys and sign up for stuff with that email !!!! :P
+2015-11-16 16:01:04	Obit0	ok
+2015-11-16 16:01:05	terabit	say, how do you like viagra ? :P
+2015-11-16 16:01:07	Obit0	go ahead
+2015-11-16 16:01:18	terabit	just kidding
+2015-11-16 16:01:24	Obit0	its not an important email
+2015-11-16 16:01:30	terabit	seriously tho, hope you don't reuse the same password too much
+2015-11-16 16:01:50	Obit0	ok ok sorry
+2015-11-16 16:02:03	terabit	bye guys o/
+2015-11-16 16:02:28	Obit0	bye terabit
+2015-11-16 16:02:32	+jabberwock	peace terabit :)
+2015-11-16 16:02:42	»	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has joined ##hackers
+2015-11-16 16:08:16	»	Obit0_ (Obit0_@41.105.23.241) has joined ##hackers
+2015-11-16 16:09:59	«	Obit0 (~ObitO@41.105.88.212) has quit (Ping timeout: 252 seconds)
+2015-11-16 16:10:33	magic_1	hi all any one worked with mimecast before, but not just setting firewall rules, more in depth?
+2015-11-16 16:12:10	■	Obit0_ is now known as Obit0
+2015-11-16 16:12:58	«	d4ni3l (~d4ni3l@81.241.247.201.static.claro.com.sv) has quit (Quit: Leaving)
+2015-11-16 16:13:35	«	EFx0 (~textual@CableLink-189-218-13-245.Hosts.InterCable.net) has quit (Max SendQ exceeded)
+2015-11-16 16:13:37	»	rb4sh (~rb4sh@host229-110-dynamic.53-82-r.retail.telecomitalia.it) has joined ##hackers
+2015-11-16 16:13:41	+jabberwock	not I
+2015-11-16 16:16:31	«	Obit0 (Obit0_@41.105.23.241) has quit
+2015-11-16 16:17:06	»	injected (~injected@unaffiliated/injected) has joined ##hackers
+2015-11-16 16:17:11	»	ObitO (~ObitO@41.105.23.241) has joined ##hackers
+2015-11-16 16:17:34	■	ObitO is now known as Guest85807
+2015-11-16 16:19:11	■	Guest85807 is now known as Obit0
+2015-11-16 16:23:44	«	buzzykins (~0x2fab@68.235.131.213) has quit (Ping timeout: 246 seconds)
+2015-11-16 16:27:43	«	Obit0 (~ObitO@41.105.23.241) has quit
+2015-11-16 16:30:22	«	injected (~injected@unaffiliated/injected) has quit (Ping timeout: 260 seconds)
+2015-11-16 16:31:57	»	Obit0 (~ObitO@41.105.23.241) has joined ##hackers
+2015-11-16 16:32:08	«	MadHatter42 (~MadHatter@unaffiliated/madhatter42) has quit (Ping timeout: 246 seconds)
+2015-11-16 16:37:31	»	alfberdi (~adrian@151.182.198.195) has joined ##hackers
+2015-11-16 16:40:08	«	swtch_ (~swtch-on-@8.29.118.62) has left ##hackers ("Leaving")
+2015-11-16 16:40:15	»	gr3yR0n1n (~gr3yR0n1n@c-174-52-62-40.hsd1.ut.comcast.net) has joined ##hackers
+2015-11-16 16:47:52	»	MadHatter42 (~MadHatter@unaffiliated/madhatter42) has joined ##hackers
+2015-11-16 16:59:21	»	redstarcomrade (40b71262@gateway/web/cgi-irc/kiwiirc.com/ip.64.183.18.98) has joined ##hackers
+2015-11-16 16:59:58	»	Bushido_ (bushido@unaffiliated/bursihido) has joined ##hackers
+2015-11-16 17:00:12	«	Bushido_ (bushido@unaffiliated/bursihido) has left ##hackers
+2015-11-16 17:03:31	»	Error01 (4464c99d@gateway/web/cgi-irc/kiwiirc.com/ip.68.100.201.157) has joined ##hackers
+2015-11-16 17:04:22	«	MadHatter42 (~MadHatter@unaffiliated/madhatter42) has quit (Read error: Connection reset by peer)
+2015-11-16 17:04:59	«	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has quit (Ping timeout: 264 seconds)
+2015-11-16 17:10:48	»	swtch_ (~swtch-on-@8.29.118.62) has joined ##hackers
+2015-11-16 17:12:38	«	swtch_ (~swtch-on-@8.29.118.62) has left ##hackers
+2015-11-16 17:15:04	«	alfberdi (~adrian@151.182.198.195) has quit (Remote host closed the connection)
+2015-11-16 17:15:47	»	alfberdi (~adrian@151.182.198.195) has joined ##hackers
+2015-11-16 17:15:47	«	alfberdi (~adrian@151.182.198.195) has quit (Client Quit)
+2015-11-16 17:16:35	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Remote host closed the connection)
+2015-11-16 17:17:27	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 17:17:28	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 17:21:52	»	Berazu (~cb@unaffiliated/berazu) has joined ##hackers
+2015-11-16 17:49:36	«	JMcAfreak (~JMcAfreak@unaffiliated/jmcafreak) has quit (Quit: computer.sleeping = true)
+2015-11-16 17:49:54	»	KajiMaster (~Kaji@209.95.50.141) has joined ##hackers
+2015-11-16 18:01:49	«	Guest27288 (~null@2002:c6d3:788c::1) has quit (Quit: Reconnecting)
+2015-11-16 18:01:56	»	mnemon (~null@2002:c6d3:788c::1) has joined ##hackers
+2015-11-16 18:02:13	«	mnemon (~null@2002:c6d3:788c::1) has quit (Changing host)
+2015-11-16 18:02:14	»	mnemon (~null@unaffiliated/mnemon) has joined ##hackers
+2015-11-16 18:02:14	■	Mode ##hackers [+v mnemon] by ChanServ
+2015-11-16 18:02:38	«	mnemon (~null@unaffiliated/mnemon) has quit (Client Quit)
+2015-11-16 18:11:48	»	mnemon (~null@unaffiliated/mnemon) has joined ##hackers
+2015-11-16 18:11:49	■	Mode ##hackers [+v mnemon] by ChanServ
+2015-11-16 18:15:25	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Remote host closed the connection)
+2015-11-16 18:16:48	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 18:16:48	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 18:17:48	»	lili (uid79385@gateway/web/irccloud.com/x-pxdxxoqryyaltxyp) has joined ##hackers
+2015-11-16 18:20:42	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Remote host closed the connection)
+2015-11-16 18:25:16	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 18:25:16	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 18:26:31	«	rb4sh (~rb4sh@host229-110-dynamic.53-82-r.retail.telecomitalia.it) has quit (Quit: BSOD)
+2015-11-16 18:29:20	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Remote host closed the connection)
+2015-11-16 18:30:10	»	xs3c (~xs3c@49.202.114.236) has joined ##hackers
+2015-11-16 18:33:13	«	Obit0 (~ObitO@41.105.23.241) has quit (Remote host closed the connection)
+2015-11-16 18:33:36	«	Harlock_ (~IceChat9@16.06.01a8.ip4.static.sl-reverse.com) has quit (Quit: Never underestimate the power of stupid people in large groups.)
+2015-11-16 18:36:37	«	a1447604898 (~ddd@195-154-81-120.rev.poneytelecom.eu) has quit (Remote host closed the connection)
+2015-11-16 18:37:09	»	Guest34632 (~ObitO@41.105.23.241) has joined ##hackers
+2015-11-16 18:37:52	»	honey (~wtf-honey@unaffiliated/wtf-honey) has joined ##hackers
+2015-11-16 18:37:53	■	Mode ##hackers [+v honey] by ChanServ
+2015-11-16 18:37:57	+honey	hello
+2015-11-16 18:39:15	«	Guest34632 (~ObitO@41.105.23.241) has quit (Remote host closed the connection)
+2015-11-16 18:39:42	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 18:39:42	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 18:40:07	»	Obit0 (~ObitO@41.105.23.241) has joined ##hackers
+2015-11-16 18:40:13	»	a1447699199 (~ddd@195-154-81-120.rev.poneytelecom.eu) has joined ##hackers
+2015-11-16 18:40:13	«	a1447699199 (~ddd@195-154-81-120.rev.poneytelecom.eu) has quit (Read error: Connection reset by peer)
+2015-11-16 18:41:05	»	a1447699252 (~ddd@195-154-81-120.rev.poneytelecom.eu) has joined ##hackers
+2015-11-16 18:42:19	magic_1	hey honey
+2015-11-16 18:42:20	magic_1	how goes it
+2015-11-16 18:42:36	+honey	heya. just on lunch. how you doing?
+2015-11-16 18:42:48	«	redgoldblue (~saviOr@ool-4357c689.dyn.optonline.net) has quit (Ping timeout: 244 seconds)
+2015-11-16 18:43:48	»	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has joined ##hackers
+2015-11-16 18:44:44	»	Coldblackice_ (~anonz@unaffiliated/coldblackice) has joined ##hackers
+2015-11-16 18:45:07	«	a1447699252 (~ddd@195-154-81-120.rev.poneytelecom.eu) has quit (Remote host closed the connection)
+2015-11-16 18:45:31	»	a1447699517 (~ddd@195-154-81-120.rev.poneytelecom.eu) has joined ##hackers
+2015-11-16 18:49:08	magic_1	good thanks
+2015-11-16 18:49:08	magic_1	lol its almost 9 this side,
+2015-11-16 18:49:08	magic_1	hows lunch going
+2015-11-16 18:49:08	magic_1	anything good
+2015-11-16 18:50:16	+honey	chili before at my desk. nothing exciting
+2015-11-16 18:50:22	+honey	it got cold here
+2015-11-16 18:50:39	magic_1	we had massive storm here today
+2015-11-16 18:50:56	+honey	oh? rain or what
+2015-11-16 18:51:06	magic_1	which was really needed considering we have been going through a massive drought and heat wave
+2015-11-16 18:51:10	magic_1	yea rain
+2015-11-16 18:51:20	magic_1	so funny enough its freezing tonight
+2015-11-16 18:53:22	+honey	oh wow
+2015-11-16 18:53:40	+honey	its going to be cold. its winter time. could be worse lol
+2015-11-16 18:53:53	+honey	thats what tequill wine and glow sticks are for
+2015-11-16 18:55:08	»	MasterPiece (~MasterPie@unaffiliated/masterpiece) has joined ##hackers
+2015-11-16 18:58:29	magic_1	well its summer by us
+2015-11-16 18:58:37	magic_1	well spring going on summer
+2015-11-16 18:58:50	+honey	youre upside down to me lol
+2015-11-16 18:58:58	+honey	bbl too cold
+2015-11-16 18:59:25	«	honey (~wtf-honey@unaffiliated/wtf-honey) has quit (Quit: quit)
+2015-11-16 19:00:27	»	wtbrk (~wtbrk@86.121.194.100) has joined ##hackers
+2015-11-16 19:03:14	«	lleu (~gnomebad@unaffiliated/lleu) has quit (Quit: That's what she said)
+2015-11-16 19:03:32	»	lleu (~gnomebad@cpc15-croy20-2-0-cust489.croy.cable.virginm.net) has joined ##hackers
+2015-11-16 19:03:34	«	lleu (~gnomebad@cpc15-croy20-2-0-cust489.croy.cable.virginm.net) has quit (Changing host)
+2015-11-16 19:03:34	»	lleu (~gnomebad@unaffiliated/lleu) has joined ##hackers
+2015-11-16 19:04:27	«	xs3c (~xs3c@49.202.114.236) has left ##hackers
+2015-11-16 19:04:28	«	Obit0 (~ObitO@41.105.23.241) has quit
+2015-11-16 19:04:42	«	sanct (~sanct@212.35.67.11) has quit (Ping timeout: 250 seconds)
+2015-11-16 19:05:05	»	sanct (~sanct@212.35.67.11) has joined ##hackers
+2015-11-16 19:05:34	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Ping timeout: 250 seconds)
+2015-11-16 19:14:49	»	swtch_ (~swtch-on-@8.29.118.62) has joined ##hackers
+2015-11-16 19:23:32	»	Obit0 (~ObitO@41.105.23.241) has joined ##hackers
+2015-11-16 19:31:00	«	swtch_ (~swtch-on-@8.29.118.62) has left ##hackers ("Leaving")
+2015-11-16 19:35:11	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 19:35:11	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 19:38:24	»	OS-18000 (55c9a54f@gateway/web/freenode/ip.85.201.165.79) has joined ##hackers
+2015-11-16 19:41:10	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Ping timeout: 240 seconds)
+2015-11-16 19:44:50	«	Sisco (Sisco@unaffiliated/sisco) has quit (Remote host closed the connection)
+2015-11-16 19:45:24	«	OS-18000 (55c9a54f@gateway/web/freenode/ip.85.201.165.79) has left ##hackers
+2015-11-16 19:45:28	»	Sisco (Sisco@unaffiliated/sisco) has joined ##hackers
+2015-11-16 19:52:04	«	lathifar_ (~lathif@202.67.41.31) has quit (Read error: Connection reset by peer)
+2015-11-16 19:52:30	«	magic_1 (~magic_1@unaffiliated/magic1/x-836121) has quit (Quit: Leaving)
+2015-11-16 19:55:30	«	OldCoder (~OldCoder@unaffiliated/oldcoder) has quit (Ping timeout: 240 seconds)
+2015-11-16 19:56:41	»	OldCoder (~OldCoder@unaffiliated/oldcoder) has joined ##hackers
+2015-11-16 19:57:54	«	srg (~srg@unaffiliated/srg) has quit (Ping timeout: 240 seconds)
+2015-11-16 19:58:04	»	DogTag13 (~DogTag13@dogtag.io) has joined ##hackers
+2015-11-16 19:58:10	«	DogTag13_ (~DogTag13@dogtag.io) has quit (Ping timeout: 260 seconds)
+2015-11-16 19:58:40	«	a1447699517 (~ddd@195-154-81-120.rev.poneytelecom.eu) has quit (Quit: Ping timeout: 240 seconds)
+2015-11-16 19:58:46	»	srg (~srg@unaffiliated/srg) has joined ##hackers
+2015-11-16 19:58:58	»	a1447703920 (~ddd@195-154-81-120.rev.poneytelecom.eu) has joined ##hackers
+2015-11-16 19:59:46	«	saypimpam (~saypimpam@bio06-2-88-121-0-134.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2015-11-16 20:00:02	»	Coldblackice (~anonz@unaffiliated/coldblackice) has joined ##hackers
+2015-11-16 20:00:30	«	Coldblackice_ (~anonz@unaffiliated/coldblackice) has quit (Ping timeout: 240 seconds)
+2015-11-16 20:01:06	«	markizano (markizano@2600:3c00::f03c:91ff:fe73:b5cb) has quit (Quit: Poweroff)
+2015-11-16 20:08:44	»	lathifar_ (~lathif@202.67.41.17) has joined ##hackers
+2015-11-16 20:11:09	»	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has joined ##hackers
+2015-11-16 20:11:09	■	Mode ##hackers [+v chris_99] by ChanServ
+2015-11-16 20:11:50	»	virtualfox (~virtualfo@mts78-h01-176-179-135-6.dsl.sta.abo.bbox.fr) has joined ##hackers
+2015-11-16 20:11:58	«	a1447703920 (~ddd@195-154-81-120.rev.poneytelecom.eu) has quit (Remote host closed the connection)
+2015-11-16 20:12:21	»	a1447704728 (~ddd@195-154-81-120.rev.poneytelecom.eu) has joined ##hackers
+2015-11-16 20:24:53	«	hstl (~hstl@94.245.142.111) has quit (Ping timeout: 265 seconds)
+2015-11-16 20:32:19	+jabberwock	¿pɐǝɥ ɹnoʎ uo puɐʇs noʎ uɐɔ
+2015-11-16 20:34:02	khax	hah
+2015-11-16 20:34:36	Obit0	khax
+2015-11-16 20:34:39	Obit0	how r u
+2015-11-16 20:34:39	«	sanct (~sanct@212.35.67.11) has quit (Ping timeout: 240 seconds)
+2015-11-16 20:35:27	khax	good, reading my notes, how about yourself
+2015-11-16 20:35:44	Obit0	installing kali
+2015-11-16 20:35:57	khax	nice
+2015-11-16 20:37:26	«	_Yage (~Yage@cpe-72-179-29-179.austin.res.rr.com) has quit (Read error: Connection reset by peer)
+2015-11-16 20:37:39	»	_Yage (~Yage@cpe-72-179-29-179.austin.res.rr.com) has joined ##hackers
+2015-11-16 20:42:05	«	Berazu (~cb@unaffiliated/berazu) has quit (Read error: Connection reset by peer)
+2015-11-16 20:42:36	«	MasterPiece (~MasterPie@unaffiliated/masterpiece) has quit (Quit: Leaving)
+2015-11-16 20:58:14	«	wtbrk (~wtbrk@86.121.194.100) has quit (Ping timeout: 250 seconds)
+2015-11-16 20:59:03	khax	which tools do you use in kali ?
+2015-11-16 21:01:09	«	daviddre (daviddre@gateway/shell/panicbnc/x-quknhaiqcsoaogmf) has quit (Quit: PanicBNC - http://PanicBNC.net)
+2015-11-16 21:07:23	«	Coldblackice (~anonz@unaffiliated/coldblackice) has quit (Read error: Connection reset by peer)
+2015-11-16 21:10:18	korain	nmap, msf, set, pyrit, hydra, beef, sqlmap, ettercap, wireshark, nano
+2015-11-16 21:10:22	korain	personal top 10
+2015-11-16 21:12:55	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 21:15:12	khax	nice
+2015-11-16 21:18:32	Sonicwall	http://map.norsecorp.com/v1/
+2015-11-16 21:18:33	@bbbbot	[ Norse - IPViking Live ] - http://map.norsecorp.com
+2015-11-16 21:18:34	Sonicwall	wo0o
+2015-11-16 21:19:30	«	Sisco (Sisco@unaffiliated/sisco) has quit (Ping timeout: 265 seconds)
+2015-11-16 21:20:00	»	Sisco (Sisco@unaffiliated/sisco) has joined ##hackers
+2015-11-16 21:24:36	 *	Sonicwall slaps khax with a big red brick
+2015-11-16 21:26:16	korain	Sonicwall: i think you're supposed to use some sort of fish
+2015-11-16 21:30:26	Sonicwall	 * Sonicwall slaps khax with a Big Red Dildo
+2015-11-16 21:30:50	korain	dildos are also sufficient
+2015-11-16 21:31:53	Sonicwall	:)
+2015-11-16 21:33:24	«	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Quit: Leaving)
+2015-11-16 21:33:45	khax	lol
+2015-11-16 21:39:55	»	TheHonz (~TheHonz@unaffiliated/thehonz) has joined ##hackers
+2015-11-16 21:40:22	Sonicwall	Sure is a lot of telnet attack and netboi attacks
+2015-11-16 21:41:25	+jabberwock	where?
+2015-11-16 21:41:26	@bbbbot	jabberwock: chicken hair
+2015-11-16 21:41:30	+jabberwock	:/
+2015-11-16 21:41:34	«	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has quit (Quit: sleepy time)
+2015-11-16 21:41:52	korain	who
+2015-11-16 21:41:53	@bbbbot	korain: chicken poo
+2015-11-16 21:42:05	«	LucaTM (~LucaTM@unaffiliated/lucatm) has quit (Quit: To infinity and beyond...)
+2015-11-16 21:42:29	Sonicwall	http://map.norsecorp.com/v1/ here
+2015-11-16 21:42:31	@bbbbot	[ Norse - IPViking Live ] - http://map.norsecorp.com
+2015-11-16 21:42:39	»	Coldblackice (~anonz@unaffiliated/coldblackice) has joined ##hackers
+2015-11-16 21:44:08	+jabberwock	ah. Some people in ##security were saying that those sites are totally bogus
+2015-11-16 21:44:35	»	daviddre (daviddre@gateway/shell/panicbnc/x-oazypecdtivgeoig) has joined ##hackers
+2015-11-16 21:44:56	+jabberwock	I don't know where they'd be getting the data
+2015-11-16 21:45:06	+jabberwock	Our company doesn't broadcast who attacks us
+2015-11-16 21:45:52	Sonicwall	i figure france woul be up there
+2015-11-16 21:47:28	Sonicwall	hmm
+2015-11-16 21:47:44	«	virtualfox (~virtualfo@mts78-h01-176-179-135-6.dsl.sta.abo.bbox.fr) has quit (Quit: Quitte)
+2015-11-16 21:47:52	Sonicwall	live upload from all sorts of people
+2015-11-16 21:56:18	Sonicwall	u use to have something like that
+2015-11-16 21:56:33	Sonicwall	it would upload all my attcks ona website
+2015-11-16 21:59:30	»	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has joined ##hackers
+2015-11-16 22:20:51	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has left ##hackers
+2015-11-16 22:20:52	»	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 22:36:59	»	waflessnet (~waflessne@unaffiliated/waflessnet) has joined ##hackers
+2015-11-16 22:42:38	»	redgoldblue (~saviOr@2604:2000:81a6:a800:6cdd:7036:7f48:b2cf) has joined ##hackers
+2015-11-16 22:47:26	«	KungFuVillain (~KungFuVil@gateway/vpn/privateinternetaccess/kungfuvillain) has quit (Quit: sleepy time)
+2015-11-16 22:50:59	»	waywardsun- (~waywardsu@cpe-70-113-62-35.austin.res.rr.com) has joined ##hackers
+2015-11-16 22:53:17	«	__FBi (~B@Aircrack-NG/User) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:53:45	«	prowler666 (~prowler66@1.39.14.159) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:14	«	Sisco (Sisco@unaffiliated/sisco) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:15	«	cylon512 (~cylon@nat2-nj01.vmpanel.net) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:16	«	yanome (yano@freenode/staff-emeritus/yano) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	bbbbot (~bbbbot@myhugevault.com) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	waywardsun (~waywardsu@unaffiliated/waywardsun) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	unixninja92 (~unixninja@whirlpool.stdnt.hampshire.edu) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:55:11	»	bbbbot (~bbbbot@myhugevault.com) has joined ##hackers
+2015-11-16 22:55:11	■	Mode ##hackers [+o bbbbot] by ChanServ
+2015-11-16 22:55:47	»	cylon512 (~cylon@nat2-nj01.vmpanel.net) has joined ##hackers
+2015-11-16 22:55:47	■	Mode ##hackers [+v cylon512] by ChanServ
+2015-11-16 22:55:52	»	unixninja92 (~unixninja@whirlpool.stdnt.hampshire.edu) has joined ##hackers
+2015-11-16 22:56:39	«	redgoldblue (~saviOr@2604:2000:81a6:a800:6cdd:7036:7f48:b2cf) has quit (Ping timeout: 240 seconds)
+2015-11-16 22:56:59	»	yanome (yano@freenode/staff-emeritus/yano) has joined ##hackers
+2015-11-16 22:56:59	■	Mode ##hackers [+v yanome] by ChanServ
+2015-11-16 22:58:14	»	Sonicwall_ (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has joined ##hackers
+2015-11-16 22:58:40	»	Napsterbater_ (~quassel@unaffiliated/napsterbater) has joined ##hackers
+2015-11-16 22:59:28	»	_can_1 (~Thunderbi@103.37.201.97) has joined ##hackers
+2015-11-16 23:00:01	»	__FBi (~B@Aircrack-NG/User) has joined ##hackers
+2015-11-16 23:06:49	«	Sonicwall (~IceChat9@c-174-57-191-68.hsd1.nj.comcast.net) has quit (*.net *.split)
+2015-11-16 23:06:50	«	Napsterbater (~quassel@unaffiliated/napsterbater) has quit (*.net *.split)
+2015-11-16 23:06:50	«	_can_ (~Thunderbi@103.37.201.97) has quit (*.net *.split)
+2015-11-16 23:06:50	«	samy^^ (~samykamka@namb.la) has quit (*.net *.split)
+2015-11-16 23:06:50	«	talanor (~talanor@ns3282938.ip-5-135-176.eu) has quit (*.net *.split)
+2015-11-16 23:06:55	■	_can_1 is now known as _can_
+2015-11-16 23:07:02	«	Azmodan (~Azmodan@57518067.skybroadband.com) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2015-11-16 23:07:07	»	redgoldblue (~saviOr@2604:2000:81a6:a800:6cdd:7036:7f48:b2cf) has joined ##hackers
+2015-11-16 23:08:30	»	markizano (markizano@2600:3c00::f03c:91ff:fe73:b5cb) has joined ##hackers
+2015-11-16 23:08:30	■	Mode ##hackers [+v markizano] by ChanServ
+2015-11-16 23:10:57	«	ne0phr3akin (~ne0phr3ak@d75-156-66-97.bchsia.telus.net) has quit (Read error: Connection reset by peer)
+2015-11-16 23:11:14	»	ne0phr3akin (~ne0phr3ak@S0106000db93415d9.vs.shawcable.net) has joined ##hackers
+2015-11-16 23:13:50	_FBi	NAAaaaaaahhhhh  Whennnnnn yaaaaaa......
+2015-11-16 23:14:26	»	talanor (~talanor@ns3282938.ip-5-135-176.eu) has joined ##hackers
+2015-11-16 23:16:43	■	jabberwock is now known as Jabberwock
+2015-11-16 23:17:06	Sonicwall_	beeee ba ba bo0o
+2015-11-16 23:24:30	»	sanct (~sanct@212.35.67.11) has joined ##hackers
+2015-11-16 23:25:17	«	redgoldblue (~saviOr@2604:2000:81a6:a800:6cdd:7036:7f48:b2cf) has quit (Quit: Leaving)
+2015-11-16 23:41:19	»	swaro (29fa915c@gateway/web/freenode/ip.41.250.145.92) has joined ##hackers
+2015-11-16 23:50:30	»	Sisco (Sisco@unaffiliated/sisco) has joined ##hackers
+2015-11-16 23:52:20	»	honey (~honey@unaffiliated/wtf-honey) has joined ##hackers
+2015-11-16 23:52:20	■	Mode ##hackers [+v honey] by ChanServ
+2015-11-16 23:52:33	+honey	hello
+2015-11-16 23:53:36	swaro	hey
+2015-11-16 23:53:55	«	swaro (29fa915c@gateway/web/freenode/ip.41.250.145.92) has quit (Quit: Page closed)
+2015-11-17 00:04:03	»	prowler666 (~prowler66@1.39.14.159) has joined ##hackers
+2015-11-17 00:10:37	»	buzzykins (~0x2fab@68.235.131.213) has joined ##hackers
+2015-11-17 00:21:05	»	Eurei (~maks@178.121.122.120) has joined ##hackers
+2015-11-17 00:23:37	»	KungFuVillain (~KungFuVil@46.166.190.166) has joined ##hackers
+2015-11-17 00:25:54	«	Eurei (~maks@178.121.122.120) has quit (Ping timeout: 260 seconds)
+2015-11-17 00:35:21	«	KungFuVillain (~KungFuVil@46.166.190.166) has quit (Quit: sleepy time)
+2015-11-17 00:38:58	»	Eurei (~maks@178.121.107.50) has joined ##hackers
+2015-11-17 00:42:22	■	Jabberwock is now known as jabberwock
+2015-11-17 00:46:05	+jabberwock	You're now known as jabberwock
+2015-11-17 00:46:08	+jabberwock	Er... what was I?
+2015-11-17 00:46:13	+jabberwock	not sure why my nick would be changing
+2015-11-17 00:46:44	Absolute0x0	lol
+2015-11-17 00:46:59	+jabberwock	And dammit that cost me 8 hours in #IdleRPG lol
+2015-11-17 00:47:18	+jabberwock	I don't have any "away" nicks set. No idea what is happening
+2015-11-17 00:47:38	+honey	now i'm confused. lol
+2015-11-17 00:47:57	+jabberwock	Did you see my nick as something other than jabberwock?
+2015-11-17 00:48:09	+honey	dont you normally have a "y"?
+2015-11-17 00:48:12	+honey	lmao
+2015-11-17 00:48:15	+jabberwock	No :)
+2015-11-17 00:48:26	+honey	wtf. i need to pay attn.
+2015-11-17 00:48:30	+jabberwock	lol
+2015-11-17 00:48:35	+honey	i'm not even ddrinking.
+2015-11-17 00:48:36	+jabberwock	Maybe you're thinking of XMPPWocky?
+2015-11-17 00:48:43	+honey	idk.
+2015-11-17 00:48:46	+jabberwock	I will be soon. sooooon.....
+2015-11-17 00:49:11	+honey	i need a date for my company xmas party.
+2015-11-17 00:49:23	+honey	you dont wanna know lol
+2015-11-17 00:49:39	+jabberwock	Ok haha
+2015-11-17 00:49:58	Absolute0x0	IdleRPG? heh
+2015-11-17 00:50:46	+jabberwock	sshhh
+2015-11-17 01:11:45	■	irc: disconnected from server

@@ -1,0 +1,339 @@
+2015-10-08 02:13:28	»	body (~body@79-65-209-62.host.pobb.as13285.net) has joined #conky
+2015-10-08 02:13:28	■	Topic for #conky is "http://conky.sf.net - Conky 1.9.0 is the latest | Let us know if you find bugs or need help  (or file a bug on sf.net). | Wiki: http://conky.be/ | IRC stats: http://diddyinc.com/conkystats.html"
+2015-10-08 02:13:28	■	Topic set by brenden (~Brenden@conky/developer/brenden) on Tue, 19 Jun 2012 22:12:46
+2015-10-08 02:13:28	■	Channel #conky: 42 nicks (0 ops, 1 voice, 41 normals)
+2015-10-08 02:13:30	■	Channel created on Sun, 26 Nov 2006 06:43:01
+2015-10-08 02:25:35	body	hello, after i converted my basic config to the new lua one, i found some problems, i have the bottom bar see pic -> http://ix.io/lhU , which i would like to make it smaller (height), how can i manage that ? this is my config for that -> http://ix.io/lhV
+2015-10-08 02:27:30	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has left #conky ("Ciao!")
+2015-10-08 03:11:28	«	vaikus841 (~neo@85.253.56.85.cable.starman.ee) has quit (Ping timeout: 246 seconds)
+2015-10-08 03:31:47	»	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has joined #conky
+2015-10-08 03:32:41	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-08 03:33:18	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-08 03:41:21	«	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-08 04:04:56	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-08 04:41:44	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-08 04:43:25	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-08 04:49:48	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-08 05:00:07	«	txtsd (~txtsd@103.224.6.208) has quit (Quit: WeeChat 1.3)
+2015-10-08 05:02:52	»	txtsd (~txtsd@103.224.6.208) has joined #conky
+2015-10-08 05:48:10	«	BenNZ (~Ben__@118-93-141-210.dsl.dyn.ihug.co.nz) has quit (Quit: Everytime I think IQ's must have dropped recently, I remember that this is the internet)
+2015-10-08 06:14:21	»	m321 (~d@185.22.183.202) has joined #conky
+2015-10-08 06:15:51	m321	tried everything with conky manager to keep minimize all and keep conky from vanishing on 14.04 lts
+2015-10-08 06:16:06	m321	but it did work when i was using 15 ubuntu weird
+2015-10-08 06:17:12	m321	still like it but hate the clutters without min all on icon bar :(
+2015-10-08 06:34:37	■	DrDoofenshmirtz is now known as wumko
+2015-10-08 07:31:50	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-08 07:54:35	«	m321 (~d@185.22.183.202) has left #conky ("Leaving")
+2015-10-08 08:59:01	»	BenNZ (~Ben__@118-93-141-210.dsl.dyn.ihug.co.nz) has joined #conky
+2015-10-08 09:10:48	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-08 09:22:50	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has quit (Quit: Ciao!)
+2015-10-08 09:28:37	«	BenNZ (~Ben__@118-93-141-210.dsl.dyn.ihug.co.nz) has quit (Quit: Everytime I think IQ's must have dropped recently, I remember that this is the internet)
+2015-10-08 09:29:07	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-08 10:16:30	«	LockeAnarchist (~LockeAnar@unaffiliated/deathcrawler) has quit (Ping timeout: 240 seconds)
+2015-10-08 10:20:34	»	LockeAnarchist (~LockeAnar@unaffiliated/deathcrawler) has joined #conky
+2015-10-08 10:46:34	■	wumko is now known as DrDoofenshmirtz
+2015-10-08 12:17:50	«	hubutm20 (~hubutm20@79.114.26.84) has quit (Ping timeout: 240 seconds)
+2015-10-08 12:58:26	»	qqe (~qqe@185.54.20.93) has joined #conky
+2015-10-08 13:07:17	»	trask1 (~digighost@5F9A0C33.rev.sefiber.dk) has joined #conky
+2015-10-08 13:07:18	«	trask (~digighost@5F9A0C33.rev.sefiber.dk) has quit (Read error: Connection reset by peer)
+2015-10-08 13:15:06	»	TooLmaN (~TooLmaN@mail.thomsonplastics.com) has joined #conky
+2015-10-08 13:37:01	»	RoBo_V1 (~RoBo@61.0.109.20) has joined #conky
+2015-10-08 13:37:50	«	RoBo_V (~RoBo@117.197.173.125) has quit (Ping timeout: 272 seconds)
+2015-10-08 15:30:06	«	Alexandro (Alex@unaffiliated/alexandro) has quit (Ping timeout: 240 seconds)
+2015-10-08 16:02:45	»	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has joined #conky
+2015-10-08 16:40:42	«	andril (~andril@c-73-205-135-117.hsd1.fl.comcast.net) has quit (Quit: Leaving)
+2015-10-08 16:52:55	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-08 17:04:58	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-08 17:06:35	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-08 17:09:47	»	andril (~andril@c-73-205-135-117.hsd1.fl.comcast.net) has joined #conky
+2015-10-08 17:48:47	«	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-08 17:53:08	»	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has joined #conky
+2015-10-08 18:08:48	«	RoBo_V1 (~RoBo@61.0.109.20) has quit (Ping timeout: 264 seconds)
+2015-10-08 18:09:58	»	RoBo_V1 (~RoBo@117.220.137.96) has joined #conky
+2015-10-08 18:12:57	«	qqe (~qqe@185.54.20.93) has quit (Quit: WeeChat 1.1.1)
+2015-10-08 18:20:33	»	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #conky
+2015-10-08 18:54:14	«	andril (~andril@c-73-205-135-117.hsd1.fl.comcast.net) has quit (Quit: Leaving)
+2015-10-08 19:04:27	«	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-08 19:19:48	»	toastynerd (~toasty@199.59.107.218) has joined #conky
+2015-10-08 19:22:31	»	jackbrown (~se@unaffiliated/jackbrown) has joined #conky
+2015-10-08 19:55:10	»	BenNZ (~Ben__@118-93-129-52.dsl.dyn.ihug.co.nz) has joined #conky
+2015-10-08 19:59:07	«	jackbrown (~se@unaffiliated/jackbrown) has quit (Quit: Sto andando via)
+2015-10-08 20:03:32	«	toastynerd (~toasty@199.59.107.218) has quit (Ping timeout: 272 seconds)
+2015-10-08 20:27:38	«	BenNZ (~Ben__@118-93-129-52.dsl.dyn.ihug.co.nz) has quit (Quit: Everytime I think IQ's must have dropped recently, I remember that this is the internet)
+2015-10-08 20:30:51	»	darkhalo (~snoop@host-69-146-90-115.lar-wy.client.bresnan.net) has joined #conky
+2015-10-08 20:57:58	»	toastynerd (~toasty@199.59.107.218) has joined #conky
+2015-10-08 20:58:14	«	toastynerd (~toasty@199.59.107.218) has quit (Client Quit)
+2015-10-08 21:18:41	«	TooLmaN (~TooLmaN@mail.thomsonplastics.com) has quit (Quit: Leaving)
+2015-10-08 23:13:10	«	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 260 seconds)
+2015-10-08 23:19:30	»	gryf (~otyugh@ARennes-251-1-189-42.w2-10.abo.wanadoo.fr) has joined #conky
+2015-10-08 23:19:33	gryf	heya
+2015-10-08 23:19:44	gryf	how to split two graph 50% on the same line ?
+2015-10-08 23:19:50	gryf	I don't seem to find out
+2015-10-08 23:20:26	gryf	is the only way using static positions ?
+2015-10-08 23:36:28	»	andril (~andril@c-73-205-135-117.hsd1.fl.comcast.net) has joined #conky
+2015-10-09 00:57:26	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-09 01:39:43	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-09 02:43:35	■	DrDoofenshmirtz is now known as Wumko
+2015-10-09 03:54:31	»	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has joined #conky
+2015-10-09 03:59:02	■	Wumko is now known as DrDoofenshmirtz
+2015-10-09 04:03:06	«	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-09 05:46:31	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-09 05:59:47	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-09 07:17:45	»	BenNZ (~Ben__@118-93-129-52.dsl.dyn.ihug.co.nz) has joined #conky
+2015-10-09 07:45:47	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has quit (Ping timeout: 264 seconds)
+2015-10-09 07:47:15	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-09 07:57:24	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-09 08:38:36	«	BenNZ (~Ben__@118-93-129-52.dsl.dyn.ihug.co.nz) has quit (Quit: Everytime I think IQ's must have dropped recently, I remember that this is the internet)
+2015-10-09 09:04:05	«	darkhalo (~snoop@host-69-146-90-115.lar-wy.client.bresnan.net) has quit (Remote host closed the connection)
+2015-10-09 11:25:59	«	KittyKatt (~kittykatt@unaffiliated/kittykatt) has quit (Ping timeout: 264 seconds)
+2015-10-09 11:27:52	«	trask1 (~digighost@5F9A0C33.rev.sefiber.dk) has quit (Read error: Connection reset by peer)
+2015-10-09 11:29:33	»	trask (~digighost@5F9A0C33.rev.sefiber.dk) has joined #conky
+2015-10-09 11:29:47	»	KittyKatt (~kittykatt@unaffiliated/kittykatt) has joined #conky
+2015-10-09 12:31:27	«	andril (~andril@c-73-205-135-117.hsd1.fl.comcast.net) has quit (Quit: Leaving)
+2015-10-09 12:41:57	«	txtsd (~txtsd@103.224.6.208) has quit (Quit: WeeChat 1.3)
+2015-10-09 13:29:08	«	gryf (~otyugh@ARennes-251-1-189-42.w2-10.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2015-10-09 13:31:19	»	txtsd (~txtsd@103.224.6.208) has joined #conky
+2015-10-09 13:57:12	»	TooLmaN (~TooLmaN@mx1.thomsonplastics.com) has joined #conky
+2015-10-09 15:44:04	«	TooLmaN (~TooLmaN@mx1.thomsonplastics.com) has quit (Ping timeout: 272 seconds)
+2015-10-09 15:44:50	»	TooLmaN (~TooLmaN@mx1.thomsonplastics.com) has joined #conky
+2015-10-09 16:10:56	»	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has joined #conky
+2015-10-09 16:34:39	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-09 17:28:01	»	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #conky
+2015-10-09 17:31:39	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has quit (Quit: Ciao!)
+2015-10-09 17:38:20	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-09 18:11:34	»	gryf (~otyugh@ARennes-251-1-189-42.w2-10.abo.wanadoo.fr) has joined #conky
+2015-10-09 18:12:04	«	gryf (~otyugh@ARennes-251-1-189-42.w2-10.abo.wanadoo.fr) has left #conky
+2015-10-09 18:12:37	»	RoBo_V2 (~RoBo@117.197.183.89) has joined #conky
+2015-10-09 18:12:50	«	RoBo_V1 (~RoBo@117.220.137.96) has quit (Ping timeout: 240 seconds)
+2015-10-09 20:05:26	«	TooLmaN (~TooLmaN@mx1.thomsonplastics.com) has quit (Quit: Leaving)
+2015-10-09 20:27:18	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-09 20:28:45	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-09 21:18:05	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-09 22:07:46	«	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Ping timeout: 240 seconds)
+2015-10-09 22:19:26	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-09 22:34:11	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-09 22:45:44	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-09 23:14:37	»	MaurizioB (~mauriziob@host96-149-dynamic.24-79-r.retail.telecomitalia.it) has joined #conky
+2015-10-10 01:00:48	■	irc: disconnected from server
+2015-10-10 01:01:13	»	body (~body@79-65-209-62.host.pobb.as13285.net) has joined #conky
+2015-10-10 01:01:13	■	Topic for #conky is "http://conky.sf.net - Conky 1.9.0 is the latest | Let us know if you find bugs or need help  (or file a bug on sf.net). | Wiki: http://conky.be/ | IRC stats: http://diddyinc.com/conkystats.html"
+2015-10-10 01:01:13	■	Topic set by brenden (~Brenden@conky/developer/brenden) on Tue, 19 Jun 2012 22:12:46
+2015-10-10 01:01:13	■	Channel #conky: 39 nicks (0 ops, 1 voice, 38 normals)
+2015-10-10 01:01:14	■	Channel created on Sun, 26 Nov 2006 06:43:01
+2015-10-10 01:34:20	«	vaikus84 (~neo@85.253.56.85.cable.starman.ee) has quit (Ping timeout: 246 seconds)
+2015-10-10 01:49:47	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-10 01:55:29	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-10 02:18:42	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-10 02:40:10	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-10 05:10:31	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has quit (Quit: Ciao!)
+2015-10-10 05:12:39	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-10 05:45:00	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-10 05:45:34	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-10 05:50:57	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-10 06:13:05	«	MaurizioB (~mauriziob@host96-149-dynamic.24-79-r.retail.telecomitalia.it) has quit (Quit: Sto andando via)
+2015-10-10 06:59:05	«	DANtheBEASTman (dan@soupwhale.com) has quit (Ping timeout: 256 seconds)
+2015-10-10 07:01:58	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-10 07:18:20	«	RoBo_V2 (~RoBo@117.197.183.89) has quit (Read error: Connection reset by peer)
+2015-10-10 07:25:22	»	RoBo_V2 (~RoBo@117.197.183.89) has joined #conky
+2015-10-10 08:27:54	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Ping timeout: 272 seconds)
+2015-10-10 08:30:55	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-10 08:32:07	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-10 08:37:59	«	RoBo_V2 (~RoBo@117.197.183.89) has quit (Ping timeout: 264 seconds)
+2015-10-10 08:59:28	»	RoBo_V2 (~RoBo@117.197.163.74) has joined #conky
+2015-10-10 09:03:35	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-10 09:03:55	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-10 09:05:01	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-10 09:06:13	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-10 09:44:29	»	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #conky
+2015-10-10 09:53:46	«	trask (~digighost@5F9A0C33.rev.sefiber.dk) has quit (Ping timeout: 240 seconds)
+2015-10-10 10:34:13	»	Alexandro (Alex@unaffiliated/alexandro) has joined #conky
+2015-10-10 11:08:56	»	hubutm20 (~hubutm20@79.113.94.45) has joined #conky
+2015-10-10 13:43:04	«	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has quit (Read error: Connection reset by peer)
+2015-10-10 13:57:43	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-10 14:03:53	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-10 15:40:12	»	trask (~digighost@5F9A0C33.rev.sefiber.dk) has joined #conky
+2015-10-10 17:11:08	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 17:33:42	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 255 seconds)
+2015-10-10 17:40:22	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 17:49:51	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-10 18:04:01	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-10 18:12:54	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-10 18:14:32	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 268 seconds)
+2015-10-10 18:14:46	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-10 18:20:45	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 18:34:00	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 252 seconds)
+2015-10-10 18:40:48	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 19:03:08	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 272 seconds)
+2015-10-10 19:08:27	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-10 19:10:51	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 19:19:47	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-10 19:21:39	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-10 19:26:04	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 250 seconds)
+2015-10-10 19:29:54	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 19:30:48	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-10 19:34:36	«	jvd (~syscrash@199.115.119.143) has quit (Ping timeout: 264 seconds)
+2015-10-10 19:34:53	»	jvd (~syscrash@199.115.119.143) has joined #conky
+2015-10-10 19:34:54	«	jvd (~syscrash@199.115.119.143) has quit (Changing host)
+2015-10-10 19:34:54	»	jvd (~syscrash@poipu/developer/syscrash) has joined #conky
+2015-10-10 19:51:10	»	Zzyzx (~Zzyzx@unaffiliated/zzyzx) has joined #conky
+2015-10-10 20:00:42	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-10 21:18:43	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 256 seconds)
+2015-10-10 21:20:50	»	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has joined #conky
+2015-10-10 21:21:35	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-10 21:27:45	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-10 21:33:33	«	u0m3 (~u0m3@92.80.81.240) has quit (Quit: Leaving)
+2015-10-10 21:52:41	»	u0m3 (~u0m3@92.80.81.240) has joined #conky
+2015-10-10 21:54:39	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (*.net *.split)
+2015-10-10 21:57:40	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-10 22:12:47	«	user14 (~user@dslb-178-008-026-250.178.008.pools.vodafone-ip.de) has quit (Ping timeout: 264 seconds)
+2015-10-10 22:33:21	»	u0m3_ (~u0m3@92.80.81.240) has joined #conky
+2015-10-10 22:37:03	»	DrDisconsented (~core@disconsented.com) has joined #conky
+2015-10-10 22:41:41	»	zoktar_ (~zoktar@78-72-45-32-no186.tbcn.telia.com) has joined #conky
+2015-10-10 22:41:41	«	zoktar_ (~zoktar@78-72-45-32-no186.tbcn.telia.com) has quit (Changing host)
+2015-10-10 22:41:42	»	zoktar_ (~zoktar@unaffiliated/zoktar) has joined #conky
+2015-10-10 22:42:40	»	obXiDeJSFQ_ (~obXiDeJSF@ns330535.ip-176-31-127.eu) has joined #conky
+2015-10-10 22:42:50	»	zpatten_ (~zpatten@ec2-54-200-88-252.us-west-2.compute.amazonaws.com) has joined #conky
+2015-10-10 22:43:02	«	u0m3 (~u0m3@92.80.81.240) has quit (*.net *.split)
+2015-10-10 22:43:02	«	Alexandro (Alex@unaffiliated/alexandro) has quit (*.net *.split)
+2015-10-10 22:43:03	«	DrDoofenshmirtz (~core@disconsented.com) has quit (*.net *.split)
+2015-10-10 22:43:03	«	zoktar (~zoktar@unaffiliated/zoktar) has quit (*.net *.split)
+2015-10-10 22:43:04	«	raoniff (~raoni@labs-gw.ic.unicamp.br) has quit (*.net *.split)
+2015-10-10 22:43:04	«	obXiDeJSFQ (~obXiDeJSF@ns330535.ip-176-31-127.eu) has quit (*.net *.split)
+2015-10-10 22:43:04	«	zpatten (~zpatten@unaffiliated/zpatten) has quit (*.net *.split)
+2015-10-10 22:43:14	■	zpatten_ is now known as zpatten
+2015-10-10 22:43:14	«	zpatten (~zpatten@ec2-54-200-88-252.us-west-2.compute.amazonaws.com) has quit (Changing host)
+2015-10-10 22:43:14	»	zpatten (~zpatten@unaffiliated/zpatten) has joined #conky
+2015-10-10 22:43:19	■	zoktar_ is now known as zoktar
+2015-10-10 22:43:44	»	Alexandro (Alex@host58-147-dynamic.44-79-r.retail.telecomitalia.it) has joined #conky
+2015-10-10 22:43:44	«	Alexandro (Alex@host58-147-dynamic.44-79-r.retail.telecomitalia.it) has quit (Changing host)
+2015-10-10 22:43:44	»	Alexandro (Alex@unaffiliated/alexandro) has joined #conky
+2015-10-10 22:49:07	»	raoniff (~raoni@labs-gw.ic.unicamp.br) has joined #conky
+2015-10-10 23:12:40	«	garo (~garo-ircc@ipv6.inet.router.garofil.be) has quit (Ping timeout: 252 seconds)
+2015-10-10 23:30:56	»	garo (~garo-ircc@ipv6.inet.router.garofil.be) has joined #conky
+2015-10-10 23:41:10	»	DANtheBEASTman (dan@2a01:4f8:190:5145::2) has joined #conky
+2015-10-11 00:01:44	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 00:56:22	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 01:04:46	«	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Remote host closed the connection)
+2015-10-11 02:05:12	«	Jonno_FTW (~come@mail.oneworldled.com) has quit (Ping timeout: 264 seconds)
+2015-10-11 02:08:43	»	Jonno_FTW (~come@mail.oneworldled.com) has joined #conky
+2015-10-11 02:13:46	«	Jonno_FTW (~come@mail.oneworldled.com) has quit (Remote host closed the connection)
+2015-10-11 02:14:11	»	Jonno_FTW (~come@mail.oneworldled.com) has joined #conky
+2015-10-11 02:18:46	«	Jonno_FTW (~come@mail.oneworldled.com) has quit (Ping timeout: 240 seconds)
+2015-10-11 02:19:25	»	Jonno_FTW (~come@mail.oneworldled.com) has joined #conky
+2015-10-11 02:27:22	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 02:35:17	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-11 02:48:51	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-11 02:52:31	«	Jonno_FTW (~come@mail.oneworldled.com) has quit (Ping timeout: 250 seconds)
+2015-10-11 02:53:52	»	Jonno_FTW (~come@mail.oneworldled.com) has joined #conky
+2015-10-11 03:41:39	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Remote host closed the connection)
+2015-10-11 04:02:16	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-11 04:03:32	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Remote host closed the connection)
+2015-10-11 04:07:13	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-11 04:07:49	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-11 04:09:20	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-11 04:18:50	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 04:38:14	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-11 05:12:45	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 06:05:30	«	KittyKatt (~kittykatt@unaffiliated/kittykatt) has quit (Ping timeout: 240 seconds)
+2015-10-11 06:06:19	»	KittyKatt (~kittykatt@unaffiliated/kittykatt) has joined #conky
+2015-10-11 07:05:01	«	diogenese (~diogenese@12-183-188-26.velotech.net) has quit (Read error: Connection reset by peer)
+2015-10-11 07:07:02	»	diogenese (~diogenese@12-183-188-26.velotech.net) has joined #conky
+2015-10-11 07:41:41	»	jackbrown (~se@unaffiliated/jackbrown) has joined #conky
+2015-10-11 07:56:35	«	jackbrown (~se@unaffiliated/jackbrown) has quit (Remote host closed the connection)
+2015-10-11 08:16:13	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-11 08:58:04	»	RoBo_V3 (~RoBo@117.197.163.149) has joined #conky
+2015-10-11 08:58:26	«	RoBo_V2 (~RoBo@117.197.163.74) has quit (Ping timeout: 240 seconds)
+2015-10-11 10:16:59	»	Jackneill (~Jackneill@unaffiliated/jackneill) has joined #conky
+2015-10-11 13:52:54	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 14:22:51	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 14:33:18	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 14:47:37	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 14:51:45	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 15:34:26	«	RoBo_V3 (~RoBo@117.197.163.149) has quit (Ping timeout: 240 seconds)
+2015-10-11 15:52:30	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-11 18:35:34	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 18:54:36	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 19:06:16	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-11 20:28:05	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 21:28:21	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Ping timeout: 265 seconds)
+2015-10-11 21:31:18	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 21:43:48	»	CandyApples1 (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 21:44:41	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Ping timeout: 256 seconds)
+2015-10-11 21:47:59	«	CandyApples1 (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Ping timeout: 240 seconds)
+2015-10-11 21:52:00	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-11 22:04:15	»	lotuspsychje (~lotuspsyc@ip-62-235-202-200.dsl.scarlet.be) has joined #conky
+2015-10-11 22:05:02	»	Twirl (~Twirl@unaffiliated/twirl) has joined #conky
+2015-10-11 22:05:43	Twirl	Hello, anyone knows how to change the icons for conky?
+2015-10-11 22:08:48	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Ping timeout: 264 seconds)
+2015-10-11 22:26:48	trask	icons?
+2015-10-11 22:27:02	trask	i just put in image files accordingly
+2015-10-11 22:32:04	Twirl	trask: hey
+2015-10-11 22:32:12	Twirl	what u mean put in image files accordingly?
+2015-10-11 22:32:24	Twirl	i changed the theme in ubuntu
+2015-10-11 22:32:36	«	lotuspsychje (~lotuspsyc@ip-62-235-202-200.dsl.scarlet.be) has left #conky ("= Ubuntu 14.04.2 64bit Samsung SSD Pro 850=")
+2015-10-11 22:32:45	Twirl	and now i lost the PulseAudio equalizer icon and its a circle with a ?
+2015-10-11 22:32:55	Twirl	in the other theme it looks like a speaker
+2015-10-11 22:33:08	trask	${image /home/digighost/.config/conky/volume.png -p 138,342 -s 32x32}
+2015-10-11 22:34:09	trask	make sense yeah?
+2015-10-11 22:39:48	«	Alexandro (Alex@unaffiliated/alexandro) has quit (Remote host closed the connection)
+2015-10-11 22:45:14	«	Jackneill (~Jackneill@unaffiliated/jackneill) has quit (Remote host closed the connection)
+2015-10-11 23:28:40	Twirl	trask: what is that?
+2015-10-11 23:28:54	Twirl	trask: i dont have a clue about what that is or where it goes
+2015-10-11 23:29:55	trask	its a conky command displaying an image file
+2015-10-11 23:30:32	trask	you insert it in your config file, adjusting the numbers to fit 
+2015-10-11 23:34:33	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-12 00:34:45	Twirl	trask: isnt there a GUI tool to change the icon?
+2015-10-12 00:34:53	Twirl	trask: i dont know where to put that line 
+2015-10-12 00:48:58	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-12 00:54:55	trask	not that i am aware of though dont search that stuff for conky. it eats all image files regardless
+2015-10-12 01:34:51	trask	you can find example config files around, start them by the command conky -c /path/to/file
+2015-10-12 02:15:47	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-12 02:31:35	«	Twirl (~Twirl@unaffiliated/twirl) has quit (Quit: Leaving.)
+2015-10-12 02:32:18	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-12 02:35:18	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-12 02:55:48	»	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has joined #conky
+2015-10-12 03:29:34	«	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has quit (Quit: Leaving.)
+2015-10-12 03:31:43	«	CandyApples (~endor@c-75-72-181-29.hsd1.mn.comcast.net) has quit (Quit: Leaving.)
+2015-10-12 03:56:52	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-12 03:57:57	»	semeion (~semeion@unaffiliated/semeion) has joined #conky
+2015-10-12 04:51:30	»	RoBo_V3 (~RoBo@61.1.53.23) has joined #conky
+2015-10-12 06:21:23	«	semeion (~semeion@unaffiliated/semeion) has quit (Quit: WeeChat 1.3)
+2015-10-12 07:46:57	»	vaikus84 (~neo@62.65.217.28.cable.starman.ee) has joined #conky
+2015-10-12 11:01:56	»	JunkHunk (~ivan@55.Red-88-9-34.dynamicIP.rima-tde.net) has joined #conky
+2015-10-12 11:04:43	JunkHunk	hello I am trying to get sensors to show in conky but I don't know how to config this driver : fam15h_power-pci-00c4
+2015-10-12 11:04:43	JunkHunk	Adapter: PCI adapter
+2015-10-12 11:04:43	JunkHunk	power1:       35.87 W  (crit = 125.02 W)
+2015-10-12 11:04:43	JunkHunk	 in the conkyrc file what should I type?
+2015-10-12 11:06:47	JunkHunk	this: Power: $alignr ${hwmon 1 power 1} W  shows nothing but this:         Power:       w
+2015-10-12 11:44:12	trask	${execi 30 sensors |grep 'temp1' | cut -c16-23}
+2015-10-12 11:44:20	trask	is what i use 
+2015-10-12 12:27:12	JunkHunk	what does the cut -c16-23 part do?
+2015-10-12 12:27:43	trask	execi means bash
+2015-10-12 12:27:48	JunkHunk	that config you post gives temperature not power
+2015-10-12 12:28:12	trask	yeah you need to find the source, but principle the same
+2015-10-12 12:28:47	trask	${execi 50 aticonfig --adapter=0 --od-gettemperature | tail -n1 | gawk '{ printf $5 }'}°C 
+2015-10-12 12:28:53	trask	this if it can help
+2015-10-12 12:30:09	JunkHunk	what are the 30 or 50 numbers in your config for?
+2015-10-12 12:30:33	trask	the 50 determins how often the command should update
+2015-10-12 12:51:44	■	irc: disconnected from server
+2015-10-12 12:52:20	»	body (~body@79-65-208-124.host.pobb.as13285.net) has joined #conky
+2015-10-12 12:52:20	■	Topic for #conky is "http://conky.sf.net - Conky 1.9.0 is the latest | Let us know if you find bugs or need help  (or file a bug on sf.net). | Wiki: http://conky.be/ | IRC stats: http://diddyinc.com/conkystats.html"
+2015-10-12 12:52:20	■	Topic set by brenden (~Brenden@conky/developer/brenden) on Tue, 19 Jun 2012 22:12:46
+2015-10-12 12:52:20	■	Channel #conky: 38 nicks (0 ops, 1 voice, 37 normals)
+2015-10-12 12:52:24	■	Channel created on Sun, 26 Nov 2006 06:43:01
+2015-10-12 13:16:28	■	irc: disconnected from server
+2016-04-15 09:57:22	»	body (~body@88.144.56.74) has joined #conky
+2016-04-15 09:57:22	■	Topic for #conky is "http://conky.sf.net - Conky 1.9.0 is the latest | Let us know if you find bugs or need help  (or file a bug on sf.net). | Wiki: http://conky.be/ | IRC stats: http://diddyinc.com/conkystats.html"
+2016-04-15 09:57:22	■	Topic set by brenden (~Brenden@conky/developer/brenden) on Tue, 19 Jun 2012 22:12:46
+2016-04-15 09:57:22	■	Channel #conky: 36 nicks (0 ops, 1 voice, 35 normals)
+2016-04-15 09:57:24	■	Channel created on Sun, 26 Nov 2006 06:43:01
+2016-04-15 09:57:52	body	hello, i'm trying to output my ac adapter status, with acpiacadapter but it showes me "no ac adapters?"
+2016-04-15 10:00:41	body	this is how it looks now http://ix.io/wLy
+2016-04-15 10:16:20	■	irc: disconnected from server
+2016-04-27 12:51:47	»	body1 (~body@88.144.59.225) has joined #conky
+2016-04-27 12:51:47	■	Topic for #conky is "http://conky.sf.net - Conky 1.9.0 is the latest | Let us know if you find bugs or need help  (or file a bug on sf.net). | Wiki: http://conky.be/ | IRC stats: http://diddyinc.com/conkystats.html"
+2016-04-27 12:51:47	■	Topic set by brenden (~Brenden@conky/developer/brenden) on Tue, 19 Jun 2012 22:12:46
+2016-04-27 12:51:47	■	Channel #conky: 32 nicks (0 ops, 1 voice, 31 normals)
+2016-04-27 12:51:49	■	Channel created on Sun, 26 Nov 2006 06:43:01
+2016-04-27 12:53:22	body1	hello, I'm trying to change my bottom bar height but I don't understand what I am doing wrong... can somebody give me a tip ? here is my screenshot http://ix.io/xJU
+2016-04-27 12:58:12	»	BODYOWNZ (~BODYOWNZZ@88.144.59.225) has joined #conky

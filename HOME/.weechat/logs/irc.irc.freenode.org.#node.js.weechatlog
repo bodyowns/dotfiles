@@ -1,0 +1,145 @@
+2014-07-20 19:02:59	◥	body (~body@host89-39-dynamic.24-79-r.retail.telecomitalia.it) has joined #Node.js
+2014-07-20 19:02:59	ℹ 	Topic for #Node.js is "Please update to v0.10.29 to fix an OpenSSL Vuln.  Channel Mission Statement: http://aredridel.dinhe.net/2014/06/15/an-unofficial-mission-statement-for-the-node-js-irc-channel/"
+2014-07-20 19:02:59	ℹ 	Topic set by isaacs (~isaacs@173.203.97.118) on Sun, 15 Jun 2014 19:48:41
+2014-07-20 19:02:59	ℹ 	Channel #Node.js: 1228 nicks (12 ops, 0 voices, 1216 normals)
+2014-07-20 19:02:59	ℹ 	PvNotice(ChanServ): Visit the wiki page https://github.com/joyent/node/wiki
+2014-07-20 19:02:59	ℹ 	URL for #node.js: http://nodejs.org/
+2014-07-20 19:03:01	ℹ 	Mode #Node.js [+Ccnt]
+2014-07-20 19:03:03	ℹ 	Channel created on Sat, 30 Jan 2010 09:48:24
+2014-07-20 19:03:08	◣	jingtaoliu (~technommy@121.15.78.82) has quit (Ping timeout: 250 seconds)
+2014-07-20 19:03:11	Fistful_of_Coins	thanks will check this out.
+2014-07-20 19:03:12	◣	ValicekB (~tbox@dot.snat.baz.cz) has quit
+2014-07-20 19:03:14	myndzi	well, i guess that wants its own server side thing too
+2014-07-20 19:03:23	body	hi i'm tring to install an app , but i'm getting this error -> http://bpaste.net/show/VSnbdnYwcYqobormNcHM/
+2014-07-20 19:03:29	body	what can i do ?
+2014-07-20 19:03:46	myndzi	there appears to be a work-in-progress perl backend though
+2014-07-20 19:03:46	◣	Sven_vB (kisl@unaffiliated/sven-vb/x-5844617) has quit (Remote host closed the connection)
+2014-07-20 19:03:54	myndzi	the main thing i guess is
+2014-07-20 19:04:04	myndzi	do you really want just websockets, or do you want an emulation layer too
+2014-07-20 19:04:10	◥	Sven_vB (kisl@shells.ohai.su) has joined #Node.js
+2014-07-20 19:04:14	myndzi	like, what do you want to happen if true websockets aren't available?
+2014-07-20 19:04:33	myndzi	that's what these libraries add - various transport fallbacks and a consistent api
+2014-07-20 19:04:44	myndzi	socket.io adds more than just that stuff, though iirc
+2014-07-20 19:05:18	◣	uxfi (~uxfi@unaffiliated/uxfi) has quit (Quit: Here's to the crazy ones)
+2014-07-20 19:05:47	body	hi i'm tring to install an app , but i'm getting this error -> http://bpaste.net/show/VSnbdnYwcYqobormNcHM/ ? what can i do ?
+2014-07-20 19:05:52	Fistful_of_Coins	myndzi: it looks like sockjs needs the server SockJS library as well, which is not completed for perl
+2014-07-20 19:06:21	myndzi	yeah, i just kind of said that :P but that's more than socket.io has anyway
+2014-07-20 19:06:28	Fistful_of_Coins	myndzi: doesnt matter if not available, i have specific clients that will be required to use the app
+2014-07-20 19:06:29	◥	cj3kim (~cj3kim@23-116-42-236.lightspeed.sntcca.sbcglobal.net) has joined #Node.js
+2014-07-20 19:06:29	◣	cj3kim (~cj3kim@23-116-42-236.lightspeed.sntcca.sbcglobal.net) has quit (Changing host)
+2014-07-20 19:06:29	◥	cj3kim (~cj3kim@unaffiliated/cj3kim) has joined #Node.js
+2014-07-20 19:06:35	Fistful_of_Coins	myndzi: :P sorry read after i pasted
+2014-07-20 19:06:40	myndzi	Fistful_of_Coins: then you can just use native websockets really
+2014-07-20 19:07:04	myndzi	and if they don't exist, you simply don't support that web browser
+2014-07-20 19:07:12	myndzi	body: npm ERR! Please try running this command again as root/Administrator.
+2014-07-20 19:07:16	JamesMowery	nathan7: Here's the modifications and the error: http://jsbin.com/jatav/2/edit?js
+2014-07-20 19:07:38	myndzi	body: the error is saying access denied; there's two options
+2014-07-20 19:07:41	◥	kaspertidemann (~kaspertid@188-179-207-20-dynamic.dk.customer.tdc.net) has joined #Node.js
+2014-07-20 19:07:51	myndzi	1) change where npm -g installs to, update your path in your bashrc and stuff so that you don't need root access
+2014-07-20 19:07:53	myndzi	2) run with sudo
+2014-07-20 19:08:02	myndzi	http://justjs.com/posts/npm-link-developing-your-own-npm-modules-without-tears
+2014-07-20 19:08:11	myndzi	^ here's a reference for what to do for #1, it's not that bad and pretty useful
+2014-07-20 19:08:47	◥	hannesvd_ (~textual@78-23-186-73.access.telenet.be) has joined #Node.js
+2014-07-20 19:08:55	◥	YoY (~YoY@ltl56-2-88-169-169-201.fbx.proxad.net) has joined #Node.js
+2014-07-20 19:08:55	◣	hannesvdvreken (~textual@78-23-186-73.access.telenet.be) has quit (Read error: Connection reset by peer)
+2014-07-20 19:09:10	◥	toastynerd (~toastyner@c-174-61-223-12.hsd1.wa.comcast.net) has joined #Node.js
+2014-07-20 19:09:14	◣	mhernandez1 (~mhernande@207-237-2-36.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com) has quit (Remote host closed the connection)
+2014-07-20 19:09:25	nathan7	JamesMowery: module.exporst = Game
+2014-07-20 19:09:28	◥	roymiloh (~roymiloh@37.142.233.109) has joined #Node.js
+2014-07-20 19:09:29	nathan7	JamesMowery: not exports.game = …
+2014-07-20 19:09:38	◣	mahesh (~Mahesh@122.169.238.193) has quit (Quit: Leaving)
+2014-07-20 19:09:41	nathan7	JamesMowery: *module.exports, even
+2014-07-20 19:09:49	nathan7	JamesMowery: as it was before was just fine
+2014-07-20 19:09:59	◥	arporf (~chatzilla@189.72.221.55) has joined #Node.js
+2014-07-20 19:10:00	nathan7	JamesMowery: in game.js, module.exports = Game
+2014-07-20 19:10:06	◣	arporf (~chatzilla@189.72.221.55) has quit (Client Quit)
+2014-07-20 19:10:07	nathan7	JamesMowery: and in main.js, var Game = require('./game')
+2014-07-20 19:10:19	ℹ 	whiskers75 is now known as whiskers75_hugs
+2014-07-20 19:10:26	◣	bmcquee_ (~bmcquee@c-50-161-95-89.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2014-07-20 19:10:27	ℹ 	whiskers75_hugs is now known as whiskers75
+2014-07-20 19:11:10	◥	bmcquee (~bmcquee@216.207.42.140) has joined #Node.js
+2014-07-20 19:11:21	◥	ValicekB (~tbox@dot.snat.baz.cz) has joined #Node.js
+2014-07-20 19:11:22	◥	mahesh (~Mahesh@122.169.238.193) has joined #Node.js
+2014-07-20 19:11:27	ℹ 	whiskers75 is now known as whiskers75_hugs
+2014-07-20 19:11:43	ℹ 	whiskers75_hugs is now known as whiskers75
+2014-07-20 19:12:17	◣	DrJae (~jae@ppp-124-120-236-169.revip2.asianet.co.th) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:12:50	◥	Cache_Money (~Cache_Mon@c-24-18-232-193.hsd1.wa.comcast.net) has joined #Node.js
+2014-07-20 19:13:44	◣	toastynerd (~toastyner@c-174-61-223-12.hsd1.wa.comcast.net) has quit (Ping timeout: 245 seconds)
+2014-07-20 19:13:44	◣	hannesvd_ (~textual@78-23-186-73.access.telenet.be) has quit (Ping timeout: 245 seconds)
+2014-07-20 19:14:27	◥	gsd (~gsd@unaffiliated/gsd) has joined #Node.js
+2014-07-20 19:15:10	◣	weilu (~weilu@103.11.49.68) has quit (Remote host closed the connection)
+2014-07-20 19:15:14	JamesMowery	nathan7: Awesome! It's working! But I still don't fully understand why. Do you know of any resources off hand that might offer a good insight into how it all works? I read the node.js docs, but didn't get anywhere.
+2014-07-20 19:16:22	◥	XoRoN (~textual@host81-156-120-34.range81-156.btcentralplus.com) has joined #Node.js
+2014-07-20 19:16:25	◣	sdaffdafaddf (~josh@c-50-132-90-51.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2014-07-20 19:16:37	◥	ren_hoek (~ren_hoek@104-11-193-95.lightspeed.rcsntx.sbcglobal.net) has joined #Node.js
+2014-07-20 19:16:41	◣	RLa (~RL@gprs-inet-65-101.elisa.ee) has quit (Quit: Leaving)
+2014-07-20 19:16:47	◥	RobW_ (~robw@c-71-199-121-96.hsd1.pa.comcast.net) has joined #Node.js
+2014-07-20 19:16:47	◣	Guest72608 (~pasha@CPE68b6fca63db3-CM68b6fca63db0.cpe.net.cable.rogers.com) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:16:59	◣	SamuraiJack (~nickolay@109.172.78.110) has quit (Ping timeout: 245 seconds)
+2014-07-20 19:17:04	◥	hannesvdvreken (~textual@78-23-186-73.access.telenet.be) has joined #Node.js
+2014-07-20 19:17:06	◥	jessepollak (~jessepoll@23-122-130-9.lightspeed.sntcca.sbcglobal.net) has joined #Node.js
+2014-07-20 19:17:18	◥	automata (~automata@177.40.94.58) has joined #Node.js
+2014-07-20 19:18:06	RobW_	Anyone know of a way to test node packages on windows if I don’t have access to a windows comp? It looks like Travis is going to add runnign tests under windows at some point, wondering if there’s anything similar available now.
+2014-07-20 19:18:13	RobW_	*running
+2014-07-20 19:18:45	myndzi	JamesMowery: you can think of module.exports and require like variable assignment
+2014-07-20 19:18:47	myndzi	if you did something like
+2014-07-20 19:18:55	◣	Emhotep (~Emhotep@CPE98fc113dc51d-CM602ad091578f.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2014-07-20 19:18:55	myndzi	var foo = Game;
+2014-07-20 19:18:55	myndzi	var bar = new foo();
+2014-07-20 19:18:59	myndzi	it's obvious how that works, yeah?
+2014-07-20 19:19:45	myndzi	var foo = require('module') works the same way
+2014-07-20 19:19:45	myndzi	the "return value" of require('module') is the contents of module.exports
+2014-07-20 19:19:52	body	myndzi: huh finally, installed it with sudo, here's the log -> http://bpaste.net/show/Xf90hDULLqNFLctVCw5y/
+2014-07-20 19:20:04	body	i think it's installed corectly right ?
+2014-07-20 19:20:13	myndzi	gyp WARN EACCES user "root" does not have permission to access the dev dir "/root/.node-gyp/0.10.29"
+2014-07-20 19:20:14	myndzi	wat
+2014-07-20 19:20:24	myndzi	looks successful, body
+2014-07-20 19:20:45	◣	FasTTo (~FasTTo@bl16-32-209.dsl.telepac.pt) has quit (Quit: Inactive)
+2014-07-20 19:21:01	◣	codestorm (~codestorm@cpe-172-249-231-204.socal.res.rr.com) has quit (Ping timeout: 250 seconds)
+2014-07-20 19:21:14	◥	IvanoffCSI (~ivanoffcs@d206-116-174-152.bchsia.telus.net) has joined #Node.js
+2014-07-20 19:21:41	◣	hannesvdvreken (~textual@78-23-186-73.access.telenet.be) has quit (Ping timeout: 264 seconds)
+2014-07-20 19:21:50	◥	lpin (~textual@212-124-190-118.v4.ngi.it) has joined #Node.js
+2014-07-20 19:21:53	◥	SamuraiJack (~nickolay@109.172.78.110) has joined #Node.js
+2014-07-20 19:22:45	body	myndzi: thank you :)
+2014-07-20 19:22:51	◥	crunchnode (~crunchabl@pool-108-31-125-222.washdc.fios.verizon.net) has joined #Node.js
+2014-07-20 19:23:06	body	yea, i saw that error too, gyp WARN EACCES user "root" does not have permission to access the dev dir "/root/.node-gyp/0.10.29"   
+2014-07-20 19:23:21	body	how root doesn't have permision to acces a dir, dunno
+2014-07-20 19:23:22	body	:))
+2014-07-20 19:23:30	myndzi	yeah, that's like wat
+2014-07-20 19:23:36	myndzi	but as you can see it tried using a different dir and succeeded
+2014-07-20 19:24:35	◥	abc (~xaxisx@bas1-oakville54-1279297101.dsl.bell.ca) has joined #Node.js
+2014-07-20 19:24:40	◥	ngoyal (~ngoyal@pool-71-191-95-125.washdc.fios.verizon.net) has joined #Node.js
+2014-07-20 19:24:42	◥	raibutera (~textual@cpc22-finc13-2-0-cust984.4-2.cable.virginm.net) has joined #Node.js
+2014-07-20 19:25:53	◣	IvanoffCSI (~ivanoffcs@d206-116-174-152.bchsia.telus.net) has quit (Ping timeout: 264 seconds)
+2014-07-20 19:26:10	◣	atatsu (~atatsu@host-143-234-9-69.midco.net) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:26:40	◣	mahesh (~Mahesh@122.169.238.193) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:27:19	◥	HolidayBear (uid13083@gateway/web/irccloud.com/x-kaklhgzgdintlipq) has joined #Node.js
+2014-07-20 19:27:20	◥	rho (~rho@drupal.org/user/114058/view) has joined #Node.js
+2014-07-20 19:27:33	◥	tgkokk (~tgkokk@unaffiliated/tgkokk) has joined #Node.js
+2014-07-20 19:29:17	◣	culthero (~culthero@unaffiliated/culthero) has quit (Remote host closed the connection)
+2014-07-20 19:29:48	◣	RobW_ (~robw@c-71-199-121-96.hsd1.pa.comcast.net) has quit (Quit: RobW_)
+2014-07-20 19:30:05	◥	harrison1 (~harrison@99-7-245-79.lightspeed.rcsntx.sbcglobal.net) has joined #Node.js
+2014-07-20 19:31:47	◣	jingtaol_ (~technommy@113.104.213.9) has quit (Remote host closed the connection)
+2014-07-20 19:31:53	◣	iarna (~rebecca@c-50-177-0-208.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2014-07-20 19:32:07	◥	iarna (~rebecca@c-50-177-0-208.hsd1.ma.comcast.net) has joined #Node.js
+2014-07-20 19:32:58	◥	al1o (~al1o@p4FF5674E.dip0.t-ipconnect.de) has joined #Node.js
+2014-07-20 19:32:59	◣	SamuraiJack (~nickolay@109.172.78.110) has quit (Ping timeout: 260 seconds)
+2014-07-20 19:34:04	◣	rampr (~rampr@122.167.246.70) has quit (Read error: Connection reset by peer)
+2014-07-20 19:34:04	◣	hugomarisco (~hugomaris@a89-152-72-156.cpe.netcabo.pt) has quit (Remote host closed the connection)
+2014-07-20 19:34:46	◥	hugomarisco (~hugomaris@a89-152-72-156.cpe.netcabo.pt) has joined #Node.js
+2014-07-20 19:34:47	◥	jingtaoliu (~technommy@113.104.213.9) has joined #Node.js
+2014-07-20 19:34:59	◥	cj3kim_ (~cj3kim@unaffiliated/cj3kim) has joined #Node.js
+2014-07-20 19:36:02	◥	jharbaugh (~jharbaugh@cpe-74-140-230-191.swo.res.rr.com) has joined #Node.js
+2014-07-20 19:36:15	◥	Trudko (~chatzilla@nat-88-212-37-105.antik.sk) has joined #Node.js
+2014-07-20 19:37:03	◣	tovara (hedonistbo@92-247-199-213.spectrumnet.bg) has quit (Read error: Connection reset by peer)
+2014-07-20 19:37:24	◣	Sven_vB (kisl@shells.ohai.su) has quit (Quit: Reconnecting)
+2014-07-20 19:37:32	◥	Sven_vB (kisl@unaffiliated/sven-vb/x-5844617) has joined #Node.js
+2014-07-20 19:37:33	◥	jae (~jae@unaffiliated/jae) has joined #Node.js
+2014-07-20 19:37:50	◥	dojoVader (~dojoVader@41.58.22.164) has joined #Node.js
+2014-07-20 19:38:25	◣	anonymous_ (~anonymous@77.78.0.47) has quit (Remote host closed the connection)
+2014-07-20 19:38:29	◣	mrcni (~Thunderbi@c-50-148-76-198.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:38:47	◣	hugomarisco (~hugomaris@a89-152-72-156.cpe.netcabo.pt) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:38:47	◥	dashed (~dashed@CPEbc1401def0a3-CMbc1401def0a0.cpe.net.cable.rogers.com) has joined #Node.js
+2014-07-20 19:39:12	◥	xerora (~xerora@unaffiliated/xerora) has joined #Node.js
+2014-07-20 19:40:01	◣	XoRoN (~textual@host81-156-120-34.range81-156.btcentralplus.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-20 19:40:09	ℹ 	irc: disconnected from server

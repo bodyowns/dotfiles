@@ -1,0 +1,40 @@
+2015-04-15 05:03:48	▬▬▶	body (~body@79-64-174-107.host.pobb.as13285.net) has joined #npm
+2015-04-15 05:03:48	ℹ 	Topic for #npm is "channel CoC: https://www.npmjs.com/policies/conduct - bugs: https://github.com/npm/npm/issues - support: support@npmjs.com"
+2015-04-15 05:03:48	ℹ 	Topic set by othiym23 (ogd@aglaia.aoaioxxysz.net) on Thu, 05 Feb 2015 23:37:22
+2015-04-15 05:03:48	ℹ 	Channel #npm: 165 nicks (2 ops, 0 voices, 163 normals)
+2015-04-15 05:03:50	ℹ 	Channel created on Thu, 04 Feb 2010 22:33:48
+2015-04-15 05:04:22	◀▬▬	gsd (~gsd@unaffiliated/gsd) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-04-15 05:04:23	body	hello, why when i try to use node i get a lot of errors, and only when i use it with sudo i don't get any errors
+2015-04-15 05:04:25	body	?
+2015-04-15 05:04:38	Aria	That depends on what you're doing with node.
+2015-04-15 05:04:55	Aria	Writing to files owned by other users and binding ports < 1024 does require root privilege.
+2015-04-15 05:04:58	body	Aria: for example i wanted to do : npm update -g bower
+2015-04-15 05:05:02	terinjokes	iarna: thanks for the reply, installing it now
+2015-04-15 05:05:24	Aria	body: On most systems, they assume that /usr/local/ will be shared between users, so it's owned by root, so you need sudo to write to it.
+2015-04-15 05:05:29	body	Aria: so i had to do sudo npm update -g bower
+2015-04-15 05:05:41	Aria	body: However, on a single-user system, it makes sense to chown -R youruser /usr/local often
+2015-04-15 05:05:52	Aria	that way you won't need sudo, it's just your space in the first place.
+2015-04-15 05:06:22	terinjokes	iarna: you have any ideas why 'fetchPackageMetaData' was going against registry.npmjs.org, when 'mapToRegistry' uses registry.npmjs.cf?
+2015-04-15 05:06:30	terinjokes	was the other weird output i was getting
+2015-04-15 05:07:01	body	Aria: yea, i had to chown it, thank you very much for this :)
+2015-04-15 05:07:08	Aria	You are welcome.
+2015-04-15 05:08:16	▬▬▶	mich-cook1 (~me@208.185.32.26) has joined #npm
+2015-04-15 05:10:05	◀▬▬	mich-cook (~me@208.185.32.26) has quit (Ping timeout: 252 seconds)
+2015-04-15 02:11:35	ℹ 	irc: disconnected from server
+2015-05-06 03:25:42	▬▬▶	body (~body@79-64-174-28.host.pobb.as13285.net) has joined #npm
+2015-05-06 03:25:42	ℹ 	Topic for #npm is "channel CoC: https://www.npmjs.com/policies/conduct - bugs: https://github.com/npm/npm/issues - support: support@npmjs.com"
+2015-05-06 03:25:42	ℹ 	Topic set by othiym23 (ogd@aglaia.aoaioxxysz.net) on Thu, 05 Feb 2015 23:37:22
+2015-05-06 03:25:42	ℹ 	Channel #npm: 170 nicks (2 ops, 0 voices, 168 normals)
+2015-05-06 03:25:45	ℹ 	Channel created on Thu, 04 Feb 2010 22:33:48
+2015-05-06 03:26:01	body	hello, i'm trying to update a package, but i get this errors can somebody help me out ? https://bpaste.net/raw/4824a0d2bda3
+2015-05-06 03:30:10	▬▬▶	gsd (~gsd@unaffiliated/gsd) has joined #npm
+2015-05-06 03:31:27	▬▬▶	dbclk (~dbclk@190.83.235.218) has joined #npm
+2015-05-06 03:34:17	◀▬▬	redonkulus (~redonkulu@2001:4998:effd:600:49af:eac5:aca6:e0af) has quit (Quit: Leaving.)
+2015-05-06 03:34:38	▬▬▶	redonkulus (~redonkulu@2001:4998:effd:600:49af:eac5:aca6:e0af) has joined #npm
+2015-05-06 03:37:50	themiddleman_	body: try adding sudo before the command
+2015-05-06 03:39:16	body	with sudo worked themiddleman_ but how can i do it without sudo ?
+2015-05-06 03:41:25	themiddleman_	body: you'll have to configure your system, there are a few ways https://gist.github.com/isaacs/579814
+2015-05-06 03:41:27	▬▬▶	Ericx2x (~textual@209-6-40-131.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com) has joined #npm
+2015-05-06 03:43:00	◀▬▬	Ericx2x (~textual@209-6-40-131.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com) has quit (Read error: No route to host)
+2015-05-06 03:43:20	◀▬▬	bradleymeck (~bradleyme@cpe-70-114-246-88.austin.res.rr.com) has quit (Quit: bradleymeck)
+2015-05-06 03:43:34	▬▬▶	Ericx2x (~textual@209-6-40-131.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com) has joined #npm

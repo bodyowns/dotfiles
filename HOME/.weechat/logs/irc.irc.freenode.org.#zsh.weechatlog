@@ -1,0 +1,50 @@
+2014-06-07 22:56:25	◥	body (~body@78.97.214.17) has joined #zsh
+2014-06-07 22:56:25	ℹ 	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-06-07 22:56:25	ℹ 	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 22:37:54
+2014-06-07 22:56:25	ℹ 	Channel #zsh: 362 nicks (0 ops, 0 voices, 362 normals)
+2014-06-07 22:56:25	ℹ 	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-06-07 22:56:25	ℹ 	URL for #zsh: http://www.zsh.org/
+2014-06-07 22:56:29	ℹ 	Mode #zsh [+cnt]
+2014-06-07 22:56:30	ℹ 	Channel created on Tue, 02 Sep 2003 18:34:53
+2014-06-07 23:01:11	◥	akim (~akim@unaffiliated/akim) has joined #zsh
+2014-06-07 23:01:52	◣	akim_ (~akim@nat/cisco/x-qbisfhgokrzthwda) has quit (Ping timeout: 264 seconds)
+2014-06-07 23:02:41	◥	NightTrain (~coffee@unaffiliated/ridout) has joined #zsh
+2014-06-07 23:06:56	◣	binarydo1 (~weechat@37-186-3-39.ip.as39912.net) has quit (Ping timeout: 265 seconds)
+2014-06-07 23:15:34	◥	blindvt_ (~brf@91-119-211-48.dynamic.xdsl-line.inode.at) has joined #zsh
+2014-06-07 23:18:46	◣	blindvt (~brf@91-119-222-98.dynamic.xdsl-line.inode.at) has quit (Ping timeout: 252 seconds)
+2014-06-07 23:26:25	◣	tdn (~tdn@62.198.234.11) has quit (Remote host closed the connection)
+2014-06-07 23:27:04	◥	nemysis (~nemysis@freebsd/developer/pcbsd.nemysis) has joined #zsh
+2014-06-07 23:27:47	◥	binarydo1 (~weechat@37-186-3-39.ip.as39912.net) has joined #zsh
+2014-06-07 23:31:48	◣	Nahra (~user@unaffiliated/nahra) has quit (Remote host closed the connection)
+2014-06-07 23:33:42	◥	jophish_ (~jophish@client-8-46.eduroam.oxuni.org.uk) has joined #zsh
+2014-06-07 23:36:43	◣	jophish (~jophish@dhcp157125.merton.ox.ac.uk) has quit (Ping timeout: 240 seconds)
+2014-06-07 23:36:57	◣	jophish_ (~jophish@client-8-46.eduroam.oxuni.org.uk) has quit (Read error: Connection reset by peer)
+2014-06-07 23:38:26	◥	Nahra (~user@unaffiliated/nahra) has joined #zsh
+2014-06-07 23:39:42	◥	gaboesquivel (~gaboesqui@201.195.126.7) has joined #zsh
+2014-06-07 23:41:24	◥	endiruna (~endiendir@poisson.phc.unipi.it) has joined #zsh
+2014-06-07 23:50:57	◥	jophish (~jophish@client-8-46.eduroam.oxuni.org.uk) has joined #zsh
+2014-06-07 23:54:22	◣	endiruna (~endiendir@poisson.phc.unipi.it) has quit (Ping timeout: 276 seconds)
+2014-06-07 23:54:59	◣	gaboesquivel (~gaboesqui@201.195.126.7) has quit (Remote host closed the connection)
+2014-06-07 23:59:43	◣	jackneill (~jackneill@unaffiliated/jackneill) has quit (Read error: Connection reset by peer)
+2014-06-08 00:01:43	◣	jophish (~jophish@client-8-46.eduroam.oxuni.org.uk) has quit (Remote host closed the connection)
+2014-06-08 00:02:14	◣	hahuang65 (~hahuang65@c-50-136-152-183.hsd1.ca.comcast.net) has quit (Quit: WeeChat 0.4.3)
+2014-06-08 00:04:59	◥	gaboesquivel (~gaboesqui@201.195.126.7) has joined #zsh
+2014-06-08 00:09:05	◣	dextrey (dextrey@unaffiliated/dextrey) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:25	◣	hamarukusa (~hamarukus@84.48.48.42) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:09:45	◣	nutron (~nutron@unaffiliated/nutron) has quit (Ping timeout: 240 seconds)
+2014-06-08 00:10:29	◥	hamarukusa (~hamarukus@84.48.48.42) has joined #zsh
+2014-06-08 00:10:54	◥	jottr_ (~jottr@unaffiliated/jottr) has joined #zsh
+2014-06-08 00:10:57	◥	jophish (~jophish@client-8-46.eduroam.oxuni.org.uk) has joined #zsh
+2014-06-08 00:13:16	◥	nutron (~nutron@unaffiliated/nutron) has joined #zsh
+2014-06-08 00:13:24	◣	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 252 seconds)
+2014-06-08 00:14:12	◥	dextrey (dextrey@unaffiliated/dextrey) has joined #zsh
+2014-06-08 00:25:43	◣	FabTG (~ftg@AAnnecy-651-1-73-111.w86-209.abo.wanadoo.fr) has quit (Ping timeout: 265 seconds)
+2014-06-08 00:28:40	◣	jophish (~jophish@client-8-46.eduroam.oxuni.org.uk) has quit (Remote host closed the connection)
+2014-06-08 00:29:14	◥	akim_ (~akim@nat/cisco/x-qajlhedsxbiegyej) has joined #zsh
+2014-06-08 00:32:28	◣	akim (~akim@unaffiliated/akim) has quit (Ping timeout: 264 seconds)
+2014-06-08 00:35:59	◣	Nahra (~user@unaffiliated/nahra) has quit (Remote host closed the connection)
+2014-06-08 00:43:21	◥	Nahra (~user@unaffiliated/nahra) has joined #zsh
+2014-06-08 00:43:54	◣	m0viefreak (~asdf@unaffiliated/m0viefreak) has quit (Disconnected by services)
+2014-06-08 00:43:59	◥	m0viefreak (~asdf@unaffiliated/m0viefreak) has joined #zsh
+2014-06-08 00:49:59	◣	derk0pf (~derk0pf@p3EE2F012.dip0.t-ipconnect.de) has quit
+2014-06-08 00:51:06	◥	hahuang65 (~hahuang65@c-50-136-152-183.hsd1.ca.comcast.net) has joined #zsh

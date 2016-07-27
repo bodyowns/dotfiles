@@ -1,0 +1,210 @@
+2014-07-20 18:18:15	◥	body (~body@host89-39-dynamic.24-79-r.retail.telecomitalia.it) has joined #android
+2014-07-20 18:18:15	ℹ 	Topic for #android is "Welcome to the official Android platform IRC channel! || AOSP review back up at https://android-review.googlesource.com/ || Android 4.4 (KitKat) source released http://goo.gl/qIqdpC  || Root? Modded ROMs? Head to #android-root || App development questions? See #android-dev || Not talking android? Head to #android-offtopic"
+2014-07-20 18:18:15	ℹ 	Topic set by evanc (~evan@evancharlton.com) on Fri, 01 Nov 2013 19:49:24
+2014-07-20 18:18:15	ℹ 	Channel #android: 804 nicks (1 op, 0 voices, 803 normals)
+2014-07-20 18:18:15	ℹ 	PvNotice(ChanServ): Welcome to #android! No bots, no publicly-accessible logging, and no bridging Android apps to this channel, please. Please show good IRC etiquette: don't send private messages without asking first.
+2014-07-20 18:18:17	ℹ 	Mode #android [+Ccntj 10:100]
+2014-07-20 18:18:17	ℹ 	Channel created on Mon, 05 Nov 2007 19:48:37
+2014-07-20 18:18:18	◣	codebam (~codebam@unaffiliated/codebam) has quit (Read error: Connection reset by peer)
+2014-07-20 18:18:50	body	hi, it's there possible to uninstall an app installed on my tablet ? android 4.2.2  , from the google play website (from pc)
+2014-07-20 18:19:18	◣	AnoAnon (~AnoAnon@197.37.170.164) has quit (Ping timeout: 240 seconds)
+2014-07-20 18:19:35	◥	swb1998 (~codebam@unaffiliated/codebam) has joined #android
+2014-07-20 18:20:06	◥	R-Z (~R-ZZ@91-158-53-214.elisa-laajakaista.fi) has joined #android
+2014-07-20 18:20:13	◥	AnoAnon (~AnoAnon@197.37.170.164) has joined #android
+2014-07-20 18:20:19	◣	makimac (~Thunderbi@46.217.71.58) has quit (Quit: makimac)
+2014-07-20 18:20:39	ℹ 	swb1998 is now known as codebam
+2014-07-20 18:21:01	◥	drej_ (~pud@72.15.63.102) has joined #android
+2014-07-20 18:21:05	◣	drej (~pud@unaffiliated/jedimind) has quit (Read error: Connection reset by peer)
+2014-07-20 18:21:56	◥	smart_ptr (~smart_ptr@p5DC77EAE.dip0.t-ipconnect.de) has joined #android
+2014-07-20 18:22:05	◣	Schnabeltierchen (~Schnabelt@xdsl-89-0-229-69.netcologne.de) has quit (Ping timeout: 250 seconds)
+2014-07-20 18:24:28	◣	UannaFF (~chatzilla@186.188.0.152) has left #android
+2014-07-20 18:24:59	◥	Schnabeltierchen (~Schnabelt@xdsl-85-197-50-11.netcologne.de) has joined #android
+2014-07-20 18:25:01	◥	Vitameans (~Vitameans@117.136.30.98) has joined #android
+2014-07-20 18:25:37	◣	AnoAnon (~AnoAnon@197.37.170.164) has quit (Read error: Connection reset by peer)
+2014-07-20 18:26:01	◣	Vitameans (~Vitameans@117.136.30.98) has left #android
+2014-07-20 18:27:53	◥	roymiloh (~roymiloh@37.142.233.109) has joined #android
+2014-07-20 18:28:36	◥	AnoAnon (~AnoAnon@197.37.170.164) has joined #android
+2014-07-20 18:28:55	◣	AnoAnon (~AnoAnon@197.37.170.164) has quit (Max SendQ exceeded)
+2014-07-20 18:29:17	◥	AnoAnon (~AnoAnon@197.37.170.164) has joined #android
+2014-07-20 18:29:24	◣	kalehv (~kalehv@76.92.190.18) has quit (Remote host closed the connection)
+2014-07-20 18:29:25	◣	danijoo (~danijoo@aftr-37-24-151-107.unity-media.net) has quit (Read error: Connection reset by peer)
+2014-07-20 18:29:42	◥	Bray90820 (~Bray90820@2601:d:5c80:763:8571:42f5:b904:6d50) has joined #android
+2014-07-20 18:29:57	◥	danijoo (~danijoo@aftr-37-24-151-107.unity-media.net) has joined #android
+2014-07-20 18:30:03	◣	dangerousdave (~dangerous@78.156.71.46) has quit (Read error: Connection reset by peer)
+2014-07-20 18:30:16	◥	dangerousdave (~dangerous@78.156.71.46) has joined #android
+2014-07-20 18:30:18	◣	AnoAnon (~AnoAnon@197.37.170.164) has quit (Client Quit)
+2014-07-20 18:31:14	ℹ 	InezK_away is now known as InezK
+2014-07-20 18:32:11	◣	maloo (~Miranda@p4FF3AE3C.dip0.t-ipconnect.de) has quit (Quit: maloo)
+2014-07-20 18:32:30	◥	phlatfish (~phlatfish@gateway/tor-sasl/phlatfish) has joined #android
+2014-07-20 18:35:31	◥	Flaiker (~Flaiker@p54945797.dip0.t-ipconnect.de) has joined #android
+2014-07-20 18:36:35	◣	Wildefyr (~fire@unaffiliated/fireblasto) has quit (Remote host closed the connection)
+2014-07-20 18:36:54	◥	wisey (~wisey@host-2-102-71-152.as13285.net) has joined #android
+2014-07-20 18:37:08	◣	roymiloh (~roymiloh@37.142.233.109) has quit (Ping timeout: 250 seconds)
+2014-07-20 18:40:30	◥	stephaaaan (~stephan@p4FFE685B.dip0.t-ipconnect.de) has joined #android
+2014-07-20 18:40:43	◥	Jagster (~Jag@178.61.63.117) has joined #android
+2014-07-20 18:41:05	ℹ 	InezK is now known as InezK_away
+2014-07-20 18:42:00	stephaaaan	hey :) having a really weird problem - I cannot access any http pages on my Z2 since 2 days - already rebooted, virus scan. Happened out of the blue. https works, but http not, system wide (I can't even curl http pages :D)
+2014-07-20 18:42:01	◣	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has quit (Remote host closed the connection)
+2014-07-20 18:42:10	stephaaaan	anybody had a similar problem?
+2014-07-20 18:42:15	◥	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has joined #android
+2014-07-20 18:43:07	◥	asQuirreL (~asQuirreL@oriel-student-nat.oriel.ox.ac.uk) has joined #android
+2014-07-20 18:43:55	◥	SeanWang (~SeanWang@123.121.37.116) has joined #android
+2014-07-20 18:43:57	◣	flan3002 (~till@89.15.237.79) has quit (Quit: WeeChat 0.4.3)
+2014-07-20 18:44:16	◥	flan3002 (~till@89.15.237.79) has joined #android
+2014-07-20 18:44:28	◣	slojanko (~usuck@internet-188-196-216-247.narocnik.mobitel.si) has quit (Quit: Got stuff to do!)
+2014-07-20 18:44:30	◣	khwarizmi (~stingray@119.154.73.188) has quit (Ping timeout: 264 seconds)
+2014-07-20 18:45:44	◥	fabrizziop (~kvirc@unaffiliated/fabrizziop) has joined #android
+2014-07-20 18:46:16	alex165	so going to http://www.google.com does not work
+2014-07-20 18:46:22	fabrizziop	hey guys, I transferred some files via FTP to my galaxy nexus, they show up in file explorer apps, but they don't show via MTP or in the gallery
+2014-07-20 18:46:27	◥	slojanko (~usuck@internet-188-196-216-247.narocnik.mobitel.si) has joined #android
+2014-07-20 18:46:33	fabrizziop	tried to refresh media but did nothing
+2014-07-20 18:47:06	Khaytsus	fabrizziop: How did you "refresh media"
+2014-07-20 18:47:14	Khaytsus	I'd try one of the many "Rescan Media" apps in the market.
+2014-07-20 18:47:20	Khaytsus	Or wait.  Or reboot, etc..
+2014-07-20 18:47:40	◣	yobivankenobi (~yobivanke@p4FF3F8D5.dip0.t-ipconnect.de) has quit (Quit: yobivankenobi)
+2014-07-20 18:48:08	◣	Bray90820 (~Bray90820@2601:d:5c80:763:8571:42f5:b904:6d50) has quit (Remote host closed the connection)
+2014-07-20 18:48:25	sqph	check that the is no file named .nomedia in that directory
+2014-07-20 18:48:32	fabrizziop	those apps just force closed
+2014-07-20 18:48:41	◥	yobivankenobi (~yobivanke@p4FF3F8D5.dip0.t-ipconnect.de) has joined #android
+2014-07-20 18:48:49	sqph	*that there is
+2014-07-20 18:48:59	◥	LonelyGoat (~LonelyGoa@135-23-234-211.cpe.pppoe.ca) has joined #android
+2014-07-20 18:49:00	fabrizziop	it's strange, because I took a picture with the camera and it was saved to the same directory (I didn't screw up that)
+2014-07-20 18:49:06	alex165	stephaaaan, try going to http://www.google.com please
+2014-07-20 18:49:11	◣	slojanko (~usuck@internet-188-196-216-247.narocnik.mobitel.si) has quit (Client Quit)
+2014-07-20 18:49:13	fabrizziop	and that picture does show up via MTP or in the gallery
+2014-07-20 18:49:20	fabrizziop	so what could the problem be?
+2014-07-20 18:50:38	stephaaaan	alex165,  yeah, tried that - all about users trying to write android applications, nothing about system wide inability to access http ;<
+2014-07-20 18:51:41	◣	Jdbye|Laptop (~jdbye@132.147.80.127) has quit (Ping timeout: 264 seconds)
+2014-07-20 18:51:48	◥	heliAAA (~homi@pD9E8B385.dip0.t-ipconnect.de) has joined #android
+2014-07-20 18:51:48	◣	heliAAA (~homi@pD9E8B385.dip0.t-ipconnect.de) has quit (Changing host)
+2014-07-20 18:51:48	◥	heliAAA (~homi@unaffiliated/heliaaa) has joined #android
+2014-07-20 18:52:26	alex165	hmm sorry stephaaaan i can't be of more help
+2014-07-20 18:53:04	stephaaaan	:)
+2014-07-20 18:53:45	alex165	now if you need help with dev work, i am all ears and will help all that i can
+2014-07-20 18:54:02	Khaytsus	See d.android.com for references and #android-dev for App dev questions.  If necessary, go to the following URL to register your nick on Freenode:  http://freenode.net/faq.shtml#userregistration
+2014-07-20 18:54:29	alex165	Khaytsus, who is that pointed at?
+2014-07-20 18:54:38	Khaytsus	*
+2014-07-20 18:54:59	◣	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has quit (Remote host closed the connection)
+2014-07-20 18:55:05	alex165	me?
+2014-07-20 18:55:32	◣	FrodoTheHobbit (~Ethan@218.109.104.6) has quit (Ping timeout: 256 seconds)
+2014-07-20 18:55:40	◥	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has joined #android
+2014-07-20 18:55:42	flan3002	* == everyone
+2014-07-20 18:55:51	Khaytsus	He's being obtuse.
+2014-07-20 18:56:02	ℹ 	boxmein is now known as [boxmein]
+2014-07-20 18:56:05	alex165	ah, thanks i did not know that
+2014-07-20 18:57:16	◥	nchello (~nchello@180.140.23.89) has joined #android
+2014-07-20 18:57:30	sqph	alex165: could be due to a firefox force-https addon that was installed on firefox mobile app when linking with firefox desktop account. Otherwise if you're on wifi, try going to your wifi network advanced option and set a different dns server. sorry nothing else comes to mind right now
+2014-07-20 18:57:37	◥	kaan (~kaan@85.108.239.148) has joined #android
+2014-07-20 18:58:35	alex165	sqph, it is not me that is having the issue, but i had the same idea it is stephaaaan
+2014-07-20 18:58:55	◣	LiENUS (~LiENUS@2001:470:bbb3:10:99fe:9d94:a18f:9a87) has quit (Ping timeout: 260 seconds)
+2014-07-20 18:58:56	sqph	Sorry yeah stephaaaan
+2014-07-20 18:59:06	◥	Vivekananda_y510 (~vvikramjh@c-68-49-141-134.hsd1.md.comcast.net) has joined #android
+2014-07-20 18:59:28	◥	Datanoid (~rtfm@112.215.63.151) has joined #android
+2014-07-20 18:59:30	◥	factory86 (~factory81@108-70-84-224.lightspeed.gdrpmi.sbcglobal.net) has joined #android
+2014-07-20 18:59:47	◣	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:00:10	◣	nchello (~nchello@180.140.23.89) has left #android ("wIRC")
+2014-07-20 19:00:58	◣	factory85 (~factory81@108-70-84-224.lightspeed.gdrpmi.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2014-07-20 19:01:26	◥	normalra (~normal@109.227.2.121) has joined #android
+2014-07-20 19:01:38	◥	jrahmy (~jrahmy@cpe-24-94-26-137.san.res.rr.com) has joined #android
+2014-07-20 19:01:48	◣	sqph (~quassel@unaffiliated/sqph) has quit (Read error: Connection reset by peer)
+2014-07-20 19:02:38	◥	khwarizmi (~stingray@39.53.49.202) has joined #android
+2014-07-20 19:03:12	◣	ValicekB (~tbox@dot.snat.baz.cz) has quit
+2014-07-20 19:03:24	◥	sqph (~quassel@unaffiliated/sqph) has joined #android
+2014-07-20 19:03:50	◥	Kev (~Kev@85-171-8-234.rev.numericable.fr) has joined #android
+2014-07-20 19:04:02	◣	Kev (~Kev@85-171-8-234.rev.numericable.fr) has quit (Changing host)
+2014-07-20 19:04:02	◥	Kev (~Kev@unaffiliated/kev) has joined #android
+2014-07-20 19:04:21	◣	CheckDavid (uid14990@gateway/web/irccloud.com/x-wbyyobpqhvagpcuj) has quit (Quit: Connection closed for inactivity)
+2014-07-20 19:05:13	◥	shekibobo (~joshkovac@2602:306:33ef:d610:dd01:76b:51da:7f5e) has joined #android
+2014-07-20 19:05:27	body	hi, it's there possible to uninstall an app installed on my tablet ? android 4.2.2  , from the google play website (from pc)
+2014-07-20 19:06:22	yanger	body. yes. adb
+2014-07-20 19:06:47	◥	ValicekB (~tbox@dot.snat.baz.cz) has joined #android
+2014-07-20 19:07:13	yanger	er. no not from the google play website. only through adb
+2014-07-20 19:07:34	yanger	why can't you remove it?
+2014-07-20 19:08:08	body	yanger: the problem is , the tablet it's at my sister wich is in another country, and she's not capable of install / uninstall
+2014-07-20 19:08:23	◣	Datanoid (~rtfm@112.215.63.151) has quit (Read error: Connection reset by peer)
+2014-07-20 19:08:39	yanger	body, capable as in smart, or she doesn't know how to remove it?
+2014-07-20 19:08:47	◣	dangerousdave (~dangerous@78.156.71.46) has quit (Read error: Connection reset by peer)
+2014-07-20 19:08:57	body	so i'm tring to install for she pou ( the game) , on google play tells me that it's installed, but she told me in the app list there's no pou icon
+2014-07-20 19:09:24	yanger	the tablet needs to get online?
+2014-07-20 19:09:25	◥	abbel (~rehfeld@f055067244.adsl.alicedsl.de) has joined #android
+2014-07-20 19:09:25	body	yanger: he doesn't know how to remove it, i was at phone 1 hour ...
+2014-07-20 19:09:28	◥	roymiloh (~roymiloh@37.142.233.109) has joined #android
+2014-07-20 19:09:37	◥	dangerousdave (~dangerous@78.156.71.46) has joined #android
+2014-07-20 19:09:41	sqph	Maybe she has no connection
+2014-07-20 19:09:42	body	yanger: it's already connected trough wifi
+2014-07-20 19:09:47	body	nono it's connected
+2014-07-20 19:09:53	sqph	Kk
+2014-07-20 19:09:57	yanger	hmm
+2014-07-20 19:10:25	yanger	should of worked. does the tablet have multiple logins?
+2014-07-20 19:10:33	yanger	er profiles?
+2014-07-20 19:11:01	yanger	oh. duh. is she logged in as her or in your account?
+2014-07-20 19:11:13	body	i made an google acount for she
+2014-07-20 19:11:17	body	and she's logged in
+2014-07-20 19:11:22	◣	jrahmy (~jrahmy@cpe-24-94-26-137.san.res.rr.com) has quit (Quit: (Zzz...))
+2014-07-20 19:11:29	yanger	and u installed with her login?
+2014-07-20 19:11:38	◣	zapradon (~zapster@unaffiliated/zapster) has quit (Quit: Join me for ideas in depth, without prejudice: freenode ##political_reality)
+2014-07-20 19:11:45	yanger	unsure how multiple logins work on google play..
+2014-07-20 19:12:18	body	yanger: yes, i'm logged in into she's google account, -> http://i.imgur.com/a7TG9Jt.png
+2014-07-20 19:12:23	body	but there's no uninstall button
+2014-07-20 19:12:27	sqph	If she's on an different account than the main account, she might not have permission to remotely install apps
+2014-07-20 19:12:46	IceBone	You can't uninstall from the play store.
+2014-07-20 19:12:48	yanger	yeah. you can't uninstall
+2014-07-20 19:12:48	IceBone	You need the device.
+2014-07-20 19:12:51	body	nono , she's on the main account, wich is this that i'm logged in now
+2014-07-20 19:12:56	IceBone	Well, from the web store.
+2014-07-20 19:12:59	yanger	adb over wifi, but that gets tricky
+2014-07-20 19:12:59	sqph	Try using the main tablets google account
+2014-07-20 19:13:08	sqph	Ah
+2014-07-20 19:13:26	◣	wad3g (~wad3@162-193-77-168.lightspeed.brhmal.sbcglobal.net) has quit
+2014-07-20 19:13:26	IceBone	You can only uninstall from the play store app or from the app settings.
+2014-07-20 19:13:40	yanger	IceBone and adb
+2014-07-20 19:13:45	IceBone	And adb, yes.
+2014-07-20 19:13:46	body	IceBone: directly from the tablet right ?
+2014-07-20 19:13:48	IceBone	But not from the webstore.
+2014-07-20 19:13:52	sqph	On the website is there a choice of multiple devices to install/uninstall the app on?
+2014-07-20 19:14:00	◥	MrJC-AD2 (~yaaic@85.255.235.122) has joined #android
+2014-07-20 19:14:03	IceBone	Not to uninstall.
+2014-07-20 19:14:05	◣	khwarizmi (~stingray@39.53.49.202) has quit (Ping timeout: 250 seconds)
+2014-07-20 19:14:15	IceBone	And you have to send it to a specific device one at a time.
+2014-07-20 19:15:41	◣	shekibobo (~joshkovac@2602:306:33ef:d610:dd01:76b:51da:7f5e) has quit (Remote host closed the connection)
+2014-07-20 19:15:47	◣	MrJC-AD (~yaaic@176.253.38.23) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:16:16	◥	shekibobo (~joshkovac@99-62-253-97.lightspeed.gdrpmi.sbcglobal.net) has joined #android
+2014-07-20 19:16:35	◣	flan3002 (~till@89.15.237.79) has quit (Quit: WeeChat 0.4.3)
+2014-07-20 19:16:43	body	huh, so in the end, i can send she to a store, or someone that know's how to install/uninstall an app...
+2014-07-20 19:17:57	◥	atla (~marcus@x2f6b0a8.dyn.telefonica.de) has joined #android
+2014-07-20 19:18:01	◣	atla (~marcus@x2f6b0a8.dyn.telefonica.de) has quit (Client Quit)
+2014-07-20 19:18:17	◥	atla (~marcus@x2f6b0a8.dyn.telefonica.de) has joined #android
+2014-07-20 19:18:18	◥	atrus (atrus@2600:3c01::f03c:91ff:feae:b9) has joined #android
+2014-07-20 19:19:10	atrus	wonder if anybody would have a suggestion on an app. i'm in israel for work, and every so often I have to leave my apartment for a few minutes due to a siren saying rockets are coming.
+2014-07-20 19:19:49	atrus	i would love to have something running on a camera facing out my window while i'm gone, taking pictures, to maybe get a shot of this, while i'm safe in the concrete shelter next to my apartment.
+2014-07-20 19:20:25	atrus	so i was thinking, something that would take a burst of pictures over a few minutes (or even video?) triggered by.... something I can do really quick on my way out of the room
+2014-07-20 19:20:35	◣	shekibobo (~joshkovac@99-62-253-97.lightspeed.gdrpmi.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2014-07-20 19:20:45	◣	fabrizziop (~kvirc@unaffiliated/fabrizziop) has quit (Read error: Connection reset by peer)
+2014-07-20 19:23:07	yanger	hitting record on video mode?
+2014-07-20 19:23:31	yanger	or enable ip webcam and enable motion sensor...
+2014-07-20 19:24:32	atrus	ip webcam and a motion sensor might do ok
+2014-07-20 19:24:51	◥	magic_ (~magic@CPE185933476c37-CM185933476c34.cpe.net.cable.rogers.com) has joined #android
+2014-07-20 19:25:02	Leeds	there are lots of timelapse apps out there
+2014-07-20 19:25:04	ℹ 	magic_ is now known as magic
+2014-07-20 19:26:41	◥	khwarizmi (~stingray@39.53.126.113) has joined #android
+2014-07-20 19:26:44	◣	cgrs (4f9f2f3f@gateway/web/freenode/ip.79.159.47.63) has quit (Ping timeout: 246 seconds)
+2014-07-20 19:27:33	◥	tgkokk (~tgkokk@unaffiliated/tgkokk) has joined #android
+2014-07-20 19:28:04	◥	Expi1 (~Expi1@cpc1-dumb5-2-0-cust29.20-3.cable.virginm.net) has joined #android
+2014-07-20 19:29:37	◥	Novus (~novus@cpe-172-248-190-187.socal.res.rr.com) has joined #android
+2014-07-20 19:30:27	◥	Redbutt87 (~Redbutt87@cpe-071-076-007-115.sc.res.rr.com) has joined #android
+2014-07-20 19:30:43	◥	averagejoe_ (~averagejo@75.95.15.73) has joined #android
+2014-07-20 19:31:42	◥	Mr_X (Mr_X@unaffiliated/mr-x/x-3310228) has joined #android
+2014-07-20 19:31:58	ℹ 	InezK_away is now known as InezK
+2014-07-20 19:33:51	◥	flan3002 (~till@89.15.237.79) has joined #android
+2014-07-20 19:34:37	◣	broosky (~broosky@89-67-235-207.dynamic.chello.pl) has quit (Ping timeout: 256 seconds)
+2014-07-20 19:34:50	◥	broosky (~broosky@89-67-235-207.dynamic.chello.pl) has joined #android
+2014-07-20 19:35:18	Mr_X	hi, how do i turn a app into a undeleteable system app
+2014-07-20 19:35:32	◥	MrJC-AD (~yaaic@176.253.38.23) has joined #android
+2014-07-20 19:37:26	ℹ 	helicopter88 is now known as awaycopter88
+2014-07-20 19:38:10	◣	MrJC-AD2 (~yaaic@85.255.235.122) has quit (Ping timeout: 240 seconds)
+2014-07-20 19:38:19	ℹ 	neraex is now known as neraex|AFK
+2014-07-20 19:38:25	◣	anonymous_ (~anonymous@77.78.0.47) has quit (Remote host closed the connection)
+2014-07-20 19:38:34	◥	mikepparks (~mikeppark@173-228-71-193.dsl.dynamic.sonic.net) has joined #android
+2014-07-20 19:39:04	◣	yellowbig (~yellowbig@111.31.240.67) has quit (Ping timeout: 245 seconds)
+2014-07-20 19:39:04	ℹ 	neraex|AFK is now known as neraex
+2014-07-20 19:40:09	ℹ 	irc: disconnected from server

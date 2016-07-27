@@ -1,0 +1,20 @@
+2014-06-18 23:51:20	◥	body (~body@host251-102-dynamic.54-79-r.retail.telecomitalia.it) has joined #xorg
+2014-06-18 23:51:20	ℹ 	Topic for #xorg is "Read http://wiki.x.org/wiki/XorgIRC | xorg.conf is not used for input devices by default, see http://xrl.us/xinput & http://tinyurl.com/xinput | xserver 1.15 released | Open driver questions see also #intel-gfx, #radeon, #nouveau | Closed driver questions -> #ati, #nvidia, #poulsbo | Really. Even if those channels seem dead. Not here."
+2014-06-18 23:51:20	ℹ 	Topic set by alanc (~alanc@inet-hqmc02-o.oracle.com) on Fri, 27 Dec 2013 20:20:39
+2014-06-18 23:51:20	ℹ 	Channel #xorg: 137 nicks (0 ops, 0 voices, 137 normals)
+2014-06-18 23:51:23	ℹ 	Mode #xorg [+nt]
+2014-06-18 23:51:23	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:43
+2014-06-18 23:55:57	◣	diegoviola (~diego@unaffiliated/diegoviola) has quit (Remote host closed the connection)
+2014-06-18 23:56:15	body	hello, i have a problem, every time i start x, i got 2 outputs, a VGA-0 and a LVDS-1-0,  i also want to tell that i have nvidia optimus , and i use the trick with xrandr to use only the nvidia card, wich is outputed on LVDS-1-0, so i want instead of startwith 2 outputs VGA-0 & LVDS-1-0 , to start only with my LVDS-1-0 , here is my configuration file, http://nopaste.info/a2a3d8813b.html 
+2014-06-18 23:58:39	◣	funnel (~funnel@unaffiliated/espiral) has quit (Remote host closed the connection)
+2014-06-18 23:59:04	◣	Hermann (~Hermannn@h-136-118.a336.priv.bahnhof.se) has quit (Ping timeout: 240 seconds)
+2014-06-18 23:59:34	◥	funnel (~funnel@unaffiliated/espiral) has joined #xorg
+2014-06-19 00:02:41	ℹ 	irc: disconnected from server
+2014-06-19 00:04:06	◥	body (~body@host251-102-dynamic.54-79-r.retail.telecomitalia.it) has joined #xorg
+2014-06-19 00:04:06	ℹ 	Topic for #xorg is "Read http://wiki.x.org/wiki/XorgIRC | xorg.conf is not used for input devices by default, see http://xrl.us/xinput & http://tinyurl.com/xinput | xserver 1.15 released | Open driver questions see also #intel-gfx, #radeon, #nouveau | Closed driver questions -> #ati, #nvidia, #poulsbo | Really. Even if those channels seem dead. Not here."
+2014-06-19 00:04:06	ℹ 	Topic set by alanc (~alanc@inet-hqmc02-o.oracle.com) on Fri, 27 Dec 2013 20:20:39
+2014-06-19 00:04:06	ℹ 	Channel #xorg: 135 nicks (0 ops, 0 voices, 135 normals)
+2014-06-19 00:04:10	ℹ 	Mode #xorg [+nt]
+2014-06-19 00:04:10	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:43
+2014-06-19 00:04:28	body	i solved the problem, thank you anyways
+2014-06-19 00:13:16	ℹ 	irc: disconnected from server

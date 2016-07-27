@@ -1,0 +1,34 @@
+2014-11-27 00:12:22	▬▬▶	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has joined #rxvt-unicode
+2014-11-27 00:12:23	ℹ 	Topic for #rxvt-unicode is "rxvt-unicode terminal emulator | homepage (including FAQ) http://software.schmorp.de/pkg/rxvt-unicode.html | please wait up to 24 hours for a response to your question! | latest release: 9.20"
+2014-11-27 00:12:23	ℹ 	Topic set by exg on Sun, 27 Apr 2014 14:10:18
+2014-11-27 00:12:23	ℹ 	Channel #rxvt-unicode: 56 nicks (0 ops, 0 voices, 56 normals)
+2014-11-27 00:12:23	ℹ 	URL for #rxvt-unicode: http://software.schmorp.de/pkg/rxvt-unicode.html
+2014-11-27 00:12:24	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:12
+2014-11-27 00:12:55	body	hello, i'm wondering why when i press ctrl+up arrow my terminal flashes ? or ctrl+down arrow
+2014-11-27 00:16:08	◀▬▬	Rakkin (~Rakkin@gateway/tor-sasl/rakkin) has quit (Ping timeout: 250 seconds)
+2014-11-27 00:17:34	▬▬▶	Rakkin (~Rakkin@gateway/tor-sasl/rakkin) has joined #rxvt-unicode
+2014-11-27 00:44:19	◀▬▬	Adaptee (~whodare@101.29.212.9) has quit (Ping timeout: 240 seconds)
+2014-11-28 23:56:38	▬▬▶	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has joined #rxvt-unicode
+2014-11-28 23:56:38	ℹ 	Topic for #rxvt-unicode is "rxvt-unicode terminal emulator | homepage (including FAQ) http://software.schmorp.de/pkg/rxvt-unicode.html | please wait up to 24 hours for a response to your question! | latest release: 9.20"
+2014-11-28 23:56:38	ℹ 	Topic set by exg on Sun, 27 Apr 2014 14:10:18
+2014-11-28 23:56:38	ℹ 	Channel #rxvt-unicode: 56 nicks (0 ops, 0 voices, 56 normals)
+2014-11-28 23:56:38	ℹ 	URL for #rxvt-unicode: http://software.schmorp.de/pkg/rxvt-unicode.html
+2014-11-28 23:56:41	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:12
+2014-11-28 23:56:51	body	it's possible to change the font in urxvt on the fly ?
+2014-11-29 00:06:33	◀▬▬	Faalentijn (~Faalentij@86.85.27.87) has quit (Quit: WeeChat 1.0.1)
+2014-11-29 00:20:18	▬▬▶	pekman (~pekman@unaffiliated/pekman) has joined #rxvt-unicode
+2014-11-29 00:33:02	ℹ 	irc: disconnected from server
+2015-08-26 06:44:00	▬▬▶	body (~body@79-64-175-192.host.pobb.as13285.net) has joined #rxvt-unicode
+2015-08-26 06:44:00	ℹ 	Topic for #rxvt-unicode is "rxvt-unicode terminal emulator | homepage (including FAQ) http://software.schmorp.de/pkg/rxvt-unicode.html | please wait up to 24 hours for a response to your question! | latest release: 9.21"
+2015-08-26 06:44:00	ℹ 	Topic set by exg on Thu, 01 Jan 2015 21:07:19
+2015-08-26 06:44:00	ℹ 	Channel #rxvt-unicode: 51 nicks (0 ops, 0 voices, 51 normals)
+2015-08-26 06:44:00	ℹ 	URL for #rxvt-unicode: http://software.schmorp.de/pkg/rxvt-unicode.html
+2015-08-26 06:44:02	ℹ 	Channel created on Sun, 26 Nov 2006 08:43:12
+2015-08-26 06:44:39	body	hello, how do I can disable Contrl+V iso to use another thing on my Control + v ?
+2015-08-26 07:13:16	◀▬▬	barcelona1937 (~dkskd@77.228.227.71) has quit (Ping timeout: 245 seconds)
+2015-08-26 07:15:14	▬▬▶	barcelona1937 (~dkskd@77.228.227.71) has joined #rxvt-unicode
+2015-08-26 08:09:20	◀▬▬	pekman (~pek1@unaffiliated/pekman) has quit (Ping timeout: 264 seconds)
+2015-08-26 08:18:11	▬▬▶	pekman (~pek1@unaffiliated/pekman) has joined #rxvt-unicode
+2015-08-26 08:19:25	◀▬▬	pekman (~pek1@unaffiliated/pekman) has quit (Client Quit)
+2015-08-26 11:41:40	◀▬▬	rivarun (~rivarun@ipa210.225.tellas.gr) has quit (Remote host closed the connection)
+2015-08-26 11:42:17	▬▬▶	rivarun (~rivarun@ipa210.225.tellas.gr) has joined #rxvt-unicode

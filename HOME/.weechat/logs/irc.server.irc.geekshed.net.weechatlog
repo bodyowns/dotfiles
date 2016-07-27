@@ -1,0 +1,60 @@
+2014-06-06 23:56:30	ℹ 	irc: connecting to server irc.geekshed.net/6667...
+2014-06-06 23:56:30	ℹ 	irc: connected to irc.geekshed.net/6667 (107.170.156.130)
+2014-06-06 23:56:30	ℹ 	*** Please wait while we scan your connection for open proxies...
+2014-06-06 23:56:30	ℹ 	Maiar.GeekShed.net (Maiar.GeekShed.net): *** Looking up your hostname...
+2014-06-06 23:56:30	ℹ 	Maiar.GeekShed.net (Maiar.GeekShed.net): *** Checking ident...
+2014-06-06 23:56:31	ℹ 	Maiar.GeekShed.net (Maiar.GeekShed.net): *** Couldn't resolve your hostname; using your IP address instead
+2014-06-06 23:56:34	ℹ 	Maiar.GeekShed.net (Maiar.GeekShed.net): *** No ident response; username prefixed with ~
+2014-06-06 23:56:35	ℹ 	CTCP requested by IRC: VERSION
+2014-06-06 23:56:35	ℹ 	CTCP reply to IRC: VERSION WeeChat 0.4.3 (May 31 2014)
+2014-06-06 23:56:35	ℹ 	Welcome to the GeekShed IRC Network body!~body@188.24.63.232
+2014-06-06 23:56:35	ℹ 	Your host is Maiar.GeekShed.net, running version Unreal3.2.10.2-gs
+2014-06-06 23:56:35	ℹ 	This server was created Wed May 14 2014 at 20:03:12 EDT
+2014-06-06 23:56:35	ℹ 	Maiar.GeekShed.net Unreal3.2.10.2-gs iowghraAsORTVSxNCWqBzvdHtGpIDc lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjUZ
+2014-06-06 23:56:35	ℹ 	CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+2014-06-06 23:56:35	ℹ 	MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGUZ NETWORK=GeekShed CASEMAPPING=ascii EXTBAN=~,qjncrRaT ELIST=MNUCT :are supported by this server
+2014-06-06 23:56:35	ℹ 	STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+2014-06-06 23:56:35	ℹ 	There are 106 users and 1860 invisible on 14 servers
+2014-06-06 23:56:35	ℹ 	29 :operator(s) online
+2014-06-06 23:56:35	ℹ 	1 :unknown connection(s)
+2014-06-06 23:56:35	ℹ 	1320 :channels formed
+2014-06-06 23:56:35	ℹ 	I have 168 clients and 0 servers
+2014-06-06 23:56:35	ℹ 	168 220 :Current local users 168, max 220
+2014-06-06 23:56:35	ℹ 	1966 5334 :Current global users 1966, max 5334
+2014-06-06 23:56:35	ℹ 	- Maiar.GeekShed.net Message of the Day -
+2014-06-06 23:56:35	ℹ 	- 27/11/2013 21:05
+2014-06-06 23:56:35	ℹ 	-   _____           _     _____ _              _
+2014-06-06 23:56:35	ℹ 	-  / ____|         | |   / ____| |            | |
+2014-06-06 23:56:35	ℹ 	- | |  __  ___  ___| | _| (___ | |__   ___  __| |
+2014-06-06 23:56:35	ℹ 	- | | |_ |/ _ \/ _ \ |/ /\___ \| '_ \ / _ \/ _` |
+2014-06-06 23:56:35	ℹ 	- | |__| |  __/  __/   < ____) | | | |  __/ (_| |
+2014-06-06 23:56:35	ℹ 	-  \_____|\___|\___|_|\_\_____/|_| |_|\___|\__,_|
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- Before continuing please read the Geek Shed
+2014-06-06 23:56:35	ℹ 	- Terms Of Service: http://www.geekshed.net/tos/
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- By connecting and retaining a connection to any
+2014-06-06 23:56:35	ℹ 	- part of Geek Shed you state that you have read,
+2014-06-06 23:56:35	ℹ 	- understand, and hereby agree to comply with and accept
+2014-06-06 23:56:35	ℹ 	- the Geek Shed Terms Of Service, disclaimers,
+2014-06-06 23:56:35	ℹ 	- and rules stated in the document.
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- IF YOU DO NOT AGREE, DISCONNECT NOW AND
+2014-06-06 23:56:35	ℹ 	- DO NOT RECONNECT!
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- -------------------------------------------------------
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- :: Our Site  http://www.geekshed.net/
+2014-06-06 23:56:35	ℹ 	- :: Free BNC  http://www.geekshed.net/bnc/
+2014-06-06 23:56:35	ℹ 	- :: Web Chat  http://www.geekshed.net/chat/
+2014-06-06 23:56:35	ℹ 	- :: Commands  http://www.geekshed.net/commands/
+2014-06-06 23:56:35	ℹ 	- :: Forums    http://www.geekshed.net/forum/
+2014-06-06 23:56:35	ℹ 	- :: Quotes    http://www.geekshed.net/qdb/
+2014-06-06 23:56:35	ℹ 	- :: Staff     http://www.geekshed.net/staff/
+2014-06-06 23:56:35	ℹ 	- :: Twitter   http://www.twitter.com/geekshed
+2014-06-06 23:56:35	ℹ 	- :: YouTube   http://www.youtube.com/geekshedirc
+2014-06-06 23:56:35	ℹ 	-
+2014-06-06 23:56:35	ℹ 	- -------------------------------------------------------
+2014-06-06 23:56:35	ℹ 	End of /MOTD command.
+2014-06-06 23:56:35	ℹ 	User mode [+iRx] by body

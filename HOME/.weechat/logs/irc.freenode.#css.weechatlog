@@ -1,0 +1,402 @@
+2015-01-10 16:51:25	▬▬▶	body (~body@78.96.166.123) has joined #css
+2015-01-10 16:51:25	ℹ 	Topic for #css is "Cascading Style Sheets :: Don't paste! :: Need help? Validate (`v yoursite) and give a `live URL (see `paste and `testcase) :: Rules: http://hashcss.com/rules/ :: FAQ: http://hashcss.com/faq :: Harassment or disruption? Tell #css-ops :: More general discussions: ##frontend"
+2015-01-10 16:51:25	ℹ 	Topic set by preaction (~doug@irc.preaction.me) on Thu, 01 Jan 2015 00:44:02
+2015-01-10 16:51:25	ℹ 	Channel #css: 555 nicks (0 ops, 0 voices, 555 normals)
+2015-01-10 16:51:27	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:45
+2015-01-10 16:52:51	Bitgod	'
+2015-01-10 16:52:52	Bitgod	?
+2015-01-10 16:53:35	emerson	Bitgod: you have a margin-left of 100px
+2015-01-10 16:54:36	◀▬▬	DragonPunch (~textual@CPE-70-92-146-217.wi.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-01-10 16:56:39	Bitgod	hm
+2015-01-10 16:57:10	Bitgod	duh :D
+2015-01-10 16:57:12	Bitgod	i just noticed
+2015-01-10 16:57:16	Bitgod	ty <3
+2015-01-10 16:57:17	⚡	Bitgod hugs
+2015-01-10 16:58:09	▬▬▶	crystal77 (~crystal77@107-218-136-245.lightspeed.austtx.sbcglobal.net) has joined #css
+2015-01-10 16:58:13	◀▬▬	jlumpe (~jlumpe@176.232.178.32) has quit (Quit: jlumpe)
+2015-01-10 16:58:27	Bitgod	http://dctsol.com/#
+2015-01-10 16:58:30	Bitgod	better :P
+2015-01-10 16:58:37	Bitgod	still gotta fix my menu later hehe
+2015-01-10 16:58:45	◀▬▬	Sijdesign (~textual@0194300961.0.fullrate.dk) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-01-10 16:59:18	emerson	Bitgod: do you know how to use your browser inspector?
+2015-01-10 16:59:21	◀▬▬	andrei1 (~andrei@79.112.157.100) has quit (Quit: Leaving.)
+2015-01-10 16:59:27	▬▬▶	andrei11 (~andrei@79.112.157.100) has joined #css
+2015-01-10 16:59:28	Bitgod	yes
+2015-01-10 16:59:38	Bitgod	i have firefox dev edition
+2015-01-10 16:59:41	Bitgod	using it now hehe
+2015-01-10 16:59:42	emerson	it will be much easier to solve simple problems like this
+2015-01-10 16:59:57	▬▬▶	eyvindandersen (~eyvind@80-71-135-9.u.parknet.dk) has joined #css
+2015-01-10 17:00:06	Bitgod	ok wtf
+2015-01-10 17:00:11	Bitgod	in firefox my menu is broken
+2015-01-10 17:00:19	Bitgod	its just default text with underlines lol
+2015-01-10 17:01:30	body	hello i have a problem with my responsive website, when it's full screen it's ok, but when i minimize it my icons goes out of screen , full- http://i.imgur.com/NjUCKqr.png , minimized - http://i.imgur.com/uI7bSe4.png
+2015-01-10 17:01:54	body	i have posted also the code, html -https://bpaste.net/show/f736e7fb048c ,css https://bpaste.net/show/3ffa2d709758
+2015-01-10 17:02:20	emerson	`testcase
+2015-01-10 17:02:20	Selvvir	emerson, a (pared-down) testcase is a page that isolates the problem with the minimum required markup, styling and scripting. See `paste for services that easily let you create such testcases for others to see.
+2015-01-10 17:02:20	body	somebody can give me an ideea how can i make this work please ?
+2015-01-10 17:02:33	emerson	body: see what Selvvir said
+2015-01-10 17:02:48	emerson	its really hard to look at a code dump and images to figure out what is wrong
+2015-01-10 17:02:48	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:02:56	emerson	`paste
+2015-01-10 17:02:56	Selvvir	emerson, Preferred live pastebins : http://jsfiddle.net/ , http://codepen.io/ , http://tinkerbin.heroku.com/ , http://paste.asmcbain.net/ , http://www.webdevout.net/test/
+2015-01-10 17:03:11	emerson	pick one of those sites and reproduce your problem there for us ^
+2015-01-10 17:03:15	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:03:29	emerson	that way we can see it live
+2015-01-10 17:03:38	body	emerson: ok ty 1 sec
+2015-01-10 17:04:06	Bitgod	going to bed, night
+2015-01-10 17:04:08	Bitgod	ty emerson
+2015-01-10 17:04:39	◀▬▬	crakrjak (~merc@unaffiliated/crakrjak) has quit (Quit: crakrjak)
+2015-01-10 17:05:23	◀▬▬	IvailoStoianov (~chatzilla@87.97.135.107) has quit (Quit: ChatZilla 0.9.91.1 [Firefox 34.0/20141125180439])
+2015-01-10 17:05:24	◀▬▬	Elvano (~Elvano@109.131.119.171) has quit (Quit: Leaving)
+2015-01-10 17:05:32	▬▬▶	rafaelcpalmeida (~rafaelcpa@pa3-84-91-120-114.netvisao.pt) has joined #css
+2015-01-10 17:05:45	▬▬▶	Elvano (~Elvano@109.131.119.171) has joined #css
+2015-01-10 17:05:50	◀▬▬	skylite (~skylite@business-178-48-4-145.business.broadband.hu) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-01-10 17:08:30	◀▬▬	wethu (~egray@unaffiliated/wethu) has quit (Quit: This computer has gone to sleep)
+2015-01-10 17:08:46	▬▬▶	IvailoStoianov (~chatzilla@87.97.135.107) has joined #css
+2015-01-10 17:08:59	▬▬▶	mrdiesel (~mrdiesel@197.0.145.178) has joined #css
+2015-01-10 17:09:52	◀▬▬	mrdiesel (~mrdiesel@197.0.145.178) has quit (Max SendQ exceeded)
+2015-01-10 17:10:22	▬▬▶	mrdiesel (~mrdiesel@197.0.145.178) has joined #css
+2015-01-10 17:10:32	▬▬▶	EvilPenguin (~EvilPengu@c-50-185-162-165.hsd1.ca.comcast.net) has joined #css
+2015-01-10 17:10:34	▬▬▶	ezy_e (~ezy_e@24-107-5-64.dhcp.stls.mo.charter.com) has joined #css
+2015-01-10 17:10:51	▬▬▶	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has joined #css
+2015-01-10 17:10:58	▬▬▶	DragonPunch (~textual@CPE-70-92-146-217.wi.res.rr.com) has joined #css
+2015-01-10 17:12:00	◀▬▬	MOUD (~chatzilla@189.58.98.29) has quit (Quit: ChatZilla 0.9.91.1 [Firefox 34.0.5/20141126041045])
+2015-01-10 17:13:11	emerson	Bitgod: yea no problem
+2015-01-10 17:14:14	▬▬▶	speshhh (~A@host86-177-166-233.range86-177.btcentralplus.com) has joined #css
+2015-01-10 17:14:21	body	emerson: if i make a zip it's ok? it's kinda complex to export this to a fiddle, .. ?
+2015-01-10 17:14:33	body	it's not to large
+2015-01-10 17:14:59	emerson	body: you don't put the whole thing in a fiddle, only the part youre having problems with
+2015-01-10 17:15:22	◀▬▬	marcjs_ (~marcjs@46.189.28.38) has quit (Quit: (null))
+2015-01-10 17:17:33	◀▬▬	nfk (~nfk@unaffiliated/nfk) has quit (Quit: yawn)
+2015-01-10 17:17:51	ezy_e	I have a div that lives on the far right side of the page. When the page is resized i want that div to remain on the right despite running into another div (lets say contentArea). As it stands, when i resize the page the div in question is pushed down. How do i fix this?
+2015-01-10 17:18:09	▬▬▶	ozanorhan (~ozanorhan@94.54.53.156) has joined #css
+2015-01-10 17:18:19	◀▬▬	eyvindandersen (~eyvind@80-71-135-9.u.parknet.dk) has quit (Remote host closed the connection)
+2015-01-10 17:19:28	◀▬▬	phelix (~phelix@24-119-144-139.cpe.cableone.net) has quit (Ping timeout: 255 seconds)
+2015-01-10 17:19:37	emerson	ezy_e: use a media query to float both divs right at the point when it gets pushed down. Then the other div should fall underneath
+2015-01-10 17:21:00	ezy_e	emerson: when you say fall underneath, do yo mean that it will basically stack or merge into the other div?
+2015-01-10 17:21:29	emerson	ezy_e: yea, the other div will go below it
+2015-01-10 17:21:32	◀▬▬	Raverix__ (47b382e2@gateway/web/freenode/ip.71.179.130.226) has quit (Quit: Page closed)
+2015-01-10 17:22:04	ezy_e	just found media query on w3, neat little trick. Have you seen this as a standard way to achieve this?
+2015-01-10 17:22:11	▬▬▶	joeyDB__ (~jftf@ool-6894ffea.dyn.optonline.net) has joined #css
+2015-01-10 17:22:12	▬▬▶	Soopaman (~soopaman@dsl-67-204-49-43.acanac.net) has joined #css
+2015-01-10 17:22:39	◀▬▬	ozanorhan (~ozanorhan@94.54.53.156) has quit (Ping timeout: 252 seconds)
+2015-01-10 17:23:48	▬▬▶	haxr (~haxr@117.201.206.174) has joined #css
+2015-01-10 17:23:53	bl4ckdu5t	Hey emerson can you please help me look into this http://trefoilsolutions.herokuapp.com/login . It is meant to have a dark overlay
+2015-01-10 17:23:55	▬▬▶	eyvindandersen (~eyvind@80-71-135-9.u.parknet.dk) has joined #css
+2015-01-10 17:24:02	body	emerson: http://codepen.io/anon/pen/WbRyyz
+2015-01-10 17:24:13	◀▬▬	haxr (~haxr@117.201.206.174) has quit (Max SendQ exceeded)
+2015-01-10 17:24:19	emerson	ezy_e: yea, its a pretty standard thing
+2015-01-10 17:24:31	bl4ckdu5t	If you go through inspect element and add a background-size: cover; to the body{} it gets the dark overlay
+2015-01-10 17:24:37	bl4ckdu5t	both that's only in chrome
+2015-01-10 17:24:43	▬▬▶	haxr (~haxr@117.201.206.174) has joined #css
+2015-01-10 17:24:47	body	emerson: if u select the first layout from the right bottom corner, and reduce the screen the icons goes off in the upper side
+2015-01-10 17:25:02	emerson	bl4ckdu5t: give your html height: 100%
+2015-01-10 17:25:07	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:25:11	◀▬▬	haxr (~haxr@117.201.206.174) has quit (Max SendQ exceeded)
+2015-01-10 17:25:13	ezy_e	emerson: Thank you for saving me time trying to figure this out! I very much appreciate it
+2015-01-10 17:25:31	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:25:38	▬▬▶	haxr (~haxr@117.201.206.174) has joined #css
+2015-01-10 17:26:09	▬▬▶	vinxz (~vinxz@95.234.114.134) has joined #css
+2015-01-10 17:26:36	emerson	ezy_e: yea no problem
+2015-01-10 17:26:57	bl4ckdu5t	works perfect. Can you please explain what happened with it? and why height: 100% helped?
+2015-01-10 17:27:03	emerson	body: what do you want to happen? should you be able to scroll to the offscreen elements?
+2015-01-10 17:27:26	vinxz	Hi guys, I need to center 2 button (Altre news da mobileflurry?) and next button, after article content but I have some problem. Any people could help me? this is the link http://tinyurl.com/o9jtynt ... Thanks!
+2015-01-10 17:27:34	◀▬▬	ValicekB (~tbox@dot.snat.baz.cz) has quit (Read error: Connection reset by peer)
+2015-01-10 17:27:40	body	emerson: i want that the icons don't get off the screen, so if somebody is visiting it from the phone/tablet , can click all the icons
+2015-01-10 17:27:48	▬▬▶	nfk (~nfk@unaffiliated/nfk) has joined #css
+2015-01-10 17:27:56	body	emerson: the icons gets out of the screen
+2015-01-10 17:28:08	body	emerson: that's the problem :)
+2015-01-10 17:28:12	emerson	bl4ckdu5t: because your .login was absolutely positioned, so it was taken out of the document flow, and the parent elements acted as if they had no children and became 0 height
+2015-01-10 17:28:15	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:28:20	Bitgod	Embraden
+2015-01-10 17:28:21	Bitgod	emerson
+2015-01-10 17:28:26	Bitgod	if i wanna move a button in a form
+2015-01-10 17:28:29	Bitgod	i use margin?
+2015-01-10 17:28:33	Bitgod	its on left, i want it on right
+2015-01-10 17:28:38	Bitgod	its in my div so it shouldnt be hard
+2015-01-10 17:28:42	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:28:58	bl4ckdu5t	ok thanks.
+2015-01-10 17:29:06	▬▬▶	jlumpe (~jlumpe@176.232.178.32) has joined #css
+2015-01-10 17:29:38	emerson	body: its because youre using position: fixed on .jos
+2015-01-10 17:30:27	body	emerson: and which position should i use ?
+2015-01-10 17:30:28	emerson	Bitgod: yep, margin will work, but if you just want it on the right, you could also float it right
+2015-01-10 17:30:59	Bitgod	ah thx
+2015-01-10 17:31:08	▬▬▶	ValicekB_ (~tbox@dot.snat.baz.cz) has joined #css
+2015-01-10 17:31:25	Bitgod	hm that just sent it outside my div lol
+2015-01-10 17:31:27	◀▬▬	andrei11 (~andrei@79.112.157.100) has quit (Read error: No route to host)
+2015-01-10 17:31:29	emerson	body: i would be careful using any absolute positioning for layout on mobile devices, it can get tricky
+2015-01-10 17:31:37	▬▬▶	crakrjak (~merc@unaffiliated/crakrjak) has joined #css
+2015-01-10 17:31:39	◀▬▬	Merkss (~Merkss@dhcp-089-098-150-090.chello.nl) has quit
+2015-01-10 17:31:53	▬▬▶	Trekka12 (~Trekka12@c-cbf1e355.226-2-64736c11.cust.bredbandsbolaget.se) has joined #css
+2015-01-10 17:31:56	▬▬▶	andrei1 (~andrei@79.112.157.100) has joined #css
+2015-01-10 17:31:57	Bitgod	http://dctsol.com/contact.htm
+2015-01-10 17:31:59	Bitgod	here
+2015-01-10 17:32:01	Bitgod	:p
+2015-01-10 17:32:24	body	emerson: hmm if i set my position to absolute, all my icons goes to the top of the page
+2015-01-10 17:32:26	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:32:28	emerson	body: if you just make it normal positioning, and you make the background-image have a background-size: cover, it should work
+2015-01-10 17:32:45	vinxz	Hi guys, I need to center 2 button (Altre news da mobileflurry?) and next button, after article content. Any people could help me? this is the link http://tinyurl.com/o9jtynt ... Thanks!
+2015-01-10 17:32:54	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:33:41	▬▬▶	floatingpoint (~W@c-24-34-192-36.hsd1.ma.comcast.net) has joined #css
+2015-01-10 17:34:00	◀▬▬	HAPPYFUNBALL (~W@c-24-34-192-36.hsd1.ma.comcast.net) has quit (Ping timeout: 245 seconds)
+2015-01-10 17:34:49	emerson	Bitgod: ah, yes, because floated elements are taken out of the normal document flow, so they appear 'invisible' to their parents, and they won't be accounted for when calculating dimensions
+2015-01-10 17:34:53	▬▬▶	BigBangUDR (~Thunderbi@115.247.86.67) has joined #css
+2015-01-10 17:35:19	▬▬▶	richardbkr (~richardbk@73.15.207.74) has joined #css
+2015-01-10 17:35:29	emerson	`fc
+2015-01-10 17:35:29	Selvvir	emerson, Contain floats: http://colinaarts.com/articles/float-containment/
+2015-01-10 17:35:40	emerson	Bitgod: there's a good link for how to deal with that ^
+2015-01-10 17:35:46	Bitgod	ok
+2015-01-10 17:35:52	Bitgod	ill check it out later, gonna nap
+2015-01-10 17:35:53	Bitgod	ty sir
+2015-01-10 17:36:01	emerson	alright, have a good nap
+2015-01-10 17:36:27	◀▬▬	andrei1 (~andrei@79.112.157.100) has quit (Ping timeout: 245 seconds)
+2015-01-10 17:36:30	emerson	vinxz: the 'altre news' buttons?
+2015-01-10 17:36:41	vinxz	emerson: yes :)
+2015-01-10 17:36:52	ℹ 	ValicekB_ is now known as ValicekB
+2015-01-10 17:37:02	▬▬▶	andrei1 (~andrei@79.112.157.100) has joined #css
+2015-01-10 17:37:21	◀▬▬	crakrjak (~merc@unaffiliated/crakrjak) has quit (Quit: crakrjak)
+2015-01-10 17:38:15	emerson	vinxz: i would wrap them in a container thats full width and then give them both 50% width
+2015-01-10 17:40:02	◀▬▬	richardbkr (~richardbk@73.15.207.74) has quit (Ping timeout: 244 seconds)
+2015-01-10 17:40:22	emerson	body: http://codepen.io/anon/pen/KwaeGx is what i did
+2015-01-10 17:40:54	▬▬▶	Jirachier (~Jirachier@41.248.61.198) has joined #css
+2015-01-10 17:41:11	body	emerson: yea, i did this too :) , but i can't put the icons in the bottom side at full size right?
+2015-01-10 17:41:26	body	emerson: without that the icons goes off the scren
+2015-01-10 17:41:30	▬▬▶	x1 (~x@gateway/tor-sasl/commandercody/x-44464735) has joined #css
+2015-01-10 17:41:54	◀▬▬	Audioburn (~not_mike@unaffiliated/not-mike/x-4399907) has quit (Ping timeout: 244 seconds)
+2015-01-10 17:41:55	emerson	oh, you want all the buttons to be visible without scrolling?
+2015-01-10 17:45:03	◀▬▬	chargen (~chargen@46.Red-79-147-98.dynamicIP.rima-tde.net) has quit (Read error: Connection reset by peer)
+2015-01-10 17:46:33	◀▬▬	a3f (~a3f@2a02:810d:8a40:2e50:3910:fab8:b743:3a57) has quit (Ping timeout: 244 seconds)
+2015-01-10 17:46:45	CoJaBo	I don't suppose there's a way to use a sibling selector to show/hide an element based on the selected option in a <select> is there?
+2015-01-10 17:47:04	▬▬▶	lionmac (~lionmac@188.164.217.65) has joined #css
+2015-01-10 17:47:07	◀▬▬	mikewintermute (~mikewinte@ppp-2-87-143-246.home.otenet.gr) has quit (Quit: mikewintermute)
+2015-01-10 17:47:54	▬▬▶	Merkss (~Merkss@dhcp-089-098-150-090.chello.nl) has joined #css
+2015-01-10 17:48:21	◀▬▬	BigBangUDR (~Thunderbi@115.247.86.67) has quit (Quit: BigBangUDR)
+2015-01-10 17:49:15	body	emerson: not really, i want that on full size the buttons sits in the bottom side
+2015-01-10 17:49:39	emerson	body: oh, i think your bootstrap is controlling that
+2015-01-10 17:49:46	body	emerson: ah
+2015-01-10 17:49:48	emerson	and i don't know how that all works
+2015-01-10 17:50:08	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:50:10	body	emerson: ok than, i really appreciate your help, thank you 
+2015-01-10 17:50:19	body	emerson: i will try to figure out :P
+2015-01-10 17:50:37	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:51:21	◀▬▬	heedypo (~heedypo@05471cb6.skybroadband.com) has quit (Quit: WeeChat 0.4.2)
+2015-01-10 17:51:24	◀▬▬	hnsr (~hnsr@5468EDAF.cm-12-1d.dynamic.ziggo.nl) has quit (Disconnected by services)
+2015-01-10 17:51:35	▬▬▶	rayiner (~miro@31.134.103.239) has joined #css
+2015-01-10 17:51:36	▬▬▶	hnsr_ (~hnsr@5468EDAF.cm-12-1d.dynamic.ziggo.nl) has joined #css
+2015-01-10 17:51:36	emerson	body: could also aak ##bootstrap
+2015-01-10 17:51:40	emerson	ask, even
+2015-01-10 17:51:52	◀▬▬	lionmac (~lionmac@188.164.217.65) has quit (Ping timeout: 265 seconds)
+2015-01-10 17:52:18	emerson	CoJaBo: no, css doesn't have access to the selected value of the select element
+2015-01-10 17:52:22	emerson	its a DOM API
+2015-01-10 17:52:32	◀▬▬	rayiner (~miro@31.134.103.239) has left #css
+2015-01-10 17:52:52	▬▬▶	topdownjimmy (~Jay@c-50-177-29-254.hsd1.ma.comcast.net) has joined #css
+2015-01-10 17:52:55	CoJaBo	There's a way, but it only works for one element
+2015-01-10 17:52:59	◀▬▬	topdownjimmy (~Jay@c-50-177-29-254.hsd1.ma.comcast.net) has quit (Client Quit)
+2015-01-10 17:53:03	CoJaBo	(and is a rather stupid hack)
+2015-01-10 17:53:08	CoJaBo	:/
+2015-01-10 17:53:17	◀▬▬	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has quit (Remote host closed the connection)
+2015-01-10 17:53:42	▬▬▶	Cyph3r (~Cyph3r@71-84-66-147.dhcp.rvsd.ca.charter.com) has joined #css
+2015-01-10 17:54:15	soCalled	Does anyone know what would cause word-wrap:break-word; to fail? What else do I need besides that and to specify the width?
+2015-01-10 17:56:55	▬▬▶	flexpaint (~flexpaint@2602:47:dce8:5b00:192d:40cd:b9d1:4519) has joined #css
+2015-01-10 17:59:40	◀▬▬	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has quit (Ping timeout: 244 seconds)
+2015-01-10 18:00:30	◀▬▬	nisseni (~chatzilla@81-233-136-73-no27.tbcn.telia.com) has quit (Ping timeout: 244 seconds)
+2015-01-10 18:02:00	◀▬▬	hunboy (~hunboy@82.131.220.196.pool.invitel.hu) has quit (Ping timeout: 264 seconds)
+2015-01-10 18:02:27	▬▬▶	hunboy (~hunboy@82.131.221.147.pool.invitel.hu) has joined #css
+2015-01-10 18:06:40	flexpaint	http://jsfiddle.net/9qry76uu/ on my site episode2 overlaps with everything beneath it if its over a certain length. how can i make it look good with both short and long titles?
+2015-01-10 18:11:12	▬▬▶	MEGAGHZ (~MEGAGHZ@dslb-188-101-144-252.188.101.pools.vodafone-ip.de) has joined #css
+2015-01-10 18:11:50	▬▬▶	a3f (~a3f@2a02:810d:8a40:2e50:a9e8:5f59:f80a:14c8) has joined #css
+2015-01-10 18:12:00	◀▬▬	tapout (~tapout@unaffiliated/tapout) has quit (Ping timeout: 245 seconds)
+2015-01-10 18:12:02	flexpaint	anyone know? i tried word-wrap.. kind of lost though
+2015-01-10 18:12:42	Patteh	whenever i click on an a tag on this site, the element shrinks
+2015-01-10 18:12:50	Patteh	can anyone help where its coming from?
+2015-01-10 18:12:53	Patteh	www.zutro.net
+2015-01-10 18:13:24	◀▬▬	SpeedyGhost (~kvirc64@kvirc/translator/SpeedyGhost) has quit (Ping timeout: 264 seconds)
+2015-01-10 18:13:29	Patteh	i've checked hover events and i'm not changing any sizes there
+2015-01-10 18:13:58	◀▬▬	a3f (~a3f@2a02:810d:8a40:2e50:a9e8:5f59:f80a:14c8) has quit (Client Quit)
+2015-01-10 18:14:12	▬▬▶	mikewintermute (~mikewinte@ppp-2-87-143-246.home.otenet.gr) has joined #css
+2015-01-10 18:14:39	preaction	click is :active, not :hover. you're setting font-size: 1.2em during :active
+2015-01-10 18:14:46	preaction	also, which a tag? i can only make one of them do it
+2015-01-10 18:15:01	preaction	and it doesn't shrink for me, it expands
+2015-01-10 18:15:09	preaction	and your links are extremely hard to make out from the text
+2015-01-10 18:15:53	flexpaint	i need you pre
+2015-01-10 18:15:59	preaction	and "here" is not a good link. in your "Why choose zutro?" paragraph, the link should be "subscribe to our mailing list for future products and/or promotions"
+2015-01-10 18:16:55	preaction	flexpaint: i'm not ready for that kind of relationship. i think we should just keep idling together in irc
+2015-01-10 18:17:10	flexpaint	im really giving though....
+2015-01-10 18:17:20	flexpaint	compare these http://podliberty.com/?s=joe vs http://podliberty.com/?s=house
+2015-01-10 18:17:25	flexpaint	wtf is going on
+2015-01-10 18:18:56	▬▬▶	mariuscc (~mariuscc@79.118.95.96) has joined #css
+2015-01-10 18:20:15	preaction	margin-top: -44px? why do you need that?
+2015-01-10 18:20:33	flexpaint	padding the bottom and setting the height doesnt work for whatever reason
+2015-01-10 18:20:51	◀▬▬	katsh_ (~katsh@c-69-140-55-10.hsd1.md.comcast.net) has quit (Quit: WeeChat 1.0.1)
+2015-01-10 18:21:21	preaction	you're using margin-top: -44px because you've got an audio tag set to visibility: hidden, when you want it to be display: none
+2015-01-10 18:21:42	flexpaint	ah yeah thats my plugin...
+2015-01-10 18:22:07	flexpaint	its pulling from rss. idk what it does that
+2015-01-10 18:22:19	preaction	since it's visibility hidden, it still takes up space, which you then try to fix with negative margin, which you can see does not work
+2015-01-10 18:22:21	▬▬▶	tapout (~tapout@unaffiliated/tapout) has joined #css
+2015-01-10 18:22:53	Patteh	preaction the icons in the footer too
+2015-01-10 18:22:54	Patteh	ty
+2015-01-10 18:22:55	flexpaint	gotcha. ok ill try to find it in the plugins files
+2015-01-10 18:23:28	▬▬▶	Dimik (~Dimik@pool-108-6-165-149.nycmny.fios.verizon.net) has joined #css
+2015-01-10 18:24:00	Patteh	the social icons in the footer go mental
+2015-01-10 18:24:05	Patteh	and arent part of the active change
+2015-01-10 18:24:09	Patteh	(which i've now removed0
+2015-01-10 18:26:04	flexpaint	preaction: are on of these two audio tags doing it? https://gist.githubusercontent.com/anonymous/21d624ec43ec3fccb6ee/raw/1f79d0f7e564fcd05b1ca5f2119e683c35703603/gistfile1.txt
+2015-01-10 18:26:17	▬▬▶	marcjs_ (~marcjs@46.189.28.38) has joined #css
+2015-01-10 18:26:17	flexpaint	one*
+2015-01-10 18:26:22	preaction	Patteh: .nav-collapse li a:hover, a:active <- is not correct. all a:hover has display: block because of that selector
+2015-01-10 18:26:36	preaction	flexpaint: i'm not reading that.
+2015-01-10 18:26:42	flexpaint	just ctrl f audio lol
+2015-01-10 18:26:45	flexpaint	theres only 2
+2015-01-10 18:26:46	preaction	no
+2015-01-10 18:30:12	flexpaint	is there a way i can work around the audio tag
+2015-01-10 18:30:12	◀▬▬	Jirachier (~Jirachier@41.248.61.198) has quit (Ping timeout: 245 seconds)
+2015-01-10 18:30:31	▬▬▶	danemacmillan (~danemacmi@unaffiliated/danemacmillan) has joined #css
+2015-01-10 18:30:32	▬▬▶	Jirachier (~Jirachier@41.248.61.198) has joined #css
+2015-01-10 18:31:01	◀▬▬	marcjs_ (~marcjs@46.189.28.38) has quit (Ping timeout: 265 seconds)
+2015-01-10 18:31:57	◀▬▬	andrei1 (~andrei@79.112.157.100) has quit (Ping timeout: 252 seconds)
+2015-01-10 18:33:07	◀▬▬	KapitalisMus (~Kapitalis@87.213.166.2) has quit (Remote host closed the connection)
+2015-01-10 18:34:45	◀▬▬	mrdiesel (~mrdiesel@197.0.145.178) has quit (Ping timeout: 264 seconds)
+2015-01-10 18:36:52	◀▬▬	mega_ (~mega@146.255.160.97) has quit (Ping timeout: 245 seconds)
+2015-01-10 18:37:14	▬▬▶	Valduare (~Valduare@108-198-116-80.lightspeed.mdsnwi.sbcglobal.net) has joined #css
+2015-01-10 18:38:51	Patteh	preaction
+2015-01-10 18:38:53	Patteh	ty
+2015-01-10 18:38:57	Patteh	you the man etc
+2015-01-10 18:39:04	Patteh	or woman
+2015-01-10 18:39:14	◀▬▬	morenoh150 (~morenoh14@173-228-123-243.dsl.dynamic.fusionbroadband.com) has quit (Ping timeout: 265 seconds)
+2015-01-10 18:40:55	▬▬▶	ozanorhan (~ozanorhan@94.54.53.156) has joined #css
+2015-01-10 18:40:56	▬▬▶	s2013 (~ss@cpe-72-227-148-75.nyc.res.rr.com) has joined #css
+2015-01-10 18:42:26	◀▬▬	Andre_designer (~Thunderbi@82-170-146-165.ip.telfort.nl) has quit (Quit: Andre_designer)
+2015-01-10 18:44:24	▬▬▶	WizJin (~WizJinAFK@103.241.46.155) has joined #css
+2015-01-10 18:45:02	▬▬▶	lionmac (~lionmac@188.164.217.65) has joined #css
+2015-01-10 18:45:16	▬▬▶	pereba (~pereba@unaffiliated/pereba) has joined #css
+2015-01-10 18:45:41	▬▬▶	Sijdesign (~textual@0194300961.0.fullrate.dk) has joined #css
+2015-01-10 18:46:12	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 18:46:36	▬▬▶	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has joined #css
+2015-01-10 18:46:42	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 18:47:19	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 18:47:23	▬▬▶	dangerousdave (~dangerous@78.156.71.46) has joined #css
+2015-01-10 18:47:56	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 18:48:32	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 18:49:05	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 18:49:19	▬▬▶	skylite (~skylite@BC064975.dsl.pool.telekom.hu) has joined #css
+2015-01-10 18:49:27	◀▬▬	lionmac (~lionmac@188.164.217.65) has quit (Ping timeout: 255 seconds)
+2015-01-10 18:49:40	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 18:50:15	◀▬▬	pereba (~pereba@unaffiliated/pereba) has quit (Quit: AdiIRC, write down this name. [www.adiirc.com])
+2015-01-10 18:50:18	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 18:50:55	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 18:51:29	zap0	i have a div,  and a want to fade teh content near the top of it to transparent,  how?
+2015-01-10 18:51:35	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 18:54:15	▬▬▶	chrisshattuck (~chrisshat@96-18-101-205.cpe.cableone.net) has joined #css
+2015-01-10 18:54:25	ℹ 	zz_cdracars is now known as cdracars
+2015-01-10 18:55:23	◀▬▬	richardwhiuk (richardwhi@scarlet.richardwhiuk.com) has quit (Ping timeout: 256 seconds)
+2015-01-10 18:55:37	◀▬▬	Nothing4You (N4Y@nothing4you.w.tf-w.tf) has quit (Quit: Gone...)
+2015-01-10 18:55:37	◀▬▬	Gabi_ (Gabi@w.tf-w.tf) has quit (Quit: real life > virtual life)
+2015-01-10 18:55:39	◀▬▬	sine0 (sine@pcsage.co.uk) has quit (Ping timeout: 264 seconds)
+2015-01-10 18:56:12	▬▬▶	reliq (~lereliq@72.252.124.158) has joined #css
+2015-01-10 18:56:31	ezy_e	using cssSprites, i placed three images in the proper position, but there is a boarder or an outline of some type there. Is this typical? How do i get rid of it ?
+2015-01-10 18:56:46	◀▬▬	speshhh (~A@host86-177-166-233.range86-177.btcentralplus.com) has quit (Quit: speshhh)
+2015-01-10 19:01:49	▬▬▶	speshhh (~A@host86-177-166-233.range86-177.btcentralplus.com) has joined #css
+2015-01-10 19:02:00	◀▬▬	philipptee (~philippte@ip1f12bf33.dynamic.kabel-deutschland.de) has quit (Ping timeout: 264 seconds)
+2015-01-10 19:02:43	◀▬▬	dangerousdave (~dangerous@78.156.71.46) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2015-01-10 19:04:54	▬▬▶	imlinder (~imLinder@c83-255-102-195.bredband.comhem.se) has joined #css
+2015-01-10 19:05:34	◀▬▬	speshhh (~A@host86-177-166-233.range86-177.btcentralplus.com) has quit (Client Quit)
+2015-01-10 19:05:47	◀▬▬	sinkensabe (~sinkensab@h154n3-lk-d1.ias.bredband.telia.com) has quit (Remote host closed the connection)
+2015-01-10 19:05:48	◀▬▬	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has quit (Ping timeout: 244 seconds)
+2015-01-10 19:07:51	▬▬▶	KapitalisMus (~Kapitalis@195-240-1-121.ip.telfort.nl) has joined #css
+2015-01-10 19:07:59	▬▬▶	D9 (~un@10.sub-70-194-74.myvzw.com) has joined #css
+2015-01-10 19:08:23	▬▬▶	habanany_ (~chatzilla@cpe-142-255-42-254.nyc.res.rr.com) has joined #css
+2015-01-10 19:09:25	◀▬▬	imlinder (~imLinder@c83-255-102-195.bredband.comhem.se) has quit (Ping timeout: 245 seconds)
+2015-01-10 19:09:30	▬▬▶	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has joined #css
+2015-01-10 19:11:12	▬▬▶	duderion (~duderion@2a02:908:e14a:3a00:b8cc:cecd:32ca:35c0) has joined #css
+2015-01-10 19:11:26	▬▬▶	lenswipe (~lenswipe@unaffiliated/lenswipe) has joined #css
+2015-01-10 19:11:40	ezy_e	anyone on the sprites thing?
+2015-01-10 19:12:50	◀▬▬	nikio_ (~nikio@wlan-145-94-185-150.wlan.tudelft.nl) has quit (Ping timeout: 244 seconds)
+2015-01-10 19:12:52	▬▬▶	cfusch2 (~Thunderbi@67-8-245-185.res.bhn.net) has joined #css
+2015-01-10 19:13:34	◀▬▬	cfusch2 (~Thunderbi@67-8-245-185.res.bhn.net) has quit (Client Quit)
+2015-01-10 19:14:12	◀▬▬	jlumpe (~jlumpe@176.232.178.32) has quit (Ping timeout: 255 seconds)
+2015-01-10 19:17:01	◀▬▬	chrisshattuck (~chrisshat@96-18-101-205.cpe.cableone.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-01-10 19:18:37	▬▬▶	richardwhiuk (richardwhi@scarlet.richardwhiuk.com) has joined #css
+2015-01-10 19:18:41	▬▬▶	Stalkr_ (~Stalkr@x1-6-74-44-01-e5-78-62.cpe.webspeed.dk) has joined #css
+2015-01-10 19:19:15	▬▬▶	lionmac (~lionmac@188.164.217.65) has joined #css
+2015-01-10 19:20:07	▬▬▶	zeroquake (~zeroquake@159.140.254.104) has joined #css
+2015-01-10 19:20:24	◀▬▬	ozanorhan (~ozanorhan@94.54.53.156) has quit (Remote host closed the connection)
+2015-01-10 19:20:35	◀▬▬	WizJin (~WizJinAFK@103.241.46.155) has quit (Quit: Leaving)
+2015-01-10 19:20:54	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 19:22:02	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 19:23:27	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 19:23:43	◀▬▬	lionmac (~lionmac@188.164.217.65) has quit (Ping timeout: 256 seconds)
+2015-01-10 19:23:53	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Read error: Connection reset by peer)
+2015-01-10 19:24:26	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 19:24:45	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 19:24:47	◀▬▬	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has quit (Ping timeout: 245 seconds)
+2015-01-10 19:25:57	ℹ 	cdracars is now known as zz_cdracars
+2015-01-10 19:26:02	▬▬▶	jlumpe (~jlumpe@176.41.248.12) has joined #css
+2015-01-10 19:27:13	◀▬▬	jlumpe (~jlumpe@176.41.248.12) has quit (Read error: Connection reset by peer)
+2015-01-10 19:28:31	◀▬▬	reliq (~lereliq@72.252.124.158) has quit (Remote host closed the connection)
+2015-01-10 19:28:47	▬▬▶	reliq (~lereliq@72.252.124.158) has joined #css
+2015-01-10 19:28:51	▬▬▶	dbaron (~dbaron@50-0-248-60.dsl.dynamic.fusionbroadband.com) has joined #css
+2015-01-10 19:32:19	▬▬▶	jlumpe (~jlumpe@176.41.248.12) has joined #css
+2015-01-10 19:32:24	ℹ 	khisanth_ is now known as Khisanth
+2015-01-10 19:32:57	◀▬▬	ezy_e (~ezy_e@24-107-5-64.dhcp.stls.mo.charter.com) has quit
+2015-01-10 19:34:21	▬▬▶	drej (~pud@unaffiliated/jedimind) has joined #css
+2015-01-10 19:35:24	◀▬▬	jlumpe (~jlumpe@176.41.248.12) has quit (Client Quit)
+2015-01-10 19:36:26	◀▬▬	DragonPunch (~textual@CPE-70-92-146-217.wi.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-01-10 19:36:54	◀▬▬	D9 (~un@10.sub-70-194-74.myvzw.com) has quit (Read error: Connection reset by peer)
+2015-01-10 19:37:07	▬▬▶	Juxtapositional (~Juxtaposi@bas1-montreal43-2925254862.dsl.bell.ca) has joined #css
+2015-01-10 19:37:57	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 19:38:12	◀▬▬	reliq (~lereliq@72.252.124.158) has quit (Ping timeout: 265 seconds)
+2015-01-10 19:38:46	▬▬▶	DragonPunch (~textual@70.92.146.217) has joined #css
+2015-01-10 19:38:50	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Max SendQ exceeded)
+2015-01-10 19:38:54	◀▬▬	uZer (~uZer88@178-175-141-75.ip.as43289.net) has quit (Quit: bye...)
+2015-01-10 19:38:59	▬▬▶	sinkensabe (~sinkensab@213.115.244.180) has joined #css
+2015-01-10 19:39:54	▬▬▶	mrdiesel__ (~mrdiesel@41.226.124.242) has joined #css
+2015-01-10 19:40:15	◀▬▬	joeyDB__ (~jftf@ool-6894ffea.dyn.optonline.net) has quit (Ping timeout: 245 seconds)
+2015-01-10 19:42:50	◀▬▬	\mSg (~mSg@unaffiliated/msg/x-4576342) has quit (Ping timeout: 245 seconds)
+2015-01-10 19:43:36	◀▬▬	Soopaman (~soopaman@dsl-67-204-49-43.acanac.net) has quit (Quit: Leaving.)
+2015-01-10 19:43:43	▬▬▶	uZer (~uZer88@178-175-141-75.ip.as43289.net) has joined #css
+2015-01-10 19:44:21	◀▬▬	mrdiesel__ (~mrdiesel@41.226.124.242) has quit (Ping timeout: 255 seconds)
+2015-01-10 19:44:57	▬▬▶	Soopaman (~soopaman@dsl-67-204-49-43.acanac.net) has joined #css
+2015-01-10 19:45:00	▬▬▶	philipptee (~philippte@ip1f12bf33.dynamic.kabel-deutschland.de) has joined #css
+2015-01-10 19:49:46	◀▬▬	drej (~pud@unaffiliated/jedimind) has quit (Quit: zzzz)
+2015-01-10 19:50:58	◀▬▬	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has quit (Read error: Connection reset by peer)
+2015-01-10 19:51:28	▬▬▶	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has joined #css
+2015-01-10 19:51:35	▬▬▶	andrei1 (~andrei@79.112.157.100) has joined #css
+2015-01-10 19:54:11	▬▬▶	chris____ (472fb10b@gateway/web/freenode/ip.71.47.177.11) has joined #css
+2015-01-10 19:55:11	▬▬▶	buzzlewoo (~buzzlewoo@c-71-197-226-140.hsd1.wa.comcast.net) has joined #css
+2015-01-10 19:55:23	◀▬▬	RDove (~RDove@unaffiliated/rdove) has quit (Remote host closed the connection)
+2015-01-10 19:56:29	▬▬▶	RDove (~RDove@73.180.138.14) has joined #css
+2015-01-10 19:56:30	◀▬▬	RDove (~RDove@73.180.138.14) has quit (Changing host)
+2015-01-10 19:56:30	▬▬▶	RDove (~RDove@unaffiliated/rdove) has joined #css
+2015-01-10 19:57:16	▬▬▶	MEGAGHZ_ (~MEGAGHZ@dslb-188-101-144-252.188.101.pools.vodafone-ip.de) has joined #css
+2015-01-10 19:58:10	◀▬▬	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has quit (Ping timeout: 245 seconds)
+2015-01-10 19:58:18	◀▬▬	happyowl (~a@unaffiliated/happyowl) has quit (Read error: Connection reset by peer)
+2015-01-10 19:58:51	◀▬▬	Trow (~Trow@193.50.79.255) has quit (Ping timeout: 256 seconds)
+2015-01-10 20:00:22	▬▬▶	Trow (~Trow@193.50.79.253) has joined #css
+2015-01-10 20:00:33	◀▬▬	habanany1 (~lazaro@cpe-142-255-42-254.nyc.res.rr.com) has quit (Ping timeout: 255 seconds)
+2015-01-10 20:00:59	▬▬▶	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has joined #css
+2015-01-10 20:01:33	▬▬▶	joeyDB__ (~jftf@ool-6bbc1788.dyn.optonline.net) has joined #css
+2015-01-10 20:01:36	◀▬▬	s2013 (~ss@cpe-72-227-148-75.nyc.res.rr.com) has quit (Ping timeout: 244 seconds)
+2015-01-10 20:01:47	▬▬▶	javascripter (~javascrip@2601:7:d80:51b:397a:2d5b:d0fb:74c3) has joined #css
+2015-01-10 20:02:26	◀▬▬	habanany_ (~chatzilla@cpe-142-255-42-254.nyc.res.rr.com) has quit (Ping timeout: 244 seconds)
+2015-01-10 20:04:12	▬▬▶	drej (~pud@unaffiliated/jedimind) has joined #css
+2015-01-10 20:05:34	◀▬▬	Sijdesign (~textual@0194300961.0.fullrate.dk) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-01-10 20:05:54	▬▬▶	imlinder (~imLinder@c83-255-102-195.bredband.comhem.se) has joined #css
+2015-01-10 20:07:43	▬▬▶	HAPPYFUNBALL (~W@c-24-34-192-36.hsd1.ma.comcast.net) has joined #css
+2015-01-10 20:08:08	▬▬▶	lapide_viridi (~lapide_vi@ti0097a400-0813.bb.online.no) has joined #css
+2015-01-10 20:08:11	▬▬▶	pereba (~pereba@unaffiliated/pereba) has joined #css
+2015-01-10 20:08:25	◀▬▬	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has quit (Read error: Connection reset by peer)
+2015-01-10 20:08:37	▬▬▶	habanany1 (~lazaro@cpe-142-255-42-254.nyc.res.rr.com) has joined #css
+2015-01-10 20:09:14	Valduare	hey guys I have quite the css problem for ya - I have a fixed navbar and then an affixed subnav   the problem is I want to make a div that takes up 100% of the remainding height
+2015-01-10 20:09:40	◀▬▬	rafaelcpalmeida (~rafaelcpa@pa3-84-91-120-114.netvisao.pt) has quit (Remote host closed the connection)
+2015-01-10 20:09:44	▬▬▶	habanany_ (~chatzilla@cpe-142-255-42-254.nyc.res.rr.com) has joined #css
+2015-01-10 20:09:52	◀▬▬	floatingpoint (~W@c-24-34-192-36.hsd1.ma.comcast.net) has quit (Ping timeout: 244 seconds)
+2015-01-10 20:10:12	▬▬▶	matrixdevuk (~\S\e\m\i\@unaffiliated/matrixdevuk) has joined #css
+2015-01-10 20:10:18	preaction	margin-top: with the same size as the navbar
+2015-01-10 20:10:27	◀▬▬	uZer (~uZer88@178-175-141-75.ip.as43289.net) has quit (Quit: bye...)
+2015-01-10 20:10:28	◀▬▬	matrixdevuk (~\S\e\m\i\@unaffiliated/matrixdevuk) has left #css
+2015-01-10 20:10:45	◀▬▬	imlinder (~imLinder@c83-255-102-195.bredband.comhem.se) has quit (Ping timeout: 264 seconds)
+2015-01-10 20:11:03	▬▬▶	mellernoia (~edw@177.204.157.215.dynamic.adsl.gvt.net.br) has joined #css
+2015-01-10 20:12:51	Valduare	one of the problems im having too
+2015-01-10 20:12:54	▬▬▶	chrisshattuck (~chrisshat@96-18-101-205.cpe.cableone.net) has joined #css
+2015-01-10 20:13:16	Valduare	is the body is set to 100%
+2015-01-10 20:13:21	ℹ 	irc: disconnected from server

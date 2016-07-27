@@ -1,0 +1,730 @@
+2015-11-15 21:34:03	»	body (~body@79-64-174-41.host.pobb.as13285.net) has joined #html
+2015-11-15 21:34:03	■	Topic for #html is "HyperText Markup Language | http://www.w3.org/TR/html5/ | #css for styling | No WYSIWYGs | Tables aren't for layout: http://xrl.us/kd35 , http://goo.gl/8yFKr | Separate Content and Presentation: http://goo.gl/2DtpJO | Validate first: http://validator.w3.org/ | W3C reference: say e.g. `html5 div | Paste links, not code: `paste"
+2015-11-15 21:34:03	■	Topic set by lilmonkey on Tue, 08 Jul 2014 21:43:58
+2015-11-15 21:34:03	■	Channel #html: 186 nicks (1 op, 0 voices, 185 normals)
+2015-11-15 21:34:03	■	URL for #html: http://diveintohtml5.info
+2015-11-15 21:34:05	■	Channel created on Sun, 26 Nov 2006 06:42:44
+2015-11-15 21:34:51	body	Hello, i'm trying to make a button that when somebody overlay the mouse on it, doesn't show to url on the left corner of the browser, anybody have some ideea ?
+2015-11-15 21:42:43	«	Maurice` (~copyman@unaffiliated/maurice) has quit
+2015-11-15 21:43:10	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Ping timeout: 240 seconds)
+2015-11-15 21:45:26	«	oksushi_ (~oksushi@128.199.226.173) has left #html
+2015-11-15 21:45:44	»	oksushi (~oksushi@128.199.226.173) has joined #html
+2015-11-15 21:47:55	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 21:51:50	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 21:51:53	«	hamdroid (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has quit (Read error: Connection reset by peer)
+2015-11-15 21:56:14	lens	body, I would be interested in seeing you finding an answer to that (try ##javascript?). afaik, this is the wrong channel and it may not be possible
+2015-11-15 21:57:08	»	cerebro (~cerebro@goo.atnf.csiro.au) has joined #html
+2015-11-15 21:57:14	«	cerebro (~cerebro@goo.atnf.csiro.au) has quit (Remote host closed the connection)
+2015-11-15 21:57:27	»	cerebro (~cerebro@goo.atnf.csiro.au) has joined #html
+2015-11-15 21:57:37	@lilmonkey`	body: you can't prevent someone from finding out the action URI of a form, if that's what you mean.
+2015-11-15 21:57:48	body	thank you lens, but they don't want to help me 
+2015-11-15 21:57:50	body	:))
+2015-11-15 21:57:57	@lilmonkey`	Also, for what purpose? I can only think of shady/malicious purposes.
+2015-11-15 21:58:16	lens	that's what I thought
+2015-11-15 21:58:27	lens	but I've also thought, on occassion, that it's ugly
+2015-11-15 21:58:34	 *	lens shrugs
+2015-11-15 21:58:37	@lilmonkey`	What.
+2015-11-15 21:58:40	body	lilmonkey`: it's for a refferal link ..
+2015-11-15 21:58:44	@lilmonkey`	body: and?
+2015-11-15 21:58:59	body	basicaly i'm giving people 20$ to invest but they have tu use my referal link
+2015-11-15 21:59:09	body	to* use
+2015-11-15 21:59:30	lens	lilmonkey`, I'm saying that it looks ugly in my browser when I hover over a URL and have a small box appear somewhere that contains text-value of the URL
+2015-11-15 21:59:47	@lilmonkey`	And by ugly you mean useful and informative? Got it.
+2015-11-15 22:00:09	lens	I did not make arguments against it being useful or informative
+2015-11-15 22:00:28	lens	either way, it don't taste like html soup to me
+2015-11-15 22:00:33	@lilmonkey`	Any somewhat tech-savvy and security-minded person would not even click a link if the URI wasn't visible.
+2015-11-15 22:02:49	body	yea... that's true
+2015-11-15 22:03:37	lens	Let the record show that I never argued against that
+2015-11-15 22:03:42	 *	lens slams wooden mallet
+2015-11-15 22:04:04	@lilmonkey`	Anyway, the second you said '20$' I knew that you are trying to trick people. Suspicion confirmed, still haven't ever heard of a valid purpose for hiding URI.
+2015-11-15 22:04:36	@lilmonkey`	$20 for whoever has one ^_^
+2015-11-15 22:04:57	body	i want to help them, but in exchange for that 20$ i want them as a refferal
+2015-11-15 22:04:57	body	..
+2015-11-15 22:05:01	body	that's all 
+2015-11-15 22:05:14	@lilmonkey`	OK, great, but that doesn't require hiding any URIs.
+2015-11-15 22:06:03	body	but what most people do it's deleting the referal number and joining normal
+2015-11-15 22:06:18	@lilmonkey`	Yes, so you're trying to trick people.
+2015-11-15 22:06:25	body	no..
+2015-11-15 22:06:45	@lilmonkey`	Yes. Now please stop discussing this, we're done.
+2015-11-15 22:07:06	@lilmonkey`	You won't get any support here for shady practices.
+2015-11-15 22:07:09	body	really dude, why should i tell you bullshit..
+2015-11-15 22:07:12	body	i have no reason for
+2015-11-15 22:07:18	@lilmonkey`	You do, money is involved.
+2015-11-15 22:07:28	»	meese (~meese@105-224-137-216.mtaonline.net) has joined #html
+2015-11-15 22:07:30	@lilmonkey`	When money is involved, some people lose all sight of decency.
+2015-11-15 22:07:34	@lilmonkey`	As everyone knows.
+2015-11-15 22:08:14	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 22:16:25	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 22:17:10	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 22:19:02	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 22:27:50	«	SlashLife (~slashlife@botters/slashlife) has quit (Ping timeout: 240 seconds)
+2015-11-15 22:29:38	»	SlashLife (~slashlife@botters/slashlife) has joined #html
+2015-11-15 22:31:34	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 22:36:54	«	wingman (~wingman@87.97.228.176) has quit (Quit: Leaving)
+2015-11-15 22:39:07	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-15 22:40:10	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 22:47:36	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 22:50:07	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 23:11:41	«	ObjectiveMatt (~Objective@162.242.94.138) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-11-15 23:13:22	Chocolate_Chip	Oh man. Remember when this was the web? http://choco.herobo.com/webm/Web.webm
+2015-11-15 23:13:31	Chocolate_Chip	heh]\
+2015-11-15 23:15:12	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 23:15:24	«	opsec (~opsec@unaffiliated/opsec) has quit (Quit: all your base are belong to us.)
+2015-11-15 23:15:49	»	opsec (~opsec@unaffiliated/opsec) has joined #html
+2015-11-15 23:20:25	@lilmonkey`	I don't remember it ever being that way, no, but that is quite possible the most cringe-worthy thing I've seen in a long time.
+2015-11-15 23:21:03	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-15 23:21:10	@lilmonkey`	I hope it's tongue-in-cheek and not serious!
+2015-11-15 23:21:23	«	realnot (~realnot@unaffiliated/realnot) has quit (Ping timeout: 246 seconds)
+2015-11-15 23:21:48	Chocolate_Chip	1996 I think it said
+2015-11-15 23:22:02	Chocolate_Chip	The 90's internet is kinda sad but interesting to look through
+2015-11-15 23:22:23	@lilmonkey`	Eh yeah, not like I couldn't produce something today and make it say it's from 1996 :P
+2015-11-15 23:22:48	«	xenaxon (4f75a213@gateway/web/freenode/ip.79.117.162.19) has quit (Quit: Page closed)
+2015-11-15 23:22:54	»	realnot (~realnot@unaffiliated/realnot) has joined #html
+2015-11-15 23:23:32	Chocolate_Chip	I love jhow the guy says "You got games like checkers" and then just stops
+2015-11-15 23:23:52	Chocolate_Chip	"You got jpgs, txt, and mp3s. Subserviant brides from over seas"
+2015-11-15 23:23:53	@lilmonkey`	Right... almost has to be a parody.
+2015-11-15 23:27:47	«	SPF|Cloud (uid11755@wikipedia/Southparkfan) has quit (Quit: Connection closed for inactivity)
+2015-11-15 23:35:54	«	lobuz (~oskid@arq242.neoplus.adsl.tpnet.pl) has quit (Quit: Leaving)
+2015-11-15 23:40:12	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-15 23:44:09	CoJaBo	lilmonkey`: http://www.youtube.com/watch?v=ZW-oUXqomT0
+2015-11-15 23:45:20	«	Lauven (Lauven@cable-24-135-123-64.dynamic.sbb.rs) has quit
+2015-11-15 23:48:14	«	CrazyH__ (~hakachuka@h250.84.28.71.dynamic.ip.windstream.net) has quit (Quit: Ex-Chat)
+2015-11-15 23:48:24	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-15 23:50:20	»	ObjectiveMatt (~Objective@162.242.94.138) has joined #html
+2015-11-15 23:52:20	@lilmonkey`	:D
+2015-11-15 23:53:20	CoJaBo	The fun part is, that video is more accurate than 99% of news coverage on Bitcoin =D
+2015-11-15 23:58:45	«	realnot (~realnot@unaffiliated/realnot) has quit (Ping timeout: 255 seconds)
+2015-11-16 00:03:59	«	Encapsulation (~Astoundin@unaffiliated/encapsulation) has quit (Ping timeout: 265 seconds)
+2015-11-16 00:13:03	»	MikeJoel (MikeJoel@63.131.35.100) has joined #html
+2015-11-16 00:13:52	MikeJoel	do curly brackets in comment lines have any special meaning? <!-- {text} --> I was going to use this for marking section for a script, but thought I better check?
+2015-11-16 00:13:53	«	xrash (~xrash@189.110.217.55) has quit (Remote host closed the connection)
+2015-11-16 00:16:31	CoJaBo	MikeJoel: It's a templating engine; nothing to do with HTML
+2015-11-16 00:17:09	MikeJoel	huh?
+2015-11-16 00:17:18	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 00:17:53	CoJaBo	Syntax like that is usually for templates, from what I've seen; there is no special meaning unless you use a particular templating engine.
+2015-11-16 00:18:18	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 00:18:31	MikeJoel	CoJaBo: thank you that is what I wanted to know - I knew <!-- if[] has special meaning so wasn't sure
+2015-11-16 00:18:52	CoJaBo	That doesn't either, in HTML; it's an IE-specific syntax.
+2015-11-16 00:19:22	CoJaBo	Lots and lots and lots of things overload/abuse HTML comments, usually in quite ugly ways.
+2015-11-16 00:19:42	MikeJoel	:)
+2015-11-16 00:19:57	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 00:20:44	CoJaBo	Stupidest I've seen lately: storing CSV databases in HTML comments, loaded with Javascript. What the hell was that guy SMOKING?
+2015-11-16 00:20:55	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 00:21:52	MikeJoel	that would be slow
+2015-11-16 00:22:35	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 00:23:13	CoJaBo	It loaded the source with AJAX and parsed it manually; so yes, it was.
+2015-11-16 00:23:36	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 00:23:36	CoJaBo	Amusingly, I found it because a "--" at a random place in the page broke said parser :/
+2015-11-16 00:24:51	MikeJoel	hmm, maybe he was desperate for db but didn't have access
+2015-11-16 00:25:25	CoJaBo	The CSV is loaded from an SQL DB in the backend.
+2015-11-16 00:26:53	MikeJoel	?!
+2015-11-16 00:27:00	MikeJoel	lol
+2015-11-16 00:27:28	»	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has joined #html
+2015-11-16 00:27:28	«	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has quit (Changing host)
+2015-11-16 00:27:28	»	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has joined #html
+2015-11-16 00:27:36	CoJaBo	Outsourcers, man. Outsourcers...
+2015-11-16 00:36:40	«	sagerdearia (~necrodear@unaffiliated/necrodearia) has quit (Ping timeout: 272 seconds)
+2015-11-16 00:46:30	»	sayur (~quassel@118.97.208.194) has joined #html
+2015-11-16 00:47:30	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 00:48:42	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 00:52:30	»	sagerdearia (~necrodear@unaffiliated/necrodearia) has joined #html
+2015-11-16 00:54:19	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 00:55:06	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 00:56:45	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 00:57:33	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 01:11:00	»	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has joined #html
+2015-11-16 01:16:22	«	sayur (~quassel@118.97.208.194) has quit (Read error: Connection reset by peer)
+2015-11-16 01:18:39	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 01:19:25	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 01:19:57	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 01:20:44	«	meese (~meese@105-224-137-216.mtaonline.net) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:22:24	»	meese (~meese@105-224-137-216.mtaonline.net) has joined #html
+2015-11-16 01:26:31	»	sayur (~quassel@118.97.208.194) has joined #html
+2015-11-16 01:27:48	«	MikeJoel (MikeJoel@63.131.35.100) has quit (Ping timeout: 250 seconds)
+2015-11-16 01:32:33	«	\mSg (mSg@unaffiliated/msg/x-4576342) has quit (Read error: Connection reset by peer)
+2015-11-16 01:32:39	«	RudyValencia (rudy@unaffiliated/rudyvalencia) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:32:53	«	ajf- (~ajf-@181-160-158-242.baf.movistar.cl) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-16 01:32:53	»	\mSg (mSg@unaffiliated/msg/x-4576342) has joined #html
+2015-11-16 01:33:00	«	quackgyver (sid11872@gateway/web/irccloud.com/x-dzpnqnphpygaoysw) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:33:20	«	Wesleysld (sid48624@gateway/web/irccloud.com/x-dykxvayffhsnrqyv) has quit (Read error: Connection reset by peer)
+2015-11-16 01:33:20	«	phyrdaus (sid113088@gateway/web/irccloud.com/x-wsoewfaazxyoujxc) has quit (Write error: Connection reset by peer)
+2015-11-16 01:33:21	«	ggherdov (sid11402@gateway/web/irccloud.com/x-yabkmpjcniaycskg) has quit (Write error: Connection reset by peer)
+2015-11-16 01:33:21	«	KnownSyntax (sid7983@gateway/web/irccloud.com/x-ehwxazrptsgkggyi) has quit (Read error: Connection reset by peer)
+2015-11-16 01:33:21	«	Fudster (sid4817@gateway/web/irccloud.com/x-fafxtsmppasngtiu) has quit (Write error: Connection reset by peer)
+2015-11-16 01:33:21	«	prosodyCagain (uid32673@gateway/web/irccloud.com/x-fkbiuhdwxmvpyvoe) has quit (Write error: Connection reset by peer)
+2015-11-16 01:34:02	«	Eclipse (~LukeAgain@lukej.ovh) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:34:15	»	phyrdaus (sid113088@gateway/web/irccloud.com/x-mlnsquvcsckzxatg) has joined #html
+2015-11-16 01:34:51	»	ajf- (~ajf-@181-160-158-242.baf.movistar.cl) has joined #html
+2015-11-16 01:35:06	«	Snakes- (~Snakes@2001:1b40:5000:14::8b9b:b2c9) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:35:27	«	sparr (~sparr@pdpc/supporter/active/sparr) has quit (Ping timeout: 246 seconds)
+2015-11-16 01:37:35	»	ItsLuke (~LukeAgain@lukej.ovh) has joined #html
+2015-11-16 01:37:55	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 01:38:08	»	RudyValencia (~rudy@uc.humanocentric.com) has joined #html
+2015-11-16 01:38:08	«	RudyValencia (~rudy@uc.humanocentric.com) has quit (Changing host)
+2015-11-16 01:38:08	»	RudyValencia (~rudy@unaffiliated/rudyvalencia) has joined #html
+2015-11-16 01:39:11	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 01:39:21	»	Snakes (~Snakes@2001:1b40:5000:14::8b9b:b2c9) has joined #html
+2015-11-16 01:39:35	»	Wesleysld (sid48624@gateway/web/irccloud.com/x-cqgcmklozldhylim) has joined #html
+2015-11-16 01:39:45	»	sparr (~sparr@2604:a880:800:10::103:f001) has joined #html
+2015-11-16 01:39:54	»	ggherdov (sid11402@gateway/web/irccloud.com/x-zfmauprdlrrpcmsm) has joined #html
+2015-11-16 01:40:44	»	Fudster (sid4817@gateway/web/irccloud.com/x-nmxhmxtzrmgqrinz) has joined #html
+2015-11-16 01:40:49	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 01:41:48	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 01:43:24	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 01:44:15	»	KnownSyntax (sid7983@gateway/web/irccloud.com/x-gioyjefcirdxfeku) has joined #html
+2015-11-16 01:44:41	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 01:44:41	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Client Quit)
+2015-11-16 01:44:48	»	quackgyver (sid11872@gateway/web/irccloud.com/x-hgyujnexdfatuzia) has joined #html
+2015-11-16 01:46:08	«	oojacoboo (~oojacoboo@24-181-15-194.dhcp.mdvl.ga.charter.com) has quit (Quit: Computer has gone to sleep.)
+2015-11-16 01:46:28	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 01:48:10	»	mepowers (mepowers@unaffiliated/mepowers) has joined #html
+2015-11-16 01:50:43	»	prosodyCagain (sid32673@gateway/web/irccloud.com/x-jwnurcpayeprmocg) has joined #html
+2015-11-16 01:56:42	«	mac_ified (~mac_ified@67-9-150-210.res.bhn.net) has quit
+2015-11-16 02:02:21	«	sayur (~quassel@118.97.208.194) has quit (Read error: Connection reset by peer)
+2015-11-16 02:02:26	«	obbs (~obbs@unaffiliated/obbs) has quit (Ping timeout: 240 seconds)
+2015-11-16 02:11:11	»	sayur (~quassel@118.97.208.194) has joined #html
+2015-11-16 02:17:25	»	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined #html
+2015-11-16 02:18:11	«	CoolBreeze (~haris@d4.63.01a8.ip4.static.sl-reverse.com) has quit (Ping timeout: 250 seconds)
+2015-11-16 02:21:07	«	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2015-11-16 02:26:44	«	ajf- (~ajf-@181-160-158-242.baf.movistar.cl) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-16 02:47:28	«	ObjectiveMatt (~Objective@162.242.94.138) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-11-16 02:47:41	»	ObjectiveMatt (~Objective@162.242.94.138) has joined #html
+2015-11-16 03:03:41	«	ValicekB (~tbox@55-125-149-46.synanet.cz) has quit (Ping timeout: 250 seconds)
+2015-11-16 03:05:15	«	opsec (~opsec@unaffiliated/opsec) has quit (Ping timeout: 240 seconds)
+2015-11-16 03:05:28	«	ObjectiveMatt (~Objective@162.242.94.138) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-11-16 03:06:42	»	ValicekB_ (~tbox@55-125-149-46.synanet.cz) has joined #html
+2015-11-16 03:07:57	«	sayur (~quassel@118.97.208.194) has quit (Remote host closed the connection)
+2015-11-16 03:10:01	»	opsec (~opsec@unaffiliated/opsec) has joined #html
+2015-11-16 03:10:45	■	ValicekB_ is now known as ValicekB
+2015-11-16 03:17:22	«	Guest32216 (~WAT@pool-173-49-54-103.phlapa.fios.verizon.net) has quit (Ping timeout: 260 seconds)
+2015-11-16 03:20:26	»	d3m0n (~d3m0n@unaffiliated/d3m0n) has joined #html
+2015-11-16 03:35:01	«	lemonpepper24 (~jack@3c.f8.5177.ip4.static.sl-reverse.com) has quit (Ping timeout: 252 seconds)
+2015-11-16 03:38:48	«	mepowers (mepowers@unaffiliated/mepowers) has left #html
+2015-11-16 03:40:20	«	yeticry (~yeticry@60.168.253.114) has quit (Ping timeout: 272 seconds)
+2015-11-16 03:41:03	»	yeticry (~yeticry@60.168.253.114) has joined #html
+2015-11-16 03:43:06	»	sayur (~quassel@118.97.208.194) has joined #html
+2015-11-16 03:50:40	«	Guest75892 (~Beast@212.57.225.51) has quit (Ping timeout: 265 seconds)
+2015-11-16 03:57:03	»	ObjectiveMatt (~Objective@162.242.94.138) has joined #html
+2015-11-16 03:58:50	»	tomog999 (~tomog999@cpe-188-129-24-25.dynamic.amis.hr) has joined #html
+2015-11-16 04:01:22	«	tomog999_ (~tomog999@cpe-188-129-52-251.dynamic.amis.hr) has quit (Ping timeout: 244 seconds)
+2015-11-16 04:06:39	»	oojacoboo (~oojacoboo@47-32-91-173.dhcp.gwnt.ga.charter.com) has joined #html
+2015-11-16 04:07:43	»	InfoTest (~Thunderbi@tgn.149.26.151.dts.mg) has joined #html
+2015-11-16 04:09:26	«	meese (~meese@105-224-137-216.mtaonline.net) has quit (Quit: I'm designing and posting something every single day for 30 days -> https://instagram.com/meesebyte/)
+2015-11-16 04:14:26	»	Lope (~Lope@115.164.188.73) has joined #html
+2015-11-16 04:17:19	«	sayur (~quassel@118.97.208.194) has quit (Remote host closed the connection)
+2015-11-16 04:19:45	»	phrozensilver (~Ross_Dall@69.92.29.176) has joined #html
+2015-11-16 04:23:06	»	elanc (~elanc@staff.elanc.ru) has joined #html
+2015-11-16 04:26:37	«	txtsd (~txtsd@103.224.6.195) has quit (Quit: WeeChat 1.3)
+2015-11-16 04:30:32	«	phrozensilver (~Ross_Dall@69.92.29.176) has quit (Quit: Leaving.)
+2015-11-16 04:31:04	«	Extreminador (~Extremina@a83-132-107-233.cpe.netcabo.pt) has quit (Read error: Connection reset by peer)
+2015-11-16 04:36:00	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 04:41:36	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 04:50:03	»	CoolBreeze (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined #html
+2015-11-16 04:51:02	«	oojacoboo (~oojacoboo@47-32-91-173.dhcp.gwnt.ga.charter.com) has quit (Quit: Computer has gone to sleep.)
+2015-11-16 04:51:16	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 04:51:48	»	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has joined #html
+2015-11-16 04:54:55	«	BrianH (~BrianH@c-71-60-24-13.hsd1.pa.comcast.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-16 05:02:12	«	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has left #html
+2015-11-16 05:05:57	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 05:11:02	»	sayur (~quassel@36.84.3.201) has joined #html
+2015-11-16 05:11:43	«	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has quit (Remote host closed the connection)
+2015-11-16 05:12:45	»	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has joined #html
+2015-11-16 05:14:00	«	sayur (~quassel@36.84.3.201) has left #html
+2015-11-16 05:15:04	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 05:17:57	»	MoZu4k_ (~MoZu4k@c-67-177-162-37.hsd1.tn.comcast.net) has joined #html
+2015-11-16 05:28:32	»	BrianH (~BrianH@c-71-60-24-13.hsd1.pa.comcast.net) has joined #html
+2015-11-16 05:33:46	«	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has quit (Remote host closed the connection)
+2015-11-16 05:34:53	»	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has joined #html
+2015-11-16 05:37:21	«	ObjectiveMatt (~Objective@162.242.94.138) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-16 05:44:05	«	CoolBreeze (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit
+2015-11-16 05:47:55	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 05:48:06	«	zincrokx (~zincrokx@27.251.37.40) has quit (Ping timeout: 240 seconds)
+2015-11-16 05:52:32	»	Sisco (Sisco@unaffiliated/sisco) has joined #html
+2015-11-16 05:53:26	«	Sisco_ (Sisco@unaffiliated/sisco/x-4156292) has quit (Ping timeout: 265 seconds)
+2015-11-16 06:14:46	«	Liquide^2 (Liquide@78-68-12-187-no29.tbcn.telia.com) has quit
+2015-11-16 06:19:23	«	MoZu4k_ (~MoZu4k@c-67-177-162-37.hsd1.tn.comcast.net) has quit (Quit: MoZu4k_)
+2015-11-16 06:27:37	»	MrTopless (Juslintek@94.244.86.28) has joined #html
+2015-11-16 06:31:08	«	Juslintek (Juslintek@94.244.86.28) has quit (Ping timeout: 265 seconds)
+2015-11-16 06:33:04	»	lilmonkey (~a@pdpc/supporter/professional/riven) has joined #html
+2015-11-16 06:35:14	«	lilmonkey` (~a@pdpc/supporter/professional/riven) has quit (Ping timeout: 260 seconds)
+2015-11-16 06:35:25	«	uxfi (~uxfi@unaffiliated/uxfi) has quit (Quit: This computer has gone to sleep)
+2015-11-16 06:36:54	«	fekz (~makoto@unaffiliated/fekz) has quit (Quit: On my way home...)
+2015-11-16 06:45:38	«	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has quit (Ping timeout: 276 seconds)
+2015-11-16 06:46:31	«	BrianH (~BrianH@c-71-60-24-13.hsd1.pa.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-16 07:00:55	«	pewpau (~ginte@unaffiliated/ginte) has quit (Ping timeout: 260 seconds)
+2015-11-16 07:07:21	«	InfoTest (~Thunderbi@tgn.149.26.151.dts.mg) has quit (Quit: InfoTest)
+2015-11-16 07:08:41	»	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has joined #html
+2015-11-16 07:08:42	»	bigbadjesus (~666@unaffiliated/psidrome) has joined #html
+2015-11-16 07:15:45	«	opsec (~opsec@unaffiliated/opsec) has quit (Excess Flood)
+2015-11-16 07:15:47	«	ggherdov (sid11402@gateway/web/irccloud.com/x-zfmauprdlrrpcmsm) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:47	«	Wesleysld (sid48624@gateway/web/irccloud.com/x-cqgcmklozldhylim) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:48	«	dan_j (sid21651@gateway/web/irccloud.com/x-entbkquriylijrxl) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:48	«	MrPocketz (~John@unaffiliated/mrpockets) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:15:49	«	ravenzz (uid23577@gateway/web/irccloud.com/x-eucwcrgzdnsrvkop) has quit (Ping timeout: 448 seconds)
+2015-11-16 07:17:50	»	MrPockets (~John@cpe-184-58-198-194.wi.res.rr.com) has joined #html
+2015-11-16 07:17:50	«	MrPockets (~John@cpe-184-58-198-194.wi.res.rr.com) has quit (Changing host)
+2015-11-16 07:17:50	»	MrPockets (~John@unaffiliated/mrpockets) has joined #html
+2015-11-16 07:17:59	«	d3m0n (~d3m0n@unaffiliated/d3m0n) has quit (Ping timeout: 258 seconds)
+2015-11-16 07:17:59	«	Topsy__ (~666@pool-173-49-54-103.phlapa.fios.verizon.net) has quit (Ping timeout: 258 seconds)
+2015-11-16 07:18:47	»	Wesleysld (sid48624@gateway/web/irccloud.com/x-zrwrjijythcskcfm) has joined #html
+2015-11-16 07:18:59	»	ravenzz (uid23577@gateway/web/irccloud.com/x-xnscqvbshdrteigf) has joined #html
+2015-11-16 07:19:10	»	dan_j (sid21651@gateway/web/irccloud.com/x-jwpedkczjeldmhus) has joined #html
+2015-11-16 07:19:46	»	ggherdov (sid11402@gateway/web/irccloud.com/x-daqrglzbwkqzsrfw) has joined #html
+2015-11-16 07:31:21	»	opsec (~opsec@unaffiliated/opsec) has joined #html
+2015-11-16 07:43:17	»	markkes (~markkes@92-111-77-42.static.chello.nl) has joined #html
+2015-11-16 07:48:41	»	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has joined #html
+2015-11-16 07:55:38	»	coderhut (67ff053d@gateway/web/freenode/ip.103.255.5.61) has joined #html
+2015-11-16 07:56:43	«	coderhut (67ff053d@gateway/web/freenode/ip.103.255.5.61) has quit (Client Quit)
+2015-11-16 07:57:00	»	coderhut (67ff053d@gateway/web/freenode/ip.103.255.5.61) has joined #html
+2015-11-16 08:02:30	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 08:02:41	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 08:03:12	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 08:04:08	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 08:04:45	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 08:10:28	«	markkes (~markkes@92-111-77-42.static.chello.nl) has quit (Remote host closed the connection)
+2015-11-16 08:11:15	«	Audlex (~Angels@unaffiliated/audlex) has quit
+2015-11-16 08:11:59	«	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has quit (Quit: Leaving)
+2015-11-16 08:16:25	»	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has joined #html
+2015-11-16 08:22:24	»	placidb (~placidb@brigaid.xs4all.nl) has joined #html
+2015-11-16 08:27:05	»	thenewone (~thenewone@unaffiliated/thenewone) has joined #html
+2015-11-16 08:27:09	«	thenewone (~thenewone@unaffiliated/thenewone) has left #html
+2015-11-16 08:32:00	«	coderhut (67ff053d@gateway/web/freenode/ip.103.255.5.61) has quit (Quit: Page closed)
+2015-11-16 08:33:35	»	markkes (~markkes@92-111-77-42.static.chello.nl) has joined #html
+2015-11-16 08:33:57	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Quit: Αποχώρησε)
+2015-11-16 08:53:13	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 08:54:39	»	realnot (~realnot@unaffiliated/realnot) has joined #html
+2015-11-16 08:56:10	«	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has quit (Quit: Leaving)
+2015-11-16 08:56:33	«	CrypticSquared (~CrypticS_@unaffiliated/crypticsquared) has quit (Quit: Leaving...)
+2015-11-16 08:56:51	»	Lauven (Lauven@cable-24-135-119-115.dynamic.sbb.rs) has joined #html
+2015-11-16 08:58:38	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2015-11-16 08:58:54	»	CrypticSquared (~CrypticS_@unaffiliated/crypticsquared) has joined #html
+2015-11-16 08:58:56	«	markkes (~markkes@92-111-77-42.static.chello.nl) has quit (Remote host closed the connection)
+2015-11-16 08:59:42	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 09:00:06	»	markkes (~markkes@92-111-77-42.static.chello.nl) has joined #html
+2015-11-16 09:04:14	«	zincrokx (~zincrokx@27.251.37.40) has quit (Read error: Connection reset by peer)
+2015-11-16 09:07:23	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 09:11:48	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 255 seconds)
+2015-11-16 09:13:25	«	fleshtheworld- (~fleshthew@2602:306:cf0f:4c20:b5af:b480:c8ad:4444) has quit (Read error: Connection reset by peer)
+2015-11-16 09:13:35	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 09:14:54	»	Audlex (~Angels@unaffiliated/audlex) has joined #html
+2015-11-16 09:16:21	»	pewpau (~ginte@unaffiliated/ginte) has joined #html
+2015-11-16 09:18:55	«	holodoc (~holodoc@unaffiliated/holodoc) has quit (Ping timeout: 240 seconds)
+2015-11-16 09:19:56	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 09:20:59	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Client Quit)
+2015-11-16 09:27:12	»	amittbhardwj (~amitt@122.173.8.7) has joined #html
+2015-11-16 09:31:35	»	CoolBreeze (~haris@46.166.190.191) has joined #html
+2015-11-16 09:32:58	«	markkes (~markkes@92-111-77-42.static.chello.nl) has quit (Remote host closed the connection)
+2015-11-16 09:36:27	»	DevOps (~ShiWen@61.164.211.19) has joined #html
+2015-11-16 09:41:08	»	Extreminador (~Extremina@a83-132-107-233.cpe.netcabo.pt) has joined #html
+2015-11-16 09:45:50	»	markkes (~markkes@92-111-77-42.static.chello.nl) has joined #html
+2015-11-16 09:47:42	»	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #html
+2015-11-16 09:47:50	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2015-11-16 09:50:28	»	h-ffmann (~frk@unaffiliated/h-ffmann) has joined #html
+2015-11-16 09:57:16	«	amittbhardwj (~amitt@122.173.8.7) has quit (Quit: leaving)
+2015-11-16 10:04:44	»	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has joined #html
+2015-11-16 10:04:46	«	CoolBreeze (~haris@46.166.190.191) has quit (Ping timeout: 272 seconds)
+2015-11-16 10:05:42	«	Guest52899 (CoolBreeze@CPE-121-214-143-30.lnse3.lon.bigpond.net.au) has quit (Read error: Connection reset by peer)
+2015-11-16 10:05:55	»	cluelessperson (~cluelessp@unaffiliated/cluelessperson) has joined #html
+2015-11-16 10:17:10	»	IIT (~IIT@unaffiliated/xtriz) has joined #html
+2015-11-16 10:18:24	«	IIT (~IIT@unaffiliated/xtriz) has quit (Remote host closed the connection)
+2015-11-16 10:29:11	«	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has quit (Ping timeout: 246 seconds)
+2015-11-16 10:42:15	»	InfoTest (~Thunderbi@tgn.149.26.151.dts.mg) has joined #html
+2015-11-16 10:46:27	»	nct (~dellos@softbank126058228161.bbtec.net) has joined #html
+2015-11-16 10:54:51	»	holodoc (~holodoc@unaffiliated/holodoc) has joined #html
+2015-11-16 10:55:14	»	filisko (~filisko@51.Red-95-123-151.staticIP.rima-tde.net) has joined #html
+2015-11-16 11:07:25	«	DevOps (~ShiWen@61.164.211.19) has quit (Quit: Leaving)
+2015-11-16 11:09:39	»	CoolBreeze (~haris@46.166.190.179) has joined #html
+2015-11-16 11:23:35	«	Lauven (Lauven@cable-24-135-119-115.dynamic.sbb.rs) has quit (Ping timeout: 240 seconds)
+2015-11-16 11:27:56	»	buxfiger (~bugfixer@unaffiliated/hoagie) has joined #html
+2015-11-16 11:30:56	»	Pocana (~Pocana@ppp14-2-177-13.lns20.hba2.internode.on.net) has joined #html
+2015-11-16 11:31:01	«	Pocana (~Pocana@ppp14-2-177-13.lns20.hba2.internode.on.net) has left #html ("Bye")
+2015-11-16 11:31:42	«	bigfuxer (~bugfixer@unaffiliated/hoagie) has quit (Ping timeout: 260 seconds)
+2015-11-16 11:50:25	»	Marybanana (~Marybanan@ppp14-2-177-13.lns20.hba2.internode.on.net) has joined #html
+2015-11-16 11:50:43	«	Marybanana (~Marybanan@ppp14-2-177-13.lns20.hba2.internode.on.net) has left #html
+2015-11-16 11:52:27	«	nct (~dellos@softbank126058228161.bbtec.net) has quit (Remote host closed the connection)
+2015-11-16 11:57:13	«	CoolBreeze (~haris@46.166.190.179) has quit (Ping timeout: 244 seconds)
+2015-11-16 12:19:13	»	geppyz (hidden-use@195.35.227.200) has joined #html
+2015-11-16 12:19:24	»	Sendoushi (~Sendoushi@2001:8a0:ecd0:e01:edd2:2a18:9af5:de57) has joined #html
+2015-11-16 12:33:02	»	CoolBreeze (CoolBreeze@CPE-137-147-17-82.lnse7.lon.bigpond.net.au) has joined #html
+2015-11-16 12:33:55	»	Lauven (Lauven@cable-24-135-119-115.dynamic.sbb.rs) has joined #html
+2015-11-16 12:38:40	«	Lope (~Lope@115.164.188.73) has quit (Ping timeout: 272 seconds)
+2015-11-16 12:49:37	»	nct (~dellos@softbank126058228161.bbtec.net) has joined #html
+2015-11-16 12:50:25	»	Guest75892 (~Beast@212.57.225.51) has joined #html
+2015-11-16 12:52:58	«	Lauven (Lauven@cable-24-135-119-115.dynamic.sbb.rs) has quit
+2015-11-16 12:55:14	«	nct (~dellos@softbank126058228161.bbtec.net) has quit (Ping timeout: 260 seconds)
+2015-11-16 13:03:48	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 13:04:19	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 13:04:35	»	dan2k3k4k5 (~dan2k3k4@unaffiliated/dan2k3k4) has joined #html
+2015-11-16 13:04:49	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 13:05:44	»	SPF|Cloud (uid11755@wikipedia/Southparkfan) has joined #html
+2015-11-16 13:05:45	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 13:06:09	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 13:08:03	«	dan2k3k4 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Ping timeout: 255 seconds)
+2015-11-16 13:10:00	«	dan2k3k4k5 (~dan2k3k4@unaffiliated/dan2k3k4) has quit (Quit: Leaving)
+2015-11-16 13:12:07	»	brk (~brk@109.202.145.146) has joined #html
+2015-11-16 13:12:46	»	g105b (~g105b@host-92-19-209-21.static.as13285.net) has joined #html
+2015-11-16 13:14:51	«	CoolBreeze (CoolBreeze@CPE-137-147-17-82.lnse7.lon.bigpond.net.au) has quit
+2015-11-16 13:15:39	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 13:17:10	«	zincrokx (~zincrokx@27.251.37.40) has quit (Remote host closed the connection)
+2015-11-16 13:17:17	«	Sendoushi (~Sendoushi@2001:8a0:ecd0:e01:edd2:2a18:9af5:de57) has quit (Remote host closed the connection)
+2015-11-16 13:18:55	»	Sendoushi (~Sendoushi@2001:8a0:ecd0:e01:6def:b13d:9e1a:d331) has joined #html
+2015-11-16 13:20:24	«	Extreminador (~Extremina@a83-132-107-233.cpe.netcabo.pt) has quit (Ping timeout: 244 seconds)
+2015-11-16 13:22:57	«	Sendoushi (~Sendoushi@2001:8a0:ecd0:e01:6def:b13d:9e1a:d331) has quit (Client Quit)
+2015-11-16 13:22:59	»	uxfi (~uxfi@pool-173-66-188-233.washdc.fios.verizon.net) has joined #html
+2015-11-16 13:22:59	■	uxfi is now known as Guest77522
+2015-11-16 13:23:36	«	Guest77522 (~uxfi@pool-173-66-188-233.washdc.fios.verizon.net) has quit (Changing host)
+2015-11-16 13:23:36	»	Guest77522 (~uxfi@unaffiliated/uxfi) has joined #html
+2015-11-16 13:23:42	»	mad_moses (~ps@ip-176-199-42-196.hsi06.unitymediagroup.de) has joined #html
+2015-11-16 13:24:29	mad_moses	Hi, is there a html meta tage or something else to tell the browser to update all js and css files?
+2015-11-16 13:25:33	«	yeticry (~yeticry@60.168.253.114) has quit (Read error: Connection reset by peer)
+2015-11-16 13:26:21	«	Guest75892 (~Beast@212.57.225.51) has quit (Quit: - nbs-irc 2.39 - www.nbs-irc.net -)
+2015-11-16 13:28:14	«	pewpau (~ginte@unaffiliated/ginte) has quit (Ping timeout: 260 seconds)
+2015-11-16 13:28:15	»	yeticry (~yeticry@183.160.8.244) has joined #html
+2015-11-16 13:32:04	«	brk (~brk@109.202.145.146) has left #html
+2015-11-16 13:35:01	«	pietrucha (~Dominik@ux.up.krakow.pl) has quit (Quit: Lost terminal)
+2015-11-16 13:37:57	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-16 13:38:34	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 13:40:41	«	linuxmint (~linuxmint@CPE-124-191-66-108.szbn2.lon.bigpond.net.au) has quit (Remote host closed the connection)
+2015-11-16 13:43:23	«	Wagoo (~wagoo@208.65.76.83.dynamic.wline.res.cust.swisscom.ch) has quit (Ping timeout: 264 seconds)
+2015-11-16 13:46:42	»	Wagoo (~wagoo@208.65.76.83.dynamic.wline.res.cust.swisscom.ch) has joined #html
+2015-11-16 13:49:16	»	surial (~surial@ec2-184-72-218-95.compute-1.amazonaws.com) has joined #html
+2015-11-16 13:49:20	«	surial (~surial@ec2-184-72-218-95.compute-1.amazonaws.com) has left #html ("Textual IRC Client: www.textualapp.com")
+2015-11-16 13:52:46	«	Nighthawk`` (~Nighthawk@2604:180:2:55f::58dc) has quit (Ping timeout: 240 seconds)
+2015-11-16 13:53:07	«	vidplace7 (sid14837@gateway/web/irccloud.com/x-gbnazuszwkmlggna) has quit (Ping timeout: 240 seconds)
+2015-11-16 13:55:27	»	vidplace7 (sid14837@gateway/web/irccloud.com/x-qffjzrekynzzasot) has joined #html
+2015-11-16 13:56:54	»	Nighthawk`` (~Nighthawk@2604:180:2:55f::58dc) has joined #html
+2015-11-16 14:00:04	«	yeticry (~yeticry@183.160.8.244) has quit (Ping timeout: 250 seconds)
+2015-11-16 14:01:04	»	yeticry (~yeticry@183.160.8.244) has joined #html
+2015-11-16 14:08:44	»	CoolBreeze (~haris@46.166.188.245) has joined #html
+2015-11-16 14:15:54	»	geppyz_ (hidden-use@195.35.227.200) has joined #html
+2015-11-16 14:16:22	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Remote host closed the connection)
+2015-11-16 14:18:06	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 14:18:15	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 14:18:43	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 14:19:59	«	geppyz (hidden-use@195.35.227.200) has quit (Ping timeout: 264 seconds)
+2015-11-16 14:20:30	«	geppyz_ (hidden-use@195.35.227.200) has quit (Ping timeout: 240 seconds)
+2015-11-16 14:24:47	»	geppyz (hidden-use@195.35.227.200) has joined #html
+2015-11-16 14:25:19	«	geppyz (hidden-use@195.35.227.200) has quit (Remote host closed the connection)
+2015-11-16 14:25:46	»	geppyz (hidden-use@195.35.227.200) has joined #html
+2015-11-16 14:28:20	»	parazyd (parazyd@gateway/shell/firrre/x-byqgwelkqeyxupry) has joined #html
+2015-11-16 14:29:49	parazyd	i have two images. one's height > other's height. how to align them with the top side instead of the bottom side?
+2015-11-16 14:31:59	»	ajf- (~ajf-@181-160-222-72.baf.movistar.cl) has joined #html
+2015-11-16 14:33:54	»	fekz (makoto@unaffiliated/fekz) has joined #html
+2015-11-16 14:36:55	«	ajf- (~ajf-@181-160-222-72.baf.movistar.cl) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-16 14:39:23	»	Guest32216 (~WAT@pool-173-49-54-103.phlapa.fios.verizon.net) has joined #html
+2015-11-16 14:40:03	Pilum	parazyd: #css
+2015-11-16 14:41:01	parazyd	i'm wondering if it's possible without vertical-align
+2015-11-16 14:41:27	Pilum	Don't be silly. Aligning is done with CSS.
+2015-11-16 14:41:51	»	oojacoboo (~oojacoboo@24-181-15-194.dhcp.mdvl.ga.charter.com) has joined #html
+2015-11-16 14:43:48	«	lens (~lens@freebsd/lover/lens) has quit (Remote host closed the connection)
+2015-11-16 14:49:36	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 15:00:46	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 15:09:44	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 15:16:30	«	CoolBreeze (~haris@46.166.188.245) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:17:59	«	Audlex (~Angels@unaffiliated/audlex) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:21:46	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Ping timeout: 240 seconds)
+2015-11-16 15:25:50	»	turtlemansam (~turtleman@unaffiliated/turtlemansam) has joined #html
+2015-11-16 15:27:26	«	calbasi (~joan@19.153.21.95.dynamic.jazztel.es) has left #html ("PING 1447688381")
+2015-11-16 15:29:12	»	CoolBreeze (~haris@30.4b.01a8.ip4.static.sl-reverse.com) has joined #html
+2015-11-16 15:40:01	»	fleshtheworld (~fleshthew@2602:306:cf0f:4c20:5f5:7e74:eab:e025) has joined #html
+2015-11-16 15:42:44	»	lemonpepper24 (~jack@84.f9.5177.ip4.static.sl-reverse.com) has joined #html
+2015-11-16 15:49:14	»	maikowblue (~none@177.235.112.87) has joined #html
+2015-11-16 15:51:12	«	turtlemansam (~turtleman@unaffiliated/turtlemansam) has quit (Quit: turtle's out!)
+2015-11-16 15:52:03	»	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has joined #html
+2015-11-16 15:54:23	»	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has joined #html
+2015-11-16 16:01:19	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:02:17	»	Extreminador (~Extremina@a83-132-107-233.cpe.netcabo.pt) has joined #html
+2015-11-16 16:02:40	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Max SendQ exceeded)
+2015-11-16 16:02:47	»	turtlemansam (~turtleman@unaffiliated/turtlemansam) has joined #html
+2015-11-16 16:03:05	«	turtlemansam (~turtleman@unaffiliated/turtlemansam) has quit (Remote host closed the connection)
+2015-11-16 16:03:35	»	geppyz_ (hidden-use@195.35.227.200) has joined #html
+2015-11-16 16:04:22	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:04:23	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Max SendQ exceeded)
+2015-11-16 16:04:48	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:06:47	«	Extreminador (~Extremina@a83-132-107-233.cpe.netcabo.pt) has quit (Ping timeout: 265 seconds)
+2015-11-16 16:06:55	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Max SendQ exceeded)
+2015-11-16 16:07:09	«	geppyz (hidden-use@195.35.227.200) has quit (Ping timeout: 255 seconds)
+2015-11-16 16:07:44	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:08:35	«	geppyz_ (hidden-use@195.35.227.200) has quit (Ping timeout: 264 seconds)
+2015-11-16 16:08:50	»	xrash (~xrash@189.110.217.55) has joined #html
+2015-11-16 16:09:04	«	xrash (~xrash@189.110.217.55) has quit (Remote host closed the connection)
+2015-11-16 16:09:31	»	xrash (~xrash@189.110.217.55) has joined #html
+2015-11-16 16:09:38	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Max SendQ exceeded)
+2015-11-16 16:10:19	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:12:53	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Max SendQ exceeded)
+2015-11-16 16:14:11	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 16:15:03	»	naftilos76_ (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:15:10	«	markkes (~markkes@92-111-77-42.static.chello.nl) has quit (Remote host closed the connection)
+2015-11-16 16:16:18	«	naftilos76_ (~naftilos7@109.110.241.253) has quit (Client Quit)
+2015-11-16 16:18:31	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:19:50	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Client Quit)
+2015-11-16 16:20:20	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Ping timeout: 272 seconds)
+2015-11-16 16:21:54	»	naftilos76 (~naftilos7@109.110.241.253) has joined #html
+2015-11-16 16:22:49	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 16:31:17	»	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has joined #html
+2015-11-16 16:31:26	«	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has quit (Read error: Connection reset by peer)
+2015-11-16 16:38:35	«	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has quit (Ping timeout: 264 seconds)
+2015-11-16 16:46:53	»	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has joined #html
+2015-11-16 16:49:17	«	D-Boy (~D-Boy@unaffiliated/cain) has quit (Excess Flood)
+2015-11-16 16:50:29	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-16 16:50:59	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 16:56:24	»	D-Boy (~D-Boy@unaffiliated/cain) has joined #html
+2015-11-16 17:00:46	«	KlausedSource (~KlausedSo@mwnb.rz.fh-trier.de) has quit (Quit: Leaving)
+2015-11-16 17:02:38	■	ItsLuke is now known as Eclipse
+2015-11-16 17:05:51	«	lemonpepper24 (~jack@84.f9.5177.ip4.static.sl-reverse.com) has quit (Ping timeout: 240 seconds)
+2015-11-16 17:15:43	»	markkes (~markkes@92-111-77-42.static.chello.nl) has joined #html
+2015-11-16 17:18:55	»	lemonpepper24 (~jack@2601:647:4700:2872:ae7b:a1ff:fee4:ea26) has joined #html
+2015-11-16 17:22:27	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-16 17:24:58	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 17:26:22	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Remote host closed the connection)
+2015-11-16 17:29:43	«	realnot (~realnot@unaffiliated/realnot) has quit (Quit: leaving)
+2015-11-16 17:34:15	»	Ricoz (~ricoz@5ED0376B.cm-7-1a.dynamic.ziggo.nl) has joined #html
+2015-11-16 17:35:41	»	YoutubeAPI (~youtubeap@50.125.71.245) has joined #html
+2015-11-16 17:42:39	»	Sendoushi (~Sendoushi@bl18-225-17.dsl.telepac.pt) has joined #html
+2015-11-16 17:54:04	»	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has joined #html
+2015-11-16 17:54:55	»	Encapsulation (~Astoundin@unaffiliated/encapsulation) has joined #html
+2015-11-16 17:55:23	«	InfoTest (~Thunderbi@tgn.149.26.151.dts.mg) has quit (Ping timeout: 264 seconds)
+2015-11-16 18:00:50	»	Juslintek (Juslintek@94.244.86.28) has joined #html
+2015-11-16 18:03:36	«	MrTopless (Juslintek@94.244.86.28) has quit (Ping timeout: 250 seconds)
+2015-11-16 18:05:46	«	LiENUS (~quake@108-242-135-2.lightspeed.btrgla.sbcglobal.net) has quit (Ping timeout: 250 seconds)
+2015-11-16 18:06:40	«	todd_dsm (~todd_dsm@173-16-140-14.client.mchsi.com) has quit (Remote host closed the connection)
+2015-11-16 18:07:47	»	LiENUS (~quake@2602:306:37a4:9ff0:214:22ff:fe19:47a5) has joined #html
+2015-11-16 18:15:20	»	d4rklit3 (~textual@rrcs-24-199-51-26.west.biz.rr.com) has joined #html
+2015-11-16 18:22:09	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 18:25:00	»	jonah (~jonah@5751acb3.skybroadband.com) has joined #html
+2015-11-16 18:26:09	jonah	hi sorry to bother, but towards the bottom of this page we have a grid of menus in columns of 3 but for some reason the Canapes & sharing platters isn't sitting in line properly and it floating right... Can anyone please help get these to line up right? http://www.yorkshirehogroast.catering/
+2015-11-16 18:27:20	»	YoutubeA_ (~youtubeap@168.156.40.22) has joined #html
+2015-11-16 18:27:38	»	devmikey (~irc@unaffiliated/devmikey) has joined #html
+2015-11-16 18:27:42	lilmonkey	jonah: please read the channel topic
+2015-11-16 18:29:34	«	YoutubeA_ (~youtubeap@168.156.40.22) has quit (Read error: Connection reset by peer)
+2015-11-16 18:29:51	«	YoutubeAPI (~youtubeap@50.125.71.245) has quit (Ping timeout: 240 seconds)
+2015-11-16 18:30:11	»	YoutubeAPI (~youtubeap@50.125.71.245) has joined #html
+2015-11-16 18:35:03	«	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has quit (Ping timeout: 244 seconds)
+2015-11-16 18:35:09	»	txtsd (~txtsd@103.224.6.195) has joined #html
+2015-11-16 18:35:30	«	txtsd (~txtsd@103.224.6.195) has quit (Client Quit)
+2015-11-16 18:35:40	»	kylebarrow (~kylebarro@p76ecb59f.tokynt01.ap.so-net.ne.jp) has joined #html
+2015-11-16 18:35:51	»	txtsd (~txtsd@103.224.6.195) has joined #html
+2015-11-16 18:37:56	«	oojacoboo (~oojacoboo@24-181-15-194.dhcp.mdvl.ga.charter.com) has quit (Quit: Computer has gone to sleep.)
+2015-11-16 18:39:47	»	oojacoboo (~oojacoboo@24-181-15-194.dhcp.mdvl.ga.charter.com) has joined #html
+2015-11-16 18:39:53	«	zincrokx (~zincrokx@27.251.37.40) has quit (Quit: Leaving)
+2015-11-16 18:42:24	«	Sendoushi (~Sendoushi@bl18-225-17.dsl.telepac.pt) has quit (Remote host closed the connection)
+2015-11-16 18:42:36	«	jonah (~jonah@5751acb3.skybroadband.com) has left #html ("Konversation terminated!")
+2015-11-16 18:48:03	»	s2013 (~textual@99-42-100-188.lightspeed.austtx.sbcglobal.net) has joined #html
+2015-11-16 18:52:20	»	YoutubeA_ (~youtubeap@168.156.40.22) has joined #html
+2015-11-16 18:52:20	«	kylebarrow (~kylebarro@p76ecb59f.tokynt01.ap.so-net.ne.jp) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-11-16 18:52:21	»	InfoTest (~Thunderbi@tgn.149.23.112.dts.mg) has joined #html
+2015-11-16 18:55:12	«	YoutubeAPI (~youtubeap@50.125.71.245) has quit (Ping timeout: 244 seconds)
+2015-11-16 18:55:19	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 18:56:51	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 18:59:32	«	YoutubeA_ (~youtubeap@168.156.40.22) has quit (Read error: Connection reset by peer)
+2015-11-16 19:00:08	»	YoutubeAPI (~youtubeap@50.125.71.245) has joined #html
+2015-11-16 19:08:32	«	s2013 (~textual@99-42-100-188.lightspeed.austtx.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2015-11-16 19:10:56	»	YoutubeA_ (~youtubeap@168.156.40.22) has joined #html
+2015-11-16 19:12:19	«	sagerdearia (~necrodear@unaffiliated/necrodearia) has quit (Ping timeout: 240 seconds)
+2015-11-16 19:13:59	«	YoutubeAPI (~youtubeap@50.125.71.245) has quit (Ping timeout: 264 seconds)
+2015-11-16 19:17:04	»	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has joined #html
+2015-11-16 19:17:32	devmikey	hello
+2015-11-16 19:18:53	«	YoutubeA_ (~youtubeap@168.156.40.22) has quit (Remote host closed the connection)
+2015-11-16 19:20:21	»	Sendoushi (~Sendoushi@bl18-225-17.dsl.telepac.pt) has joined #html
+2015-11-16 19:21:05	«	Sendoushi (~Sendoushi@bl18-225-17.dsl.telepac.pt) has quit (Remote host closed the connection)
+2015-11-16 19:22:11	»	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has joined #html
+2015-11-16 19:22:11	«	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has quit (Changing host)
+2015-11-16 19:22:11	»	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has joined #html
+2015-11-16 19:23:32	«	naftilos76 (~naftilos7@109.110.241.253) has quit (Quit: Αποχώρησε)
+2015-11-16 19:26:34	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:26:40	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:27:09	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:27:44	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:28:15	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:28:43	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:29:18	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:29:52	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:30:23	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:30:52	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:31:23	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:32:02	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:32:31	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:33:09	«	zincrokx (~zincrokx@27.251.37.40) has quit (Max SendQ exceeded)
+2015-11-16 19:35:44	»	zincrokx (~zincrokx@27.251.37.40) has joined #html
+2015-11-16 19:37:00	«	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has quit (Read error: Connection reset by peer)
+2015-11-16 19:44:50	«	Sisco (Sisco@unaffiliated/sisco) has quit (Remote host closed the connection)
+2015-11-16 19:45:28	»	Sisco (Sisco@unaffiliated/sisco) has joined #html
+2015-11-16 19:48:50	«	Wagoo (~wagoo@208.65.76.83.dynamic.wline.res.cust.swisscom.ch) has quit (Ping timeout: 240 seconds)
+2015-11-16 19:48:53	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2015-11-16 19:49:37	»	realnot (~realnot@unaffiliated/realnot) has joined #html
+2015-11-16 19:49:50	»	Wagoo (~wagoo@208.65.76.83.dynamic.wline.res.cust.swisscom.ch) has joined #html
+2015-11-16 19:54:16	»	Meta_ (meta@inferno.darktide.net) has joined #html
+2015-11-16 19:54:40	■	Meta_ is now known as Guest2550
+2015-11-16 19:54:55	«	Meta (meta@unaffiliated/meta) has quit (Read error: Connection reset by peer)
+2015-11-16 19:58:25	«	lauren (~lahwran@python/site-packages/lahwran) has quit (Ping timeout: 262 seconds)
+2015-11-16 19:58:28	»	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has joined #html
+2015-11-16 19:58:28	«	DJ_HaMsTa (~thisdude@c-76-30-165-170.hsd1.tx.comcast.net) has quit (Changing host)
+2015-11-16 19:58:28	»	DJ_HaMsTa (~thisdude@unaffiliated/dj-hamsta/x-2342346) has joined #html
+2015-11-16 19:59:41	»	zangent (443f10de@gateway/web/freenode/ip.68.63.16.222) has joined #html
+2015-11-16 20:01:17	»	lahwran (~lahwran@python/site-packages/lahwran) has joined #html
+2015-11-16 20:02:19	«	zangent (443f10de@gateway/web/freenode/ip.68.63.16.222) has quit (Client Quit)
+2015-11-16 20:19:44	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 20:27:08	»	sagerdearia (~necrodear@unaffiliated/necrodearia) has joined #html
+2015-11-16 20:34:06	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 20:37:12	«	zincrokx (~zincrokx@27.251.37.40) has quit (Quit: Leaving)
+2015-11-16 20:46:05	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2015-11-16 20:50:55	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 20:53:09	«	Encapsulation (~Astoundin@unaffiliated/encapsulation) has quit (Quit: Leaving)
+2015-11-16 20:58:59	»	calbasi (~joan@19.153.21.95.dynamic.jazztel.es) has joined #html
+2015-11-16 21:02:37	■	Guest77522 is now known as uxfi
+2015-11-16 21:06:54	«	filisko (~filisko@51.Red-95-123-151.staticIP.rima-tde.net) has quit (Ping timeout: 250 seconds)
+2015-11-16 21:06:57	«	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has quit (Ping timeout: 244 seconds)
+2015-11-16 21:06:59	»	BrianH (~BrianH@c-71-60-24-13.hsd1.pa.comcast.net) has joined #html
+2015-11-16 21:07:40	»	pewpau (~ginte@unaffiliated/ginte) has joined #html
+2015-11-16 21:12:04	«	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has quit (Quit: Leaving.)
+2015-11-16 21:19:30	«	Sisco (Sisco@unaffiliated/sisco) has quit (Ping timeout: 265 seconds)
+2015-11-16 21:19:58	»	filisko (~filisko@51.Red-95-123-151.staticIP.rima-tde.net) has joined #html
+2015-11-16 21:20:00	»	Sisco (Sisco@unaffiliated/sisco) has joined #html
+2015-11-16 21:21:13	»	claytonzaugg (~claytonza@69-58-94-166.ut.vivintwireless.net) has joined #html
+2015-11-16 21:22:20	«	xrash (~xrash@189.110.217.55) has quit (Remote host closed the connection)
+2015-11-16 21:23:45	»	YoutubeAPI (~youtubeap@50.125.71.245) has joined #html
+2015-11-16 21:23:49	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 21:25:04	»	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has joined #html
+2015-11-16 21:27:03	»	Lauven (Lauven@cable-94-189-209-14.dynamic.sbb.rs) has joined #html
+2015-11-16 21:30:45	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 21:38:02	»	phrozensilver (~Ross_Dall@69-92-29-176.cpe.cableone.net) has joined #html
+2015-11-16 21:41:36	«	mad_moses (~ps@ip-176-199-42-196.hsi06.unitymediagroup.de) has quit (Remote host closed the connection)
+2015-11-16 21:41:55	»	nigSwan (~nigSwan@62.102.148.187) has joined #html
+2015-11-16 21:45:43	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit (Read error: Connection reset by peer)
+2015-11-16 21:46:15	«	fekz (makoto@unaffiliated/fekz) has quit (Quit: On my way home...)
+2015-11-16 21:46:39	«	Lauven (Lauven@cable-94-189-209-14.dynamic.sbb.rs) has quit
+2015-11-16 21:49:31	nigSwan	thumbs
+2015-11-16 21:49:34	nigSwan	i had a question for thumbs
+2015-11-16 21:51:53	lilmonkey	I don't know who thumbs is, but he doesn't seem to be around right now.
+2015-11-16 21:53:38	»	fekz (~makoto@unaffiliated/fekz) has joined #html
+2015-11-16 21:55:06	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2015-11-16 21:56:38	»	Bantalon (~Bantalon@unaffiliated/bantalon) has joined #html
+2015-11-16 21:58:44	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 21:59:44	»	wqe23__ (~wqe23@2602:306:c5c1:f5e0:18d1:3b55:d5aa:9a0c) has joined #html
+2015-11-16 22:02:35	«	wqe23_ (~wqe23@2602:306:c5c1:f5e0:ecdb:8853:9c34:79a3) has quit (Ping timeout: 240 seconds)
+2015-11-16 22:03:28	»	wolfricoz (~ricoz@5ED0376B.cm-7-1a.dynamic.ziggo.nl) has joined #html
+2015-11-16 22:05:17	«	Ricoz (~ricoz@5ED0376B.cm-7-1a.dynamic.ziggo.nl) has quit (Ping timeout: 252 seconds)
+2015-11-16 22:05:31	«	YoutubeAPI (~youtubeap@50.125.71.245) has quit (Remote host closed the connection)
+2015-11-16 22:07:11	«	nigSwan (~nigSwan@62.102.148.187) has left #html ("Leaving")
+2015-11-16 22:08:46	«	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has quit (Ping timeout: 240 seconds)
+2015-11-16 22:08:46	«	Bantalon (~Bantalon@unaffiliated/bantalon) has quit
+2015-11-16 22:09:55	«	lemonpepper24 (~jack@2601:647:4700:2872:ae7b:a1ff:fee4:ea26) has quit (Ping timeout: 240 seconds)
+2015-11-16 22:12:18	»	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has joined #html
+2015-11-16 22:13:40	»	Extreminador (~Extremina@93.102.2.66.rev.optimus.pt) has joined #html
+2015-11-16 22:16:09	»	MrXXIV_ (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 22:17:54	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 260 seconds)
+2015-11-16 22:22:10	»	spacenomad (~spacenoma@unaffiliated/spacenomad) has joined #html
+2015-11-16 22:22:36	«	spacenomad (~spacenoma@unaffiliated/spacenomad) has quit (Client Quit)
+2015-11-16 22:23:27	»	spacenomad (~spacenoma@unaffiliated/spacenomad) has joined #html
+2015-11-16 22:33:52	«	calbasi (~joan@19.153.21.95.dynamic.jazztel.es) has quit (Quit: Leaving.)
+2015-11-16 22:34:19	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 22:34:55	«	MrXXIV_ (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 240 seconds)
+2015-11-16 22:36:05	«	placidb (~placidb@brigaid.xs4all.nl) has quit (Ping timeout: 252 seconds)
+2015-11-16 22:44:19	»	YoutubeAPI (~youtubeap@c-24-16-154-173.hsd1.wa.comcast.net) has joined #html
+2015-11-16 22:45:24	»	Musashi007 (~Musashi1@76.77.189.124) has joined #html
+2015-11-16 22:50:23	«	claytonzaugg (~claytonza@69-58-94-166.ut.vivintwireless.net) has quit (Ping timeout: 252 seconds)
+2015-11-16 22:50:31	«	Musashi007 (~Musashi1@76.77.189.124) has quit (Quit: Musashi007)
+2015-11-16 22:50:33	«	wolfricoz (~ricoz@5ED0376B.cm-7-1a.dynamic.ziggo.nl) has quit (Read error: Connection reset by peer)
+2015-11-16 22:50:45	«	WillAmes (~py@ool-1826eaa1.dyn.optonline.net) has quit (Remote host closed the connection)
+2015-11-16 22:50:52	»	thescatman__ (~thescatma@90.218.92.239) has joined #html
+2015-11-16 22:51:14	»	WillAmes (~py@ool-1826eaa1.dyn.optonline.net) has joined #html
+2015-11-16 22:53:06	»	Es0teric (~textual@199.34.249.167) has joined #html
+2015-11-16 22:53:38	»	Obamatron (~rickjames@24-113-198-34.wavecable.com) has joined #html
+2015-11-16 22:53:46	«	oksushi (~oksushi@128.199.226.173) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:53:46	«	CarlWeathers (~rickjames@24-113-198-34.wavecable.com) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:53:46	«	hinderaker (glenn@46.101.28.240) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:14	«	Sisco (Sisco@unaffiliated/sisco) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:16	«	six (pasi@paranoid.fi) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:16	«	mtt5 (~textual@c-76-102-209-89.hsd1.ca.comcast.net) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:17	«	bindi (~bindi@unaffiliated/bindi) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:45	«	thescatman_ (~thescatma@90.218.92.239) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	ikonia (~irc@unaffiliated/ikonia) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	raj`_ (~raj@unaffiliated/cypha) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:54:46	«	Platini (sparrow@unaffiliated/platini) has quit (Ping timeout: 265 seconds)
+2015-11-16 22:55:31	»	six (pasi@paranoid.fi) has joined #html
+2015-11-16 22:55:48	»	raj` (~raj@unaffiliated/cypha) has joined #html
+2015-11-16 22:55:55	»	bindi (~bindi@bindibox.net) has joined #html
+2015-11-16 22:55:59	»	ikonia (~irc@unaffiliated/ikonia) has joined #html
+2015-11-16 22:56:44	«	Leates (~Leates@unaffiliated/rbxdev) has quit (Remote host closed the connection)
+2015-11-16 22:57:20	»	Leates (~Leates@unaffiliated/rbxdev) has joined #html
+2015-11-16 22:58:02	»	thescatman_ (~thescatma@90.218.92.239) has joined #html
+2015-11-16 22:58:49	»	nobso (~nobso@66.228.162.56) has joined #html
+2015-11-16 22:59:56	»	oksushi (~oksushi@128.199.226.173) has joined #html
+2015-11-16 23:00:55	«	coffee` (~coffee@169.ip-176-31-165.eu) has quit (Quit: WeeChat 1.0.1)
+2015-11-16 23:01:44	«	Es0teric (~textual@199.34.249.167) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-11-16 23:01:45	«	Leates (~Leates@unaffiliated/rbxdev) has quit (Ping timeout: 252 seconds)
+2015-11-16 23:02:04	»	ircnode0_ (~salamande@kekkonen.niksula.hut.fi) has joined #html
+2015-11-16 23:02:06	»	k_j (~no@151.42.100.225) has joined #html
+2015-11-16 23:02:08	k_j	hi
+2015-11-16 23:02:37	»	coffee` (~coffee@169.ip-176-31-165.eu) has joined #html
+2015-11-16 23:02:42	»	Platini (sparrow@unaffiliated/platini) has joined #html
+2015-11-16 23:02:47	»	spossiba_ (~spossiba@198.98.53.118) has joined #html
+2015-11-16 23:03:56	k_j	i do not understand one thing. If you go to "http://www.jpeg.org/images/jpeg-home.jpg" and look at the source, you will see an html with an <img> tag embedding the image. Howver if you do wget http://www.jpeg.org/images/jpeg-home.jpg  to download the picture, you ll get the raw JPEG data, without any html.  My question is : what is inserting the html code? is it the server or the browser? or wget getting rid of the html?
+2015-11-16 23:06:05	lilmonkey	Just.. wow
+2015-11-16 23:06:49	«	thescatman__ (~thescatma@90.218.92.239) has quit (*.net *.split)
+2015-11-16 23:06:50	«	maqr (~maqr@httpcraft/hax) has quit (*.net *.split)
+2015-11-16 23:06:51	«	ircnode0 (~salamande@kekkonen.niksula.hut.fi) has quit (*.net *.split)
+2015-11-16 23:06:51	«	Moondhoo- (~Moondhoom@bz3.blackznc.net) has quit (*.net *.split)
+2015-11-16 23:06:51	«	spossiba (~spossiba@unaffiliated/stryx/x-3871776) has quit (*.net *.split)
+2015-11-16 23:06:54	k_j	what
+2015-11-16 23:07:02	k_j	is it a difficult question?
+2015-11-16 23:07:03	»	MrXXIV_ (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-16 23:07:08	»	Moondhoom (~Moondhoom@bz3.blackznc.net) has joined #html
+2015-11-16 23:07:48	lilmonkey	My mom, who can barely operate a smart phone, knows this. Anyway, I suggest you go over some of the absolute basics of the Web: https://en.wikipedia.org/wiki/World_Wide_Web#Function
+2015-11-16 23:07:53	»	hinderaker (glenn@46.101.28.240) has joined #html
+2015-11-16 23:08:53	k_j	I think that as an observer is a smart question
+2015-11-16 23:09:26	»	claytonzaugg (~claytonza@69-58-94-166.ut.vivintwireless.net) has joined #html
+2015-11-16 23:09:43	»	maqr (~maqr@httpcraft/hax) has joined #html
+2015-11-16 23:09:44	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2015-11-16 23:10:21	«	bindi (~bindi@bindibox.net) has quit (Changing host)
+2015-11-16 23:10:21	»	bindi (~bindi@unaffiliated/bindi) has joined #html
+2015-11-16 23:10:27	«	spossiba_ (~spossiba@198.98.53.118) has quit (Changing host)
+2015-11-16 23:10:27	»	spossiba_ (~spossiba@unaffiliated/stryx/x-3871776) has joined #html
+2015-11-16 23:10:37	■	spossiba_ is now known as spossiba
+2015-11-16 23:20:40	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 23:26:42	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 23:29:06	»	jaz1z (~jaziz@nat-x097-061.reshsg.uci.edu) has joined #html
+2015-11-16 23:29:38	»	northfurr (~manhari@unaffiliated/northfurr) has joined #html
+2015-11-16 23:29:54	«	Guest2550 (meta@inferno.darktide.net) has quit (Changing host)
+2015-11-16 23:29:55	»	Guest2550 (meta@unaffiliated/meta) has joined #html
+2015-11-16 23:30:03	■	Guest2550 is now known as Meta
+2015-11-16 23:32:35	«	InfoTest (~Thunderbi@tgn.149.23.112.dts.mg) has quit (Ping timeout: 264 seconds)
+2015-11-16 23:36:07	«	jaz1z (~jaziz@nat-x097-061.reshsg.uci.edu) has quit (Read error: Connection reset by peer)
+2015-11-16 23:36:49	»	jaz1z (~jaziz@nat-x097-061.reshsg.uci.edu) has joined #html
+2015-11-16 23:39:15	«	northfurr (~manhari@unaffiliated/northfurr) has quit (Quit: northfurr)
+2015-11-16 23:41:35	«	realnot (~realnot@unaffiliated/realnot) has quit (Ping timeout: 240 seconds)
+2015-11-16 23:46:27	«	YoutubeAPI (~youtubeap@c-24-16-154-173.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2015-11-16 23:46:41	»	YoutubeAPI (~youtubeap@c-24-16-154-173.hsd1.wa.comcast.net) has joined #html
+2015-11-16 23:46:45	«	YoutubeAPI (~youtubeap@c-24-16-154-173.hsd1.wa.comcast.net) has quit (Remote host closed the connection)
+2015-11-16 23:50:30	»	Sisco (Sisco@unaffiliated/sisco) has joined #html
+2015-11-17 00:12:22	«	silverraindog (~angus@188.166.15.20) has quit (Ping timeout: 260 seconds)
+2015-11-17 00:18:23	«	EvilPenguin (~EvilPengu@bur-inet-pa-1.disney.com) has quit (Ping timeout: 252 seconds)
+2015-11-17 00:20:57	»	mepowers (mepowers@unaffiliated/mepowers) has joined #html
+2015-11-17 00:26:44	«	claytonzaugg (~claytonza@69-58-94-166.ut.vivintwireless.net) has quit (Ping timeout: 246 seconds)
+2015-11-17 00:27:47	«	SPF|Cloud (uid11755@wikipedia/Southparkfan) has quit (Quit: Connection closed for inactivity)
+2015-11-17 00:28:31	»	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-17 00:29:49	«	jaz1z (~jaziz@nat-x097-061.reshsg.uci.edu) has quit (Ping timeout: 250 seconds)
+2015-11-17 00:30:59	«	MrXXIV_ (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2015-11-17 00:31:11	»	silverraindog (~angus@188.166.15.20) has joined #html
+2015-11-17 00:35:48	»	jaz1z (~jaziz@dhcp-v066-222.mobile.uci.edu) has joined #html
+2015-11-17 00:38:04	»	ObjectiveMatt (~Objective@162.242.94.200) has joined #html
+2015-11-17 00:39:55	«	jaz1z (~jaziz@dhcp-v066-222.mobile.uci.edu) has quit (Read error: Connection reset by peer)
+2015-11-17 00:40:04	»	jaz1z (~jaziz@dhcp-v066-222.mobile.uci.edu) has joined #html
+2015-11-17 00:44:06	»	Audlex (~Angels@103.109.124.202.static.snap.net.nz) has joined #html
+2015-11-17 00:44:06	«	Audlex (~Angels@103.109.124.202.static.snap.net.nz) has quit (Changing host)
+2015-11-17 00:44:06	»	Audlex (~Angels@unaffiliated/audlex) has joined #html
+2015-11-17 00:45:25	»	troypayne (~troypayne@cpe-76-170-135-198.socal.res.rr.com) has joined #html
+2015-11-17 00:45:48	troypayne	is it normal to return the results of an API call in its headers?
+2015-11-17 00:46:04	«	filisko (~filisko@51.Red-95-123-151.staticIP.rima-tde.net) has quit (Read error: Connection reset by peer)
+2015-11-17 00:47:15	lilmonkey	troypayne: stay on-topic please
+2015-11-17 00:47:34	troypayne	lilmonkey: got any idea where i should ask this kind of question?
+2015-11-17 00:47:43	lilmonkey	#web probably
+2015-11-17 00:48:16	«	jaz1z (~jaziz@dhcp-v066-222.mobile.uci.edu) has quit (Ping timeout: 272 seconds)
+2015-11-17 00:48:48	troypayne	lilmonkey: thanks
+2015-11-17 00:48:48	«	troypayne (~troypayne@cpe-76-170-135-198.socal.res.rr.com) has left #html
+2015-11-17 00:52:42	«	devmikey (~irc@unaffiliated/devmikey) has quit (Read error: Connection reset by peer)
+2015-11-17 00:58:25	»	Leates (~Leates@unaffiliated/rbxdev) has joined #html
+2015-11-17 00:59:40	»	MrXXIV_ (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has joined #html
+2015-11-17 01:02:11	«	MrXXIV (~MrXXIV@cpe-45-37-162-138.nc.res.rr.com) has quit (Ping timeout: 276 seconds)
+2015-11-17 01:02:45	«	Leates (~Leates@unaffiliated/rbxdev) has quit (Ping timeout: 252 seconds)
+2015-11-17 01:05:03	»	jaz1z (~jaziz@nat-x097-061.reshsg.uci.edu) has joined #html

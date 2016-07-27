@@ -1,0 +1,51 @@
+2014-11-27 01:05:58	▬▬▶	body (~body@host227-108-dynamic.11-79-r.retail.telecomitalia.it) has joined #mosh
+2014-11-27 01:05:58	ℹ 	Topic for #mosh is "Stable version: 1.2.4 (March 27, 2013). http://mosh.mit.edu"
+2014-11-27 01:05:58	ℹ 	Topic set by KeithW on Wed, 27 Mar 2013 20:10:20
+2014-11-27 01:05:58	ℹ 	Channel #mosh: 126 nicks (1 op, 0 voices, 125 normals)
+2014-11-27 01:05:59	ℹ 	URL for #mosh: http://mosh.mit.edu/
+2014-11-27 01:06:00	ℹ 	Channel created on Sat, 17 Mar 2012 00:14:36
+2014-11-27 01:06:29	◀▬▬	MoALTz (~no@user-46-113-21-204.play-internet.pl) has quit (Ping timeout: 250 seconds)
+2014-11-27 01:07:21	body	hello, i can test my mosh server wich i start on my localmachine, and than connect from 2 separate terminals , 2 times as clients, to see how it's working ?
+2014-11-27 01:24:16	adek	KeithW: So if you remember I was complaining yesterday about borked display when I scroll in history. It was actually issue with my prompt, some non printable characters screw it up.
+2014-11-27 01:25:28	◀▬▬	Riastradh (~riastradh@fsf/member/riastradh) has quit (Ping timeout: 250 seconds)
+2014-11-27 01:26:43	▬▬▶	Adaptee (~whodare@121.28.132.18) has joined #mosh
+2014-11-27 01:46:46	achin	hi body.  only 1 client can connect to a mosh-server instance
+2014-11-27 01:47:12	body	achin: oh, my bad
+2014-11-27 01:47:30	body	achin: because somebody told me that i can use mosh for pair programming
+2014-11-27 01:47:42	body	achin: so this is not possible
+2014-11-27 01:48:10	achin	right
+2014-11-27 01:48:23	mcpherrin	You can use mosh in conjunction with another piece of software like tmux or screen
+2014-11-27 01:48:30	achin	but you can use screen/tmux or tmate for screen-sharing
+2014-11-27 01:48:32	mcpherrin	But you can just as easily use ssh
+2014-11-27 01:50:03	body	achin: mcpherrin: , but with ssh, if i share a ssh session they could take control of all my $home directory
+2014-11-27 01:51:01	mcpherrin	body: mosh is no different
+2014-11-27 01:51:13	body	a
+2014-11-27 01:51:26	mcpherrin	They can't start another mosh session, I guess, if you just give them the key
+2014-11-27 01:51:34	mcpherrin	but they can still do anything in it 
+2014-11-27 01:52:32	achin	tmate is really neat and easy to use once installed
+2014-11-27 01:52:54	body	achin: the problem i found with tmate
+2014-11-27 01:53:33	body	achin: it's that it shares the entire terminal, so if i use my vim configuration the other person it's forced to use too that config
+2014-11-27 01:54:05	body	do you have tmate installed?
+2014-11-27 01:54:49	achin	yeah, it does share the entire terminal.
+2014-11-27 01:55:01	body	yea
+2014-11-27 01:55:25	body	so, i think the only one option to be secure... it's to ... make a new user for pair programming
+2014-11-27 01:55:25	achin	i don't have tmate installed at the moment
+2014-11-27 01:55:48	achin	when you say 'pair programming', do you want two people to edit the same file at the same time?
+2014-11-27 01:56:09	achin	or just work on the same project at the same time?
+2014-11-27 01:57:27	body	yes
+2014-11-27 01:57:30	achin	depending on your project, i wonder if https://www.nitrous.io/ or something similar would work (they claim to support shared/pair programming)
+2014-11-27 01:57:52	achin	i have to go do some work around the house, but i'll be back later if you want to bounce some more ideas around
+2014-11-27 01:59:45	body	achin: oh, i'll wish u a good work, i gtg now too it's 2:00AM in the night, and in 5 hours i have to go at work XD
+2014-11-27 02:00:07	achin	ok, goodnight!
+2014-11-27 02:05:04	▬▬▶	curtis__ (~curtis@cpepool1gcmts2-74.sanbrunocable.com) has joined #mosh
+2014-11-27 02:16:07	◀▬▬	Adaptee (~whodare@121.28.132.18) has quit (Ping timeout: 255 seconds)
+2014-11-27 02:16:11	▬▬▶	Adaptee_ (~whodare@121.28.132.18) has joined #mosh
+2014-11-27 02:19:08	◀▬▬	Adaptee_ (~whodare@121.28.132.18) has quit (Remote host closed the connection)
+2014-11-27 02:21:15	▬▬▶	Adaptee_ (~whodare@121.28.132.18) has joined #mosh
+2014-11-27 02:26:13	◀▬▬	threesixes (~threesixe@funtoo/user/threesixes) has quit (Remote host closed the connection)
+2014-11-27 02:32:16	▬▬▶	atommann (~atommann@58.251.146.250) has joined #mosh
+2014-11-27 02:38:12	◀▬▬	Adaptee_ (~whodare@121.28.132.18) has quit (Remote host closed the connection)
+2014-11-27 02:38:35	▬▬▶	Adaptee_ (~whodare@121.28.132.18) has joined #mosh
+2014-11-27 02:44:33	◀▬▬	adek (~adek@199.201.64.134) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-11-27 02:48:26	◀▬▬	curtis__ (~curtis@cpepool1gcmts2-74.sanbrunocable.com) has quit (Remote host closed the connection)
+2014-11-27 02:54:17	ℹ 	irc: disconnected from server

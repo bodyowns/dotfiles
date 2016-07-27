@@ -1,0 +1,414 @@
+2015-03-03 00:30:38	▬▬▶	body (~body@79-64-174-107.host.pobb.as13285.net) has joined #Cyanogenmod
+2015-03-03 00:30:38	ℹ 	Topic for #Cyanogenmod is "Welcome! Stuck on a new install? Did you Wipe? || General info see: http://goo.gl/EEoBM & google.com/+CyanogenMod :: Don't ask to ask a question, just ask! || Protip: Do not click EugeneKay's links | All questions regarding development or building #cyanogenmod-dev"
+2015-03-03 00:30:38	ℹ 	Topic set by ciwrl|away (~ciwrl@cyanogenmod/pr/ciwrl) on Sun, 01 Jun 2014 02:41:24
+2015-03-03 00:30:38	ℹ 	Channel #Cyanogenmod: 437 nicks (7 ops, 2 voices, 428 normals)
+2015-03-03 00:30:38	ℹ 	PvNotice(ChanServ): Welcome to #CyanogenMod :: Discussing the best Custom Android Shizzle on the Planet :: visit http://wiki.cyanogenmod.com :: swapping semi-functioning giggling brat vanity for a bare knuckle bucket of DOES
+2015-03-03 00:30:40	ℹ 	Channel created on Sat, 12 Sep 2009 20:58:07
+2015-03-03 00:30:42	▬▬▶	Gerry666 (Gerry666@c75.154.173-73.clta.globetrotter.net) has joined #Cyanogenmod
+2015-03-03 00:32:41	body	hello, i'm trying to downgrade from cm12 to cm11, with TWRP, i put the cm11 zip file in my /sdcard/ and when i'm trying to flash it i get this error "E:Error executing updater binary in zip '/sdcard/cm11.0.zip'
+2015-03-03 00:32:51	▬▬▶	SunSoul (~SunSoul@c-73-166-124-127.hsd1.tx.comcast.net) has joined #Cyanogenmod
+2015-03-03 00:32:57	body	i'm doing something wrong or?
+2015-03-03 00:33:12	Flacko	Bad download perhaps
+2015-03-03 00:34:13	body	Flacko: hmm you mean when i downloaded it from internet to my computer ?
+2015-03-03 00:34:23	Flacko	Yes
+2015-03-03 00:34:31	Flacko	You can check the md5 to confirm
+2015-03-03 00:34:46	body	Flacko: ok , i'm gonna try to download it again, yea the md5 was right
+2015-03-03 00:35:09	Flacko	Wouldn't bother downloading it again if that was right
+2015-03-03 00:36:20	body	Flacko: could be because i'm downgrading from 12 to 11 ?
+2015-03-03 00:36:30	▬▬▶	krabador (~krabador@unaffiliated/krabador) has joined #Cyanogenmod
+2015-03-03 00:36:33	Flacko	Maybe, did you wipe?
+2015-03-03 00:37:07	body	yea
+2015-03-03 00:37:23	body	lemme try again
+2015-03-03 00:38:30	Flacko	If it does not work then my next guess would be your recovery
+2015-03-03 00:39:02	body	Flacko: I wiped it, i have to format too ?
+2015-03-03 00:39:19	Flacko	As long as you do a factory reset you should be fine
+2015-03-03 00:39:47	body	Flacko: ok wiped all
+2015-03-03 00:39:49	@PsychoI3oy	i know the cm12 updater is set up to not preserve cm11 gapps, i wonder if the cm11 updater might be trying to prserve the cm12 gapps and/or failing because they're still there
+2015-03-03 00:39:56	▬▬▶	DiscipleOfDante (~manjao-kd@156.110.42.10) has joined #Cyanogenmod
+2015-03-03 00:40:20	DiscipleOfDante	Hey anyone know where one can get kii keyboard now that Google went full @$$hat on them?
+2015-03-03 00:40:38	Flacko	Fuck man, use google... oh wait
+2015-03-03 00:41:52	Flacko	Check XDA
+2015-03-03 00:41:55	Flacko	Maybe it's still there
+2015-03-03 00:45:07	◀▬▬	normalra (~normal@unaffiliated/normalra) has quit (Ping timeout: 255 seconds)
+2015-03-03 00:45:50	◀▬▬	orly_owl (~david@unaffiliated/orly-owl/x-3167833) has quit (Quit: leaving)
+2015-03-03 00:48:14	▬▬▶	orly_owl (~david@unaffiliated/orly-owl/x-3167833) has joined #Cyanogenmod
+2015-03-03 00:48:32	DiscipleOfDante	I did, the only link they have is a dead link to google play
+2015-03-03 00:50:15	DiscipleOfDante	It is not on f-droid either
+2015-03-03 00:50:24	DiscipleOfDante	Only decent keyboard for android is gone D:
+2015-03-03 00:50:41	orly_owl	which keyboard
+2015-03-03 00:51:22	▬▬▶	haobug (~qinghao@124.161.38.133) has joined #Cyanogenmod
+2015-03-03 00:51:23	DiscipleOfDante	Kii
+2015-03-03 00:52:06	DiscipleOfDante	They claimed it "uses apple's emojis and that is Copyright infringement" but it doesn't it jsut had support for the emoji plugin
+2015-03-03 00:53:27	◀▬▬	justinzane (~justinzan@24.49.199.88) has quit
+2015-03-03 00:54:35	body	Flacko: so i tried to recopy and install but i have the same error, so you was thinking about my recovery
+2015-03-03 00:54:49	body	Flacko: what i should check about m recovery ?
+2015-03-03 00:55:14	▬▬▶	SoFLy (~SoFLy@c-76-119-214-80.hsd1.ma.comcast.net) has joined #Cyanogenmod
+2015-03-03 00:55:22	body	i think i wiped all the roms because if i try to boot normaly it's not gonna boot
+2015-03-03 00:55:33	Flacko	Well, what recovery are you running?
+2015-03-03 00:55:50	body	Flacko: twrp
+2015-03-03 00:55:59	Flacko	Version number?
+2015-03-03 00:56:36	body	Flacko: 2.8.0.0
+2015-03-03 00:57:22	Flacko	Lets get you updated and see if that helps anything
+2015-03-03 00:57:30	Flacko	What's your phone?
+2015-03-03 00:57:35	body	s3 mini
+2015-03-03 00:57:41	ℹ 	Criamos is now known as Criamo_Off
+2015-03-03 00:58:06	Flacko	The codename golden sound familar?
+2015-03-03 00:58:17	body	i'm tring to install that one
+2015-03-03 00:58:18	DiscipleOfDante	Well what would ya'll recommend in place of kii. And if ya'll say Swype, SlideIT, or Go Keyboard ya'll are nuts
+2015-03-03 00:58:29	Flacko	http://teamw.in/project/twrp2/153
+2015-03-03 00:58:39	Flacko	However which way you want to go
+2015-03-03 00:58:50	⚡	Flacko looks around
+2015-03-03 00:58:50	▬▬▶	DrHouse|DellM650 (~mmanley@71-95-55-206.dhcp.rvsd.ca.charter.com) has joined #Cyanogenmod
+2015-03-03 00:58:52	Flacko	lol
+2015-03-03 00:59:20	body	Flacko: ah, i thinked you was talking about CM11.0_golden.nova.etc.zip
+2015-03-03 00:59:45	◀▬▬	DrSnowMissle (~Thunderbi@2601:8:ac00:9c4:8580:1d3:c6e9:100f) has quit (Remote host closed the connection)
+2015-03-03 00:59:56	▬▬▶	bobbyd3 (~bobbyd3@gateway/vpn/privateinternetaccess/bobbyd3) has joined #Cyanogenmod
+2015-03-03 01:00:03	▬▬▶	DrSnowMissle (~Thunderbi@2601:8:ac00:9c4:a800:5e7c:b6fe:9dea) has joined #Cyanogenmod
+2015-03-03 01:01:08	body	Flacko: so i have to reinstall the twrp right ?
+2015-03-03 01:01:20	Flacko	Nope, but I guess it sounds familiar then though
+2015-03-03 01:01:26	Flacko	Nope just flash over it
+2015-03-03 01:01:30	◀▬▬	jetleigh (~jetleigh@70-90-190-81-WA.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2015-03-03 01:01:56	Flacko	It gives multiple options there for however which way you want to do it
+2015-03-03 01:02:00	Tobias[L]	DiscipleOfDante: Keyboard? Swiftkey if you fancy autcorrect, Hackers Keyboard fur purists or minuum for Swagginess
+2015-03-03 01:02:01	▬▬▶	blargle_ragequit (~blargle@2601:6:4900:335:c98a:34f9:7973:a776) has joined #Cyanogenmod
+2015-03-03 01:02:32	◀▬▬	scottstamp (scott@hypermine.com) has quit (Quit: ZNC - http://znc.in)
+2015-03-03 01:02:41	Flacko	Seems ironic
+2015-03-03 01:02:47	Flacko	No
+2015-03-03 01:02:56	Flacko	Just odd
+2015-03-03 01:04:06	▬▬▶	justinzane (~justinzan@24.49.199.88) has joined #Cyanogenmod
+2015-03-03 01:04:14	Flacko	body, if you have any hesitation let me know
+2015-03-03 01:04:30	body	Flacko: ok, i just flashed the 2.4.1.0 v
+2015-03-03 01:04:35	body	now i'm tring to reinstall
+2015-03-03 01:04:42	Flacko	o.o
+2015-03-03 01:04:45	Flacko	Wrong way
+2015-03-03 01:04:46	Flacko	lol
+2015-03-03 01:04:50	body	failed
+2015-03-03 01:04:53	body	Flacko: oh
+2015-03-03 01:04:59	Flacko	Latest is...
+2015-03-03 01:05:10	body	oh yea
+2015-03-03 01:05:12	body	dooh
+2015-03-03 01:05:13	body	:))
+2015-03-03 01:05:20	body	2.8.3
+2015-03-03 01:05:26	body	just a sec
+2015-03-03 01:05:40	◀▬▬	DroidOne (DroidOne@gateway/vpn/mullvad/x-dteyobhfsqyzukzj) has quit (Ping timeout: 252 seconds)
+2015-03-03 01:06:10	blargle_ragequit	Does the device Samsung Galaxy Note 3 LTE ("hlte") build work on the AT&T Samsung-SM-N900A version of it?  The info page for hlte doesn't mention specific models.
+2015-03-03 01:06:45	DiscipleOfDante	Tobias[L]: I just want a decent word prediction and gesture typing
+2015-03-03 01:07:02	DiscipleOfDante	Only Kii ever had good word prediction before
+2015-03-03 01:07:07	Flacko	Swiftkey may be your way to go then
+2015-03-03 01:07:16	DiscipleOfDante	I tried that one once
+2015-03-03 01:07:18	DiscipleOfDante	Flow was crap
+2015-03-03 01:07:25	◀▬▬	bobbyd3 (~bobbyd3@gateway/vpn/privateinternetaccess/bobbyd3) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2015-03-03 01:07:48	DiscipleOfDante	Oh but Swiftkey gets to supply emoji without getting removed
+2015-03-03 01:07:59	body	Flacko: and if it's a tar, i can easely just flash it like .img one ?
+2015-03-03 01:08:13	Flacko	tar seems to require odin
+2015-03-03 01:08:21	Tobias[L]	DiscipleOfDante: Swiftkey is awesome, else swype or fleksy
+2015-03-03 01:08:30	Flacko	When I had a samsung I rather avoided odin
+2015-03-03 01:08:37	DiscipleOfDante	Swype was CRAP
+2015-03-03 01:08:38	Tobias[L]	DiscipleOfDante: you could test minuum, it bases on prediction
+2015-03-03 01:08:44	body	ah
+2015-03-03 01:08:49	DiscipleOfDante	Ugh it had the worst word prediction for gesture typing
+2015-03-03 01:08:54	DiscipleOfDante	It didn't learn well either
+2015-03-03 01:08:55	Tobias[L]	DiscipleOfDante: without prediction minuum wouldn't work at all
+2015-03-03 01:09:33	Tobias[L]	https://play.google.com/store/apps/details?id=com.whirlscape.minuumfree
+2015-03-03 01:09:33	DiscipleOfDante	Well I mean, gesture typing speeds things up considerably, but not if you have to redo every word 3 times
+2015-03-03 01:10:32	DiscipleOfDante	does it have gesture-typing/slide-through typing/swype-type?
+2015-03-03 01:10:36	Tobias[L]	DiscipleOfDante: you can use minuum as usual keyboard or as small version. the small is cool but you need to trust autocorrect XD
+2015-03-03 01:10:38	◀▬▬	SunSoul (~SunSoul@c-73-166-124-127.hsd1.tx.comcast.net) has quit (Quit: My Mac Mini has gone to sleep. ZZZzzz…)
+2015-03-03 01:11:22	Tobias[L]	DiscipleOfDante: in its big form it has flow-like stuff, can do swipe actions and has fantastic autocorrect
+2015-03-03 01:11:24	▬▬▶	xangua (~xangua@unaffiliated/xangua) has joined #Cyanogenmod
+2015-03-03 01:11:28	Tobias[L]	look at the pics
+2015-03-03 01:11:35	◀▬▬	xangua (~xangua@unaffiliated/xangua) has quit (Max SendQ exceeded)
+2015-03-03 01:11:55	▬▬▶	xangua (~xangua@unaffiliated/xangua) has joined #Cyanogenmod
+2015-03-03 01:11:57	DiscipleOfDante	I'm watching the video
+2015-03-03 01:12:07	Tobias[L]	like or not?
+2015-03-03 01:12:10	DiscipleOfDante	Still looks hunt and pecky
+2015-03-03 01:12:15	DiscipleOfDante	But it is all small version
+2015-03-03 01:12:19	◀▬▬	xangua (~xangua@unaffiliated/xangua) has quit (Max SendQ exceeded)
+2015-03-03 01:13:14	▬▬▶	xangua (~xangua@unaffiliated/xangua) has joined #Cyanogenmod
+2015-03-03 01:13:29	▬▬▶	DGMurdockIII (~dgmurdock@c-73-168-14-247.hsd1.in.comcast.net) has joined #Cyanogenmod
+2015-03-03 01:13:33	DiscipleOfDante	Nah it doesn't have gesture-typing just gesture controls
+2015-03-03 01:14:07	▬▬▶	SunSoul (~SunSoul@c-73-166-124-127.hsd1.tx.comcast.net) has joined #Cyanogenmod
+2015-03-03 01:14:29	Flacko	body, how are you doing?
+2015-03-03 01:14:30	◀▬▬	DrSnowMissle (~Thunderbi@2601:8:ac00:9c4:a800:5e7c:b6fe:9dea) has quit (Ping timeout: 265 seconds)
+2015-03-03 01:14:50	body	hmm, didn't made it to install the latest
+2015-03-03 01:14:54	body	i'm on linux
+2015-03-03 01:15:22	+Khaytsus	wut
+2015-03-03 01:15:24	DiscipleOfDante	Swiftkey isn't doing it, I'll try minuum
+2015-03-03 01:15:27	Tobias[L]	DiscipleOfDante: what do you mean by gesture typing?
+2015-03-03 01:15:33	+Khaytsus	Swiftkey doesn't gesture type?  eh?
+2015-03-03 01:15:35	DiscipleOfDante	Swype-style
+2015-03-03 01:15:42	DiscipleOfDante	Khaytsus: It does but the word prediction sucks
+2015-03-03 01:15:43	+Khaytsus	Swiftkey works on every device I've ever owned
+2015-03-03 01:15:45	Flacko	Google's keyboard!
+2015-03-03 01:15:46	+Khaytsus	WUT?
+2015-03-03 01:15:47	⚡	Flacko ducks
+2015-03-03 01:15:47	Tobias[L]	DiscipleOfDante: if you mean flow it should support that on its big mode
+2015-03-03 01:15:53	+Khaytsus	Swiftkey's word prediction is insanely good
+2015-03-03 01:16:07	Flacko	How do you mean, body?
+2015-03-03 01:16:08	Vladi	I hate all predictions
+2015-03-03 01:16:08	DiscipleOfDante	Khaytsus: Only one that was ever good for me that I've tried was kii, which died
+2015-03-03 01:16:08	Tobias[L]	Khaytsus: it hasn't everything needed for sexting apparently
+2015-03-03 01:16:10	Tobias[L]	XD
+2015-03-03 01:16:16	DiscipleOfDante	Tobias[L]: -.-
+2015-03-03 01:16:23	+Khaytsus	Kii's prediction was AWFUL
+2015-03-03 01:16:32	+Khaytsus	HORRID
+2015-03-03 01:16:33	body	Flacko: huh, i mean i can't put odin on my linux, and i tried with heimdall  but was unsuccessfull
+2015-03-03 01:16:33	DiscipleOfDante	Khaytsus: Almost invariably guessed right for me
+2015-03-03 01:16:57	DiscipleOfDante	Whereas swiftkey's gesture typing almost invariably fails to guess what I'm trying to type
+2015-03-03 01:16:58	body	Flacko: now i puted back 2.8.0.0 from maclaw.pl if it sounds familiar to you
+2015-03-03 01:17:10	body	Flacko: http://novafusion.pl/downloads/
+2015-03-03 01:17:44	Tobias[L]	DiscipleOfDante: Khaytsus i have no idea either, swiftkey works wonderful here and that on two languages
+2015-03-03 01:17:54	Flacko	Uhh
+2015-03-03 01:17:56	+Khaytsus	Tobias[L]: We decided earlier that DiscipleOfDante is on crack, so
+2015-03-03 01:18:02	body	Flacko: should happen that the install fail because it's not installed supersu ?
+2015-03-03 01:18:15	◀▬▬	christophwu (~christoph@193.170.133.171) has quit (Ping timeout: 245 seconds)
+2015-03-03 01:18:25	DiscipleOfDante	Tobias[L]: It never worked well for me here. Swiftkey Flow was even worse
+2015-03-03 01:18:35	DiscipleOfDante	Khaytsus: I am not on crack and that isn't f*cking funny
+2015-03-03 01:18:53	Flacko	Oh I see what it's doing
+2015-03-03 01:18:54	+Khaytsus	I agree; it's not funny at all.
+2015-03-03 01:19:03	Tobias[L]	DiscipleOfDante: you can enable unsafe word predicition i think if you need sexting this badly
+2015-03-03 01:19:13	DiscipleOfDante	Tobias[L]: -.-
+2015-03-03 01:19:24	+Khaytsus	Tobias[L]: You mean like telling someone to duck off?
+2015-03-03 01:19:30	Flacko	body, I don't recognize the site, but I understand it just makes it an easy process
+2015-03-03 01:19:32	+Khaytsus	;)
+2015-03-03 01:19:36	DiscipleOfDante	Dude I am just trying to find a tolerable keyboard to reduce my risk of carpal tunnel
+2015-03-03 01:19:50	▬▬▶	Thub (4648bcb5@gateway/web/freenode/ip.70.72.188.181) has joined #Cyanogenmod
+2015-03-03 01:20:06	▬▬▶	webturtle0 (~webturtle@69.51.143.78) has joined #Cyanogenmod
+2015-03-03 01:20:16	▬▬▶	break19 (~break19@unaffiliated/break19) has joined #Cyanogenmod
+2015-03-03 01:20:17	Flacko	You may just be able to replace the recovery.img with the latest twrp from twrp's site
+2015-03-03 01:20:17	◀▬▬	blargle_ragequit (~blargle@2601:6:4900:335:c98a:34f9:7973:a776) has quit (Quit: meow)
+2015-03-03 01:20:20	DiscipleOfDante	I can't believe that there is a support channel made up entirely of trolls
+2015-03-03 01:20:36	Flacko	Actually we just think you're crazy
+2015-03-03 01:20:44	body	Flacko: yea, but i was thinking i could made something by my mistake that unrooted my phone ?
+2015-03-03 01:20:51	DiscipleOfDante	That isn't sufficient reason to troll me
+2015-03-03 01:20:56	DiscipleOfDante	And yes, I am a bit crazy
+2015-03-03 01:21:19	+Khaytsus	You get carpel tunnel from typing on a phone?
+2015-03-03 01:21:21	body	Flacko: i rooted it before, when i put cm12
+2015-03-03 01:21:27	DiscipleOfDante	I'm in the mid-severe range for OCD, have avoidant personality disorder (a form of social anxiety) and several others
+2015-03-03 01:21:36	DiscipleOfDante	Khaytsus: I am a comp-sci major who is learning piano
+2015-03-03 01:21:38	◀▬▬	paxtoncamaro91 (~paxtoncam@unaffiliated/paxtoncamaro91) has quit (Ping timeout: 252 seconds)
+2015-03-03 01:21:44	DiscipleOfDante	the phone will not help
+2015-03-03 01:21:50	+Khaytsus	Nor hinder
+2015-03-03 01:22:05	Flacko	body, I don't think it works like that
+2015-03-03 01:22:11	Flacko	You should be fine
+2015-03-03 01:22:55	▬▬▶	DroidOne (DroidOne@gateway/vpn/mullvad/x-zatzkyfxlfglmowm) has joined #Cyanogenmod
+2015-03-03 01:23:10	body	Flacko: huh, i have no more ideeas what to do :\
+2015-03-03 01:23:25	Flacko	Well, did you update to the latest twrp and try it?
+2015-03-03 01:23:26	Flacko	lol
+2015-03-03 01:23:53	kusznir	It turns out that my endevors from last night to get my Samsung Galaxy SIII working with Ting (MVNO on Sprint) were not as successful as I thought.  While I do get LTE, I cannot send/receive texts (either with the default texting app or Hangouts).  Nothing more than "could not send".  This is after the Ting APN .zip was loaded (which did restore my ability to get LTE, but has "wierd" settings in the APN page)
+2015-03-03 01:24:36	◀▬▬	webturtle0 (~webturtle@69.51.143.78) has quit (Ping timeout: 256 seconds)
+2015-03-03 01:24:45	DiscipleOfDante	Eh I don't really care for minuum Tobias[L], it isn't really my thing.
+2015-03-03 01:25:02	Tobias[L]	DiscipleOfDante: you will get carpal tunnel anyway, the way most of us type nearly half of the day. Maybe the "carpal tunnel Prevention cream" helps more but it only gives you more cookies...
+2015-03-03 01:25:11	Flacko	body
+2015-03-03 01:25:12	Flacko	http://forum.xda-developers.com/galaxy-s3-mini/orig-development/recovery-twrp-2-8-1-0-s3-mini-i8190-t2947206
+2015-03-03 01:25:17	Flacko	Check out those steps
+2015-03-03 01:25:32	DiscipleOfDante	I use these wrist braces when my wrists hurt, and there is surgery, but there is not much one can do, you are correct
+2015-03-03 01:25:37	DiscipleOfDante	But every little bit helps
+2015-03-03 01:25:52	Flacko	So if you downloaded the latest it would be...
+2015-03-03 01:26:24	▬▬▶	meldrian (~michael@p200300422B6808964D0C9E25C83B9FA1.dip0.t-ipconnect.de) has joined #Cyanogenmod
+2015-03-03 01:26:27	Flacko	Oh wtf
+2015-03-03 01:26:32	Flacko	They stopped doing imgs?
+2015-03-03 01:27:03	Tobias[L]	DiscipleOfDante: go out and do some sports, paint and give your hands a warming pillow fromtime to time
+2015-03-03 01:27:12	body	Flacko: yea, they stopped doing imgs
+2015-03-03 01:27:15	Tobias[L]	DiscipleOfDante: all that will do more than choosing another keyboards
+2015-03-03 01:27:18	Flacko	Anyways
+2015-03-03 01:27:32	Flacko	The recovery in the link I just posted is slightly updated
+2015-03-03 01:27:35	Flacko	It's worth a try
+2015-03-03 01:27:43	DiscipleOfDante	Sports all suck, painting is something I'll never be good enough at to not get depressed when I try (and I mean literally depressed) and I don't know what a warming pillow is
+2015-03-03 01:27:48	body	Flacko: yea, i'm tring to flash it now
+2015-03-03 01:27:58	DiscipleOfDante	I'll do what I will as fits in with my lifestyle
+2015-03-03 01:28:37	Flacko	Cool, just don't ask us
+2015-03-03 01:28:38	DiscipleOfDante	** what I can
+2015-03-03 01:28:41	Tobias[L]	DiscipleOfDante: i agree on sports sucking but i like badminton/dance/slackline, it really heaps one up (altough dancing anywhere outside wont be doable, nobody likes my music... and they already have to endure it when i am at home XD
+2015-03-03 01:28:49	Flacko	wut
+2015-03-03 01:29:22	◀▬▬	meldrian (~michael@p200300422B6808964D0C9E25C83B9FA1.dip0.t-ipconnect.de) has quit (Quit: kthxbye. *leaves* (http://www.holarse-linuxgaming.de))
+2015-03-03 01:29:51	◀▬▬	SunSoul (~SunSoul@c-73-166-124-127.hsd1.tx.comcast.net) has quit (Quit: My Mac Mini has gone to sleep. ZZZzzz…)
+2015-03-03 01:29:57	body	Flacko: same error even with this one
+2015-03-03 01:30:13	Flacko	Hmm
+2015-03-03 01:30:40	DiscipleOfDante	Tobias[L]: Yeah my problem is that I don't care for any of those myself. Then again, P.E. was rather traumatic as a child, that might be why, but either way, I prefer a keyboard with decent gesture typing, for my phone, hunt and peck style typing is far too slow for me
+2015-03-03 01:31:16	pagefault	what is this dr phil
+2015-03-03 01:31:17	▬▬▶	paxtoncamaro91 (~paxtoncam@unaffiliated/paxtoncamaro91) has joined #Cyanogenmod
+2015-03-03 01:31:30	Flacko	Something like that
+2015-03-03 01:31:52	Tobias[L]	DiscipleOfDante: painting one can do for fun and not for "ohmigosh horrible", get used to hear music more and really, really lift your spirits ^^
+2015-03-03 01:31:52	Tobias[L]	also if you want a fast keyboard get an mechanical one to fit around or over your phone
+2015-03-03 01:32:11	Tobias[L]	DiscipleOfDante: or get yourself an old Blackberry/passport
+2015-03-03 01:32:20	DiscipleOfDante	Tobias[L]: Those are basically the same for me as a standard touchscreen keyboard
+2015-03-03 01:32:33	DiscipleOfDante	that gesture typing is the only thing that speeds my on phone typing up
+2015-03-03 01:32:45	body	Flacko: could be that only some twrp versions works to install kitkat ?
+2015-03-03 01:32:47	DiscipleOfDante	I'll just live with swiftkey for now and see if it learns better
+2015-03-03 01:33:03	Flacko	I doubt it
+2015-03-03 01:33:13	Tobias[L]	DiscipleOfDante: if you ever had an Blackberry and go back to measly touch typing you really want to have mechanical again
+2015-03-03 01:33:28	DiscipleOfDante	I've never owned a blackberry
+2015-03-03 01:33:36	DiscipleOfDante	My first smartphone was a ZTE Merit
+2015-03-03 01:33:40	Tobias[L]	DiscipleOfDante: some people type as fast on these as on pc, up to 90-110 Words a minute, 70 if it needs to be clean
+2015-03-03 01:33:50	DiscipleOfDante	Before that I used one of those Samsung slide-phones with the full keyboard
+2015-03-03 01:34:02	Flacko	I'm trying to think what else it could be
+2015-03-03 01:34:03	DiscipleOfDante	My highest gwam is 80 o.o
+2015-03-03 01:34:09	DiscipleOfDante	50 if it has to be clean
+2015-03-03 01:34:16	Tobias[L]	DiscipleOfDante: it doesn't need to be a blackberry (tough having an old one as backup is awesome) and those keyboards outmatch any other phone keyboard, ever
+2015-03-03 01:34:26	DiscipleOfDante	Nah I didn't care for them
+2015-03-03 01:34:34	body	Flacko: e:error executing updater binary in zip this was the error
+2015-03-03 01:34:35	DiscipleOfDante	My thumbs are too big and just are not fast enough
+2015-03-03 01:34:41	Flacko	RIght
+2015-03-03 01:35:03	Flacko	Since the md5 sums matched up it's not the ROM
+2015-03-03 01:35:10	Thub	I tried SwiftKey for a month and I couldn't get any faster than 1/2 the speed of the default keyboard.  Definitely not worth beating your head against it for gesture text entry.
+2015-03-03 01:35:24	Flacko	Which still makes me think it's the recovery
+2015-03-03 01:35:30	DiscipleOfDante	the AOSP was even worse than swype for me to be honest
+2015-03-03 01:35:31	Tobias[L]	DiscipleOfDante: there is no thumb too fat to Type on a Q10
+2015-03-03 01:35:31	pagefault	voice dictation works well if you don’t mind looking like a tool
+2015-03-03 01:35:37	DiscipleOfDante	Tobias[L]: Q10>?
+2015-03-03 01:35:54	Flacko	But it seems the best way to get you updated is to boot into CM12 again, download that app and flash TWRP from there
+2015-03-03 01:36:07	DiscipleOfDante	Mine are too big for that
+2015-03-03 01:36:19	pagefault	do you have dicks for thumbs
+2015-03-03 01:36:22	▬▬▶	rchavik (~rchavik@unaffiliated/rchavik) has joined #Cyanogenmod
+2015-03-03 01:36:27	DiscipleOfDante	Besides I don't think they make those anymore
+2015-03-03 01:36:29	◀▬▬	happytoo (~happyone@108.170.48.242) has quit (Read error: Connection reset by peer)
+2015-03-03 01:36:40	body	Flacko: so i'm gonna put cm12 again, because i think i wiped that too
+2015-03-03 01:36:50	▬▬▶	happytoo (~happyone@108.170.48.242) has joined #Cyanogenmod
+2015-03-03 01:37:00	Tobias[L]	DiscipleOfDante: the Q10 and 9930 still are avialiable and i am going with pagefault question: so you have deformed elephants inplace of thumbs?
+2015-03-03 01:37:23	Flacko	You should have access to MTP in recovery, if not you can adb push it to your device
+2015-03-03 01:37:27	DiscipleOfDante	No but to use the corners of my thumbs on keys like that starts to hurt after a couple minutes
+2015-03-03 01:37:29	Flacko	Or even sideload it
+2015-03-03 01:37:34	▬▬▶	SunSoul (~SunSoul@c-73-166-124-127.hsd1.tx.comcast.net) has joined #Cyanogenmod
+2015-03-03 01:37:36	Tobias[L]	DiscipleOfDante: also do you know those sacks filled with the cores of cherrys? that is a warming pillow, you put it in the microwave and its warm
+2015-03-03 01:37:46	⚡	Flacko looks at thumbs
+2015-03-03 01:37:48	DiscipleOfDante	No I don't know them
+2015-03-03 01:37:49	▬▬▶	GTRsdk (~gtrsdk@unaffiliated/gtrsdk) has joined #Cyanogenmod
+2015-03-03 01:37:51	Flacko	Corners?
+2015-03-03 01:37:52	Tobias[L]	DiscipleOfDante: you clearly type too less
+2015-03-03 01:37:59	DiscipleOfDante	Too less?
+2015-03-03 01:38:05	Tobias[L]	DiscipleOfDante: when i played guitar it too hurt
+2015-03-03 01:38:10	DiscipleOfDante	Dude I type constantly
+2015-03-03 01:38:12	Tobias[L]	DiscipleOfDante: now it doesnt
+2015-03-03 01:38:13	DiscipleOfDante	I have since i was 4
+2015-03-03 01:38:24	DiscipleOfDante	Back when I was playing video games on my dad's old af DOS computer
+2015-03-03 01:38:26	◀▬▬	Thub (4648bcb5@gateway/web/freenode/ip.70.72.188.181) has left #Cyanogenmod
+2015-03-03 01:38:26	Tobias[L]	DiscipleOfDante: but not on mechanical phone keyboards
+2015-03-03 01:38:31	Tobias[L]	DiscipleOfDante: which are superior
+2015-03-03 01:38:34	DiscipleOfDante	Nope those things suck
+2015-03-03 01:38:49	Tobias[L]	DiscipleOfDante: absolutely superior to every touch solution
+2015-03-03 01:38:55	DiscipleOfDante	Agree to disagree
+2015-03-03 01:39:07	Tobias[L]	DiscipleOfDante: unless you have a tactile tocuhscreen
+2015-03-03 01:39:14	Tobias[L]	DiscipleOfDante: which you dont
+2015-03-03 01:39:31	pagefault	it’s a tradeoff between nice typing and screen size
+2015-03-03 01:39:38	DiscipleOfDante	Kii worked fine more me and using the corners of my thumbs on the touchscreen is just as accurate as using them on a mechanical keyboard
+2015-03-03 01:39:41	DiscipleOfDante	For me
+2015-03-03 01:40:16	▬▬▶	Thub (4648bcb5@gateway/web/freenode/ip.70.72.188.181) has joined #Cyanogenmod
+2015-03-03 01:40:48	pagefault	I wish I could hook up a model M to my phone
+2015-03-03 01:40:53	pagefault	that is the best keyboard known to man
+2015-03-03 01:41:04	Tobias[L]	DiscipleOfDante: why to you type with your fingers corner?
+2015-03-03 01:41:13	DiscipleOfDante	It is more accurate
+2015-03-03 01:41:22	Tobias[L]	DiscipleOfDante: that is what autocorrect is for
+2015-03-03 01:41:33	DiscipleOfDante	Autocorrect is never accurate
+2015-03-03 01:41:48	DiscipleOfDante	I am determined to never be one of those d*ches on smartphowned
+2015-03-03 01:41:52	Tobias[L]	DiscipleOfDante: and why mechanical keyboards have resistance so you only press the one in the middle while pushing your (even if elephant sized) thumb onto it
+2015-03-03 01:42:07	bynarie	pagefault, on your klimtwifi, does the boot animation lag?
+2015-03-03 01:42:16	Tobias[L]	DiscipleOfDante: my thumbs are massive aswell yet i can type without problem
+2015-03-03 01:42:20	pagefault	bynarie: yeah but it boots fast
+2015-03-03 01:42:27	pagefault	I think it’s theme, I changed my theme and its’ not laggy
+2015-03-03 01:42:27	DiscipleOfDante	I'm just as accurate regardless so even if it didn't hurt it would make no difference
+2015-03-03 01:42:29	Tobias[L]	DiscipleOfDante: i can type with my nose
+2015-03-03 01:42:42	DiscipleOfDante	f*ck that
+2015-03-03 01:42:42	Tobias[L]	DiscipleOfDante: so that doesnt matter for accuracy
+2015-03-03 01:42:53	DiscipleOfDante	Ugh how do I add a new darn home screen?
+2015-03-03 01:43:02	Tobias[L]	DiscipleOfDante: hold it long
+2015-03-03 01:43:09	DiscipleOfDante	Can I just say "give me three and stop with the dynamic crap?
+2015-03-03 01:43:11	pagefault	I use the dark material theme
+2015-03-03 01:43:16	pagefault	for the amoled power savings
+2015-03-03 01:44:04	Tobias[L]	DiscipleOfDante: but seriously get an used Blackberry 9900 or slightly older and type on that. and then cry when you use *key *sy *somethingtouchonandroid/appulzos ever again
+2015-03-03 01:44:22	DiscipleOfDante	I doubt they have any of the apps I use on a blackberry
+2015-03-03 01:44:35	DiscipleOfDante	Do they even have a GBA emulator? Let alone a DS emulator?
+2015-03-03 01:44:43	pagefault	you can run most android apps
+2015-03-03 01:45:26	bynarie	pagefault, actually mine does boot incredibly fast too, even faster than n5 or n9, but the dam animation is choppy
+2015-03-03 01:45:36	pagefault	but the device is marketed towards a certain demographic
+2015-03-03 01:46:22	GTRsdk	aka outcasts
+2015-03-03 01:46:23	bynarie	which demographic?
+2015-03-03 01:46:42	pagefault	bynarie: just get a diff theme I think the default one is buggy or something
+2015-03-03 01:46:50	pagefault	different boot screens are smooth
+2015-03-03 01:47:09	pagefault	I don’t care much though since it loads in like 3 seconds
+2015-03-03 01:47:11	GTRsdk	If you aren't doing Android, iPhone, or Windows... you gotta leave to Blackberry forest
+2015-03-03 01:47:30	Tobias[L]	DiscipleOfDante: the new Blackberry OS has an android runtime so ... it does
+2015-03-03 01:47:44	DiscipleOfDante	Tobias[L]: I thought they no longer made blackberry phones anymore
+2015-03-03 01:47:55	Tobias[L]	DiscipleOfDante: nope, going strong
+2015-03-03 01:48:04	Tobias[L]	DiscipleOfDante: i meant get an deap chirt used one
+2015-03-03 01:48:15	pagefault	android for work is being made by blackberry, that says somehting
+2015-03-03 01:48:28	DiscipleOfDante	Tobias[L]: If it isn't a phone I'm going to use, it is a wast of money
+2015-03-03 01:48:34	Tobias[L]	DiscipleOfDante: and feel how it types. once you've seen true beatuifulness you want on flipcover with keyboard anyway
+2015-03-03 01:48:40	DiscipleOfDante	I don't buy things just to try them, I don't make enough for that
+2015-03-03 01:48:44	Tobias[L]	DiscipleOfDante: it has full-fledged android runtime
+2015-03-03 01:48:46	DiscipleOfDante	Wine being the exception
+2015-03-03 01:48:48	Tobias[L]	DiscipleOfDante: as i said
+2015-03-03 01:49:05	Thub	Anyone here use a Bluetooth speaker regularly?
+2015-03-03 01:49:08	pagefault	haters gonna hate
+2015-03-03 01:50:11	pagefault	coporate email is an absolute piece of shit on android and iphone though
+2015-03-03 01:50:12	DiscipleOfDante	Tobias[L]: I meant that if I didn't like it, or its HW specs weren't better than what I've got, I'd never even consider buying it
+2015-03-03 01:50:29	pagefault	I tried to do it
+2015-03-03 01:50:33	pagefault	but I went back to the BB for that
+2015-03-03 01:50:57	Tobias[L]	DiscipleOfDante: i had an LG 4X HD. bought an used SGS2 for 50$ off ebay. now it is my main phone and i sold my 4X
+2015-03-03 01:51:10	Tobias[L]	DiscipleOfDante: i never had in mind to make it my daytoday phone
+2015-03-03 01:51:42	GTRsdk	I bought a Galaxy Nexus for $40 off ebay
+2015-03-03 01:51:43	pagefault	carry two phones until one ring can bind them
+2015-03-03 01:51:44	pagefault	or smth
+2015-03-03 01:51:49	DiscipleOfDante	The z30 looks nice
+2015-03-03 01:51:55	GTRsdk	I used it as my main phone for about 4 months lol
+2015-03-03 01:52:10	GTRsdk	now I carry around a Galaxy S4 and a HTC Sensation trying to test out networks
+2015-03-03 01:52:47	bynarie	pagefault, i dont care about it too much either because it loads so fast, but i was jus wondering if i was the only one who had this problem... which boot animation are you using?
+2015-03-03 01:53:01	DiscipleOfDante	But not for $360 bucks heck no
+2015-03-03 01:53:05	pagefault	the one that comes with dark material theme
+2015-03-03 01:53:10	Tobias[L]	DiscipleOfDante: we were talking about one with physical keyboard mate
+2015-03-03 01:53:25	GTRsdk	wow it is crazy how small sim cards are now
+2015-03-03 01:53:26	bynarie	oh ok
+2015-03-03 01:53:28	GTRsdk	actually
+2015-03-03 01:53:30	Tobias[L]	DiscipleOfDante: Q10 or 9930
+2015-03-03 01:53:38	GTRsdk	it is crazy how much plastic we just aren't using anymore
+2015-03-03 01:53:39	DiscipleOfDante	Both have crazy old hardware though o.o
+2015-03-03 01:53:55	pagefault	do you need a super fast cpu to answer email?
+2015-03-03 01:54:10	pagefault	you need something that can get you through the day without recharging it
+2015-03-03 01:54:19	DiscipleOfDante	GTRsdk: Did you know they've found a type of bacteria that eats and breaks down plastic into environmentally safe stuff?
+2015-03-03 01:54:25	◀▬▬	maqr (~maqr@httpcraft/hax) has quit (Read error: No route to host)
+2015-03-03 01:54:28	Tobias[L]	DiscipleOfDante: both dont need super fast cpus. they are made for typing, working, listening music maybe and youtube
+2015-03-03 01:54:41	body	Flacko: seems that cm12 wants to install it
+2015-03-03 01:54:44	pagefault	totally different demographic
+2015-03-03 01:54:45	DiscipleOfDante	And they are looking at using it for getting rid of land-fills with the bacteria
+2015-03-03 01:54:47	pagefault	like I said
+2015-03-03 01:54:48	pagefault	it’s not for kids
+2015-03-03 01:54:54	DiscipleOfDante	Tobias[L]: Yeah but that isn't what I use my phone for
+2015-03-03 01:55:04	DiscipleOfDante	Well not all I use my phone for
+2015-03-03 01:55:08	GTRsdk	DiscipleOfDante, did you know that some plastics will degrade if left in sunlight or extreme temperatures too long?
+2015-03-03 01:55:41	DiscipleOfDante	GTRsdk: Yep
+2015-03-03 01:55:47	DiscipleOfDante	Trash bags especially like to tdo that
+2015-03-03 01:56:00	DiscipleOfDante	Eventually they will break down completely
+2015-03-03 01:56:10	Tobias[L]	DiscipleOfDante: thats why you will get carpal tunnel syndrome and need the one you have but will never be satisfied with the keyboard
+2015-03-03 01:56:33	Flacko	Hmm
+2015-03-03 01:56:35	GTRsdk	PLA does that when you don't want it to :<
+2015-03-03 01:56:42	◀▬▬	johnsonSteward (~AndChat36@111.195.48.175) has quit (Read error: Connection reset by peer)
+2015-03-03 01:56:43	DiscipleOfDante	Also the cheapest blackberry on amazon is far more than I am willing to spend
+2015-03-03 01:56:54	▬▬▶	johnsonSteward (~AndChat36@111.195.48.175) has joined #Cyanogenmod
+2015-03-03 01:57:29	Flacko	I don't know what to do, body. You could try flashing a different kitkat ROM first and then go over to CM11
+2015-03-03 01:57:50	pagefault	bynarie: it’s much better with cm12 though isn’t it
+2015-03-03 01:58:13	bynarie	absolutely pagefault
+2015-03-03 01:58:35	pagefault	and mostly everything works
+2015-03-03 01:58:35	bynarie	pagefault, u dont happen to have your cm12 build on a server anywhere to download do you?
+2015-03-03 01:58:37	DiscipleOfDante	The hardware on the Q10 isn't too terribly bad though
+2015-03-03 01:58:38	body	Flacko: yea...it's ok, i just wanted to turn back at a lower version because cm12 it's draining my battery like ***
+2015-03-03 01:58:47	DiscipleOfDante	It is comparable to my SGSIII
+2015-03-03 01:58:51	GTRsdk	omg I just realized... the sim card plastic around the card that people put into the early smartphones actually makes up a full size sim
+2015-03-03 01:58:53	Flacko	=/
+2015-03-03 01:59:02	pagefault	bynarie: not currently I haven’t build one in a while
+2015-03-03 01:59:10	bynarie	ah.. ok
+2015-03-03 01:59:18	bynarie	but yea overall its a great tablet
+2015-03-03 01:59:23	pagefault	i’m waiting for them to go official
+2015-03-03 01:59:33	pagefault	should be soon
+2015-03-03 01:59:35	bynarie	yep
+2015-03-03 01:59:37	bynarie	i hope so
+2015-03-03 01:59:56	pagefault	another great hardware ruined by shitty samsung software
+2015-03-03 02:00:08	bynarie	lol no doubt... i hate touchwiz crap
+2015-03-03 02:00:34	bynarie	i still cannot get over the colors and display, how vivid and deep they are, its absolutely amazing
+2015-03-03 02:00:58	▬▬▶	KiloJuliet (~gplgeek@pdpc/supporter/student/GPLGeek) has joined #Cyanogenmod
+2015-03-03 02:01:04	pagefault	they keep all the good parts to themselves
+2015-03-03 02:01:11	bynarie	yea
+2015-03-03 02:01:42	▬▬▶	[R] (~rbox@unaffiliated/rbox) has joined #Cyanogenmod
+2015-03-03 02:01:43	BytesAndCoffee	wait
+2015-03-03 02:02:04	◀▬▬	jlf (~user@pdpc/supporter/active/jlf) has quit (Ping timeout: 264 seconds)
+2015-03-03 02:02:06	BytesAndCoffee	so there's cymod for the hero 2+, but not the idol x?
+2015-03-03 02:02:10	ℹ 	irc: disconnected from server

@@ -1,0 +1,516 @@
+2014-07-14 16:38:33	◥	body (~body@adsl-ull-160-116.47-151.net24.it) has joined #xmonad
+2014-07-14 16:38:33	ℹ 	Topic for #xmonad is "xmonad: the tiling window manager with formally proven extensions | xmonad 0.11 released! <changes http://www.haskell.org/haskellwiki/Xmonad/Notable_changes_since_0.10> | http://xmonad.org | http://xmonad.org/faq | cheatsheet: http://bit.ly/gz1R4"
+2014-07-14 16:38:33	ℹ 	Topic set by enthropy (~aavogt@CPE00222d67ba9d-CM00222d67ba99.cpe.net.cable.rogers.com) on Wed, 18 Dec 2013 05:45:22
+2014-07-14 16:38:45	ℹ 	Channel #xmonad: 217 nicks (0 ops, 1 voice, 216 normals)
+2014-07-14 16:38:45	ℹ 	URL for #xmonad: http://xmonad.org
+2014-07-14 16:38:49	ℹ 	Mode #xmonad [+cnt]
+2014-07-14 16:38:56	ℹ 	Channel created on Wed, 25 Apr 2007 07:33:15
+2014-07-14 16:39:16	body	hi, how can i bind my mouse, when i right-click on my empty desktop/workspace, to spawn a script ?
+2014-07-14 16:40:49	body	?
+2014-07-14 16:43:52	◥	simukis_ (~nagisa@78-60-58-6.static.zebra.lt) has joined #xmonad
+2014-07-14 16:50:41	body	hi, how can i bind my mouse, when i right-click on my empty desktop/workspace, to spawn a script ?
+2014-07-14 16:56:46	◥	kelnoky (~shao@95-91-224-245-dynip.superkabel.de) has joined #xmonad
+2014-07-14 16:56:46	ℹ 	Guest10707 is now known as shapr
+2014-07-14 16:58:00	◣	Sagi (maarten@gateway/utwente.nl/session) has quit (Ping timeout: 245 seconds)
+2014-07-14 16:58:54	◣	Zackio (~Matrixium@unaffiliated/matrixiumn) has quit (Ping timeout: 260 seconds)
+2014-07-14 16:59:31	◥	amphi (~amphi@unaffiliated/amphi) has joined #xmonad
+2014-07-14 17:02:42	◥	ndrei (~avo@213.111.4.76) has joined #xmonad
+2014-07-14 17:09:29	geekosaur	body: need something external to do that, I think; xmonad doesn't bind events on the root window
+2014-07-14 17:09:46	geekosaur	and, while changing that is possible, it's ... involved.
+2014-07-14 17:11:03	◣	HuMu_ (~Huub@197.155.148.202) has quit (Ping timeout: 240 seconds)
+2014-07-14 17:11:03	◣	HuMu (~Huub@197.155.148.202) has quit (Ping timeout: 260 seconds)
+2014-07-14 17:12:42	enthropy	it might actually bind events on the root window... you can click on it to make that screen the focused one
+2014-07-14 17:14:39	body	oh, ok, so i have to use something external
+2014-07-14 17:15:21	body	thank you for the tip :)
+2014-07-14 17:16:27	ℹ 	zz_rabisg is now known as rabisg
+2014-07-14 17:19:23	◥	Zackio (~Matrixium@unaffiliated/matrixiumn) has joined #xmonad
+2014-07-14 17:19:31	◥	Kron (~Kron@bas5-ottawa10-1177854125.dsl.bell.ca) has joined #xmonad
+2014-07-14 17:21:14	◥	Sagi (maarten@gateway/utwente.nl/session) has joined #xmonad
+2014-07-14 17:22:23	◣	simukis_ (~nagisa@78-60-58-6.static.zebra.lt) has quit (Ping timeout: 240 seconds)
+2014-07-14 17:24:18	◥	HuMu (~Huub@197.155.148.158) has joined #xmonad
+2014-07-14 17:24:18	geekosaur	if we're binding events on the root window already then you can use a handleEventHook
+2014-07-14 17:25:30	◥	tulcod (~tulcod@unaffiliated/tulcod) has joined #xmonad
+2014-07-14 17:28:13	geekosaur	matching on ButtonEvent with ev_button == button2 and ev_event_type == either butonPress or buttonRelease as appropriate
+2014-07-14 17:28:55	geekosaur	(only one of those, not both)
+2014-07-14 17:30:02	◣	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Ping timeout: 264 seconds)
+2014-07-14 17:33:01	◥	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #xmonad
+2014-07-14 17:34:31	◥	ixti (~ixti@77.226.194.200) has joined #xmonad
+2014-07-14 17:40:21	◥	simukis_ (~nagisa@78-60-58-6.static.zebra.lt) has joined #xmonad
+2014-07-14 17:44:59	ℹ 	rabisg is now known as zz_rabisg
+2014-07-14 17:45:17	◣	nco71 (~nco71@host-219-70-189-48.dynamic.kbtelecom.net) has quit (Remote host closed the connection)
+2014-07-14 17:46:28	◥	Toxmi (~Toxmi@91.133.196.232) has joined #xmonad
+2014-07-14 17:47:46	Toxmi	To have an indicator for "Current Keyboard Layout" I'm using xkb-switch which shows the keyboard layout and I've used Com command to show the output of the command be displayed on xmobar
+2014-07-14 17:48:26	Toxmi	Is there a way to run this command as the keyboard layotu changes? and not custom refresh rate such as 100
+2014-07-14 17:49:48	◣	ThomasLocke (~ThomasLoc@pdpc/supporter/active/thomaslocke) has quit (Ping timeout: 240 seconds)
+2014-07-14 17:51:59	ℹ 	zz_rabisg is now known as rabisg
+2014-07-14 17:55:10	geekosaur	hm. possibly handleEventHook on MappingNotifyEvent with ev_request = mappingKeyboard?
+2014-07-14 17:55:35	geekosaur	I think we listen for that event since we may need to reregister passive key grabs if the layout changes
+2014-07-14 17:59:28	Toxmi	geekosaur: yes
+2014-07-14 17:59:39	Toxmi	but it seems a bit complicated? xmobar has its own Kxb command but that is used for changing the keyboard (I think)
+2014-07-14 17:59:52	Toxmi	not an indicator of current state
+2014-07-14 18:00:39	Toxmi	geekosaur: Is is a bit complicated?
+2014-07-14 18:00:57	geekosaur	er?
+2014-07-14 18:01:09	Toxmi	I mean is it straight forward?
+2014-07-14 18:01:23	geekosaur	the complication I was talking about earlier was that of changing the event mask xmonad listens on
+2014-07-14 18:02:11	Toxmi	hmmm
+2014-07-14 18:02:11	geekosaur	in this case, the event mask should already be correct. although I suppose you could say "complicated" because it involves pattern matching and guards
+2014-07-14 18:03:02	Toxmi	yes, and also I'm a newbie, so....
+2014-07-14 18:03:24	Toxmi	OK thanks, current refresh rate is do the job, HW, not very effecient
+2014-07-14 18:05:26	geekosaur	hm, Kbd setting in xmobar listens on the event I said, not a refresh rate?
+2014-07-14 18:05:33	geekosaur	s/setting/monitor
+2014-07-14 18:06:28	Toxmi	yes, but it doesn't tell me the current keyboard layout, does it?
+2014-07-14 18:08:42	geekosaur	https://github.com/jaor/xmobar#kbd-opts thinks it does
+2014-07-14 18:08:44	Toxmi	geekosaur: thanks
+2014-07-14 18:09:16	Toxmi	I'm trying to test it...
+2014-07-14 18:10:00	ℹ 	irc: disconnected from server
+2014-07-14 21:33:05	◥	body (~body@host213-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #xmonad
+2014-07-14 21:33:05	ℹ 	Topic for #xmonad is "xmonad: the tiling window manager with formally proven extensions | xmonad 0.11 released! <changes http://www.haskell.org/haskellwiki/Xmonad/Notable_changes_since_0.10> | http://xmonad.org | http://xmonad.org/faq | cheatsheet: http://bit.ly/gz1R4"
+2014-07-14 21:33:05	ℹ 	Topic set by enthropy (~aavogt@CPE00222d67ba9d-CM00222d67ba99.cpe.net.cable.rogers.com) on Wed, 18 Dec 2013 05:45:22
+2014-07-14 21:33:05	ℹ 	Channel #xmonad: 216 nicks (0 ops, 1 voice, 215 normals)
+2014-07-14 21:33:06	ℹ 	URL for #xmonad: http://xmonad.org
+2014-07-14 21:33:08	ℹ 	Mode #xmonad [+cnt]
+2014-07-14 21:33:08	ℹ 	Channel created on Wed, 25 Apr 2007 07:33:15
+2014-07-14 21:33:16	◣	kevr (~kevr@unaffiliated/kevr) has quit (Ping timeout: 256 seconds)
+2014-07-14 21:33:45	◥	HuMu (~Huub@197.155.156.8) has joined #xmonad
+2014-07-14 21:34:03	body	hi, i was wondering if i can bind a shortcut like, space + right click to spawn a script ? , or modMask + right click ? 
+2014-07-14 21:36:00	◥	kevr (~kevr@unaffiliated/kevr) has joined #xmonad
+2014-07-14 21:37:44	geekosaur	x11 makes something like space+right click difficult. modifiers are easier but note that xmonad already uses modMask + clicks
+2014-07-14 21:38:20	geekosaur	(you could probably bind that on the root window but you'd have to intercept it in handleEventHook and swallow it if it's on the root window / pass it on if not)
+2014-07-14 21:40:37	◣	erikd (~erikd@hendrix.mega-nerd.net) has quit (Ping timeout: 240 seconds)
+2014-07-14 21:44:35	◣	mary5030 (~mary5030@72.32.115.233) has quit (Remote host closed the connection)
+2014-07-14 21:45:44	◣	ksf (~ksf@d186126.adsl.hansenet.de) has quit (Ping timeout: 240 seconds)
+2014-07-14 21:46:36	◥	ksf (~ksf@d156036.adsl.hansenet.de) has joined #xmonad
+2014-07-14 21:46:38	◣	Natch (~Natch@c-0ecce155.25-4-64736c10.cust.bredbandsbolaget.se) has quit (Read error: Connection reset by peer)
+2014-07-14 21:47:20	◥	Natch (~Natch@c-0ecce155.25-4-64736c10.cust.bredbandsbolaget.se) has joined #xmonad
+2014-07-14 21:51:49	body	geekosaur: oh, as i'm a begginer i think this is too complex for me, i was looking for binding the mouse click in some way to spawn me a menu
+2014-07-14 21:52:00	◣	Kron (~Kron@134.117.249.236) has quit (Ping timeout: 256 seconds)
+2014-07-14 21:52:49	geekosaur	you may be able to find an external program that makes it that easy. in general, though, it's not; and trying to work with something that's already in use in the same program is even harder
+2014-07-14 21:57:56	◥	Kron (~Kron@134.117.249.236) has joined #xmonad
+2014-07-14 21:58:57	◥	joneshf-laptop (~joneshf@98.208.35.89) has joined #xmonad
+2014-07-14 21:59:03	◥	joneshf (~joneshf@98.208.35.89) has joined #xmonad
+2014-07-14 22:00:52	◣	joneshf (~joneshf@98.208.35.89) has quit (Max SendQ exceeded)
+2014-07-14 22:01:22	◥	joneshf (~joneshf@98.208.35.89) has joined #xmonad
+2014-07-14 22:02:16	◥	ksf_ (~ksf@d008141.adsl.hansenet.de) has joined #xmonad
+2014-07-14 22:03:27	◥	erikd (~erikd@113.29.24.25) has joined #xmonad
+2014-07-14 22:03:52	◣	ksf (~ksf@d156036.adsl.hansenet.de) has quit (Ping timeout: 240 seconds)
+2014-07-14 22:04:37	◣	Kron (~Kron@134.117.249.236) has quit (Ping timeout: 240 seconds)
+2014-07-14 22:04:43	ℹ 	ksf_ is now known as ksf
+2014-07-14 22:05:58	◥	Kron (~Kron@134.117.249.236) has joined #xmonad
+2014-07-14 22:22:30	◥	nomeata (nobody@nomeata.de) has joined #xmonad
+2014-07-14 22:23:18	◥	m3ga (~erikd@113.29.24.25) has joined #xmonad
+2014-07-14 22:28:32	◣	m3ga (~erikd@113.29.24.25) has quit (Quit: disappearing into the sunset)
+2014-07-14 22:34:25	ℹ 	rejuvyesh[away] is now known as rejuvyesh
+2014-07-14 22:39:58	◣	wntrmte (~wintermut@cns2-dhcp186.bu.edu) has left #xmonad
+2014-07-14 22:42:33	◥	mary5030 (~mary5030@50.56.228.68) has joined #xmonad
+2014-07-14 22:44:48	◣	mary5030 (~mary5030@50.56.228.68) has quit (Remote host closed the connection)
+2014-07-14 22:44:51	ℹ 	rabisg is now known as zz_rabisg
+2014-07-14 22:49:20	◣	kelnoky (~shao@95-91-224-245-dynip.superkabel.de) has quit (Ping timeout: 240 seconds)
+2014-07-14 22:53:49	ℹ 	zz_rabisg is now known as rabisg
+2014-07-14 22:59:15	◥	ndrei (~avo@83.142.149.227) has joined #xmonad
+2014-07-14 23:01:37	◣	joneshf-laptop (~joneshf@98.208.35.89) has quit (Read error: Connection reset by peer)
+2014-07-14 23:01:55	◥	joneshf-laptop (~joneshf@98.208.35.89) has joined #xmonad
+2014-07-14 23:14:51	◥	mary5030 (~mary5030@72.32.115.233) has joined #xmonad
+2014-07-14 23:26:28	◥	wntrmte (~wintermut@cns2-dhcp186.bu.edu) has joined #xmonad
+2014-07-14 23:27:31	◣	nomeata (nobody@nomeata.de) has quit (Quit: Client exiting)
+2014-07-14 23:50:43	ℹ 	rabisg is now known as zz_rabisg
+2014-07-14 23:52:08	◣	discoffee (~discoffee@46.250.2.98) has quit (Read error: Connection reset by peer)
+2014-07-14 23:52:44	◣	kevr (~kevr@unaffiliated/kevr) has left #xmonad ("WeeChat 1.0-dev")
+2014-07-14 23:53:58	◣	cfricke (~cfricke@unaffiliated/cfricke) has quit (Quit: leaving)
+2014-07-14 23:54:49	◣	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2014-07-14 23:55:33	◥	seschwar (~seschwar@unaffiliated/seschwar) has joined #xmonad
+2014-07-14 23:57:42	◣	seschwar (~seschwar@unaffiliated/seschwar) has quit (Client Quit)
+2014-07-14 23:58:53	◣	igor- (~igor@200.239.65.110) has quit (Ping timeout: 240 seconds)
+2014-07-15 00:00:16	◣	Kron (~Kron@134.117.249.236) has quit (Quit: Kron awayyyyyy!)
+2014-07-15 00:06:30	◣	mary5030 (~mary5030@72.32.115.233) has quit (Remote host closed the connection)
+2014-07-15 00:16:50	◣	wntrmte (~wintermut@cns2-dhcp186.bu.edu) has left #xmonad
+2014-07-15 00:17:36	◥	wntrmte (~wintermut@cns2-dhcp186.bu.edu) has joined #xmonad
+2014-07-15 00:20:05	◣	tremon (~aschuring@d594e6a3.dsl.concepts.nl) has quit (Quit: getting boxed in)
+2014-07-15 00:25:27	◥	ksh (~ksh@gateway/tor-sasl/skulls) has joined #xmonad
+2014-07-15 00:30:31	◣	amphi (~amphi@unaffiliated/amphi) has quit (Remote host closed the connection)
+2014-07-15 00:31:29	◥	plotr (~name@unaffiliated/plotr) has joined #xmonad
+2014-07-15 00:32:10	◥	amphi (~amphi@unaffiliated/amphi) has joined #xmonad
+2014-07-15 00:41:32	◥	svensquared (~sven@541AED4C.cm-5-3d.dynamic.ziggo.nl) has joined #xmonad
+2014-07-15 00:43:07	◣	plotr (~name@unaffiliated/plotr) has quit (Quit: Leaving.)
+2014-07-15 00:46:28	◣	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has quit (Remote host closed the connection)
+2014-07-15 00:47:24	◥	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #xmonad
+2014-07-15 00:57:22	◣	simukis_ (~nagisa@78-60-58-6.static.zebra.lt) has quit (Ping timeout: 240 seconds)
+2014-07-15 00:57:42	ℹ 	rejuvyesh is now known as rejuvyesh[away]
+2014-07-15 01:17:24	◥	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has joined #xmonad
+2014-07-15 01:17:37	◥	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has joined #xmonad
+2014-07-15 01:21:55	◣	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 260 seconds)
+2014-07-15 01:30:02	◥	Kron (~Kron@bas5-ottawa10-1177854125.dsl.bell.ca) has joined #xmonad
+2014-07-15 01:31:24	◥	nco71 (~nco71@host-219-70-189-48.dynamic.kbtelecom.net) has joined #xmonad
+2014-07-15 01:33:26	◣	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2014-07-15 01:40:56	◣	HuMu (~Huub@197.155.156.8) has quit (Ping timeout: 240 seconds)
+2014-07-15 01:56:40	◥	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has joined #xmonad
+2014-07-15 01:59:04	◣	tulcod (~tulcod@unaffiliated/tulcod) has quit (Quit: Leaving)
+2014-07-15 02:09:56	◣	coltfred (~coltfred@inet-aumc03-o.oracle.com) has quit (Ping timeout: 240 seconds)
+2014-07-15 02:15:12	◣	ksh (~ksh@gateway/tor-sasl/skulls) has quit (Quit: ksh)
+2014-07-15 02:19:22	◣	stepnem (~stepnem@77.78.117.8) has quit (Ping timeout: 240 seconds)
+2014-07-15 02:35:48	◥	xmos (8a19f911@gateway/web/freenode/ip.138.25.249.17) has joined #xmonad
+2014-07-15 02:37:46	xmos	Hey guys. I've been using setxkbmap to switch between keyboard layouts. It has stopped working after upgrading to Ubuntu 14.04. setxkbmap de works, both the toggle option (i.e., switching between us and de) doesn't. Anyone with similar experience?
+2014-07-15 02:38:02	xmos	*but
+2014-07-15 02:44:23	◥	Absolute0 (~ramin@static-71-183-87-50.nycmny.fios.verizon.net) has joined #xmonad
+2014-07-15 02:49:48	◥	dmwit (~dmwit@c-71-56-146-117.hsd1.or.comcast.net) has joined #xmonad
+2014-07-15 03:02:02	◣	codygman (~cody@pool-173-71-16-72.dllstx.fios.verizon.net) has quit (Read error: No route to host)
+2014-07-15 03:02:16	◣	xmos (8a19f911@gateway/web/freenode/ip.138.25.249.17) has quit (Quit: Page closed)
+2014-07-15 03:08:08	◥	ksf_ (~ksf@d008194.adsl.hansenet.de) has joined #xmonad
+2014-07-15 03:08:15	◣	Absolute0 (~ramin@static-71-183-87-50.nycmny.fios.verizon.net) has quit (Remote host closed the connection)
+2014-07-15 03:09:44	◣	ksf (~ksf@d008141.adsl.hansenet.de) has quit (Ping timeout: 240 seconds)
+2014-07-15 03:10:07	◥	byte48 (~byte48@unaffiliated/byte48) has joined #xmonad
+2014-07-15 03:12:13	◥	ksf (~ksf@d030204.adsl.hansenet.de) has joined #xmonad
+2014-07-15 03:13:36	◣	ksf_ (~ksf@d008194.adsl.hansenet.de) has quit (Ping timeout: 240 seconds)
+2014-07-15 03:15:51	◥	PotatoGim (~PotatoGim@220.90.135.162) has joined #xmonad
+2014-07-15 03:38:32	◣	ixti (~ixti@77.226.194.200) has quit (Ping timeout: 240 seconds)
+2014-07-15 03:52:38	◣	juhp (~petersen@redhat/juhp) has quit (Quit: Ex-Chat)
+2014-07-15 03:54:52	◣	dmwit (~dmwit@c-71-56-146-117.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-07-15 03:56:26	◥	juhp (~petersen@redhat/juhp) has joined #xmonad
+2014-07-15 04:15:22	◥	dmwit (~dmwit@c-71-56-146-117.hsd1.or.comcast.net) has joined #xmonad
+2014-07-15 04:15:44	◣	hallettj (~jesse@pdx.galois.com) has quit (Ping timeout: 240 seconds)
+2014-07-15 04:21:49	◣	wntrmte (~wintermut@cns2-dhcp186.bu.edu) has left #xmonad
+2014-07-15 04:29:58	◣	drbean (~drbean@113.196.170.13) has quit (Ping timeout: 260 seconds)
+2014-07-15 04:39:39	◥	erin1983684 (foobar@142.196.202.161) has joined #xmonad
+2014-07-15 04:39:54	erin1983684	hey peeps whats a good tool to interface with xrandr?
+2014-07-15 04:42:28	◣	juhp (~petersen@redhat/juhp) has quit (*.net *.split)
+2014-07-15 04:42:30	◣	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has quit (*.net *.split)
+2014-07-15 04:42:38	◣	tiago_ (~tiago@81.193.46.112) has quit (*.net *.split)
+2014-07-15 04:42:39	◣	FragByte (~FragByte@185.7.196.161) has quit (*.net *.split)
+2014-07-15 04:42:39	◣	hamarukusa (~hamarukus@71.80-203-118.nextgentel.com) has quit (*.net *.split)
+2014-07-15 04:42:40	◣	Fox^ (~nuthin@209.148.82.155) has quit (*.net *.split)
+2014-07-15 04:42:41	◣	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (*.net *.split)
+2014-07-15 04:42:41	◣	Paul-S (~paul@subtle/user/Paul-S) has quit (*.net *.split)
+2014-07-15 04:42:42	◣	kanzure (~kanzure@131.252.130.248) has quit (*.net *.split)
+2014-07-15 04:42:42	◣	hamishmack (~hamishmac@121-73-30-206.cable.telstraclear.net) has quit (*.net *.split)
+2014-07-15 04:42:45	◣	taihen_ (~taihen@fiend.taihen.org) has quit (*.net *.split)
+2014-07-15 04:42:45	◣	erin1983684 (foobar@142.196.202.161) has quit (*.net *.split)
+2014-07-15 04:42:46	◣	disperse1 (~deph@virtual80.tentacle.fi) has quit (*.net *.split)
+2014-07-15 04:42:47	◣	lassulus (~lass@aidsballs.de) has quit (*.net *.split)
+2014-07-15 04:42:49	◣	defragger (~FatFreddy@praty.net) has quit (*.net *.split)
+2014-07-15 04:42:51	◣	shapr (~shapr@84.200.228.78) has quit (*.net *.split)
+2014-07-15 04:42:52	◥	dispersed (~deph@virtual80.tentacle.fi) has joined #xmonad
+2014-07-15 04:42:53	◥	Fox^ (~nuthin@209.148.82.155) has joined #xmonad
+2014-07-15 04:42:53	◥	kanzure (~kanzure@131.252.130.248) has joined #xmonad
+2014-07-15 04:42:55	◥	tiago_ (~tiago@81.193.46.112) has joined #xmonad
+2014-07-15 04:42:55	◥	taihen (~taihen@fiend.taihen.org) has joined #xmonad
+2014-07-15 04:42:56	◥	hamarukusa (~hamarukus@71.80-203-118.nextgentel.com) has joined #xmonad
+2014-07-15 04:43:01	◥	hamishmack (~hamishmac@121-73-30-206.cable.telstraclear.net) has joined #xmonad
+2014-07-15 04:43:02	◥	juhp (~petersen@redhat/juhp) has joined #xmonad
+2014-07-15 04:43:03	◥	FragByte (~FragByte@185.7.196.161) has joined #xmonad
+2014-07-15 04:43:11	◥	erin1983684 (foobar@142.196.202.161) has joined #xmonad
+2014-07-15 04:43:22	◥	Paul-S (~paul@subtle/user/Paul-S) has joined #xmonad
+2014-07-15 04:45:34	◥	lassulus (~lass@aidsballs.de) has joined #xmonad
+2014-07-15 04:45:38	◣	juhp (~petersen@redhat/juhp) has quit (Client Quit)
+2014-07-15 04:46:26	◥	Guest75849 (~shapr@84.200.228.78) has joined #xmonad
+2014-07-15 04:47:35	◥	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has joined #xmonad
+2014-07-15 04:48:10	◥	defragger (~FatFreddy@praty.net) has joined #xmonad
+2014-07-15 04:48:50	◥	juhp (~petersen@redhat/juhp) has joined #xmonad
+2014-07-15 04:49:17	ℹ 	rejuvyesh[away] is now known as rejuvyesh
+2014-07-15 04:53:27	◥	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has joined #xmonad
+2014-07-15 04:54:14	◣	tiago_ (~tiago@81.193.46.112) has quit (Ping timeout: 260 seconds)
+2014-07-15 04:55:14	◥	tiago_ (~tiago@bl9-107-11.dsl.telepac.pt) has joined #xmonad
+2014-07-15 05:12:38	◣	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has quit (*.net *.split)
+2014-07-15 05:12:39	◣	defragger (~FatFreddy@praty.net) has quit (*.net *.split)
+2014-07-15 05:12:40	◣	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has quit (*.net *.split)
+2014-07-15 05:12:44	◣	lassulus (~lass@aidsballs.de) has quit (*.net *.split)
+2014-07-15 05:12:47	◣	Guest75849 (~shapr@84.200.228.78) has quit (*.net *.split)
+2014-07-15 05:12:54	◣	ksf (~ksf@d030204.adsl.hansenet.de) has quit (*.net *.split)
+2014-07-15 05:12:55	◣	amphi (~amphi@unaffiliated/amphi) has quit (*.net *.split)
+2014-07-15 05:13:04	◣	Bish (~Bish@static.79.37.46.78.clients.your-server.de) has quit (*.net *.split)
+2014-07-15 05:13:07	◣	saep (~saep@185.7.196.161) has quit (*.net *.split)
+2014-07-15 05:13:12	◣	nicoo (~nicoo@unaffiliated/nicoo) has quit (*.net *.split)
+2014-07-15 05:13:17	◣	Hardolaf (~hardolaf@osuosc/Hardolaf) has quit (*.net *.split)
+2014-07-15 05:13:17	◣	chirpsalot (~Chirps@unaffiliated/chirpsalot) has quit (*.net *.split)
+2014-07-15 05:13:19	◣	sperber (sperber@freebsd/developer/sperber) has quit (*.net *.split)
+2014-07-15 05:13:27	◣	creek (~creek@unaffiliated/creek) has quit (*.net *.split)
+2014-07-15 05:13:37	◣	funnel (~funnel@unaffiliated/espiral) has quit (*.net *.split)
+2014-07-15 05:13:38	◣	joko (~joko@snf-205394.vm.okeanos.grnet.gr) has quit (*.net *.split)
+2014-07-15 05:13:40	◣	flor (~florian@62-62.199-178.cust.bluewin.ch) has quit (*.net *.split)
+2014-07-15 05:13:40	◣	macron (~macron@158.255.215.93) has quit (*.net *.split)
+2014-07-15 05:13:43	◣	thunderrd (~thunderrd@116.58.244.147) has quit (*.net *.split)
+2014-07-15 05:13:49	◣	juhp (~petersen@redhat/juhp) has quit (*.net *.split)
+2014-07-15 05:13:50	◣	erin1983684 (foobar@142.196.202.161) has quit (*.net *.split)
+2014-07-15 05:13:51	◣	hamarukusa (~hamarukus@71.80-203-118.nextgentel.com) has quit (*.net *.split)
+2014-07-15 05:13:55	◣	nco71 (~nco71@host-219-70-189-48.dynamic.kbtelecom.net) has quit (*.net *.split)
+2014-07-15 05:13:56	◣	erikd (~erikd@113.29.24.25) has quit (*.net *.split)
+2014-07-15 05:13:59	◣	enthropy (~aavogt@135-23-164-236.cpe.pppoe.ca) has quit (*.net *.split)
+2014-07-15 05:14:01	◣	tv (~tv@unaffiliated/tv) has quit (*.net *.split)
+2014-07-15 05:14:02	◣	smlb (~Smlb@unaffiliated/smlb) has quit (*.net *.split)
+2014-07-15 05:14:02	◣	kmicu (~kmicu@176.56.237.191) has quit (*.net *.split)
+2014-07-15 05:14:03	◣	webframp (sid5238@gateway/web/irccloud.com/x-efqbfwdvyzzupwis) has quit (*.net *.split)
+2014-07-15 05:14:13	◣	vehk (~vehk@unaffiliated/vehk) has quit (*.net *.split)
+2014-07-15 05:14:14	◣	theDon (~td@141.30.223.187) has quit (*.net *.split)
+2014-07-15 05:14:14	◣	kirin` (telex@gateway/shell/anapnea.net/x-lcortawmdjmegvzv) has quit (*.net *.split)
+2014-07-15 05:14:20	◣	tlonim (~tlonim@unaffiliated/tlonim) has quit (*.net *.split)
+2014-07-15 05:14:20	◣	s4msung (s4msung@karif.server-speed.net) has quit (*.net *.split)
+2014-07-15 05:14:25	◣	wookiehangover (~wookiehan@c-98-245-112-127.hsd1.co.comcast.net) has quit (*.net *.split)
+2014-07-15 05:14:25	◣	de-vri-es (~de-vri-es@voyager.de-vri.es) has quit (*.net *.split)
+2014-07-15 05:14:26	◣	rook2pawn (~rook@curl-paste.com) has quit (*.net *.split)
+2014-07-15 05:14:30	◣	Desoxy (~quassel@propane.zqnr.de) has quit (*.net *.split)
+2014-07-15 05:14:32	◣	MasseR_ (~masse@82.192.74.13) has quit (*.net *.split)
+2014-07-15 05:14:32	◣	Entroacceptor (~mad@unserver.de) has quit (*.net *.split)
+2014-07-15 05:14:34	◣	ilpianista (andrea@archlinux/developer/andrea) has quit (*.net *.split)
+2014-07-15 05:14:36	◣	janLo (~jan@x41a211c.wh16.tu-dresden.de) has quit (*.net *.split)
+2014-07-15 05:14:36	◣	haasn (~haasn@2a01:4f8:d13:5245::2) has quit (*.net *.split)
+2014-07-15 05:14:37	◣	tiago_ (~tiago@bl9-107-11.dsl.telepac.pt) has quit (*.net *.split)
+2014-07-15 05:14:40	◣	Fox^ (~nuthin@209.148.82.155) has quit (*.net *.split)
+2014-07-15 05:14:40	◣	kanzure (~kanzure@131.252.130.248) has quit (*.net *.split)
+2014-07-15 05:14:47	◣	pamojarpan (~quassel@73.132.60.178.dynamic.mundo-r.com) has quit (*.net *.split)
+2014-07-15 05:14:49	◣	eviladmin (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has quit (*.net *.split)
+2014-07-15 05:14:55	◣	FreeFull (~freefull@defocus/sausage-lover) has quit (*.net *.split)
+2014-07-15 05:14:57	◣	jaimef (jaimef@166.84.6.60) has quit (*.net *.split)
+2014-07-15 05:15:01	◣	fikusz (~fikusz@89.132.137.62) has quit (*.net *.split)
+2014-07-15 05:15:04	◣	jcurbo (~jcurbo@173.79.56.188) has quit (*.net *.split)
+2014-07-15 05:15:04	◣	davorak (~ubuntu@50.17.231.113) has quit (*.net *.split)
+2014-07-15 05:15:05	◣	Sagi (maarten@gateway/utwente.nl/session) has quit (*.net *.split)
+2014-07-15 05:15:06	◣	albel727 (~albel727@unaffiliated/albel727) has quit (*.net *.split)
+2014-07-15 05:15:08	◣	Vq (~vq@81-225-108-241-no123.tbcn.telia.com) has quit (*.net *.split)
+2014-07-15 05:15:10	◣	_flow_ (flow@star.freakempire.de) has quit (*.net *.split)
+2014-07-15 05:15:13	◣	ankan (ankan@c-b00271d5.012-233-6c756c1.cust.bredbandsbolaget.se) has quit (*.net *.split)
+2014-07-15 05:15:16	◣	Belgarion0 (~aoeu@Brain.campus.ltu.se) has quit (*.net *.split)
+2014-07-15 05:15:17	◣	fizzie (fis@unaffiliated/fizzie) has quit (*.net *.split)
+2014-07-15 05:15:18	◣	Fuuzetsu (~Shana@fsf/member/Fuuzetsu) has quit (*.net *.split)
+2014-07-15 05:15:23	◣	kabniel (~jonas@jonash.se) has quit (*.net *.split)
+2014-07-15 05:15:27	◣	ClarusCogitatio (~ClarusCog@23.94.34.174) has quit (*.net *.split)
+2014-07-15 05:15:29	◣	lambdabot (~lambdabot@silicon.int-e.eu) has quit (*.net *.split)
+2014-07-15 05:15:30	◣	aseidl (~aseidl@do.aas.io) has quit (*.net *.split)
+2014-07-15 05:15:30	◣	Khol (~khol@quassel.khol.org.uk) has quit (*.net *.split)
+2014-07-15 05:15:32	◣	mephx (~mephx@newton.ist.utl.pt) has quit (*.net *.split)
+2014-07-15 05:15:33	◣	impure_hate (~sorki@fedora/sorki) has quit (*.net *.split)
+2014-07-15 05:15:43	◣	sshine (~simon@hypnos.pronoia.dk) has quit (*.net *.split)
+2014-07-15 05:15:44	◣	jdost (~jdost@li211-146.members.linode.com) has quit (*.net *.split)
+2014-07-15 05:15:45	◣	worch_ (worch@battletoad.com) has quit (*.net *.split)
+2014-07-15 05:15:47	◣	mattp_ (~mattp_@199.191.58.43) has quit (*.net *.split)
+2014-07-15 05:15:53	◣	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has quit (*.net *.split)
+2014-07-15 05:16:05	◣	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has quit (*.net *.split)
+2014-07-15 05:16:05	◣	svensquared (~sven@541AED4C.cm-5-3d.dynamic.ziggo.nl) has quit (*.net *.split)
+2014-07-15 05:16:05	◣	byte48 (~byte48@unaffiliated/byte48) has quit (*.net *.split)
+2014-07-15 05:16:11	◣	Zackio (~Matrixium@unaffiliated/matrixiumn) has quit (*.net *.split)
+2014-07-15 05:16:12	◣	_ashbreeze_ (~mark@174-125-84-45.dyn.centurytel.net) has quit (*.net *.split)
+2014-07-15 05:16:15	◣	Liskni_si (pytt_l@ackle.nomi.cz) has quit (*.net *.split)
+2014-07-15 05:16:28	◣	mendez (~mendez@electricabac.us) has quit (*.net *.split)
+2014-07-15 05:16:32	◣	zz_rabisg (~rabisg@unaffiliated/rabisg) has quit (*.net *.split)
+2014-07-15 05:16:37	◣	keko_ (kekimmo@hilla.kapsi.fi) has quit (*.net *.split)
+2014-07-15 05:16:41	◣	a00001 (~kobra@ec2-174-129-6-230.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-07-15 05:16:47	◣	wagle (~wagle@static-50-43-45-7.bvtn.or.frontiernet.net) has quit (*.net *.split)
+2014-07-15 05:16:52	◣	jusa_ (jusa@kraa.fi) has quit (*.net *.split)
+2014-07-15 05:16:52	◣	Emantor (~Emantor@2a01:4f8:d13:5543::2) has quit (*.net *.split)
+2014-07-15 05:16:53	◣	pnielsen_ (pnielsen@2a01:7e00::f03c:91ff:fedf:3a21) has quit (*.net *.split)
+2014-07-15 05:16:54	◣	seagreen (~seagreen@short.csc.ncsu.edu) has quit (*.net *.split)
+2014-07-15 05:16:54	◣	l3france (~l3france@sucrose.csclub.uwaterloo.ca) has quit (*.net *.split)
+2014-07-15 05:16:59	◣	yac (yac@gentoo/developer/yac) has quit (*.net *.split)
+2014-07-15 05:17:01	◣	rejuvyesh (rejuvyesh@gateway/shell/bouncerstation/x-zvnxjszupizuefgl) has quit (*.net *.split)
+2014-07-15 05:17:02	◣	lpaste (~lpaste@unaffiliated/chrisdone) has quit (*.net *.split)
+2014-07-15 05:17:02	◣	Pythonfant (~moritz@2001:1a50:11:0:5f:8f:ac73:1) has quit (*.net *.split)
+2014-07-15 05:17:03	◣	thor77 (~Thor77@2001:1a50:11:0:5f:8f:acd8:280) has quit (*.net *.split)
+2014-07-15 05:17:06	◣	codehero (codehero@i.have.ipv6.on.coding4coffee.org) has quit (*.net *.split)
+2014-07-15 05:17:11	◣	dropdrive (~dropdrive@cpe-74-64-106-177.nyc.res.rr.com) has quit (*.net *.split)
+2014-07-15 05:17:11	◣	savanni (~savanni@apps.savannidgerinel.com) has quit (*.net *.split)
+2014-07-15 05:17:12	◣	GeertJohan (~gj@unaffiliated/geertjohan) has quit (*.net *.split)
+2014-07-15 05:17:13	◣	k00mi (~koomi@pictor.uberspace.de) has quit (*.net *.split)
+2014-07-15 05:17:15	◣	mimi_vx (~quassel@vector.clanwars.cz) has quit (*.net *.split)
+2014-07-15 05:17:19	◣	PotatoGim (~PotatoGim@220.90.135.162) has quit (*.net *.split)
+2014-07-15 05:17:27	◣	\q (~MaskRay@unaffiliated/maskray) has quit (*.net *.split)
+2014-07-15 05:17:29	◣	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (*.net *.split)
+2014-07-15 05:17:33	◣	OODavo (~OODavo@ppp121-44-255-139.lns20.syd7.internode.on.net) has quit (*.net *.split)
+2014-07-15 05:17:43	◣	tkln (~aapo@a88-112-43-201.elisa-laajakaista.fi) has quit (*.net *.split)
+2014-07-15 05:17:47	◣	owain (~owain@62.49.137.149) has quit (*.net *.split)
+2014-07-15 05:17:50	◣	kenyon (kenyon@darwin.kenyonralph.com) has quit (*.net *.split)
+2014-07-15 05:17:54	◣	p_l|backup (~pl@146.185.153.36) has quit (*.net *.split)
+2014-07-15 05:17:56	◣	jrib (~jrib@upstream/dev/jrib) has quit (*.net *.split)
+2014-07-15 05:17:59	◣	kaol (kaol@piperka.net) has quit (*.net *.split)
+2014-07-15 05:18:02	◣	p1 (~irssi@173.255.202.251) has quit (*.net *.split)
+2014-07-15 05:18:03	◣	Tordek (tordek@gateway/shell/blinkenshell.org/x-cxugtfxhtlzsvlov) has quit (*.net *.split)
+2014-07-15 05:18:07	◣	Taneb (~Taneb@runciman.hacksoc.org) has quit (*.net *.split)
+2014-07-15 05:18:07	◣	isomorphismes (~ubuntu@ec2-54-243-213-161.compute-1.amazonaws.com) has quit (*.net *.split)
+2014-07-15 05:18:07	◣	mayski (mayski@musta.naamio.fi) has quit (*.net *.split)
+2014-07-15 05:18:08	◣	ekeih (~ekeih@unaffiliated/ekeih) has quit (*.net *.split)
+2014-07-15 05:18:09	◣	moop (~slartibar@unaffiliated/fruitymeat) has quit (*.net *.split)
+2014-07-15 05:18:10	◣	byorgey (~byorgey@LVN513-9.cis.upenn.edu) has quit (*.net *.split)
+2014-07-15 05:18:13	◣	pi8028 (~pi8027@www2480uf.sakura.ne.jp) has quit (*.net *.split)
+2014-07-15 05:18:15	◣	dutchie (~josh@pdpc/supporter/student/dutchie) has quit (*.net *.split)
+2014-07-15 05:18:16	◣	ISF (~ivan@95.85.46.212) has quit (*.net *.split)
+2014-07-15 05:18:16	◣	anoe (~anoe@mail.delanoe.org) has quit (*.net *.split)
+2014-07-15 05:18:20	◣	Ulrar (~Ulrar@luwin.ulrar.net) has quit (*.net *.split)
+2014-07-15 05:18:24	◣	Dashkal (~dashkal@unaffiliated/dashkal) has quit (Write error: Broken pipe)
+2014-07-15 05:18:25	◣	Paul-S (~paul@subtle/user/Paul-S) has quit (Write error: Broken pipe)
+2014-07-15 05:18:36	◥	Paul-S_ (~paul@212-139-41-127.dynamic.dsl.as9105.com) has joined #xmonad
+2014-07-15 05:18:36	◥	Dashkal_ (~dashkal@S0106001217d8177c.vf.shawcable.net) has joined #xmonad
+2014-07-15 05:18:53	◣	tKumse (tfy09otg@itchy.cs.umu.se) has quit (Write error: Broken pipe)
+2014-07-15 05:21:44	◥	tKumse (tfy09otg@itchy.cs.umu.se) has joined #xmonad
+2014-07-15 05:21:44	◥	OODavo (~OODavo@ppp121-44-255-139.lns20.syd7.internode.on.net) has joined #xmonad
+2014-07-15 05:21:44	◥	tiago_ (~tiago@bl9-107-11.dsl.telepac.pt) has joined #xmonad
+2014-07-15 05:21:44	◥	juhp (~petersen@redhat/juhp) has joined #xmonad
+2014-07-15 05:21:44	◥	erin1983684 (foobar@142.196.202.161) has joined #xmonad
+2014-07-15 05:21:44	◥	hamarukusa (~hamarukus@71.80-203-118.nextgentel.com) has joined #xmonad
+2014-07-15 05:21:44	◥	kanzure (~kanzure@131.252.130.248) has joined #xmonad
+2014-07-15 05:21:44	◥	Fox^ (~nuthin@209.148.82.155) has joined #xmonad
+2014-07-15 05:21:44	◥	PotatoGim (~PotatoGim@220.90.135.162) has joined #xmonad
+2014-07-15 05:21:44	◥	ksf (~ksf@d030204.adsl.hansenet.de) has joined #xmonad
+2014-07-15 05:21:44	◥	byte48 (~byte48@unaffiliated/byte48) has joined #xmonad
+2014-07-15 05:21:44	◥	nco71 (~nco71@host-219-70-189-48.dynamic.kbtelecom.net) has joined #xmonad
+2014-07-15 05:21:44	◥	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has joined #xmonad
+2014-07-15 05:21:44	◥	tomboy65 (~tomboy@gateway/tor-sasl/tomboy64) has joined #xmonad
+2014-07-15 05:21:44	◥	svensquared (~sven@541AED4C.cm-5-3d.dynamic.ziggo.nl) has joined #xmonad
+2014-07-15 05:21:44	◥	amphi (~amphi@unaffiliated/amphi) has joined #xmonad
+2014-07-15 05:21:44	◥	erikd (~erikd@113.29.24.25) has joined #xmonad
+2014-07-15 05:21:44	◥	pamojarpan (~quassel@73.132.60.178.dynamic.mundo-r.com) has joined #xmonad
+2014-07-15 05:21:44	◥	enthropy (~aavogt@135-23-164-236.cpe.pppoe.ca) has joined #xmonad
+2014-07-15 05:21:44	◥	Sagi (maarten@gateway/utwente.nl/session) has joined #xmonad
+2014-07-15 05:21:44	◥	Zackio (~Matrixium@unaffiliated/matrixiumn) has joined #xmonad
+2014-07-15 05:21:44	◥	_ashbreeze_ (~mark@174-125-84-45.dyn.centurytel.net) has joined #xmonad
+2014-07-15 05:21:44	◥	\q (~MaskRay@unaffiliated/maskray) has joined #xmonad
+2014-07-15 05:21:44	◥	tv (~tv@unaffiliated/tv) has joined #xmonad
+2014-07-15 05:21:44	◥	thunderrd (~thunderrd@116.58.244.147) has joined #xmonad
+2014-07-15 05:21:44	◥	albel727 (~albel727@unaffiliated/albel727) has joined #xmonad
+2014-07-15 05:21:44	◥	dschoepe (~dschoepe@unaffiliated/dschoepe) has joined #xmonad
+2014-07-15 05:21:44	◥	eviladmin (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has joined #xmonad
+2014-07-15 05:21:44	◥	smlb (~Smlb@unaffiliated/smlb) has joined #xmonad
+2014-07-15 05:21:44	◥	kmicu (~kmicu@176.56.237.191) has joined #xmonad
+2014-07-15 05:21:44	◥	Liskni_si (pytt_l@ackle.nomi.cz) has joined #xmonad
+2014-07-15 05:21:44	◥	Bish (~Bish@static.79.37.46.78.clients.your-server.de) has joined #xmonad
+2014-07-15 05:21:44	◥	webframp (sid5238@gateway/web/irccloud.com/x-efqbfwdvyzzupwis) has joined #xmonad
+2014-07-15 05:21:44	◥	saep (~saep@185.7.196.161) has joined #xmonad
+2014-07-15 05:21:44	◥	zz_rabisg (~rabisg@unaffiliated/rabisg) has joined #xmonad
+2014-07-15 05:21:44	◥	FreeFull (~freefull@defocus/sausage-lover) has joined #xmonad
+2014-07-15 05:21:44	◥	jaimef (jaimef@166.84.6.60) has joined #xmonad
+2014-07-15 05:21:44	◥	vehk (~vehk@unaffiliated/vehk) has joined #xmonad
+2014-07-15 05:21:44	◥	ilpianista (andrea@archlinux/developer/andrea) has joined #xmonad
+2014-07-15 05:21:44	◥	tkln (~aapo@a88-112-43-201.elisa-laajakaista.fi) has joined #xmonad
+2014-07-15 05:21:44	◥	nicoo (~nicoo@unaffiliated/nicoo) has joined #xmonad
+2014-07-15 05:21:44	◥	theDon (~td@141.30.223.187) has joined #xmonad
+2014-07-15 05:21:44	◥	kirin` (telex@gateway/shell/anapnea.net/x-lcortawmdjmegvzv) has joined #xmonad
+2014-07-15 05:21:44	◥	kabniel (~jonas@jonash.se) has joined #xmonad
+2014-07-15 05:21:44	◥	ClarusCogitatio (~ClarusCog@23.94.34.174) has joined #xmonad
+2014-07-15 05:21:44	◥	yac (yac@gentoo/developer/yac) has joined #xmonad
+2014-07-15 05:21:44	◥	haasn (~haasn@2a01:4f8:d13:5245::2) has joined #xmonad
+2014-07-15 05:21:44	◥	janLo (~jan@x41a211c.wh16.tu-dresden.de) has joined #xmonad
+2014-07-15 05:21:44	◥	Entroacceptor (~mad@unserver.de) has joined #xmonad
+2014-07-15 05:21:44	◥	MasseR_ (~masse@82.192.74.13) has joined #xmonad
+2014-07-15 05:21:44	◥	Desoxy (~quassel@propane.zqnr.de) has joined #xmonad
+2014-07-15 05:21:44	◥	rook2pawn (~rook@curl-paste.com) has joined #xmonad
+2014-07-15 05:21:44	◥	de-vri-es (~de-vri-es@voyager.de-vri.es) has joined #xmonad
+2014-07-15 05:21:44	◥	wookiehangover (~wookiehan@c-98-245-112-127.hsd1.co.comcast.net) has joined #xmonad
+2014-07-15 05:21:44	◥	s4msung (s4msung@karif.server-speed.net) has joined #xmonad
+2014-07-15 05:21:44	◥	tlonim (~tlonim@unaffiliated/tlonim) has joined #xmonad
+2014-07-15 05:21:44	◥	davorak (~ubuntu@50.17.231.113) has joined #xmonad
+2014-07-15 05:21:44	◥	jcurbo (~jcurbo@173.79.56.188) has joined #xmonad
+2014-07-15 05:21:44	◥	fikusz (~fikusz@89.132.137.62) has joined #xmonad
+2014-07-15 05:21:44	◥	Fuuzetsu (~Shana@fsf/member/Fuuzetsu) has joined #xmonad
+2014-07-15 05:21:44	◥	fizzie (fis@unaffiliated/fizzie) has joined #xmonad
+2014-07-15 05:21:44	◥	Belgarion0 (~aoeu@Brain.campus.ltu.se) has joined #xmonad
+2014-07-15 05:21:44	◥	ankan (ankan@c-b00271d5.012-233-6c756c1.cust.bredbandsbolaget.se) has joined #xmonad
+2014-07-15 05:21:44	◥	_flow_ (flow@star.freakempire.de) has joined #xmonad
+2014-07-15 05:21:44	◥	Vq (~vq@81-225-108-241-no123.tbcn.telia.com) has joined #xmonad
+2014-07-15 05:21:44	◥	mattp_ (~mattp_@199.191.58.43) has joined #xmonad
+2014-07-15 05:21:44	◥	worch_ (worch@battletoad.com) has joined #xmonad
+2014-07-15 05:21:44	◥	jdost (~jdost@li211-146.members.linode.com) has joined #xmonad
+2014-07-15 05:21:44	◥	sshine (~simon@hypnos.pronoia.dk) has joined #xmonad
+2014-07-15 05:21:44	◥	impure_hate (~sorki@fedora/sorki) has joined #xmonad
+2014-07-15 05:21:44	◥	mephx (~mephx@newton.ist.utl.pt) has joined #xmonad
+2014-07-15 05:21:44	◥	Khol (~khol@quassel.khol.org.uk) has joined #xmonad
+2014-07-15 05:21:44	◥	aseidl (~aseidl@do.aas.io) has joined #xmonad
+2014-07-15 05:21:44	◥	lambdabot (~lambdabot@silicon.int-e.eu) has joined #xmonad
+2014-07-15 05:21:44	◥	seagreen (~seagreen@short.csc.ncsu.edu) has joined #xmonad
+2014-07-15 05:21:44	◥	pnielsen_ (pnielsen@2a01:7e00::f03c:91ff:fedf:3a21) has joined #xmonad
+2014-07-15 05:21:44	◥	Emantor (~Emantor@2a01:4f8:d13:5543::2) has joined #xmonad
+2014-07-15 05:21:44	◥	jusa_ (jusa@kraa.fi) has joined #xmonad
+2014-07-15 05:21:44	◥	wagle (~wagle@static-50-43-45-7.bvtn.or.frontiernet.net) has joined #xmonad
+2014-07-15 05:21:44	◥	l3france (~l3france@sucrose.csclub.uwaterloo.ca) has joined #xmonad
+2014-07-15 05:21:44	◥	a00001 (~kobra@ec2-174-129-6-230.compute-1.amazonaws.com) has joined #xmonad
+2014-07-15 05:21:44	◥	keko_ (kekimmo@hilla.kapsi.fi) has joined #xmonad
+2014-07-15 05:21:44	◥	mendez (~mendez@electricabac.us) has joined #xmonad
+2014-07-15 05:21:44	◥	mimi_vx (~quassel@vector.clanwars.cz) has joined #xmonad
+2014-07-15 05:21:44	◥	k00mi (~koomi@pictor.uberspace.de) has joined #xmonad
+2014-07-15 05:21:44	◥	GeertJohan (~gj@unaffiliated/geertjohan) has joined #xmonad
+2014-07-15 05:21:44	◥	savanni (~savanni@apps.savannidgerinel.com) has joined #xmonad
+2014-07-15 05:21:44	◥	dropdrive (~dropdrive@cpe-74-64-106-177.nyc.res.rr.com) has joined #xmonad
+2014-07-15 05:21:44	◥	codehero (codehero@i.have.ipv6.on.coding4coffee.org) has joined #xmonad
+2014-07-15 05:21:44	◥	Pythonfant (~moritz@2001:1a50:11:0:5f:8f:ac73:1) has joined #xmonad
+2014-07-15 05:21:44	◥	lpaste (~lpaste@unaffiliated/chrisdone) has joined #xmonad
+2014-07-15 05:21:44	◥	thor77 (~Thor77@2001:1a50:11:0:5f:8f:acd8:280) has joined #xmonad
+2014-07-15 05:21:44	◥	rejuvyesh (rejuvyesh@gateway/shell/bouncerstation/x-zvnxjszupizuefgl) has joined #xmonad
+2014-07-15 05:21:44	ℹ 	Mode #xmonad [+v lambdabot] by card.freenode.net
+2014-07-15 05:21:44	◥	anoe (~anoe@mail.delanoe.org) has joined #xmonad
+2014-07-15 05:21:44	◥	ISF (~ivan@95.85.46.212) has joined #xmonad
+2014-07-15 05:21:44	◥	pi8028 (~pi8027@www2480uf.sakura.ne.jp) has joined #xmonad
+2014-07-15 05:21:44	◥	dutchie (~josh@pdpc/supporter/student/dutchie) has joined #xmonad
+2014-07-15 05:21:44	◥	byorgey (~byorgey@LVN513-9.cis.upenn.edu) has joined #xmonad
+2014-07-15 05:21:44	◥	moop (~slartibar@unaffiliated/fruitymeat) has joined #xmonad
+2014-07-15 05:21:44	◥	ekeih (~ekeih@unaffiliated/ekeih) has joined #xmonad
+2014-07-15 05:21:44	◥	isomorphismes (~ubuntu@ec2-54-243-213-161.compute-1.amazonaws.com) has joined #xmonad
+2014-07-15 05:21:44	◥	Taneb (~Taneb@runciman.hacksoc.org) has joined #xmonad
+2014-07-15 05:21:44	◥	Tordek (tordek@gateway/shell/blinkenshell.org/x-cxugtfxhtlzsvlov) has joined #xmonad
+2014-07-15 05:21:44	◥	p1 (~irssi@173.255.202.251) has joined #xmonad
+2014-07-15 05:21:44	◥	kaol (kaol@piperka.net) has joined #xmonad
+2014-07-15 05:21:44	◥	jrib (~jrib@upstream/dev/jrib) has joined #xmonad
+2014-07-15 05:21:44	◥	p_l|backup (~pl@146.185.153.36) has joined #xmonad
+2014-07-15 05:21:44	◥	mayski (mayski@musta.naamio.fi) has joined #xmonad
+2014-07-15 05:21:44	◥	kenyon (kenyon@darwin.kenyonralph.com) has joined #xmonad
+2014-07-15 05:21:44	◥	owain (~owain@62.49.137.149) has joined #xmonad
+2014-07-15 05:21:44	◥	Hardolaf (~hardolaf@osuosc/Hardolaf) has joined #xmonad
+2014-07-15 05:21:44	◥	chirpsalot (~Chirps@unaffiliated/chirpsalot) has joined #xmonad
+2014-07-15 05:21:44	◥	sperber (sperber@freebsd/developer/sperber) has joined #xmonad
+2014-07-15 05:21:44	◥	creek (~creek@unaffiliated/creek) has joined #xmonad
+2014-07-15 05:21:44	◥	funnel (~funnel@unaffiliated/espiral) has joined #xmonad
+2014-07-15 05:21:44	◥	joko (~joko@snf-205394.vm.okeanos.grnet.gr) has joined #xmonad
+2014-07-15 05:21:44	◥	flor (~florian@62-62.199-178.cust.bluewin.ch) has joined #xmonad
+2014-07-15 05:21:44	◥	macron (~macron@158.255.215.93) has joined #xmonad
+2014-07-15 05:23:06	◥	chupacabra (~chupacabr@cpe-66-68-111-24.austin.res.rr.com) has joined #xmonad
+2014-07-15 05:23:06	◥	defragger (~FatFreddy@praty.net) has joined #xmonad
+2014-07-15 05:23:06	◥	hvr (~hvr@h081217016230.dyn.cm.kabsi.at) has joined #xmonad
+2014-07-15 05:23:06	◥	Guest75849 (~shapr@84.200.228.78) has joined #xmonad
+2014-07-15 05:23:06	◥	lassulus (~lass@aidsballs.de) has joined #xmonad
+2014-07-15 05:23:35	◥	Ulrar (~Ulrar@luwin.ulrar.net) has joined #xmonad
+2014-07-15 05:23:58	◥	wntrmte (~wintermut@c-71-232-26-50.hsd1.ma.comcast.net) has joined #xmonad
+2014-07-15 05:24:45	◣	Dashkal_ (~dashkal@S0106001217d8177c.vf.shawcable.net) has quit (Changing host)
+2014-07-15 05:24:46	◥	Dashkal_ (~dashkal@unaffiliated/dashkal) has joined #xmonad
+2014-07-15 05:25:53	◣	kirin` (telex@gateway/shell/anapnea.net/x-lcortawmdjmegvzv) has quit (Ping timeout: 256 seconds)
+2014-07-15 05:27:20	◥	kirin` (telex@gateway/shell/anapnea.net/x-zjdgfilnarvvzkab) has joined #xmonad
+2014-07-15 05:32:30	◣	kirin` (telex@gateway/shell/anapnea.net/x-zjdgfilnarvvzkab) has quit (Ping timeout: 260 seconds)
+2014-07-15 05:33:52	◥	kirin` (telex@gateway/shell/anapnea.net/x-vkydjqdelsjyeqhb) has joined #xmonad
+2014-07-15 05:51:24	ℹ 	rejuvyesh is now known as rejuvyesh[away]
+2014-07-15 06:05:36	◣	erikd (~erikd@113.29.24.25) has quit (Quit: disappearing into the sunset)
+2014-07-15 06:09:22	◣	dmwit (~dmwit@c-71-56-146-117.hsd1.or.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-07-15 06:09:59	◥	archmonk (~archmonk@c-71-198-2-2.hsd1.ca.comcast.net) has joined #xmonad
+2014-07-15 06:10:42	archmonk	when I add an application to float why can't i use the keyboard shortcut (mod + j/k) to move the focus to another window ?
+2014-07-15 06:21:11	◥	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has joined #xmonad
+2014-07-15 06:26:46	◣	Rastus_Vernon (uid15187@wikimedia/Rastus-Vernon) has quit (Quit: Connection closed for inactivity)
+2014-07-15 06:27:14	enthropy	it is supposed to work
+2014-07-15 06:27:54	enthropy	archmonk: maybe you have two screens and the floating window belongs to a workspace that has only one window?
+2014-07-15 06:28:01	◥	HuMu (~Huub@197.155.148.26) has joined #xmonad
+2014-07-15 06:32:36	◣	enthropy (~aavogt@135-23-164-236.cpe.pppoe.ca) has quit (Quit: WeeChat 0.3.7)
+2014-07-15 06:38:52	◣	ISF (~ivan@95.85.46.212) has quit (Ping timeout: 240 seconds)
+2014-07-15 06:43:49	archmonk	ok it works my bad
+2014-07-15 06:43:52	archmonk	sorry about that
+2014-07-15 06:48:41	◥	ISF (~ivan@95.85.46.212) has joined #xmonad
+2014-07-15 07:06:05	◣	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2014-07-15 07:07:07	◥	drbean (~drbean@113.196.170.13) has joined #xmonad
+2014-07-15 07:14:15	◣	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has quit (Remote host closed the connection)
+2014-07-15 07:14:48	◥	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has joined #xmonad
+2014-07-15 07:15:46	◣	nco71 (~nco71@host-219-70-189-48.dynamic.kbtelecom.net) has quit (Remote host closed the connection)
+2014-07-15 07:23:58	◥	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has joined #xmonad
+2014-07-15 07:33:56	◣	pamojarpan (~quassel@73.132.60.178.dynamic.mundo-r.com) has quit (Ping timeout: 240 seconds)
+2014-07-15 07:35:51	◥	pamojarpan (~quassel@187.134.60.178.dynamic.mundo-r.com) has joined #xmonad
+2014-07-15 07:36:22	◣	mary5030 (~mary5030@75-13-89-6.lightspeed.austtx.sbcglobal.net) has quit (Remote host closed the connection)
+2014-07-15 07:41:40	◣	pamojarpan (~quassel@187.134.60.178.dynamic.mundo-r.com) has quit (Ping timeout: 264 seconds)
+2014-07-15 07:43:36	◥	seschwar (~seschwar@unaffiliated/seschwar) has joined #xmonad
+2014-07-15 07:44:25	◣	seschwar (~seschwar@unaffiliated/seschwar) has quit (Client Quit)
+2014-07-15 07:44:36	◥	ThomasLocke (~ThomasLoc@pdpc/supporter/active/thomaslocke) has joined #xmonad
+2014-07-15 07:46:32	◥	hoschi (~hoschi@31-17-43-1-dynip.superkabel.de) has joined #xmonad
+2014-07-15 10:11:03	ℹ 	irc: disconnected from server
+2014-11-12 00:06:23	◥	body (~body@host173-100-dynamic.51-79-r.retail.telecomitalia.it) has joined #xmonad
+2014-11-12 00:06:23	ℹ 	Topic for #xmonad is "xmonad: the tiling window manager with formally proven extensions | xmonad 0.11 released! <changes http://www.haskell.org/haskellwiki/Xmonad/Notable_changes_since_0.10> | http://xmonad.org | http://xmonad.org/faq | cheatsheet: http://bit.ly/gz1R4"
+2014-11-12 00:06:23	ℹ 	Topic set by enthropy (~aavogt@CPE00222d67ba9d-CM00222d67ba99.cpe.net.cable.rogers.com) on Wed, 18 Dec 2013 05:45:22
+2014-11-12 00:06:23	ℹ 	Channel #xmonad: 212 nicks (0 ops, 1 voice, 211 normals)
+2014-11-12 00:06:23	ℹ 	URL for #xmonad: http://xmonad.org
+2014-11-12 00:06:24	ℹ 	Channel created on Wed, 25 Apr 2007 07:33:15
+2014-11-12 00:09:33	body	hello,i updated my xmonad.hs config file and after i recompiled it .. i got this errors: https://bpaste.net/show/e86c2b38fe83 , everything was working like a charm before, version i'm using is xmonad 0.11
+2014-11-12 00:09:47	body	what could cause this ?
+2014-11-12 00:09:52	◣	kmicu (~kmicu@176.56.237.191) has quit (Ping timeout: 258 seconds)
+2014-11-12 00:11:40	◥	kmicu (~kmicu@176.56.237.191) has joined #xmonad
+2014-11-12 00:12:25	◣	jagob (~jacob@nobelnet.dk) has quit (Remote host closed the connection)
+2014-11-12 00:12:32	◣	rgr (~user@e177162190.adsl.alicedsl.de) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2014-11-12 00:14:31	◣	HuMu_ (~Huub@41.203.150.6) has quit (Remote host closed the connection)
+2014-11-12 00:22:24	dagle	body: Try to reinstall xmonad-contrib
+2014-11-12 00:23:36	body	yea, already fixed that was the problem :)
+2014-11-12 00:23:43	body	dagle: thank you anyway

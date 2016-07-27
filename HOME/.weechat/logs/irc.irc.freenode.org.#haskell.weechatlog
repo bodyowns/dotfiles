@@ -1,0 +1,67 @@
+2014-11-12 00:14:33	◥	body (~body@host173-100-dynamic.51-79-r.retail.telecomitalia.it) has joined #haskell
+2014-11-12 00:14:33	ℹ 	Topic for #haskell is "http://www.haskell.org/ | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | Administrative issues: #haskell-ops | Hackage status? http://status.haskell.org"
+2014-11-12 00:14:33	ℹ 	Topic set by glguy on Fri, 26 Sep 2014 03:55:19
+2014-11-12 00:14:33	ℹ 	Channel #haskell: 1489 nicks (1 op, 0 voices, 1488 normals)
+2014-11-12 00:14:33	ℹ 	URL for #haskell: http://www.haskell.org/
+2014-11-12 00:14:35	ℹ 	Channel created on Sun, 26 Nov 2006 08:42:48
+2014-11-12 00:14:35	felixn	Peaker: how is it currently handled?  does parsec not stream internally?
+2014-11-12 00:14:36	◣	acowley (~acowley@158.130.111.247) has quit (Client Quit)
+2014-11-12 00:14:37	◥	SuneAlkaersig (~sunealkae@4103ds5-by.0.fullrate.dk) has joined #haskell
+2014-11-12 00:14:45	◣	dgpratt_ (~dpratt71@207.182.200.34) has quit (Ping timeout: 240 seconds)
+2014-11-12 00:14:49	◣	senoj_ (~senoj@pdx.galois.com) has quit (Quit: /sleep)
+2014-11-12 00:14:51	◣	JagaJaga (~JagaJaga@178.62.202.50) has quit (Ping timeout: 258 seconds)
+2014-11-12 00:14:58	◣	freeman42 (Freeeman42@109.76.10.99) has quit (Quit: Leaving)
+2014-11-12 00:15:03	◥	acowley (~acowley@158.130.111.247) has joined #haskell
+2014-11-12 00:15:14	◥	n0n3such (~n0n3such@cpe-66-68-33-69.austin.res.rr.com) has joined #haskell
+2014-11-12 00:15:30	◣	latro`a (~latro`a@2601:a:2f00:5ba:a9de:b030:e50c:3d7e) has quit (Ping timeout: 265 seconds)
+2014-11-12 00:15:32	◥	fujimura (~fujimura@pb6abeb7f.tokyff01.ap.so-net.ne.jp) has joined #haskell
+2014-11-12 00:15:36	◥	nschoe (~nschoe@145.212.97.84.rev.sfr.net) has joined #haskell
+2014-11-12 00:15:36	body	hello,i updated my xmonad.hs config file and after i recompiled it .. i got this errors: https://bpaste.net/show/e86c2b38fe83 , everything was working like a charm before, version i'm using is xmonad 0.11, what could cause this ?
+2014-11-12 00:16:18	Welkin	it can't find the modules
+2014-11-12 00:16:24	Peaker	felixn: it does - but if you generate a new parsec stream, I think you somehow need to generate the new positions
+2014-11-12 00:16:24	Welkin	they must have changed in the new version
+2014-11-12 00:16:47	Welkin	body: just use the new config provided by the updated version
+2014-11-12 00:16:54	◥	senoj (~senoj@pdx.galois.com) has joined #haskell
+2014-11-12 00:17:01	Welkin	I don't use xmonad, so I can't tell you anything more specific than that
+2014-11-12 00:17:22	ReinH	Peaker: Pretty sure it reduces to the knapsack problem?
+2014-11-12 00:17:24	felixn	Peaker: my preprocessor just strips comments from the source, so I was thinking I could just skip over the comments, and resume the position from the last non comment char
+2014-11-12 00:17:26	◣	xivix (~xivix@50-194-46-188-static.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2014-11-12 00:17:37	◣	mthvedt (~mike@KD113159178231.ppp-bb.dion.ne.jp) has quit (Quit: mthvedt)
+2014-11-12 00:17:45	felixn	Peaker: err wait, it would be better to leave it where it was
+2014-11-12 00:17:47	body	Welkin: uhm, what do you actually mean by using the new config provided in the updated version ?
+2014-11-12 00:17:55	◣	eitan_ch_ (~eitan_cha@207.140.25.82) has quit (Remote host closed the connection)
+2014-11-12 00:18:30	Welkin	oh, I thought you updated it
+2014-11-12 00:18:42	michaelt	body did you install xmonad-contrib?
+2014-11-12 00:18:42	body	Welkin: yes, i made the update
+2014-11-12 00:18:46	Peaker	ReinH: which is NPC?
+2014-11-12 00:19:04	ReinH	Peaker: Right. As long as it isn't bin packing we're OK ;)
+2014-11-12 00:19:19	luite	Peaker: when stated with coins it's clear that it's amenable to the quasi-polynomial time solution to subset sum with dynamic programming
+2014-11-12 00:19:29	Welkin	body: the errors are obvious
+2014-11-12 00:19:31	◥	eitan_chatav (~eitan_cha@207.140.25.82) has joined #haskell
+2014-11-12 00:19:33	body	michaelt: let me check, but i had everything installed, 
+2014-11-12 00:19:36	Welkin	it can't find the modules specified
+2014-11-12 00:19:38	Peaker	ReinH: well, subset sum, knapsack, this coin division problem - are probably all NPC, equivalent up to polynomial conversions
+2014-11-12 00:19:50	◣	fujimura (~fujimura@pb6abeb7f.tokyff01.ap.so-net.ne.jp) has quit (Ping timeout: 255 seconds)
+2014-11-12 00:19:51	Welkin	I don't know about xmonad, so that is where my knowledge ends
+2014-11-12 00:19:59	luite	Peaker: that's why i mentioned bounded and integral coin values as a requirement
+2014-11-12 00:20:01	Peaker	luite: what does the "quasi" refer to?
+2014-11-12 00:20:34	michaelt	body, the errors suggest it knows about xmonad-0.11 but some of the modules missing are from xmonad-contrib
+2014-11-12 00:20:42	body	Welkin: yea, i understand , the wierd thing is the last time i compiled it it worked like a charm , and now i only changed a variable, and i got all those errors huh
+2014-11-12 00:20:56	body	michaelt: i'm building xmonad-contrib again
+2014-11-12 00:20:57	body	:)
+2014-11-12 00:21:38	luite	Peaker: that it's polynomial time only with respect to a more restricted definition of the problem size
+2014-11-12 00:21:41	body	michaelt: fuch yea, how the *%^&* my xmonad-contrib gone away i can't understand
+2014-11-12 00:21:48	body	Welkin: fixed :)
+2014-11-12 00:22:01	michaelt	body ghc-pkg list will tell you what you have installed .... ghc-pkg list xmonad-contrib will tell you about the package
+2014-11-12 00:22:12	michaelt	ah good, body
+2014-11-12 00:22:58	luite	Peaker: here it means that if you encode each input with unary encoding, like 11111 for a nickel, then your DP algorithm can solve it in a polynomial number of steps
+2014-11-12 00:23:04	body	thank you michaelt :)
+2014-11-12 00:23:05	◥	mthvedt (~mike@KD113159178231.ppp-bb.dion.ne.jp) has joined #haskell
+2014-11-12 00:23:10	luite	with respect to the number of ones used
+2014-11-12 00:23:12	◣	muzzle (~Adium@mnch-d9bde17b.pool.mediaWays.net) has quit (Quit: Leaving.)
+2014-11-12 00:23:15	◥	mjs2600 (~mjs2600@71.203.255.152) has joined #haskell
+2014-11-12 00:23:24	body	i was troubleshooting this for 3-4 hours without result doh :D
+2014-11-12 00:23:37	◣	rmarianski (~rmariansk@mail.marianski.com) has quit (Quit: leaving)
+2014-11-12 00:23:45	◣	aztek (~aztek@cust-95-80-41-232.csbnet.se) has quit (Remote host closed the connection)
+2014-11-12 00:23:48	◣	mthvedt (~mike@KD113159178231.ppp-bb.dion.ne.jp) has quit (Client Quit)
+2014-11-12 00:23:58	◥	klarrt (~dolmen@46-236-87-230.customer.t3.se) has joined #haskell

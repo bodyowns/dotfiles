@@ -1,0 +1,52 @@
+2015-01-30 23:51:15	▬▬▶	body1 (~body@79-64-172-225.host.pobb.as13285.net) has joined #android
+2015-01-30 23:51:15	ℹ 	Topic for #android is "Welcome to the official Android platform IRC channel! || AOSP review back up at https://android-review.googlesource.com/ || Android 5.0 (Lollipop) source released http://goo.gl/VtJw1O  || Root? Modded ROMs? Head to #android-root || App development questions? See #android-dev || Not talking android? Head to #android-offtopic"
+2015-01-30 23:51:15	ℹ 	Topic set by evanc (sid10144@gateway/web/irccloud.com/x-berxxoxfgghtjtoj) on Wed, 05 Nov 2014 06:36:27
+2015-01-30 23:51:15	ℹ 	Channel #android: 896 nicks (2 ops, 0 voices, 894 normals)
+2015-01-30 23:51:15	ℹ 	PvNotice(ChanServ): Welcome to #android! No bots, no publicly-accessible logging, and no bridging Android apps to this channel, please. Please show good IRC etiquette: don't send private messages without asking first.
+2015-01-30 23:51:15	◀▬▬	_marc` (~marc@p20030046032C02FEE53E23F7A1185BE8.dip0.t-ipconnect.de) has quit (Quit: _marc`)
+2015-01-30 23:51:17	ℹ 	Channel created on Mon, 05 Nov 2007 19:48:37
+2015-01-30 23:51:46	body1	hello, i'm having this problem, i'm trying to push "adb push cm12.0_golden.nova.20150129.zip /sdcard/
+2015-01-30 23:51:53	body1	but i get permission denied
+2015-01-30 23:52:00	body1	can somebody help me /
+2015-01-30 23:52:01	body1	?
+2015-01-30 23:52:02	▬▬▶	datrix (~textual@d173-180-61-146.bchsia.telus.net) has joined #android
+2015-01-30 23:52:26	◀▬▬	kexmex (~kexmex@178.136.234.6) has quit (Ping timeout: 256 seconds)
+2015-01-30 23:52:55	▬▬▶	kexmex (~kexmex@178.136.234.6) has joined #android
+2015-01-30 23:53:21	◀▬▬	rakshiv (~lol@c-71-233-32-181.hsd1.ma.comcast.net) has quit (Ping timeout: 244 seconds)
+2015-01-30 23:53:40	▬▬▶	donalus (~donalus@fsf/member/donalus) has joined #android
+2015-01-30 23:55:02	◀▬▬	webturtle0 (~webturtle@69.51.143.78) has quit (Ping timeout: 246 seconds)
+2015-01-30 23:55:34	◀▬▬	Berglund (~Berglund@c-064de353.035-36-616c6b1.cust.bredbandsbolaget.se) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2015-01-30 23:55:52	◀▬▬	smccarthy (~smccarthy@ip68-231-179-33.tc.ph.cox.net) has quit (Quit: Leaving...)
+2015-01-30 23:57:01	◀▬▬	ElixirVitae (~Shehrazad@unaffiliated/shehrazad) has quit (Ping timeout: 255 seconds)
+2015-01-30 23:57:45	◀▬▬	filadome_ (~filadome_@216.151.180.64) has quit (Quit: Leaving)
+2015-01-30 23:58:29	▬▬▶	dj_pi (~dj@c-107-5-228-80.hsd1.mi.comcast.net) has joined #android
+2015-01-30 23:59:14	▬▬▶	lucyinthesky (~lucyinthe@unaffiliated/lucyinthesky) has joined #android
+2015-01-31 00:00:05	▬▬▶	ZxoR (~ZxoR@bzq-79-179-15-220.red.bezeqint.net) has joined #android
+2015-01-31 00:00:09	▬▬▶	sshcontrol (~sha0@65.Red-88-21-137.staticIP.rima-tde.net) has joined #android
+2015-01-31 00:00:10	◀▬▬	Guest96576 (~kusanagi@pool-173-52-83-140.nycmny.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2015-01-31 00:00:14	sshcontrol	http://sscontrol.me
+2015-01-31 00:00:30	◀▬▬	sshcontrol (~sha0@65.Red-88-21-137.staticIP.rima-tde.net) has quit (Quit: leaving)
+2015-01-31 00:02:26	◀▬▬	tleyden (~textual@173-228-114-82.dedicated.static.sonic.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2015-01-31 00:02:29	◀▬▬	konradyx (~Leone@37.248.254.155) has quit (Ping timeout: 245 seconds)
+2015-01-31 00:02:45	▬▬▶	JasonO (~jason@unaffiliated/hereticlocke) has joined #android
+2015-01-31 00:04:06	◀▬▬	cagedwisdom (~X@124-170-144-46.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2015-01-31 00:04:12	◀▬▬	uZer (~uZer88@178-175-141-75.ip.as43289.net) has quit (Ping timeout: 244 seconds)
+2015-01-31 00:04:32	▬▬▶	tleyden (~textual@173-228-114-82.dedicated.static.sonic.net) has joined #android
+2015-01-31 00:05:45	◀▬▬	panda81 (~chatzilla@c-24-4-59-128.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2015-01-31 00:06:06	◀▬▬	mchelen (~mchelen@gateway/tor-sasl/mchelen) has quit (Ping timeout: 250 seconds)
+2015-01-31 00:06:19	▬▬▶	uZer (~uZer88@178-175-141-75.ip.as43289.net) has joined #android
+2015-01-31 00:06:20	◀▬▬	pentagonik (~nooneknow@ukc1-proxy-mwg03-o.oracle.com) has quit (Remote host closed the connection)
+2015-01-31 00:06:51	▬▬▶	Saphiresurf (~quassel@c-98-238-249-87.hsd1.ca.comcast.net) has joined #android
+2015-01-31 00:07:01	◀▬▬	DEA7TH (~quassel@unaffiliated/dea7th) has quit (Remote host closed the connection)
+2015-01-31 00:07:28	▬▬▶	herriojr (~Adium@2601:9:8200:100c:5e8:7cc2:d036:6485) has joined #android
+2015-01-31 00:07:32	◀▬▬	Saphiresurf (~quassel@c-98-238-249-87.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2015-01-31 00:07:37	◀▬▬	speeddragon (~speeddrag@gateway/tor-sasl/speeddragon) has quit (Remote host closed the connection)
+2015-01-31 00:07:37	◀▬▬	JasonO (~jason@unaffiliated/hereticlocke) has quit (Ping timeout: 265 seconds)
+2015-01-31 00:07:41	▬▬▶	mchelen (~mchelen@gateway/tor-sasl/mchelen) has joined #android
+2015-01-31 00:08:37	◀▬▬	herriojr (~Adium@2601:9:8200:100c:5e8:7cc2:d036:6485) has quit (Client Quit)
+2015-01-31 00:08:40	▬▬▶	wonderworld (~ww@ip-62-143-156-254.hsi01.unitymediagroup.de) has joined #android
+2015-01-31 00:09:45	▬▬▶	playjax (~chatzilla@pa49-182-6-185.pa.nsw.optusnet.com.au) has joined #android
+2015-01-31 00:10:08	▬▬▶	ahaxley (~ahaxley@c-67-188-212-159.hsd1.ca.comcast.net) has joined #android
+2015-01-31 00:10:51	▬▬▶	nighty^ (~nighty@hokuriku.rural-networks.com) has joined #android
+2015-01-31 00:11:18	▬▬▶	cagedwisdom (~X@124-170-144-46.dyn.iinet.net.au) has joined #android
+2015-01-31 00:11:22	ℹ 	irc: disconnected from server

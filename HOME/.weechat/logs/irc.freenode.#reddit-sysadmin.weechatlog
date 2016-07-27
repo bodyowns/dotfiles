@@ -1,0 +1,1364 @@
+2014-12-04 01:10:12	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #reddit-sysadmin
+2014-12-04 01:10:12	ℹ 	Topic for #reddit-sysadmin is "#reddit-sysadmin Home of /r/sysadmin - No Trolling - http://www.reddit.com/r/sysadmin/wiki/reddit-sysadmin-irc | Check out /r/sysadmingaming"
+2014-12-04 01:10:12	ℹ 	Topic set by DoTheNeedful (~cryptic1@198-91-171-48.cpe.distributel.net) on Sun, 12 Oct 2014 17:21:15
+2014-12-04 01:10:12	ℹ 	Channel #reddit-sysadmin: 493 nicks (7 ops, 8 voices, 478 normals)
+2014-12-04 01:10:14	ℹ 	Channel created on Thu, 29 Dec 2011 20:56:36
+2014-12-04 01:10:22	fastlags	See what u got
+2014-12-04 01:10:29	nojeffrey	tried that, no disks still
+2014-12-04 01:10:59	fastlags	Try live booting Ubuntu and see what you have? if nothing somethings up hardware/bios wise
+2014-12-04 01:11:15	nojeffrey	k, will do thanks
+2014-12-04 01:11:22	coppercore	WYSE?
+2014-12-04 01:11:24	coppercore	ohgod
+2014-12-04 01:11:26	⚡	coppercore hides
+2014-12-04 01:12:18	fastlags	Yes tinder honeys come to me
+2014-12-04 01:13:12	TuxedoJack	Oh, no, these aren't for use
+2014-12-04 01:13:15	TuxedoJack	They're being phased out
+2014-12-04 01:13:23	TuxedoJack	Standard for stuff like that... well, it's like anything else
+2014-12-04 01:13:29	TuxedoJack	No one else can use them.
+2014-12-04 01:13:30	TuxedoJack	EVER AGAIN
+2014-12-04 01:13:38	◀▬▬	joltman (~joltman@unaffiliated/joltman) has quit (Quit: Leaving.)
+2014-12-04 01:13:39	TuxedoJack	So, I kind of have a functioning Etherkiller
+2014-12-04 01:13:40	Th4tBa5t4rd	I pushed two locations out of our default user and computer OUs today. Updated relevant info
+2014-12-04 01:13:43	TuxedoJack	Who doesn't, though
+2014-12-04 01:14:00	TuxedoJack	I also am working on an inline-powered 8-port switch
+2014-12-04 01:14:09	TuxedoJack	So basically an 8-port Etherkiller.
+2014-12-04 01:14:12	TuxedoJack	So boom
+2014-12-04 01:14:15	TuxedoJack	No more WYSE boxen
+2014-12-04 01:14:18	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 245 seconds)
+2014-12-04 01:14:32	Th4tBa5t4rd	Use a squirt gun
+2014-12-04 01:15:38	fastlags	I'm gonna rent a room on Craigslist for cheap
+2014-12-04 01:15:45	fastlags	And wake up missing a kidney
+2014-12-04 01:16:19	Th4tBa5t4rd	Craigslist.That reminds me. I need to sell a Nexus 5
+2014-12-04 01:16:32	ℹ 	DAudioLink is now known as DAL|work-sucks
+2014-12-04 01:17:06	Th4tBa5t4rd	White 32gb Playstore purchase in ,... March or something
+2014-12-04 01:17:19	Th4tBa5t4rd	But I lost the box
+2014-12-04 01:17:29	◀▬▬	decompiled (~decompile@static-50-125-167-6.krld.wa.frontiernet.net) has quit
+2014-12-04 01:17:55	▬▬▶	Mrkatov (~Mrkatov4@doc-72-47-2-240.bishop.ca.cebridge.net) has joined #reddit-sysadmin
+2014-12-04 01:19:54	◀▬▬	Pip0 (~quassel@72.188.112.179) has quit (Ping timeout: 252 seconds)
+2014-12-04 01:21:25	Bilby	ugh, asshole clients
+2014-12-04 01:21:30	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:21:59	Bilby	when they threaten to close their accounts and you tell them you're sorry to hear t hat and do they want to be transferred to that department... they get mad
+2014-12-04 01:22:40	◀▬▬	nekomech (42c24905@gateway/web/freenode/ip.66.194.73.5) has quit (Ping timeout: 246 seconds)
+2014-12-04 01:22:45	▬▬▶	djsupersoak (~djsuperso@cpe-98-27-166-238.neo.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 01:22:47	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: No route to host)
+2014-12-04 01:23:15	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:24:25	Th4tBa5t4rd	Bilby: You're supposed to kowtow
+2014-12-04 01:24:58	◀▬▬	user1138_ (~user1138@unaffiliated/user1138) has quit (Read error: Connection reset by peer)
+2014-12-04 01:25:01	@mistiry	so, i wonder if this laser thing is gonna be cool or not
+2014-12-04 01:25:28	@mistiry	will be the only good thing of having to stay late tonight, if its visible
+2014-12-04 01:25:31	◀▬▬	sammj (sam@nat/ibm/x-lpnotjuufnaevsoc) has quit (Quit: leaving)
+2014-12-04 01:25:35	@mistiry	the nasa laser
+2014-12-04 01:25:54	Th4tBa5t4rd	are they shooting one off?
+2014-12-04 01:26:02	@mistiry	there's gonna be one pointed at mars
+2014-12-04 01:26:06	@mistiry	from 8pm until 7am
+2014-12-04 01:26:17	@mistiry	150w i believe
+2014-12-04 01:26:36	@mistiry	http://www.aroundosceola.com/?p=13154
+2014-12-04 01:27:21	Th4tBa5t4rd	I won't see it
+2014-12-04 01:27:31	raviout	why
+2014-12-04 01:27:34	@mistiry	i wouldnt if i was at home, im sure
+2014-12-04 01:27:34	raviout	are they
+2014-12-04 01:27:46	@mistiry	but i work, line-of-sight, less than 10mi from there
+2014-12-04 01:27:59	Th4tBa5t4rd	It's a ways off http://en.wikipedia.org/wiki/Prineville,_Oregon
+2014-12-04 01:28:18	◀▬▬	pandaant (~batman@149.201.240.93) has quit (Remote host closed the connection)
+2014-12-04 01:28:19	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 272 seconds)
+2014-12-04 01:28:38	@mistiry	i'll miss the orion launch at 7am
+2014-12-04 01:28:47	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:29:22	@lazyadmin	afternoon
+2014-12-04 01:29:32	@lazyadmin	:P
+2014-12-04 01:29:43	▬▬▶	sammj (sam@nat/ibm/x-opervdbgglroqwlp) has joined #reddit-sysadmin
+2014-12-04 01:30:07	◀▬▬	packets (~packet@168.235.67.118) has quit (Remote host closed the connection)
+2014-12-04 01:30:09	◀▬▬	intransit (~intransit@69.46.234.21) has quit (Remote host closed the connection)
+2014-12-04 01:30:12	Bilby	Th4tBa5t4rd i'm supposed to do what the customer wants
+2014-12-04 01:30:22	Bilby	customer says they want to close their accounts... do i fucking look like retention to you?
+2014-12-04 01:30:29	▬▬▶	packets (~packet@168.235.67.118) has joined #reddit-sysadmin
+2014-12-04 01:30:35	ℹ 	Mode #reddit-sysadmin [+o packets] by tcpip
+2014-12-04 01:30:36	ℹ 	Mode #reddit-sysadmin [+o packets] by devoops
+2014-12-04 01:30:47	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:30:53	Th4tBa5t4rd	I used to work comcast and I wouldn't attemp to sabe any customers
+2014-12-04 01:30:56	Th4tBa5t4rd	**save
+2014-12-04 01:31:16	◀▬▬	p0rkbelly (~p0rkbelly@pool-96-250-86-97.nwrknj.fios.verizon.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2014-12-04 01:31:42	▬▬▶	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 01:32:06	Bilby	anymore i'm tempted just to pick the bigger assholes and push their buttons
+2014-12-04 01:32:26	▬▬▶	audaxdreik (~audax_dre@c-67-168-100-34.hsd1.wa.comcast.net) has joined #reddit-sysadmin
+2014-12-04 01:32:39	Bilby	i love the big-little businesses that think because they have a bunch of accounts that we'll bow and scrape
+2014-12-04 01:32:41	Bilby	yep nope
+2014-12-04 01:32:49	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:33:41	Th4tBa5t4rd	I was a button pusher. I've always had low affect/tone in my voice. "No, I really am sorry." Delivered deadpan
+2014-12-04 01:34:06	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:34:36	Bilby	it pisses me off when someone comes in and they're super mad because their problem isn't fixed
+2014-12-04 01:34:42	Bilby	and they don't want to give me any info
+2014-12-04 01:34:45	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:34:59	Bilby	i'm seriously buddy, you might have been dealing with this for a while but i've been dealing with it for 20 seconds and have zero info
+2014-12-04 01:35:07	Th4tBa5t4rd	"Was there anything else I can help you with?"
+2014-12-04 01:35:15	Bilby	so you can choose to a) scream, in which case i'll mute my phone until my shift is over or you run out of air
+2014-12-04 01:35:34	Bilby	or b) you can give me your info and let one of the few damned good techs in this company try to fix your problem
+2014-12-04 01:35:35	◀▬▬	writteno1f (~writtenof@of1.psych.ubc.ca) has quit (Quit: leaving)
+2014-12-04 01:35:39	Bilby	yeah
+2014-12-04 01:35:44	Bilby	this call, i think i said it 3 times :D
+2014-12-04 01:36:21	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:36:25	◀▬▬	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has quit (Ping timeout: 258 seconds)
+2014-12-04 01:38:19	▬▬▶	fastlag (4b12bfb4@gateway/web/cgi-irc/kiwiirc.com/ip.75.18.191.180) has joined #reddit-sysadmin
+2014-12-04 01:38:21	fastlag	whoo ok im wifi'd up
+2014-12-04 01:38:24	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:38:30	fastlag	save me craig's list
+2014-12-04 01:38:40	Th4tBa5t4rd	My coworkers won't a ton of info in this asset management thing. that can be pulled after we get the items in the database. They spent 45 minutes talking about how to put in which nook or cranny of an office the networked equipment sits
+2014-12-04 01:39:06	Th4tBa5t4rd	http://i1.kym-cdn.com/photos/images/facebook/000/101/771/1879f18e_e542_e1c6.jpg
+2014-12-04 01:39:24	Mrkatov	fastlag, what are you selling now?
+2014-12-04 01:39:33	Mrkatov	or trying to buy
+2014-12-04 01:39:35	◀▬▬	rapture (~Adium@c-50-174-153-89.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2014-12-04 01:39:40	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:39:53	◀▬▬	packets (~packet@168.235.67.118) has quit (Quit: changing servers)
+2014-12-04 01:40:00	▬▬▶	packets (~packet@168.235.67.118) has joined #reddit-sysadmin
+2014-12-04 01:40:11	Th4tBa5t4rd	Buy mah phone
+2014-12-04 01:40:26	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:40:28	fastlag	a place to live
+2014-12-04 01:40:30	fastlag	and a jab
+2014-12-04 01:40:37	◀▬▬	rabbidroid1 (~davidtw@74.113.190.218) has quit (Remote host closed the connection)
+2014-12-04 01:40:38	◀▬▬	fastlags (~fastlags@2607:fb90:424:3fcf:0:b:b055:fa01) has quit (Quit: Bye)
+2014-12-04 01:40:49	fastlag	theres this little island lol
+2014-12-04 01:40:54	fastlag	im gonna try to find a place there
+2014-12-04 01:41:21	fastlag	gotta get me some non prescription glasses if i want to fit in here
+2014-12-04 01:41:45	Th4tBa5t4rd	fastlag: Where are you currently, and where are you looking?
+2014-12-04 01:41:53	▬▬▶	rabbidroid1 (~davidtw@74.113.190.218) has joined #reddit-sysadmin
+2014-12-04 01:42:12	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:42:15	fastlag	San Francisco
+2014-12-04 01:42:29	fastlag	uh kinda looking all over, theres this little island called treassure island i think
+2014-12-04 01:43:43	Th4tBa5t4rd	I see. Washington is awesome. Central OR is not for you. Unless you know EPIC, one of the larger medical clinics just rolled over to it.
+2014-12-04 01:44:05	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:44:18	fastlag	im liking san fran so far, wanna stay reserved but i was looking for diversity and open minded people and i have found it
+2014-12-04 01:44:20	◀▬▬	djsupersoak (~djsuperso@cpe-98-27-166-238.neo.res.rr.com) has quit (Remote host closed the connection)
+2014-12-04 01:44:58	Th4tBa5t4rd	There's no diversity in Oregon unless you count Hispanics
+2014-12-04 01:45:10	Th4tBa5t4rd	Not in Central OR anyway
+2014-12-04 01:45:17	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:45:30	Th4tBa5t4rd	I see like 4 brown faces a year.
+2014-12-04 01:45:40	Th4tBa5t4rd	Which is odd coming from Toledo, OH
+2014-12-04 01:45:52	+sc`	fastlag: you'll not find a more accepting city than SF. they're accepting to a fault
+2014-12-04 01:46:05	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:46:18	+sc`	fastlag: wanna stab yourself in the face with a rusty fork? someone will support your decision
+2014-12-04 01:46:31	fastlag	lol sc` know anything about treasure island?
+2014-12-04 01:46:36	+sc`	no
+2014-12-04 01:46:39	fastlag	looking at some rooms der for cheap
+2014-12-04 01:47:01	Th4tBa5t4rd	You can die with dignity in Oregon
+2014-12-04 01:47:19	fastlag	Th4tBa5t4rd yeah i like my brown faces and all the other faces as well
+2014-12-04 01:47:27	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:47:37	Th4tBa5t4rd	Portland isn't bad, but Oregon on the whole... it's just so white
+2014-12-04 01:47:48	fastlag	yeah its the whitest state i thought
+2014-12-04 01:48:00	+sc`	the bay area is a melting pot of h1bs
+2014-12-04 01:48:09	Th4tBa5t4rd	OMG, new riteAid opened near my house. I almost was offended at how white the teenage cashier was
+2014-12-04 01:48:16	◀▬▬	A-KO (as@2601:a:f00:750:9422:a70c:e694:f6d8) has quit (Remote host closed the connection)
+2014-12-04 01:48:18	fastlag	h1bs?
+2014-12-04 01:48:18	Th4tBa5t4rd	Utah is whiter I think
+2014-12-04 01:48:29	+sc`	h1b visa holders
+2014-12-04 01:48:41	fastlag	well im a brown face and am coming from washington dc, which i think is the brownest place in america lol
+2014-12-04 01:48:57	Th4tBa5t4rd	Detroit!
+2014-12-04 01:48:57	+sc`	detroit is pretty brown
+2014-12-04 01:49:04	Th4tBa5t4rd	fuck ya
+2014-12-04 01:49:05	▬▬▶	bmurt (~brendan@208-58-116-232.c3-0.upd-ubr1.trpr-upd.pa.cable.rcn.com) has joined #reddit-sysadmin
+2014-12-04 01:49:06	fastlag	ah yeah detroit is pretty brown
+2014-12-04 01:49:12	fastlag	i went to tuskegee for a semester
+2014-12-04 01:49:27	Th4tBa5t4rd	Toledo is 50 minutes S of Detroit
+2014-12-04 01:49:28	+sc`	parts of LA are so brown they're black
+2014-12-04 01:49:29	fastlag	a lot of the students there were from detroit, they had this look and presence about them
+2014-12-04 01:49:42	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:49:46	fastlag	if you ever had a conversation with them it was so humbling
+2014-12-04 01:49:56	Th4tBa5t4rd	I'm out, fuck printers
+2014-12-04 01:50:03	fastlag	they were literally thankful for everyday and so proud of themselves for not being dead.... and going to college....
+2014-12-04 01:50:09	◀▬▬	Th4tBa5t4rd (~JustSteve@statics-21.prineville.crestviewcable.com) has quit (Remote host closed the connection)
+2014-12-04 01:50:11	fastlag	it was truly humbling
+2014-12-04 01:50:23	+sc`	folks from detroit are interesting
+2014-12-04 01:50:42	+sc`	I used to smoke with a chick I knew from detroit. she was a riot
+2014-12-04 01:50:42	fastlag	ive only met a couple and they are interesting lol
+2014-12-04 01:50:46	fastlag	not enough to build a profile
+2014-12-04 01:50:48	+sc`	still is
+2014-12-04 01:50:54	fastlag	sc` is that what you do all day
+2014-12-04 01:50:59	+sc`	not ALL day
+2014-12-04 01:51:01	fastlag	you dont get out on the fucking town apparently
+2014-12-04 01:51:21	fastlag	im still holding off on smoking until i have some career stability and know where i stand
+2014-12-04 01:51:30	fastlag	gov't contracting isnt completely out of the question yet
+2014-12-04 01:51:31	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:51:40	◀▬▬	tcpip (~fail@sysadmin.technology) has quit (Quit: changing servers)
+2014-12-04 01:51:49	▬▬▶	tcpip (~fail@sysadmin.technology) has joined #reddit-sysadmin
+2014-12-04 01:51:51	+sc`	I'm a ball of nerves normally, so outside isn't something I do lightly
+2014-12-04 01:51:56	ℹ 	Mode #reddit-sysadmin [+o tcpip] by devoops
+2014-12-04 01:51:57	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:51:58	▬▬▶	A-KO (as@2601:a:f00:750:9422:a70c:e694:f6d8) has joined #reddit-sysadmin
+2014-12-04 01:51:59	ℹ 	Mode #reddit-sysadmin [+o packets] by devoops
+2014-12-04 01:52:08	fastlag	im sitting in starbucks drinking an ethos water looking for an apartment
+2014-12-04 01:52:11	fastlag	fuck myself
+2014-12-04 01:52:14	ℹ 	Mode #reddit-sysadmin [+v A-KO] by packets
+2014-12-04 01:52:18	fastlag	fuck you fastlag you hipster
+2014-12-04 01:52:24	+sc`	I'm about to leave for my hotel
+2014-12-04 01:52:31	nojeffrey	fastlag ubuntu worked
+2014-12-04 01:52:31	+sc`	because dat hotel lyfe
+2014-12-04 01:52:45	fastlag	im gonna stay here until traffic dies down and go look at some more neighborhoods
+2014-12-04 01:52:57	+sc`	traffic blows here :(
+2014-12-04 01:53:01	+sc`	shitty roads, shitty drivers
+2014-12-04 01:53:04	nojeffrey	if i click
+2014-12-04 01:53:04	+sc`	just shitty all around
+2014-12-04 01:53:08	fastlag	nojeffrey if its showing there then it is a driver issue like you said
+2014-12-04 01:53:15	fastlag	traffic here is not bad at all
+2014-12-04 01:53:19	nojeffrey	'load driver' can it read EXE's at this point?
+2014-12-04 01:53:20	fastlag	shush sc`
+2014-12-04 01:53:29	fastlag	dammit i forgot how to do this
+2014-12-04 01:53:39	fastlag	can you look for a 2008 iso with sp1?
+2014-12-04 01:53:44	fastlag	or something like that, something newer?
+2014-12-04 01:53:50	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:54:01	+sc`	fastlag: the freeways are just bad all around
+2014-12-04 01:54:17	+sc`	caltrans doesn't make any effort to maintain the roads
+2014-12-04 01:54:18	fastlag	sc` the traffic here is just fine, not even top 20 on earth
+2014-12-04 01:54:41	fastlag	nowhere near what LA and DC are
+2014-12-04 01:54:47	+sc`	I've lived in NoVA, south FL and LA
+2014-12-04 01:54:53	+sc`	I know bad traffic
+2014-12-04 01:55:06	fastlag	nova has to be the worst traffic on earth....
+2014-12-04 01:55:10	+sc`	I've done 8am drives from reston to alexandria
+2014-12-04 01:55:12	fastlag	that 95 from dc to woodbridge....
+2014-12-04 01:55:18	+sc`	motherfuck that is painful
+2014-12-04 01:55:24	fastlag	that feel...
+2014-12-04 01:55:27	▬▬▶	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 01:55:35	▬▬▶	Dovermen (Dovermen@173-21-154-68.client.mchsi.com) has joined #reddit-sysadmin
+2014-12-04 01:55:45	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:55:46	fastlag	i lived in woodbridge for a few years on and off, its where i met my ex wife lol
+2014-12-04 01:56:10	fastlag	FUCK theres nothing worse than getting spam when you're on the job market
+2014-12-04 01:56:20	+sc`	inorite
+2014-12-04 01:56:25	◀▬▬	pcypher (~pcypher@216.52.209.1) has quit (Remote host closed the connection)
+2014-12-04 01:56:27	fastlag	*ding* oooh its an email is it a job offer?
+2014-12-04 01:56:28	◀▬▬	CirdanValen (~CirdanVal@unaffiliated/cirdanvalen) has quit (Ping timeout: 240 seconds)
+2014-12-04 01:56:40	+sc`	woo. time to depart
+2014-12-04 01:56:49	fastlag	$4.95 M@k3 your l1ttle dick harder with V1@gR@
+2014-12-04 01:57:17	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 01:57:45	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:59:03	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: No route to host)
+2014-12-04 01:59:27	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 01:59:42	fastlag	i wonder how much a parking garage in sf is....
+2014-12-04 01:59:44	fastlag	faak
+2014-12-04 02:01:18	▬▬▶	user1138 (~user1138@unaffiliated/user1138) has joined #reddit-sysadmin
+2014-12-04 02:01:38	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:03:14	▬▬▶	kelpo (~keeeelpo@c-76-16-210-157.hsd1.il.comcast.net) has joined #reddit-sysadmin
+2014-12-04 02:03:14	◀▬▬	kelpo (~keeeelpo@c-76-16-210-157.hsd1.il.comcast.net) has quit (Changing host)
+2014-12-04 02:03:14	▬▬▶	kelpo (~keeeelpo@unaffiliated/kelpo) has joined #reddit-sysadmin
+2014-12-04 02:03:14	▬▬▶	pcypher (~pcypher@216.52.209.1) has joined #reddit-sysadmin
+2014-12-04 02:03:25	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:04:55	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:05:35	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:06:51	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:07:19	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:07:28	◀▬▬	nulloverflow (~nulloverf@wsip-184-180-130-4.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2014-12-04 02:07:48	◀▬▬	BobTheITGuy (~BobTheITG@173.240.247.62) has quit (Quit: BobTheITGuy)
+2014-12-04 02:08:01	◀▬▬	fastlag (4b12bfb4@gateway/web/cgi-irc/kiwiirc.com/ip.75.18.191.180) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-12-04 02:09:26	◀▬▬	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has quit (Quit: Leaving.)
+2014-12-04 02:09:26	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:10:03	▬▬▶	fastlag (4b12bfb4@gateway/web/cgi-irc/kiwiirc.com/ip.75.18.191.180) has joined #reddit-sysadmin
+2014-12-04 02:10:56	▬▬▶	pcypher_ (~pcypher@216.52.209.1) has joined #reddit-sysadmin
+2014-12-04 02:11:12	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:11:36	◀▬▬	antons_ (~antons@199.48.120.2) has quit (Quit: Leaving)
+2014-12-04 02:12:20	▬▬▶	Sebulbatron (~Sebulbatr@unaffiliated/sebulbatron) has joined #reddit-sysadmin
+2014-12-04 02:13:22	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:14:32	◀▬▬	pcypher (~pcypher@216.52.209.1) has quit (Ping timeout: 252 seconds)
+2014-12-04 02:15:16	◀▬▬	pcypher_ (~pcypher@216.52.209.1) has quit (Ping timeout: 252 seconds)
+2014-12-04 02:15:30	◀▬▬	Etheco (~Etheco@0542815e.skybroadband.com) has quit (Read error: Connection reset by peer)
+2014-12-04 02:17:03	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:17:06	◀▬▬	cparlette (~chris.par@pool-96-241-216-63.washdc.fios.verizon.net) has quit (Ping timeout: 252 seconds)
+2014-12-04 02:18:21	◀▬▬	tus (~tus@unaffiliated/tus) has quit (Ping timeout: 264 seconds)
+2014-12-04 02:18:42	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: No route to host)
+2014-12-04 02:18:58	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:20:37	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:20:56	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:22:39	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:22:42	▬▬▶	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 02:23:09	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:23:50	▬▬▶	antons (~antons@199.48.120.2) has joined #reddit-sysadmin
+2014-12-04 02:24:21	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:24:51	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:24:58	▬▬▶	KomradeVirtunov (~KomradeVi@104-57-8-227.lightspeed.clmboh.sbcglobal.net) has joined #reddit-sysadmin
+2014-12-04 02:25:18	◀▬▬	Bilby (~bgates@cpe-174-101-47-55.columbus.res.rr.com) has quit
+2014-12-04 02:25:30	◀▬▬	rich0d (uid41869@gateway/web/irccloud.com/x-gekgvwnugslfdbxz) has quit (Quit: Connection closed for inactivity)
+2014-12-04 02:26:34	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: No route to host)
+2014-12-04 02:27:01	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:27:23	◀▬▬	sammj (sam@nat/ibm/x-opervdbgglroqwlp) has quit (Quit: leaving)
+2014-12-04 02:29:01	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:30:40	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:30:45	+sc`	somewhere between a lot and too much
+2014-12-04 02:32:52	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:32:58	▬▬▶	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 02:34:39	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:36:45	fastlag	shit sc` the truth isnt making this easier
+2014-12-04 02:36:47	fastlag	lie to me
+2014-12-04 02:37:04	fastlag	theres lots of rooms in sf sub 700
+2014-12-04 02:37:09	fastlag	which is cool
+2014-12-04 02:37:50	ℹ 	ACDC_offline is now known as ACDCGAMER
+2014-12-04 02:38:18	fastlag	thoughts on being that guy on the bus with a bike?
+2014-12-04 02:38:25	fastlag	or on the train?
+2014-12-04 02:39:08	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 240 seconds)
+2014-12-04 02:41:58	fastlag	get me a segway and tell everyone to eat a dick
+2014-12-04 02:44:23	+sc`	fastlag: lots of "those guys" in the bay area
+2014-12-04 02:44:25	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:44:28	+sc`	cycling is huge
+2014-12-04 02:44:41	+sc`	lots of lance armstrong wannabes though
+2014-12-04 02:44:51	fastlag	i dont care to bike, its just to get to bart/bus
+2014-12-04 02:45:10	Kumorigoe	Ugh.
+2014-12-04 02:45:13	fastlag	meaning id have to bring it on the train/bus with me and look like a douche...
+2014-12-04 02:45:20	fastlag	uh oh did i strike a nerve Kumorigoe
+2014-12-04 02:45:25	Kumorigoe	Spent all day working on a retarded OWA issue...
+2014-12-04 02:45:32	Kumorigoe	Nah, you're good.
+2014-12-04 02:45:37	fastlag	ah ok cool
+2014-12-04 02:45:42	fastlag	vent away!
+2014-12-04 02:46:11	rootB	hey happening
+2014-12-04 02:46:15	rootB	i heard there's a new dead niger
+2014-12-04 02:46:29	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:46:50	Kumorigoe	In a nutshell, some users aren't able to attach files to emails, delete emails, or move emails in OWA.
+2014-12-04 02:47:13	Kumorigoe	I believe it's related to Silverlight, which is what the newer OWA uses for the "premiere" version.
+2014-12-04 02:48:08	Kumorigoe	But it's only affecting a few users, and I've got bigger fish to fry.
+2014-12-04 02:48:33	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:49:35	Kumorigoe	I think I've found a patch for Exchange that will address it, so I'll have to wait until the next update cycle to see if I'm right.
+2014-12-04 02:50:06	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:50:34	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:50:34	fastlag	yeah those little random problems suck
+2014-12-04 02:50:42	fastlag	and always for the most whiniest users
+2014-12-04 02:50:51	Kumorigoe	NO FUCKING KIDDING.
+2014-12-04 02:51:05	Kumorigoe	This bitch is acting like it's preventing her from practicing law.
+2014-12-04 02:51:15	◀▬▬	jeffisabelle (~jeffisabe@78.169.206.54) has quit (Remote host closed the connection)
+2014-12-04 02:51:23	Kumorigoe	She has a firm-issued laptop, with VPN access.
+2014-12-04 02:51:35	Kumorigoe	But she'd rather do OWA from her goddamned iMac.
+2014-12-04 02:51:38	▬▬▶	hiiambo (6c108468@gateway/web/freenode/ip.108.16.132.104) has joined #reddit-sysadmin
+2014-12-04 02:51:49	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:52:32	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:52:34	fastlag	mhmm thats how it always works
+2014-12-04 02:52:40	fastlag	is it a law practice though?
+2014-12-04 02:52:58	fastlag	if so my condolences
+2014-12-04 02:53:26	▬▬▶	Snarkadmin-home (ident@75.81.249.128) has joined #reddit-sysadmin
+2014-12-04 02:53:26	◀▬▬	Snarkadmin-home (ident@75.81.249.128) has quit (Changing host)
+2014-12-04 02:53:26	▬▬▶	Snarkadmin-home (ident@unaffiliated/billiardking) has joined #reddit-sysadmin
+2014-12-04 02:53:44	Snarkadmin-home	'lo
+2014-12-04 02:54:20	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 02:54:25	Kumorigoe	fastlag, most of the attorneys are a pleasure to work with.  There are a few that make up for the rest, though.
+2014-12-04 02:54:59	fastlag	oh thats surprising
+2014-12-04 02:55:13	Kumorigoe	I've got a guy in London that probably ought not have anything more complicated than an Etch-A-Sketch.
+2014-12-04 02:55:21	fastlag	would have imagined it'd be mostly bad with a few gems here and there
+2014-12-04 02:55:54	fastlag	lol i always chuckle inside when working with doctors, you can handle 10 years of schooling but cant wrap your mind around remote desktop
+2014-12-04 02:56:12	fastlag	funny how brains doesnt transfer sometimes
+2014-12-04 02:56:12	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 02:57:34	ℹ 	ACDCGAMER is now known as ACDC_offline
+2014-12-04 02:58:40	fastlag	shat a shares bedroom with 3 other people for $450.........
+2014-12-04 03:00:33	▬▬▶	Bru^ (~Brupert@host-208-153-107-208.midco.net) has joined #reddit-sysadmin
+2014-12-04 03:00:33	◀▬▬	Bru^ (~Brupert@host-208-153-107-208.midco.net) has quit (Changing host)
+2014-12-04 03:00:34	▬▬▶	Bru^ (~Brupert@unaffiliated/bru/x-2454193) has joined #reddit-sysadmin
+2014-12-04 03:00:44	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 252 seconds)
+2014-12-04 03:01:55	Bru^	YARR
+2014-12-04 03:02:01	fastlag	soup?
+2014-12-04 03:02:04	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:02:11	fastlag	discoffee you thar?
+2014-12-04 03:02:25	Bru^	:O
+2014-12-04 03:02:28	Bru^	soup sounds good
+2014-12-04 03:02:32	Bru^	particularly clam chowder
+2014-12-04 03:02:33	ℹ 	Mode #reddit-sysadmin [+b rootb!*@*] by lazyadmin
+2014-12-04 03:02:44	◀▬▬	lazyadmin has kicked rootB (rootB)
+2014-12-04 03:02:51	Snarkadmin-home	wut
+2014-12-04 03:03:30	⚡	fastlag headnod @ lazyadmin
+2014-12-04 03:03:31	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:03:42	@lazyadmin	whats up guys
+2014-12-04 03:04:12	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:04:21	◀▬▬	Cnky (~Neebs@m83-178-23-54.cust.tele2.ee) has quit (Quit: Leaving)
+2014-12-04 03:04:44	⚡	Kumorigoe nods to lazyadmin 
+2014-12-04 03:05:35	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:05:59	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:06:04	⚡	fastlag throws iron at discoffee but misses and hits lazyadmin
+2014-12-04 03:06:09	fastlag	oops
+2014-12-04 03:06:40	▬▬▶	sammj (sam@nat/ibm/x-rixrssgcnattywfp) has joined #reddit-sysadmin
+2014-12-04 03:06:51	◀▬▬	sammj (sam@nat/ibm/x-rixrssgcnattywfp) has quit (Client Quit)
+2014-12-04 03:07:14	▬▬▶	sammj (sam@nat/ibm/x-xrarljvyjpsjnzal) has joined #reddit-sysadmin
+2014-12-04 03:07:30	fastlag	http://www.hatethousandmiles.com/ :D
+2014-12-04 03:07:49	fastlag	this remote sys admin position is a life saver
+2014-12-04 03:08:09	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:09:11	nojeffrey	fastlag apparently if you extract the contents of the exe, you can load the inf files inside, working now
+2014-12-04 03:09:34	fastlag	wish i could have helped nojeffrey glad you figured it out
+2014-12-04 03:09:52	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:10:17	◀▬▬	Alives (~Alives@c-71-202-124-143.hsd1.ca.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-12-04 03:10:30	nojeffrey	heh all good, actually i was explaining this to a guy in finance and he told me to try this -_-
+2014-12-04 03:10:36	fastlag	im gonna go play some ball
+2014-12-04 03:10:37	fastlag	LOL
+2014-12-04 03:10:42	▬▬▶	Cnky (~Neebs@m83-178-23-54.cust.tele2.ee) has joined #reddit-sysadmin
+2014-12-04 03:11:00	fastlag	bbl, probably do the car tonight cant spoil myself with the hotel
+2014-12-04 03:11:09	fastlag	the rain makes for great cover too
+2014-12-04 03:11:47	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:11:52	Snarkadmin-home	so, why did rootb get banned? did i miss something?
+2014-12-04 03:12:00	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:12:26	▬▬▶	decompiled (~decompile@50.141.111.15) has joined #reddit-sysadmin
+2014-12-04 03:12:45	◀▬▬	fastlag (4b12bfb4@gateway/web/cgi-irc/kiwiirc.com/ip.75.18.191.180) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-12-04 03:12:58	@lazyadmin	20:44 <       rootB>| i heard there's a new dead niger
+2014-12-04 03:13:09	▬▬▶	tus (~tus@unaffiliated/tus) has joined #reddit-sysadmin
+2014-12-04 03:13:52	@lazyadmin	not sure what thats about...
+2014-12-04 03:14:04	Kumorigoe	Juvenile troll, I'm thinking.
+2014-12-04 03:14:21	@lazyadmin	not very sysadminy
+2014-12-04 03:14:23	@lazyadmin	so bant
+2014-12-04 03:14:29	◀▬▬	KyleG (~KyleG@unaffiliated/kyleg) has quit (Quit: Leaving.)
+2014-12-04 03:14:48	BigShip	no, and extra points off for awful spelling. An asshole, racist, and an idiot. We're better off without them
+2014-12-04 03:14:49	▬▬▶	Alives (~Alives@c-71-202-124-143.hsd1.ca.comcast.net) has joined #reddit-sysadmin
+2014-12-04 03:14:53	▬▬▶	shivashandra (shivashand@83.158.194.33) has joined #reddit-sysadmin
+2014-12-04 03:15:28	BigShip	Also, are we still playing CAH pictionary?
+2014-12-04 03:15:37	◀▬▬	ababywipe (~ababywipe@mobile-166-173-061-232.mycingular.net) has left #reddit-sysadmin ("Be back later ...")
+2014-12-04 03:16:23	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 245 seconds)
+2014-12-04 03:17:43	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:18:37	Snarkadmin-home	fair nuff
+2014-12-04 03:18:54	Snarkadmin-home	We'll do the friday time for CAH pictionary
+2014-12-04 03:18:59	Snarkadmin-home	because A. i don't think everyone is here
+2014-12-04 03:19:03	Snarkadmin-home	B. i need to do homework
+2014-12-04 03:19:03	dminus	no
+2014-12-04 03:19:15	dminus	for example dminus is not here
+2014-12-04 03:19:27	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:19:44	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:22:43	▬▬▶	varibull (~varibull@c-69-137-131-106.hsd1.de.comcast.net) has joined #reddit-sysadmin
+2014-12-04 03:23:23	Kumorigoe	I love CAH.
+2014-12-04 03:23:27	ℹ 	Mode #reddit-sysadmin [+q rootb!*@*] by lazyadmin
+2014-12-04 03:23:32	▬▬▶	varibull_ (~varibull@107-0-202-55-ip-static.hfc.comcastbusiness.net) has joined #reddit-sysadmin
+2014-12-04 03:23:32	Bru^	CAH!!
+2014-12-04 03:23:35	Kumorigoe	It allows me to be as terrible as I actually am.
+2014-12-04 03:23:55	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:24:10	▬▬▶	il_ (~not_mike@unaffiliated/not-mike/x-4399907) has joined #reddit-sysadmin
+2014-12-04 03:24:47	◀▬▬	FrostCyborg (~frostcybo@74-95-195-145-SFBA.hfc.comcastbusiness.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-12-04 03:24:50	BigShip	So excited. Woo
+2014-12-04 03:25:43	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:25:49	◀▬▬	Phaenix (Phaenix@d54C6FC5F.access.telenet.be) has quit (Quit: Leaving)
+2014-12-04 03:27:03	◀▬▬	audioburn (~not_mike@unaffiliated/not-mike/x-4399907) has quit (Ping timeout: 256 seconds)
+2014-12-04 03:27:31	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:27:39	◀▬▬	varibull (~varibull@c-69-137-131-106.hsd1.de.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-12-04 03:27:42	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:29:06	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:29:29	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 03:30:48	◀▬▬	decompiled (~decompile@50.141.111.15) has quit (Read error: Connection reset by peer)
+2014-12-04 03:31:40	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Read error: Connection reset by peer)
+2014-12-04 03:31:55	▬▬▶	varibull__ (~varibull@c-69-137-131-106.hsd1.de.comcast.net) has joined #reddit-sysadmin
+2014-12-04 03:32:36	▬▬▶	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 03:33:10	▬▬▶	Pip0 (~quassel@72.188.112.179) has joined #reddit-sysadmin
+2014-12-04 03:33:37	▬▬▶	varibull (~varibull@107-0-202-55-ip-static.hfc.comcastbusiness.net) has joined #reddit-sysadmin
+2014-12-04 03:35:19	◀▬▬	varibull_ (~varibull@107-0-202-55-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 244 seconds)
+2014-12-04 03:35:56	◀▬▬	leemar (~leemar@c-50-189-137-96.hsd1.ct.comcast.net) has left #reddit-sysadmin
+2014-12-04 03:36:52	◀▬▬	varibull__ (~varibull@c-69-137-131-106.hsd1.de.comcast.net) has quit (Ping timeout: 272 seconds)
+2014-12-04 03:37:23	◀▬▬	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has quit (Ping timeout: 250 seconds)
+2014-12-04 03:38:07	▬▬▶	writteno1f (~writtenof@d205-250-253-64.bchsia.telus.net) has joined #reddit-sysadmin
+2014-12-04 03:42:35	@lazyadmin	hiiambo: :P
+2014-12-04 03:42:45	hiiambo	hai
+2014-12-04 03:42:47	hiiambo	im playing league
+2014-12-04 03:42:48	▬▬▶	cparlette (~chris.par@pool-96-241-216-63.washdc.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 03:43:22	@lazyadmin	nice
+2014-12-04 03:43:35	◀▬▬	Alives (~Alives@c-71-202-124-143.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2014-12-04 03:43:38	hiiambo	wit da jagster`
+2014-12-04 03:46:19	ℹ 	il_ is now known as audioburn
+2014-12-04 03:46:19	▬▬▶	bulanterang (db5cefd1@gateway/web/freenode/ip.219.92.239.209) has joined #reddit-sysadmin
+2014-12-04 03:46:56	◀▬▬	Pip0 (~quassel@72.188.112.179) has quit (Ping timeout: 252 seconds)
+2014-12-04 03:47:27	◀▬▬	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has quit (Ping timeout: 264 seconds)
+2014-12-04 03:47:28	ℹ 	irc: disconnected from server
+2014-12-04 03:48:02	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #reddit-sysadmin
+2014-12-04 03:48:02	ℹ 	Topic for #reddit-sysadmin is "#reddit-sysadmin Home of /r/sysadmin - No Trolling - http://www.reddit.com/r/sysadmin/wiki/reddit-sysadmin-irc | Check out /r/sysadmingaming"
+2014-12-04 03:48:02	ℹ 	Topic set by DoTheNeedful (~cryptic1@198-91-171-48.cpe.distributel.net) on Sun, 12 Oct 2014 17:21:15
+2014-12-04 03:48:02	ℹ 	Channel #reddit-sysadmin: 482 nicks (7 ops, 8 voices, 467 normals)
+2014-12-04 03:48:12	ℹ 	Channel created on Thu, 29 Dec 2011 20:56:36
+2014-12-04 03:51:37	JollyRgr	weee
+2014-12-04 03:51:37	JollyRgr	line at BK is super slow :(
+2014-12-04 03:53:51	Kumorigoe	Burger King...
+2014-12-04 03:53:58	Kumorigoe	Haven't had them in forever.
+2014-12-04 03:54:17	Kumorigoe	I think the last thing I had from them was chicken fries.
+2014-12-04 03:56:48	ipp	Bacon Sundae here
+2014-12-04 03:58:21	▬▬▶	virusuy_ (~virusuy@unaffiliated/virusuy) has joined #reddit-sysadmin
+2014-12-04 03:59:24	◀▬▬	SamuraiAlba (~DJAshnar@c-68-83-63-26.hsd1.pa.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-12-04 03:59:47	◀▬▬	thechip (~chipw@edge-1.ff.wasson-ece.net) has quit (Read error: Connection reset by peer)
+2014-12-04 04:01:03	TheZealous	what is the best and cheapest home alarm security systems out there guys? adt.com or what?
+2014-12-04 04:01:35	ipp	Cops called a requirement? Or email to you fine?
+2014-12-04 04:01:37	◀▬▬	virusuy (~virusuy@unaffiliated/virusuy) has quit (Ping timeout: 256 seconds)
+2014-12-04 04:02:54	ipp	I have the older model of this run my home alarm crap: https://ninjablocks.com/#home/
+2014-12-04 04:04:13	JollyRgr	Kumorigoe:  they got rid of chicken fries (again). :(
+2014-12-04 04:07:48	◀▬▬	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-12-04 04:08:15	▬▬▶	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 04:09:33	▬▬▶	Mso150 (~ctlM@217.118.64.47) has joined #reddit-sysadmin
+2014-12-04 04:09:40	TheZealous	cops
+2014-12-04 04:10:42	▬▬▶	mentok (~mentok@unaffiliated/mentok) has joined #reddit-sysadmin
+2014-12-04 04:11:17	TheZealous	the darn home insurance company want me to provide the alarm security system for my home to get a lower rate
+2014-12-04 04:12:09	◀▬▬	yeru (~yeru@x2f36367.dyn.telefonica.de) has quit (Remote host closed the connection)
+2014-12-04 04:12:37	◀▬▬	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has quit (Quit: Leaving.)
+2014-12-04 04:13:34	▬▬▶	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 04:14:52	◀▬▬	varibull (~varibull@107-0-202-55-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 272 seconds)
+2014-12-04 04:15:10	▬▬▶	pcypher (~pcypher@cpe-104-173-3-249.socal.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 04:16:32	◀▬▬	troyready (~troyready@199.19.146.104) has quit (Ping timeout: 264 seconds)
+2014-12-04 04:19:51	▬▬▶	m4221 (~m4221@2600:1003:b01e:4d1b:88a9:f874:687f:6b81) has joined #reddit-sysadmin
+2014-12-04 04:20:28	m4221	Veeam guest file restore is awesome
+2014-12-04 04:25:08	◀▬▬	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has quit (Read error: Connection reset by peer)
+2014-12-04 04:25:26	◀▬▬	Mrkatov (~Mrkatov4@doc-72-47-2-240.bishop.ca.cebridge.net) has quit (Read error: Connection reset by peer)
+2014-12-04 04:25:34	▬▬▶	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 04:25:48	▬▬▶	Mrkatov (~Mrkatov4@doc-72-47-2-240.bishop.ca.cebridge.net) has joined #reddit-sysadmin
+2014-12-04 04:25:59	xust-	I have no idea how people can stand to eat that garbage
+2014-12-04 04:26:09	xust-	I feel like absolute shit after eating most fast food
+2014-12-04 04:26:23	◀▬▬	Dovermen (Dovermen@173-21-154-68.client.mchsi.com) has quit (Ping timeout: 245 seconds)
+2014-12-04 04:26:33	xust-	•Kumorigoe• you aren't missing out of anything!
+2014-12-04 04:31:34	TuxedoJack	Love it
+2014-12-04 04:32:06	TuxedoJack	Multiple clients having OpenVPN issues on multiple ISPs around Austin, and they get the same error - SIGUSR - and the damn boss won't even check out the DC pfSense to restart the OpenVPN service
+2014-12-04 04:33:35	JollyRgr	you can always "oops" the power plug on the server to restart it
+2014-12-04 04:34:01	TuxedoJack	It's in the datacenter, and I don't have physical access
+2014-12-04 04:34:37	◀▬▬	Cnky (~Neebs@m83-178-23-54.cust.tele2.ee) has quit (Ping timeout: 255 seconds)
+2014-12-04 04:36:19	JollyRgr	get some rubber handled loppers and don't touch the wires
+2014-12-04 04:36:34	JollyRgr	 sounds like your boss is being a tool
+2014-12-04 04:36:47	JollyRgr	good time to suggest he give you access to the box
+2014-12-04 04:36:53	mentok	TuxedoJack: Austin Texas?
+2014-12-04 04:36:57	JollyRgr	in other news... i have tomorrow and Friday off
+2014-12-04 04:37:02	TuxedoJack	Yeah, CoreNAP DC on McNeil and 183
+2014-12-04 04:37:13	⚡	mentok waves from hyde park
+2014-12-04 04:37:18	JollyRgr	bad news... that's b/c i'll be taking care of my wife after her wisdom teeth get pulled
+2014-12-04 04:37:20	⚡	dminus screams from brentwood
+2014-12-04 04:37:21	mentok	howdy neighbor
+2014-12-04 04:37:24	TuxedoJack	I'm off 360 and Lost Creek
+2014-12-04 04:37:31	mentok	right on
+2014-12-04 04:37:39	dminus	for some value of austin
+2014-12-04 04:37:40	dminus	;p
+2014-12-04 04:37:49	Rallias	https://espnfivethirtyeight.files.wordpress.com/2014/05/silver-feature-youngest-men-names3.png?w=1024 <- Apparently, the young and the restless is popular.
+2014-12-04 04:37:49	⚡	JollyRgr raises his donger from WEST...SSSSSYDE! (of a city in FL)
+2014-12-04 04:38:04	mentok	nice to see other locals
+2014-12-04 04:38:09	dminus	wow those names suck
+2014-12-04 04:38:14	▬▬▶	Seto_Kaiba (~Hunterkll@50.242.254.37) has joined #reddit-sysadmin
+2014-12-04 04:38:15	dminus	aidan
+2014-12-04 04:38:19	dminus	jayden
+2014-12-04 04:38:26	dminus	i would punch the hell out of jayden
+2014-12-04 04:38:27	◀▬▬	Hunterkll (~Hunterkll@50.242.254.37) has quit (Ping timeout: 256 seconds)
+2014-12-04 04:38:30	dminus	freal tho
+2014-12-04 04:38:37	Rallias	dminus, I knew an aiden.
+2014-12-04 04:38:37	TuxedoJack	Heh
+2014-12-04 04:38:38	mentok	I have two macbook air’s right beside each other.
+2014-12-04 04:38:40	◀▬▬	hiiambo (6c108468@gateway/web/freenode/ip.108.16.132.104) has quit (Quit: Page closed)
+2014-12-04 04:38:46	TuxedoJack	I wish I was in the GFiber area
+2014-12-04 04:38:49	Rallias	He was a fucking retard, and I don't mean in a stupid sense.
+2014-12-04 04:38:52	dminus	and half of those are surnames
+2014-12-04 04:39:02	TuxedoJack	My cousin's the damn MDU manager for the region and he can't get my complex high up on the list
+2014-12-04 04:39:06	JollyRgr	i know a little (4 yr old) jayden
+2014-12-04 04:39:08	TuxedoJack	Because of course they went for SoCo first
+2014-12-04 04:39:14	mentok	my roommate is “Why do you have two macs?”
+2014-12-04 04:39:16	JollyRgr	and my semi-friend named her kid liam
+2014-12-04 04:39:20	JollyRgr	i don't understand that
+2014-12-04 04:39:25	m4221	I had a guy complain a printer physically printed top slowly
+2014-12-04 04:39:30	m4221	Too*
+2014-12-04 04:39:54	Kumorigoe	TuxedoJack, are you *the* TuxedoJack?
+2014-12-04 04:40:12	TuxedoJack	As in Cat5-o'-9-Tails?
+2014-12-04 04:40:16	TuxedoJack	EEEEEYUUUUUUUUUUUUUUUUUUUUUUP
+2014-12-04 04:40:21	Rallias	Yeah.
+2014-12-04 04:40:31	⚡	Kumorigoe squees
+2014-12-04 04:40:32	JollyRgr	stop lying, you tied him up in your basement, TuxedoJack
+2014-12-04 04:40:36	Rallias	Liam and Wyatt are names seen on the bold and the beautiful.
+2014-12-04 04:40:47	Kumorigoe	I have you tagged in RES as "LEARN FROM THIS MAN"
+2014-12-04 04:40:47	JollyRgr	Rallias: that might explain
+2014-12-04 04:41:12	Rallias	"Uh yeah heh, I got your name from a fucking daytime TV show that's been running 20 years)
+2014-12-04 04:42:07	Rallias	https://espnfivethirtyeight.files.wordpress.com/2014/05/silver-feature-youngest-women-names3.png?w=1024 <- Female names equivelant sounds russian.
+2014-12-04 04:42:12	Kumorigoe	devoops, where's my voice, you worthless bot?
+2014-12-04 04:42:32	JollyRgr	ah, glad to see my daughter NOT on that list
+2014-12-04 04:42:47	JollyRgr	lots of kids in her class found on there, though
+2014-12-04 04:43:05	Rallias	Yeah.
+2014-12-04 04:43:23	JollyRgr	if Ansleigh never finds a way on one of those lists, i done did good
+2014-12-04 04:43:27	◀▬▬	snuffeluffegus (~snuff@67.205.24.77) has quit (Quit: Leaving)
+2014-12-04 04:43:37	Rallias	Ava, Isabella, Lily, Mia, them sound russian. Then there's Sophie and Sophia, which sounds like they were having sex while playing final fantasy.
+2014-12-04 04:43:49	m4221	JollyRgr: my damn printer is printing too slowly
+2014-12-04 04:44:11	Rallias	There's some british names like alexa, emma, madison, abigail. Then some germanic, olivia and angelina. Then there's a what the fuck "Savannah"
+2014-12-04 04:44:13	JollyRgr	m4221: buy more printers, put them in RAID-0
+2014-12-04 04:44:31	JollyRgr	Rallias: what's wrong with savannah?
+2014-12-04 04:44:37	JollyRgr	a girl in my HS was named that
+2014-12-04 04:44:38	mentok	um
+2014-12-04 04:44:44	Kumorigoe	m4221, download Adobe Reaer.
+2014-12-04 04:44:45	mentok	is sourceforge broke?
+2014-12-04 04:44:47	Kumorigoe	*Reader
+2014-12-04 04:44:49	JollyRgr	besdies the fact it is like naming your kid "meadow" or something
+2014-12-04 04:44:52	m4221	JollyRgr: a user tried to throw me under the bus today with her printer issue
+2014-12-04 04:44:52	Angmar26	Rallias: it's not Russian names
+2014-12-04 04:45:03	Rallias	JollyRgr, It just sounds... weird.
+2014-12-04 04:45:08	JollyRgr	i vaguely remember that, i think, m4221
+2014-12-04 04:45:14	JollyRgr	today was all a blur
+2014-12-04 04:45:19	Rallias	Angmar26, They sound russian.
+2014-12-04 04:45:25	m4221	JollyRgr: it happened again
+2014-12-04 04:45:28	m4221	Today
+2014-12-04 04:45:36	JollyRgr	but i finally got my stupid SCCM OSD working with software updates... had to add an F-ing reboot and then a 2 minute wait
+2014-12-04 04:45:40	Kumorigoe	Today was shitty.  I'm fixing that with gin.
+2014-12-04 04:45:46	Rallias	Isabella absolutely is russian.
+2014-12-04 04:45:58	Rallias	You know, the great cocksucking czar of russia?
+2014-12-04 04:46:04	▬▬▶	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has joined #reddit-sysadmin
+2014-12-04 04:46:06	m4221	JollyRgr: user complained but then didn't want help
+2014-12-04 04:46:07	JollyRgr	helena fedorova <-- is that russian, too?
+2014-12-04 04:46:10	◀▬▬	pcypher (~pcypher@cpe-104-173-3-249.socal.res.rr.com) has quit
+2014-12-04 04:46:11	JollyRgr	i work with a girl named that
+2014-12-04 04:46:16	Rallias	She's featured in Civ.
+2014-12-04 04:46:31	JollyRgr	m4221: oh well, no want help? no prob, bob! close ticket, have a nice day
+2014-12-04 04:46:35	Kumorigoe	TuxedoJack, I think my favorite story of yours was the one with Mr. Popo integragted into your task sequence.
+2014-12-04 04:46:42	Angmar26	Rallias: not for Russian. Isabella is just fancy name but not Russian
+2014-12-04 04:47:10	Angmar26	Isabella more like Italian to me
+2014-12-04 04:47:15	TuxedoJack	Kumorigoe - http://imgur.com/GvGm8Dw
+2014-12-04 04:47:17	TuxedoJack	Verification
+2014-12-04 04:47:23	JollyRgr	Angmar26: i'd think more spanish
+2014-12-04 04:47:40	JollyRgr	i wonder if the name means "is a beauty"
+2014-12-04 04:47:40	m4221	JollyRgr: some people have no people skills
+2014-12-04 04:47:50	Rallias	Isabelle sounds mediterranian.
+2014-12-04 04:47:51	Kumorigoe	I expected a beard.
+2014-12-04 04:47:57	Rallias	But Isabella sounds Russian.
+2014-12-04 04:48:09	JollyRgr	isabelle (belle) sounds french or french influenced
+2014-12-04 04:48:16	JollyRgr	bella would be spanish, or possibly italian
+2014-12-04 04:48:18	TuxedoJack	Kumorigoe: Why? I hate beards. Especially the Austin ones
+2014-12-04 04:48:24	Kumorigoe	At any rate, if you ever make it up to Dallas, I'll buy the first round.
+2014-12-04 04:48:33	Kumorigoe	Well, yeah, Austin beards are awful.
+2014-12-04 04:48:39	Kumorigoe	"beards"
+2014-12-04 04:48:50	TuxedoJack	Too many damn hipsters
+2014-12-04 04:48:53	TuxedoJack	And the ex left with one
+2014-12-04 04:48:54	TuxedoJack	So yeah
+2014-12-04 04:49:00	JollyRgr	hey tux, why do you ahve two monitors NOT on the dual monitor stands?
+2014-12-04 04:49:06	TuxedoJack	Those aren't mine
+2014-12-04 04:49:12	JollyRgr	ah
+2014-12-04 04:49:18	TuxedoJack	They belong to the coworker I share my office with
+2014-12-04 04:49:20	JollyRgr	oh, you're in your office?
+2014-12-04 04:49:24	TuxedoJack	I have 4 in a semicircle
+2014-12-04 04:49:31	JollyRgr	wtf are you doing at 9 in your office?
+2014-12-04 04:49:35	TuxedoJack	I work 1 - 10
+2014-12-04 04:49:39	JollyRgr	oh
+2014-12-04 04:49:39	TuxedoJack	And soon, overnights
+2014-12-04 04:49:41	JollyRgr	eww
+2014-12-04 04:49:54	TuxedoJack	Finally getting to do REAL work instead of helldesk because our helldesk team is made of incompetents
+2014-12-04 04:49:59	Kumorigoe	That's me on the right: http://i.imgur.com/X6HscO6.jpg
+2014-12-04 04:50:09	TuxedoJack	Damn
+2014-12-04 04:50:10	Rallias	Isabella most likely stems from latin roots.
+2014-12-04 04:50:12	TuxedoJack	Now THAT is a beard
+2014-12-04 04:50:24	▬▬▶	TomatoBag (~TomatoBag@69.196.11.52) has joined #reddit-sysadmin
+2014-12-04 04:50:27	JollyRgr	TuxedoJack: i just got my official promotion to doing real SCCM/packaging/etc vs half-assed helping out the helldesk
+2014-12-04 04:50:39	Kumorigoe	Thank you.
+2014-12-04 04:50:39	JollyRgr	Rallias: obv. from the romantic languages
+2014-12-04 04:51:04	TuxedoJack	JollyRgr: Nice! After a year and 5 months, I finally get to start auditing ALL our clients, figuring out what goes where, what's doing what services and at what location, getting things in order
+2014-12-04 04:51:24	JollyRgr	sounds like it is sorely needed
+2014-12-04 04:51:27	m4221	JollyRgr: I'm from the government and I'm here to help
+2014-12-04 04:51:30	m4221	:P
+2014-12-04 04:51:44	TuxedoJack	Seriously, as much as I love this job... the bastards have ZERO documentation for half their clients, don't have building keys for most of them, and use bloody LMI Central for remote support
+2014-12-04 04:51:53	TuxedoJack	The hazards of MSP sysadmin duties
+2014-12-04 04:51:53	Kumorigoe	Oh jesus.
+2014-12-04 04:51:55	JollyRgr	eww
+2014-12-04 04:52:13	⚡	Kumorigoe pours TuxedoJack a stiff drink.
+2014-12-04 04:52:14	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 272 seconds)
+2014-12-04 04:52:20	TuxedoJack	Even worse: we just bought a company in DFW that... well, here's a hint
+2014-12-04 04:52:22	Rallias	http://imgur.com/4SMtPaP
+2014-12-04 04:52:25	TuxedoJack	CPanel was running over HTTP
+2014-12-04 04:52:31	TuxedoJack	No HTTPS on the server AT ALL
+2014-12-04 04:52:32	Rallias	^ Daz me.
+2014-12-04 04:52:36	JollyRgr	that's cool
+2014-12-04 04:52:38	TomatoBag	Totally secure.
+2014-12-04 04:52:45	JollyRgr	but that's also assumuing you can only access from LAN
+2014-12-04 04:52:46	TuxedoJack	Oh, no, it was rooted
+2014-12-04 04:52:47	JollyRgr	lol
+2014-12-04 04:52:52	▬▬▶	ab0mbs (~Sean@cpe-67-255-104-209.stny.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 04:52:52	TuxedoJack	RDP open to every onsite server through the firewall
+2014-12-04 04:52:52	TomatoBag	The overhead on https is immense.
+2014-12-04 04:52:56	TuxedoJack	Directly to the hypervisors
+2014-12-04 04:53:06	raviout	who's good with debian
+2014-12-04 04:53:08	◀▬▬	Mso150 (~ctlM@217.118.64.47) has quit (Ping timeout: 264 seconds)
+2014-12-04 04:53:09	ℹ 	raviout is now known as ravioli
+2014-12-04 04:53:13	TuxedoJack	Every client, even the SBS boxes, had POP mail on their DC servers
+2014-12-04 04:53:15	JollyRgr	ravioli: i am to a degree
+2014-12-04 04:53:17	ravioli	or any linux distro
+2014-12-04 04:53:22	Rallias	Kumorigoe, I don't have your beard, but I have hair to rival.
+2014-12-04 04:53:27	JollyRgr	it is what i use (i just moved from ubuntu about 2 months ago)
+2014-12-04 04:53:35	ravioli	JollyRgr: k, well, i somehow set up my box to start a screen every boot
+2014-12-04 04:53:37	Kumorigoe	Rallias, you should cut off half that hair and glue it to your face.
+2014-12-04 04:53:38	ravioli	to irssi
+2014-12-04 04:53:39	ravioli	which is great
+2014-12-04 04:53:42	ravioli	but i can't find where i did it
+2014-12-04 04:53:46	ravioli	not in /etc/init.d
+2014-12-04 04:53:47	JollyRgr	crontab -e
+2014-12-04 04:53:48	ravioli	as far as i can tell
+2014-12-04 04:53:53	Kumorigoe	TuxedoJack, you poor bastard.
+2014-12-04 04:54:04	ravioli	not in cron
+2014-12-04 04:54:08	ravioli	for me or root
+2014-12-04 04:54:12	Rallias	Kumorigoe, But... but...
+2014-12-04 04:54:20	JollyRgr	hmm
+2014-12-04 04:54:20	ravioli	sorta scratching my head here
+2014-12-04 04:54:22	Rallias	My lucious hair.
+2014-12-04 04:54:35	Kumorigoe	Trust me.  A beard makes your life easier.
+2014-12-04 04:54:39	JollyRgr	just let me ssh into your box real quick and i'll have a look around <.<
+2014-12-04 04:54:41	TuxedoJack	Kumorigoe: You have NO damn idea. I have to audit all of them, patch them up - in fact, I had one 2K8 R2 box that hadn't been patched since 2010 - implement maintenance windows, start a proper CRM, document what's where, and get building keys for them all
+2014-12-04 04:54:46	Rallias	ravioli, Check /etc/rc.d
+2014-12-04 04:54:47	Kumorigoe	People are far less willing to bother you with stupid shit.
+2014-12-04 04:54:51	ravioli	lol JollyRgr
+2014-12-04 04:54:57	ravioli	Rallias: hold
+2014-12-04 04:55:01	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 04:55:13	⚡	Kumorigoe pours TuxedoJack a tall glass of bourbon.
+2014-12-04 04:55:26	TuxedoJack	Kumorigoe: you have your beard as a deflector, I use the Cat5 and the blackmail material in the hosted Exchange cluster
+2014-12-04 04:55:28	Rallias	Kumorigoe, But my hair... it's nice when it tickles my nipples.
+2014-12-04 04:55:29	Bru^	anyone here use Manage Engine ServiceDesk?
+2014-12-04 04:55:30	Kumorigoe	I feel better about my own project list now.
+2014-12-04 04:55:44	JollyRgr	ravioli: when you do find it... best place to startup a screen for irssi is in crontab (that's what I do with weechat)
+2014-12-04 04:56:09	ravioli	Rallias: no rc.d dir. there's rc0.d thru 9 or something. but it's not in any of those as far as i can tell
+2014-12-04 04:56:14	ravioli	JollyRgr: not init.d?
+2014-12-04 04:56:29	Rallias	ravioli, Check irssi's parent process?
+2014-12-04 04:56:33	▬▬▶	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has joined #reddit-sysadmin
+2014-12-04 04:56:33	JollyRgr	i'd use init.d for more server type things
+2014-12-04 04:56:47	JollyRgr	for just starting a user interface (irssi), i'd just do crontab
+2014-12-04 04:57:15	▬▬▶	p0rkbelly (~p0rkbelly@pool-96-250-86-97.nwrknj.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 04:57:20	Kumorigoe	TuxedoJack, that shit is why I am glad I've never worked for a MSP.
+2014-12-04 04:57:22	JollyRgr	ravioli: @reboot screen -dmS weechat weechat-curses
+2014-12-04 04:57:35	JollyRgr	that's my crontab entry... very easy to find and easy to change if i need
+2014-12-04 04:57:46	TuxedoJack	Kumori: http://i.imgur.com/TpJ5zRU.jpg
+2014-12-04 04:57:51	TuxedoJack	That's what I'm drinking when I get home tonight
+2014-12-04 04:58:06	ravioli	pretty sure it does it at boot
+2014-12-04 04:58:10	ravioli	hell, let's find out!
+2014-12-04 04:58:10	ravioli	brb
+2014-12-04 04:58:18	Kumorigoe	About what I'd expect.
+2014-12-04 04:58:23	◀▬▬	ravioli (~ravioli@unaffiliated/ravioli) has quit (Remote host closed the connection)
+2014-12-04 04:58:27	TuxedoJack	There's a bottle of Glenlivet 18 in there too
+2014-12-04 04:58:27	JollyRgr	that issue would take me like 2 days to discover b/c i'd refuse to reboot
+2014-12-04 04:58:29	+sc`	sysvinit is dead. it's all about systemd
+2014-12-04 04:58:32	Kumorigoe	Nice.
+2014-12-04 04:58:39	+sc`	all hail poettering, our lord and savior
+2014-12-04 04:58:47	Kumorigoe	I like the 15 French Oak myself.
+2014-12-04 04:58:50	Bru^	lol
+2014-12-04 04:58:56	Bru^	18 glenlivet is good'
+2014-12-04 04:59:01	Bru^	21 glenlivet is even better
+2014-12-04 04:59:14	Kumorigoe	25 is quite nice.
+2014-12-04 04:59:14	+sc`	I have a bottle of glenlivet somewhere
+2014-12-04 04:59:16	TuxedoJack	You get what you can afford
+2014-12-04 04:59:38	Bru^	havent had the 25
+2014-12-04 04:59:41	TuxedoJack	And if my Christmas bonus isn't enough to get a goddamn bottle of Glengoolie frickin' Blue, I'll be rampage-pissed
+2014-12-04 04:59:42	+sc`	I need to acquisition a fancy bottle of scotch
+2014-12-04 04:59:46	Bru^	hell the GL 12 is good enough
+2014-12-04 04:59:50	Kumorigoe	RAMPAAAAAGE
+2014-12-04 04:59:53	Bru^	especially for a poor IT guy
+2014-12-04 05:00:09	Bru^	TuxedoJack: SUPRESSING FIIIREEEE
+2014-12-04 05:00:22	Kumorigoe	Save it for the fast-money round.
+2014-12-04 05:00:38	TuxedoJack	How many users' corpses does it take to qualify for a rampage?
+2014-12-04 05:00:45	TuxedoJack	GOD DAMMIT CYRIL
+2014-12-04 05:01:17	Bru^	:D
+2014-12-04 05:01:39	Kumorigoe	Sorry about your homie....homie.
+2014-12-04 05:02:01	Kumorigoe	Goddamnit.
+2014-12-04 05:02:04	Bru^	anyone use manage engine products?
+2014-12-04 05:02:13	⚡	Kumorigoe throws it up on the TV
+2014-12-04 05:02:38	ℹ 	Mode #reddit-sysadmin [-b rootb!*@*] by devoops
+2014-12-04 05:02:47	TuxedoJack	Name the SOB who's running this cut-rate IT outfit. Number one answer on the board is...
+2014-12-04 05:02:59	Kumorigoe	TuxedoJack!
+2014-12-04 05:03:07	Snarkadmin-home	sup guys
+2014-12-04 05:03:51	TuxedoJack	Sup.
+2014-12-04 05:04:02	JollyRgr	yo Snarkadmin-home
+2014-12-04 05:04:20	Snarkadmin-home	so why are you lonely people IRCing in here from home?
+2014-12-04 05:04:26	TuxedoJack	Who's actually at HOME?
+2014-12-04 05:04:35	JollyRgr	the same reason you are, Snarkadmin-home
+2014-12-04 05:04:36	Snarkadmin-home	half of you active people are people I see during the workday
+2014-12-04 05:04:42	Kumorigoe	I'm home.
+2014-12-04 05:04:47	Kumorigoe	And half-drunk.
+2014-12-04 05:04:52	Snarkadmin-home	JollyRgr because you're depressed and lonely and desperate for someone to talk to? Cool.
+2014-12-04 05:04:54	◀▬▬	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has quit (Quit: Be back later ...)
+2014-12-04 05:04:55	JollyRgr	tux, i think you're the only one working right now
+2014-12-04 05:05:17	JollyRgr	Snarkadmin-home: nope... waiting for my wife to stop raiding so we can discuss what i'll be doing for her tomorrow (she gets wisdom teeth extracted)
+2014-12-04 05:05:25	Snarkadmin-home	ah
+2014-12-04 05:05:28	Snarkadmin-home	so different reasons
+2014-12-04 05:05:33	Snarkadmin-home	my wife just went to bed
+2014-12-04 05:05:43	TuxedoJack	Well, as soon as my overnight guy gets in - as in Scrubdick McN00bsauce - I'm out the door
+2014-12-04 05:05:43	Snarkadmin-home	she goes to bed at around 9 or 10 on weeknights
+2014-12-04 05:05:53	Snarkadmin-home	sometimes on weekends too to not mess up her sleep schedule
+2014-12-04 05:06:01	Snarkadmin-home	school teacher, she has to get up at like 5
+2014-12-04 05:06:04	◀▬▬	ab0mbs (~Sean@cpe-67-255-104-209.stny.res.rr.com) has left #reddit-sysadmin
+2014-12-04 05:06:07	Kumorigoe	TuxedoJack, another PFY?
+2014-12-04 05:06:13	TuxedoJack	Worse
+2014-12-04 05:06:19	Kumorigoe	Oh, God...
+2014-12-04 05:06:29	TuxedoJack	We hired him from the sales department at Rackspace as a tier 1 helldesk monkey
+2014-12-04 05:06:33	TuxedoJack	And smart hands
+2014-12-04 05:06:41	⚡	Kumorigoe shudders
+2014-12-04 05:06:42	TuxedoJack	Because he was the friend of one of our field techs
+2014-12-04 05:06:44	JollyRgr	oh no
+2014-12-04 05:07:07	TuxedoJack	Yeah.
+2014-12-04 05:07:13	TuxedoJack	We've banned him from doing anything serious
+2014-12-04 05:07:24	Kumorigoe	TuxedoJack, this will make you feel better.  Maybe.  http://www.reddit.com/r/techsupport/comments/2o6nwy/computer_boots_but_no_postno_beeps_no_signal_not/
+2014-12-04 05:07:26	TuxedoJack	And now all we're letting him do is configure Yealink phones for massive deployments
+2014-12-04 05:07:29	▬▬▶	ravioli (~ravioli@unaffiliated/ravioli) has joined #reddit-sysadmin
+2014-12-04 05:07:48	ravioli	who was just helping me with that screen thing?
+2014-12-04 05:07:48	JollyRgr	sounds like a good use of $salary
+2014-12-04 05:07:54	JollyRgr	ravioli: me and some other dude
+2014-12-04 05:08:12	TuxedoJack	He's getting shitcanned when I start going from 10 to 7 AM
+2014-12-04 05:08:17	TuxedoJack	Read: 7 PM to 7 AM
+2014-12-04 05:08:19	JollyRgr	Rallias maybe?
+2014-12-04 05:08:29	ravioli	JollyRgr, rallias: three guesses as to what the problem was
+2014-12-04 05:08:50	JollyRgr	you had it set under crontab for the user "nobody"?
+2014-12-04 05:08:54	Rallias	I'm sorry, I'm shitforbrains.
+2014-12-04 05:09:11	JollyRgr	you added it to the rc.d script for apache?
+2014-12-04 05:09:17	ravioli	it didn't actually fucking start on boot ever.
+2014-12-04 05:09:24	JollyRgr	oh
+2014-12-04 05:09:28	ravioli	i always did it manually but i never reboot my server.
+2014-12-04 05:09:28	JollyRgr	guess 3 was systemd
+2014-12-04 05:09:44	⚡	JollyRgr recalls just moments ago...
+2014-12-04 05:09:58	ravioli	also "my server" == a raspberry pi
+2014-12-04 05:10:03	JollyRgr	lol
+2014-12-04 05:10:08	ravioli	running LAMP and a few other things
+2014-12-04 05:10:17	ravioli	surprisingly it works really well
+2014-12-04 05:10:24	JollyRgr	i'm thinking about getting my pogo plug up and running and doing something with it... either weechat/irc or DHCP
+2014-12-04 05:10:34	◀▬▬	Kurin (~Kurin@li58-160.members.linode.com) has quit (Remote host closed the connection)
+2014-12-04 05:11:16	Kumorigoe	ravioli, that's...adorable.
+2014-12-04 05:11:25	ravioli	go ahead and guess its domain name
+2014-12-04 05:11:34	◀▬▬	m4221 (~m4221@2600:1003:b01e:4d1b:88a9:f874:687f:6b81) has quit (Quit: Bye)
+2014-12-04 05:11:45	Kumorigoe	BramblePatch?
+2014-12-04 05:11:50	JollyRgr	lol
+2014-12-04 05:11:54	ravioli	i'll give you a hint
+2014-12-04 05:11:55	⚡	ravioli 
+2014-12-04 05:12:00	JollyRgr	ravioli
+2014-12-04 05:12:06	JollyRgr	I WIN!
+2014-12-04 05:12:11	ravioli	JollyRgr++
+2014-12-04 05:12:22	⚡	Kumorigoe smashes a beer bottle over ravioli's head.
+2014-12-04 05:12:24	ravioli	ravio.li
+2014-12-04 05:12:28	JollyRgr	no raspioli?
+2014-12-04 05:12:35	ravioli	kek
+2014-12-04 05:12:36	JollyRgr	nice
+2014-12-04 05:12:49	JollyRgr	raspioli.ravio.li
+2014-12-04 05:13:09	ravioli	pasta ravioli?
+2014-12-04 05:13:09	◀▬▬	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has quit (Ping timeout: 250 seconds)
+2014-12-04 05:13:16	TuxedoJack	Oh god
+2014-12-04 05:13:26	TuxedoJack	Norton 360, plus infections, plus other crap
+2014-12-04 05:13:27	TuxedoJack	Why
+2014-12-04 05:13:38	⚡	Kumorigoe hands TuxedoJack a pistol with one round.
+2014-12-04 05:13:44	TuxedoJack	Screw that
+2014-12-04 05:13:45	Kumorigoe	You know what to do.
+2014-12-04 05:13:56	ravioli	ending my sysadmin job friday
+2014-12-04 05:13:59	TuxedoJack	"Here's a gun, there are 12 holy bullets, save one for yourself."
+2014-12-04 05:14:01	ravioli	moving to data
+2014-12-04 05:14:10	◀▬▬	Bru` (~Brupert@unaffiliated/bru/x-2454193) has quit (Read error: Connection reset by peer)
+2014-12-04 05:14:27	▬▬▶	Bru` (~Brupert@mail.cokehc.com) has joined #reddit-sysadmin
+2014-12-04 05:14:27	◀▬▬	Bru` (~Brupert@mail.cokehc.com) has quit (Changing host)
+2014-12-04 05:14:27	▬▬▶	Bru` (~Brupert@unaffiliated/bru/x-2454193) has joined #reddit-sysadmin
+2014-12-04 05:14:36	Kumorigoe	We got rid of Symantec Endpoint Protection early this year.
+2014-12-04 05:14:53	ravioli	we're using sophos
+2014-12-04 05:15:00	TuxedoJack	GFI here
+2014-12-04 05:15:00	Kumorigoe	SCEP here.
+2014-12-04 05:15:08	ravioli	i install security essentials on personal client machines tho
+2014-12-04 05:15:15	ravioli	works well for personal use
+2014-12-04 05:15:21	ravioli	and never wants you to buy anything
+2014-12-04 05:15:32	ravioli	and by "you" i mean "the user"
+2014-12-04 05:16:04	Kumorigoe	We recently started blocking all zip-type attachments from emails.
+2014-12-04 05:16:08	▬▬▶	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has joined #reddit-sysadmin
+2014-12-04 05:16:19	Kumorigoe	Which makes me happy from a security standpoint.
+2014-12-04 05:16:26	◀▬▬	TomatoBag (~TomatoBag@69.196.11.52) has quit (Quit:  HydraIRC -> http://www.hydrairc.com <- Now with extra fish!)
+2014-12-04 05:16:32	◀▬▬	virusuy_ (~virusuy@unaffiliated/virusuy) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-12-04 05:16:33	Kumorigoe	But the attorneys are pitching a slight fit.
+2014-12-04 05:16:43	projectdp	hi
+2014-12-04 05:16:49	TuxedoJack	The attorneys can complain all they like
+2014-12-04 05:16:55	TuxedoJack	Doesn't mean they'll get their way
+2014-12-04 05:17:22	Kumorigoe	Well, an associate can complain all they like.  A senior partner can get results.
+2014-12-04 05:17:27	◀▬▬	whistle-pig (~whistle-p@162-194-105-61.lightspeed.gnbonc.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2014-12-04 05:17:36	ny0x	proofpoint
+2014-12-04 05:17:37	▬▬▶	fastlags (~fastlags@2607:fb90:42b:1b1:0:22:ef3b:f201) has joined #reddit-sysadmin
+2014-12-04 05:17:44	Kumorigoe	In this case, the Tech Committee will make the final ruling.
+2014-12-04 05:18:09	fastlags	Hercules has the housing setup I'm looking for but it's so far
+2014-12-04 05:18:20	Kumorigoe	But meanwhile, I'm stuck explaining to people in my office that zip files are verboten from email.
+2014-12-04 05:18:29	fastlags	Kumorigoe what did you break now
+2014-12-04 05:18:31	Snarkadmin-home	Kumorigoe you all use SCCM?
+2014-12-04 05:18:38	⚡	Snarkadmin-home shamelessly plugs ##SCCM
+2014-12-04 05:18:56	Kumorigoe	What we *need* is something to scan inside zip attachments to see if there are any bad things inside.
+2014-12-04 05:19:02	Kumorigoe	snarkadmin, yes.
+2014-12-04 05:19:13	Kumorigoe	fastlags, I don't break things.  Often.
+2014-12-04 05:19:17	ny0x	proofpoint does that ;)
+2014-12-04 05:19:18	ravioli	we just don't give our users admin rights
+2014-12-04 05:19:26	Kumorigoe	Neither do we.
+2014-12-04 05:19:32	Snarkadmin-home	I wish i could not give my users admin rights
+2014-12-04 05:19:34	ravioli	and you have malware issues?
+2014-12-04 05:19:34	⚡	Snarkadmin-home sighs
+2014-12-04 05:19:49	TuxedoJack	Eh, let them have local admin
+2014-12-04 05:19:53	ravioli	noooooo
+2014-12-04 05:19:54	Kumorigoe	ravioli, .scr files don't need admin rights.
+2014-12-04 05:19:57	ravioli	let them have nothing
+2014-12-04 05:19:58	TuxedoJack	The minute they break things, their HR department hears about it
+2014-12-04 05:19:58	ravioli	scr?
+2014-12-04 05:20:11	ravioli	TuxedoJack: it's not their fault if they're ignorant
+2014-12-04 05:20:23	ravioli	it's not their job to know this shit
+2014-12-04 05:20:24	ravioli	it's ours
+2014-12-04 05:20:35	Kumorigoe	ravioli...
+2014-12-04 05:20:35	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 05:20:37	ravioli	that's how i look at it
+2014-12-04 05:21:05	Kumorigoe	You must be new.
+2014-12-04 05:21:09	ravioli	kek
+2014-12-04 05:21:13	TuxedoJack	top kek
+2014-12-04 05:21:17	ravioli	top.
+2014-12-04 05:21:17	ravioli	kek.
+2014-12-04 05:21:24	⚡	Kumorigoe watches Woodhouse go on a RAMPAAAAGE.
+2014-12-04 05:21:26	ravioli	i work at a school
+2014-12-04 05:21:42	ravioli	i can't run a classroom
+2014-12-04 05:21:58	ravioli	my teachers aren't computer experts
+2014-12-04 05:22:09	Kumorigoe	Of course not.  They're teachers.
+2014-12-04 05:22:17	ravioli	i enable my teachers to educate
+2014-12-04 05:22:26	Kumorigoe	HAH.
+2014-12-04 05:22:33	ravioli	any technical issues...why would they need to know how to fix them?
+2014-12-04 05:22:37	⚡	Kumorigoe pours ravioli a bourbon.
+2014-12-04 05:22:38	ravioli	they don't have time for that shit.
+2014-12-04 05:22:46	Kumorigoe	You need to start learning how this shit works.
+2014-12-04 05:22:50	ravioli	pssh
+2014-12-04 05:23:00	Kumorigoe	The users are evil, and we hate them.
+2014-12-04 05:23:02	fastlags	ravioli I saw a place yesterday that was making it from scratch and thought of you
+2014-12-04 05:23:10	ravioli	fastlags: love u
+2014-12-04 05:23:12	fastlags	I couldn't cough up that $12 though
+2014-12-04 05:23:17	ravioli	Kumorigoe: dammit i forgot where i was
+2014-12-04 05:23:19	⚡	ravioli circlejerks
+2014-12-04 05:23:19	fastlags	I don't love you that much
+2014-12-04 05:23:19	⚡	ravioli circlejerks
+2014-12-04 05:23:22	⚡	ravioli circlejerks
+2014-12-04 05:23:24	ny0x	users create work, those bastards.
+2014-12-04 05:23:25	ravioli	users suck
+2014-12-04 05:23:27	ravioli	ugh
+2014-12-04 05:23:30	ravioli	fucking users
+2014-12-04 05:23:38	fastlags	users keep us employed
+2014-12-04 05:23:42	fastlags	I was wondering earlier
+2014-12-04 05:23:45	Kumorigoe	Fucking (l)users
+2014-12-04 05:23:49	ravioli	"my job would be so much easier if we didn't have users lolol"
+2014-12-04 05:23:55	ravioli	"is it read only friday yet? 444!"
+2014-12-04 05:23:56	fastlags	Wtf does helpdesk do at Google?
+2014-12-04 05:24:07	ravioli	fastlags: turns it off and then on again
+2014-12-04 05:24:14	Kumorigoe	Yes, they keep us employed.  But it's our God-given right to bitch about them.
+2014-12-04 05:24:19	ravioli	i guess
+2014-12-04 05:24:25	ravioli	idk
+2014-12-04 05:24:26	fastlags	I bet they have like 2 employees for 2000 users
+2014-12-04 05:24:34	fastlags	And they only get tickets to change passwords
+2014-12-04 05:24:35	TuxedoJack	When they do the same things repeatedly, yeah...
+2014-12-04 05:24:37	ravioli	that's my environment fastlags
+2014-12-04 05:24:41	fastlags	Retard users keep me employeed
+2014-12-04 05:24:45	fastlags	Shit sorry
+2014-12-04 05:24:50	fastlags	Employed
+2014-12-04 05:24:54	▬▬▶	snuffeluffegus (~snuff@ps357888.dreamhost.com) has joined #reddit-sysadmin
+2014-12-04 05:25:01	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 255 seconds)
+2014-12-04 05:25:40	⚡	ravioli maintains 12 servers, 103 projectors, 103 speaker systems, 1,568 computers, 11 switch stacks, and supports 2200 people
+2014-12-04 05:25:42	⚡	Kumorigoe watched a user double click hyperlinks for five minutes yesterday.
+2014-12-04 05:26:01	Kumorigoe	I wanted to unplug the mouse and choke her to death with the cord.
+2014-12-04 05:26:18	ravioli	fastlags: you love me
+2014-12-04 05:26:22	ravioli	you can say you don't
+2014-12-04 05:26:23	projectdp	fastlags: they do what IT helpdesks do, laptop provisioning tickets and bullshit stuff
+2014-12-04 05:26:23	ravioli	but you do
+2014-12-04 05:26:28	ny0x	did it open two tabs everytime?
+2014-12-04 05:26:56	projectdp	sauce: friend was at Google's IT helpdesk, as an Intern a few years back
+2014-12-04 05:27:07	fastlags	As much as two Internet Bros that haven't made coitus together can ravioli
+2014-12-04 05:27:10	ravioli	gucci gucci fendi fendi prada
+2014-12-04 05:27:13	Kumorigoe	ny0x, no.  Just made me clench my teeth and contemplate homicide.
+2014-12-04 05:27:23	ravioli	basic bitches buy that shit so i don't even botha
+2014-12-04 05:27:25	projectdp	basic bitches
+2014-12-04 05:27:27	projectdp	right
+2014-12-04 05:27:28	fastlags	Wally wally wally wally wally wally world
+2014-12-04 05:27:33	fastlags	We Goin walmart
+2014-12-04 05:27:34	ravioli	http://youtu.be/QFJ0RPAXkMQ
+2014-12-04 05:27:34	projectdp	oakland wuut
+2014-12-04 05:27:35	ravioli	q
+2014-12-04 05:27:35	ravioli	t
+2014-12-04 05:27:36	ravioli	3.14
+2014-12-04 05:27:42	ravioli	@ 1:07
+2014-12-04 05:27:56	▬▬▶	Fallfeathers (~Fallfeath@1.141.37.137) has joined #reddit-sysadmin
+2014-12-04 05:28:12	fastlags	Mann I seen a couple dimes out here in Oakland . Not enough yet though
+2014-12-04 05:28:32	ravioli	here in maine sometimes there's cute girls in the summer
+2014-12-04 05:28:41	ravioli	sometimes
+2014-12-04 05:28:48	◀▬▬	cparlette (~chris.par@pool-96-241-216-63.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2014-12-04 05:28:50	fastlags	I met a couple in the club from Maine
+2014-12-04 05:28:54	ravioli	orly
+2014-12-04 05:37:48	ℹ 	irc: disconnected from server
+2014-12-04 05:38:19	▬▬▶	body (~body@host160-95-dynamic.41-79-r.retail.telecomitalia.it) has joined #reddit-sysadmin
+2014-12-04 05:38:19	ℹ 	Topic for #reddit-sysadmin is "#reddit-sysadmin Home of /r/sysadmin - No Trolling - http://www.reddit.com/r/sysadmin/wiki/reddit-sysadmin-irc | Check out /r/sysadmingaming"
+2014-12-04 05:38:19	ℹ 	Topic set by DoTheNeedful (~cryptic1@198-91-171-48.cpe.distributel.net) on Sun, 12 Oct 2014 17:21:15
+2014-12-04 05:38:19	ℹ 	Channel #reddit-sysadmin: 474 nicks (7 ops, 8 voices, 459 normals)
+2014-12-04 05:38:23	Snarkadmin-home	As much as I disagree with their politics, I like their food
+2014-12-04 05:38:29	ℹ 	Channel created on Thu, 29 Dec 2011 20:56:36
+2014-12-04 05:38:31	◀▬▬	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has quit (Ping timeout: 256 seconds)
+2014-12-04 05:38:31	projectdp	fastlags: to be fair i haven't given it a chance
+2014-12-04 05:38:34	fastlags	Kumorigoe noooo don't tell me about that I don't want to boycott them
+2014-12-04 05:38:43	projectdp	but it almost has fail already in the name
+2014-12-04 05:38:47	Snarkadmin-home	and it feels morally objectionable to me to potentially hurt a small franchisee over an issue I have with their national leaders
+2014-12-04 05:38:48	fastlags	But no do tell me fuck homophobes
+2014-12-04 05:38:48	Kumorigoe	They are pretty anti-gay.
+2014-12-04 05:38:55	Snarkadmin-home	but it also feels wrong to help line their pockets
+2014-12-04 05:39:10	Kumorigoe	I also don't donate to the Salvation Army.  Same reason.
+2014-12-04 05:39:14	fastlags	As much as I love le pous pous I support the peen ad well
+2014-12-04 05:39:18	Snarkadmin-home	hate to break it to ya'll, Papa John's too
+2014-12-04 05:39:25	Snarkadmin-home	he's a homophobe IIRC.
+2014-12-04 05:39:25	Kumorigoe	Fuck their red homophobic kettles.
+2014-12-04 05:39:31	projectdp	where do you donate? and salvation army is homophobic?
+2014-12-04 05:39:31	fastlags	papajohns is ass they can go
+2014-12-04 05:39:43	fastlags	I've heard some shit about salvation army as well
+2014-12-04 05:39:56	Kumorigoe	Papa Johns is bad without the homophobia.
+2014-12-04 05:39:58	fastlags	I need sauce on chick FIL a homophobe I will chalk them seriously
+2014-12-04 05:40:03	fastlags	^
+2014-12-04 05:40:16	Kumorigoe	Pizza Hut all the way.
+2014-12-04 05:40:18	fastlags	Pizza Hut stuffed crust is my go to now
+2014-12-04 05:40:26	⚡	fastlags head nod
+2014-12-04 05:40:32	Snarkadmin-home	our Little Ceasars isn't bad
+2014-12-04 05:40:40	Kumorigoe	Meat Lovers thin crust.
+2014-12-04 05:40:43	Snarkadmin-home	I KNOW THAT'S BLASPHEMEY most places
+2014-12-04 05:40:47	fastlags	I can't with little Ceasars
+2014-12-04 05:40:48	fastlags	I cant
+2014-12-04 05:40:52	projectdp	that food is so damn cheap how can it not be terrible for you
+2014-12-04 05:41:00	fastlags	For $5 I get it
+2014-12-04 05:41:05	fastlags	But I can't
+2014-12-04 05:41:14	Snarkadmin-home	but our Little Ceasars has decent pizza and ours actually gives you real cheese sauce for crazy bread
+2014-12-04 05:41:16	fastlags	I won't give you any shit for eating there though
+2014-12-04 05:41:23	Snarkadmin-home	i went to one in bowling green and it was this weird shit
+2014-12-04 05:41:23	Snarkadmin-home	like
+2014-12-04 05:41:31	Snarkadmin-home	imagine kraft mac and cheese powder + water
+2014-12-04 05:41:35	Snarkadmin-home	and that was their cheese sauce
+2014-12-04 05:41:36	fastlags	The McDonald's at Tuskegee used real sugar in the sweet tea
+2014-12-04 05:41:36	projectdp	barf
+2014-12-04 05:41:44	fastlags	It was like fucking crack no lie
+2014-12-04 05:41:51	fastlags	Sweet tea doesn't taste the same now
+2014-12-04 05:41:59	projectdp	is McD's still doing dollar drinks for any size most places?
+2014-12-04 05:42:03	TuxedoJack	Sadly yes
+2014-12-04 05:42:06	Snarkadmin-home	not mine no
+2014-12-04 05:42:08	projectdp	hard to beat :P
+2014-12-04 05:42:10	TuxedoJack	Sweet tea. Ugh
+2014-12-04 05:42:12	m4221	I love  chik fil a
+2014-12-04 05:42:22	fastlags	nobody asked you m4221
+2014-12-04 05:42:23	Snarkadmin-home	when I got a medium big mac meal but got a large drink, i was charged an upcharge.
+2014-12-04 05:42:24	m4221	Screw mcds
+2014-12-04 05:42:30	▬▬▶	Immo (~NotImmo@unaffiliated/immolation) has joined #reddit-sysadmin
+2014-12-04 05:42:33	⚡	m4221 tases fastlags 
+2014-12-04 05:42:34	Kumorigoe	m4221, you're not a real person.
+2014-12-04 05:42:39	fastlags	^
+2014-12-04 05:42:46	Snarkadmin-home	I'm going back on keto tomorrow
+2014-12-04 05:42:48	projectdp	i will only get a couple things at McD's now
+2014-12-04 05:42:49	fastlags	Shoo bot
+2014-12-04 05:42:54	Kumorigoe	And sweet tea is awful.
+2014-12-04 05:42:55	Snarkadmin-home	we were going to today but me and the wife both ended up fudging a bit
+2014-12-04 05:42:55	▬▬▶	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has joined #reddit-sysadmin
+2014-12-04 05:42:58	fastlags	Snark good for you
+2014-12-04 05:43:00	Snarkadmin-home	tomorrow is for realz
+2014-12-04 05:43:02	⚡	m4221 slaps Kumorigoe 
+2014-12-04 05:43:03	projectdp	cone, coke, coffee
+2014-12-04 05:43:05	fastlags	I need to as well
+2014-12-04 05:43:13	Snarkadmin-home	i was doing so good
+2014-12-04 05:43:15	Snarkadmin-home	i got to 269.
+2014-12-04 05:43:18	⚡	Kumorigoe pistol-whips m4221 
+2014-12-04 05:43:20	Snarkadmin-home	lowest i'd been at since college
+2014-12-04 05:43:25	BigShip	mmm, i just made coffee. So good. Almost gone though... should've made a pot
+2014-12-04 05:43:25	Snarkadmin-home	now i'm back at 280
+2014-12-04 05:43:27	fastlags	What's the goal?
+2014-12-04 05:43:34	m4221	Kumorigoe: moar whipping: P
+2014-12-04 05:43:34	Snarkadmin-home	while i'm still 15 lbs shy of my heaviest, it's still too much
+2014-12-04 05:43:36	m4221	Lol
+2014-12-04 05:43:42	fastlags	Not bad snark you can recover from that
+2014-12-04 05:43:48	Snarkadmin-home	fastlags, ultimate goal or short-term?
+2014-12-04 05:43:56	TuxedoJack	You all can have your filthy sweet tea.
+2014-12-04 05:44:00	TuxedoJack	I have this sitting at my office
+2014-12-04 05:44:00	fastlags	Ultimate
+2014-12-04 05:44:00	TuxedoJack	http://i.imgur.com/xPDkb4E.jpg
+2014-12-04 05:44:03	Kumorigoe	snarkadmin, I'm at 270.
+2014-12-04 05:44:12	Snarkadmin-home	Ultimate goal is 160ish
+2014-12-04 05:44:25	Kumorigoe	TuxedoJack, nice.
+2014-12-04 05:44:26	projectdp	Snarkadmin-home: good job
+2014-12-04 05:44:28	BigShip	Snarkadmin-home: how tall are you?
+2014-12-04 05:44:36	fastlags	Coffee is shit
+2014-12-04 05:44:36	m4221	Kumorigoe: slap yourself
+2014-12-04 05:44:36	Snarkadmin-home	Kumorigoe I was at 270 until i fell off the wagon
+2014-12-04 05:44:36	TuxedoJack	Kumorigoe: the bosses used to have gelato shops around town
+2014-12-04 05:44:40	fastlags	Everyone can fight me
+2014-12-04 05:44:43	Snarkadmin-home	BigShip 5'6
+2014-12-04 05:44:43	TuxedoJack	This thing was in storage for a few years
+2014-12-04 05:44:43	Kumorigoe	For the blackest of black coffee, no doubt?
+2014-12-04 05:44:44	projectdp	TuxedoJack: gross what happened? haha
+2014-12-04 05:44:46	BigShip	fastlags: no you didn't
+2014-12-04 05:44:48	⚡	m4221 whips self
+2014-12-04 05:45:01	Snarkadmin-home	BMI says I should be around 150ish but that seems very unusual for people I know who are in good shape
+2014-12-04 05:45:02	◀▬▬	Immo (~NotImmo@unaffiliated/immolation) has quit (Client Quit)
+2014-12-04 05:45:04	⚡	fastlags raises fists Irish style
+2014-12-04 05:45:14	Snarkadmin-home	so i'm hoping to be 160-ish with some muscle
+2014-12-04 05:45:15	TuxedoJack	projectdp: the chief network admin tripped and faceplanted into it, knocking the bean tubs off the top and spilling them EVERYWHERE
+2014-12-04 05:45:19	Kumorigoe	m4221, I don't take orders from sadists.
+2014-12-04 05:45:21	⚡	m4221 sucker punches fastlags 
+2014-12-04 05:45:25	⚡	BigShip takes dump on fastlags pillow
+2014-12-04 05:45:26	projectdp	haha
+2014-12-04 05:45:29	fastlags	Snark I'm 5`7 190 I can't get any lower than 170
+2014-12-04 05:45:31	▬▬▶	Immo (~NotImmo@202-160-51-98.knossos.net.nz) has joined #reddit-sysadmin
+2014-12-04 05:45:31	◀▬▬	Immo (~NotImmo@202-160-51-98.knossos.net.nz) has quit (Changing host)
+2014-12-04 05:45:31	▬▬▶	Immo (~NotImmo@unaffiliated/immolation) has joined #reddit-sysadmin
+2014-12-04 05:45:33	projectdp	oh ouch
+2014-12-04 05:45:44	fastlags	But I'm a little tank so
+2014-12-04 05:45:56	fastlags	Coffee backlash wasn't as bad as expected
+2014-12-04 05:46:01	fastlags	I am disappoint
+2014-12-04 05:46:03	Snarkadmin-home	my body has developed due to my current size so i'd look weird as fuck at 150 i think
+2014-12-04 05:46:06	projectdp	i'm probably about the same, a lil taller though
+2014-12-04 05:46:08	Snarkadmin-home	so i'm aiming for higher with some muscle
+2014-12-04 05:46:17	fastlags	Snark nah get down then bulk up
+2014-12-04 05:46:22	Snarkadmin-home	my short term goal is to get back down to 270
+2014-12-04 05:46:25	fastlags	Once you get rolling NO MORE BREAKS
+2014-12-04 05:46:27	⚡	m4221 ties up Kumorigoe and tortures him with windows 95 sounds
+2014-12-04 05:46:34	Snarkadmin-home	oh there'll be another break at christmas
+2014-12-04 05:46:40	fastlags	Shat
+2014-12-04 05:46:42	Snarkadmin-home	a little break now and then helps me stay sane
+2014-12-04 05:46:51	fastlags	Weekend breaks turn into month long breaks
+2014-12-04 05:46:53	Snarkadmin-home	but no more of this "well, we'll go off a few days"
+2014-12-04 05:46:57	Snarkadmin-home	because that ^
+2014-12-04 05:47:07	m4221	I can only make it to the gym twice a week
+2014-12-04 05:47:08	fastlags	At about 170 I should be 7-8% bf
+2014-12-04 05:47:22	Snarkadmin-home	anyway, i'm hopping off IRC for the night
+2014-12-04 05:47:27	◀▬▬	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has quit (Ping timeout: 264 seconds)
+2014-12-04 05:47:28	projectdp	later
+2014-12-04 05:47:28	fastlags	Diet > gym if we're talking losing weight
+2014-12-04 05:47:29	BigShip	Night
+2014-12-04 05:47:30	fastlags	Adios
+2014-12-04 05:47:30	Snarkadmin-home	i need to focus on finishing this section of homework
+2014-12-04 05:47:32	m4221	I do a lot more manual labor at home
+2014-12-04 05:47:32	Snarkadmin-home	then sleeping
+2014-12-04 05:47:34	◀▬▬	Mrkatov (~Mrkatov4@doc-72-47-2-240.bishop.ca.cebridge.net) has quit (Ping timeout: 252 seconds)
+2014-12-04 05:47:34	Snarkadmin-home	night
+2014-12-04 05:47:39	◀▬▬	Snarkadmin-home (ident@unaffiliated/billiardking) has quit (Quit: —I-n-v-i-s-i-o-n— 3.3 (November '11))
+2014-12-04 05:48:22	fastlags	big states are funny...
+2014-12-04 05:48:38	fastlags	All of this is mine
+2014-12-04 05:49:10	Kumorigoe	Speaking as a resident of Texas....yes.
+2014-12-04 05:50:41	◀▬▬	tus (~tus@unaffiliated/tus) has quit (Ping timeout: 244 seconds)
+2014-12-04 05:54:45	◀▬▬	isiah_s (~Isiah.Sch@pool-72-89-152-38.nycmny.fios.verizon.net) has quit (Quit: Leaving.)
+2014-12-04 05:54:48	◀▬▬	dandy (~dandy@honorface.com) has quit (Ping timeout: 240 seconds)
+2014-12-04 05:56:09	▬▬▶	dandy (~dandy@honorface.com) has joined #reddit-sysadmin
+2014-12-04 05:56:19	+sc`	as a resident of California, fuck your plastic bags
+2014-12-04 05:57:55	projectdp	what are the best technologies you got to learn this year?
+2014-12-04 05:58:44	◀▬▬	ny0x (~nyox@cpe-74-65-82-229.stny.res.rr.com) has quit (Quit: WeeChat 1.0.1)
+2014-12-04 05:59:46	Kumorigoe	Probably Airwatch.
+2014-12-04 05:59:58	⚡	m4221 tasers sc` for being a liberal whacko
+2014-12-04 05:59:59	▬▬▶	AshleyWaffle (~quassel@unaffiliated/anastasiawyatt) has joined #reddit-sysadmin
+2014-12-04 06:00:04	⚡	projectdp checking
+2014-12-04 06:00:29	projectdp	hm, some sort of MDM
+2014-12-04 06:00:36	ℹ 	ACDC_offline is now known as ACDCGAMER
+2014-12-04 06:00:44	⚡	sc` lights m4221 on fire for being too liberal
+2014-12-04 06:00:49	TuxedoJack	Grah.
+2014-12-04 06:00:52	⚡	liberal tasers m4221 for being a conservative whacko
+2014-12-04 06:01:10	m4221	sc`: I'm a libertarian...
+2014-12-04 06:01:18	+sc`	even worse
+2014-12-04 06:01:21	⚡	liberal tasers m4221 for being a conservatively liberal whacko
+2014-12-04 06:01:36	liberal	wishywashy bass turd
+2014-12-04 06:01:46	liberal	XD
+2014-12-04 06:01:53	⚡	m4221 hard mounts liberal
+2014-12-04 06:02:09	liberal	o_O RAPE!
+2014-12-04 06:02:10	▬▬▶	Viet (TheZealous@c-67-175-154-170.hsd1.il.comcast.net) has joined #reddit-sysadmin
+2014-12-04 06:02:11	▬▬▶	Fillyfeathers (~Fallfeath@1.141.37.137) has joined #reddit-sysadmin
+2014-12-04 06:02:17	liberal	RAAAAAAAPE!!!!
+2014-12-04 06:02:18	⚡	m4221 tases liberal 
+2014-12-04 06:02:31	◀▬▬	Bru^ (~Brupert@unaffiliated/bru/x-2454193) has quit (Quit: Asploded.)
+2014-12-04 06:02:42	projectdp	hm, vmware acquired too eh?
+2014-12-04 06:03:04	Kumorigoe	It's not a legitimate rape.
+2014-12-04 06:03:04	liberal	projectdp: what? acquired what? by whom?
+2014-12-04 06:03:05	+sc`	vmware is emc, isn't it?
+2014-12-04 06:03:10	+sc`	I feel like I should know this
+2014-12-04 06:03:10	⚡	m4221 remounts liberal rw
+2014-12-04 06:03:17	liberal	vmware has been emc for a very long time
+2014-12-04 06:03:17	projectdp	vmware acquired Airwatch
+2014-12-04 06:03:28	projectdp	oh i don't know it just says it on the Airwatch page
+2014-12-04 06:03:28	Kumorigoe	Yes, they did.
+2014-12-04 06:03:37	liberal	i see
+2014-12-04 06:03:56	▬▬▶	oogs|werk (~oogs@99-7-81-249.lightspeed.livnmi.sbcglobal.net) has joined #reddit-sysadmin
+2014-12-04 06:03:57	liberal	i was mounted against my will. i call that rape, or at the very least sexual harassment.
+2014-12-04 06:04:02	◀▬▬	m4221 (~m4221@pool-72-71-176-234.bltmmd.east.verizon.net) has quit (Quit: Bye)
+2014-12-04 06:04:34	liberal	...he couldn't handle the heat!
+2014-12-04 06:04:38	◀▬▬	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:04:38	◀▬▬	TheZealous (TheZealous@c-67-175-154-170.hsd1.il.comcast.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:04:38	◀▬▬	Fallfeathers (~Fallfeath@1.141.37.137) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:04:38	◀▬▬	crystal77 (~crystal77@107-218-136-245.lightspeed.austtx.sbcglobal.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:04:38	◀▬▬	rogers (rogers@bling.bling.org) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:04:44	liberal	lol
+2014-12-04 06:04:52	◀▬▬	Fillyfeathers (~Fallfeath@1.141.37.137) has quit (Read error: Connection reset by peer)
+2014-12-04 06:05:08	▬▬▶	Fillyfeathers (~Fallfeath@1.141.37.137) has joined #reddit-sysadmin
+2014-12-04 06:05:08	◀▬▬	oogs (~oogs@99-7-81-249.lightspeed.livnmi.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2014-12-04 06:05:39	◀▬▬	trist4n (~tristan@ec2-54-206-220-38.ap-southeast-2.compute.amazonaws.com) has quit (Changing host)
+2014-12-04 06:05:39	▬▬▶	trist4n (~tristan@unaffiliated/trist4n) has joined #reddit-sysadmin
+2014-12-04 06:06:52	▬▬▶	crystal77 (~crystal77@107-218-136-245.lightspeed.austtx.sbcglobal.net) has joined #reddit-sysadmin
+2014-12-04 06:07:14	▬▬▶	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has joined #reddit-sysadmin
+2014-12-04 06:07:23	projectdp	Kumorigoe: does it all work pretty smoothly?
+2014-12-04 06:07:31	▬▬▶	p0rkbell_ (~p0rkbelly@pool-96-250-86-97.nwrknj.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 06:07:45	▬▬▶	Ma|akai (~Malakai@167.88.45.173) has joined #reddit-sysadmin
+2014-12-04 06:08:14	Kumorigoe	For the most part, yeah.
+2014-12-04 06:08:27	▬▬▶	rogers (rogers@69.162.163.177) has joined #reddit-sysadmin
+2014-12-04 06:08:40	Kumorigoe	iOS is easier to manage than Android.
+2014-12-04 06:08:43	▬▬▶	vn_ (~sys6x@nostalgeek.net) has joined #reddit-sysadmin
+2014-12-04 06:09:15	◀▬▬	vn (~sys6x@nostalgeek.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:15	◀▬▬	p0rkbelly (~p0rkbelly@pool-96-250-86-97.nwrknj.fios.verizon.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:15	◀▬▬	|Malakai| (~Malakai@167.88.45.173) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:15	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:15	◀▬▬	Spleeze (~Spleeze@pool-173-61-33-150.cmdnnj.fios.verizon.net) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:15	◀▬▬	Dr_Ridgewell (~Dr_Ridgew@23.94.33.215) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:09:38	◀▬▬	Kephael (~Kephael@unaffiliated/kephael) has quit (Quit: Leaving)
+2014-12-04 06:10:06	◀▬▬	Kittz (~pfft@li441-93.members.linode.com) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:10:07	◀▬▬	trist4n (~tristan@unaffiliated/trist4n) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:10:14	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:10:25	▬▬▶	Kittz (~pfft@li441-93.members.linode.com) has joined #reddit-sysadmin
+2014-12-04 06:10:31	▬▬▶	trist4n (~tristan@ec2-54-206-220-38.ap-southeast-2.compute.amazonaws.com) has joined #reddit-sysadmin
+2014-12-04 06:10:39	projectdp	per device pricing too
+2014-12-04 06:10:39	▬▬▶	Dr_Ridgewell (~Dr_Ridgew@23.94.33.215) has joined #reddit-sysadmin
+2014-12-04 06:10:53	◀▬▬	rogers (rogers@69.162.163.177) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:11:42	▬▬▶	Spleeze (~Spleeze@pool-173-61-33-150.cmdnnj.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 06:11:55	▬▬▶	aName (~Dave@pool-74-110-58-147.bflony.fios.verizon.net) has joined #reddit-sysadmin
+2014-12-04 06:12:33	▬▬▶	rogers (rogers@bling.bling.org) has joined #reddit-sysadmin
+2014-12-04 06:13:11	◀▬▬	Sammitch (~Sammitch@rx0cv-gentoo-systems.gv.bigpipeinc.com) has quit (Ping timeout: 258 seconds)
+2014-12-04 06:14:44	▬▬▶	Sammitch (~Sammitch@rx0cv-gentoo-systems.gv.bigpipeinc.com) has joined #reddit-sysadmin
+2014-12-04 06:16:19	◀▬▬	zyklon (~zyk@121-72-240-211.cable.telstraclear.net) has quit (Ping timeout: 255 seconds)
+2014-12-04 06:18:16	▬▬▶	zyklon (~zyk@121-72-240-211.cable.telstraclear.net) has joined #reddit-sysadmin
+2014-12-04 06:18:22	◀▬▬	Kumorigoe (~Kumorigoe@cpe-68-203-131-116.tx.res.rr.com) has quit (Ping timeout: 252 seconds)
+2014-12-04 06:18:31	◀▬▬	trist4n (~tristan@ec2-54-206-220-38.ap-southeast-2.compute.amazonaws.com) has quit (Changing host)
+2014-12-04 06:18:31	▬▬▶	trist4n (~tristan@unaffiliated/trist4n) has joined #reddit-sysadmin
+2014-12-04 06:18:33	trist4n	a
+2014-12-04 06:19:03	projectdp	b
+2014-12-04 06:19:06	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 252 seconds)
+2014-12-04 06:19:46	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:21:14	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Read error: Connection timed out)
+2014-12-04 06:21:35	◀▬▬	ForceMultiplier (force@unaffiliated/forcemultiplier) has quit
+2014-12-04 06:22:11	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:23:12	◀▬▬	p0rkbell_ (~p0rkbelly@pool-96-250-86-97.nwrknj.fios.verizon.net) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2014-12-04 06:24:53	trist4n	whats good for graphics cards these days
+2014-12-04 06:25:19	projectdp	for what price range?
+2014-12-04 06:25:34	projectdp	or what purpose?
+2014-12-04 06:26:05	trist4n	that which doesnt make me feel too bad, and i want to play arma3 on higher graphics
+2014-12-04 06:26:20	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 244 seconds)
+2014-12-04 06:26:50	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:28:02	projectdp	probably any AMD or NVIDIA spending over $150
+2014-12-04 06:28:23	projectdp	but I guess I don't know how high your graphics are currently or the resolution
+2014-12-04 06:29:03	▬▬▶	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has joined #reddit-sysadmin
+2014-12-04 06:29:31	◀▬▬	zxq (~ZXQ@ip72-198-5-47.ok.ok.cox.net) has left #reddit-sysadmin
+2014-12-04 06:29:52	trist4n	ive got a gtx 560 or smth
+2014-12-04 06:30:01	trist4n	but it only has 800mb of memory so higher resolutions swap in and out
+2014-12-04 06:31:08	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 240 seconds)
+2014-12-04 06:32:19	◀▬▬	audaxdreik (~audax_dre@c-67-168-100-34.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2014-12-04 06:33:15	▬▬▶	nulloverflow (~nulloverf@ip68-231-144-11.tc.ph.cox.net) has joined #reddit-sysadmin
+2014-12-04 06:33:20	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:33:24	◀▬▬	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has quit (Ping timeout: 252 seconds)
+2014-12-04 06:33:52	◀▬▬	Cy-Gor (~Brian@cpe-66-68-53-100.austin.res.rr.com) has quit (Quit: Leaving)
+2014-12-04 06:35:26	projectdp	hm sounds like you already spent over $150 for that card a while ago
+2014-12-04 06:35:57	▬▬▶	abakedapplepie (~abakedapp@d192-24-207-151.try.wideopenwest.com) has joined #reddit-sysadmin
+2014-12-04 06:38:17	Sachiru	trist4n: Resolution and monitor size please?
+2014-12-04 06:38:47	◀▬▬	abakedapplepie (~abakedapp@d192-24-207-151.try.wideopenwest.com) has quit (Remote host closed the connection)
+2014-12-04 06:39:06	▬▬▶	abakedapplepie (~abakedapp@d192-24-207-151.try.wideopenwest.com) has joined #reddit-sysadmin
+2014-12-04 06:39:34	trist4n	id like to run it at 2560x1440
+2014-12-04 06:39:46	trist4n	yeah i paid out the ass for this card whenever battlefield 3 released
+2014-12-04 06:40:19	trist4n	a gtx 970 looks moderately okay for money
+2014-12-04 06:40:23	trist4n	according to my 5 minutes of research
+2014-12-04 06:42:03	projectdp	i saw the same but i wouldn't trust me to this :D
+2014-12-04 06:42:28	trist4n	tomshardware have drawn things on a plot, very science
+2014-12-04 06:42:34	◀▬▬	echo465 (~echo465@23.94.43.174) has quit (Ping timeout: 252 seconds)
+2014-12-04 06:44:04	◀▬▬	dkbrk (~duncan@c122-106-241-198.belrs3.nsw.optusnet.com.au) has quit (Quit: leaving)
+2014-12-04 06:44:08	◀▬▬	TuxedoJack (~jchiles@rrcs-24-227-210-166.sw.biz.rr.com) has quit (Quit: Leaving.)
+2014-12-04 06:46:00	coppercore	wow guys
+2014-12-04 06:46:01	▬▬▶	dkbrk (~duncan@c122-106-241-198.belrs3.nsw.optusnet.com.au) has joined #reddit-sysadmin
+2014-12-04 06:46:02	coppercore	sony is pwned
+2014-12-04 06:46:04	coppercore	110%
+2014-12-04 06:46:11	coppercore	blows my fucking mind almost
+2014-12-04 06:46:28	▬▬▶	echo465 (~echo465@23.94.43.174) has joined #reddit-sysadmin
+2014-12-04 06:46:42	▬▬▶	lvillarr (~lv@ip68-104-227-101.ph.ph.cox.net) has joined #reddit-sysadmin
+2014-12-04 06:48:33	projectdp	interesting
+2014-12-04 06:49:10	◀▬▬	user1138 (~user1138@unaffiliated/user1138) has quit (Ping timeout: 252 seconds)
+2014-12-04 06:50:44	◀▬▬	mentok (~mentok@unaffiliated/mentok) has quit (Quit: Computer has gone to sleep)
+2014-12-04 06:50:58	◀▬▬	Gudranx (cf2260b4@gateway/web/freenode/ip.207.34.96.180) has quit (Ping timeout: 246 seconds)
+2014-12-04 06:52:08	◀▬▬	kelpo (~keeeelpo@unaffiliated/kelpo) has quit (Read error: Connection reset by peer)
+2014-12-04 06:54:20	◀▬▬	Fillyfeathers (~Fallfeath@1.141.37.137) has quit (Read error: Connection reset by peer)
+2014-12-04 06:55:37	◀▬▬	abakedapplepie (~abakedapp@d192-24-207-151.try.wideopenwest.com) has quit (Quit: Leaving...)
+2014-12-04 06:55:54	◀▬▬	sammj (sam@nat/ibm/x-xrarljvyjpsjnzal) has quit (Quit: leaving)
+2014-12-04 06:57:18	n473	*sigh* one day the idiots from the technical department will actually get back to me without me having to send them multiple follow up emails
+2014-12-04 06:57:21	▬▬▶	ADAG10 (~ADAG10@69-89-111-170.dhcp-elns.acd.net) has joined #reddit-sysadmin
+2014-12-04 06:57:21	◀▬▬	ADAG10 (~ADAG10@69-89-111-170.dhcp-elns.acd.net) has quit (Changing host)
+2014-12-04 06:57:21	▬▬▶	ADAG10 (~ADAG10@unaffiliated/adag10) has joined #reddit-sysadmin
+2014-12-04 06:57:22	n473	but it is not this day
+2014-12-04 06:59:23	◀▬▬	ADAG10 (~ADAG10@unaffiliated/adag10) has quit (Client Quit)
+2014-12-04 06:59:53	projectdp	n473: sounds like you're not pulling enough manager cards
+2014-12-04 07:01:22	n473	well I did have the guy's leave for today revoked
+2014-12-04 07:01:32	projectdp	vicious
+2014-12-04 07:01:33	n473	because he failed to produce
+2014-12-04 07:01:36	coppercore	oh snap!
+2014-12-04 07:01:37	projectdp	haha
+2014-12-04 07:01:46	coppercore	n473++
+2014-12-04 07:02:12	n473	dude had since monday, and all I've gotten from him was a goddamn 5 line email with the sysadmin bullshit response
+2014-12-04 07:02:23	▬▬▶	sammj (sam@nat/ibm/x-hvounqmpgopowkub) has joined #reddit-sysadmin
+2014-12-04 07:02:26	n473	it's like he thinks I'm some muppet whose never written an email like that
+2014-12-04 07:02:43	n473	"yeah I've been reading up on it, basically we need to do these 5 simple things that would apply to literally any project ever"
+2014-12-04 07:03:37	n473	yeah thanks buddy, but that's not even remotely what I asked you
+2014-12-04 07:03:58	▬▬▶	m4221 (~m4221@pool-72-71-176-234.bltmmd.east.verizon.net) has joined #reddit-sysadmin
+2014-12-04 07:04:54	n473	I sent him an email outlining maybe 50+ questions we needed to research and answer for the project plan, stuff like "can we integrate azure into our current AD configuration?", or "what are the limitations inherent to backing azure with a separate AD?"
+2014-12-04 07:05:13	n473	told him that he must see which questions he could take on and answer, and that I would do the rest
+2014-12-04 07:05:21	n473	2 days later I got that goddamn email from him
+2014-12-04 07:06:04	projectdp	what a jerk
+2014-12-04 07:06:35	n473	I get that he's in a shitty department, and his passion is literally dead in the water; I've been there, and if he were part of my team, I would do my best to get him excited about IT again
+2014-12-04 07:06:46	n473	but he's not, and if he keeps this up, there's no way he will ever be
+2014-12-04 07:07:01	▬▬▶	LordWillO (0c986a83@gateway/web/cgi-irc/kiwiirc.com/ip.12.152.106.131) has joined #reddit-sysadmin
+2014-12-04 07:07:12	▬▬▶	Pip0 (~quassel@72.188.112.179) has joined #reddit-sysadmin
+2014-12-04 07:07:20	m4221	N473
+2014-12-04 07:07:28	◀▬▬	mo6020 (~ed@host86-175-156-226.range86-175.btcentralplus.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-12-04 07:07:41	n473	we have an MS sysadmin on our team already, but we wanted to give this to someone in the tech department, so they could take ownership of it, and hopefully that would instill some excitement and interest, as opposed to just mindlessly supporting some setup he inherited
+2014-12-04 07:07:51	◀▬▬	Pip0 (~quassel@72.188.112.179) has quit (Read error: Connection reset by peer)
+2014-12-04 07:07:59	n473	ownership is always a better motivator than inheritance
+2014-12-04 07:08:04	n473	but yeah, that shit backfired
+2014-12-04 07:08:13	m4221	n473: i waited 4 years to get my project green lighted and put into production
+2014-12-04 07:08:26	projectdp	m4221: :(
+2014-12-04 07:08:55	projectdp	n473: +1 on the ownership
+2014-12-04 07:08:57	m4221	projectdp: I did the entire operation without help
+2014-12-04 07:09:09	m4221	Like I lead meetings etc etc
+2014-12-04 07:09:09	▬▬▶	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has joined #reddit-sysadmin
+2014-12-04 07:09:18	n473	m4221: I'm glad that it eventually worked out for you :D
+2014-12-04 07:09:29	n473	must have been one hell of a disappointing four years
+2014-12-04 07:09:40	n473	but at least your insistence paid off
+2014-12-04 07:09:55	m4221	projectdp: I actually have to slow down my pace of projects
+2014-12-04 07:09:57	projectdp	yeah really, but still... some companies are soul crushing
+2014-12-04 07:10:22	n473	the biggest problem with this guy I'm working with is that he's only ever worked on task-based processes, he's never done solution-based work
+2014-12-04 07:10:27	projectdp	m4221: i wish i could, i'm rushing on multiple projects for which no one knows how to do and i am the only 'team'
+2014-12-04 07:11:02	n473	so "deploy this software here" vs. "we want to be able to do this"
+2014-12-04 07:11:22	projectdp	n473: that's a great way to identify the type by name
+2014-12-04 07:11:31	m4221	projectdp: the system is so proprietary that I have to write manuals on the fly
+2014-12-04 07:11:52	n473	projectdp: I had huge trouble adapting to solution-based work when I started here
+2014-12-04 07:11:56	n473	my output was not great
+2014-12-04 07:12:09	n473	but then it dawned on me that they don't want robots, they want architects
+2014-12-04 07:12:14	projectdp	:)
+2014-12-04 07:13:04	projectdp	m4221: I hear that, I have some manuals due by EOY
+2014-12-04 07:13:14	n473	now I get to play "how long can I wait for an email from this guy before sending a followup email and BCC'ing the managing director"
+2014-12-04 07:13:21	◀▬▬	m4221 (~m4221@pool-72-71-176-234.bltmmd.east.verizon.net) has quit (Quit: Bye)
+2014-12-04 07:13:22	projectdp	same customer wants me to finish building a cluster too
+2014-12-04 07:13:51	◀▬▬	discoffee (~discoffee@109.200.229.66.pool.breezein.net) has quit (Ping timeout: 264 seconds)
+2014-12-04 07:14:12	projectdp	n473: that makes me pretty happy I feel like since I am solution based I am a bit less of a robot
+2014-12-04 07:14:40	projectdp	but who knows, I read into the logs and I feel like I'm going Mr. Roboto
+2014-12-04 07:15:20	n473	lol
+2014-12-04 07:15:45	◀▬▬	nulloverflow (~nulloverf@ip68-231-144-11.tc.ph.cox.net) has quit (Remote host closed the connection)
+2014-12-04 07:15:49	n473	I guess it's the difference between asking "what's the easiest way to do this?" vs "what's the best way to do this?"
+2014-12-04 07:16:58	▬▬▶	fork (~fork@unaffiliated/milefork) has joined #reddit-sysadmin
+2014-12-04 07:17:31	◀▬▬	Diesel (~Diesel@198.46.156.202) has quit (Ping timeout: 255 seconds)
+2014-12-04 07:18:01	▬▬▶	m4221 (~m4221@pool-72-71-176-234.bltmmd.east.verizon.net) has joined #reddit-sysadmin
+2014-12-04 07:18:17	▬▬▶	nulloverflow (~nulloverf@ip68-231-144-11.tc.ph.cox.net) has joined #reddit-sysadmin
+2014-12-04 07:18:49	◀▬▬	randomuser987 (~thomas.zo@23.111.254.188) has left #reddit-sysadmin
+2014-12-04 07:18:50	projectdp	n473: yes that's the question that drives me
+2014-12-04 07:18:51	◀▬▬	LordWillO (0c986a83@gateway/web/cgi-irc/kiwiirc.com/ip.12.152.106.131) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2014-12-04 07:19:36	▬▬▶	Diesel (~Diesel@198.46.156.202) has joined #reddit-sysadmin
+2014-12-04 07:19:55	ℹ 	Mode #reddit-sysadmin [+v Diesel] by packets
+2014-12-04 07:20:25	projectdp	speaking of which, does anyone use elliptic curves for their ssh keys?
+2014-12-04 07:20:27	m4221	projectdp: i bet user is gonna hate how the print range for which pages to print doesn't default to some wierd range
+2014-12-04 07:20:59	projectdp	all i had to read in that sentence was: user, hate, print
+2014-12-04 07:21:12	projectdp	and all i can say is yes
+2014-12-04 07:21:34	n473	I really need to find some sort of linux-friendly user control
+2014-12-04 07:21:37	m4221	projectdp: you ever notice that users always have something to complain about that has not effect on operations?
+2014-12-04 07:21:38	n473	like AD
+2014-12-04 07:21:43	n473	but pure-linux
+2014-12-04 07:21:53	n473	I'm checking out freeIPA, but I don't think it's gonna integrate well with ssh
+2014-12-04 07:22:24	▬▬▶	paskill (~i_like_pu@unaffiliated/paskill) has joined #reddit-sysadmin
+2014-12-04 07:22:54	projectdp	m4221: the in-wall cat-5 has to match the rj-45 wall jacks.
+2014-12-04 07:23:37	m4221	projectdp: amend that to users who want to appear that they are working but blame IT and put in non productive tickets?
+2014-12-04 07:23:38	projectdp	er, cat6
+2014-12-04 07:24:09	projectdp	m4221: i get conflicted sometimes with all my tasks
+2014-12-04 07:24:20	▬▬▶	Neryl (~Neryl@cpe-173-172-153-61.tx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 07:24:35	projectdp	a user asked me to help them with their computer, it's new btw, i provisioned it a week or so back
+2014-12-04 07:24:43	m4221	projectdp: or just put in tickets to not appear to be bored as to avoid unpleasant work
+2014-12-04 07:24:44	n473	:(
+2014-12-04 07:24:50	projectdp	the thing barely has anything running and it's dragging already
+2014-12-04 07:24:57	projectdp	user has no idea what is wrong with it
+2014-12-04 07:24:59	n473	if I ever had to deal with users, I'd just commit sepukku on their desk
+2014-12-04 07:25:05	projectdp	projects sitting on my head
+2014-12-04 07:25:40	m4221	n473: i help them because our helpdesk guy doesn't
+2014-12-04 07:25:41	projectdp	i am tempted to nuke it if i wouldn't have to be the one to reprovision it later
+2014-12-04 07:25:42	◀▬▬	fork (~fork@unaffiliated/milefork) has quit (Remote host closed the connection)
+2014-12-04 07:26:53	projectdp	anyway i want to help the user out but sometimes it's just such a low priority, blah anyway i offered up some quick fixes and an idea of the alternative downtime
+2014-12-04 07:27:14	m4221	projectdp: a user rubbed me the wrong way by throwing me under the bus
+2014-12-04 07:27:31	projectdp	m4221: busses are the bane of this job aren't they?
+2014-12-04 07:27:54	m4221	projectdp: this bus had solid rubber tires too
+2014-12-04 07:28:01	projectdp	brutal
+2014-12-04 07:29:41	projectdp	i think for many users it's one area they feel they have the right to be complete douche humans to other people, and that sucks because we're generally a pretty helpful folk
+2014-12-04 07:30:29	m4221	projectdp: I have respect for the VP who called to apologize telling me he messed up
+2014-12-04 07:30:54	projectdp	that's pretty cool
+2014-12-04 07:31:30	m4221	He does it alot but he is predictabld
+2014-12-04 07:31:39	m4221	Predictable *
+2014-12-04 07:32:18	◀▬▬	sammj (sam@nat/ibm/x-hvounqmpgopowkub) has quit (Quit: leaving)
+2014-12-04 07:34:22	▬▬▶	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has joined #reddit-sysadmin
+2014-12-04 07:34:30	projectdp	i find the best way to avoid getting burned by busses is to have a better rapport with people who witness the bus-throwing
+2014-12-04 07:34:58	projectdp	if it's not possible to have a better rapport with the bus-thrower
+2014-12-04 07:36:30	m4221	projectdp: it's more fun since I gotta deal with hipaa
+2014-12-04 07:37:02	projectdp	oh yes that
+2014-12-04 07:37:27	◀▬▬	m4221 (~m4221@pool-72-71-176-234.bltmmd.east.verizon.net) has quit (Quit: Bye)
+2014-12-04 07:38:05	◀▬▬	cale250 (~cale250@unaffiliated/cale250) has quit (Ping timeout: 256 seconds)
+2014-12-04 07:38:34	◀▬▬	lvillarr (~lv@ip68-104-227-101.ph.ph.cox.net) has quit (Remote host closed the connection)
+2014-12-04 07:39:13	◀▬▬	otter768 (~otter768@cpe-70-117-0-42.satx.res.rr.com) has quit (Ping timeout: 256 seconds)
+2014-12-04 07:42:48	◀▬▬	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has quit (Read error: Connection reset by peer)
+2014-12-04 07:43:18	▬▬▶	cale250 (~cale250@unaffiliated/cale250) has joined #reddit-sysadmin
+2014-12-04 07:44:19	▬▬▶	ikrima (~ikrima@rrcs-76-79-205-82.west.biz.rr.com) has joined #reddit-sysadmin
+2014-12-04 07:45:32	◀▬▬	crystal77 (~crystal77@107-218-136-245.lightspeed.austtx.sbcglobal.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-12-04 07:47:29	▬▬▶	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has joined #reddit-sysadmin
+2014-12-04 07:55:19	▬▬▶	Alives (~Alives@c-71-202-124-143.hsd1.ca.comcast.net) has joined #reddit-sysadmin
+2014-12-04 07:55:38	▬▬▶	LeAstrale (~holoirc@87.104.196.45) has joined #reddit-sysadmin
+2014-12-04 07:56:18	◀▬▬	Zukuta (~Emma@110-175-216-53.static.tpgi.com.au) has quit (Quit: Be back later ...)
+2014-12-04 07:57:24	◀▬▬	sostrich (sostrich@S0106001ee535a4f4.vc.shawcable.net) has quit
+2014-12-04 08:01:00	◀▬▬	MagusG1 (~mgx@24-181-34-27.dhcp.nwnn.ga.charter.com) has quit (Read error: Connection reset by peer)
+2014-12-04 08:01:29	▬▬▶	troyready (~troyready@adsl-75-19-9-221.dsl.irvnca.sbcglobal.net) has joined #reddit-sysadmin
+2014-12-04 08:02:35	◀▬▬	LeAstrale (~holoirc@87.104.196.45) has quit (Remote host closed the connection)

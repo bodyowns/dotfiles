@@ -1,0 +1,585 @@
+2014-06-06 23:56:41	◥	body (~body@20849579.E0E03186.5F762AC5.IP) has joined #bleepingcomputer
+2014-06-06 23:56:41	ℹ 	Topic for #bleepingcomputer is "Welcome to the BleepingComputer.com chat channel. Don't ask to ask. State your question and someone will answer when they are able. Please read our rules of use here: http://www.bleepingcomputer.com/chat.php"
+2014-06-06 23:56:41	ℹ 	Topic set by BladeZephon on Tue, 08 Apr 2014 17:35:41
+2014-06-06 23:56:41	ℹ 	Channel #bleepingcomputer: 66 nicks (14 ops, 2 halfops, 10 voices, 40 normals)
+2014-06-06 23:56:43	ℹ 	Mode #bleepingcomputer [+ntrSGf [2c#C5,6j#R3,3k#K10,15m#m5,5n#N3,5t#b]:5]
+2014-06-06 23:56:43	ℹ 	Channel created on Sat, 24 Oct 2009 18:06:18
+2014-06-06 23:56:59	+Mous	it might have changed
+2014-06-06 23:57:03	+Mous	since then
+2014-06-06 23:57:25	+amews_aj	Don't see why HDMI should be more expensive than DVI.
+2014-06-06 23:57:29	body	hello, it's this channel for computer problems support ? if i'm not wrong ?
+2014-06-06 23:57:38	+Mous	true
+2014-06-06 23:58:08	body	i have a problem, my pc started, and after some seconds, it turned off
+2014-06-06 23:58:23	body	now i start it, and fans starts, hdd even, ram, but no display
+2014-06-06 23:58:25	body	no beeps
+2014-06-06 23:58:36	+Mous	new or old?
+2014-06-06 23:58:50	body	2009 like
+2014-06-06 23:58:52	+Mous	custom build?
+2014-06-06 23:58:59	body	custom build
+2014-06-06 23:59:06	@OrangeBlossom	What happened when it turned off?
+2014-06-06 23:59:07	+Mous	re seat rams
+2014-06-06 23:59:13	@OrangeBlossom	Was there a power outage?
+2014-06-06 23:59:16	@OrangeBlossom	something else?
+2014-06-06 23:59:27	+Mous	take them out and put only on back and turn on
+2014-06-06 23:59:32	+Mous	*one
+2014-06-06 23:59:33	body	i just turned off, and that was all, i re seat the rams too
+2014-06-06 23:59:46	body	even with 1 pice of ram
+2014-06-07 00:00:06	body	i had a cooler on the chipset
+2014-06-07 00:00:12	+Mous	do you have the motherboard speaker in it?
+2014-06-07 00:00:24	body	and the first time i started it , i started it without the cooler
+2014-06-07 00:00:40	body	the shutdowned after 5-6-7 seconds 
+2014-06-07 00:00:42	+Mous	could be anything at this point
+2014-06-07 00:00:43	body	from power on
+2014-06-07 00:01:00	body	it can be burned ? 
+2014-06-07 00:01:04	+Mous	PSU, mobo,CPU,GPU,RAM
+2014-06-07 00:01:08	+Mous	can
+2014-06-07 00:01:15	+Mous	but you would smell it
+2014-06-07 00:01:42	body	it doesn't smell at all as a burned piece of hardware
+2014-06-07 00:02:36	body	if i tryied to get out the battery 
+2014-06-07 00:02:49	body	than wait for 15 secs like, then put it back and nothing changed
+2014-06-07 00:03:05	body	may be a chanse to work , if i do the jumper switch thing ?
+2014-06-07 00:03:15	body	to the 2-3 pin , and than to the 1-2 pin back  ?
+2014-06-07 00:03:30	+amews_aj	Does it seem to boot ? (HDD activity?)
+2014-06-07 00:03:40	body	yes, i can hear the hdd
+2014-06-07 00:03:45	body	amews_aj: yep
+2014-06-07 00:03:51	body	all fals are working
+2014-06-07 00:03:55	body	fans*
+2014-06-07 00:04:14	+amews_aj	A lot of HDD activity ? You believe it is booting correctly - just no video ?
+2014-06-07 00:04:35	body	hmm let me try again and see
+2014-06-07 00:04:49	body	1 sec, have to take the cable from the other room
+2014-06-07 00:10:27	body	yea, i can hear it
+2014-06-07 00:10:34	body	i can give you webcam
+2014-06-07 00:10:37	body	if this can help
+2014-06-07 00:11:01	+amews_aj	What about HDD activity indicator ? flashing ?
+2014-06-07 00:12:05	body	didn't got one
+2014-06-07 00:12:06	◣	red (~red@protectedhost-816DB7C5.c3-0.atw-ubr5.atw.pa.cable.rcn.com) has quit (Connection reset by peer)
+2014-06-07 00:12:11	body	it's a alienware chase
+2014-06-07 00:12:38	◥	red (~red@15620928.742DB9F0.FB3D97E4.IP) has joined #bleepingcomputer
+2014-06-07 00:12:51	body	i started 
+2014-06-07 00:13:00	body	my webcam , you can join here if you want
+2014-06-07 00:13:12	body	i can show you , with microphone too to hear the sounds
+2014-06-07 00:13:14	body	https://palava.tv/d602cc0e-6ef9-543e-3c6f-c68c1fe5d021
+2014-06-07 00:15:54	body	i have too, the corsair rams with leds
+2014-06-07 00:16:16	body	when it turns on the leds indicators are working after few seconds they go off
+2014-06-07 00:16:28	body	is somebody want to see the webcam, just tell me
+2014-06-07 00:17:29	+Mous	it can be PSU
+2014-06-07 00:18:02	body	psu is ?
+2014-06-07 00:18:11	body	Mous: 
+2014-06-07 00:18:13	@OrangeBlossom	power supply unit
+2014-06-07 00:18:43	+Mous	or motherboard
+2014-06-07 00:19:07	+Mous	because this problem is similar i saw with motherboard and PSU
+2014-06-07 00:19:16	+amews_aj	Maybe try video output on motherboard rather than dedicated graphics.
+2014-06-07 00:19:34	body	amews_aj: doesn't have one .. 
+2014-06-07 00:20:04	+Mous	i dont think its gpu
+2014-06-07 00:20:19	body	but the powersupply can be broken, if my ram gets voltage,my hdd also, my fans, my leds in the front, neon , 
+2014-06-07 00:20:20	+amews_aj	Mous: but could be PSU power for GPU
+2014-06-07 00:20:29	body	nono i changed 2 GPU-s
+2014-06-07 00:20:35	+Mous	then it would not shut down on its own
+2014-06-07 00:20:57	+amews_aj	If a failure occured in the PSU it would I believe ?
+2014-06-07 00:21:22	+Mous	yep in PSU but not in GPU
+2014-06-07 00:21:24	body	i powerd on my pc, saw the boot screen, than shutdown, and after, when i re powerd on, no display, but the components in were working
+2014-06-07 00:24:53	+Mous	but still these are just blind shots
+2014-06-07 00:26:53	body	the jumper thing to switch it from 1-2 pin to 2-3 pin , than back i should do it with the power supply attached to the electricity ? 
+2014-06-07 00:27:02	body	or disconnect the electricity cable ?
+2014-06-07 00:27:32	+Mous	you mean to reset CMOS?
+2014-06-07 00:27:38	+Mous	take out the battery
+2014-06-07 00:27:57	body	it's the same as switching the jumper ?
+2014-06-07 00:28:15	+Mous	there are usually jumpers for that but dunno who they work i just take it out :D
+2014-06-07 00:28:24	+Mous	i have button for it :D
+2014-06-07 00:28:34	body	xD
+2014-06-07 00:32:33	+JayTee84	so hilarious
+2014-06-07 00:32:38	+JayTee84	^^
+2014-06-07 00:32:45	+JayTee84	Mous needs to get into comedy
+2014-06-07 00:33:01	+Mous	why i have comedy anime
+2014-06-07 00:33:49	+Mous	and i have books
+2014-06-07 00:34:13	+Mous	and locust and his cat pictures
+2014-06-07 00:41:39	ℹ 	_temp_ is now known as myrti
+2014-06-07 00:47:00	body	Mous: even my keyboard or mouse, doesn't take electricity on boot
+2014-06-07 00:47:19	body	the leds doesn't trun on, neither flash atleast
+2014-06-07 00:49:18	◥	GameMaster (~GameMaste@ShadowBlaze18.vhost) has joined #bleepingcomputer
+2014-06-07 00:49:18	ℹ 	Mode #bleepingcomputer [+v GameMaster] by w00t
+2014-06-07 00:51:34	+Mous	then i blame PSU or motherboard
+2014-06-07 00:52:11	body	may be the psu if the fans,hdd,ram, workes? 
+2014-06-07 00:56:25	◥	CoreIT84 (~Corey84@protectedhost-D18C07B5.dc.dc.cox.net) has joined #bleepingcomputer
+2014-06-07 00:57:14	◣	mauritius (~taube@97E3A15A.6A016B30.64DC8ED0.IP) has quit (Ping timeout)
+2014-06-07 00:57:18	◣	Unidentified1323 (Cydrobolt@DE77FB74.4E9A3443.D61AB90D.IP) has quit (Ping timeout)
+2014-06-07 00:57:23	◥	Mah-jonng (~TFlash@protectedhost-EB51E719.range109-150.btcentralplus.com) has joined #bleepingcomputer
+2014-06-07 00:57:29	Mah-jonng	Hi everyone using this free chat room. Mah-jonng here. Have a question and this time I really am asking for someones help, please? Also, I will be quick because I cannot 'stay' for more than 10 minutes.
+2014-06-07 00:57:39	◥	mauritius (~taube@protectedhost-B95500D4.pools.arcor-ip.net) has joined #bleepingcomputer
+2014-06-07 00:57:40	Mah-jonng	First I will provide a brief background information and then I will ask the question.
+2014-06-07 00:57:51	Mah-jonng	Have been using Bing, DuckDuckGo and Google for the last 2 hours plus trying to find a Vista Registry 'fix' or hack to completely stop the "Windows has blocked startup programs" message appearing. I only want to stop that message appearing and not other messages appearing!
+2014-06-07 00:58:01	Mah-jonng	So, the question is: can anyone provide me with a 'fix', hack or link to a website to be able to do what I have just mentioned?
+2014-06-07 00:58:13	◥	Cydrobolt (Cydrobolt@DE77FB74.4E9A3443.D61AB90D.IP) has joined #bleepingcomputer
+2014-06-07 00:59:01	ℹ 	Cydrobolt is now known as Unidentified45426
+2014-06-07 01:01:34	Mah-jonng	Can anyone answer my question or do I have to "go back to the drawing board", that is carry on searching the net using Bing, DuckDuckGo and Google?
+2014-06-07 01:03:19	ℹ 	OrangeBlossom is now known as OB-Snoozing
+2014-06-07 01:03:53	&BladeZephon	Probably not exactly the answer you're looking for
+2014-06-07 01:04:17	&BladeZephon	but, one solution would be to figure out which program it's blocking and either stop said program from starting automatically
+2014-06-07 01:04:20	&BladeZephon	or
+2014-06-07 01:04:27	&BladeZephon	allow the program to start
+2014-06-07 01:05:31	+JayTee84	Hi mah-jonng
+2014-06-07 01:05:38	&BladeZephon	what you're looking for is a way to suppress the problem, which is dangerous because it takes away potentially useful diagnostic information.  Better just to fix the problem at the source
+2014-06-07 01:12:22	+JayTee84	Mous.. That issue with that dudes external WD hard drive yesterday. I'm havign the same issue today
+2014-06-07 01:12:36	+JayTee84	Same exact problem
+2014-06-07 01:12:39	+Mous	refresh my memory
+2014-06-07 01:12:49	+Mous	oh to initialize it?
+2014-06-07 01:12:52	+JayTee84	yeap
+2014-06-07 01:12:58	+JayTee84	Same model
+2014-06-07 01:13:05	+JayTee84	Havent used it in like a year
+2014-06-07 01:13:18	+Mous	RAW?
+2014-06-07 01:13:18	+Mous	:D
+2014-06-07 01:13:24	+JayTee84	Shows under device manager. not under my computer. no RAW
+2014-06-07 01:13:38	+Mous	nice
+2014-06-07 01:16:18	+JayTee84	wow.. it popped up under my computer. i click on it and it crashes explorer
+2014-06-07 01:16:22	+JayTee84	stupid thing
+2014-06-07 01:16:33	+Mous	thats seams dead to me
+2014-06-07 01:17:02	+Mous	but i would try it in linux to be sure
+2014-06-07 01:17:34	+JayTee84	removing from windows system. plugging into centos now
+2014-06-07 01:17:37	◣	Mah-jonng (~TFlash@protectedhost-EB51E719.range109-150.btcentralplus.com) has quit (Ping timeout: 962 seconds)
+2014-06-07 01:18:04	+JayTee84	error mounting: mount unknown filesystem ntfs
+2014-06-07 01:18:12	+Mous	really
+2014-06-07 01:18:18	+JayTee84	^^
+2014-06-07 01:18:32	+Mous	i thought they solved it in readhat too
+2014-06-07 01:19:03	+Mous	look on the google because there are problems with ntfs and linux but debian fixed it
+2014-06-07 01:19:22	+JayTee84	mehh ill mess with it Monday
+2014-06-07 01:19:27	+Mous	true
+2014-06-07 01:19:46	+Mous	better monday then today :D
+2014-06-07 01:20:02	+JayTee84	yea. I'm just chilln trying to get my vacation pay in
+2014-06-07 01:23:00	&BladeZephon	I had a similar issue too
+2014-06-07 01:23:07	&BladeZephon	I don't remember how I fixed it
+2014-06-07 01:23:26	&BladeZephon	I think it just decided to work
+2014-06-07 01:23:37	test12345_	never had problems with ntfs
+2014-06-07 01:24:35	◥	Micaiah (~Micaiah@silver.supporter.geekshed.net) has joined #bleepingcomputer
+2014-06-07 01:25:23	◣	Micaiah (~Micaiah@silver.supporter.geekshed.net) has quit (Quit: Micaiah)
+2014-06-07 01:25:49	◥	Micaiah (~Micaiah@silver.supporter.geekshed.net) has joined #bleepingcomputer
+2014-06-07 01:26:01	+Mous	me too
+2014-06-07 01:26:06	+Mous	but there used to be problem
+2014-06-07 01:26:28	+Mous	like in ubuntu kernel 10.x or so
+2014-06-07 01:26:41	+Mous	or even 7
+2014-06-07 01:26:48	+Mous	thats like few years back :D
+2014-06-07 01:27:03	+amews_aj	NFTS - that very new file system - how can you expect linux to know that ? :D
+2014-06-07 01:27:17	+Mous	JayTee84, you should try testdisk
+2014-06-07 01:27:37	+JayTee84	on?
+2014-06-07 01:27:53	+Mous	?
+2014-06-07 01:27:56	+JayTee84	windows?
+2014-06-07 01:28:00	+Mous	no linux
+2014-06-07 01:28:04	+JayTee84	what do i type
+2014-06-07 01:28:15	+Mous	you need to download it first :D
+2014-06-07 01:28:28	+JayTee84	aww man..
+2014-06-07 01:28:30	+JayTee84	then on monday
+2014-06-07 01:28:31	+Mous	:D
+2014-06-07 01:28:36	+Mous	:]
+2014-06-07 01:29:50	◣	red (~red@15620928.742DB9F0.FB3D97E4.IP) has quit (Client exited)
+2014-06-07 01:32:34	+Mous	bed time see ya later
+2014-06-07 01:32:42	◣	Mous (~Mous@D1A7E92C.67087FC1.56279921.IP) has quit (Connection reset by peer)
+2014-06-07 01:39:22	◥	MJ024 (~MJ@protectedhost-E59BC0F4.dhcp.smyr.ga.charter.com) has joined #bleepingcomputer
+2014-06-07 01:47:54	+JayTee84	later guys
+2014-06-07 01:47:57	◣	JayTee84 (~s4vdout@188A553B.C1510194.EF5B1F45.IP) has quit (Quit: )
+2014-06-07 01:49:50	◥	Mah-jonng (~TFlash@protectedhost-EB51E719.range109-150.btcentralplus.com) has joined #bleepingcomputer
+2014-06-07 01:49:55	Mah-jonng	Hi everyone using this free chat room. Mah-jonng here and I have a simple question. Also, I will be quick because I cannot 'stay' for more than 10 minutes.
+2014-06-07 01:50:07	Mah-jonng	Question: can anyone provide me with a Vista Registry 'fix', hack or link to a website to be able to stop  the "Windows has blocked startup programs" message appearing completely?
+2014-06-07 01:55:13	◣	MJ024 (~MJ@protectedhost-E59BC0F4.dhcp.smyr.ga.charter.com) has quit (Broken pipe)
+2014-06-07 01:58:00	◥	zucchini (Mibbit@EBF7EB3D.5A8119B5.E7B395D.IP) has joined #bleepingcomputer
+2014-06-07 01:58:25	◣	CoreIT84 (~Corey84@protectedhost-D18C07B5.dc.dc.cox.net) has quit (Quit: Out to the real world)
+2014-06-07 02:03:51	zucchini	hi
+2014-06-07 02:06:10	+Mintmayan	hey
+2014-06-07 02:06:30	Mah-jonng	zucchini: Hi. Can you answer my question? Also, I am switching between this website and another website because I am playing a game online!
+2014-06-07 02:07:08	zucchini	hw plz tel me how do l create my nickname
+2014-06-07 02:07:13	◥	CoreIT84 (~Corey84@9A5DF91A.B2BBDD29.69D8B1A2.IP) has joined #bleepingcomputer
+2014-06-07 02:08:22	zucchini	Hi please help hw do l create a nickname?
+2014-06-07 02:11:40	◣	zucchini (Mibbit@EBF7EB3D.5A8119B5.E7B395D.IP) has quit (Quit: zucchini)
+2014-06-07 02:13:56	Mah-jonng	Mintmayan: Hi. Have you read my question? Can wait for five more minutes for an answer. But please note: I am also switching between this website and another website because I am playing a game online!
+2014-06-07 02:13:56	◣	amews_aj (~amews_aj@46D1DC6F.2A8B0D7E.C230D88F.IP) has quit (Connection reset by peer)
+2014-06-07 02:14:34	◣	CoreIT84 (~Corey84@9A5DF91A.B2BBDD29.69D8B1A2.IP) has quit (Quit: CoreIT84)
+2014-06-07 02:17:08	Mah-jonng	Mintmayan: I have returned.
+2014-06-07 02:17:37	Mah-jonng	Mintmayan: Also, are you there?
+2014-06-07 02:17:46	+Mintmayan	stop with the pinging.
+2014-06-07 02:20:19	◣	Xylitol (~Xyl@protectedhost-77EDBEB8.rev.sfr.net) has quit (Quit: Sharpen your sickle at sunset)
+2014-06-07 02:21:51	ℹ 	OB-Snoozing is now known as OrangeBlossom
+2014-06-07 02:22:31	◣	OrangeBlossom (OB@bleepingcomputer.com) has quit (Quit: To saw logs)
+2014-06-07 02:23:39	◥	MJ024 (~MJ@protectedhost-E59BC0F4.dhcp.smyr.ga.charter.com) has joined #bleepingcomputer
+2014-06-07 02:25:10	◣	Jim (James@JBMobileMarketing.com) has quit (Quit: )
+2014-06-07 02:26:33	Mah-jonng	Mintmayan: In answer to you statement "stop with the pinging" (whatever that means) I have been waiting 37 minutes for an answer to my question. I was originally only going to wait for 10 minutes max! Maybe, as usual, I should sign off and "return to the drawing board", that is carry on searching online!
+2014-06-07 02:26:52	&myrti	using the name of someone is pinging them. 
+2014-06-07 02:26:55	+Mintmayan	it means stop typing my name out as it notifies me
+2014-06-07 02:27:09	&myrti	nobody is forced to answer you
+2014-06-07 02:29:17	Mah-jonng	myrti: OK then. Two questions: 1. What is the maximum time someone has had to wait for an answer?; and 2. Do I have to wait for 1 hour or more for an answer?
+2014-06-07 02:29:17	◥	CoreIT84 (~Corey84@protectedhost-D18C07B5.dc.dc.cox.net) has joined #bleepingcomputer
+2014-06-07 02:29:54	@Coffee	your reputation for being demanding and impatient preceeds you, as well as your tendancy to ignore or contradict the advice that is given; as such few of our volunteers are eager to try to help you
+2014-06-07 02:30:32	&myrti	1. you are not guaranteed an answer
+2014-06-07 02:30:52	&myrti	2. if you've been waiting for an hour and nobody has answered you can assume that either noone wants to answer you or noone knows the answer
+2014-06-07 02:31:22	&myrti	3. trying to put a time limit in which poeple have to  answer your question is not improving things
+2014-06-07 02:36:21	Mah-jonng	myrti: Thanks for your reply. It tells me that I will have to keep searching online for the answer to my original question and, maybe, find another computer help free chat room and register so that I can ask that question. So, it's bye...until next time, maybe.
+2014-06-07 02:36:55	+Allen	or just change your attiude and be patient... >.>
+2014-06-07 02:37:27	@Lurch	computerhope.com has a chat Mah-jonng
+2014-06-07 02:37:58	Mah-jonng	Coffee: "Demanding and impatient" is a bit harsh. But, I do thank you for your input. Bye...until next time.
+2014-06-07 02:38:18	&myrti	i think it's accurate >.>
+2014-06-07 02:38:22	+Mintmayan	it's the truth
+2014-06-07 02:38:32	+Mintmayan	how many more people do you want to tell you this before you believe it
+2014-06-07 02:38:58	+Mintmayan	we don't owe you sh|t.
+2014-06-07 02:39:02	+Allen	On a bright note though, http://blog.allenlydiard.ca/?p=20
+2014-06-07 02:39:04	+Mintmayan	get that through your skull
+2014-06-07 02:39:11	+Mintmayan	we aren't a paid hotline support
+2014-06-07 02:39:22	@Coffee	Mintmayan, please remain calm :)
+2014-06-07 02:39:27	+Mintmayan	I am perfectly calm
+2014-06-07 02:39:29	⚡	Allen hides behind Coffee and myrti 
+2014-06-07 02:40:02	+Mintmayan	You want to demand service, Mah-jonng? Go to geeksquad and pay for it.
+2014-06-07 02:40:35	+Allen	Mintmayan, heh you think this is bad you shoulda seen what happened in #bluevm
+2014-06-07 02:41:02	+Mintmayan	fecal matter met with fans there? ;)
+2014-06-07 02:41:03	Mah-jonng	Lurch: Thanks for the suggestion and I will keep that in mind! Bye...until next time, maybe!
+2014-06-07 02:41:24	+Allen	there was a customer cursing and harassing the staff
+2014-06-07 02:41:35	+Allen	and he came after me and another customer
+2014-06-07 02:41:44	+Allen	called us both a retarded mofo.
+2014-06-07 02:42:00	+Allen	and stuff like that.
+2014-06-07 02:42:02	+Mintmayan	lovely
+2014-06-07 02:42:16	+Allen	and speaking of one of the owners of bluevm.
+2014-06-07 02:42:19	+Allen	He is in here right now
+2014-06-07 02:42:20	+Allen	Ishaq, 
+2014-06-07 02:43:16	Mah-jonng	Mintmayan: Sorry for making you angry - did not mean to. Also, thank you for your input. Bye...until next time, maybe! Goodnight to all and sleep well!
+2014-06-07 02:43:29	+Mintmayan	lol...
+2014-06-07 02:43:32	+Mintmayan	spoken like a true troll
+2014-06-07 02:44:13	+Allen	But, feeding the troll does not make you better than the troll.
+2014-06-07 02:44:27	+Allen	I believe Coffee and myrti said something like that before
+2014-06-07 02:44:38	@Coffee	o.o
+2014-06-07 02:44:40	&myrti	sounds like something I may say
+2014-06-07 02:44:48	◣	Micaiah (~Micaiah@silver.supporter.geekshed.net) has quit (Quit: Gone.)
+2014-06-07 02:44:53	+Allen	and I know blade said it multiple times to me.
+2014-06-07 02:44:53	&myrti	which clearly shows that i have a "do as I say, not as I do" policy :p
+2014-06-07 02:45:08	@Coffee	lol
+2014-06-07 02:45:27	&BladeZephon	o.o
+2014-06-07 02:45:38	◣	Mah-jonng (~TFlash@protectedhost-EB51E719.range109-150.btcentralplus.com) has quit (Client exited)
+2014-06-07 02:45:48	+Mintmayan	I said he spoke like a true troll
+2014-06-07 02:45:57	+Mintmayan	I'm still unsure if he's a troll or just retarded
+2014-06-07 02:46:12	+Allen	remember when he was attacking in here, and I was telling him to stop blade and then you told me to stay out of it?
+2014-06-07 02:46:23	+Allen	and then you told T-Rex stop back off as well.
+2014-06-07 02:46:35	+Allen	-stop*
+2014-06-07 02:46:51	⚡	Allen just drank a bottle of mountain dew.
+2014-06-07 02:46:56	&BladeZephon	I do remember
+2014-06-07 02:47:58	&BladeZephon	the sad thing is that I answered his question, sort of, earlier
+2014-06-07 02:48:20	&BladeZephon	but, because he was too busy playing his game I guess, he didn't see it and pinged out
+2014-06-07 02:49:09	&myrti	we've aso answered his question before
+2014-06-07 02:49:19	&myrti	with a step by step guide
+2014-06-07 02:49:21	ℹ 	Mode #bleepingcomputer [+b *!*@protectedhost-EB51E719.range109-150.btcentralplus.com)] by BladeZephon
+2014-06-07 02:49:25	&BladeZephon	problem solved
+2014-06-07 02:49:26	&myrti	BUT it's not a registry fix so he won't even read it
+2014-06-07 02:49:29	+Allen	oH NO.
+2014-06-07 02:49:36	+Allen	The troll from eariler is back in that channel I mentioned
+2014-06-07 02:49:37	+Mintmayan	lol
+2014-06-07 02:49:41	⚡	Allen grabs popcorn and runs
+2014-06-07 02:50:09	ℹ 	Mode #bleepingcomputer [-b+b *!*@protectedhost-EB51E719.range109-150.btcentralplus.com) *!*@protectedhost-EB51E719.range109-150.btcentralplus.com] by therock247uk
+2014-06-07 02:50:11	+Mintmayan	it's on a different IRC network I guess
+2014-06-07 02:50:25	+Allen	yep
+2014-06-07 02:50:29	+Allen	obsidian
+2014-06-07 02:51:55	+Allen	so he's banned now?
+2014-06-07 02:52:14	test12345_	we will see
+2014-06-07 02:52:48	+Allen	blade I swear, if you saw this guy I'm watching right now and he was acting the way is he now in here you would permban him
+2014-06-07 02:53:29	@therock247uk	irc is full of trolls always has been lol
+2014-06-07 02:53:30	&BladeZephon	he's not here though, so not my problem
+2014-06-07 02:53:35	+GameMaster	Mah-jong is now banned?
+2014-06-07 02:53:40	&BladeZephon	yes
+2014-06-07 02:54:01	⚡	Allen rides a unicycle into the room while juggling fire
+2014-06-07 02:54:35	+GameMaster	ah, okay
+2014-06-07 02:55:37	⚡	Allen crashes into GameMaster and acciently sets him on fire
+2014-06-07 02:55:40	+GameMaster	Allen, didn't your parents say "Don't play with fire..."
+2014-06-07 02:55:49	+Allen	Nu.
+2014-06-07 02:56:02	⚡	GameMaster jumps into lake behind GeekShed inc and comes out soaked with angry look on face.
+2014-06-07 02:56:12	⚡	Allen runs
+2014-06-07 02:57:52	⚡	GameMaster gets in large old UK military helicopter which GeekShed purchased back in 2008 and uses what he modified to shoot ice cream bullets at Allen.
+2014-06-07 02:57:59	+GameMaster	Get ready for some soft serve!!!!!
+2014-06-07 02:58:09	⚡	GameMaster locks on target and shoots
+2014-06-07 02:58:15	⚡	Allen dodges
+2014-06-07 02:58:20	⚡	Allen runs to another irc network
+2014-06-07 02:58:34	+GameMaster	call in the internet marshals...
+2014-06-07 02:58:48	⚡	Allen runs back in
+2014-06-07 02:58:53	⚡	Allen grabs Blade's ban hammer
+2014-06-07 02:58:55	⚡	GameMaster fires at Allen
+2014-06-07 02:59:01	⚡	Allen runs back out to go get his traget.
+2014-06-07 02:59:14	+GameMaster	Where'd he go?
+2014-06-07 02:59:25	⚡	GameMaster 11 more helicopters join him
+2014-06-07 02:59:32	&BladeZephon	he disintegrated for touching my banhammer
+2014-06-07 02:59:40	+Allen	Hang on being attacked by that troll.
+2014-06-07 02:59:51	+Allen	about to report him to the admins of the channel
+2014-06-07 02:59:58	+GameMaster	Nobody can use BladeZephon's ban hammer, it's like Thor's hammer
+2014-06-07 03:00:17	+GameMaster	:/
+2014-06-07 03:00:27	⚡	GameMaster sits in air with 11 drone helicopters and waits
+2014-06-07 03:01:44	+Mintmayan	not the drones again
+2014-06-07 03:01:48	+Mintmayan	lol
+2014-06-07 03:02:25	+Mintmayan	the laughing track on Men at Work is really bad
+2014-06-07 03:02:29	+GameMaster	Geekshed acquired the drones in... actually, when did GeekShed get these? O_O
+2014-06-07 03:02:34	◥	Micaiah (~Micaiah@silver.supporter.geekshed.net) has joined #bleepingcomputer
+2014-06-07 03:03:10	+GameMaster	Mintmayan, well sometimes you need to know when to laugh or not to laugh, even when you are alone. :P
+2014-06-07 03:03:22	+GameMaster	so, if laugh track plays, you must laugh
+2014-06-07 03:03:23	+GameMaster	:P
+2014-06-07 03:03:24	⚡	Allen sips on some coffee and heads back to the battle field
+2014-06-07 03:03:29	+Mintmayan	I prefer to laugh when things are actually funny
+2014-06-07 03:03:55	◣	MJ024 (~MJ@protectedhost-E59BC0F4.dhcp.smyr.ga.charter.com) has quit (Broken pipe)
+2014-06-07 03:03:57	⚡	GameMaster locks on target and fires ice cream sandwhiches at Allen with 11 drone helicopters
+2014-06-07 03:04:24	◣	test12345_ (~test12345@protectedhost-4B10896C.versanet.de) has quit (Ping timeout)
+2014-06-07 03:04:32	+GameMaster	Mintmayan, I think there are only a few shows without any studio or laugh tracks...
+2014-06-07 03:05:06	+Mintmayan	the Office
+2014-06-07 03:05:10	+GameMaster	I know The Office (maybe?), Parks and Recreation, and Modern Family do not have one.
+2014-06-07 03:05:14	+GameMaster	yeah
+2014-06-07 03:05:29	+Mintmayan	I guess Seinfeld has a laugh track but it's never bugged me
+2014-06-07 03:05:41	+GameMaster	Mintmayan, I think that's a live studio audience :/
+2014-06-07 03:05:45	+GameMaster	for Seinfeld
+2014-06-07 03:06:19	+GameMaster	Does Modern Family even have a studio or are they just super rich and can film at any location? :P
+2014-06-07 03:06:49	+Mintmayan	that may explain why it comes across more natural and doesn't even get noticed
+2014-06-07 03:06:49	+GameMaster	They are at so many places so often
+2014-06-07 03:07:37	◣	mauritius (~taube@protectedhost-B95500D4.pools.arcor-ip.net) has quit (Quit: gone)
+2014-06-07 03:07:38	+GameMaster	Mintmayan, well, I can't even notice a green screen in the car, so either Disney is super smart and mastered television on a new level, or they are using a lot of money up.
+2014-06-07 03:07:48	+Allen	GameMaster, I'm still fighting the battle please hold on
+2014-06-07 03:07:56	+Mintmayan	Disney?
+2014-06-07 03:08:01	⚡	GameMaster gets drones to stop firing and sits back
+2014-06-07 03:08:08	+GameMaster	Mintmayan, Disney owns ABC...
+2014-06-07 03:08:20	+Mintmayan	ABC?
+2014-06-07 03:08:22	+GameMaster	They own a ton of stuff
+2014-06-07 03:08:29	+Mintmayan	like Sesame Street? ;)
+2014-06-07 03:08:36	+GameMaster	Mintmayan, oh wait, you're not in the US. :P
+2014-06-07 03:08:44	+GameMaster	what network do you watch Modern Family on?
+2014-06-07 03:09:30	+Mintmayan	I... don't?
+2014-06-07 03:09:31	+GameMaster	or do you not watch Modern Family?
+2014-06-07 03:09:34	+GameMaster	oh, okay
+2014-06-07 03:09:35	+GameMaster	nvm
+2014-06-07 03:09:40	+Mintmayan	I know of it but I'm guessing it's yet another lame sitcom
+2014-06-07 03:09:54	+GameMaster	well, anyway, Disney owns ABC along with ESPN and stuff like that
+2014-06-07 03:10:01	+GameMaster	Disney owns a ton of stuff
+2014-06-07 03:10:03	+Mintmayan	like Melissa and Joey and Two and some men, forget the exact title
+2014-06-07 03:10:27	+GameMaster	You mean Friends?
+2014-06-07 03:10:33	+Mintmayan	Two and a half men
+2014-06-07 03:10:39	+GameMaster	oh
+2014-06-07 03:10:52	+Mintmayan	but Friends also can be categorized under lame, I'm cool with that
+2014-06-07 03:10:53	+GameMaster	Mintmayan, I am assuming you know what Disney is, right?
+2014-06-07 03:10:59	+GameMaster	Mintmayan, I agree
+2014-06-07 03:11:08	+Mintmayan	it's really hard to not know about Disney
+2014-06-07 03:11:09	+GameMaster	Friends is not that entertaining
+2014-06-07 03:11:19	+Mintmayan	we simply have different networks over here
+2014-06-07 03:11:53	+GameMaster	Mintmayan, exactly. But when I saw this, <Mintmayan> Disney?, that confused me a bit, like you didn't know what Disney was :P
+2014-06-07 03:12:10	+Mintmayan	because Modern Family sounds like a regular sitcom and I don't associate that with cartoons
+2014-06-07 03:12:41	+Mintmayan	you made me wiki it
+2014-06-07 03:12:44	+Mintmayan	looks really bad :(
+2014-06-07 03:13:44	+GameMaster	lol
+2014-06-07 03:13:46	+GameMaster	I like it
+2014-06-07 03:13:59	+GameMaster	There's just so many re-runs I see, it gets boring
+2014-06-07 03:14:02	+Allen	Good riddence he left.
+2014-06-07 03:14:34	+Mintmayan	we are king of the re-runs
+2014-06-07 03:14:47	+Mintmayan	which is why I'm glad we finally got Netflix
+2014-06-07 03:15:30	◥	reese (~TFlash@42B34FE5.135FBB92.6CFA7B74.IP) has joined #bleepingcomputer
+2014-06-07 03:18:19	+GameMaster	CBS has a lot of new stuff often though
+2014-06-07 03:18:33	+GameMaster	I don't see many re-runs on CBS
+2014-06-07 03:18:50	Hammy	thats bc they are the best
+2014-06-07 03:19:09	Hammy	The BIG BANG theory!! <333333
+2014-06-07 03:19:25	+GameMaster	lol
+2014-06-07 03:19:38	+GameMaster	I haven't actually been watching that show much lately :/
+2014-06-07 03:20:01	+Allen	anyway
+2014-06-07 03:20:10	+GameMaster	Chinese Leonard, wut? http://www.imdb.com/title/tt0898266/fullcredits?ref_=tt_cl_sm#cast
+2014-06-07 03:20:25	⚡	Allen jumps onto GameMaster's helicopter knocks him out and takes off and then fires at GameMaster and then he laughs and flies away.
+2014-06-07 03:20:27	+GameMaster	I think I'm missing context
+2014-06-07 03:21:15	⚡	GameMaster puts on advance shield mechanism to block from the delicious desert known as "ice cream"
+2014-06-07 03:21:41	⚡	GameMaster goes and gets some frozen yogurt from a Costco and walks out 5 minutes later licking it
+2014-06-07 03:22:20	⚡	GameMaster looks up at Allen, takes a remote out of pocket and presses a button and drones and the main control helicopter start landing in the parking lot
+2014-06-07 03:23:03	+GameMaster	Charlie Sheen, the Big Bang Theory, wut?
+2014-06-07 03:23:26	◣	reese (~TFlash@42B34FE5.135FBB92.6CFA7B74.IP) has quit (Client exited)
+2014-06-07 03:24:23	+Mintmayan	BBT is like watching that 70s show... I want to like it, but I'm having a hard time
+2014-06-07 03:25:43	+GameMaster	ew, that 70s show...
+2014-06-07 03:26:07	+Mintmayan	they're shows I don't mind if they're on in the background
+2014-06-07 03:26:15	+GameMaster	I haven't been watching much of my favorite shows often...
+2014-06-07 03:27:00	◣	Bootsektor (~chatzilla@protectedhost-5A231EDD.pools.arcor-ip.net) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 29.0.1/20140506152807])
+2014-06-07 03:30:18	◣	Coffee (~Andrew@boredomsoft.org) has quit (Connection reset by peer)
+2014-06-07 03:34:16	◣	myrti (~myrti@geekshed.net) has quit (Quit: Konversation terminated!)
+2014-06-07 03:36:11	◥	Shed-34046 (~Michael@Firefox.is.fluffy.vhost) has joined #bleepingcomputer
+2014-06-07 03:36:33	Shed-34046	Can most computers run unity3d web player without an issue?
+2014-06-07 03:37:01	+Allen	yus.
+2014-06-07 03:37:25	Shed-34046	Allen, can a intel b960 processor, intel hd graphics, 4gb ddr3 memory run it perfectly fine?
+2014-06-07 03:38:04	+Allen	maybe.
+2014-06-07 03:38:10	Shed-34046	Intel Pentium
+2014-06-07 03:38:27	+GameMaster	I'm going to go, cya
+2014-06-07 03:38:30	+Allen	bye bye
+2014-06-07 03:38:35	⚡	Allen shoots icecream at GameMaster ]
+2014-06-07 03:38:53	+GameMaster	give me back my toys!
+2014-06-07 03:39:08	⚡	GameMaster gets in helicopter and flys away with the drones
+2014-06-07 03:39:14	⚡	Allen blows it up
+2014-06-07 03:39:15	+GameMaster	bye
+2014-06-07 03:39:22	+GameMaster	lol
+2014-06-07 03:40:51	◣	GameMaster (~GameMaste@ShadowBlaze18.vhost) has quit (Quit: Leaving)
+2014-06-07 03:41:57	+Allen	mind you Shed-34046 this is coming from a guy who ran skyrim on a dell insprion 1545
+2014-06-07 03:42:02	+Allen	and then failed to get portal 2 to run
+2014-06-07 03:42:21	Shed-34046	Allen, all I'm trying to do is play games like SCP, and Slender woods.
+2014-06-07 03:42:22	◣	Micaiah (~Micaiah@silver.supporter.geekshed.net) has quit (Ping timeout)
+2014-06-07 03:42:49	+Allen	I'm pretty sure it could work
+2014-06-07 03:42:53	+Allen	80% certain
+2014-06-07 03:43:16	Shed-34046	Allen I left out a game :P
+2014-06-07 03:43:46	◥	Legion (~Andrew@boredomsoft.org) has joined #bleepingcomputer
+2014-06-07 03:43:46	&w00t	[Legion] -1 days without an integer overflow!
+2014-06-07 03:43:46	ℹ 	Mode #bleepingcomputer [+o Legion] by w00t
+2014-06-07 03:43:49	Shed-34046	Mechmice.com that needs Unity3d web player..
+2014-06-07 03:58:48	◥	Micaiah (~Micaiah@silver.supporter.geekshed.net) has joined #bleepingcomputer
+2014-06-07 04:01:03	◥	myrti (~myrti@protectedhost-DAB1C7BA.magic.iac.es) has joined #bleepingcomputer
+2014-06-07 04:01:03	ℹ 	Mode #bleepingcomputer [+ao myrti myrti] by w00t
+2014-06-07 04:03:08	&myrti	any suggestions on how to kill a dead ssh session
+2014-06-07 04:04:15	&myrti	ok, aparently it's ~. in case anyone is interested :p
+2014-06-07 04:09:47	+Allen	myrti guess what
+2014-06-07 04:09:52	+Allen	I found a daft club card.
+2014-06-07 04:11:04	&myrti	ok
+2014-06-07 04:14:02	◣	BladeZephon (~BladeZeph@bleepingcomputer.com) has quit (Ping timeout: 960 seconds)
+2014-06-07 04:16:14	◥	Jim (James@JBMobileMarketing.com) has joined #bleepingcomputer
+2014-06-07 04:16:15	ℹ 	Mode #bleepingcomputer [+v Jim] by w00t
+2014-06-07 04:21:08	+Allen	https://nakedsecurity.sophos.com/2014/06/06/medical-centre-staff-post-womans-std-diagnosis-on-facebook/
+2014-06-07 04:30:30	&myrti	cooling is off again
+2014-06-07 04:30:33	&myrti	>.<
+2014-06-07 04:31:58	◥	BladeZephon (~BladeZeph@bleepingcomputer.com) has joined #bleepingcomputer
+2014-06-07 04:31:58	ℹ 	Mode #bleepingcomputer [+ao BladeZephon BladeZephon] by w00t
+2014-06-07 04:32:18	◥	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has joined #bleepingcomputer
+2014-06-07 04:35:38	◣	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has quit (Quit: punktdawg)
+2014-06-07 04:35:51	◥	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has joined #bleepingcomputer
+2014-06-07 04:37:56	◣	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has quit (Quit: punktdawg)
+2014-06-07 04:38:10	◥	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has joined #bleepingcomputer
+2014-06-07 04:39:28	◣	Phil-Work (phil@geekshed.net) has quit (Connection reset by peer)
+2014-06-07 04:48:54	◣	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has quit (Quit: punktdawg)
+2014-06-07 04:49:08	◥	punktdawg (~punktdawg@protectedhost-2EB20DAA.dhcp.rvsd.ca.charter.com) has joined #bleepingcomputer
+2014-06-07 04:49:33	ℹ 	Allen is now known as Discord
+2014-06-07 05:01:48	◣	CoreIT84 (~Corey84@protectedhost-D18C07B5.dc.dc.cox.net) has quit (Quit: Out to the real world)
+2014-06-07 05:03:41	ℹ 	Discord is now known as Dalek2
+2014-06-07 05:04:09	ℹ 	Dalek2 is now known as RoboDash2
+2014-06-07 05:04:41	ℹ 	RoboDash2 is now known as Allen
+2014-06-07 05:12:08	◣	Unidentified48393 (~AndChat@protectedhost-AA2AFEB9.upc-i.chello.nl) has quit (Quit: Quit)
+2014-06-07 05:12:38	◥	Mintdroid (~AndChat@protectedhost-AA2AFEB9.upc-i.chello.nl) has joined #bleepingcomputer
+2014-06-07 05:12:39	ℹ 	Mode #bleepingcomputer [+v Mintdroid] by w00t
+2014-06-07 05:29:17	◥	Liam (Mibbit@57CFFF9C.FD4E45D9.5AF1692F.IP) has joined #bleepingcomputer
+2014-06-07 05:29:32	◣	Liam (Mibbit@57CFFF9C.FD4E45D9.5AF1692F.IP) has quit (Quit: Liam)
+2014-06-07 05:30:38	◥	Liam_W (Mibbit@57CFFF9C.FD4E45D9.5AF1692F.IP) has joined #bleepingcomputer
+2014-06-07 05:30:46	Liam_W	Hey
+2014-06-07 05:31:05	Liam_W	How's everyone doing?
+2014-06-07 05:31:40	&myrti	hi
+2014-06-07 05:31:45	+Mintmayan	TGIF chillin' relaxing shooting some hoops outside of the school
+2014-06-07 05:32:43	Liam_W	Sounds good...
+2014-06-07 05:33:03	&myrti	troubleshooting a minor crisis at work atm :p
+2014-06-07 05:33:07	&myrti	but it seems contained :p
+2014-06-07 05:33:11	Liam_W	haha
+2014-06-07 05:33:16	◥	Animal (~Animal@bleepingcomputer.com) has joined #bleepingcomputer
+2014-06-07 05:33:16	ℹ 	Mode #bleepingcomputer [+ao Animal Animal] by w00t
+2014-06-07 05:35:30	Liam_W	Anyone use their PC for gaming around here?
+2014-06-07 05:35:33	Liam_W	Or Photoshop?
+2014-06-07 05:35:49	&myrti	neither, sorry :p
+2014-06-07 05:35:52	+Allen	yes
+2014-06-07 05:35:58	+Allen	I use photoshop
+2014-06-07 05:36:07	@Legion	I play games
+2014-06-07 05:36:40	Liam_W	Ah okay, That's interesting. - Do you use Intel processors or AMD?
+2014-06-07 05:37:00	@Legion	Intel :D
+2014-06-07 05:37:38	+Allen	dual core 2
+2014-06-07 05:38:23	Liam_W	I see
+2014-06-07 05:38:48	Liam_W	I thought everyone switched to Quad core these days?
+2014-06-07 05:39:00	Liam_W	Or can duel cores produce the same power/performance?
+2014-06-07 05:40:06	@Legion	it depends on the task
+2014-06-07 05:40:14	&myrti	well and the money
+2014-06-07 05:40:18	&myrti	..
+2014-06-07 05:40:37	@Legion	some tasks can't be shared between multiple cores so even a quad core acts like a single core
+2014-06-07 05:40:41	&myrti	some people buy the best they can afford :p
+2014-06-07 05:40:46	&myrti	that too
+2014-06-07 05:40:57	Liam_W	Hmm i see
+2014-06-07 05:41:14	@Legion	that being said, I've got a quad core :D
+2014-06-07 05:41:20	Liam_W	Because at the moment, I'm just going around getting ideas/tips, Because I'm building my first PC
+2014-06-07 05:41:31	@Legion	fun!
+2014-06-07 05:41:40	Liam_W	I want it for gaming "Football manager 14" and web developing (Photoshop, Netbeans) so on...
+2014-06-07 05:42:01	◥	TJ| (~TJ@protectedhost-E2504FEC.dllstx.fios.verizon.net) has joined #bleepingcomputer
+2014-06-07 05:42:04	Liam_W	My laptop can do both tasks easy, It's a pretty powerful laptop, But I'd just like a desktop for the ease of it being in one place.
+2014-06-07 05:42:32	◣	TJ (~TJ@TJenn.com) has quit (NickServ (GHOST command used by TJ|))
+2014-06-07 05:42:35	ℹ 	TJ| is now known as TJ
+2014-06-07 05:42:35	ℹ 	Mode #bleepingcomputer [+v TJ] by w00t
+2014-06-07 05:43:23	@Legion	for things like photoshop and IDEs a quad core will help, but the real bottleneck tends to be the hard drive
+2014-06-07 05:43:51	Liam_W	I see, well I was thinking a small SSD for the OS install and software/games.
+2014-06-07 05:44:08	⚡	Legion recommends it
+2014-06-07 05:44:08	Liam_W	128GB SSD or something
+2014-06-07 05:44:17	Liam_W	Then a 1TB hybrid as secondary
+2014-06-07 05:44:23	Liam_W	for files so on
+2014-06-07 05:44:36	+Mintmayan	gamer here
+2014-06-07 05:44:43	@Legion	I just got my first SSD a few months ago (128GB) and the difference is amazing
+2014-06-07 05:44:58	+Mintmayan	I'd go for a 250/256 GB SSD because it fills up rapidly with modern games taking up 10-30 GB easily
+2014-06-07 05:45:04	@Legion	definately
+2014-06-07 05:45:26	+Mintmayan	and you will want to have at least a couple of games take advantage of the SSD while the rest sits on a different (traditional) drive
+2014-06-07 05:45:29	Liam_W	I would have, But the only game I play on the PC is "Football Manager" the rest i play on the PS4.
+2014-06-07 05:45:48	+Mintmayan	err ok
+2014-06-07 05:45:54	⚡	Legion 's Steam folder is 122GB...
+2014-06-07 05:46:00	Liam_W	xD
+2014-06-07 05:46:11	Liam_W	I don't even think I've used 122GB in total...
+2014-06-07 05:46:17	⚡	Liam_W goes to look...
+2014-06-07 05:46:22	+Mintmayan	it's counting :p
+2014-06-07 05:46:33	Liam_W	844GB free out of 1TB
+2014-06-07 05:47:28	+Mintmayan	582 GB at the moment for the part that's on my array
+2014-06-07 05:47:58	Liam_W	Haha
+2014-06-07 05:48:29	+Mintmayan	then there's COD 39.5 GB ;p
+2014-06-07 05:48:37	Liam_W	By the way, Just for the sake of randomness, Is this a regional specific chat? e.g: mostly UK users, Mostly US so on?
+2014-06-07 05:48:57	@Legion	depends on the local time
+2014-06-07 05:49:07	+Mintmayan	4.49am
+2014-06-07 05:49:11	+Mintmayan	;)
+2014-06-07 05:49:16	@Legion	right now North Amercia is mostly up
+2014-06-07 05:49:18	Liam_W	I jumped in 1 computer based channel, It was a Chinese specific chat, I didn't know what was going on. 
+2014-06-07 05:49:30	@Legion	but there are some Europeans lurking about
+2014-06-07 05:49:32	+Mintmayan	you should've ordered the rice chicken
+2014-06-07 05:49:55	Liam_W	I'm from the UK, England. - xD rice chicken...
+2014-06-07 05:51:11	⚡	Allen is Canadian
+2014-06-07 05:51:30	Liam_W	I was speaking to a Canadian a few ago in another channel. 
+2014-06-07 05:51:54	Liam_W	Was telling me about the internet issues over there, With the competition being non-existant?
+2014-06-07 05:52:04	Liam_W	So they tend to charge high for something... poor...
+2014-06-07 05:52:50	&Animal	Then you have some Europeans that speak/type better English than UKer's Or Americans.......
+2014-06-07 05:53:10	&Animal	So unless you know the person you're never really sure...
+2014-06-07 05:53:16	&Animal	just sayin...
+2014-06-07 05:53:27	Liam_W	^
+2014-06-07 05:54:01	+Mintmayan	if you say sorry, it makes you Canadian in your heart ;-)
+2014-06-07 05:54:44	Liam_W	So guys/girls, What system specs would you say is a good modern PC build? (RAM, CPU, GPU, HDD/SSD so on.0
+2014-06-07 05:54:49	Liam_W	*)
+2014-06-07 05:55:14	Liam_W	8GB ram? 16GB ram?
+2014-06-07 05:55:15	&Animal	Canadians say that Americans mispronounce the word.
+2014-06-07 05:55:29	@Legion	8GB. I went for 16 and it's wasted
+2014-06-07 05:55:33	+Mintmayan	8GB, Core i5 4670K, GTX760+, Samsung EVO 840 120/240GB
+2014-06-07 05:55:45	Liam_W	I see. 
+2014-06-07 05:55:54	Liam_W	1600 DDR3?
+2014-06-07 05:55:59	+Mintmayan	yup
+2014-06-07 05:56:11	+Mintmayan	anything over that yields you marginal results
+2014-06-07 05:56:16	Liam_W	Oh okay. 
+2014-06-07 05:56:21	&Animal	Don't game, so it just doesn't matter in my case.
+2014-06-07 05:56:27	Liam_W	Fair enough ^
+2014-06-07 05:56:41	◥	EVERYBODYDOTHEFLOP (~TFlash@protectedhost-E3DB93DC.spok.qwest.net) has joined #bleepingcomputer
+2014-06-07 05:56:56	Liam_W	If you compare the AMD-A10 to the i5
+2014-06-07 05:57:02	EVERYBODYDOTHEFLOP	hey guys
+2014-06-07 05:57:06	Liam_W	Is the i5 just better in every way?
+2014-06-07 05:57:15	&myrti	of course :p
+2014-06-07 05:57:19	&myrti	what are we talking about?
+2014-06-07 05:57:26	+Mintmayan	:D
+2014-06-07 05:57:35	EVERYBODYDOTHEFLOP	got a question, is there ANY way to set the clock to standard instead of military in crunchbang?
+2014-06-07 05:57:36	&myrti	hi flop
+2014-06-07 05:57:41	EVERYBODYDOTHEFLOP	yo
+2014-06-07 05:58:18	EVERYBODYDOTHEFLOP	& yes in my opinion the I5 is better
+2014-06-07 05:58:28	EVERYBODYDOTHEFLOP	Intel is historically more stable
+2014-06-07 05:58:38	&Animal	why does everybody call it military time instead of 24 hour clock and 12 hour clock
+2014-06-07 05:58:57	+Mintmayan	http://cpuboss.com/cpus/Intel-Core-i5-4670K-vs-AMD-A10-6800K
+2014-06-07 05:59:00	EVERYBODYDOTHEFLOP	I think because it is primarily military people that use it
+2014-06-07 05:59:02	Liam_W	If I was to share the specs of my laptop i'm currently using, Which runs the things I want it to run, More than fine - Could you guys/girls give me your views on what'd be a better setup for a desktop?
+2014-06-07 05:59:11	&Animal	the military didn't invet the time parameter or are they they exclusive users of 24 hour clock
+2014-06-07 05:59:45	EVERYBODYDOTHEFLOP	No, I think its just called that because they are the primary users of it
+2014-06-07 05:59:52	&Animal	Not true
+2014-06-07 06:00:17	EVERYBODYDOTHEFLOP	I didn't say ONLY, just primary XD
+2014-06-07 06:00:28	&Animal	Hospitals, fire departments, police, airline industy
+2014-06-07 06:00:37	&Animal	IT
+2014-06-07 06:00:39	EVERYBODYDOTHEFLOP	Ok ok point taken
+2014-06-07 06:00:44	EVERYBODYDOTHEFLOP	Anyway
+2014-06-07 06:00:59	EVERYBODYDOTHEFLOP	Is there any way to get the standard clock set in crunchbang?
+2014-06-07 06:01:12	Liam_W	:X
+2014-06-07 06:01:20	EVERYBODYDOTHEFLOP	every forum I come across only says on how to reset it to utc or change time zones
+2014-06-07 06:01:22	Liam_W	I think my laptop is overheating...
+2014-06-07 06:01:36	EVERYBODYDOTHEFLOP	give it some air
+2014-06-07 06:01:53	Liam_W	I recently bought it a... Fan base thing
+2014-06-07 06:01:54	Liam_W	5 fans
+2014-06-07 06:02:10	Liam_W	http://s29.postimg.org/ukldiyrqt/Untitled.png
+2014-06-07 06:02:40	EVERYBODYDOTHEFLOP	O_O
+2014-06-07 06:02:41	&Animal	EVERYBODYDOTHEFLOP: http://crunchbang.org/forums/viewtopic.php?id=7325
+2014-06-07 06:02:47	Liam_W	Not sure if that screenshot worked for you guys.
+2014-06-07 06:04:36	EVERYBODYDOTHEFLOP	thanks
+2014-06-07 06:04:51	&Animal	Thank Google
+2014-06-07 06:05:02	EVERYBODYDOTHEFLOP	that looked like a terminal command, but didnt get any results in the terminal
+2014-06-07 06:05:11	EVERYBODYDOTHEFLOP	OH NO! I spent hours on google
+2014-06-07 06:05:11	EVERYBODYDOTHEFLOP	XD
+2014-06-07 06:05:21	EVERYBODYDOTHEFLOP	Maybe I just used the wrong search terms
+2014-06-07 06:05:40	&Animal	First result with my search parameters
+2014-06-07 06:05:48	Liam_W	http://miburl.com/maWUHf  (For the sake of ease)
+2014-06-07 06:05:53	EVERYBODYDOTHEFLOP	half the time it just pukes up random garbage & goes "is any of this what you wanted?"
+2014-06-07 06:06:02	Liam_W	Eh the url thingy didn't work >_>
