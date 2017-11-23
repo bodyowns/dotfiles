@@ -11,6 +11,5 @@
 * NVIDIA GeForce GT 540M, 2GB @ DDR3 @ 900Mhz 128-bit
 * Plextor M5P Xtreme Series 2.5" 256GB SATA III MLC Internal Solid State Drive (SSD), Cache 512MB, R: 540 MB/s, W:460 MB/s
 
-_______________________________________________________________________________
-
+![alt text](https://raw.githubusercontent.com/bodyowns/dotfiles/master/screen.png)
 
